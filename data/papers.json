@@ -2303,6 +2303,90 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2601.10554v1",
       "abs_url": "http://arxiv.org/abs/2601.10554v1"
+    },
+    "2601.09856v1": {
+      "arxiv_id": "2601.09856v1",
+      "title": "How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces",
+      "authors": [
+        "Andrew Stratton",
+        "Phani Teja Singamaneni",
+        "Pranav Goyal",
+        "Rachid Alami",
+        "Christoforos Mavrogiannis"
+      ],
+      "summary": "Motivated by the vision of integrating mobile robots closer to humans in warehouses, hospitals, manufacturing plants, and the home, we focus on robot navigation in dynamic and spatially constrained environments. Ensuring human safety, comfort, and efficiency in such settings requires that robots are endowed with a model of how humans move around them. Human motion prediction around robots is especially challenging due to the stochasticity of human behavior, differences in user preferences, and data scarcity. In this work, we perform a methodical investigation of the effects of human motion prediction quality on robot navigation performance, as well as human productivity and impressions. We design a scenario involving robot navigation among two human subjects in a constrained workspace and instantiate it in a user study ($N=80$) involving two different robot platforms, conducted across two sites from different world regions. Key findings include evidence that: 1) the widely adopted average displacement error is not a reliable predictor of robot navigation performance and human impressions; 2) the common assumption of human cooperation breaks down in constrained environments, with users often not reciprocating robot cooperation, and causing performance degradations; 3) more efficient robot navigation often comes at the expense of human efficiency and comfort.",
+      "published_utc": "2026-01-14T20:34:34Z",
+      "updated_utc": "2026-01-14T20:34:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.09856v1",
+      "abs_url": "http://arxiv.org/abs/2601.09856v1"
+    },
+    "2601.09377v1": {
+      "arxiv_id": "2601.09377v1",
+      "title": "ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving",
+      "authors": [
+        "Xuemei Yao",
+        "Xiao Yang",
+        "Jianbin Sun",
+        "Liuwei Xie",
+        "Xuebin Shao",
+        "Xiyu Fang",
+        "Hang Su",
+        "Kewei Yang"
+      ],
+      "summary": "Generating safe and reliable trajectories for autonomous vehicles in long-tail scenarios remains a significant challenge, particularly for high-lateral-acceleration maneuvers such as sharp turns, which represent critical safety situations. Existing trajectory planners exhibit systematic failures in these scenarios due to data imbalance. This results in insufficient modelling of vehicle dynamics, road geometry, and environmental constraints in high-risk situations, leading to suboptimal or unsafe trajectory prediction when vehicles operate near their physical limits. In this paper, we introduce ReflexDiffusion, a novel inference-stage framework that enhances diffusion-based trajectory planners through reflective adjustment. Our method introduces a gradient-based adjustment mechanism during the iterative denoising process: after each standard trajectory update, we compute the gradient between the conditional and unconditional noise predictions to explicitly amplify critical conditioning signals, including road curvature and lateral vehicle dynamics. This amplification enforces strict adherence to physical constraints, particularly improving stability during high-lateral-acceleration maneuvers where precise vehicle-road interaction is paramount. Evaluated on the nuPlan Test14-hard benchmark, ReflexDiffusion achieves a 14.1% improvement in driving score for high-lateral-acceleration scenarios over the state-of-the-art (SOTA) methods. This demonstrates that inference-time trajectory optimization can effectively compensate for training data sparsity by dynamically reinforcing safety-critical constraints near handling limits. The framework's architecture-agnostic design enables direct deployment to existing diffusion-based planners, offering a practical solution for improving autonomous vehicle safety in challenging driving conditions.",
+      "published_utc": "2026-01-14T11:03:29Z",
+      "updated_utc": "2026-01-14T11:03:29Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.09377v1",
+      "abs_url": "http://arxiv.org/abs/2601.09377v1"
+    },
+    "2601.10521v1": {
+      "arxiv_id": "2601.10521v1",
+      "title": "BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition",
+      "authors": [
+        "Max A. Buettner",
+        "Kanak Mazumder",
+        "Luca Koecher",
+        "Mario Finkbeiner",
+        "Sebastian Niebler",
+        "Fabian B. Flohr"
+      ],
+      "summary": "Anticipating the intentions of Vulnerable Road Users (VRUs) is a critical challenge for safe autonomous driving (AD) and mobile robotics. While current research predominantly focuses on pedestrian crossing behaviors from a vehicle's perspective, interactions within dense shared spaces remain underexplored. To bridge this gap, we introduce FUSE-Bike, the first fully open perception platform of its kind. Equipped with two LiDARs, a camera, and GNSS, it facilitates high-fidelity, close-range data capture directly from a cyclist's viewpoint. Leveraging this platform, we present BikeActions, a novel multi-modal dataset comprising 852 annotated samples across 5 distinct action classes, specifically tailored to improve VRU behavior modeling. We establish a rigorous benchmark by evaluating state-of-the-art graph convolution and transformer-based models on our publicly released data splits, establishing the first performance baselines for this challenging task. We release the full dataset together with data curation tools, the open hardware design, and the benchmark code to foster future research in VRU action understanding under https://iv.ee.hm.edu/bikeactions/.",
+      "published_utc": "2026-01-15T15:47:46Z",
+      "updated_utc": "2026-01-15T15:47:46Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.10521v1",
+      "abs_url": "http://arxiv.org/abs/2601.10521v1"
+    },
+    "2601.10233v1": {
+      "arxiv_id": "2601.10233v1",
+      "title": "Proactive Local-Minima-Free Robot Navigation: Blending Motion Prediction with Safe Control",
+      "authors": [
+        "Yifan Xue",
+        "Ze Zhang",
+        "Knut Åkesson",
+        "Nadia Figueroa"
+      ],
+      "summary": "This work addresses the challenge of safe and efficient mobile robot navigation in complex dynamic environments with concave moving obstacles. Reactive safe controllers like Control Barrier Functions (CBFs) design obstacle avoidance strategies based only on the current states of the obstacles, risking future collisions. To alleviate this problem, we use Gaussian processes to learn barrier functions online from multimodal motion predictions of obstacles generated by neural networks trained with energy-based learning. The learned barrier functions are then fed into quadratic programs using modulated CBFs (MCBFs), a local-minimum-free version of CBFs, to achieve safe and efficient navigation. The proposed framework makes two key contributions. First, it develops a prediction-to-barrier function online learning pipeline. Second, it introduces an autonomous parameter tuning algorithm that adapts MCBFs to deforming, prediction-based barrier functions. The framework is evaluated in both simulations and real-world experiments, consistently outperforming baselines and demonstrating superior safety and efficiency in crowded dynamic environments.",
+      "published_utc": "2026-01-15T09:46:03Z",
+      "updated_utc": "2026-01-15T09:46:03Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.10233v1",
+      "abs_url": "http://arxiv.org/abs/2601.10233v1"
     }
   },
   "topics": {
@@ -2327,14 +2411,14 @@
         "1804.00495v2",
         "1803.03577v1"
       ],
-      "latest_update": "2026-01-15"
+      "latest_update": "2026-01-16"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
       "papers": [
         "1803.03577v1"
       ],
-      "latest_update": "2026-01-15"
+      "latest_update": "2026-01-16"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -2373,7 +2457,9 @@
         "1807.09995v1",
         "1803.03577v1",
         "1705.02445v1",
-        "2601.10554v1"
+        "2601.10554v1",
+        "2601.09856v1",
+        "2601.09377v1"
       ],
       "latest_update": "2026-01-16"
     },
@@ -2393,9 +2479,10 @@
         "1806.09444v1",
         "1804.00495v2",
         "1803.03577v1",
-        "1803.02242v1"
+        "1803.02242v1",
+        "2601.10521v1"
       ],
-      "latest_update": "2026-01-15"
+      "latest_update": "2026-01-16"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -2465,9 +2552,12 @@
         "1903.01860v1",
         "1902.05437v1",
         "1803.03577v1",
-        "1706.05904v2"
+        "1706.05904v2",
+        "2601.10233v1",
+        "2601.09856v1",
+        "2601.09377v1"
       ],
-      "latest_update": "2026-01-15"
+      "latest_update": "2026-01-16"
     }
   }
 }
