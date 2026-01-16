@@ -13,6 +13,11 @@ arxiv:
   endpoint: "http://export.arxiv.org/api/query"
   max_results_per_topic: 80
   days_back: 3
+
+  # Τραβάμε περισσότερα και μετά κόβουμε με filters/topic rules
+  fetch_multiplier: 8     # 80*8=640 (θα cap-άρεις π.χ. στα 300-500 στον κώδικα)
+  hard_cap_results: 400   # προστασία για να μην το παρακάνει
+
   allowed_categories:
     - "cs.CV"
     - "cs.RO"
@@ -21,74 +26,108 @@ arxiv:
     - "cs.LG"
 
 filters:
+  # Global "gate": για να μπαίνουν κυρίως prediction papers για VRU
   include_keywords:
     - "trajectory prediction"
     - "motion prediction"
     - "trajectory forecasting"
     - "motion forecasting"
+    - "trajectory forecast"
+    - "motion forecast"
+    - "intention prediction"
     - "vulnerable road user"
+    - "vru"
     - "pedestrian"
     - "cyclist"
-    - "intersection"
-    - "crosswalk"
+    - "micromobility"
+
+  # Global exclude: μόνο ό,τι είναι σχεδόν σίγουρα άσχετο
   exclude_keywords:
-    - "traffic flow"
-    - "travel time"
-    - "road surface"
-    - "pavement"
     - "license plate"
     - "vehicle re-identification"
-    - "pure tracking"
-    - "semantic segmentation"
+    - "re-identification"
     - "lane detection"
-    - "weather"
     - "rain removal"
+    - "dehazing"
+    - "super-resolution"
+    - "travel time"
+    - "traffic flow"
+    - "pavement"
+    - "road surface"
 
+  # Optional: αν θες να ΜΗΝ αφαιρούνται papers από άλλα topics
+  # - "topic": dedupe μέσα στο ίδιο topic μόνο
+  # - "global": κάθε paper εμφανίζεται σε 1 topic (συνήθως σπάει counts)
+  dedupe_mode: "topic"
 
 topics:
   - name: "Pedestrian Trajectory Prediction"
     slug: "pedestrian_trajectory_prediction"
-    # arXiv query syntax (search_query=...)
-    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction") AND (ti:pedestrian OR abs:pedestrian OR ti:"vulnerable road user" OR abs:"vulnerable road user") AND (ti:intersection OR abs:intersection OR ti:crosswalk OR abs:crosswalk)'
+    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:pedestrian OR abs:pedestrian OR ti:"vulnerable road user" OR abs:"vulnerable road user" OR ti:VRU OR abs:VRU)'
     include_keywords:
       - "pedestrian"
     exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
+      - "signalized"
+      - "jaywalking"
 
   - name: "Cyclist & Micromobility Prediction"
     slug: "cyclist_micromobility_prediction"
-    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction") AND (ti:cyclist OR abs:cyclist OR ti:bicycle OR abs:bicycle OR ti:bike OR abs:bike OR ti:micromobility OR abs:micromobility) AND (ti:intersection OR abs:intersection OR ti:crosswalk OR abs:crosswalk)'
+    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:cyclist OR abs:cyclist OR ti:bicycle OR abs:bicycle OR ti:bike OR abs:bike OR ti:micromobility OR abs:micromobility)'
     include_keywords:
       - "cyclist"
       - "bicycle"
+      - "bike"
       - "micromobility"
     exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
+      - "signalized"
 
   - name: "Interaction-aware & Social Models"
     slug: "interaction_aware_models"
-    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction") AND (ti:interaction OR abs:interaction OR ti:social OR abs:social OR ti:"multi-agent" OR abs:"multi-agent") AND (ti:intersection OR abs:intersection OR ti:crosswalk OR abs:crosswalk)'
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:interaction OR abs:interaction OR ti:social OR abs:social OR ti:"multi-agent" OR abs:"multi-agent" OR ti:agent OR abs:agent)'
     include_keywords:
       - "interaction"
       - "social"
       - "multi-agent"
+      - "agent"
     exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "vulnerable road user"
+      - "vru"
 
   - name: "Intention & Crossing Behavior"
     slug: "intention_crossing_behavior"
-    query: '(ti:intention OR abs:intention OR ti:"crossing intention" OR abs:"crossing intention" OR ti:"crossing behavior" OR abs:"crossing behavior") AND (ti:pedestrian OR abs:pedestrian OR ti:VRU OR abs:VRU) AND (ti:intersection OR abs:intersection OR ti:crosswalk OR abs:crosswalk)'
+    query: '(ti:intention OR abs:intention OR ti:"crossing intention" OR abs:"crossing intention" OR ti:"crossing behavior" OR abs:"crossing behavior" OR ti:"gap acceptance" OR abs:"gap acceptance") AND (ti:pedestrian OR abs:pedestrian OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user")'
     include_keywords:
       - "intention"
       - "crossing"
+      - "behavior"
     exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
 
   - name: "Risk-aware / Safety / Collision Prediction"
     slug: "risk_safety_collision"
-    query: '(ti:risk OR abs:risk OR ti:collision OR abs:collision OR ti:safety OR abs:safety) AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction") AND (ti:pedestrian OR abs:pedestrian OR ti:cyclist OR abs:cyclist OR ti:VRU OR abs:VRU)'
+    query: '(ti:risk OR abs:risk OR ti:collision OR abs:collision OR ti:safety OR abs:safety OR ti:near-miss OR abs:near-miss) AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting")'
     include_keywords:
       - "risk"
       - "collision"
       - "safety"
+      - "near-miss"
     exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "vru"
+      - "vulnerable road user"
 
 output:
-  # Πόσα “σήμερα” να δείχνει ανά topic στο digest (τα υπόλοιπα μένουν στη βάση & topic page)
   max_daily_per_topic: 12
