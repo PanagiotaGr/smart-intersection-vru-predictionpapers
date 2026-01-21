@@ -1,14 +1,17 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-01-20` (timezone: `Europe/Athens`)
+Updated: `2026-01-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **68**
+Total papers tracked: **69**
 
 ---
 
 - **BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition**  
   *Max A. Buettner, Kanak Mazumder, Luca Koecher, Mario Finkbeiner, Sebastian Niebler, Fabian B. Flohr*  
   Published: `2026-01-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.10521v1) · [pdf](https://arxiv.org/pdf/2601.10521v1) · id: `2601.10521v1`
+- **BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition**  
+  *Max A. Buettner, Kanak Mazumder, Luca Koecher, Mario Finkbeiner, Sebastian Niebler, Fabian B. Flohr*  
+  Published: `2026-01-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.10521v2) · [pdf](https://arxiv.org/pdf/2601.10521v2) · id: `2601.10521v2`
 - **Realistic adversarial scenario generation via human-like pedestrian model for autonomous vehicle control parameter optimisation**  
   *Yueyang Wang, Mehmet Dogar, Gustav Markkula*  
   Published: `2026-01-05` · Category: `cs.HC` · [abs](http://arxiv.org/abs/2601.02082v1) · [pdf](https://arxiv.org/pdf/2601.02082v1) · id: `2601.02082v1`

@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-01-20` (timezone: `Europe/Athens`)
+Updated: `2026-01-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **97**
+Total papers tracked: **98**
 
 ---
 
+- **CARLA-Round: A Multi-Factor Simulation Dataset for Roundabout Trajectory Prediction**  
+  *Xiaotong Zhou, Zhenhui Yuan, Yi Han, Tianhua Xu, Laurence T. Yang*  
+  Published: `2026-01-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.12119v1) · [pdf](https://arxiv.org/pdf/2601.12119v1) · id: `2601.12119v1`
 - **DeepUrban: Interaction-Aware Trajectory Prediction and Planning for Automated Driving by Aerial Imagery**  
   *Constantin Selzer, Fabian B. Flohr*  
   Published: `2026-01-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.10554v1) · [pdf](https://arxiv.org/pdf/2601.10554v1) · id: `2601.10554v1`

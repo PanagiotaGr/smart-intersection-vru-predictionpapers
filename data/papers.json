@@ -6505,6 +6505,67 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2506.11419v1",
       "abs_url": "http://arxiv.org/abs/2506.11419v1"
+    },
+    "2601.12119v1": {
+      "arxiv_id": "2601.12119v1",
+      "title": "CARLA-Round: A Multi-Factor Simulation Dataset for Roundabout Trajectory Prediction",
+      "authors": [
+        "Xiaotong Zhou",
+        "Zhenhui Yuan",
+        "Yi Han",
+        "Tianhua Xu",
+        "Laurence T. Yang"
+      ],
+      "summary": "Accurate trajectory prediction of vehicles at roundabouts is critical for reducing traffic accidents, yet it remains highly challenging due to their circular road geometry, continuous merging and yielding interactions, and absence of traffic signals. Developing accurate prediction algorithms relies on reliable, multimodal, and realistic datasets; however, such datasets for roundabout scenarios are scarce, as real-world data collection is often limited by incomplete observations and entangled factors that are difficult to isolate. We present CARLA-Round, a systematically designed simulation dataset for roundabout trajectory prediction. The dataset varies weather conditions (five types) and traffic density levels (spanning Level-of-Service A-E) in a structured manner, resulting in 25 controlled scenarios. Each scenario incorporates realistic mixtures of driving behaviors and provides explicit annotations that are largely absent from existing datasets. Unlike randomly sampled simulation data, this structured design enables precise analysis of how different conditions influence trajectory prediction performance. Validation experiments using standard baselines (LSTM, GCN, GRU+GCN) reveal traffic density dominates prediction difficulty with strong monotonic effects, while weather shows non-linear impacts. The best model achieves 0.312m ADE on real-world rounD dataset, demonstrating effective sim-to-real transfer. This systematic approach quantifies factor impacts impossible to isolate in confounded real-world datasets. Our CARLA-Round dataset is available at https://github.com/Rebecca689/CARLA-Round.",
+      "published_utc": "2026-01-17T17:43:34Z",
+      "updated_utc": "2026-01-17T17:43:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.12119v1",
+      "abs_url": "http://arxiv.org/abs/2601.12119v1"
+    },
+    "2601.10521v2": {
+      "arxiv_id": "2601.10521v2",
+      "title": "BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition",
+      "authors": [
+        "Max A. Buettner",
+        "Kanak Mazumder",
+        "Luca Koecher",
+        "Mario Finkbeiner",
+        "Sebastian Niebler",
+        "Fabian B. Flohr"
+      ],
+      "summary": "Anticipating the intentions of Vulnerable Road Users (VRUs) is a critical challenge for safe autonomous driving (AD) and mobile robotics. While current research predominantly focuses on pedestrian crossing behaviors from a vehicle's perspective, interactions within dense shared spaces remain underexplored. To bridge this gap, we introduce FUSE-Bike, the first fully open perception platform of its kind. Equipped with two LiDARs, a camera, and GNSS, it facilitates high-fidelity, close-range data capture directly from a cyclist's viewpoint. Leveraging this platform, we present BikeActions, a novel multi-modal dataset comprising 852 annotated samples across 5 distinct action classes, specifically tailored to improve VRU behavior modeling. We establish a rigorous benchmark by evaluating state-of-the-art graph convolution and transformer-based models on our publicly released data splits, establishing the first performance baselines for this challenging task. We release the full dataset together with data curation tools, the open hardware design, and the benchmark code to foster future research in VRU action understanding under https://iv.ee.hm.edu/bikeactions/.",
+      "published_utc": "2026-01-15T15:47:46Z",
+      "updated_utc": "2026-01-20T12:44:36Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.10521v2",
+      "abs_url": "http://arxiv.org/abs/2601.10521v2"
+    },
+    "2508.10427v3": {
+      "arxiv_id": "2508.10427v3",
+      "title": "STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes",
+      "authors": [
+        "Keishi Ishihara",
+        "Kento Sasaki",
+        "Tsubasa Takahashi",
+        "Daiki Shiono",
+        "Yu Yamaguchi"
+      ],
+      "summary": "Vision-Language Models (VLMs) have been applied to autonomous driving to support decision-making in complex real-world scenarios. However, their training on static, web-sourced image-text pairs fundamentally limits the precise spatiotemporal reasoning required to understand and predict dynamic traffic scenes. We address this critical gap with STRIDE-QA, a large-scale visual question answering (VQA) dataset for physically grounded reasoning from an ego-centric perspective. Constructed from 100 hours of multi-sensor driving data in Tokyo, capturing diverse and challenging conditions, STRIDE-QA is the largest VQA dataset for spatiotemporal reasoning in urban driving, offering 16M QA pairs over 270K frames. Grounded by dense, automatically generated annotations including 3D bounding boxes, segmentation masks, and multi-object tracks, the dataset uniquely supports both object-centric and ego-centric reasoning through three novel QA tasks that require spatial localization and temporal prediction. Our benchmarks demonstrate that existing VLMs struggle significantly, with near-zero scores on prediction consistency. In contrast, VLMs fine-tuned on STRIDE-QA exhibit dramatic performance gains, achieving 55% success in spatial localization and 28% consistency in future motion prediction, compared to near-zero scores from general-purpose VLMs. Therefore, STRIDE-QA establishes a comprehensive foundation for developing more reliable VLMs for safety-critical autonomous systems.",
+      "published_utc": "2025-08-14T07:57:06Z",
+      "updated_utc": "2026-01-19T04:44:59Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2508.10427v3",
+      "abs_url": "http://arxiv.org/abs/2508.10427v3"
     }
   },
   "topics": {
@@ -6736,9 +6797,10 @@
         "2509.01836v1",
         "2508.21043v2",
         "2508.20812v1",
-        "2509.09696v2"
+        "2509.09696v2",
+        "2601.12119v1"
       ],
-      "latest_update": "2026-01-16"
+      "latest_update": "2026-01-21"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -6810,9 +6872,10 @@
         "2403.16374v1",
         "2403.06774v1",
         "2402.19002v2",
-        "2402.12810v3"
+        "2402.12810v3",
+        "2601.10521v2"
       ],
-      "latest_update": "2026-01-16"
+      "latest_update": "2026-01-21"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -6935,9 +6998,10 @@
         "2507.03365v1",
         "2506.23164v1",
         "2506.19341v1",
-        "2506.11419v1"
+        "2506.11419v1",
+        "2508.10427v3"
       ],
-      "latest_update": "2026-01-16"
+      "latest_update": "2026-01-21"
     }
   }
 }

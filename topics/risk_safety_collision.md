@@ -1,8 +1,8 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-01-20` (timezone: `Europe/Athens`)
+Updated: `2026-01-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **120**
 
 ---
 
@@ -147,6 +147,9 @@ Total papers tracked: **119**
 - **STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes**  
   *Keishi Ishihara, Kento Sasaki, Tsubasa Takahashi, Daiki Shiono, Yu Yamaguchi*  
   Published: `2025-08-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.10427v2) · [pdf](https://arxiv.org/pdf/2508.10427v2) · id: `2508.10427v2`
+- **STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes**  
+  *Keishi Ishihara, Kento Sasaki, Tsubasa Takahashi, Daiki Shiono, Yu Yamaguchi*  
+  Published: `2025-08-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.10427v3) · [pdf](https://arxiv.org/pdf/2508.10427v3) · id: `2508.10427v3`
 - **AIS-LLM: A Unified Framework for Maritime Trajectory Prediction, Anomaly Detection, and Collision Risk Assessment with Explainable Forecasting**  
   *Hyobin Park, Jinwook Jung, Minseok Seo, Hyunsoo Choi, Deukjae Cho, Sekil Park, Dong-Geol Choi*  
   Published: `2025-08-11` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2508.07668v1) · [pdf](https://arxiv.org/pdf/2508.07668v1) · id: `2508.07668v1`
