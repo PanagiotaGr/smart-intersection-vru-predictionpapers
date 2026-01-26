@@ -6566,6 +6566,26 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2508.10427v3",
       "abs_url": "http://arxiv.org/abs/2508.10427v3"
+    },
+    "2512.02368v2": {
+      "arxiv_id": "2512.02368v2",
+      "title": "MoE-Enhanced Multi-Domain Feature Selection and Fusion for Fast Map-Free Trajectory Prediction",
+      "authors": [
+        "Wenyi Xiong",
+        "Jian Chen",
+        "Ziheng Qi",
+        "Wenhua Chen"
+      ],
+      "summary": "Trajectory prediction is crucial for the reliability and safety of autonomous driving systems, yet it remains a challenging task in complex interactive scenarios due to noisy trajectory observations and intricate agent interactions. Existing methods often struggle to filter redundant scene data for discriminative information extraction, directly impairing trajectory prediction accuracy especially when handling outliers and dynamic multi-agent interactions. In response to these limitations, we present a novel map-free trajectory prediction method which adaptively eliminates redundant information and selects discriminative features across the temporal, spatial, and frequency domains, thereby enabling precise trajectory prediction in real-world driving environments. First, we design a MoE based frequency domain filter to adaptively weight distinct frequency components of observed trajectory data and suppress outlier related noise; then a selective spatiotemporal attention module that reallocates weights across temporal nodes (sequential dependencies), temporal trends (evolution patterns), and spatial nodes to extract salient information is proposed. Finally, our multimodal decoder-supervised by joint patch level and point-level losses generates reasonable and temporally consistent trajectories, and comprehensive experiments on the large-scale NuScenes and Argoverse dataset demonstrate that our method achieves competitive performance and low-latency inference performance compared with recently proposed methods.",
+      "published_utc": "2025-12-02T03:20:07Z",
+      "updated_utc": "2026-01-23T04:59:15Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.02368v2",
+      "abs_url": "http://arxiv.org/abs/2512.02368v2"
     }
   },
   "topics": {
@@ -6798,9 +6818,10 @@
         "2508.21043v2",
         "2508.20812v1",
         "2509.09696v2",
-        "2601.12119v1"
+        "2601.12119v1",
+        "2512.02368v2"
       ],
-      "latest_update": "2026-01-21"
+      "latest_update": "2026-01-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -6999,9 +7020,10 @@
         "2506.23164v1",
         "2506.19341v1",
         "2506.11419v1",
-        "2508.10427v3"
+        "2508.10427v3",
+        "2512.02368v2"
       ],
-      "latest_update": "2026-01-21"
+      "latest_update": "2026-01-26"
     }
   }
 }

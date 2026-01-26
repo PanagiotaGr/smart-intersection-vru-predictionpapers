@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-01-25` (timezone: `Europe/Athens`)
+Updated: `2026-01-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **98**
+Total papers tracked: **99**
 
 ---
 
@@ -54,6 +54,9 @@ Total papers tracked: **98**
 - **CogDrive: Cognition-Driven Multimodal Prediction-Planning Fusion for Safe Autonomy**  
   *Heye Huang, Yibin Yang, Mingfeng Fan, Haoran Wang, Xiaocong Zhao, Jianqiang Wang*  
   Published: `2025-12-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.02777v1) · [pdf](https://arxiv.org/pdf/2512.02777v1) · id: `2512.02777v1`
+- **MoE-Enhanced Multi-Domain Feature Selection and Fusion for Fast Map-Free Trajectory Prediction**  
+  *Wenyi Xiong, Jian Chen, Ziheng Qi, Wenhua Chen*  
+  Published: `2025-12-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2512.02368v2) · [pdf](https://arxiv.org/pdf/2512.02368v2) · id: `2512.02368v2`
 - **Multi-Domain Enhanced Map-Free Trajectory Prediction with Selective Attention**  
   *Wenyi Xiong, Jian Chen*  
   Published: `2025-12-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2512.02368v1) · [pdf](https://arxiv.org/pdf/2512.02368v1) · id: `2512.02368v1`
