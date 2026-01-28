@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-01-27` (timezone: `Europe/Athens`)
+Updated: `2026-01-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **99**
+Total papers tracked: **100**
 
 ---
 
@@ -36,6 +36,9 @@ Total papers tracked: **99**
 - **Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving**  
   *Longchao Da, David Isele, Hua Wei, Manish Saroya*  
   Published: `2025-12-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.12211v1) · [pdf](https://arxiv.org/pdf/2512.12211v1) · id: `2512.12211v1`
+- **Geometric Dynamics of Agentic Loops in Large Language Models**  
+  *Nicolas Tacheny*  
+  Published: `2025-12-11` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2512.10350v4) · [pdf](https://arxiv.org/pdf/2512.10350v4) · id: `2512.10350v4`
 - **XR-DT: Extended Reality-Enhanced Digital Twin for Agentic Mobile Robots**  
   *Tianyi Wang, Jiseop Byeon, Ahmad Yehia, Huihai Wang, Yiming Xu, Tianyi Zeng, Ziran Wang, Junfeng Jiao et al.*  
   Published: `2025-12-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.05270v1) · [pdf](https://arxiv.org/pdf/2512.05270v1) · id: `2512.05270v1`
