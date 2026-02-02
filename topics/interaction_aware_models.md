@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-01` (timezone: `Europe/Athens`)
+Updated: `2026-02-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **104**
+Total papers tracked: **105**
 
 ---
 
@@ -48,6 +48,9 @@ Total papers tracked: **104**
 - **Geometric Dynamics of Agentic Loops in Large Language Models**  
   *Nicolas Tacheny*  
   Published: `2025-12-11` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2512.10350v4) · [pdf](https://arxiv.org/pdf/2512.10350v4) · id: `2512.10350v4`
+- **Geometric Dynamics of Agentic Loops in Large Language Models**  
+  *Nicolas Tacheny*  
+  Published: `2025-12-11` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2512.10350v5) · [pdf](https://arxiv.org/pdf/2512.10350v5) · id: `2512.10350v5`
 - **XR-DT: Extended Reality-Enhanced Digital Twin for Agentic Mobile Robots**  
   *Tianyi Wang, Jiseop Byeon, Ahmad Yehia, Huihai Wang, Yiming Xu, Tianyi Zeng, Ziran Wang, Junfeng Jiao et al.*  
   Published: `2025-12-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.05270v1) · [pdf](https://arxiv.org/pdf/2512.05270v1) · id: `2512.05270v1`
