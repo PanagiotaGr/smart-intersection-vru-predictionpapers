@@ -6887,6 +6887,25 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2601.02082v2",
       "abs_url": "http://arxiv.org/abs/2601.02082v2"
+    },
+    "2505.18647v2": {
+      "arxiv_id": "2505.18647v2",
+      "title": "STFlow: Data-Coupled Flow Matching for Geometric Trajectory Simulation",
+      "authors": [
+        "Kiet Bennema ten Brinke",
+        "Koen Minartz",
+        "Vlado Menkovski"
+      ],
+      "summary": "Simulating trajectories of dynamical systems is a fundamental problem in a wide range of fields such as molecular dynamics, biochemistry, and pedestrian dynamics. Machine learning has become an invaluable tool for scaling physics-based simulators and developing models directly from experimental data. In particular, recent advances in deep generative modeling and geometric deep learning enable probabilistic simulation by learning complex trajectory distributions while respecting intrinsic permutation and time-shift symmetries. However, trajectories of N-body systems are commonly characterized by high sensitivity to perturbations leading to bifurcations, as well as multi-scale temporal and spatial correlations. To address these challenges, we introduce STFlow (Spatio-Temporal Flow), a generative model based on graph neural networks and hierarchical convolutions. By incorporating data-dependent couplings within the Flow Matching framework, STFlow denoises starting from conditioned random-walks instead of Gaussian noise. This novel informed prior simplifies the learning task by reducing transport cost, increasing training and inference efficiency. We validate our approach on N-body systems, molecular dynamics, and human trajectory forecasting. Across these benchmarks, STFlow achieves the lowest prediction errors with fewer simulation steps and improved scalability.",
+      "published_utc": "2025-05-24T11:18:59Z",
+      "updated_utc": "2026-02-05T20:54:19Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2505.18647v2",
+      "abs_url": "http://arxiv.org/abs/2505.18647v2"
     }
   },
   "topics": {
@@ -6980,9 +6999,10 @@
         "2405.07164v1",
         "2601.21504v1",
         "2602.04204v1",
-        "2602.03986v1"
+        "2602.03986v1",
+        "2505.18647v2"
       ],
-      "latest_update": "2026-02-05"
+      "latest_update": "2026-02-09"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",

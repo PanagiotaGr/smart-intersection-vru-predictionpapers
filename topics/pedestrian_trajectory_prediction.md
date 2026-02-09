@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-02-08` (timezone: `Europe/Athens`)
+Updated: `2026-02-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **88**
+Total papers tracked: **89**
 
 ---
 
@@ -81,6 +81,9 @@ Total papers tracked: **88**
 - **Towards Predicting Any Human Trajectory In Context**  
   *Ryo Fujii, Hideo Saito, Ryo Hachiuma*  
   Published: `2025-06-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2506.00871v3) · [pdf](https://arxiv.org/pdf/2506.00871v3) · id: `2506.00871v3`
+- **STFlow: Data-Coupled Flow Matching for Geometric Trajectory Simulation**  
+  *Kiet Bennema ten Brinke, Koen Minartz, Vlado Menkovski*  
+  Published: `2025-05-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2505.18647v2) · [pdf](https://arxiv.org/pdf/2505.18647v2) · id: `2505.18647v2`
 - **TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility**  
   *Marius Baden, Ahmed Abouelazm, Christian Hubschneider, Yin Wu, Daniel Slieter, J. Marius Zöllner*  
   Published: `2025-05-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.06743v3) · [pdf](https://arxiv.org/pdf/2505.06743v3) · id: `2505.06743v3`
