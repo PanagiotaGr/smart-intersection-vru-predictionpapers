@@ -6906,6 +6906,45 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2505.18647v2",
       "abs_url": "http://arxiv.org/abs/2505.18647v2"
+    },
+    "2602.07938v1": {
+      "arxiv_id": "2602.07938v1",
+      "title": "Integrating Specialized and Generic Agent Motion Prediction with Dynamic Occupancy Grid Maps",
+      "authors": [
+        "Rabbia Asghar",
+        "Lukas Rummelhard",
+        "Wenqian Liu",
+        "Anne Spalanzani",
+        "Christian Laugier"
+      ],
+      "summary": "Accurate prediction of driving scene is a challenging task due to uncertainty in sensor data, the complex behaviors of agents, and the possibility of multiple feasible futures. Existing prediction methods using occupancy grid maps primarily focus on agent-agnostic scene predictions, while agent-specific predictions provide specialized behavior insights with the help of semantic information. However, both paradigms face distinct limitations: agent-agnostic models struggle to capture the behavioral complexities of dynamic actors, whereas agent-specific approaches fail to generalize to poorly perceived or unrecognized agents; combining both enables robust and safer motion forecasting. To address this, we propose a unified framework by leveraging Dynamic Occupancy Grid Maps within a streamlined temporal decoding pipeline to simultaneously predict future occupancy state grids, vehicle grids, and scene flow grids. Relying on a lightweight spatiotemporal backbone, our approach is centered on a tailored, interdependent loss function that captures inter-grid dependencies and enables diverse future predictions. By using occupancy state information to enforce flow-guided transitions, the loss function acts as a regularizer that directs occupancy evolution while accounting for obstacles and occlusions. Consequently, the model not only predicts the specific behaviors of vehicle agents, but also identifies other dynamic entities and anticipates their evolution within the complex scene. Evaluations on real-world nuScenes and Woven Planet datasets demonstrate superior prediction performances for dynamic vehicles and generic dynamic scene elements compared to baseline methods.",
+      "published_utc": "2026-02-08T12:13:06Z",
+      "updated_utc": "2026-02-08T12:13:06Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.07938v1",
+      "abs_url": "http://arxiv.org/abs/2602.07938v1"
+    },
+    "2602.07633v1": {
+      "arxiv_id": "2602.07633v1",
+      "title": "Flow-Based Conformal Predictive Distributions",
+      "authors": [
+        "Trevor Harris"
+      ],
+      "summary": "Conformal prediction provides a distribution-free framework for uncertainty quantification via prediction sets with exact finite-sample coverage. In low dimensions these sets are easy to interpret, but in high-dimensional or structured output spaces they are difficult to represent and use, which can limit their ability to integrate with downstream tasks such as sampling and probabilistic forecasting. We show that any differentiable nonconformity score induces a deterministic flow on the output space whose trajectories converge to the boundary of the corresponding conformal prediction set. This leads to a computationally efficient, training-free method for sampling conformal boundaries in arbitrary dimensions. Boundary samples can be reconformalized to form pointwise prediction sets with controlled risk, and mixing across confidence levels yields conformal predictive distributions whose quantile regions coincide exactly with conformal prediction sets. We evaluate the approach on PDE inverse problems, precipitation downscaling, climate model debiasing, and hurricane trajectory forecasting.",
+      "published_utc": "2026-02-07T17:26:50Z",
+      "updated_utc": "2026-02-07T17:26:50Z",
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.07633v1",
+      "abs_url": "http://arxiv.org/abs/2602.07633v1"
     }
   },
   "topics": {
@@ -7153,9 +7192,10 @@
         "2602.01329v1",
         "2602.03376v1",
         "2601.10554v2",
-        "2602.04522v1"
+        "2602.04522v1",
+        "2602.07938v1"
       ],
-      "latest_update": "2026-02-05"
+      "latest_update": "2026-02-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7360,9 +7400,10 @@
         "2512.02368v2",
         "2601.20367v1",
         "2601.21346v1",
-        "2602.03376v1"
+        "2602.03376v1",
+        "2602.07633v1"
       ],
-      "latest_update": "2026-02-04"
+      "latest_update": "2026-02-10"
     }
   }
 }

@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-09` (timezone: `Europe/Athens`)
+Updated: `2026-02-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **124**
+Total papers tracked: **125**
 
 ---
 
+- **Flow-Based Conformal Predictive Distributions**  
+  *Trevor Harris*  
+  Published: `2026-02-07` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2602.07633v1) · [pdf](https://arxiv.org/pdf/2602.07633v1) · id: `2602.07633v1`
 - **PlanTRansformer: Unified Prediction and Planning with Goal-conditioned Transformer**  
   *Constantin Selzer, Fabina B. Flohr*  
   Published: `2026-02-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.03376v1) · [pdf](https://arxiv.org/pdf/2602.03376v1) · id: `2602.03376v1`
