@@ -6945,6 +6945,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.07633v1",
       "abs_url": "http://arxiv.org/abs/2602.07633v1"
+    },
+    "2602.09076v1": {
+      "arxiv_id": "2602.09076v1",
+      "title": "Legs Over Arms: On the Predictive Value of Lower-Body Pose for Human Trajectory Prediction from Egocentric Robot Perception",
+      "authors": [
+        "Nhat Le",
+        "Daeun Song",
+        "Xuesu Xiao"
+      ],
+      "summary": "Predicting human trajectory is crucial for social robot navigation in crowded environments. While most existing approaches treat human as point mass, we present a study on multi-agent trajectory prediction that leverages different human skeletal features for improved forecast accuracy. In particular, we systematically evaluate the predictive utility of 2D and 3D skeletal keypoints and derived biomechanical cues as additional inputs. Through a comprehensive study on the JRDB dataset and another new dataset for social navigation with 360-degree panoramic videos, we find that focusing on lower-body 3D keypoints yields a 13% reduction in Average Displacement Error and augmenting 3D keypoint inputs with corresponding biomechanical cues provides a further 1-4% improvement. Notably, the performance gain persists when using 2D keypoint inputs extracted from equirectangular panoramic images, indicating that monocular surround vision can capture informative cues for motion forecasting. Our finding that robots can forecast human movement efficiently by watching their legs provides actionable insights for designing sensing capabilities for social robot navigation.",
+      "published_utc": "2026-02-09T16:56:23Z",
+      "updated_utc": "2026-02-09T16:56:23Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.09076v1",
+      "abs_url": "http://arxiv.org/abs/2602.09076v1"
     }
   },
   "topics": {
@@ -7193,9 +7211,10 @@
         "2602.03376v1",
         "2601.10554v2",
         "2602.04522v1",
-        "2602.07938v1"
+        "2602.07938v1",
+        "2602.09076v1"
       ],
-      "latest_update": "2026-02-10"
+      "latest_update": "2026-02-11"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

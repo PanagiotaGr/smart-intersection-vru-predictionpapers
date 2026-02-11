@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-10` (timezone: `Europe/Athens`)
+Updated: `2026-02-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **110**
+Total papers tracked: **111**
 
 ---
 
+- **Legs Over Arms: On the Predictive Value of Lower-Body Pose for Human Trajectory Prediction from Egocentric Robot Perception**  
+  *Nhat Le, Daeun Song, Xuesu Xiao*  
+  Published: `2026-02-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.09076v1) · [pdf](https://arxiv.org/pdf/2602.09076v1) · id: `2602.09076v1`
 - **Integrating Specialized and Generic Agent Motion Prediction with Dynamic Occupancy Grid Maps**  
   *Rabbia Asghar, Lukas Rummelhard, Wenqian Liu, Anne Spalanzani, Christian Laugier*  
   Published: `2026-02-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.07938v1) · [pdf](https://arxiv.org/pdf/2602.07938v1) · id: `2602.07938v1`
