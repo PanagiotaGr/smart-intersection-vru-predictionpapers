@@ -1,8 +1,8 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-11` (timezone: `Europe/Athens`)
+Updated: `2026-02-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **126**
 
 ---
 
@@ -21,6 +21,9 @@ Total papers tracked: **125**
 - **Proactive Local-Minima-Free Robot Navigation: Blending Motion Prediction with Safe Control**  
   *Yifan Xue, Ze Zhang, Knut Åkesson, Nadia Figueroa*  
   Published: `2026-01-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.10233v1) · [pdf](https://arxiv.org/pdf/2601.10233v1) · id: `2601.10233v1`
+- **Proactive Local-Minima-Free Robot Navigation: Blending Motion Prediction with Safe Control**  
+  *Yifan Xue, Ze Zhang, Knut Åkesson, Nadia Figueroa*  
+  Published: `2026-01-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.10233v2) · [pdf](https://arxiv.org/pdf/2601.10233v2) · id: `2601.10233v2`
 - **How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces**  
   *Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, Christoforos Mavrogiannis*  
   Published: `2026-01-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.09856v1) · [pdf](https://arxiv.org/pdf/2601.09856v1) · id: `2601.09856v1`
