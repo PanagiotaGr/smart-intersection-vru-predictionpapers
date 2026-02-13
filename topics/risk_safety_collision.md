@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-12` (timezone: `Europe/Athens`)
+Updated: `2026-02-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **126**
+Total papers tracked: **127**
 
 ---
 
+- **DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration**  
+  *Manuel Hetzel, Kerim Turacan, Hannes Reichert, Konrad Doll, Bernhard Sick*  
+  Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.11214v1) · [pdf](https://arxiv.org/pdf/2602.11214v1) · id: `2602.11214v1`
 - **Flow-Based Conformal Predictive Distributions**  
   *Trevor Harris*  
   Published: `2026-02-07` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2602.07633v1) · [pdf](https://arxiv.org/pdf/2602.07633v1) · id: `2602.07633v1`

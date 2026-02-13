@@ -1,14 +1,17 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-12` (timezone: `Europe/Athens`)
+Updated: `2026-02-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **112**
+Total papers tracked: **113**
 
 ---
 
 - **ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving**  
   *Jinqing Zhang, Zehua Fu, Zelin Xu, Wenying Dai, Qingjie Liu, Yunhong Wang*  
   Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.10884v1) · [pdf](https://arxiv.org/pdf/2602.10884v1) · id: `2602.10884v1`
+- **DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration**  
+  *Manuel Hetzel, Kerim Turacan, Hannes Reichert, Konrad Doll, Bernhard Sick*  
+  Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.11214v1) · [pdf](https://arxiv.org/pdf/2602.11214v1) · id: `2602.11214v1`
 - **Legs Over Arms: On the Predictive Value of Lower-Body Pose for Human Trajectory Prediction from Egocentric Robot Perception**  
   *Nhat Le, Daeun Song, Xuesu Xiao*  
   Published: `2026-02-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.09076v1) · [pdf](https://arxiv.org/pdf/2602.09076v1) · id: `2602.09076v1`

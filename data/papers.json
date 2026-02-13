@@ -7003,6 +7003,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2601.10233v2",
       "abs_url": "http://arxiv.org/abs/2601.10233v2"
+    },
+    "2602.11214v1": {
+      "arxiv_id": "2602.11214v1",
+      "title": "DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration",
+      "authors": [
+        "Manuel Hetzel",
+        "Kerim Turacan",
+        "Hannes Reichert",
+        "Konrad Doll",
+        "Bernhard Sick"
+      ],
+      "summary": "Human Trajectory Forecasting (HTF) predicts future human movements from past trajectories and environmental context, with applications in Autonomous Driving, Smart Surveillance, and Human-Robot Interaction. While prior work has focused on accuracy, social interaction modeling, and diversity, little attention has been paid to uncertainty modeling, calibration, and forecasts from short observation periods, which are crucial for downstream tasks such as path planning and collision avoidance. We propose DD-MDN, an end-to-end probabilistic HTF model that combines high positional accuracy, calibrated uncertainty, and robustness to short observations. Using a few-shot denoising diffusion backbone and a dual mixture density network, our method learns self-calibrated residence areas and probability-ranked anchor paths, from which diverse trajectory hypotheses are derived, without predefined anchors or endpoints. Experiments on the ETH/UCY, SDD, inD, and IMPTC datasets demonstrate state-of-the-art accuracy, robustness at short observation intervals, and reliable uncertainty modeling. The code is available at: https://github.com/kav-institute/ddmdn.",
+      "published_utc": "2026-02-11T08:59:33Z",
+      "updated_utc": "2026-02-11T08:59:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.11214v1",
+      "abs_url": "http://arxiv.org/abs/2602.11214v1"
     }
   },
   "topics": {
@@ -7253,9 +7274,10 @@
         "2602.04522v1",
         "2602.07938v1",
         "2602.09076v1",
-        "2602.10884v1"
+        "2602.10884v1",
+        "2602.11214v1"
       ],
-      "latest_update": "2026-02-12"
+      "latest_update": "2026-02-13"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7462,9 +7484,10 @@
         "2601.21346v1",
         "2602.03376v1",
         "2602.07633v1",
-        "2601.10233v2"
+        "2601.10233v2",
+        "2602.11214v1"
       ],
-      "latest_update": "2026-02-12"
+      "latest_update": "2026-02-13"
     }
   }
 }
