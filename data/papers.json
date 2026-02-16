@@ -7024,6 +7024,44 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.11214v1",
       "abs_url": "http://arxiv.org/abs/2602.11214v1"
+    },
+    "2602.12869v1": {
+      "arxiv_id": "2602.12869v1",
+      "title": "X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting",
+      "authors": [
+        "Zhan Qu",
+        "Michael Färber"
+      ],
+      "summary": "Wake vortices are strong, coherent air turbulences created by aircraft, and they pose a major safety and capacity challenge for air traffic management. Tracking how vortices move, weaken, and dissipate over time from LiDAR measurements is still difficult because scans are sparse, vortex signatures fade as the flow breaks down under atmospheric turbulence and instabilities, and point-wise annotation is prohibitively expensive. Existing approaches largely treat each scan as an independent, fully supervised segmentation problem, which overlooks temporal structure and does not scale to the vast unlabeled archives collected in practice. We present X-VORTEX, a spatio-temporal contrastive learning framework grounded in Augmentation Overlap Theory that learns physics-aware representations from unlabeled LiDAR point cloud sequences. X-VORTEX addresses two core challenges: sensor sparsity and time-varying vortex dynamics. It constructs paired inputs from the same underlying flight event by combining a weakly perturbed sequence with a strongly augmented counterpart produced via temporal subsampling and spatial masking, encouraging the model to align representations across missing frames and partial observations. Architecturally, a time-distributed geometric encoder extracts per-scan features and a sequential aggregator models the evolving vortex state across variable-length sequences. We evaluate on a real-world dataset of over one million LiDAR scans. X-VORTEX achieves superior vortex center localization while using only 1% of the labeled data required by supervised baselines, and the learned representations support accurate trajectory forecasting.",
+      "published_utc": "2026-02-13T12:20:44Z",
+      "updated_utc": "2026-02-13T12:20:44Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.12869v1",
+      "abs_url": "http://arxiv.org/abs/2602.12869v1"
+    },
+    "2602.12549v1": {
+      "arxiv_id": "2602.12549v1",
+      "title": "Eva-Tracker: ESDF-update-free, Visibility-aware Planning with Target Reacquisition for Robust Aerial Tracking",
+      "authors": [
+        "Yue Lin",
+        "Yang Liu",
+        "Dong Wang",
+        "Huchuan Lu"
+      ],
+      "summary": "The Euclidean Signed Distance Field (ESDF) is widely used in visibility evaluation to prevent occlusions and collisions during tracking. However, frequent ESDF updates introduce considerable computational overhead. To address this issue, we propose Eva-Tracker, a visibility-aware trajectory planning framework for aerial tracking that eliminates ESDF updates and incorporates a recovery-capable path generation method for target reacquisition. First, we design a target trajectory prediction method and a visibility-aware initial path generation algorithm that maintain an appropriate observation distance, avoid occlusions, and enable rapid replanning to reacquire the target when it is lost. Then, we propose the Field of View ESDF (FoV-ESDF), a precomputed ESDF tailored to the tracker's field of view, enabling rapid visibility evaluation without requiring updates. Finally, we optimize the trajectory using differentiable FoV-ESDF-based objectives to ensure continuous visibility throughout the tracking process. Extensive simulations and real-world experiments demonstrate that our approach delivers more robust tracking results with lower computational effort than existing state-of-the-art methods. The source code is available at https://github.com/Yue-0/Eva-Tracker.",
+      "published_utc": "2026-02-13T02:56:34Z",
+      "updated_utc": "2026-02-13T02:56:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.12549v1",
+      "abs_url": "http://arxiv.org/abs/2602.12549v1"
     }
   },
   "topics": {
@@ -7485,9 +7523,11 @@
         "2602.03376v1",
         "2602.07633v1",
         "2601.10233v2",
-        "2602.11214v1"
+        "2602.11214v1",
+        "2602.12869v1",
+        "2602.12549v1"
       ],
-      "latest_update": "2026-02-13"
+      "latest_update": "2026-02-16"
     }
   }
 }

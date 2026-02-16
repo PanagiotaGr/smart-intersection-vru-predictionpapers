@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-15` (timezone: `Europe/Athens`)
+Updated: `2026-02-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **127**
+Total papers tracked: **129**
 
 ---
 
+- **X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting**  
+  *Zhan Qu, Michael Färber*  
+  Published: `2026-02-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.12869v1) · [pdf](https://arxiv.org/pdf/2602.12869v1) · id: `2602.12869v1`
+- **Eva-Tracker: ESDF-update-free, Visibility-aware Planning with Target Reacquisition for Robust Aerial Tracking**  
+  *Yue Lin, Yang Liu, Dong Wang, Huchuan Lu*  
+  Published: `2026-02-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.12549v1) · [pdf](https://arxiv.org/pdf/2602.12549v1) · id: `2602.12549v1`
 - **DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration**  
   *Manuel Hetzel, Kerim Turacan, Hannes Reichert, Konrad Doll, Bernhard Sick*  
   Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.11214v1) · [pdf](https://arxiv.org/pdf/2602.11214v1) · id: `2602.11214v1`
