@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-16` (timezone: `Europe/Athens`)
+Updated: `2026-02-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **129**
+Total papers tracked: **130**
 
 ---
 
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
 - **X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting**  
   *Zhan Qu, Michael Färber*  
   Published: `2026-02-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.12869v1) · [pdf](https://arxiv.org/pdf/2602.12869v1) · id: `2602.12869v1`

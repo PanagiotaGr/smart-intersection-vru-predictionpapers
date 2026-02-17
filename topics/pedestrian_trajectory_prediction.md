@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-02-16` (timezone: `Europe/Athens`)
+Updated: `2026-02-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **89**
+Total papers tracked: **90**
 
 ---
 
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
 - **AGMA: Adaptive Gaussian Mixture Anchors for Prior-Guided Multimodal Human Trajectory Forecasting**  
   *Chao Li, Rui Zhang, Siyuan Huang, Xian Zhong, Hongbo Jiang*  
   Published: `2026-02-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.04204v1) · [pdf](https://arxiv.org/pdf/2602.04204v1) · id: `2602.04204v1`

@@ -7062,6 +7062,29 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.12549v1",
       "abs_url": "http://arxiv.org/abs/2602.12549v1"
+    },
+    "2602.14780v1": {
+      "arxiv_id": "2602.14780v1",
+      "title": "ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic",
+      "authors": [
+        "Anna-Lena Schlamp",
+        "Jeremias Gerner",
+        "Klaus Bogenberger",
+        "Werner Huber",
+        "Stefanie Schmidtner"
+      ],
+      "summary": "We present ROSA -- Roundabout Optimized Speed Advisory -- a system that combines multi-agent trajectory prediction with coordinated speed guidance for multimodal, mixed traffic at roundabouts. Using a Transformer-based model, ROSA jointly predicts the future trajectories of vehicles and Vulnerable Road Users (VRUs) at roundabouts. Trained for single-step prediction and deployed autoregressively, it generates deterministic outputs, enabling actionable speed advisories. Incorporating motion dynamics, the model achieves high accuracy (ADE: 1.29m, FDE: 2.99m at a five-second prediction horizon), surpassing prior work. Adding route intention further improves performance (ADE: 1.10m, FDE: 2.36m), demonstrating the value of connected vehicle data. Based on predicted conflicts with VRUs and circulating vehicles, ROSA provides real-time, proactive speed advisories for approaching and entering the roundabout. Despite prediction uncertainty, ROSA significantly improves vehicle efficiency and safety, with positive effects even on perceived safety from a VRU perspective. The source code of this work is available under: github.com/urbanAIthi/ROSA.",
+      "published_utc": "2026-02-16T14:30:01Z",
+      "updated_utc": "2026-02-16T14:30:01Z",
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.CY",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.14780v1",
+      "abs_url": "http://arxiv.org/abs/2602.14780v1"
     }
   },
   "topics": {
@@ -7156,9 +7179,10 @@
         "2601.21504v1",
         "2602.04204v1",
         "2602.03986v1",
-        "2505.18647v2"
+        "2505.18647v2",
+        "2602.14780v1"
       ],
-      "latest_update": "2026-02-09"
+      "latest_update": "2026-02-17"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -7313,9 +7337,10 @@
         "2602.07938v1",
         "2602.09076v1",
         "2602.10884v1",
-        "2602.11214v1"
+        "2602.11214v1",
+        "2602.14780v1"
       ],
-      "latest_update": "2026-02-13"
+      "latest_update": "2026-02-17"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7390,9 +7415,10 @@
         "2402.12810v3",
         "2601.10521v2",
         "2602.00993v1",
-        "2601.02082v2"
+        "2601.02082v2",
+        "2602.14780v1"
       ],
-      "latest_update": "2026-02-05"
+      "latest_update": "2026-02-17"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -7525,9 +7551,10 @@
         "2601.10233v2",
         "2602.11214v1",
         "2602.12869v1",
-        "2602.12549v1"
+        "2602.12549v1",
+        "2602.14780v1"
       ],
-      "latest_update": "2026-02-16"
+      "latest_update": "2026-02-17"
     }
   }
 }

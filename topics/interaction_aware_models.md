@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-16` (timezone: `Europe/Athens`)
+Updated: `2026-02-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **113**
+Total papers tracked: **114**
 
 ---
 
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
 - **ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving**  
   *Jinqing Zhang, Zehua Fu, Zelin Xu, Wenying Dai, Qingjie Liu, Yunhong Wang*  
   Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.10884v1) · [pdf](https://arxiv.org/pdf/2602.10884v1) · id: `2602.10884v1`
