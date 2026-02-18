@@ -1,6 +1,6 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-02-17` (timezone: `Europe/Athens`)
+Updated: `2026-02-18` (timezone: `Europe/Athens`)
 
 Total papers tracked: **90**
 
