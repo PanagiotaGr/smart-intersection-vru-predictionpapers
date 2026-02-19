@@ -1,6 +1,6 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-02-18` (timezone: `Europe/Athens`)
+Updated: `2026-02-19` (timezone: `Europe/Athens`)
 
 Total papers tracked: **72**
 
