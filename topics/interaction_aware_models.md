@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-19` (timezone: `Europe/Athens`)
+Updated: `2026-02-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **114**
+Total papers tracked: **115**
 
 ---
 
+- **HiMAP: History-aware Map-occupancy Prediction with Fallback**  
+  *Yiming Xu, Yi Yang, Hao Cheng, Monika Sester*  
+  Published: `2026-02-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.17231v1) · [pdf](https://arxiv.org/pdf/2602.17231v1) · id: `2602.17231v1`
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`

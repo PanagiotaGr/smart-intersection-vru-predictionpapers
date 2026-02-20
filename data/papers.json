@@ -7085,6 +7085,25 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.14780v1",
       "abs_url": "http://arxiv.org/abs/2602.14780v1"
+    },
+    "2602.17231v1": {
+      "arxiv_id": "2602.17231v1",
+      "title": "HiMAP: History-aware Map-occupancy Prediction with Fallback",
+      "authors": [
+        "Yiming Xu",
+        "Yi Yang",
+        "Hao Cheng",
+        "Monika Sester"
+      ],
+      "summary": "Accurate motion forecasting is critical for autonomous driving, yet most predictors rely on multi-object tracking (MOT) with identity association, assuming that objects are correctly and continuously tracked. When tracking fails due to, e.g., occlusion, identity switches, or missed detections, prediction quality degrades and safety risks increase. We present \\textbf{HiMAP}, a tracking-free, trajectory prediction framework that remains reliable under MOT failures. HiMAP converts past detections into spatiotemporally invariant historical occupancy maps and introduces a historical query module that conditions on the current agent state to iteratively retrieve agent-specific history from unlabeled occupancy representations. The retrieved history is summarized by a temporal map embedding and, together with the final query and map context, drives a DETR-style decoder to produce multi-modal future trajectories. This design lifts identity reliance, supports streaming inference via reusable encodings, and serves as a robust fallback when tracking is unavailable. On Argoverse~2, HiMAP achieves performance comparable to tracking-based methods while operating without IDs, and it substantially outperforms strong baselines in the no-tracking setting, yielding relative gains of 11\\% in FDE, 12\\% in ADE, and a 4\\% reduction in MR over a fine-tuned QCNet. Beyond aggregate metrics, HiMAP delivers stable forecasts for all agents simultaneously without waiting for tracking to recover, highlighting its practical value for safety-critical autonomy. The code is available under: https://github.com/XuYiMing83/HiMAP.",
+      "published_utc": "2026-02-19T10:24:02Z",
+      "updated_utc": "2026-02-19T10:24:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.17231v1",
+      "abs_url": "http://arxiv.org/abs/2602.17231v1"
     }
   },
   "topics": {
@@ -7338,9 +7357,10 @@
         "2602.09076v1",
         "2602.10884v1",
         "2602.11214v1",
-        "2602.14780v1"
+        "2602.14780v1",
+        "2602.17231v1"
       ],
-      "latest_update": "2026-02-17"
+      "latest_update": "2026-02-20"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7552,9 +7572,10 @@
         "2602.11214v1",
         "2602.12869v1",
         "2602.12549v1",
-        "2602.14780v1"
+        "2602.14780v1",
+        "2602.17231v1"
       ],
-      "latest_update": "2026-02-17"
+      "latest_update": "2026-02-20"
     }
   }
 }
