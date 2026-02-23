@@ -7104,6 +7104,25 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.17231v1",
       "abs_url": "http://arxiv.org/abs/2602.17231v1"
+    },
+    "2602.17926v1": {
+      "arxiv_id": "2602.17926v1",
+      "title": "Homotopic information gain for sparse active target tracking",
+      "authors": [
+        "Jennifer Wakulicz",
+        "Ki Myung Brian Lee",
+        "Teresa Vidal-Calleja",
+        "Robert Fitch"
+      ],
+      "summary": "The problem of planning sensing trajectories for a mobile robot to collect observations of a target and predict its future trajectory is known as active target tracking. Enabled by probabilistic motion models, one may solve this problem by exploring the belief space of all trajectory predictions given future sensing actions to maximise information gain. However, for multi-modal motion models the notion of information gain is often ill-defined. This paper proposes a planning approach designed around maximising information regarding the target's homotopy class, or high-level motion. We introduce homotopic information gain, a measure of the expected high-level trajectory information given by a measurement. We show that homotopic information gain is a lower bound for metric or low-level information gain, and is as sparsely distributed in the environment as obstacles are. Planning sensing trajectories to maximise homotopic information results in highly accurate trajectory estimates with fewer measurements than a metric information approach, as supported by our empirical evaluation on real and simulated pedestrian data.",
+      "published_utc": "2026-02-20T01:23:58Z",
+      "updated_utc": "2026-02-20T01:23:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.17926v1",
+      "abs_url": "http://arxiv.org/abs/2602.17926v1"
     }
   },
   "topics": {
@@ -7199,9 +7218,10 @@
         "2602.04204v1",
         "2602.03986v1",
         "2505.18647v2",
-        "2602.14780v1"
+        "2602.14780v1",
+        "2602.17926v1"
       ],
-      "latest_update": "2026-02-17"
+      "latest_update": "2026-02-23"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",

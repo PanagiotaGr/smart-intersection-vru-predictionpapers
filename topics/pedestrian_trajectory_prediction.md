@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-02-22` (timezone: `Europe/Athens`)
+Updated: `2026-02-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **90**
+Total papers tracked: **91**
 
 ---
 
+- **Homotopic information gain for sparse active target tracking**  
+  *Jennifer Wakulicz, Ki Myung Brian Lee, Teresa Vidal-Calleja, Robert Fitch*  
+  Published: `2026-02-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.17926v1) · [pdf](https://arxiv.org/pdf/2602.17926v1) · id: `2602.17926v1`
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
