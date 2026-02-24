@@ -7123,6 +7123,29 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.17926v1",
       "abs_url": "http://arxiv.org/abs/2602.17926v1"
+    },
+    "2602.19768v1": {
+      "arxiv_id": "2602.19768v1",
+      "title": "TraceVision: Trajectory-Aware Vision-Language Model for Human-Like Spatial Understanding",
+      "authors": [
+        "Fan Yang",
+        "Shurong Zheng",
+        "Hongyin Zhao",
+        "Yufei Zhan",
+        "Xin Li",
+        "Yousong Zhu",
+        "Chaoyang Zhao Ming Tang",
+        "Jinqiao Wang"
+      ],
+      "summary": "Recent Large Vision-Language Models (LVLMs) demonstrate remarkable capabilities in image understanding and natural language generation. However, current approaches focus predominantly on global image understanding, struggling to simulate human visual attention trajectories and explain associations between descriptions and specific regions. We propose TraceVision, a unified vision-language model integrating trajectory-aware spatial understanding in an end-to-end framework. TraceVision employs a Trajectory-aware Visual Perception (TVP) module for bidirectional fusion of visual features and trajectory information. We design geometric simplification to extract semantic keypoints from raw trajectories and propose a three-stage training pipeline where trajectories guide description generation and region localization. We extend TraceVision to trajectory-guided segmentation and video scene understanding, enabling cross-frame tracking and temporal attention analysis. We construct the Reasoning-based Interactive Localized Narratives (RILN) dataset to enhance logical reasoning and interpretability. Extensive experiments on trajectory-guided captioning, text-guided trajectory prediction, understanding, and segmentation demonstrate that TraceVision achieves state-of-the-art performance, establishing a foundation for intuitive spatial interaction and interpretable visual understanding.",
+      "published_utc": "2026-02-23T12:18:26Z",
+      "updated_utc": "2026-02-23T12:18:26Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.19768v1",
+      "abs_url": "http://arxiv.org/abs/2602.19768v1"
     }
   },
   "topics": {
@@ -7378,9 +7401,10 @@
         "2602.10884v1",
         "2602.11214v1",
         "2602.14780v1",
-        "2602.17231v1"
+        "2602.17231v1",
+        "2602.19768v1"
       ],
-      "latest_update": "2026-02-20"
+      "latest_update": "2026-02-24"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
