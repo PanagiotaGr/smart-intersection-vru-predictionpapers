@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-02-24` (timezone: `Europe/Athens`)
+Updated: `2026-02-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **131**
+Total papers tracked: **134**
 
 ---
 
+- **ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models**  
+  *Jiarong Wei, Anna Rehr, Christian Feist, Abhinav Valada*  
+  Published: `2026-02-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.20923v1) · [pdf](https://arxiv.org/pdf/2602.20923v1) · id: `2602.20923v1`
+- **VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving**  
+  *Jie Wang, Guang Li, Zhijian Huang, Chenxu Dang, Hangjun Ye, Yahong Han, Long Chen*  
+  Published: `2026-02-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.20794v1) · [pdf](https://arxiv.org/pdf/2602.20794v1) · id: `2602.20794v1`
 - **HiMAP: History-aware Map-occupancy Prediction with Fallback**  
   *Yiming Xu, Yi Yang, Hao Cheng, Monika Sester*  
   Published: `2026-02-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.17231v1) · [pdf](https://arxiv.org/pdf/2602.17231v1) · id: `2602.17231v1`
@@ -24,6 +30,9 @@ Total papers tracked: **131**
 - **Flow-Based Conformal Predictive Distributions**  
   *Trevor Harris*  
   Published: `2026-02-07` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2602.07633v1) · [pdf](https://arxiv.org/pdf/2602.07633v1) · id: `2602.07633v1`
+- **Flow-Based Conformal Predictive Distributions**  
+  *Trevor Harris*  
+  Published: `2026-02-07` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2602.07633v2) · [pdf](https://arxiv.org/pdf/2602.07633v2) · id: `2602.07633v2`
 - **PlanTRansformer: Unified Prediction and Planning with Goal-conditioned Transformer**  
   *Constantin Selzer, Fabina B. Flohr*  
   Published: `2026-02-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.03376v1) · [pdf](https://arxiv.org/pdf/2602.03376v1) · id: `2602.03376v1`

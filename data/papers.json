@@ -7146,6 +7146,130 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.19768v1",
       "abs_url": "http://arxiv.org/abs/2602.19768v1"
+    },
+    "2504.13647v2": {
+      "arxiv_id": "2504.13647v2",
+      "title": "An Efficient LiDAR-Camera Fusion Network for Multi-Class 3D Dynamic Object Detection and Trajectory Prediction",
+      "authors": [
+        "Yushen He",
+        "Lei Zhao",
+        "Tianchen Deng",
+        "Zipeng Fang",
+        "Weidong Chen"
+      ],
+      "summary": "Service mobile robots are often required to avoid dynamic objects while performing their tasks, but they usually have only limited computational resources. To further advance the practical application of service robots in complex dynamic environments, we propose an efficient multi-modal framework for 3D object detection and trajectory prediction, which synergistically integrates LiDAR and camera inputs to achieve real-time perception of pedestrians, vehicles, and riders in 3D space.The framework incorporates two novel models: 1) a Unified modality detector with Mamba and Transformer (UniMT) for object detection, which achieves high-accuracy object detection with fast inference speed, and 2) a Reference Trajectory-based Multi-Class Transformer (RTMCT) for efficient and diverse trajectory prediction of multi-class objects with flexible-length trajectories. Evaluations on the CODa benchmark demonstrate that our method outperforms existing ones in both detection (+3.71\\% in mAP) and trajectory prediction (-0.408m in minADE$_5$ of pedestrians) metrics. Furthermore, on the challenging nuScenes detection benchmark, our detection model achieves competitive performance among LiDAR-camera fusion methods, with a mAP of 72.7\\% and NDS of 75.3\\%. Remarkably, the system demonstrates exceptional generalizability and practical deployment potential. When transferred and implemented on a wheelchair robot with an entry-level NVIDIA RTX 3060 GPU, it achieves real-time inference at 13.9 frames per second (FPS) with satisfactory accuracy. To facilitate reproducibility and practical deployment, we release the related code of the method at \\href{https://github.com/TossherO/3D_Perception}{https://github.com/TossherO/3D\\_Perception} and its ROS inference version at \\href{https://github.com/TossherO/ros_packages}{https://github.com/TossherO/ros\\_packages}.",
+      "published_utc": "2025-04-18T11:59:34Z",
+      "updated_utc": "2026-02-24T01:43:54Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2504.13647v2",
+      "abs_url": "http://arxiv.org/abs/2504.13647v2"
+    },
+    "2602.20923v1": {
+      "arxiv_id": "2602.20923v1",
+      "title": "ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models",
+      "authors": [
+        "Jiarong Wei",
+        "Anna Rehr",
+        "Christian Feist",
+        "Abhinav Valada"
+      ],
+      "summary": "Automated parking is a challenging operational domain for advanced driver assistance systems, requiring robust scene understanding and interaction reasoning. The key challenge is twofold: (i) predict multiple plausible ego intentions according to context and (ii) for each intention, predict the joint responses of surrounding agents, enabling effective what-if decision-making. However, existing methods often fall short, typically treating these interdependent problems in isolation. We propose ParkDiffusion++, which jointly learns a multi-modal ego intention predictor and an ego-conditioned multi-agent joint trajectory predictor for automated parking. Our approach makes several key contributions. First, we introduce an ego intention tokenizer that predicts a small set of discrete endpoint intentions from agent histories and vectorized map polylines. Second, we perform ego-intention-conditioned joint prediction, yielding socially consistent predictions of the surrounding agents for each possible ego intention. Third, we employ a lightweight safety-guided denoiser with different constraints to refine joint scenes during training, thus improving accuracy and safety. Fourth, we propose counterfactual knowledge distillation, where an EMA teacher refined by a frozen safety-guided denoiser provides pseudo-targets that capture how agents react to alternative ego intentions. Extensive evaluations demonstrate that ParkDiffusion++ achieves state-of-the-art performance on the Dragon Lake Parking (DLP) dataset and the Intersections Drone (inD) dataset. Importantly, qualitative what-if visualizations show that other agents react appropriately to different ego intentions.",
+      "published_utc": "2026-02-24T14:01:33Z",
+      "updated_utc": "2026-02-24T14:01:33Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.20923v1",
+      "abs_url": "http://arxiv.org/abs/2602.20923v1"
+    },
+    "2602.19768v2": {
+      "arxiv_id": "2602.19768v2",
+      "title": "TraceVision: Trajectory-Aware Vision-Language Model for Human-Like Spatial Understanding",
+      "authors": [
+        "Fan Yang",
+        "Shurong Zheng",
+        "Hongyin Zhao",
+        "Yufei Zhan",
+        "Xin Li",
+        "Yousong Zhu",
+        "Chaoyang Zhao Ming Tang",
+        "Jinqiao Wang"
+      ],
+      "summary": "Recent Large Vision-Language Models (LVLMs) demonstrate remarkable capabilities in image understanding and natural language generation. However, current approaches focus predominantly on global image understanding, struggling to simulate human visual attention trajectories and explain associations between descriptions and specific regions. We propose TraceVision, a unified vision-language model integrating trajectory-aware spatial understanding in an end-to-end framework. TraceVision employs a Trajectory-aware Visual Perception (TVP) module for bidirectional fusion of visual features and trajectory information. We design geometric simplification to extract semantic keypoints from raw trajectories and propose a three-stage training pipeline where trajectories guide description generation and region localization. We extend TraceVision to trajectory-guided segmentation and video scene understanding, enabling cross-frame tracking and temporal attention analysis. We construct the Reasoning-based Interactive Localized Narratives (RILN) dataset to enhance logical reasoning and interpretability. Extensive experiments on trajectory-guided captioning, text-guided trajectory prediction, understanding, and segmentation demonstrate that TraceVision achieves state-of-the-art performance, establishing a foundation for intuitive spatial interaction and interpretable visual understanding.",
+      "published_utc": "2026-02-23T12:18:26Z",
+      "updated_utc": "2026-02-24T03:15:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.19768v2",
+      "abs_url": "http://arxiv.org/abs/2602.19768v2"
+    },
+    "2503.01852v2": {
+      "arxiv_id": "2503.01852v2",
+      "title": "Interaction-Aware Model Predictive Decision-Making for Socially-Compliant Autonomous Driving in Mixed Urban Traffic Scenarios",
+      "authors": [
+        "Balint Varga",
+        "Thomas Brand",
+        "Marcus Schmitz",
+        "Ehsan Hashemi"
+      ],
+      "summary": "Autonomous vehicles must negotiate with pedestrians in ways that are both safe and socially compliant. We present an interaction-aware model predictive decision-making (IAMPDM) framework that integrates a gap-acceptance-inspired intention model with MPC to jointly reason about human intent and vehicle control in real time. The pedestrian module produces a continuous crossing-propensity signal - driven by time-to-collision (TTC) with an intention discounting mechanism - that modulates MPC safety terms and minimum-distance constraints. We implement IAMPDM in a projection-based, motion-tracked simulator and compare it against a rule-based intention-aware controller (RBDM) and a conservative non-interactive baseline (NIA). In a human-in-the-decision-loop study with 25 participants, intention-aware methods shortened negotiation and completion time relative to NIA across scenarios, at the expense of tighter TTC/DST margins, with no significant difference between IAMPDM and RBDM except for TTC in one scenario. Results indicate that intention-aware decision-making algorithms reduce pedestrian crossing time and improve subjective ratings of comfort, safety, and trust relative to a non-cooperative decision-making algorithm. We discuss implications for real-world deployment of interaction-aware autonomous vehicles. We detail decision-making calibration and real-time implementation (CasADi/IPOPT) and propose deployment guardrails - minimum surrogate-safety margins, deadlock prevention - to balance efficiency with safety.",
+      "published_utc": "2025-02-21T19:29:49Z",
+      "updated_utc": "2026-02-24T07:27:57Z",
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.01852v2",
+      "abs_url": "http://arxiv.org/abs/2503.01852v2"
+    },
+    "2602.20794v1": {
+      "arxiv_id": "2602.20794v1",
+      "title": "VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving",
+      "authors": [
+        "Jie Wang",
+        "Guang Li",
+        "Zhijian Huang",
+        "Chenxu Dang",
+        "Hangjun Ye",
+        "Yahong Han",
+        "Long Chen"
+      ],
+      "summary": "The significance of cross-view 3D geometric modeling capabilities for autonomous driving is self-evident, yet existing Vision-Language Models (VLMs) inherently lack this capability, resulting in their mediocre performance. While some promising approaches attempt to mitigate this by constructing Q&A data for auxiliary training, they still fail to fundamentally equip VLMs with the ability to comprehensively handle diverse evaluation protocols. We thus chart a new course, advocating for the infusion of VLMs with the cross-view geometric grounding of mature 3D foundation models, closing this critical capability gap in autonomous driving. In this spirit, we propose a novel architecture, VGGDrive, which empowers Vision-language models with cross-view Geometric Grounding for autonomous Driving. Concretely, to bridge the cross-view 3D geometric features from the frozen visual 3D model with the VLM's 2D visual features, we introduce a plug-and-play Cross-View 3D Geometric Enabler (CVGE). The CVGE decouples the base VLM architecture and effectively empowers the VLM with 3D features through a hierarchical adaptive injection mechanism. Extensive experiments show that VGGDrive enhances base VLM performance across five autonomous driving benchmarks, including tasks like cross-view risk perception, motion prediction, and trajectory planning. It's our belief that mature 3D foundation models can empower autonomous driving tasks through effective integration, and we hope our initial exploration demonstrates the potential of this paradigm to the autonomous driving community.",
+      "published_utc": "2026-02-24T11:33:44Z",
+      "updated_utc": "2026-02-24T11:33:44Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.20794v1",
+      "abs_url": "http://arxiv.org/abs/2602.20794v1"
+    },
+    "2602.07633v2": {
+      "arxiv_id": "2602.07633v2",
+      "title": "Flow-Based Conformal Predictive Distributions",
+      "authors": [
+        "Trevor Harris"
+      ],
+      "summary": "Conformal prediction provides a distribution-free framework for uncertainty quantification via prediction sets with exact finite-sample coverage. In low dimensions these sets are easy to interpret, but in high-dimensional or structured output spaces they are difficult to represent and use, which can limit their ability to integrate with downstream tasks such as sampling and probabilistic forecasting. We show that any differentiable nonconformity score induces a deterministic flow on the output space whose trajectories converge to the boundary of the corresponding conformal prediction set. This leads to a computationally efficient, training-free method for sampling conformal boundaries in arbitrary dimensions. Boundary samples can be reconformalized to form pointwise prediction sets with controlled risk and, optionally, repulsed along the boundary to improve geometric coverage. Mixing across confidence levels yields conformal predictive distributions whose quantile regions coincide exactly with conformal prediction sets. We evaluate the approach on PDE inverse problems, precipitation downscaling, climate model debiasing, and hurricane trajectory forecasting.",
+      "published_utc": "2026-02-07T17:26:50Z",
+      "updated_utc": "2026-02-24T13:19:00Z",
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.07633v2",
+      "abs_url": "http://arxiv.org/abs/2602.07633v2"
     }
   },
   "topics": {
@@ -7242,9 +7366,10 @@
         "2602.03986v1",
         "2505.18647v2",
         "2602.14780v1",
-        "2602.17926v1"
+        "2602.17926v1",
+        "2504.13647v2"
       ],
-      "latest_update": "2026-02-23"
+      "latest_update": "2026-02-25"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -7402,9 +7527,11 @@
         "2602.11214v1",
         "2602.14780v1",
         "2602.17231v1",
-        "2602.19768v1"
+        "2602.19768v1",
+        "2602.20923v1",
+        "2602.19768v2"
       ],
-      "latest_update": "2026-02-24"
+      "latest_update": "2026-02-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7480,9 +7607,10 @@
         "2601.10521v2",
         "2602.00993v1",
         "2601.02082v2",
-        "2602.14780v1"
+        "2602.14780v1",
+        "2503.01852v2"
       ],
-      "latest_update": "2026-02-17"
+      "latest_update": "2026-02-25"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -7617,9 +7745,12 @@
         "2602.12869v1",
         "2602.12549v1",
         "2602.14780v1",
-        "2602.17231v1"
+        "2602.17231v1",
+        "2602.20923v1",
+        "2602.20794v1",
+        "2602.07633v2"
       ],
-      "latest_update": "2026-02-20"
+      "latest_update": "2026-02-25"
     }
   }
 }

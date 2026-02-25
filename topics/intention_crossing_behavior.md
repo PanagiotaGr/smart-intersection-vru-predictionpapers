@@ -1,8 +1,8 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-02-24` (timezone: `Europe/Athens`)
+Updated: `2026-02-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **72**
+Total papers tracked: **73**
 
 ---
 
@@ -114,6 +114,9 @@ Total papers tracked: **72**
 - **INTENT: Trajectory Prediction Framework with Intention-Guided Contrastive Clustering**  
   *Yihong Tang, Wei Ma*  
   Published: `2025-03-06` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2503.04952v1) · [pdf](https://arxiv.org/pdf/2503.04952v1) · id: `2503.04952v1`
+- **Interaction-Aware Model Predictive Decision-Making for Socially-Compliant Autonomous Driving in Mixed Urban Traffic Scenarios**  
+  *Balint Varga, Thomas Brand, Marcus Schmitz, Ehsan Hashemi*  
+  Published: `2025-02-21` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2503.01852v2) · [pdf](https://arxiv.org/pdf/2503.01852v2) · id: `2503.01852v2`
 - **Getting SMARTER for Motion Planning in Autonomous Driving Systems**  
   *Montgomery Alban, Ehsan Ahmadi, Randy Goebel, Amir Rasouli*  
   Published: `2025-02-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2502.15824v1) · [pdf](https://arxiv.org/pdf/2502.15824v1) · id: `2502.15824v1`

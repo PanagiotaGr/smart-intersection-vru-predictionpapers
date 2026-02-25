@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-02-24` (timezone: `Europe/Athens`)
+Updated: `2026-02-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **91**
+Total papers tracked: **92**
 
 ---
 
@@ -105,6 +105,9 @@ Total papers tracked: **91**
 - **SocialMOIF: Multi-Order Intention Fusion for Pedestrian Trajectory Prediction**  
   *Kai Chen, Xiaodong Zhao, Yujie Huang, Guoyu Fang, Xiao Song, Ruiping Wang, Ziyuan Wang*  
   Published: `2025-04-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2504.15616v1) · [pdf](https://arxiv.org/pdf/2504.15616v1) · id: `2504.15616v1`
+- **An Efficient LiDAR-Camera Fusion Network for Multi-Class 3D Dynamic Object Detection and Trajectory Prediction**  
+  *Yushen He, Lei Zhao, Tianchen Deng, Zipeng Fang, Weidong Chen*  
+  Published: `2025-04-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2504.13647v2) · [pdf](https://arxiv.org/pdf/2504.13647v2) · id: `2504.13647v2`
 - **Lightweight LiDAR-Camera 3D Dynamic Object Detection and Multi-Class Trajectory Prediction**  
   *Yushen He, Lei Zhao, Tianchen Deng, Zipeng Fang, Weidong Chen*  
   Published: `2025-04-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2504.13647v1) · [pdf](https://arxiv.org/pdf/2504.13647v1) · id: `2504.13647v1`

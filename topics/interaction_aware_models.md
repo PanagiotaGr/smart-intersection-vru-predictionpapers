@@ -1,14 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-24` (timezone: `Europe/Athens`)
+Updated: `2026-02-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **116**
+Total papers tracked: **118**
 
 ---
 
+- **ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models**  
+  *Jiarong Wei, Anna Rehr, Christian Feist, Abhinav Valada*  
+  Published: `2026-02-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.20923v1) · [pdf](https://arxiv.org/pdf/2602.20923v1) · id: `2602.20923v1`
 - **TraceVision: Trajectory-Aware Vision-Language Model for Human-Like Spatial Understanding**  
   *Fan Yang, Shurong Zheng, Hongyin Zhao, Yufei Zhan, Xin Li, Yousong Zhu, Chaoyang Zhao Ming Tang, Jinqiao Wang*  
   Published: `2026-02-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.19768v1) · [pdf](https://arxiv.org/pdf/2602.19768v1) · id: `2602.19768v1`
+- **TraceVision: Trajectory-Aware Vision-Language Model for Human-Like Spatial Understanding**  
+  *Fan Yang, Shurong Zheng, Hongyin Zhao, Yufei Zhan, Xin Li, Yousong Zhu, Chaoyang Zhao Ming Tang, Jinqiao Wang*  
+  Published: `2026-02-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.19768v2) · [pdf](https://arxiv.org/pdf/2602.19768v2) · id: `2602.19768v2`
 - **HiMAP: History-aware Map-occupancy Prediction with Fallback**  
   *Yiming Xu, Yi Yang, Hao Cheng, Monika Sester*  
   Published: `2026-02-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.17231v1) · [pdf](https://arxiv.org/pdf/2602.17231v1) · id: `2602.17231v1`
