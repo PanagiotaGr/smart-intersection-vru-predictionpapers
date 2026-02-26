@@ -7270,6 +7270,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.07633v2",
       "abs_url": "http://arxiv.org/abs/2602.07633v2"
+    },
+    "2602.21319v1": {
+      "arxiv_id": "2602.21319v1",
+      "title": "Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling",
+      "authors": [
+        "Marion Neumeier",
+        "Niklas Roßberg",
+        "Michael Botsch",
+        "Wolfgang Utschick"
+      ],
+      "summary": "Accurate and uncertainty-aware trajectory prediction remains a core challenge for autonomous driving, driven by complex multi-agent interactions, diverse scene contexts and the inherently stochastic nature of future motion. Diffusion-based generative models have recently shown strong potential for capturing multimodal futures, yet existing approaches such as cVMD suffer from slow sampling, limited exploitation of generative diversity and brittle scenario encodings. This work introduces cVMDx, an enhanced diffusion-based trajectory prediction framework that improves efficiency, robustness and multimodal predictive capability. Through DDIM sampling, cVMDx achieves up to a 100x reduction in inference time, enabling practical multi-sample generation for uncertainty estimation. A fitted Gaussian Mixture Model further provides tractable multimodal predictions from the generated trajectories. In addition, a CVQ-VAE variant is evaluated for scenario encoding. Experiments on the publicly available highD dataset show that cVMDx achieves higher accuracy and significantly improved efficiency over cVMD, enabling fully stochastic, multimodal trajectory prediction.",
+      "published_utc": "2026-02-24T19:40:37Z",
+      "updated_utc": "2026-02-24T19:40:37Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.21319v1",
+      "abs_url": "http://arxiv.org/abs/2602.21319v1"
     }
   },
   "topics": {
@@ -7529,9 +7550,10 @@
         "2602.17231v1",
         "2602.19768v1",
         "2602.20923v1",
-        "2602.19768v2"
+        "2602.19768v2",
+        "2602.21319v1"
       ],
-      "latest_update": "2026-02-25"
+      "latest_update": "2026-02-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

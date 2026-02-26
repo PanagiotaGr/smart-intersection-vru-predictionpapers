@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-02-25` (timezone: `Europe/Athens`)
+Updated: `2026-02-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **118**
+Total papers tracked: **119**
 
 ---
 
+- **Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling**  
+  *Marion Neumeier, Niklas Roßberg, Michael Botsch, Wolfgang Utschick*  
+  Published: `2026-02-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.21319v1) · [pdf](https://arxiv.org/pdf/2602.21319v1) · id: `2602.21319v1`
 - **ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models**  
   *Jiarong Wei, Anna Rehr, Christian Feist, Abhinav Valada*  
   Published: `2026-02-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.20923v1) · [pdf](https://arxiv.org/pdf/2602.20923v1) · id: `2602.20923v1`
