@@ -7291,6 +7291,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.21319v1",
       "abs_url": "http://arxiv.org/abs/2602.21319v1"
+    },
+    "2602.23109v1": {
+      "arxiv_id": "2602.23109v1",
+      "title": "Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios",
+      "authors": [
+        "Kai Chen",
+        "Yuyao Huang",
+        "Guang Chen"
+      ],
+      "summary": "The sudden appearance of occluded pedestrians presents a critical safety challenge in autonomous driving. Conventional rule-based or purely data-driven approaches struggle with the inherent high uncertainty of these long-tail scenarios. To tackle this challenge, we propose a novel framework grounded in Active Inference, which endows the agent with a human-like, belief-driven mechanism. Our framework leverages a Rao-Blackwellized Particle Filter (RBPF) to efficiently estimate the pedestrian's hybrid state. To emulate human-like cognitive processes under uncertainty, we introduce a Conditional Belief Reset mechanism and a Hypothesis Injection technique to explicitly model beliefs about the pedestrian's multiple latent intentions. Planning is achieved via a Cross-Entropy Method (CEM) enhanced Model Predictive Path Integral (MPPI) controller, which synergizes the efficient, iterative search of CEM with the inherent robustness of MPPI. Simulation experiments demonstrate that our approach significantly reduces the collision rate compared to reactive, rule-based, and reinforcement learning (RL) baselines, while also exhibiting explainable and human-like driving behavior that reflects the agent's internal belief state.",
+      "published_utc": "2026-02-26T15:22:07Z",
+      "updated_utc": "2026-02-26T15:22:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.23109v1",
+      "abs_url": "http://arxiv.org/abs/2602.23109v1"
     }
   },
   "topics": {
@@ -7630,9 +7648,10 @@
         "2602.00993v1",
         "2601.02082v2",
         "2602.14780v1",
-        "2503.01852v2"
+        "2503.01852v2",
+        "2602.23109v1"
       ],
-      "latest_update": "2026-02-25"
+      "latest_update": "2026-02-27"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",

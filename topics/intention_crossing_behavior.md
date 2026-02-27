@@ -1,11 +1,14 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-02-26` (timezone: `Europe/Athens`)
+Updated: `2026-02-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **73**
+Total papers tracked: **74**
 
 ---
 
+- **Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios**  
+  *Kai Chen, Yuyao Huang, Guang Chen*  
+  Published: `2026-02-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.23109v1) · [pdf](https://arxiv.org/pdf/2602.23109v1) · id: `2602.23109v1`
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
