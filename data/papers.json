@@ -7309,6 +7309,46 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.23109v1",
       "abs_url": "http://arxiv.org/abs/2602.23109v1"
+    },
+    "2510.00060v3": {
+      "arxiv_id": "2510.00060v3",
+      "title": "Less is More: Lean yet Powerful Vision-Language Model for Autonomous Driving",
+      "authors": [
+        "Sheng Yang",
+        "Tong Zhan",
+        "Guancheng Chen",
+        "Yanfeng Lu",
+        "Jian Wang"
+      ],
+      "summary": "In this work, we reconceptualize autonomous driving as a generalized language problem and formulate the trajectory planning task as next waypoint prediction. We introduce Max-V1, a novel framework for one-stage end-to-end autonomous driving, named in tribute to the renowned Dutch racing driver Max Verstappen. Our framework presents a single-pass generation paradigm that aligns with the inherent sequentiality of driving. This approach leverages the generative capacity of the Vision-Language Model (VLM) to enable end-to-end trajectory prediction directly from front-view camera input. The efficacy of this method is underpinned by a principled supervision strategy derived from statistical modeling. This provides a well-defined learning objective, which makes the framework highly amenable to mastering complex driving policies through imitation learning from large-scale expert demonstrations. Empirically, our method achieves state-of-the-art performance on the nuScenes dataset, delivering an overall improvement of over 30% compared to prior baselines. Furthermore, it exhibits superior generalization performance on cross-domain datasets acquired from diverse vehicles, demonstrating notable potential for cross-vehicle robustness and adaptability. With these empirical strengths, this work introduces a model that enables fundamental driving behaviors, laying the foundation for the development of more capable self-driving agents. Code will be available upon publication.",
+      "published_utc": "2025-09-29T05:14:18Z",
+      "updated_utc": "2026-02-27T09:00:30Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.00060v3",
+      "abs_url": "http://arxiv.org/abs/2510.00060v3"
+    },
+    "2602.23109v2": {
+      "arxiv_id": "2602.23109v2",
+      "title": "Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios",
+      "authors": [
+        "Kai Chen",
+        "Yuyao Huang",
+        "Guang Chen"
+      ],
+      "summary": "The sudden appearance of occluded pedestrians presents a critical safety challenge in autonomous driving. Conventional rule-based or purely data-driven approaches struggle with the inherent high uncertainty of these long-tail scenarios. To tackle this challenge, we propose a novel framework grounded in Active Inference, which endows the agent with a human-like, belief-driven mechanism. Our framework leverages a Rao-Blackwellized Particle Filter (RBPF) to efficiently estimate the pedestrian's hybrid state. To emulate human-like cognitive processes under uncertainty, we introduce a Conditional Belief Reset mechanism and a Hypothesis Injection technique to explicitly model beliefs about the pedestrian's multiple latent intentions. Planning is achieved via a Cross-Entropy Method (CEM) enhanced Model Predictive Path Integral (MPPI) controller, which synergizes the efficient, iterative search of CEM with the inherent robustness of MPPI. Simulation experiments demonstrate that our approach significantly reduces the collision rate compared to reactive, rule-based, and reinforcement learning (RL) baselines, while also exhibiting explainable and human-like driving behavior that reflects the agent's internal belief state.",
+      "published_utc": "2026-02-26T15:22:07Z",
+      "updated_utc": "2026-02-27T02:36:06Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.23109v2",
+      "abs_url": "http://arxiv.org/abs/2602.23109v2"
     }
   },
   "topics": {
@@ -7569,9 +7609,10 @@
         "2602.19768v1",
         "2602.20923v1",
         "2602.19768v2",
-        "2602.21319v1"
+        "2602.21319v1",
+        "2510.00060v3"
       ],
-      "latest_update": "2026-02-26"
+      "latest_update": "2026-03-02"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7649,9 +7690,10 @@
         "2601.02082v2",
         "2602.14780v1",
         "2503.01852v2",
-        "2602.23109v1"
+        "2602.23109v1",
+        "2602.23109v2"
       ],
-      "latest_update": "2026-02-27"
+      "latest_update": "2026-03-02"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",

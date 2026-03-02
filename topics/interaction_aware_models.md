@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-01` (timezone: `Europe/Athens`)
+Updated: `2026-03-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **120**
 
 ---
 
@@ -213,6 +213,9 @@ Total papers tracked: **119**
 - **Less is More: Lean yet Powerful Vision-Language Model for Autonomous Driving**  
   *Sheng Yang, Tong Zhan, Guancheng Chen, Yanfeng Lu, Jian Wang*  
   Published: `2025-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.00060v2) · [pdf](https://arxiv.org/pdf/2510.00060v2) · id: `2510.00060v2`
+- **Less is More: Lean yet Powerful Vision-Language Model for Autonomous Driving**  
+  *Sheng Yang, Tong Zhan, Guancheng Chen, Yanfeng Lu, Jian Wang*  
+  Published: `2025-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.00060v3) · [pdf](https://arxiv.org/pdf/2510.00060v3) · id: `2510.00060v3`
 - **Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse-view Videos**  
   *Yingdong Hu, Yisheng He, Jinnan Chen, Weihao Yuan, Kejie Qiu, Zehong Lin, Siyu Zhu, Zilong Dong et al.*  
   Published: `2025-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.24209v1) · [pdf](https://arxiv.org/pdf/2509.24209v1) · id: `2509.24209v1`
