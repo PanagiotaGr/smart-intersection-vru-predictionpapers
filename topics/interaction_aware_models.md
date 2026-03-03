@@ -1,11 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-02` (timezone: `Europe/Athens`)
+Updated: `2026-03-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **120**
+Total papers tracked: **123**
 
 ---
 
+- **Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-03-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01864v1) · [pdf](https://arxiv.org/pdf/2603.01864v1) · id: `2603.01864v1`
+- **FoSS: Modeling Long Range Dependencies and Multimodal Uncertainty in Trajectory Prediction via Fourier State Space Integration**  
+  *Yizhou Huang, Gengze Jiang, Yihua Cheng, Kezhi Wang*  
+  Published: `2026-03-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01284v1) · [pdf](https://arxiv.org/pdf/2603.01284v1) · id: `2603.01284v1`
+- **Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation**  
+  *Michael Lu, Minh Bui, Xubo Lyu, Mo Chen*  
+  Published: `2026-03-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.01122v1) · [pdf](https://arxiv.org/pdf/2603.01122v1) · id: `2603.01122v1`
 - **Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling**  
   *Marion Neumeier, Niklas Roßberg, Michael Botsch, Wolfgang Utschick*  
   Published: `2026-02-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.21319v1) · [pdf](https://arxiv.org/pdf/2602.21319v1) · id: `2602.21319v1`

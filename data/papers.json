@@ -7349,6 +7349,63 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.23109v2",
       "abs_url": "http://arxiv.org/abs/2602.23109v2"
+    },
+    "2603.01864v1": {
+      "arxiv_id": "2603.01864v1",
+      "title": "Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling",
+      "authors": [
+        "Alexander Prutsch",
+        "David Schinagl",
+        "Horst Possegger"
+      ],
+      "summary": "Future trajectories of neighboring traffic agents have a significant influence on the path planning and decision-making of autonomous vehicles. While trajectory forecasting is a well-studied field, research mainly focuses on snapshot-based prediction, where each scenario is treated independently of its global temporal context. However, real-world autonomous driving systems need to operate in a continuous setting, requiring real-time processing of data streams with low latency and consistent predictions over successive timesteps. We leverage this continuous setting to propose a lightweight yet highly accurate streaming-based trajectory forecasting approach. We integrate valuable information from previous predictions with a novel endpoint-aware modeling scheme. Our temporal context propagation uses the trajectory endpoints of the previous forecasts as anchors to extract targeted scenario context encodings. Our approach efficiently guides its scene encoder to extract highly relevant context information without needing refinement iterations or segment-wise decoding. Our experiments highlight that our approach effectively relays information across consecutive timesteps. Unlike methods using multi-stage refinement processing, our approach significantly reduces inference latency, making it well-suited for real-world deployment. We achieve state-of-the-art streaming trajectory prediction results on the Argoverse~2 multi-agent and single-agent benchmarks, while requiring substantially fewer resources.",
+      "published_utc": "2026-03-02T13:44:23Z",
+      "updated_utc": "2026-03-02T13:44:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.01864v1",
+      "abs_url": "http://arxiv.org/abs/2603.01864v1"
+    },
+    "2603.01284v1": {
+      "arxiv_id": "2603.01284v1",
+      "title": "FoSS: Modeling Long Range Dependencies and Multimodal Uncertainty in Trajectory Prediction via Fourier State Space Integration",
+      "authors": [
+        "Yizhou Huang",
+        "Gengze Jiang",
+        "Yihua Cheng",
+        "Kezhi Wang"
+      ],
+      "summary": "Accurate trajectory prediction is vital for safe autonomous driving, yet existing approaches struggle to balance modeling power and computational efficiency. Attention-based architectures incur quadratic complexity with increasing agents, while recurrent models struggle to capture long-range dependencies and fine-grained local dynamics. Building upon this, we present FoSS, a dual-branch framework that unifies frequency-domain reasoning with linear-time sequence modeling. The frequency-domain branch performs a discrete Fourier transform to decompose trajectories into amplitude components encoding global intent and phase components capturing local variations, followed by a progressive helix reordering module that preserves spectral order; two selective state-space submodules, Coarse2Fine-SSM and SpecEvolve-SSM, refine spectral features with O(N) complexity. In parallel, a time-domain dynamic selective SSM reconstructs self-attention behavior in linear time to retain long-range temporal context. A cross-attention layer fuses temporal and spectral representations, while learnable queries generate multiple candidate trajectories, and a weighted fusion head expresses motion uncertainty. Experiments on Argoverse 1 and Argoverse 2 benchmarks demonstrate that FoSS achieves state-of-the-art accuracy while reducing computation by 22.5% and parameters by over 40%. Comprehensive ablations confirm the necessity of each component.",
+      "published_utc": "2026-03-01T21:38:59Z",
+      "updated_utc": "2026-03-01T21:38:59Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.01284v1",
+      "abs_url": "http://arxiv.org/abs/2603.01284v1"
+    },
+    "2603.01122v1": {
+      "arxiv_id": "2603.01122v1",
+      "title": "Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation",
+      "authors": [
+        "Michael Lu",
+        "Minh Bui",
+        "Xubo Lyu",
+        "Mo Chen"
+      ],
+      "summary": "As robots increasingly integrate into everyday environments, ensuring their safe navigation around humans becomes imperative. Efficient and safe motion planning requires robots to account for human behavior, particularly in constrained spaces such as grocery stores or care homes, where interactions with multiple individuals are common. Prior research has employed Bayesian frameworks to model human rationality based on navigational intent, enabling the prediction of probabilistic trajectories for planning purposes. In this work, we present a simple yet novel approach for confidence-aware prediction that treats future predictions as particles. This framework is highly parallelized and accelerated on an graphics processing unit (GPU). As a result, this enables longer-term predictions at a frequency of 125 Hz and can be easily extended for multi-human predictions. Compared to existing methods, our implementation supports finer prediction time steps, yielding more granular trajectory forecasts. This enhanced resolution allows motion planners to respond effectively to subtle changes in human behavior. We validate our approach through real-world experiments, demonstrating a robot safely navigating among multiple humans with diverse navigational goals. Our results highlight the methods potential for robust and efficient human-robot coexistence in dynamic environments.",
+      "published_utc": "2026-03-01T14:13:58Z",
+      "updated_utc": "2026-03-01T14:13:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.01122v1",
+      "abs_url": "http://arxiv.org/abs/2603.01122v1"
     }
   },
   "topics": {
@@ -7610,9 +7667,12 @@
         "2602.20923v1",
         "2602.19768v2",
         "2602.21319v1",
-        "2510.00060v3"
+        "2510.00060v3",
+        "2603.01864v1",
+        "2603.01284v1",
+        "2603.01122v1"
       ],
-      "latest_update": "2026-03-02"
+      "latest_update": "2026-03-03"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
