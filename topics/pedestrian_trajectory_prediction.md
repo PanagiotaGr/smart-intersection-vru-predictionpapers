@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-04` (timezone: `Europe/Athens`)
+Updated: `2026-03-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **92**
+Total papers tracked: **93**
 
 ---
 
@@ -93,6 +93,9 @@ Total papers tracked: **92**
 - **TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility**  
   *Marius Baden, Ahmed Abouelazm, Christian Hubschneider, Yin Wu, Daniel Slieter, J. Marius Zöllner*  
   Published: `2025-05-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.06743v3) · [pdf](https://arxiv.org/pdf/2505.06743v3) · id: `2505.06743v3`
+- **TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility**  
+  *Marius Baden, Ahmed Abouelazm, Christian Hubschneider, Yin Wu, Daniel Slieter, J. Marius Zöllner*  
+  Published: `2025-05-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.06743v4) · [pdf](https://arxiv.org/pdf/2505.06743v4) · id: `2505.06743v4`
 - **ParkDiffusion: Heterogeneous Multi-Agent Multi-Modal Trajectory Prediction for Automated Parking using Diffusion Models**  
   *Jiarong Wei, Niclas Vödisch, Anna Rehr, Christian Feist, Abhinav Valada*  
   Published: `2025-05-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.00586v2) · [pdf](https://arxiv.org/pdf/2505.00586v2) · id: `2505.00586v2`

@@ -1,8 +1,8 @@
 # Cyclist & Micromobility Prediction
 
-Updated: `2026-03-04` (timezone: `Europe/Athens`)
+Updated: `2026-03-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **32**
+Total papers tracked: **33**
 
 ---
 
@@ -18,6 +18,9 @@ Total papers tracked: **32**
 - **TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility**  
   *Marius Baden, Ahmed Abouelazm, Christian Hubschneider, Yin Wu, Daniel Slieter, J. Marius Zöllner*  
   Published: `2025-05-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.06743v3) · [pdf](https://arxiv.org/pdf/2505.06743v3) · id: `2505.06743v3`
+- **TPK: Trustworthy Trajectory Prediction Integrating Prior Knowledge For Interpretability and Kinematic Feasibility**  
+  *Marius Baden, Ahmed Abouelazm, Christian Hubschneider, Yin Wu, Daniel Slieter, J. Marius Zöllner*  
+  Published: `2025-05-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.06743v4) · [pdf](https://arxiv.org/pdf/2505.06743v4) · id: `2505.06743v4`
 - **BP-SGCN: Behavioral Pseudo-Label Informed Sparse Graph Convolution Network for Pedestrian and Heterogeneous Trajectory Prediction**  
   *Ruochen Li, Stamos Katsigiannis, Tae-Kyun Kim, Hubert P. H. Shum*  
   Published: `2025-02-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2502.14676v2) · [pdf](https://arxiv.org/pdf/2502.14676v2) · id: `2502.14676v2`
