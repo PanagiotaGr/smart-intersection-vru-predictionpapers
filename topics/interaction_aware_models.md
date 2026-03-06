@@ -1,11 +1,17 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-05` (timezone: `Europe/Athens`)
+Updated: `2026-03-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **123**
+Total papers tracked: **125**
 
 ---
 
+- **Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking**  
+  *Long Kiu Chung, David Isele, Faizan M. Tariq, Sangjae Bae, Shreyas Kousik, Jovin D'sa*  
+  Published: `2026-03-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.04695v1) · [pdf](https://arxiv.org/pdf/2603.04695v1) · id: `2603.04695v1`
+- **Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways**  
+  *Tom Legel, Dirk Söffker, Roland Schätzle, Kathrin Donandt*  
+  Published: `2026-03-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.04472v1) · [pdf](https://arxiv.org/pdf/2603.04472v1) · id: `2603.04472v1`
 - **Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-03-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01864v1) · [pdf](https://arxiv.org/pdf/2603.01864v1) · id: `2603.01864v1`

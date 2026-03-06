@@ -7428,6 +7428,69 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2505.06743v4",
       "abs_url": "http://arxiv.org/abs/2505.06743v4"
+    },
+    "2603.04695v1": {
+      "arxiv_id": "2603.04695v1",
+      "title": "Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking",
+      "authors": [
+        "Long Kiu Chung",
+        "David Isele",
+        "Faizan M. Tariq",
+        "Sangjae Bae",
+        "Shreyas Kousik",
+        "Jovin D'sa"
+      ],
+      "summary": "In many applications of social navigation, existing works have shown that predicting and reasoning about human intentions can help robotic agents make safer and more socially acceptable decisions. In this work, we study this problem for autonomous valet parking (AVP), where an autonomous vehicle ego agent must drop off its passengers, explore the parking lot, find a parking spot, negotiate for the spot with other vehicles, and park in the spot without human supervision. Specifically, we propose an AVP pipeline that selects parking spots by explicitly predicting where other agents are going to park from their motion history using learned models and probabilistic belief maps. To test this pipeline, we build a simulation environment with reactive agents and realistic modeling assumptions on the ego agent, such as occlusion-aware observations, and imperfect trajectory prediction. Simulation experiments show that our proposed method outperforms existing works that infer intentions from future predicted motion or embed them implicitly in end-to-end models, yielding better results in prediction accuracy, social acceptance, and task completion. Our key insight is that, in parking, where driving regulations are more lax, explicit intention prediction is crucial for reasoning about diverse and ambiguous long-term goals, which cannot be reliably inferred from short-term motion prediction alone, but can be effectively learned from motion history.",
+      "published_utc": "2026-03-05T00:21:44Z",
+      "updated_utc": "2026-03-05T00:21:44Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.04695v1",
+      "abs_url": "http://arxiv.org/abs/2603.04695v1"
+    },
+    "2603.04472v1": {
+      "arxiv_id": "2603.04472v1",
+      "title": "Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways",
+      "authors": [
+        "Tom Legel",
+        "Dirk Söffker",
+        "Roland Schätzle",
+        "Kathrin Donandt"
+      ],
+      "summary": "Accurate predictions of ship trajectories in crowded environments are essential to ensure safety in inland waterways traffic. Recent advances in deep learning promise increased accuracy even for complex scenarios. While the challenge of ship-to-ship awareness is being addressed with growing success, the explainability of these models is often overlooked, potentially obscuring an inaccurate logic and undermining the confidence in their reliability. This study examines an LSTM-based vessel trajectory prediction model by incorporating trained ship domain parameters that provide insight into the attention-based fusion of the interacting vessels' hidden states. This approach has previously been explored in the field of maritime shipping, yet the variety and complexity of encounters in inland waterways allow for a more profound analysis of the model's interpretability. The prediction performance of the proposed model variants are evaluated using standard displacement error statistics. Additionally, the plausibility of the generated ship domain values is analyzed. With an final displacement error of around 40 meters in a 5-minute prediction horizon, the model performs comparably to similar studies. Though the ship-to-ship attention architecture enhances prediction accuracy, the weights assigned to vessels in encounters using the learnt ship domain values deviate from the expectation. The observed accuracy improvements are thus not entirely driven by a causal relationship between a predicted trajectory and the trajectories of nearby ships. This finding underscores the model's explanatory capabilities through its intrinsically interpretable design. Future work will focus on utilizing the architecture for counterfactual analysis and on the incorporation of more sophisticated attention mechanisms.",
+      "published_utc": "2026-03-04T07:01:59Z",
+      "updated_utc": "2026-03-04T07:01:59Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.04472v1",
+      "abs_url": "http://arxiv.org/abs/2603.04472v1"
+    },
+    "2603.04914v1": {
+      "arxiv_id": "2603.04914v1",
+      "title": "U-OBCA: Uncertainty-Aware Optimization-Based Collision Avoidance via Wasserstein Distributionally Robust Chance Constraints",
+      "authors": [
+        "Zehao Wang",
+        "Yuxuan Tang",
+        "Han Zhang",
+        "Jingchuan Wang",
+        "Weidong Chen"
+      ],
+      "summary": "Uncertainties arising from localization error, trajectory prediction errors of the moving obstacles and environmental disturbances pose significant challenges to robot's safe navigation. Existing uncertainty-aware planners often approximate polygon-shaped robots and obstacles using simple geometric primitives such as circles or ellipses. Though computationally convenient, these approximations substantially shrink the feasible space, leading to overly conservative trajectories and even planning failure in narrow environments. In addition, many such methods rely on specific assumptions about noise distributions, which may not hold in practice and thus limit their performance guarantees. To address these limitations, we extend the Optimization-Based Collision Avoidance (OBCA) framework to an uncertainty-aware formulation, termed \\emph{U-OBCA}. The proposed method explicitly accounts for the collision risk between polygon-shaped robots and obstacles by formulating OBCA-based chance constraints, and hence avoiding geometric simplifications and reducing unnecessary conservatism. These probabilistic constraints are further tightened into deterministic nonlinear constraints under mild distributional assumptions, which can be solved efficiently by standard numerical optimization solvers. The proposed approach is validated through theoretical analysis, numerical simulations and real-world experiments. The results demonstrate that U-OBCA significantly mitigates the conservatism in trajectory planning and achieves higher navigation efficiency compared to existing baseline methods, particularly in narrow and cluttered environments.",
+      "published_utc": "2026-03-05T07:59:09Z",
+      "updated_utc": "2026-03-05T07:59:09Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY",
+        "math.OC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.04914v1",
+      "abs_url": "http://arxiv.org/abs/2603.04914v1"
     }
   },
   "topics": {
@@ -7694,9 +7757,11 @@
         "2510.00060v3",
         "2603.01864v1",
         "2603.01284v1",
-        "2603.01122v1"
+        "2603.01122v1",
+        "2603.04695v1",
+        "2603.04472v1"
       ],
-      "latest_update": "2026-03-03"
+      "latest_update": "2026-03-06"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7915,9 +7980,11 @@
         "2602.17231v1",
         "2602.20923v1",
         "2602.20794v1",
-        "2602.07633v2"
+        "2602.07633v2",
+        "2603.04914v1",
+        "2603.04472v1"
       ],
-      "latest_update": "2026-02-25"
+      "latest_update": "2026-03-06"
     }
   }
 }
