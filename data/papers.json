@@ -7491,6 +7491,80 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.04914v1",
       "abs_url": "http://arxiv.org/abs/2603.04914v1"
+    },
+    "2603.06231v1": {
+      "arxiv_id": "2603.06231v1",
+      "title": "TaPD: Temporal-adaptive Progressive Distillation for Observation-Adaptive Trajectory Forecasting in Autonomous Driving",
+      "authors": [
+        "Mingyu Fan",
+        "Yi Liu",
+        "Hao Zhou",
+        "Deheng Qian",
+        "Mohammad Haziq Khan",
+        "Matthias Raetsch"
+      ],
+      "summary": "Trajectory prediction is essential for autonomous driving, enabling vehicles to anticipate the motion of surrounding agents to support safe planning. However, most existing predictors assume fixed-length histories and suffer substantial performance degradation when observations are variable or extremely short in real-world settings (e.g., due to occlusion or a limited sensing range). We propose TaPD (Temporal-adaptive Progressive Distillation), a unified plug-and-play framework for observation-adaptive trajectory forecasting under variable history lengths. TaPD comprises two cooperative modules: an Observation-Adaptive Forecaster (OAF) for future prediction and a Temporal Backfilling Module (TBM) for explicit reconstruction of the past. OAF is built on progressive knowledge distillation (PKD), which transfers motion pattern knowledge from long-horizon \"teachers\" to short-horizon \"students\" via hierarchical feature regression, enabling short observations to recover richer motion context. We further introduce a cosine-annealed distillation weighting scheme to balance forecasting supervision and feature alignment, improving optimization stability and cross-length consistency. For extremely short histories where implicit alignment is insufficient, TBM backfills missing historical segments conditioned on scene evolution, producing context-rich trajectories that strengthen PKD and thereby improve OAF. We employ a decoupled pretrain-reconstruct-finetune protocol to preserve real-motion priors while adapting to backfilled inputs. Extensive experiments on Argoverse 1 and Argoverse 2 show that TaPD consistently outperforms strong baselines across all observation lengths, delivers especially large gains under very short inputs, and improves other predictors (e.g., HiVT) in a plug-and-play manner. Code will be available at https://github.com/zhouhao94/TaPD.",
+      "published_utc": "2026-03-06T12:51:32Z",
+      "updated_utc": "2026-03-06T12:51:32Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.06231v1",
+      "abs_url": "http://arxiv.org/abs/2603.06231v1"
+    },
+    "2603.05546v1": {
+      "arxiv_id": "2603.05546v1",
+      "title": "Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections",
+      "authors": [
+        "Kuo-Yi Chao",
+        "Erik Leo Haß",
+        "Melina Gegg",
+        "Jiajie Zhang",
+        "Ralph Raßhofer",
+        "Alois Christian Knoll"
+      ],
+      "summary": "Accurate and safety-conscious trajectory prediction is a key technology for intelligent transportation systems, especially in V2X-enabled urban environments with complex multi-agent interactions. In this paper, we created a digital twin-driven V2X trajectory prediction pipeline that jointly leverages cooperative perception from vehicles and infrastructure to forecast multi-agent motion at signalized intersections. The proposed model combines a Bi-LSTM-based generator with a structured training objective consisting of a standard mean squared error (MSE) loss and a novel twin loss. The twin loss encodes infrastructure constraints, collision avoidance, diversity across predicted modes, and rule-based priors derived from the digital twin. While the MSE term ensures point-wise accuracy, the twin loss penalizes traffic rule violations, predicted collisions, and mode collapse, guiding the model toward scene-consistent and safety-compliant predictions. We train and evaluate our approach on real-world V2X data sent from the intersection to the vehicle and collected in urban corridors. In addition to standard trajectory metrics (ADE, FDE), we introduce ITS-relevant safety indicators, including infrastructure and rule violation rates. Experimental results demonstrate that the proposed training scheme significantly reduces critical violations while maintaining comparable prediction accuracy and real-time performance, highlighting the potential of digital twin-driven multi-loss learning for V2X-enabled intelligent transportation systems.",
+      "published_utc": "2026-03-04T20:33:25Z",
+      "updated_utc": "2026-03-04T20:33:25Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.05546v1",
+      "abs_url": "http://arxiv.org/abs/2603.05546v1"
+    },
+    "2512.05270v2": {
+      "arxiv_id": "2512.05270v2",
+      "title": "XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control",
+      "authors": [
+        "Tianyi Wang",
+        "Jiseop Byeon",
+        "Ahmad Yehia",
+        "Yiming Xu",
+        "Jihyung Park",
+        "Tianyi Zeng",
+        "Sikai Chen",
+        "Ziran Wang",
+        "Junfeng Jiao",
+        "Christian Claudel"
+      ],
+      "summary": "As mobile robots increasingly operate alongside humans in shared workspaces, ensuring safe, efficient, and interpretable Human-Robot Interaction (HRI) has become a pressing challenge. While substantial progress has been devoted to human behavior prediction, limited attention has been paid to how humans perceive, interpret, and trust robots' inferences and how robots plan safe and efficient trajectories based on predicted human behaviors. To address these challenges, this paper presents XR-DT, an eXtended Reality-enhanced Digital Twin framework for mobile robots, which bridges physical and virtual spaces to enable bi-directional understanding between humans and robots. Our hierarchical XR-DT architecture integrates augmented-, virtual-, and mixed-reality layers, fusing real-time sensor data, simulated environments in the Unity game engine, and human feedback captured through wearable XR devices. Within this framework, we design a novel Human-Aware Model Predictive Path Integral (HA-MPPI) control model, an MPPI-based motion planner that incorporates ATLAS (Attention-based Trajectory Learning with Anticipatory Sensing), a multi-modal Transformer model designed for egocentric human trajectory prediction via XR headsets. Extensive real-world experimental results demonstrate accurate human trajectory prediction, and safe and efficient robot navigation, validating the HA-MPPI's effectiveness within the XR-DT framework. By embedding human behavior, environmental dynamics, and robot navigation into the XR-DT framework, our system enables interpretable, trustworthy, and adaptive HRI.",
+      "published_utc": "2025-12-04T21:49:14Z",
+      "updated_utc": "2026-03-06T01:02:59Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.05270v2",
+      "abs_url": "http://arxiv.org/abs/2512.05270v2"
     }
   },
   "topics": {
@@ -7759,9 +7833,12 @@
         "2603.01284v1",
         "2603.01122v1",
         "2603.04695v1",
-        "2603.04472v1"
+        "2603.04472v1",
+        "2603.06231v1",
+        "2603.05546v1",
+        "2512.05270v2"
       ],
-      "latest_update": "2026-03-06"
+      "latest_update": "2026-03-09"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -7982,9 +8059,10 @@
         "2602.20794v1",
         "2602.07633v2",
         "2603.04914v1",
-        "2603.04472v1"
+        "2603.04472v1",
+        "2603.05546v1"
       ],
-      "latest_update": "2026-03-06"
+      "latest_update": "2026-03-09"
     }
   }
 }

@@ -1,14 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-08` (timezone: `Europe/Athens`)
+Updated: `2026-03-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **128**
 
 ---
 
+- **TaPD: Temporal-adaptive Progressive Distillation for Observation-Adaptive Trajectory Forecasting in Autonomous Driving**  
+  *Mingyu Fan, Yi Liu, Hao Zhou, Deheng Qian, Mohammad Haziq Khan, Matthias Raetsch*  
+  Published: `2026-03-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.06231v1) · [pdf](https://arxiv.org/pdf/2603.06231v1) · id: `2603.06231v1`
 - **Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking**  
   *Long Kiu Chung, David Isele, Faizan M. Tariq, Sangjae Bae, Shreyas Kousik, Jovin D'sa*  
   Published: `2026-03-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.04695v1) · [pdf](https://arxiv.org/pdf/2603.04695v1) · id: `2603.04695v1`
+- **Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections**  
+  *Kuo-Yi Chao, Erik Leo Haß, Melina Gegg, Jiajie Zhang, Ralph Raßhofer, Alois Christian Knoll*  
+  Published: `2026-03-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.05546v1) · [pdf](https://arxiv.org/pdf/2603.05546v1) · id: `2603.05546v1`
 - **Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways**  
   *Tom Legel, Dirk Söffker, Roland Schätzle, Kathrin Donandt*  
   Published: `2026-03-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.04472v1) · [pdf](https://arxiv.org/pdf/2603.04472v1) · id: `2603.04472v1`
@@ -111,6 +117,9 @@ Total papers tracked: **125**
 - **XR-DT: Extended Reality-Enhanced Digital Twin for Agentic Mobile Robots**  
   *Tianyi Wang, Jiseop Byeon, Ahmad Yehia, Huihai Wang, Yiming Xu, Tianyi Zeng, Ziran Wang, Junfeng Jiao et al.*  
   Published: `2025-12-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.05270v1) · [pdf](https://arxiv.org/pdf/2512.05270v1) · id: `2512.05270v1`
+- **XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control**  
+  *Tianyi Wang, Jiseop Byeon, Ahmad Yehia, Yiming Xu, Jihyung Park, Tianyi Zeng, Sikai Chen, Ziran Wang et al.*  
+  Published: `2025-12-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.05270v2) · [pdf](https://arxiv.org/pdf/2512.05270v2) · id: `2512.05270v2`
 - **Contact-Implicit Modeling and Simulation of a Snake Robot on Compliant and Granular Terrain**  
   *Haroon Hublikar*  
   Published: `2025-12-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.05008v1) · [pdf](https://arxiv.org/pdf/2512.05008v1) · id: `2512.05008v1`

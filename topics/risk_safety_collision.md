@@ -1,14 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-08` (timezone: `Europe/Athens`)
+Updated: `2026-03-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
 - **U-OBCA: Uncertainty-Aware Optimization-Based Collision Avoidance via Wasserstein Distributionally Robust Chance Constraints**  
   *Zehao Wang, Yuxuan Tang, Han Zhang, Jingchuan Wang, Weidong Chen*  
   Published: `2026-03-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.04914v1) · [pdf](https://arxiv.org/pdf/2603.04914v1) · id: `2603.04914v1`
+- **Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections**  
+  *Kuo-Yi Chao, Erik Leo Haß, Melina Gegg, Jiajie Zhang, Ralph Raßhofer, Alois Christian Knoll*  
+  Published: `2026-03-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.05546v1) · [pdf](https://arxiv.org/pdf/2603.05546v1) · id: `2603.05546v1`
 - **Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways**  
   *Tom Legel, Dirk Söffker, Roland Schätzle, Kathrin Donandt*  
   Published: `2026-03-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.04472v1) · [pdf](https://arxiv.org/pdf/2603.04472v1) · id: `2603.04472v1`
