@@ -7565,6 +7565,84 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2512.05270v2",
       "abs_url": "http://arxiv.org/abs/2512.05270v2"
+    },
+    "2603.08658v1": {
+      "arxiv_id": "2603.08658v1",
+      "title": "Context-free Self-Conditioned GAN for Trajectory Forecasting",
+      "authors": [
+        "Tiago Rodrigues de Almeida",
+        "Eduardo Gutierrez Maestro",
+        "Oscar Martinez Mozos"
+      ],
+      "summary": "In this paper, we present a context-free unsupervised approach based on a self-conditioned GAN to learn different modes from 2D trajectories. Our intuition is that each mode indicates a different behavioral moving pattern in the discriminator's feature space. We apply this approach to the problem of trajectory forecasting. We present three different training settings based on self-conditioned GAN, which produce better forecasters. We test our method in two data sets: human motion and road agents. Experimental results show that our approach outperforms previous context-free methods in the least representative supervised labels while performing well in the remaining labels. In addition, our approach outperforms globally in human motion, while performing well in road agents.",
+      "published_utc": "2026-03-09T17:37:03Z",
+      "updated_utc": "2026-03-09T17:37:03Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.08658v1",
+      "abs_url": "http://arxiv.org/abs/2603.08658v1"
+    },
+    "2603.07989v1": {
+      "arxiv_id": "2603.07989v1",
+      "title": "AutoTraces: Autoregressive Trajectory Forecasting via Multimodal Large Language Models",
+      "authors": [
+        "Teng Wang",
+        "Yanting Lu",
+        "Ruize Wang"
+      ],
+      "summary": "We present AutoTraces, an autoregressive vision-language-trajectory model for robot trajectory forecasting in humam-populated environments, which harnesses the inherent reasoning capabilities of large language models (LLMs) to model complex human behaviors. In contrast to prior works that rely solely on textual representations, our key innovation lies in a novel trajectory tokenization scheme, which represents waypoints with point tokens as categorical and positional markers while encoding waypoint numerical values as corresponding point embeddings, seamlessly integrated into the LLM's space through a lightweight encoder-decoder architecture. This design preserves the LLM's native autoregressive generation mechanism while extending it to physical coordinate spaces, facilitates modeling of long-term interactions in trajectory data. We further introduce an automated chain-of-thought (CoT) generation mechanism that leverages a multimodal LLM to infer spatio-temporal relationships from visual observations and trajectory data, eliminating reliance on manual annotation. Through a two-stage training strategy, our AutoTraces achieves SOTA forecasting accuracy, particularly in long-horizon prediction, while exhibiting strong cross-scene generalization and supporting flexible-length forecasting.",
+      "published_utc": "2026-03-09T05:53:06Z",
+      "updated_utc": "2026-03-09T05:53:06Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.07989v1",
+      "abs_url": "http://arxiv.org/abs/2603.07989v1"
+    },
+    "2603.07338v1": {
+      "arxiv_id": "2603.07338v1",
+      "title": "A Lightweight Digital-Twin-Based Framework for Edge-Assisted Vehicle Tracking and Collision Prediction",
+      "authors": [
+        "Murat Arda Onsu",
+        "Poonam Lohan",
+        "Burak Kantarci",
+        "Aisha Syed",
+        "Matthew Andrews",
+        "Sean Kennedy"
+      ],
+      "summary": "Vehicle tracking, motion estimation, and collision prediction are fundamental components of traffic safety and management in Intelligent Transportation Systems (ITS). Many recent approaches rely on computationally intensive prediction models, which limits their practical deployment on resource-constrained edge devices. This paper presents a lightweight digital-twin-based framework for vehicle tracking and spatiotemporal collision prediction that relies solely on object detection, without requiring complex trajectory prediction networks. The framework is implemented and evaluated in Quanser Interactive Labs (QLabs), a high-fidelity digital twin of an urban traffic environment that enables controlled and repeatable scenario generation. A YOLO-based detector is deployed on simulated edge cameras to localize vehicles and extract frame-level centroid trajectories. Offline path maps are constructed from multiple traversals and indexed using K-D trees to support efficient online association between detected vehicles and road segments. During runtime, consistent vehicle identifiers are maintained, vehicle speed and direction are estimated from the temporal evolution of path indices, and future positions are predicted accordingly. Potential collisions are identified by analyzing both spatial proximity and temporal overlap of predicted future trajectories. Our experimental results across diverse simulated urban scenarios show that the proposed framework predicts approximately 88% of collision events prior to occurrence while maintaining low computational overhead suitable for edge deployment. Rather than introducing a computationally intensive prediction model, this work introduces a lightweight digital-twin-based solution for vehicle tracking and collision prediction, tailored for real-time edge deployment in ITS.",
+      "published_utc": "2026-03-07T20:56:04Z",
+      "updated_utc": "2026-03-07T20:56:04Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.NI",
+        "cs.RO",
+        "eess.SP"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.07338v1",
+      "abs_url": "http://arxiv.org/abs/2603.07338v1"
+    },
+    "2603.07096v1": {
+      "arxiv_id": "2603.07096v1",
+      "title": "Towards Scalable Probabilistic Human Motion Prediction with Gaussian Processes for Safe Human-Robot Collaboration",
+      "authors": [
+        "Jinger Chong",
+        "Xiaotong Zhang",
+        "Kamal Youcef-Toumi"
+      ],
+      "summary": "Accurate human motion prediction with well-calibrated uncertainty is critical for safe human-robot collaboration (HRC), where robots must anticipate and react to human movements in real time. We propose a structured multitask variational Gaussian Process (GP) framework for full-body human motion prediction that captures temporal correlations and leverages joint-dimension-level factorization for scalability, while using a continuous 6D rotation representation to preserve kinematic consistency. Evaluated on Human3.6M (H3.6M), our model achieves up to 50 lower kernel density estimate negative log-likelihood (KDE NLL) than strong baselines, a mean continuous ranked probability score (CRPS) of 0.021 m, and deterministic mean angle error (MAE) that is 3-18% higher than competitive deep learning methods. Empirical coverage analysis shows that the fraction of ground-truth outcomes contained within predicted confidence intervals gradually decreases with horizon, remaining conservative for lower-confidence intervals and near-nominal for higher-confidence intervals, with only modest calibration drift at longer horizons. Despite its probabilistic formulation, our model requires only 0.24-0.35 M parameters, roughly eight times fewer than comparable approaches, and exhibits modest inference times, indicating suitability for real-time deployment. Extensive ablation studies further validated the choice of 6D rotation representation and Matern 3/2 + Linear kernel, and guided the selection of the number of inducing points and latent dimensionality. These results demonstrate that scalable GP-based models can deliver competitive accuracy together with reliable and interpretable uncertainty estimates for downstream robotics tasks such as motion planning and collision avoidance.",
+      "published_utc": "2026-03-07T08:11:46Z",
+      "updated_utc": "2026-03-07T08:11:46Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.07096v1",
+      "abs_url": "http://arxiv.org/abs/2603.07096v1"
     }
   },
   "topics": {
@@ -7836,9 +7914,12 @@
         "2603.04472v1",
         "2603.06231v1",
         "2603.05546v1",
-        "2512.05270v2"
+        "2512.05270v2",
+        "2603.08658v1",
+        "2603.07989v1",
+        "2603.07338v1"
       ],
-      "latest_update": "2026-03-09"
+      "latest_update": "2026-03-11"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8060,9 +8141,11 @@
         "2602.07633v2",
         "2603.04914v1",
         "2603.04472v1",
-        "2603.05546v1"
+        "2603.05546v1",
+        "2603.07338v1",
+        "2603.07096v1"
       ],
-      "latest_update": "2026-03-09"
+      "latest_update": "2026-03-11"
     }
   }
 }

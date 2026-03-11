@@ -1,11 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-09` (timezone: `Europe/Athens`)
+Updated: `2026-03-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **128**
+Total papers tracked: **131**
 
 ---
 
+- **Context-free Self-Conditioned GAN for Trajectory Forecasting**  
+  *Tiago Rodrigues de Almeida, Eduardo Gutierrez Maestro, Oscar Martinez Mozos*  
+  Published: `2026-03-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.08658v1) · [pdf](https://arxiv.org/pdf/2603.08658v1) · id: `2603.08658v1`
+- **AutoTraces: Autoregressive Trajectory Forecasting via Multimodal Large Language Models**  
+  *Teng Wang, Yanting Lu, Ruize Wang*  
+  Published: `2026-03-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.07989v1) · [pdf](https://arxiv.org/pdf/2603.07989v1) · id: `2603.07989v1`
+- **A Lightweight Digital-Twin-Based Framework for Edge-Assisted Vehicle Tracking and Collision Prediction**  
+  *Murat Arda Onsu, Poonam Lohan, Burak Kantarci, Aisha Syed, Matthew Andrews, Sean Kennedy*  
+  Published: `2026-03-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.07338v1) · [pdf](https://arxiv.org/pdf/2603.07338v1) · id: `2603.07338v1`
 - **TaPD: Temporal-adaptive Progressive Distillation for Observation-Adaptive Trajectory Forecasting in Autonomous Driving**  
   *Mingyu Fan, Yi Liu, Hao Zhou, Deheng Qian, Mohammad Haziq Khan, Matthias Raetsch*  
   Published: `2026-03-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.06231v1) · [pdf](https://arxiv.org/pdf/2603.06231v1) · id: `2603.06231v1`

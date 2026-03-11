@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-09` (timezone: `Europe/Athens`)
+Updated: `2026-03-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **137**
+Total papers tracked: **139**
 
 ---
 
+- **A Lightweight Digital-Twin-Based Framework for Edge-Assisted Vehicle Tracking and Collision Prediction**  
+  *Murat Arda Onsu, Poonam Lohan, Burak Kantarci, Aisha Syed, Matthew Andrews, Sean Kennedy*  
+  Published: `2026-03-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.07338v1) · [pdf](https://arxiv.org/pdf/2603.07338v1) · id: `2603.07338v1`
+- **Towards Scalable Probabilistic Human Motion Prediction with Gaussian Processes for Safe Human-Robot Collaboration**  
+  *Jinger Chong, Xiaotong Zhang, Kamal Youcef-Toumi*  
+  Published: `2026-03-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.07096v1) · [pdf](https://arxiv.org/pdf/2603.07096v1) · id: `2603.07096v1`
 - **U-OBCA: Uncertainty-Aware Optimization-Based Collision Avoidance via Wasserstein Distributionally Robust Chance Constraints**  
   *Zehao Wang, Yuxuan Tang, Han Zhang, Jingchuan Wang, Weidong Chen*  
   Published: `2026-03-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.04914v1) · [pdf](https://arxiv.org/pdf/2603.04914v1) · id: `2603.04914v1`
