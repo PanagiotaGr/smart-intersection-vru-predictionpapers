@@ -7643,6 +7643,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.07096v1",
       "abs_url": "http://arxiv.org/abs/2603.07096v1"
+    },
+    "2603.10407v1": {
+      "arxiv_id": "2603.10407v1",
+      "title": "Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning",
+      "authors": [
+        "Fatemeh Cheraghi Pouria",
+        "Mahsa Golchoubian",
+        "Katherine Driggs-Campbell"
+      ],
+      "summary": "Accurate trajectory prediction is critical for safe autonomous navigation in crowded environments. While many trajectory predictors output Gaussian distributions to represent the multi-modal distribution over future pedestrian positions, the reliability of their confidence levels often remains unaddressed. This limitation can lead to unsafe or overly conservative motion planning when the predictor is integrated with an uncertainty-aware planner. Existing Gaussian trajectory predictors primarily rely on the Negative Log-Likelihood loss, which is prone to predict over- or under-confident distributions, and may compromise downstream planner safety. This paper introduces a novel loss function for calibrating prediction uncertainty which leverages Kernel Density Estimation to estimate the empirical distribution of confidence levels. The proposed formulation enforces consistency with the properties of a Gaussian assumption by explicitly matching the estimated empirical distribution to the Chi-squared distribution. To ensure accurate mean prediction, a Mean Squared Error term is also incorporated in the final loss formulation. Experimental results on real-world trajectory datasets show that our method significantly improves the reliability of confidence levels predicted by different State-Of-The-Art Gaussian trajectory predictors. We also demonstrate the importance of providing planners with reliable probabilistic insights (i.e. calibrated confidence levels) for collision-free navigation in complex scenarios. For this purpose, we integrate Gaussian trajectory predictors trained with our loss function with an uncertainty-aware Model Predictive Control on scenarios extracted from real-world datasets, achieving improved planning performance through calibrated confidence levels.",
+      "published_utc": "2026-03-11T04:42:49Z",
+      "updated_utc": "2026-03-11T04:42:49Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.10407v1",
+      "abs_url": "http://arxiv.org/abs/2603.10407v1"
     }
   },
   "topics": {
@@ -7741,9 +7759,10 @@
         "2602.14780v1",
         "2602.17926v1",
         "2504.13647v2",
-        "2505.06743v4"
+        "2505.06743v4",
+        "2603.10407v1"
       ],
-      "latest_update": "2026-03-05"
+      "latest_update": "2026-03-12"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -8143,9 +8162,10 @@
         "2603.04472v1",
         "2603.05546v1",
         "2603.07338v1",
-        "2603.07096v1"
+        "2603.07096v1",
+        "2603.10407v1"
       ],
-      "latest_update": "2026-03-11"
+      "latest_update": "2026-03-12"
     }
   }
 }

@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-11` (timezone: `Europe/Athens`)
+Updated: `2026-03-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **93**
+Total papers tracked: **94**
 
 ---
 
+- **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
+  *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
+  Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`
 - **Homotopic information gain for sparse active target tracking**  
   *Jennifer Wakulicz, Ki Myung Brian Lee, Teresa Vidal-Calleja, Robert Fitch*  
   Published: `2026-02-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.17926v1) · [pdf](https://arxiv.org/pdf/2602.17926v1) · id: `2602.17926v1`
