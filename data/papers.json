@@ -7661,6 +7661,23 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.10407v1",
       "abs_url": "http://arxiv.org/abs/2603.10407v1"
+    },
+    "2603.12421v1": {
+      "arxiv_id": "2603.12421v1",
+      "title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "authors": [
+        "Hongyan Wei",
+        "Wael AbdAlmageed"
+      ],
+      "summary": "Existing end-to-end autonomous driving models rely heavily on purely data-driven inductive reasoning. This \"black-box\" nature leads to a lack of interpretability and absolute safety guarantees in complex, long-tail scenarios. To overcome this bottleneck, we propose a novel neuro-symbolic trajectory planning framework that seamlessly integrates rigorous deductive reasoning into end-to-end neural networks. Specifically, our framework utilizes a Large Language Model (LLM) to dynamically extract scene rules and employs an Answer Set Programming (ASP) solver for deterministic logical arbitration, generating safe and traceable discrete driving decisions. To bridge the gap between discrete symbols and continuous trajectories, we introduce a decision-conditioned decoding mechanism that transforms high-level logical decisions into learnable embedding vectors, simultaneously constraining the planning query and the physical initial velocity of a differentiable Kinematic Bicycle Model (KBM). By combining KBM-generated physical baseline trajectories with neural residual corrections, our approach inherently guarantees kinematic feasibility while ensuring a high degree of transparency. On the nuScenes benchmark, our method comprehensively outperforms the state-of-the-art baseline MomAD, reducing the L2 mean error to 0.57 m, decreasing the collision rate to 0.075%, and optimizing trajectory prediction consistency (TPC) to 0.47 m.",
+      "published_utc": "2026-03-12T20:09:18Z",
+      "updated_utc": "2026-03-12T20:09:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.12421v1",
+      "abs_url": "http://arxiv.org/abs/2603.12421v1"
     }
   },
   "topics": {
@@ -7799,9 +7816,10 @@
         "1812.04767v4",
         "1811.02146v5",
         "1601.00998v1",
-        "2505.06743v4"
+        "2505.06743v4",
+        "2603.12421v1"
       ],
-      "latest_update": "2026-03-05"
+      "latest_update": "2026-03-16"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -8163,9 +8181,10 @@
         "2603.05546v1",
         "2603.07338v1",
         "2603.07096v1",
-        "2603.10407v1"
+        "2603.10407v1",
+        "2603.12421v1"
       ],
-      "latest_update": "2026-03-12"
+      "latest_update": "2026-03-16"
     }
   }
 }

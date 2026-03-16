@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-15` (timezone: `Europe/Athens`)
+Updated: `2026-03-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
+- **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
+  *Hongyan Wei, Wael AbdAlmageed*  
+  Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v1) · [pdf](https://arxiv.org/pdf/2603.12421v1) · id: `2603.12421v1`
 - **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
   *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
   Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`

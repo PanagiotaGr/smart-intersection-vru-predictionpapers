@@ -1,11 +1,14 @@
 # Cyclist & Micromobility Prediction
 
-Updated: `2026-03-15` (timezone: `Europe/Athens`)
+Updated: `2026-03-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **33**
+Total papers tracked: **34**
 
 ---
 
+- **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
+  *Hongyan Wei, Wael AbdAlmageed*  
+  Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v1) · [pdf](https://arxiv.org/pdf/2603.12421v1) · id: `2603.12421v1`
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
