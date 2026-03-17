@@ -7678,6 +7678,107 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.12421v1",
       "abs_url": "http://arxiv.org/abs/2603.12421v1"
+    },
+    "2603.14739v1": {
+      "arxiv_id": "2603.14739v1",
+      "title": "TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective",
+      "authors": [
+        "Yusheng Peng",
+        "Gaofeng Zhang",
+        "Liping Zheng"
+      ],
+      "summary": "Future trajectory prediction of a tracked pedestrian from an egocentric perspective is a key task in areas such as autonomous driving and robot navigation. The challenge of this task lies in the complex dynamic relative motion between the ego-camera and the tracked pedestrian. To address this challenge, we propose an ego-motion-guided trajectory prediction network based on the Mamba model. Firstly, two Mamba models are used as encoders to extract pedestrian motion and ego-motion features from pedestrian movement and ego-vehicle movement, respectively. Then, an ego-motion guided Mamba decoder that explicitly models the relative motion between the pedestrian and the vehicle by integrating pedestrian motion features as historical context with ego-motion features as guiding cues to capture decoded features. Finally, the future trajectory is generated from the decoded features corresponding to the future timestamps. Extensive experiments demonstrate the effectiveness of the proposed model, which achieves state-of-the-art performance on the PIE and JAAD datasets.",
+      "published_utc": "2026-03-16T02:28:45Z",
+      "updated_utc": "2026-03-16T02:28:45Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.14739v1",
+      "abs_url": "http://arxiv.org/abs/2603.14739v1"
+    },
+    "2603.14605v1": {
+      "arxiv_id": "2603.14605v1",
+      "title": "CyboRacket: A Perception-to-Action Framework for Humanoid Racket Sports",
+      "authors": [
+        "Peng Ren",
+        "Chuan Qi",
+        "Haoyang Ge",
+        "Qiyuan Su",
+        "Xuguo He",
+        "Cong Huang",
+        "Pei Chi",
+        "Jiang Zhao",
+        "Kai Chen"
+      ],
+      "summary": "Dynamic ball-interaction tasks remain challenging for robots because they require tight perception-action coupling under limited reaction time. This challenge is especially pronounced in humanoid racket sports, where successful interception depends on accurate visual tracking, trajectory prediction, coordinated stepping, and stable whole-body striking. Existing robotic racket-sport systems often rely on external motion capture for state estimation or on task-specific low-level controllers that must be retrained across tasks and platforms. We present CyboRacket, a hierarchical perception-to-action framework for humanoid racket sports that integrates onboard visual perception, physics-based trajectory prediction, and large-scale pre-trained whole-body control. The framework uses onboard cameras to track the incoming object, predicts its future trajectory, and converts the estimated interception state into target end-effector and base-motion commands for whole-body execution by SONIC on the Unitree G1 humanoid robot. We evaluate the proposed framework in a vision-based humanoid tennis-hitting task. Experimental results demonstrate real-time visual tracking, trajectory prediction, and successful striking using purely onboard sensing.",
+      "published_utc": "2026-03-15T21:01:14Z",
+      "updated_utc": "2026-03-15T21:01:14Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.14605v1",
+      "abs_url": "http://arxiv.org/abs/2603.14605v1"
+    },
+    "2603.14603v1": {
+      "arxiv_id": "2603.14603v1",
+      "title": "Latent Dynamics-Aware OOD Monitoring for Trajectory Prediction with Provable Guarantees",
+      "authors": [
+        "Tongfei Guo",
+        "Lili Su"
+      ],
+      "summary": "In safety-critical Cyber-Physical Systems (CPS), accurate trajectory prediction provides vital guidance for downstream planning and control, yet although deep learning models achieve high-fidelity forecasts on validation data, their reliability degrades under out-of-distribution (OOD) scenarios caused by environmental uncertainty or rare traffic behaviors in real-world deployment; detecting such OOD events is challenging due to evolving traffic conditions and changing interaction patterns, while safety-critical applications demand formal guarantees on detection delay and false-alarm rates, motivating us-following recent work [1]-to formulate OOD monitoring for trajectory prediction as a quickest changepoint detection (QCD) problem that offers a principled statistical framework with established theory; we further observe that the real-world evolution of prediction errors under in-distribution (ID) conditions can be effectively modeled by a Hidden Markov Model (HMM), and by leveraging this structure we extend the cumulative Maximum Mean Discrepancy approach to enable detection without requiring explicit knowledge of the post-change distribution while still admitting provable guarantees on delay and false alarms, with experiments on three real-world driving datasets demonstrating reduced detection delay and robustness to heavy-tailed errors and unknown post-change conditions.",
+      "published_utc": "2026-03-15T20:56:57Z",
+      "updated_utc": "2026-03-15T20:56:57Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.14603v1",
+      "abs_url": "http://arxiv.org/abs/2603.14603v1"
+    },
+    "2603.13869v1": {
+      "arxiv_id": "2603.13869v1",
+      "title": "TransDex: Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects",
+      "authors": [
+        "Fengguan Li",
+        "Yifan Ma",
+        "Chen Qian",
+        "Wentao Rao",
+        "Weiwei Shang"
+      ],
+      "summary": "Dexterous manipulation enables complex tasks but suffers from self-occlusion, severe depth noise, and depth information loss when manipulating transparent objects. To solve this problem, this paper proposes TransDex, a 3D visuo-tactile fusion motor policy based on point cloud reconstruction pre-training. Specifically, we first propose a self-supervised point cloud reconstruction pre-training approach based on Transformer. This method accurately recovers the 3D structure of objects from interactive point clouds of dexterous hands, even when random noise and large-scale masking are added. Building on this, TransDex is constructed in which perceptual encoding adopts a fine-grained hierarchical scheme and multi-round attention mechanisms adaptively fuse features of the robotic arm and dexterous hand to enable differentiated motion prediction. Results from transparent object manipulation experiments conducted on a real robotic system demonstrate that TransDex outperforms existing baseline methods. Further analysis validates the generalization capabilities of TransDex and the effectiveness of its individual components.",
+      "published_utc": "2026-03-14T09:59:34Z",
+      "updated_utc": "2026-03-14T09:59:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.13869v1",
+      "abs_url": "http://arxiv.org/abs/2603.13869v1"
+    },
+    "2603.13698v1": {
+      "arxiv_id": "2603.13698v1",
+      "title": "SAATT Nav: a Socially Aware Autonomous Transparent Transportation Navigation Framework for Wheelchairs",
+      "authors": [
+        "Yutong Zhang",
+        "Shaiv Y. Mehra",
+        "Bradley S. Duerstock",
+        "Juan P. Wachs"
+      ],
+      "summary": "While powered wheelchairs reduce physical fatigue as opposed to manual wheelchairs for individuals with mobility impairment, they demand high cognitive workload due to information processing, decision making and motor coordination. Current autonomous systems lack social awareness in navigation and transparency in decision-making, leading to decreased perceived safety and trust from the user and others in context. This work proposes Socially Aware Autonomous Transparent Transportation (SAATT) Navigation framework for wheelchairs as a potential solution. By implementing a Large Language Model (LLM) informed of user intent and capable of predicting other peoples' intent as a decision-maker for its local controller, it is able to detect and navigate social situations, such as passing pedestrians or a pair conversing. Furthermore, the LLM textually communicates its reasoning at each waypoint for transparency. In this experiment, it is compared against a standard global planner, a representative competing social navigation model, and an Ablation study in three simulated environments varied by social levels in eight metrics categorized under Safety, Social Compliance, Efficiency, and Comfort. Overall, SAATT Nav outperforms in most social situations and equivalently or only slightly worse in the remaining metrics, demonstrating the potential of a socially aware and transparent autonomous navigation system to assist wheelchair users.",
+      "published_utc": "2026-03-14T02:13:58Z",
+      "updated_utc": "2026-03-14T02:13:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.13698v1",
+      "abs_url": "http://arxiv.org/abs/2603.13698v1"
     }
   },
   "topics": {
@@ -7777,9 +7878,10 @@
         "2602.17926v1",
         "2504.13647v2",
         "2505.06743v4",
-        "2603.10407v1"
+        "2603.10407v1",
+        "2603.14739v1"
       ],
-      "latest_update": "2026-03-12"
+      "latest_update": "2026-03-17"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -7954,9 +8056,12 @@
         "2512.05270v2",
         "2603.08658v1",
         "2603.07989v1",
-        "2603.07338v1"
+        "2603.07338v1",
+        "2603.14605v1",
+        "2603.14603v1",
+        "2603.13869v1"
       ],
-      "latest_update": "2026-03-11"
+      "latest_update": "2026-03-17"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8035,9 +8140,10 @@
         "2602.14780v1",
         "2503.01852v2",
         "2602.23109v1",
-        "2602.23109v2"
+        "2602.23109v2",
+        "2603.13698v1"
       ],
-      "latest_update": "2026-03-02"
+      "latest_update": "2026-03-17"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -8182,9 +8288,10 @@
         "2603.07338v1",
         "2603.07096v1",
         "2603.10407v1",
-        "2603.12421v1"
+        "2603.12421v1",
+        "2603.14603v1"
       ],
-      "latest_update": "2026-03-16"
+      "latest_update": "2026-03-17"
     }
   }
 }

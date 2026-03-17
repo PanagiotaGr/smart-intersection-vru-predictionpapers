@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-16` (timezone: `Europe/Athens`)
+Updated: `2026-03-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **141**
+Total papers tracked: **142**
 
 ---
 
+- **Latent Dynamics-Aware OOD Monitoring for Trajectory Prediction with Provable Guarantees**  
+  *Tongfei Guo, Lili Su*  
+  Published: `2026-03-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.14603v1) · [pdf](https://arxiv.org/pdf/2603.14603v1) · id: `2603.14603v1`
 - **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
   *Hongyan Wei, Wael AbdAlmageed*  
   Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v1) · [pdf](https://arxiv.org/pdf/2603.12421v1) · id: `2603.12421v1`

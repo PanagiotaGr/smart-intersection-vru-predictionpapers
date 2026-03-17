@@ -1,11 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-16` (timezone: `Europe/Athens`)
+Updated: `2026-03-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **131**
+Total papers tracked: **134**
 
 ---
 
+- **CyboRacket: A Perception-to-Action Framework for Humanoid Racket Sports**  
+  *Peng Ren, Chuan Qi, Haoyang Ge, Qiyuan Su, Xuguo He, Cong Huang, Pei Chi, Jiang Zhao et al.*  
+  Published: `2026-03-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.14605v1) · [pdf](https://arxiv.org/pdf/2603.14605v1) · id: `2603.14605v1`
+- **Latent Dynamics-Aware OOD Monitoring for Trajectory Prediction with Provable Guarantees**  
+  *Tongfei Guo, Lili Su*  
+  Published: `2026-03-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.14603v1) · [pdf](https://arxiv.org/pdf/2603.14603v1) · id: `2603.14603v1`
+- **TransDex: Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects**  
+  *Fengguan Li, Yifan Ma, Chen Qian, Wentao Rao, Weiwei Shang*  
+  Published: `2026-03-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.13869v1) · [pdf](https://arxiv.org/pdf/2603.13869v1) · id: `2603.13869v1`
 - **Context-free Self-Conditioned GAN for Trajectory Forecasting**  
   *Tiago Rodrigues de Almeida, Eduardo Gutierrez Maestro, Oscar Martinez Mozos*  
   Published: `2026-03-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.08658v1) · [pdf](https://arxiv.org/pdf/2603.08658v1) · id: `2603.08658v1`

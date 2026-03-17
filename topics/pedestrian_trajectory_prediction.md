@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-16` (timezone: `Europe/Athens`)
+Updated: `2026-03-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **94**
+Total papers tracked: **95**
 
 ---
 
+- **TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective**  
+  *Yusheng Peng, Gaofeng Zhang, Liping Zheng*  
+  Published: `2026-03-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.14739v1) · [pdf](https://arxiv.org/pdf/2603.14739v1) · id: `2603.14739v1`
 - **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
   *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
   Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`
