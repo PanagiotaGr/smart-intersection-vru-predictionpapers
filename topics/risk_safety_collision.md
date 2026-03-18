@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-17` (timezone: `Europe/Athens`)
+Updated: `2026-03-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **142**
+Total papers tracked: **144**
 
 ---
 
+- **ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16550v1) · [pdf](https://arxiv.org/pdf/2603.16550v1) · id: `2603.16550v1`
+- **PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers**  
+  *Quanhao Ren, Yicheng Li, Nan Song*  
+  Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16196v1) · [pdf](https://arxiv.org/pdf/2603.16196v1) · id: `2603.16196v1`
 - **Latent Dynamics-Aware OOD Monitoring for Trajectory Prediction with Provable Guarantees**  
   *Tongfei Guo, Lili Su*  
   Published: `2026-03-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.14603v1) · [pdf](https://arxiv.org/pdf/2603.14603v1) · id: `2603.14603v1`

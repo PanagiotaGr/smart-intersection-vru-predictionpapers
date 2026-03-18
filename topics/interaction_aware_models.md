@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-17` (timezone: `Europe/Athens`)
+Updated: `2026-03-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **134**
+Total papers tracked: **135**
 
 ---
 
+- **PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers**  
+  *Quanhao Ren, Yicheng Li, Nan Song*  
+  Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16196v1) · [pdf](https://arxiv.org/pdf/2603.16196v1) · id: `2603.16196v1`
 - **CyboRacket: A Perception-to-Action Framework for Humanoid Racket Sports**  
   *Peng Ren, Chuan Qi, Haoyang Ge, Qiyuan Su, Xuguo He, Cong Huang, Pei Chi, Jiang Zhao et al.*  
   Published: `2026-03-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.14605v1) · [pdf](https://arxiv.org/pdf/2603.14605v1) · id: `2603.14605v1`

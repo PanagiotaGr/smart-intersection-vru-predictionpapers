@@ -7779,6 +7779,42 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.13698v1",
       "abs_url": "http://arxiv.org/abs/2603.13698v1"
+    },
+    "2603.16196v1": {
+      "arxiv_id": "2603.16196v1",
+      "title": "PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers",
+      "authors": [
+        "Quanhao Ren",
+        "Yicheng Li",
+        "Nan Song"
+      ],
+      "summary": "Motion forecasting is a core task in autonomous driving systems, aiming to accurately predict the future trajectories of surrounding agents to ensure driving safety. Existing methods typically process discrete driving scenes independently, neglecting the temporal continuity and historical context correlations inherent in real-world driving environments. This paper proposes PanguMotion, a motion forecasting framework for continuous driving scenarios that integrates Transformer blocks from the Pangu-1B large language model as feature enhancement modules into autonomous driving motion prediction architectures. We conduct experiments on the Argoverse 2 datasets processed by the RealMotion data reorganization strategy, transforming each independent scene into a continuous sequence to mimic real-world driving scenarios.",
+      "published_utc": "2026-03-17T07:21:47Z",
+      "updated_utc": "2026-03-17T07:21:47Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.16196v1",
+      "abs_url": "http://arxiv.org/abs/2603.16196v1"
+    },
+    "2603.16550v1": {
+      "arxiv_id": "2603.16550v1",
+      "title": "ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace",
+      "authors": [
+        "Alexander Prutsch",
+        "David Schinagl",
+        "Horst Possegger"
+      ],
+      "summary": "Accurate trajectory prediction can improve General Aviation safety in non-towered terminal airspace, where high traffic density increases accident risk. We present ASCENT, a lightweight transformer-based model for multi-modal 3D aircraft trajectory forecasting, which integrates domain-aware 3D coordinate normalization and parameterized predictions. ASCENT employs a transformer-based motion encoder and a query-based decoder, enabling the generation of diverse maneuver hypotheses with low latency. Experiments on the TrajAir and TartanAviation datasets demonstrate that our model outperforms prior baselines, as the encoder effectively captures motion dynamics and the decoder aligns with structured aircraft traffic patterns. Furthermore, ablation studies confirm the contributions of the decoder design, coordinate-frame modeling, and parameterized outputs. These results establish ASCENT as an effective approach for real-time aircraft trajectory prediction in non-towered terminal airspace.",
+      "published_utc": "2026-03-17T14:16:10Z",
+      "updated_utc": "2026-03-17T14:16:10Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.16550v1",
+      "abs_url": "http://arxiv.org/abs/2603.16550v1"
     }
   },
   "topics": {
@@ -8059,9 +8095,10 @@
         "2603.07338v1",
         "2603.14605v1",
         "2603.14603v1",
-        "2603.13869v1"
+        "2603.13869v1",
+        "2603.16196v1"
       ],
-      "latest_update": "2026-03-17"
+      "latest_update": "2026-03-18"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8289,9 +8326,11 @@
         "2603.07096v1",
         "2603.10407v1",
         "2603.12421v1",
-        "2603.14603v1"
+        "2603.14603v1",
+        "2603.16550v1",
+        "2603.16196v1"
       ],
-      "latest_update": "2026-03-17"
+      "latest_update": "2026-03-18"
     }
   }
 }
