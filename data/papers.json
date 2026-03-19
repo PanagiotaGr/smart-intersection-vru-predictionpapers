@@ -7815,6 +7815,26 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.16550v1",
       "abs_url": "http://arxiv.org/abs/2603.16550v1"
+    },
+    "2603.13698v2": {
+      "arxiv_id": "2603.13698v2",
+      "title": "SAATT Nav: a Socially Aware Autonomous Transparent Transportation Navigation Framework for Wheelchairs",
+      "authors": [
+        "Yutong Zhang",
+        "Shaiv Y. Mehra",
+        "Bradley S. Duerstock",
+        "Juan P. Wachs"
+      ],
+      "summary": "While powered wheelchairs reduce physical fatigue as opposed to manual wheelchairs for individuals with mobility impairment, they demand high cognitive workload due to information processing, decision making and motor coordination. Current autonomous systems lack social awareness in navigation and transparency in decision-making, leading to decreased perceived safety and trust from the user and others in context. This work proposes Socially Aware Autonomous Transparent Transportation (SAATT) Navigation framework for wheelchairs as a potential solution. By implementing a Large Language Model (LLM) informed of user intent and capable of predicting other peoples' intent as a decision-maker for its local controller, it is able to detect and navigate social situations, such as passing pedestrians or a pair conversing. Furthermore, the LLM textually communicates its reasoning at each waypoint for transparency. In this experiment, it is compared against a standard global planner, a representative competing social navigation model, and an Ablation study in three simulated environments varied by social levels in eight metrics categorized under Safety, Social Compliance, Efficiency, and Comfort. Overall, SAATT Nav outperforms in most social situations and equivalently or only slightly worse in the remaining metrics, demonstrating the potential of a socially aware and transparent autonomous navigation system to assist wheelchair users.",
+      "published_utc": "2026-03-14T02:13:58Z",
+      "updated_utc": "2026-03-18T14:15:13Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.13698v2",
+      "abs_url": "http://arxiv.org/abs/2603.13698v2"
     }
   },
   "topics": {
@@ -8178,9 +8198,10 @@
         "2503.01852v2",
         "2602.23109v1",
         "2602.23109v2",
-        "2603.13698v1"
+        "2603.13698v1",
+        "2603.13698v2"
       ],
-      "latest_update": "2026-03-17"
+      "latest_update": "2026-03-19"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",

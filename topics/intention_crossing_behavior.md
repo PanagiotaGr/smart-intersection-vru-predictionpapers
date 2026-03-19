@@ -1,14 +1,17 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-03-18` (timezone: `Europe/Athens`)
+Updated: `2026-03-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **76**
+Total papers tracked: **77**
 
 ---
 
 - **SAATT Nav: a Socially Aware Autonomous Transparent Transportation Navigation Framework for Wheelchairs**  
   *Yutong Zhang, Shaiv Y. Mehra, Bradley S. Duerstock, Juan P. Wachs*  
   Published: `2026-03-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.13698v1) · [pdf](https://arxiv.org/pdf/2603.13698v1) · id: `2603.13698v1`
+- **SAATT Nav: a Socially Aware Autonomous Transparent Transportation Navigation Framework for Wheelchairs**  
+  *Yutong Zhang, Shaiv Y. Mehra, Bradley S. Duerstock, Juan P. Wachs*  
+  Published: `2026-03-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.13698v2) · [pdf](https://arxiv.org/pdf/2603.13698v2) · id: `2603.13698v2`
 - **Towards Intelligible Human-Robot Interaction: An Active Inference Approach to Occluded Pedestrian Scenarios**  
   *Kai Chen, Yuyao Huang, Guang Chen*  
   Published: `2026-02-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.23109v1) · [pdf](https://arxiv.org/pdf/2602.23109v1) · id: `2602.23109v1`
