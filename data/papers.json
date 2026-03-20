@@ -7835,6 +7835,25 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.13698v2",
       "abs_url": "http://arxiv.org/abs/2603.13698v2"
+    },
+    "2603.01122v2": {
+      "arxiv_id": "2603.01122v2",
+      "title": "Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation",
+      "authors": [
+        "Michael Lu",
+        "Minh Bui",
+        "Xubo Lyu",
+        "Mo Chen"
+      ],
+      "summary": "As robots increasingly integrate into everyday environments, ensuring their safe navigation around humans becomes imperative. Efficient and safe motion planning requires robots to account for human behavior, particularly in constrained spaces such as grocery stores or care homes, where interactions with multiple individuals are common. Prior research has employed Bayesian frameworks to model human rationality based on navigational intent, enabling the prediction of probabilistic trajectories for planning purposes. In this work, we present a simple yet novel approach for confidence-aware prediction that treats future predictions as particles. This framework is highly parallelized and accelerated on an graphics processing unit (GPU). As a result, this enables longer-term predictions at a frequency of 125 Hz and can be easily extended for multi-human predictions. Compared to existing methods, our implementation supports finer prediction time steps, yielding more granular trajectory forecasts. This enhanced resolution allows motion planners to respond effectively to subtle changes in human behavior. We validate our approach through real-world experiments, demonstrating a robot safely navigating among multiple humans with diverse navigational goals. Our results highlight the methods potential for robust and efficient human-robot coexistence in dynamic environments.",
+      "published_utc": "2026-03-01T14:13:58Z",
+      "updated_utc": "2026-03-19T03:16:09Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.01122v2",
+      "abs_url": "http://arxiv.org/abs/2603.01122v2"
     }
   },
   "topics": {
@@ -8116,9 +8135,10 @@
         "2603.14605v1",
         "2603.14603v1",
         "2603.13869v1",
-        "2603.16196v1"
+        "2603.16196v1",
+        "2603.01122v2"
       ],
-      "latest_update": "2026-03-18"
+      "latest_update": "2026-03-20"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-19` (timezone: `Europe/Athens`)
+Updated: `2026-03-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **135**
+Total papers tracked: **136**
 
 ---
 
@@ -48,6 +48,9 @@ Total papers tracked: **135**
 - **Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation**  
   *Michael Lu, Minh Bui, Xubo Lyu, Mo Chen*  
   Published: `2026-03-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.01122v1) · [pdf](https://arxiv.org/pdf/2603.01122v1) · id: `2603.01122v1`
+- **Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation**  
+  *Michael Lu, Minh Bui, Xubo Lyu, Mo Chen*  
+  Published: `2026-03-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.01122v2) · [pdf](https://arxiv.org/pdf/2603.01122v2) · id: `2603.01122v2`
 - **Uncertainty-Aware Diffusion Model for Multimodal Highway Trajectory Prediction via DDIM Sampling**  
   *Marion Neumeier, Niklas Roßberg, Michael Botsch, Wolfgang Utschick*  
   Published: `2026-02-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.21319v1) · [pdf](https://arxiv.org/pdf/2602.21319v1) · id: `2602.21319v1`
