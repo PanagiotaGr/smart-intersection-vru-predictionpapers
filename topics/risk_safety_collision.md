@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-22` (timezone: `Europe/Athens`)
+Updated: `2026-03-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **144**
+Total papers tracked: **145**
 
 ---
 
+- **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
+  *Danya Li, Yan Feng, Rico Krueger*  
+  Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
 - **ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16550v1) · [pdf](https://arxiv.org/pdf/2603.16550v1) · id: `2603.16550v1`

@@ -7854,6 +7854,44 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.01122v2",
       "abs_url": "http://arxiv.org/abs/2603.01122v2"
+    },
+    "2603.19812v1": {
+      "arxiv_id": "2603.19812v1",
+      "title": "Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study",
+      "authors": [
+        "Danya Li",
+        "Yan Feng",
+        "Rico Krueger"
+      ],
+      "summary": "The integration of Automated Shuttles into shared urban spaces presents unique challenges due to the absence of traffic rules and the complex pedestrian interactions. Accurately anticipating pedestrian behavior in such unstructured environments is therefore critical for ensuring both safety and efficiency. This paper presents a Virtual Reality (VR) study that captures how pedestrians interact with automated shuttles across diverse scenarios, including varying approach angles and navigating in continuous traffic. We identify critical behavior patterns present in pedestrians' decision-making in shared spaces, including hesitation, evasive maneuvers, gaze allocation, and proxemic adjustments. To model pedestrian behavior, we propose GazeX-LSTM, a multimodal eye gaze-informed and context-aware prediction model that integrates pedestrians' trajectories, fine-grained eye gaze dynamics, and contextual factors. We shift prediction from a vehicle- to a human-centered perspective by leveraging eye-tracking data to capture pedestrian attention. We systematically validate the unique and irreplaceable predictive power of eye gaze over head orientation alone, further enhancing performance by integrating contextual variables. Notably, the combination of eye gaze data and contextual information produces super-additive improvements on pedestrian behavior prediction accuracy, revealing the complementary relationship between visual attention and situational contexts. Together, our findings provide the first evidence that eye gaze-informed modeling fundamentally advances pedestrian behavior prediction and highlight the critical role of situational contexts in shared-space interactions. This paves the way for safer and more adaptive automated vehicle technologies that account for how people perceive and act in complex shared spaces.",
+      "published_utc": "2026-03-20T09:57:23Z",
+      "updated_utc": "2026-03-20T09:57:23Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.19812v1",
+      "abs_url": "http://arxiv.org/abs/2603.19812v1"
+    },
+    "2603.19533v1": {
+      "arxiv_id": "2603.19533v1",
+      "title": "Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion",
+      "authors": [
+        "Sima Ashayer",
+        "Hoang H. Nguyen",
+        "Yu Liang",
+        "Mina Sartipi"
+      ],
+      "summary": "Pedestrian intention prediction needs to be accurate for autonomous vehicles to navigate safely in urban environments. We present a lightweight, socially informed architecture for pedestrian intention prediction. It fuses four behavioral streams (attention, position, situation, and interaction) using highway encoders, a compact 4-token Transformer, and global self-attention pooling. To quantify uncertainty, we incorporate two complementary heads: a variational bottleneck whose KL divergence captures epistemic uncertainty, and a Mahalanobis distance detector that identifies distributional shift. Together, these components yield calibrated probabilities and actionable risk scores without compromising efficiency. On the PSI 1.0 benchmark, our model outperforms recent vision language models by achieving 0.9 F1, 0.94 AUC-ROC, and 0.78 MCC by using only structured, interpretable features. On the more diverse PSI 2.0 dataset, where, to the best of our knowledge, no prior results exist, we establish a strong initial baseline of 0.78 F1 and 0.79 AUC-ROC. Selective prediction based on Mahalanobis scores increases test accuracy by up to 0.4 percentage points at 80% coverage. Qualitative attention heatmaps further show how the model shifts its cross-stream focus under ambiguity. The proposed approach is modality-agnostic, easy to integrate with vision language pipelines, and suitable for risk-aware intent prediction on resource-constrained platforms.",
+      "published_utc": "2026-03-20T00:19:34Z",
+      "updated_utc": "2026-03-20T00:19:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.19533v1",
+      "abs_url": "http://arxiv.org/abs/2603.19533v1"
     }
   },
   "topics": {
@@ -7954,9 +7992,10 @@
         "2504.13647v2",
         "2505.06743v4",
         "2603.10407v1",
-        "2603.14739v1"
+        "2603.14739v1",
+        "2603.19812v1"
       ],
-      "latest_update": "2026-03-17"
+      "latest_update": "2026-03-23"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -8136,9 +8175,10 @@
         "2603.14603v1",
         "2603.13869v1",
         "2603.16196v1",
-        "2603.01122v2"
+        "2603.01122v2",
+        "2603.19812v1"
       ],
-      "latest_update": "2026-03-20"
+      "latest_update": "2026-03-23"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8219,9 +8259,10 @@
         "2602.23109v1",
         "2602.23109v2",
         "2603.13698v1",
-        "2603.13698v2"
+        "2603.13698v2",
+        "2603.19533v1"
       ],
-      "latest_update": "2026-03-19"
+      "latest_update": "2026-03-23"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -8369,9 +8410,10 @@
         "2603.12421v1",
         "2603.14603v1",
         "2603.16550v1",
-        "2603.16196v1"
+        "2603.16196v1",
+        "2603.19812v1"
       ],
-      "latest_update": "2026-03-18"
+      "latest_update": "2026-03-23"
     }
   }
 }

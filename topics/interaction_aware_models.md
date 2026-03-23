@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-22` (timezone: `Europe/Athens`)
+Updated: `2026-03-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
+- **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
+  *Danya Li, Yan Feng, Rico Krueger*  
+  Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
 - **PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers**  
   *Quanhao Ren, Yicheng Li, Nan Song*  
   Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16196v1) · [pdf](https://arxiv.org/pdf/2603.16196v1) · id: `2603.16196v1`

@@ -1,11 +1,14 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-03-22` (timezone: `Europe/Athens`)
+Updated: `2026-03-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **77**
+Total papers tracked: **78**
 
 ---
 
+- **Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion**  
+  *Sima Ashayer, Hoang H. Nguyen, Yu Liang, Mina Sartipi*  
+  Published: `2026-03-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.19533v1) · [pdf](https://arxiv.org/pdf/2603.19533v1) · id: `2603.19533v1`
 - **SAATT Nav: a Socially Aware Autonomous Transparent Transportation Navigation Framework for Wheelchairs**  
   *Yutong Zhang, Shaiv Y. Mehra, Bradley S. Duerstock, Juan P. Wachs*  
   Published: `2026-03-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.13698v1) · [pdf](https://arxiv.org/pdf/2603.13698v1) · id: `2603.13698v1`

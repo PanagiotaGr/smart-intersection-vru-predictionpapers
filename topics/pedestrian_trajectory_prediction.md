@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-22` (timezone: `Europe/Athens`)
+Updated: `2026-03-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **95**
+Total papers tracked: **96**
 
 ---
 
+- **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
+  *Danya Li, Yan Feng, Rico Krueger*  
+  Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
 - **TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective**  
   *Yusheng Peng, Gaofeng Zhang, Liping Zheng*  
   Published: `2026-03-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.14739v1) · [pdf](https://arxiv.org/pdf/2603.14739v1) · id: `2603.14739v1`
