@@ -1,8 +1,8 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-03-23` (timezone: `Europe/Athens`)
+Updated: `2026-03-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **78**
+Total papers tracked: **79**
 
 ---
 
@@ -51,6 +51,9 @@ Total papers tracked: **78**
 - **Multi-Context Fusion Transformer for Pedestrian Crossing Intention Prediction in Urban Environments**  
   *Yuanzhe Li, Hang Zhong, Steffen Müller*  
   Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20011v1) · [pdf](https://arxiv.org/pdf/2511.20011v1) · id: `2511.20011v1`
+- **Multi-Context Fusion Transformer for Pedestrian Crossing Intention Prediction in Urban Environments**  
+  *Yuanzhe Li, Hang Zhong, Steffen Müller*  
+  Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20011v2) · [pdf](https://arxiv.org/pdf/2511.20011v2) · id: `2511.20011v2`
 - **Pedestrian Crossing Intention Prediction Using Multimodal Fusion Network**  
   *Yuanzhe Li, Steffen Müller*  
   Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20008v1) · [pdf](https://arxiv.org/pdf/2511.20008v1) · id: `2511.20008v1`
