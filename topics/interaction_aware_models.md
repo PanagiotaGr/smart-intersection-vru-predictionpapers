@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-24` (timezone: `Europe/Athens`)
+Updated: `2026-03-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **138**
+Total papers tracked: **139**
 
 ---
 
+- **Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction**  
+  *Harsh Yadav, Christian Bohn, Tobias Meisen*  
+  Published: `2026-03-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.23393v1) · [pdf](https://arxiv.org/pdf/2603.23393v1) · id: `2603.23393v1`
 - **ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model**  
   *Haichao Zhang, Yijiang Li, Shwai He, Tushar Nagarajan, Mingfei Chen, Jianglin Lu, Ang Li, Yun Fu*  
   Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.22281v1) · [pdf](https://arxiv.org/pdf/2603.22281v1) · id: `2603.22281v1`

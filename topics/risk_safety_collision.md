@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-24` (timezone: `Europe/Athens`)
+Updated: `2026-03-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **145**
+Total papers tracked: **146**
 
 ---
 
+- **Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction**  
+  *Harsh Yadav, Christian Bohn, Tobias Meisen*  
+  Published: `2026-03-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.23393v1) · [pdf](https://arxiv.org/pdf/2603.23393v1) · id: `2603.23393v1`
 - **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
   *Danya Li, Yan Feng, Rico Krueger*  
   Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`

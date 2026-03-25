@@ -1,8 +1,8 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-03-24` (timezone: `Europe/Athens`)
+Updated: `2026-03-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **79**
+Total papers tracked: **80**
 
 ---
 
@@ -57,6 +57,9 @@ Total papers tracked: **79**
 - **Pedestrian Crossing Intention Prediction Using Multimodal Fusion Network**  
   *Yuanzhe Li, Steffen Müller*  
   Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20008v1) · [pdf](https://arxiv.org/pdf/2511.20008v1) · id: `2511.20008v1`
+- **Pedestrian Crossing Intention Prediction Using Multimodal Fusion Network**  
+  *Yuanzhe Li, Steffen Müller*  
+  Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20008v2) · [pdf](https://arxiv.org/pdf/2511.20008v2) · id: `2511.20008v2`
 - **HABIT: Human Action Benchmark for Interactive Traffic in CARLA**  
   *Mohan Ramesh, Mark Azer, Fabian B. Flohr*  
   Published: `2025-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.19109v1) · [pdf](https://arxiv.org/pdf/2511.19109v1) · id: `2511.19109v1`

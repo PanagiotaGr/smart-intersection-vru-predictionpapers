@@ -7938,6 +7938,42 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2511.20011v2",
       "abs_url": "http://arxiv.org/abs/2511.20011v2"
+    },
+    "2603.23393v1": {
+      "arxiv_id": "2603.23393v1",
+      "title": "Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction",
+      "authors": [
+        "Harsh Yadav",
+        "Christian Bohn",
+        "Tobias Meisen"
+      ],
+      "summary": "Current open-loop trajectory models struggle in real-world autonomous driving because minor initial deviations often cascade into compounding errors, pushing the agent into out-of-distribution states. While fully differentiable closed-loop simulators attempt to address this, they suffer from shortcut learning: the loss gradients flow backward through induced state inputs, inadvertently leaking future ground truth information directly into the model's own previous predictions. The model exploits these signals to artificially avoid drift, non-causally \"regretting\" past mistakes rather than learning genuinely reactive recovery. To address this, we introduce a detached receding horizon rollout. By explicitly severing the computation graph between simulation steps, the model learns genuine recovery behaviors from drifted states, forcing it to \"rectify\" mistakes rather than non-causally optimizing past predictions. Extensive evaluations on the nuScenes and DeepScenario datasets show our approach yields more robust recovery strategies, reducing target collisions by up to 33.24% compared to fully differentiable closed-loop training at high replanning frequencies. Furthermore, compared to standard open-loop baselines, our non-differentiable framework decreases collisions by up to 27.74% in dense environments while simultaneously improving multi-modal prediction diversity and lane alignment.",
+      "published_utc": "2026-03-24T16:28:09Z",
+      "updated_utc": "2026-03-24T16:28:09Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.23393v1",
+      "abs_url": "http://arxiv.org/abs/2603.23393v1"
+    },
+    "2511.20008v2": {
+      "arxiv_id": "2511.20008v2",
+      "title": "Pedestrian Crossing Intention Prediction Using Multimodal Fusion Network",
+      "authors": [
+        "Yuanzhe Li",
+        "Steffen Müller"
+      ],
+      "summary": "Pedestrian crossing intention prediction is essential for the deployment of autonomous vehicles (AVs) in urban environments. Ideal prediction provides AVs with critical environmental cues, thereby reducing the risk of pedestrian-related collisions. However, the prediction task is challenging due to the diverse nature of pedestrian behavior and its dependence on multiple contextual factors. This paper proposes a multimodal fusion network that leverages seven modality features from both visual and motion branches, aiming to effectively extract and integrate complementary cues across different modalities. Specifically, motion and visual features are extracted from the raw inputs using multiple Transformer-based extraction modules. Depth-guided attention module leverages depth information to guide attention towards salient regions in another modality through comprehensive spatial feature interactions. To account for the varying importance of different modalities and frames, modality attention and temporal attention are designed to selectively emphasize informative modalities and effectively capture temporal dependencies. Extensive experiments on the JAAD dataset validate the effectiveness of the proposed network, achieving superior performance compared to the baseline methods.",
+      "published_utc": "2025-11-25T07:18:12Z",
+      "updated_utc": "2026-03-24T07:27:50Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2511.20008v2",
+      "abs_url": "http://arxiv.org/abs/2511.20008v2"
     }
   },
   "topics": {
@@ -8223,9 +8259,10 @@
         "2603.16196v1",
         "2603.01122v2",
         "2603.19812v1",
-        "2603.22281v1"
+        "2603.22281v1",
+        "2603.23393v1"
       ],
-      "latest_update": "2026-03-24"
+      "latest_update": "2026-03-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8308,9 +8345,10 @@
         "2603.13698v1",
         "2603.13698v2",
         "2603.19533v1",
-        "2511.20011v2"
+        "2511.20011v2",
+        "2511.20008v2"
       ],
-      "latest_update": "2026-03-24"
+      "latest_update": "2026-03-25"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -8459,9 +8497,10 @@
         "2603.14603v1",
         "2603.16550v1",
         "2603.16196v1",
-        "2603.19812v1"
+        "2603.19812v1",
+        "2603.23393v1"
       ],
-      "latest_update": "2026-03-23"
+      "latest_update": "2026-03-25"
     }
   }
 }
