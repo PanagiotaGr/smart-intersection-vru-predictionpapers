@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-25` (timezone: `Europe/Athens`)
+Updated: `2026-03-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **146**
+Total papers tracked: **147**
 
 ---
 
+- **Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction**  
+  *Harsh Yadav, Tobias Meisen*  
+  Published: `2026-03-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.24155v1) · [pdf](https://arxiv.org/pdf/2603.24155v1) · id: `2603.24155v1`
 - **Rectify, Don't Regret: Avoiding Pitfalls of Differentiable Simulation in Trajectory Prediction**  
   *Harsh Yadav, Christian Bohn, Tobias Meisen*  
   Published: `2026-03-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.23393v1) · [pdf](https://arxiv.org/pdf/2603.23393v1) · id: `2603.23393v1`
