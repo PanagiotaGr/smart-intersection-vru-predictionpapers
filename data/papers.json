@@ -7991,6 +7991,48 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.24155v1",
       "abs_url": "http://arxiv.org/abs/2603.24155v1"
+    },
+    "2603.24936v1": {
+      "arxiv_id": "2603.24936v1",
+      "title": "TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Driven Optimization",
+      "authors": [
+        "Xuepeng Jing",
+        "Wenhuan Lu",
+        "Hao Meng",
+        "Zhizhi Yu",
+        "Jianguo Wei"
+      ],
+      "summary": "Human trajectory forecasting is important for intelligent multimedia systems operating in visually complex environments, such as autonomous driving and crowd surveillance. Although Conditional Flow Matching (CFM) has shown strong ability in modeling trajectory distributions from spatio-temporal observations, existing approaches still focus primarily on supervised fitting, which may leave social norms and scene constraints insufficiently reflected in generated trajectories. To address this issue, we propose TIGFlow-GRPO, a two-stage generative framework that aligns flow-based trajectory generation with behavioral rules. In the first stage, we build a CFM-based predictor with a Trajectory-Interaction-Graph (TIG) module to model fine-grained visual-spatial interactions and strengthen context encoding. This stage captures both agent-agent and agent-scene relations more effectively, providing more informative conditional features for subsequent alignment. In the second stage, we perform Flow-GRPO post-training,where deterministic flow rollout is reformulated as stochastic ODE-to-SDE sampling to enable trajectory exploration, and a composite reward combines view-aware social compliance with map-aware physical feasibility. By evaluating trajectories explored through SDE rollout, GRPO progressively steers multimodal predictions toward behaviorally plausible futures. Experiments on the ETH/UCY and SDD datasets show that TIGFlow-GRPO improves forecasting accuracy and long-horizon stability while generating trajectories that are more socially compliant and physically feasible. These results suggest that the proposed framework provides an effective way to connect flow-based trajectory modeling with behavior-aware alignment in dynamic multimedia environments.",
+      "published_utc": "2026-03-26T01:59:10Z",
+      "updated_utc": "2026-03-26T01:59:10Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.24936v1",
+      "abs_url": "http://arxiv.org/abs/2603.24936v1"
+    },
+    "2603.25395v1": {
+      "arxiv_id": "2603.25395v1",
+      "title": "UMBRELLA: Uncertainty-aware Multi-robot Reactive Coordination under Dynamic Temporal Logic Tasks",
+      "authors": [
+        "Qisheng Zhao",
+        "Meng Guo",
+        "Hengxuan Du",
+        "Lars Lindemann",
+        "Zhongkui Li"
+      ],
+      "summary": "Multi-robot systems can be extremely efficient for accomplishing team-wise tasks by acting concurrently and collaboratively. However, most existing methods either assume static task features or simply replan when environmental changes occur. This paper addresses the challenging problem of coordinating multi-robot systems for collaborative tasks involving dynamic and moving targets. We explicitly model the uncertainty in target motion prediction via Conformal Prediction(CP), while respecting the spatial-temporal constraints specified by Linear Temporal Logic (LTL). The proposed framework (UMBRELLA) combines the Monte Carlo Tree Search (MCTS) over partial plans with uncertainty-aware rollouts, and introduces a CP-based metric to guide and accelerate the search. The objective is to minimize the Conditional Value at Risk (CVaR) of the average makespan. For tasks released online, a receding-horizon planning scheme dynamically adjusts the assignments based on updated task specifications and motion predictions. Spatial and temporal constraints among the tasks are always ensured, and only partial synchronization is required for the collaborative tasks during online execution. Extensive large-scale simulations and hardware experiments demonstrate substantial reductions in both the average makespan and its variance by 23% and 71%, compared with static baselines.",
+      "published_utc": "2026-03-26T12:40:04Z",
+      "updated_utc": "2026-03-26T12:40:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.25395v1",
+      "abs_url": "http://arxiv.org/abs/2603.25395v1"
     }
   },
   "topics": {
@@ -8278,9 +8320,10 @@
         "2603.19812v1",
         "2603.22281v1",
         "2603.23393v1",
-        "2603.24155v1"
+        "2603.24155v1",
+        "2603.24936v1"
       ],
-      "latest_update": "2026-03-26"
+      "latest_update": "2026-03-27"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8517,9 +8560,10 @@
         "2603.16196v1",
         "2603.19812v1",
         "2603.23393v1",
-        "2603.24155v1"
+        "2603.24155v1",
+        "2603.25395v1"
       ],
-      "latest_update": "2026-03-26"
+      "latest_update": "2026-03-27"
     }
   }
 }

@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-26` (timezone: `Europe/Athens`)
+Updated: `2026-03-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
+- **TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Driven Optimization**  
+  *Xuepeng Jing, Wenhuan Lu, Hao Meng, Zhizhi Yu, Jianguo Wei*  
+  Published: `2026-03-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.24936v1) · [pdf](https://arxiv.org/pdf/2603.24936v1) · id: `2603.24936v1`
 - **Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction**  
   *Harsh Yadav, Tobias Meisen*  
   Published: `2026-03-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.24155v1) · [pdf](https://arxiv.org/pdf/2603.24155v1) · id: `2603.24155v1`

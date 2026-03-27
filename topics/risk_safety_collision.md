@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-26` (timezone: `Europe/Athens`)
+Updated: `2026-03-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **147**
+Total papers tracked: **148**
 
 ---
 
+- **UMBRELLA: Uncertainty-aware Multi-robot Reactive Coordination under Dynamic Temporal Logic Tasks**  
+  *Qisheng Zhao, Meng Guo, Hengxuan Du, Lars Lindemann, Zhongkui Li*  
+  Published: `2026-03-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.25395v1) · [pdf](https://arxiv.org/pdf/2603.25395v1) · id: `2603.25395v1`
 - **Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction**  
   *Harsh Yadav, Tobias Meisen*  
   Published: `2026-03-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.24155v1) · [pdf](https://arxiv.org/pdf/2603.24155v1) · id: `2603.24155v1`
