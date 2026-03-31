@@ -8033,6 +8033,122 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.25395v1",
       "abs_url": "http://arxiv.org/abs/2603.25395v1"
+    },
+    "2509.15219v2": {
+      "arxiv_id": "2509.15219v2",
+      "title": "Out-of-Sight Embodied Agents: Multimodal Tracking, Sensor Fusion, and Trajectory Forecasting",
+      "authors": [
+        "Haichao Zhang",
+        "Yi Xu",
+        "Yun Fu"
+      ],
+      "summary": "Trajectory prediction is a fundamental problem in computer vision, vision-language-action models, world models, and autonomous systems, with broad impact on autonomous driving, robotics, and surveillance. However, most existing methods assume complete and clean observations, and therefore do not adequately handle out-of-sight agents or noisy sensing signals caused by limited camera coverage, occlusions, and the absence of ground-truth denoised trajectories. These challenges raise safety concerns and reduce robustness in real-world deployment. In this extended study, we introduce major improvements to Out-of-Sight Trajectory (OST), a task for predicting noise-free visual trajectories of out-of-sight objects from noisy sensor observations. Building on our prior work, we expand Out-of-Sight Trajectory Prediction (OOSTraj) from pedestrians to both pedestrians and vehicles, increasing its relevance to autonomous driving, robotics, and surveillance. Our improved Vision-Positioning Denoising Module exploits camera calibration to establish vision-position correspondence, mitigating the lack of direct visual cues and enabling effective unsupervised denoising of noisy sensor signals. Extensive experiments on the Vi-Fi and JRDB datasets show that our method achieves state-of-the-art results for both trajectory denoising and trajectory prediction, with clear gains over prior baselines. We also compare with classical denoising methods, including Kalman filtering, and adapt recent trajectory prediction models to this setting, establishing a stronger benchmark. To the best of our knowledge, this is the first work to use vision-positioning projection to denoise noisy sensor trajectories of out-of-sight agents, opening new directions for future research.",
+      "published_utc": "2025-09-18T17:59:16Z",
+      "updated_utc": "2026-03-26T21:31:12Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.MA",
+        "cs.MM",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2509.15219v2",
+      "abs_url": "http://arxiv.org/abs/2509.15219v2"
+    },
+    "2603.26741v1": {
+      "arxiv_id": "2603.26741v1",
+      "title": "Language-Conditioned World Modeling for Visual Navigation",
+      "authors": [
+        "Yifei Dong",
+        "Fengyi Wu",
+        "Yilong Dai",
+        "Lingdong Kong",
+        "Guangyu Chen",
+        "Xu Zhu",
+        "Qiyu Hu",
+        "Tianyu Wang",
+        "Johnalbert Garnica",
+        "Feng Liu",
+        "Siyu Huang",
+        "Qi Dai",
+        "Zhi-Qi Cheng"
+      ],
+      "summary": "We study language-conditioned visual navigation (LCVN), in which an embodied agent is asked to follow a natural language instruction based only on an initial egocentric observation. Without access to goal images, the agent must rely on language to shape its perception and continuous control, making the grounding problem particularly challenging. We formulate this problem as open-loop trajectory prediction conditioned on linguistic instructions and introduce the LCVN Dataset, a benchmark of 39,016 trajectories and 117,048 human-verified instructions that supports reproducible research across a range of environments and instruction styles. Using this dataset, we develop LCVN frameworks that link language grounding, future-state prediction, and action generation through two complementary model families. The first family combines LCVN-WM, a diffusion-based world model, with LCVN-AC, an actor-critic agent trained in the latent space of the world model. The second family, LCVN-Uni, adopts an autoregressive multimodal architecture that predicts both actions and future observations. Experiments show that these families offer different advantages: the former provides more temporally coherent rollouts, whereas the latter generalizes better to unseen environments. Taken together, these observations point to the value of jointly studying language grounding, imagination, and policy learning in a unified task setting, and LCVN provides a concrete basis for further investigation of language-conditioned world models. The code is available at https://github.com/F1y1113/LCVN.",
+      "published_utc": "2026-03-23T04:10:14Z",
+      "updated_utc": "2026-03-23T04:10:14Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.26741v1",
+      "abs_url": "http://arxiv.org/abs/2603.26741v1"
+    },
+    "2603.26720v1": {
+      "arxiv_id": "2603.26720v1",
+      "title": "SutureAgent: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space",
+      "authors": [
+        "Huanrong Liu",
+        "Chunlin Tian",
+        "Tongyu Jia",
+        "Tailai Zhou",
+        "Qin Liu",
+        "Yu Gao",
+        "Yutong Ban",
+        "Yun Gu",
+        "Guy Rosman",
+        "Xin Ma",
+        "Qingbiao Li"
+      ],
+      "summary": "Predicting surgical needle trajectories from endoscopic video is critical for robot-assisted suturing, enabling anticipatory planning, real-time guidance, and safer motion execution. Existing methods that directly learn motion distributions from visual observations tend to overlook the sequential dependency among adjacent motion steps. Moreover, sparse waypoint annotations often fail to provide sufficient supervision, further increasing the difficulty of supervised or imitation learning methods. To address these challenges, we formulate image-based needle trajectory prediction as a sequential decision-making problem, in which the needle tip is treated as an agent that moves step by step in pixel space. This formulation naturally captures the continuity of needle motion and enables the explicit modeling of physically plausible pixel-wise state transitions over time. From this perspective, we propose SutureAgent, a goal-conditioned offline reinforcement learning framework that leverages sparse annotations to dense reward signals via cubic spline interpolation, encouraging the policy to exploit limited expert guidance while exploring plausible future motion paths. SutureAgent encodes variable-length clips using an observation encoder to capture both local spatial cues and long-range temporal dynamics, and autoregressively predicts future waypoints through actions composed of discrete directions and continuous magnitudes. To enable stable offline policy optimization from expert demonstrations, we adopt Conservative Q-Learning with Behavioral Cloning regularization. Experiments on a new kidney wound suturing dataset containing 1,158 trajectories from 50 patients show that SutureAgent reduces Average Displacement Error by 58.6% compared with the strongest baseline, demonstrating the effectiveness of modeling needle trajectory prediction as pixel-level sequential action learning.",
+      "published_utc": "2026-03-19T01:36:07Z",
+      "updated_utc": "2026-03-19T01:36:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.26720v1",
+      "abs_url": "http://arxiv.org/abs/2603.26720v1"
+    },
+    "2603.27422v1": {
+      "arxiv_id": "2603.27422v1",
+      "title": "Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering",
+      "authors": [
+        "Zizhan Tang",
+        "Yao Liu",
+        "Jessica Liu"
+      ],
+      "summary": "We present a safety-oriented framework for autonomous underwater vehicles (AUVs) that improves localization accuracy, enhances trajectory prediction, and supports efficient search operations during communication loss. Acoustic signals emitted by the AUV are detected by a network of fixed buoys, which compute Time-Difference-of-Arrival (TDOA) range-difference measurements serving as position observations. These observations are subsequently fused with a Kalman-based prediction model to obtain continuous, noise-robust state estimates. The combined method achieves significantly better localization precision and trajectory stability than TDOA-only baselines. Beyond real-time tracking, our framework offers targeted search-and-recovery capability by predicting post-disconnection motion and explicitly modeling uncertainty growth. The search module differentiates between continued navigation and propulsion failure, allowing search resources to be deployed toward the most probable recovery region. Our framework fuses multi-buoy acoustic data with Kalman filtering and uncertainty propagation to maintain navigation accuracy and yield robust search-region definitions during communication loss.",
+      "published_utc": "2026-03-28T21:47:22Z",
+      "updated_utc": "2026-03-28T21:47:22Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.27422v1",
+      "abs_url": "http://arxiv.org/abs/2603.27422v1"
+    },
+    "2603.26462v1": {
+      "arxiv_id": "2603.26462v1",
+      "title": "DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction",
+      "authors": [
+        "Jiaxiang Li",
+        "Jun Yan",
+        "Daniel Watzenig",
+        "Huilin Yin"
+      ],
+      "summary": "Trajectory prediction systems are critical for autonomous vehicle safety, yet remain vulnerable to adversarial attacks that can cause catastrophic traffic behavior misinterpretations. Existing attack methods require white-box access with gradient information and rely on rigid physical constraints, limiting real-world applicability. We propose DTP-Attack, a decision-based black-box adversarial attack framework tailored for trajectory prediction systems. Our method operates exclusively on binary decision outputs without requiring model internals or gradients, making it practical for real-world scenarios. DTP-Attack employs a novel boundary walking algorithm that navigates adversarial regions without fixed constraints, naturally maintaining trajectory realism through proximity preservation. Unlike existing approaches, our method supports both intention misclassification attacks and prediction accuracy degradation. Extensive evaluation on nuScenes and Apolloscape datasets across state-of-the-art models including Trajectron++ and Grip++ demonstrates superior performance. DTP-Attack achieves 41 - 81% attack success rates for intention misclassification attacks that manipulate perceived driving maneuvers with perturbations below 0.45 m, and increases prediction errors by 1.9 - 4.2 for accuracy degradation. Our method consistently outperforms existing black-box approaches while maintaining high controllability and reliability across diverse scenarios. These results reveal fundamental vulnerabilities in current trajectory prediction systems, highlighting urgent needs for robust defenses in safety-critical autonomous driving applications.",
+      "published_utc": "2026-03-27T14:30:37Z",
+      "updated_utc": "2026-03-27T14:30:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.26462v1",
+      "abs_url": "http://arxiv.org/abs/2603.26462v1"
     }
   },
   "topics": {
@@ -8134,9 +8250,10 @@
         "2505.06743v4",
         "2603.10407v1",
         "2603.14739v1",
-        "2603.19812v1"
+        "2603.19812v1",
+        "2509.15219v2"
       ],
-      "latest_update": "2026-03-23"
+      "latest_update": "2026-03-31"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -8321,9 +8438,11 @@
         "2603.22281v1",
         "2603.23393v1",
         "2603.24155v1",
-        "2603.24936v1"
+        "2603.24936v1",
+        "2603.26741v1",
+        "2603.26720v1"
       ],
-      "latest_update": "2026-03-27"
+      "latest_update": "2026-03-31"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8561,9 +8680,12 @@
         "2603.19812v1",
         "2603.23393v1",
         "2603.24155v1",
-        "2603.25395v1"
+        "2603.25395v1",
+        "2603.27422v1",
+        "2603.26462v1",
+        "2509.15219v2"
       ],
-      "latest_update": "2026-03-27"
+      "latest_update": "2026-03-31"
     }
   }
 }

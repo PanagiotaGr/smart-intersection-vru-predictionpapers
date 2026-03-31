@@ -1,8 +1,8 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-03-28` (timezone: `Europe/Athens`)
+Updated: `2026-03-31` (timezone: `Europe/Athens`)
 
-Total papers tracked: **141**
+Total papers tracked: **143**
 
 ---
 
@@ -18,9 +18,15 @@ Total papers tracked: **141**
 - **ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model**  
   *Haichao Zhang, Yijiang Li, Shwai He, Tushar Nagarajan, Mingfei Chen, Jianglin Lu, Ang Li, Yun Fu*  
   Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.22281v1) · [pdf](https://arxiv.org/pdf/2603.22281v1) · id: `2603.22281v1`
+- **Language-Conditioned World Modeling for Visual Navigation**  
+  *Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Xu Zhu, Qiyu Hu, Tianyu Wang et al.*  
+  Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.26741v1) · [pdf](https://arxiv.org/pdf/2603.26741v1) · id: `2603.26741v1`
 - **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
   *Danya Li, Yan Feng, Rico Krueger*  
   Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
+- **SutureAgent: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
+  *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
+  Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v1) · [pdf](https://arxiv.org/pdf/2603.26720v1) · id: `2603.26720v1`
 - **PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers**  
   *Quanhao Ren, Yicheng Li, Nan Song*  
   Published: `2026-03-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.16196v1) · [pdf](https://arxiv.org/pdf/2603.16196v1) · id: `2603.16196v1`

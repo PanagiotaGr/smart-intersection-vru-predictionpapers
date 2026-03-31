@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-28` (timezone: `Europe/Athens`)
+Updated: `2026-03-31` (timezone: `Europe/Athens`)
 
-Total papers tracked: **96**
+Total papers tracked: **97**
 
 ---
 
@@ -51,6 +51,9 @@ Total papers tracked: **96**
 - **Hazy Pedestrian Trajectory Prediction via Physical Priors and Graph-Mamba**  
   *Jian Chen, Zhuoran Zheng, Han Hu, Guijuan Zhang, Dianjie Lu, Liang Li, Chen Lyu*  
   Published: `2025-09-28` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.24020v1) · [pdf](https://arxiv.org/pdf/2509.24020v1) · id: `2509.24020v1`
+- **Out-of-Sight Embodied Agents: Multimodal Tracking, Sensor Fusion, and Trajectory Forecasting**  
+  *Haichao Zhang, Yi Xu, Yun Fu*  
+  Published: `2025-09-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.15219v2) · [pdf](https://arxiv.org/pdf/2509.15219v2) · id: `2509.15219v2`
 - **Out-of-Sight Trajectories: Tracking, Fusion, and Prediction**  
   *Haichao Zhang, Yi Xu, Yun Fu*  
   Published: `2025-09-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.15219v1) · [pdf](https://arxiv.org/pdf/2509.15219v1) · id: `2509.15219v1`

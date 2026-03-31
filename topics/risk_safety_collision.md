@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-03-28` (timezone: `Europe/Athens`)
+Updated: `2026-03-31` (timezone: `Europe/Athens`)
 
-Total papers tracked: **148**
+Total papers tracked: **151**
 
 ---
 
+- **Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**  
+  *Zizhan Tang, Yao Liu, Jessica Liu*  
+  Published: `2026-03-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.27422v1) · [pdf](https://arxiv.org/pdf/2603.27422v1) · id: `2603.27422v1`
+- **DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction**  
+  *Jiaxiang Li, Jun Yan, Daniel Watzenig, Huilin Yin*  
+  Published: `2026-03-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26462v1) · [pdf](https://arxiv.org/pdf/2603.26462v1) · id: `2603.26462v1`
 - **UMBRELLA: Uncertainty-aware Multi-robot Reactive Coordination under Dynamic Temporal Logic Tasks**  
   *Qisheng Zhao, Meng Guo, Hengxuan Du, Lars Lindemann, Zhongkui Li*  
   Published: `2026-03-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.25395v1) · [pdf](https://arxiv.org/pdf/2603.25395v1) · id: `2603.25395v1`
@@ -189,6 +195,9 @@ Total papers tracked: **148**
 - **CoPlanner: An Interactive Motion Planner with Contingency-Aware Diffusion for Autonomous Driving**  
   *Ruiguo Zhong, Ruoyu Yao, Pei Liu, Xiaolong Chen, Rui Yang, Jun Ma*  
   Published: `2025-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2509.17080v1) · [pdf](https://arxiv.org/pdf/2509.17080v1) · id: `2509.17080v1`
+- **Out-of-Sight Embodied Agents: Multimodal Tracking, Sensor Fusion, and Trajectory Forecasting**  
+  *Haichao Zhang, Yi Xu, Yun Fu*  
+  Published: `2025-09-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.15219v2) · [pdf](https://arxiv.org/pdf/2509.15219v2) · id: `2509.15219v2`
 - **Out-of-Sight Trajectories: Tracking, Fusion, and Prediction**  
   *Haichao Zhang, Yi Xu, Yun Fu*  
   Published: `2025-09-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.15219v1) · [pdf](https://arxiv.org/pdf/2509.15219v1) · id: `2509.15219v1`
