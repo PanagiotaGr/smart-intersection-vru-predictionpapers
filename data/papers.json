@@ -8149,6 +8149,25 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.26462v1",
       "abs_url": "http://arxiv.org/abs/2603.26462v1"
+    },
+    "2603.29362v1": {
+      "arxiv_id": "2603.29362v1",
+      "title": "Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties",
+      "authors": [
+        "Jintao Sun",
+        "Hu Zhang",
+        "Gangyi Ding",
+        "Zhedong Zheng"
+      ],
+      "summary": "Trajectory prediction seeks to forecast the future motion of dynamic entities, such as vehicles and pedestrians, given a temporal horizon of historical movement data and environmental context. A central challenge in this domain is the inherent uncertainty in real-time maps, arising from two primary sources: (1) positional inaccuracies due to sensor limitations or environmental occlusions, and (2) semantic errors stemming from misinterpretations of scene context. To address these challenges, we propose a novel unified framework that jointly models positional and semantic uncertainties and explicitly integrates them into the trajectory prediction pipeline. Our approach employs a dual-head architecture to independently estimate semantic and positional predictions in a dual-pass manner, deriving prediction variances as uncertainty indicators in an end-to-end fashion. These uncertainties are subsequently fused with the semantic and positional predictions to enhance the robustness of trajectory forecasts. We evaluate our uncertainty-aware framework on the nuScenes real-world driving dataset, conducting extensive experiments across four map estimation methods and two trajectory prediction baselines. Results verify that our method (1) effectively quantifies map uncertainties through both positional and semantic dimensions, and (2) consistently improves the performance of existing trajectory prediction models across multiple metrics, including minimum Average Displacement Error (minADE), minimum Final Displacement Error (minFDE), and Miss Rate (MR). Code will available at https://github.com/JT-Sun/UATP.",
+      "published_utc": "2026-03-31T07:35:55Z",
+      "updated_utc": "2026-03-31T07:35:55Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.29362v1",
+      "abs_url": "http://arxiv.org/abs/2603.29362v1"
     }
   },
   "topics": {
@@ -8251,9 +8270,10 @@
         "2603.10407v1",
         "2603.14739v1",
         "2603.19812v1",
-        "2509.15219v2"
+        "2509.15219v2",
+        "2603.29362v1"
       ],
-      "latest_update": "2026-03-31"
+      "latest_update": "2026-04-01"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",

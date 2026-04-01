@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-03-31` (timezone: `Europe/Athens`)
+Updated: `2026-04-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **97**
+Total papers tracked: **98**
 
 ---
 
+- **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
+  *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
+  Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`
 - **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
   *Danya Li, Yan Feng, Rico Krueger*  
   Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
