@@ -8168,6 +8168,87 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.29362v1",
       "abs_url": "http://arxiv.org/abs/2603.29362v1"
+    },
+    "2604.00402v1": {
+      "arxiv_id": "2604.00402v1",
+      "title": "COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving",
+      "authors": [
+        "Seohyoung Park",
+        "Jaeyeol Lim",
+        "Seoyoung Ju",
+        "Kyeonghun Kim",
+        "Nam-Joon Kim",
+        "Hyuk-Jae Lee"
+      ],
+      "summary": "Developing robust models to accurately predict the trajectories of surrounding agents is fundamental to autonomous driving safety. However, most public datasets, such as the Waymo Open Motion Dataset and Argoverse, are collected in Western road environments and do not reflect the unique traffic patterns, infrastructure, and driving behaviors of other regions, including South Korea. This domain discrepancy leads to performance degradation when state-of-the-art models trained on Western data are deployed in different geographic contexts. In this work, we investigate the adaptability of Query-Centric Trajectory Prediction (QCNet) when transferred from U.S.-based data to Korean road environments. Using a Korean autonomous driving dataset, we compare four training strategies: zero-shot transfer, training from scratch, full fine-tuning, and encoder freezing. Experimental results demonstrate that leveraging pretrained knowledge significantly improves prediction performance. Specifically, selectively fine-tuning the decoder while freezing the encoder yields the best trade-off between accuracy and training efficiency, reducing prediction error by over 66% compared to training from scratch. This study provides practical insights into effective transfer learning strategies for deploying trajectory prediction models in new geographic domains.",
+      "published_utc": "2026-04-01T02:36:28Z",
+      "updated_utc": "2026-04-01T02:36:28Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.00402v1",
+      "abs_url": "http://arxiv.org/abs/2604.00402v1"
+    },
+    "2604.00059v1": {
+      "arxiv_id": "2604.00059v1",
+      "title": "MRReP: Mixed Reality-based Hand-drawn Reference Path Editing Interface for Mobile Robot Navigation",
+      "authors": [
+        "Takumi Taki",
+        "Masato Kobayashi",
+        "Yuki Uranishi"
+      ],
+      "summary": "Autonomous mobile robots operating in human-shared indoor environments often require paths that reflect human spatial intentions, such as avoiding interference with pedestrian flow or maintaining comfortable clearance. However, conventional path planners primarily optimize geometric costs and provide limited support for explicit route specification by human operators. This paper presents MRReP, a Mixed Reality-based interface that enables users to draw a Hand-drawn Reference Path (HRP) directly on the physical floor using hand gestures. The drawn HRP is integrated into the robot navigation stack through a custom Hand-drawn Reference Path Planner, which converts the user-specified point sequence into a global path for autonomous navigation. We evaluated MRReP in a within-subject experiment against a conventional 2D baseline interface. The results demonstrated that MRReP enhanced path specification accuracy, usability, and perceived workload, while enabling more stable path specification in the physical environment. These findings suggest that direct path specification in MR is an effective approach for incorporating human spatial intention into mobile robot navigation. Additional material is available at https://mertcookimg.github.io/mrrep",
+      "published_utc": "2026-03-31T04:49:53Z",
+      "updated_utc": "2026-03-31T04:49:53Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.00059v1",
+      "abs_url": "http://arxiv.org/abs/2604.00059v1"
+    },
+    "2505.00213v3": {
+      "arxiv_id": "2505.00213v3",
+      "title": "A Player Selection Network for Scalable Game-Theoretic Prediction and Planning",
+      "authors": [
+        "Tianyu Qiu",
+        "Eric Ouano",
+        "Fernando Palafox",
+        "Christian Ellis",
+        "David Fridovich-Keil"
+      ],
+      "summary": "While game-theoretic planning frameworks are effective at modeling multi-agent interactions, they require solving large optimization problems where the number of variables increases with the number of agents, resulting in long computation times that limit their use in large-scale, real-time systems. To address this issue, we propose 1) PSN Game-a learning-based, game-theoretic prediction and planning framework that reduces game size by learning a Player Selection Network (PSN); and 2) a Goal Inference Network (GIN) that makes it possible to use the PSN in incomplete-information games where other agents' intentions are unknown to the ego agent. A PSN outputs a player selection mask that distinguishes influential players from less relevant ones, enabling the ego player to solve a smaller, masked game involving only selected players. By reducing the number of players included in the game, PSN shrinks the corresponding optimization problems, leading to faster solve times. Experiments in both simulated scenarios and real-world pedestrian trajectory datasets show that PSN is competitive with, and often improves upon, the evaluated explicit game-theoretic selection baselines in 1) prediction accuracy and 2) planning safety. Across scenarios, PSN typically selects substantially fewer players than are present in the full game, thereby reducing game size and planning complexity. PSN also generalizes to settings in which agents' objectives are unknown, via the GIN, without test-time fine-tuning. By selecting only the most relevant players for decision-making, PSN Game provides a practical mechanism for reducing planning complexity that can be integrated into existing multi-agent planning frameworks.",
+      "published_utc": "2025-04-30T23:14:32Z",
+      "updated_utc": "2026-04-01T16:38:05Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "math.OC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2505.00213v3",
+      "abs_url": "http://arxiv.org/abs/2505.00213v3"
+    },
+    "2604.00064v1": {
+      "arxiv_id": "2604.00064v1",
+      "title": "Forecast collapse of transformer-based models under squared loss in financial time series",
+      "authors": [
+        "Pierre Andreoletti"
+      ],
+      "summary": "We study trajectory forecasting under squared loss for time series with weak conditional structure, using highly expressive prediction models. Building on the classical characterization of squared-loss risk minimization, we emphasize regimes in which the conditional expectation of future trajectories is effectively degenerate, leading to trivial Bayes-optimal predictors (flat for prices and zero for returns in standard financial settings). In this regime, increased model expressivity does not improve predictive accuracy but instead introduces spurious trajectory fluctuations around the optimal predictor. These fluctuations arise from the reuse of noise and result in increased prediction variance without any reduction in bias. This provides a process-level explanation for the degradation of Transformerbased forecasts on financial time series. We complement these theoretical results with numerical experiments on high-frequency EUR/USD exchange rate data, analyzing the distribution of trajectory-level forecasting errors. The results show that Transformer-based models yield larger errors than a simple linear benchmark on a large majority of forecasting windows, consistent with the variance-driven mechanism identified by the theory.",
+      "published_utc": "2026-03-31T09:06:52Z",
+      "updated_utc": "2026-03-31T09:06:52Z",
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR",
+        "math.ST",
+        "q-fin.CP"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.00064v1",
+      "abs_url": "http://arxiv.org/abs/2604.00064v1"
     }
   },
   "topics": {
@@ -8460,9 +8541,10 @@
         "2603.24155v1",
         "2603.24936v1",
         "2603.26741v1",
-        "2603.26720v1"
+        "2603.26720v1",
+        "2604.00402v1"
       ],
-      "latest_update": "2026-03-31"
+      "latest_update": "2026-04-02"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8546,9 +8628,11 @@
         "2603.13698v2",
         "2603.19533v1",
         "2511.20011v2",
-        "2511.20008v2"
+        "2511.20008v2",
+        "2604.00059v1",
+        "2505.00213v3"
       ],
-      "latest_update": "2026-03-25"
+      "latest_update": "2026-04-02"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -8703,9 +8787,11 @@
         "2603.25395v1",
         "2603.27422v1",
         "2603.26462v1",
-        "2509.15219v2"
+        "2509.15219v2",
+        "2604.00402v1",
+        "2604.00064v1"
       ],
-      "latest_update": "2026-03-31"
+      "latest_update": "2026-04-02"
     }
   }
 }

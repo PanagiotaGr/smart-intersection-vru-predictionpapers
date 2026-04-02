@@ -1,11 +1,14 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-04-01` (timezone: `Europe/Athens`)
+Updated: `2026-04-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **80**
+Total papers tracked: **82**
 
 ---
 
+- **MRReP: Mixed Reality-based Hand-drawn Reference Path Editing Interface for Mobile Robot Navigation**  
+  *Takumi Taki, Masato Kobayashi, Yuki Uranishi*  
+  Published: `2026-03-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.00059v1) · [pdf](https://arxiv.org/pdf/2604.00059v1) · id: `2604.00059v1`
 - **Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion**  
   *Sima Ashayer, Hoang H. Nguyen, Yu Liang, Mina Sartipi*  
   Published: `2026-03-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.19533v1) · [pdf](https://arxiv.org/pdf/2603.19533v1) · id: `2603.19533v1`
@@ -120,6 +123,9 @@ Total papers tracked: **80**
 - **VRU-CIPI: Crossing Intention Prediction at Intersections for Improving Vulnerable Road Users Safety**  
   *Ahmed S. Abdelrahman, Mohamed Abdel-Aty, Quoc Dai Tran*  
   Published: `2025-05-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2505.09935v1) · [pdf](https://arxiv.org/pdf/2505.09935v1) · id: `2505.09935v1`
+- **A Player Selection Network for Scalable Game-Theoretic Prediction and Planning**  
+  *Tianyu Qiu, Eric Ouano, Fernando Palafox, Christian Ellis, David Fridovich-Keil*  
+  Published: `2025-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2505.00213v3) · [pdf](https://arxiv.org/pdf/2505.00213v3) · id: `2505.00213v3`
 - **SocialMOIF: Multi-Order Intention Fusion for Pedestrian Trajectory Prediction**  
   *Kai Chen, Xiaodong Zhao, Yujie Huang, Guoyu Fang, Xiao Song, Ruiping Wang, Ziyuan Wang*  
   Published: `2025-04-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2504.15616v1) · [pdf](https://arxiv.org/pdf/2504.15616v1) · id: `2504.15616v1`
