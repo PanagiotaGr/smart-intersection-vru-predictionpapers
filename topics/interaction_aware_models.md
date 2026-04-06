@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-04-05` (timezone: `Europe/Athens`)
+Updated: `2026-04-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **144**
+Total papers tracked: **145**
 
 ---
 
+- **PlayGen-MoG: Framework for Diverse Multi-Agent Play Generation via Mixture-of-Gaussians Trajectory Prediction**  
+  *Kevin Song*  
+  Published: `2026-04-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02447v1) · [pdf](https://arxiv.org/pdf/2604.02447v1) · id: `2604.02447v1`
 - **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
   *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
   Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v1) · [pdf](https://arxiv.org/pdf/2604.00402v1) · id: `2604.00402v1`

@@ -1,11 +1,17 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-04-05` (timezone: `Europe/Athens`)
+Updated: `2026-04-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **153**
+Total papers tracked: **155**
 
 ---
 
+- **STDDN: A Physics-Guided Deep Learning Framework for Crowd Simulation**  
+  *Zijin Liu, Xu Geng, Wenshuai Xu, Xiang Zhao, Yan Xia, You Song*  
+  Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.02756v1) · [pdf](https://arxiv.org/pdf/2604.02756v1) · id: `2604.02756v1`
+- **ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving**  
+  *Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren*  
+  Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02714v1) · [pdf](https://arxiv.org/pdf/2604.02714v1) · id: `2604.02714v1`
 - **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
   *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
   Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v1) · [pdf](https://arxiv.org/pdf/2604.00402v1) · id: `2604.00402v1`

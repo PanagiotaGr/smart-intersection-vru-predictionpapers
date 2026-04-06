@@ -8249,6 +8249,65 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.00064v1",
       "abs_url": "http://arxiv.org/abs/2604.00064v1"
+    },
+    "2604.02447v1": {
+      "arxiv_id": "2604.02447v1",
+      "title": "PlayGen-MoG: Framework for Diverse Multi-Agent Play Generation via Mixture-of-Gaussians Trajectory Prediction",
+      "authors": [
+        "Kevin Song"
+      ],
+      "summary": "Multi-agent trajectory generation in team sports requires models that capture both the diversity of possible plays and realistic spatial coordination between players on plays. Standard generative approaches such as Conditional Variational Autoencoders (CVAE) and diffusion models struggle with this task, exhibiting posterior collapse or convergence to the dataset mean. Moreover, most trajectory prediction methods operate in a forecasting regime that requires multiple frames of observed history, limiting their use for play design where only the initial formation is available. We present PlayGen-MoG, an extensible framework for formation-conditioned play generation that addresses these challenges through three design choices: 1/ a Mixture-of-Gaussians (MoG) output head with shared mixture weights across all agents, where a single set of weights selects a play scenario that couples all players' trajectories, 2/ relative spatial attention that encodes pairwise player positions and distances as learned attention biases, and 3/ non-autoregressive prediction of absolute displacements from the initial formation, eliminating cumulative error drift and removing the dependence on observed trajectory history, enabling realistic play generation from a single static formation alone. On American football tracking data, PlayGen-MoG achieves 1.68 yard ADE and 3.98 yard FDE while maintaining full utilization of all 8 mixture components with entropy of 2.06 out of 2.08, and qualitatively confirming diverse generation without mode collapse.",
+      "published_utc": "2026-04-02T18:18:53Z",
+      "updated_utc": "2026-04-02T18:18:53Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.02447v1",
+      "abs_url": "http://arxiv.org/abs/2604.02447v1"
+    },
+    "2604.02756v1": {
+      "arxiv_id": "2604.02756v1",
+      "title": "STDDN: A Physics-Guided Deep Learning Framework for Crowd Simulation",
+      "authors": [
+        "Zijin Liu",
+        "Xu Geng",
+        "Wenshuai Xu",
+        "Xiang Zhao",
+        "Yan Xia",
+        "You Song"
+      ],
+      "summary": "Accurate crowd simulation is crucial for public safety management, emergency evacuation planning, and intelligent transportation systems. However, existing methods, which typically model crowds as a collection of independent individual trajectories, are limited in their ability to capture macroscopic physical laws. This microscopic approach often leads to error accumulation and compromises simulation stability. Furthermore, deep learning-driven methods tend to suffer from low inference efficiency and high computational overhead, making them impractical for large-scale, efficient simulations. To address these challenges, we propose the Spatio-Temporal Decoupled Differential Equation Network (STDDN), a novel framework that guides microscopic trajectory prediction with macroscopic physics. We innovatively introduce the continuity equation from fluid dynamics as a strong physical constraint. A Neural Ordinary Differential Equation (Neural ODE) is employed to model the macroscopic density evolution driven by individual movements, thereby physically regularizing the microscopic trajectory prediction model. We design a density-velocity coupled dynamic graph learning module to formulate the derivative of the density field within the Neural ODE, effectively mitigating error accumulation. We also propose a differentiable density mapping module to eliminate discontinuous gradients caused by discretization and introduce a cross-grid detection module to accurately model the impact of individual cross-grid movements on local density changes. The proposed STDDN method has demonstrated significantly superior simulation performance compared to state-of-the-art methods on long-term tasks across four real-world datasets, as well as a major reduction in inference latency.",
+      "published_utc": "2026-04-03T06:06:04Z",
+      "updated_utc": "2026-04-03T06:06:04Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.02756v1",
+      "abs_url": "http://arxiv.org/abs/2604.02756v1"
+    },
+    "2604.02714v1": {
+      "arxiv_id": "2604.02714v1",
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": [
+        "Zihao Sheng",
+        "Xin Ye",
+        "Jingru Luo",
+        "Sikai Chen",
+        "Liu Ren"
+      ],
+      "summary": "End-to-end autonomous driving models based on Vision-Language-Action (VLA) architectures have shown promising results by learning driving policies through behavior cloning on expert demonstrations. However, imitation learning inherently limits the model to replicating observed behaviors without exploring diverse driving strategies, leaving it brittle in novel or out-of-distribution scenarios. Reinforcement learning (RL) offers a natural remedy by enabling policy exploration beyond the expert distribution. Yet VLA models, typically trained on offline datasets, lack directly observable state transitions, necessitating a learned world model to anticipate action consequences. In this work, we propose a unified understanding-and-generation framework that leverages world modeling to simultaneously enable meaningful exploration and provide dense supervision. Specifically, we augment trajectory prediction with future RGB and depth image generation as dense world modeling objectives, requiring the model to learn fine-grained visual and geometric representations that substantially enrich the planning backbone. Beyond serving as a supervisory signal, the world model further acts as a source of intrinsic reward for policy exploration: its image prediction uncertainty naturally measures a trajectory's novelty relative to the training distribution, where high uncertainty indicates out-of-distribution scenarios that, if safe, represent valuable learning opportunities. We incorporate this exploration signal into a safety-gated reward and optimize the policy via Group Relative Policy Optimization (GRPO). Experiments on the NAVSIM and nuScenes benchmarks demonstrate the effectiveness of our approach, achieving a state-of-the-art PDMS score of 93.7 and an EPDMS of 88.8 on NAVSIM. The code and demo will be publicly available at https://zihaosheng.github.io/ExploreVLA/.",
+      "published_utc": "2026-04-03T04:14:13Z",
+      "updated_utc": "2026-04-03T04:14:13Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.02714v1",
+      "abs_url": "http://arxiv.org/abs/2604.02714v1"
     }
   },
   "topics": {
@@ -8542,9 +8601,10 @@
         "2603.24936v1",
         "2603.26741v1",
         "2603.26720v1",
-        "2604.00402v1"
+        "2604.00402v1",
+        "2604.02447v1"
       ],
-      "latest_update": "2026-04-02"
+      "latest_update": "2026-04-06"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8789,9 +8849,11 @@
         "2603.26462v1",
         "2509.15219v2",
         "2604.00402v1",
-        "2604.00064v1"
+        "2604.00064v1",
+        "2604.02756v1",
+        "2604.02714v1"
       ],
-      "latest_update": "2026-04-02"
+      "latest_update": "2026-04-06"
     }
   }
 }
