@@ -8308,6 +8308,117 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.02714v1",
       "abs_url": "http://arxiv.org/abs/2604.02714v1"
+    },
+    "2604.03649v1": {
+      "arxiv_id": "2604.03649v1",
+      "title": "ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations",
+      "authors": [
+        "Ruochen Li",
+        "Ziyi Chang",
+        "Junyan Hu",
+        "Jiannan Li",
+        "Amir Atapour-Abarghouei",
+        "Hubert P. H. Shum"
+      ],
+      "summary": "Accurate prediction of real-world pedestrian trajectories is crucial for a wide range of robot-related applications. Recent approaches typically adopt graph-based or transformer-based frameworks to model interactions. Despite their effectiveness, these methods either introduce unnecessary computational overhead or struggle to represent the diverse and time-varying characteristics of human interactions. In this work, we present an Adaptive Relational Transformer (ART), which introduces a Temporal-Aware Relation Graph (TARG) to explicitly capture the evolution of pairwise interactions and an Adaptive Interaction Pruning (AIP) mechanism to reduce redundant computations efficiently. Extensive evaluations on ETH/UCY and NBA benchmarks show that ART delivers state-of-the-art accuracy with high computational efficiency.",
+      "published_utc": "2026-04-04T08:59:33Z",
+      "updated_utc": "2026-04-04T08:59:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.03649v1",
+      "abs_url": "http://arxiv.org/abs/2604.03649v1"
+    },
+    "2604.03463v1": {
+      "arxiv_id": "2604.03463v1",
+      "title": "Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction",
+      "authors": [
+        "Daniel Jost",
+        "Luca Paparusso",
+        "Martin Stoll",
+        "Jörg Wagner",
+        "Raghu Rajan",
+        "Joschka Bödecker"
+      ],
+      "summary": "In highly interactive driving scenes, trajectory prediction is conditioned on information from surrounding traffic participants such as cars and pedestrians. Our main contribution is a comprehensive analysis of state-of-the-art trajectory predictors, which reveals a surprising and critical flaw: many surrounding agents degrade prediction accuracy rather than improve it. Using Shapley-based attribution, we rigorously demonstrate that models learn unstable and non-causal decision-making schemes that vary significantly across training runs. Building on these insights, we propose to integrate a Conditional Information Bottleneck (CIB), which does not require additional supervision and is trained to effectively compress agent features as well as ignore those that are not beneficial for the prediction task. Comprehensive experiments using multiple datasets and model architectures demonstrate that this simple yet effective approach not only improves overall trajectory prediction performance in many cases but also increases robustness to different perturbations. Our results highlight the importance of selectively integrating contextual information, which can often contain spurious or misleading signals, in trajectory prediction. Moreover, we provide interpretable metrics for identifying non-robust behavior and present a promising avenue towards a solution.",
+      "published_utc": "2026-04-03T21:15:06Z",
+      "updated_utc": "2026-04-03T21:15:06Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.03463v1",
+      "abs_url": "http://arxiv.org/abs/2604.03463v1"
+    },
+    "2604.04573v1": {
+      "arxiv_id": "2604.04573v1",
+      "title": "SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles",
+      "authors": [
+        "Bin Rao",
+        "Haicheng Liao",
+        "Chengyue Wang",
+        "Keqiang Li",
+        "Zhenning Li",
+        "Hai Yang"
+      ],
+      "summary": "Autonomous vehicles (AVs) rely on accurate trajectory prediction for safe navigation in diverse traffic environments, yet existing models struggle with long-tail scenarios-rare but safety-critical events characterized by abrupt maneuvers, high collision risks, and complex interactions. These challenges stem from data imbalance, inadequate definitions of long-tail trajectories, and suboptimal learning strategies that prioritize common behaviors over infrequent ones. To address this, we propose SAIL, a novel framework that systematically tackles the long-tail problem by first defining and modeling trajectories across three key attribute dimensions: prediction error, collision risk, and state complexity. Our approach then synergizes an attribute-guided augmentation and feature extraction process with a highly adaptive contrastive learning strategy. This strategy employs a continuous cosine momentum schedule, similarity-weighted hard-negative mining, and a dynamic pseudo-labeling mechanism based on evolving feature clustering. Furthermore, it incorporates a focusing mechanism to intensify learning on hard-positive samples within each identified class. This comprehensive design enables SAIL to excel at identifying and forecasting diverse and challenging long-tail events. Extensive evaluations on the nuScenes and ETH/UCY datasets demonstrate SAIL's superior performance, achieving up to 28.8% reduction in prediction error on the hardest 1% of long-tail samples compared to state-of-the-art baselines, while maintaining competitive accuracy across all scenarios. This framework advances reliable AV trajectory prediction in real-world, mixed-autonomy settings.",
+      "published_utc": "2026-04-06T10:09:24Z",
+      "updated_utc": "2026-04-06T10:09:24Z",
+      "primary_category": "cs.ET",
+      "categories": [
+        "cs.ET",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.04573v1",
+      "abs_url": "http://arxiv.org/abs/2604.04573v1"
+    },
+    "2603.24936v2": {
+      "arxiv_id": "2603.24936v2",
+      "title": "TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Guided Optimization",
+      "authors": [
+        "Xuepeng Jing",
+        "Wenhuan Lu",
+        "Hao Meng",
+        "Zhizhi Yu",
+        "Jianguo Wei"
+      ],
+      "summary": "Human trajectory forecasting is important for intelligent multimedia systems operating in visually complex environments, such as autonomous driving and crowd surveillance. Although Conditional Flow Matching (CFM) has shown strong ability in modeling trajectory distributions from spatio-temporal observations, existing approaches still focus primarily on supervised fitting, which may leave social norms and scene constraints insufficiently reflected in generated trajectories. To address this issue, we propose TIGFlow-GRPO, a two-stage generative approach that aligns flow-based trajectory generation with behavioral rules. In the first stage, we build a CFM-based predictor with a Trajectory-Interaction-Graph (TIG) module to model fine-grained visual-spatial interactions and strengthen context encoding. This stage captures both agent-agent and agent-scene relations more effectively, providing more informative conditional features for subsequent alignment. In the second stage, we perform Flow-GRPO post-training, where deterministic flow rollout is reformulated as stochastic ODE-to-SDE sampling to enable trajectory exploration, and a composite reward combines view-aware social compliance with map-aware physical feasibility. By evaluating trajectories explored through SDE rollout, GRPO progressively steers multimodal predictions toward behaviorally plausible futures. Experiments on the ETH/UCY and SDD datasets show that TIGFlow-GRPOimproves forecasting accuracy and long-horizon stability while generatingtrajectories that are more socially compliant and physically feasible.These results suggest that the proposed approach provides an effective way to connectflow-based trajectory modeling with behavior-aware alignment in dynamic multimedia environments.",
+      "published_utc": "2026-03-26T01:59:10Z",
+      "updated_utc": "2026-04-06T08:18:38Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.24936v2",
+      "abs_url": "http://arxiv.org/abs/2603.24936v2"
+    },
+    "2512.03795v2": {
+      "arxiv_id": "2512.03795v2",
+      "title": "MPCFormer: A physics-informed data-driven approach for explainable socially-aware autonomous driving",
+      "authors": [
+        "Jia Hu",
+        "Zhexi Lian",
+        "Xuerun Yan",
+        "Ruiang Bi",
+        "Dou Shen",
+        "Yu Ruan",
+        "Chunlong Xia",
+        "Haoran Wang"
+      ],
+      "summary": "Autonomous Driving (AD) vehicles still struggle to exhibit human-like behavior in highly dynamic and interactive traffic scenarios. The key challenge lies in AD's limited ability to interact with surrounding vehicles, largely due to a lack of understanding the underlying mechanisms of social interaction. To address this issue, we introduce MPCFormer, an explainable socially-aware autonomous driving approach with physics-informed and data-driven coupled social interaction dynamics. In this model, the dynamics are formulated into a discrete space-state representation, which embeds physics priors to enhance modeling explainability. The dynamics coefficients are learned from naturalistic driving data via a Transformer-based encoder-decoder architecture. To the best of our knowledge, MPCFormer is the first approach to explicitly model the dynamics of multi-vehicle social interactions. The learned social interaction dynamics enable the planner to generate manifold, human-like behaviors when interacting with surrounding traffic. By leveraging the MPC framework, the approach mitigates the potential safety risks typically associated with purely learning-based methods. Open-looped evaluation on NGSIM dataset demonstrates that MPCFormer achieves superior social interaction awareness, yielding the lowest trajectory prediction errors compared with other state-of-the-art approaches. The prediction achieves an ADE as low as 0.86 m over a long prediction horizon of 5 seconds. Close-looped experiments in highly intense interaction scenarios, where consecutive lane changes are required to exit an off-ramp, further validate the effectiveness of MPCFormer. Results show that MPCFormer achieves the highest planning success rate of 94.67%, improves driving efficiency by 15.75%, and reduces the collision rate from 21.25% to 0.5%, outperforming a frontier Reinforcement Learning (RL) based planner.",
+      "published_utc": "2025-12-03T13:43:33Z",
+      "updated_utc": "2026-04-06T07:53:28Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.03795v2",
+      "abs_url": "http://arxiv.org/abs/2512.03795v2"
     }
   },
   "topics": {
@@ -8411,9 +8522,11 @@
         "2603.14739v1",
         "2603.19812v1",
         "2509.15219v2",
-        "2603.29362v1"
+        "2603.29362v1",
+        "2604.03649v1",
+        "2604.03463v1"
       ],
-      "latest_update": "2026-04-01"
+      "latest_update": "2026-04-07"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -8602,9 +8715,14 @@
         "2603.26741v1",
         "2603.26720v1",
         "2604.00402v1",
-        "2604.02447v1"
+        "2604.02447v1",
+        "2604.04573v1",
+        "2604.03649v1",
+        "2604.03463v1",
+        "2603.24936v2",
+        "2512.03795v2"
       ],
-      "latest_update": "2026-04-06"
+      "latest_update": "2026-04-07"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8851,9 +8969,11 @@
         "2604.00402v1",
         "2604.00064v1",
         "2604.02756v1",
-        "2604.02714v1"
+        "2604.02714v1",
+        "2604.04573v1",
+        "2512.03795v2"
       ],
-      "latest_update": "2026-04-06"
+      "latest_update": "2026-04-07"
     }
   }
 }

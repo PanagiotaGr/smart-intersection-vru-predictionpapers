@@ -1,11 +1,14 @@
 # Risk-aware / Safety / Collision Prediction
 
-Updated: `2026-04-06` (timezone: `Europe/Athens`)
+Updated: `2026-04-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **155**
+Total papers tracked: **157**
 
 ---
 
+- **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
+  *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
+  Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`
 - **STDDN: A Physics-Guided Deep Learning Framework for Crowd Simulation**  
   *Zijin Liu, Xu Geng, Wenshuai Xu, Xiang Zhao, Yan Xia, You Song*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.02756v1) · [pdf](https://arxiv.org/pdf/2604.02756v1) · id: `2604.02756v1`
@@ -138,6 +141,9 @@ Total papers tracked: **155**
 - **MPCFormer: A physics-informed data-driven approach for explainable socially-aware autonomous driving**  
   *Jia Hu, Zhexi Lian, Xuerun Yan, Ruiang Bi, Dou Shen, Yu Ruan, Haoran Wang*  
   Published: `2025-12-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.03795v1) · [pdf](https://arxiv.org/pdf/2512.03795v1) · id: `2512.03795v1`
+- **MPCFormer: A physics-informed data-driven approach for explainable socially-aware autonomous driving**  
+  *Jia Hu, Zhexi Lian, Xuerun Yan, Ruiang Bi, Dou Shen, Yu Ruan, Chunlong Xia, Haoran Wang*  
+  Published: `2025-12-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.03795v2) · [pdf](https://arxiv.org/pdf/2512.03795v2) · id: `2512.03795v2`
 - **CogDrive: Cognition-Driven Multimodal Prediction-Planning Fusion for Safe Autonomy**  
   *Heye Huang, Yibin Yang, Mingfeng Fan, Haoran Wang, Xiaocong Zhao, Jianqiang Wang*  
   Published: `2025-12-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.02777v1) · [pdf](https://arxiv.org/pdf/2512.02777v1) · id: `2512.02777v1`

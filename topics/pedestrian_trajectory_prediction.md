@@ -1,11 +1,17 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-04-06` (timezone: `Europe/Athens`)
+Updated: `2026-04-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **98**
+Total papers tracked: **100**
 
 ---
 
+- **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
+  *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
+  Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`
+- **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
+  *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
+  Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`
 - **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
   *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
   Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`

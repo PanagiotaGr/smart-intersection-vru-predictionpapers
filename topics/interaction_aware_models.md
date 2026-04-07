@@ -1,11 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-04-06` (timezone: `Europe/Athens`)
+Updated: `2026-04-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **145**
+Total papers tracked: **150**
 
 ---
 
+- **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
+  *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
+  Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`
+- **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
+  *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
+  Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`
+- **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
+  *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
+  Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`
 - **PlayGen-MoG: Framework for Diverse Multi-Agent Play Generation via Mixture-of-Gaussians Trajectory Prediction**  
   *Kevin Song*  
   Published: `2026-04-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02447v1) · [pdf](https://arxiv.org/pdf/2604.02447v1) · id: `2604.02447v1`
@@ -15,6 +24,9 @@ Total papers tracked: **145**
 - **TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Driven Optimization**  
   *Xuepeng Jing, Wenhuan Lu, Hao Meng, Zhizhi Yu, Jianguo Wei*  
   Published: `2026-03-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.24936v1) · [pdf](https://arxiv.org/pdf/2603.24936v1) · id: `2603.24936v1`
+- **TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Guided Optimization**  
+  *Xuepeng Jing, Wenhuan Lu, Hao Meng, Zhizhi Yu, Jianguo Wei*  
+  Published: `2026-03-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.24936v2) · [pdf](https://arxiv.org/pdf/2603.24936v2) · id: `2603.24936v2`
 - **Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction**  
   *Harsh Yadav, Tobias Meisen*  
   Published: `2026-03-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.24155v1) · [pdf](https://arxiv.org/pdf/2603.24155v1) · id: `2603.24155v1`
@@ -180,6 +192,9 @@ Total papers tracked: **145**
 - **MPCFormer: A physics-informed data-driven approach for explainable socially-aware autonomous driving**  
   *Jia Hu, Zhexi Lian, Xuerun Yan, Ruiang Bi, Dou Shen, Yu Ruan, Haoran Wang*  
   Published: `2025-12-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.03795v1) · [pdf](https://arxiv.org/pdf/2512.03795v1) · id: `2512.03795v1`
+- **MPCFormer: A physics-informed data-driven approach for explainable socially-aware autonomous driving**  
+  *Jia Hu, Zhexi Lian, Xuerun Yan, Ruiang Bi, Dou Shen, Yu Ruan, Chunlong Xia, Haoran Wang*  
+  Published: `2025-12-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.03795v2) · [pdf](https://arxiv.org/pdf/2512.03795v2) · id: `2512.03795v2`
 - **Prediction-Driven Motion Planning: Route Integration Strategies in Attention-Based Prediction Models**  
   *Marlon Steiner, Royden Wagner, Ömer Sahin Tas, Christoph Stiller*  
   Published: `2025-12-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.03756v1) · [pdf](https://arxiv.org/pdf/2512.03756v1) · id: `2512.03756v1`
