@@ -8419,6 +8419,23 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2512.03795v2",
       "abs_url": "http://arxiv.org/abs/2512.03795v2"
+    },
+    "2603.24155v2": {
+      "arxiv_id": "2603.24155v2",
+      "title": "Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction",
+      "authors": [
+        "Harsh Yadav",
+        "Tobias Meisen"
+      ],
+      "summary": "Current trajectory prediction models are primarily trained in an open-loop manner, which often leads to covariate shift and compounding errors when deployed in real-world, closed-loop settings. Furthermore, relying on static datasets or non-reactive log-replay simulators severs the interactive loop, preventing the ego agent from learning to actively negotiate surrounding traffic. In this work, we propose an on-policy closed-loop training paradigm optimized for high-frequency, receding horizon ego prediction. To ground the ego prediction in a realistic representation of traffic interactions and to achieve reactive consistency, we introduce a goal-oriented, transformer-based scene decoder, resulting in an inherently reactive training simulation. By exposing the ego agent to a mixture of open-loop data and simulated, self-induced states, the model learns recovery behaviors to correct its own execution errors. Extensive evaluation demonstrates that closed-loop training significantly enhances collision avoidance capabilities at high replanning frequencies, yielding relative collision rate reductions of up to 27.0% on nuScenes and 79.5% in dense DeepScenario intersections compared to open-loop baselines. Additionally, we show that a hybrid simulation combining reactive with non-reactive surrounding agents achieves optimal balance between immediate interactivity and long-term behavioral stability.",
+      "published_utc": "2026-03-25T10:24:16Z",
+      "updated_utc": "2026-04-07T08:33:33Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.24155v2",
+      "abs_url": "http://arxiv.org/abs/2603.24155v2"
     }
   },
   "topics": {
@@ -8720,9 +8737,10 @@
         "2604.03649v1",
         "2604.03463v1",
         "2603.24936v2",
-        "2512.03795v2"
+        "2512.03795v2",
+        "2603.24155v2"
       ],
-      "latest_update": "2026-04-07"
+      "latest_update": "2026-04-08"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8971,9 +8989,10 @@
         "2604.02756v1",
         "2604.02714v1",
         "2604.04573v1",
-        "2512.03795v2"
+        "2512.03795v2",
+        "2603.24155v2"
       ],
-      "latest_update": "2026-04-07"
+      "latest_update": "2026-04-08"
     }
   }
 }
