@@ -8436,6 +8436,41 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.24155v2",
       "abs_url": "http://arxiv.org/abs/2603.24155v2"
+    },
+    "2604.06882v1": {
+      "arxiv_id": "2604.06882v1",
+      "title": "Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G",
+      "authors": [
+        "Hang Zou",
+        "Yuzhi Yang",
+        "Lina Bariah",
+        "Yu Tian",
+        "Yuhuan Lu",
+        "Bohao Wang",
+        "Anis Bara",
+        "Brahim Mefgouda",
+        "Hao Liu",
+        "Yiwei Tao",
+        "Sergy Petrov",
+        "Salma Cheour",
+        "Nassim Sehad",
+        "Sumudu Samarakoon",
+        "Chongwen Huang",
+        "Samson Lasaulce",
+        "Mehdi Bennis",
+        "Mérouane Debbah"
+      ],
+      "summary": "The integration of machine learning tools into telecom networks, has led to two prevailing paradigms, namely, language-based systems, such as Large Language Models (LLMs), and physics-based systems, such as Digital Twins (DTs). While LLM-based approaches enable flexible interaction and automation, they lack explicit representations of network dynamics. DTs, in contrast, offer a high-fidelity network simulation, but remain scenario-specific and are not designed for learning or decision-making under uncertainty. This gap becomes critical for 6G systems, where decisions must take into account the evolving network states, uncertainty, and the cascading effects of control actions across multiple layers. In this article, we introduce the {Telecom World Model}~(TWM) concept, an architecture for learned, action-conditioned, uncertainty-aware modeling of telecom system dynamics. We decompose the problem into two interacting worlds, a controllable system world consisting of operator-configurable settings and an external world that captures propagation, mobility, traffic, and failures. We propose a three-layer architecture, comprising a field world model for spatial environment prediction, a control/dynamics world model for action-conditioned Key Performance Indicator (KPI) trajectory prediction, and a telecom foundation model layer for intent translation and orchestration. We showcase a comparative analysis between existing paradigms, which demonstrates that TWM jointly provides telecom state grounding, fast action-conditioned roll-outs, calibrated uncertainty, multi-timescale dynamics, model-based planning, and LLM-integrated guardrails. Furthermore, we present a proof-of-concept on network slicing to validate the proposed architecture, showing that the full three-layer pipeline outperforms single-world baselines and accurately predicts KPI trajectories.",
+      "published_utc": "2026-04-08T09:41:58Z",
+      "updated_utc": "2026-04-08T09:41:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SP",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.06882v1",
+      "abs_url": "http://arxiv.org/abs/2604.06882v1"
     }
   },
   "topics": {
@@ -8738,9 +8773,10 @@
         "2604.03463v1",
         "2603.24936v2",
         "2512.03795v2",
-        "2603.24155v2"
+        "2603.24155v2",
+        "2604.06882v1"
       ],
-      "latest_update": "2026-04-08"
+      "latest_update": "2026-04-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

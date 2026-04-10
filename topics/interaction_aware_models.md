@@ -1,11 +1,14 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-04-08` (timezone: `Europe/Athens`)
+Updated: `2026-04-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **152**
 
 ---
 
+- **Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G**  
+  *Hang Zou, Yuzhi Yang, Lina Bariah, Yu Tian, Yuhuan Lu, Bohao Wang, Anis Bara, Brahim Mefgouda et al.*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.06882v1) · [pdf](https://arxiv.org/pdf/2604.06882v1) · id: `2604.06882v1`
 - **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
   *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
   Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`
