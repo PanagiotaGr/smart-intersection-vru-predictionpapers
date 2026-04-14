@@ -17,7 +17,11 @@
       "why_it_matters_for_thesis": "Σχετίζεται άμεσα με VRU trajectory prediction.",
       "relevance_score": 9,
       "relevance_label": "Πολύ σχετικό",
-      "keywords_el": ["πεζός", "πρόβλεψη τροχιάς", "intersection"]
+      "keywords_el": [
+        "πεζός",
+        "πρόβλεψη τροχιάς",
+        "intersection"
+      ]
     }
   }
 }
