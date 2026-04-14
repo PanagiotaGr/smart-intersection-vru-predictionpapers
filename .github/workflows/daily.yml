@@ -2,7 +2,6 @@ name: Daily ArXiv Digest
 
 on:
   schedule:
-    # 06:10 UTC ≈ 08:10 Athens (χειμώνας), 09:10 (καλοκαίρι)
     - cron: "10 6 * * *"
   workflow_dispatch:
 
@@ -16,6 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,10 +32,21 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install openai python-dotenv
 
       - name: Run daily fetch
         run: |
           python scripts/fetch_arxiv_daily.py --config config.yml
+
+      - name: Generate Greek summaries
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python scripts/summarize_papers_el.py --db data/papers.json --limit 20
+
+      - name: Build Greek digest
+        run: |
+          python scripts/build_greek_digest.py --min-score 6 --limit 15
 
       - name: Commit & push if changed
         run: |
