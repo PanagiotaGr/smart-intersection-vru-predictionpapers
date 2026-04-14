@@ -1,13 +1,23 @@
 {
   "summaries": {
-    "test": {
-      "title": "Test Paper",
-      "relevance_score": 8,
-      "relevance_label": "Υψηλή",
-      "short_summary_el": "Αυτό είναι test περίληψη.",
-      "abs_url": "https://arxiv.org/abs/test",
-      "pdf_url": "https://arxiv.org/pdf/test",
-      "published_utc": "2026-04-14"
+    "test123": {
+      "arxiv_id": "test123",
+      "title": "Test Paper on Pedestrian Trajectory Prediction",
+      "published_utc": "2026-04-14",
+      "primary_category": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/test123",
+      "pdf_url": "https://arxiv.org/pdf/test123",
+      "short_summary_el": "Το άρθρο εξετάζει την πρόβλεψη τροχιών πεζών σε αστικά περιβάλλοντα.",
+      "what_problem_does_it_solve": "Βελτιώνει την πρόβλεψη κίνησης πεζών.",
+      "main_method": "Χρησιμοποιεί interaction-aware νευρωνικό μοντέλο.",
+      "input_output": "Είσοδος ιστορικές τροχιές, έξοδος μελλοντικές θέσεις.",
+      "datasets_or_scenarios": "Αστικά intersections.",
+      "key_results": "Παρουσιάζει καλύτερη πρόβλεψη από baseline μοντέλα.",
+      "limitations": "Δεν αναφέρεται καθαρά στο abstract.",
+      "why_it_matters_for_thesis": "Σχετίζεται άμεσα με VRU trajectory prediction.",
+      "relevance_score": 9,
+      "relevance_label": "Πολύ σχετικό",
+      "keywords_el": ["πεζός", "πρόβλεψη τροχιάς", "intersection"]
     }
   }
 }
