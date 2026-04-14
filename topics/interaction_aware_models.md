@@ -1,8 +1,8 @@
-# Interaction-aware & Social Models
+# Interaction-aware and Social Models
 
 Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **155**
+Total papers tracked: **166**
 
 ---
 
@@ -33,6 +33,12 @@ Total papers tracked: **155**
 - **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
   *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
   Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v1) · [pdf](https://arxiv.org/pdf/2604.00402v1) · id: `2604.00402v1`
+- **SHARP: Short-Window Streaming for Accurate and Robust Prediction in Motion Forecasting**  
+  *Alexander Prutsch, Christian Fruhwirth-Reisinger, David Schinagl, Horst Possegger*  
+  Published: `2026-03-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.28091v1) · [pdf](https://arxiv.org/pdf/2603.28091v1) · id: `2603.28091v1`
+- **E-TIDE: Fast, Structure-Preserving Motion Forecasting from Event Sequences**  
+  *Biswadeep Sen, Benoit R. Cottereau, Nicolas Cuperlier, Terence Sim*  
+  Published: `2026-03-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.27757v1) · [pdf](https://arxiv.org/pdf/2603.27757v1) · id: `2603.27757v1`
 - **TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Driven Optimization**  
   *Xuepeng Jing, Wenhuan Lu, Hao Meng, Zhizhi Yu, Jianguo Wei*  
   Published: `2026-03-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.24936v1) · [pdf](https://arxiv.org/pdf/2603.24936v1) · id: `2603.24936v1`
@@ -96,6 +102,9 @@ Total papers tracked: **155**
 - **Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-03-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01864v1) · [pdf](https://arxiv.org/pdf/2603.01864v1) · id: `2603.01864v1`
+- **From GEV to ResLogit: Spatially Correlated Discrete Choice Models for Pedestrian Movement Prediction**  
+  *Rulla Al-Haideri, Bilal Farooq*  
+  Published: `2026-03-01` · Category: `physics.soc-ph` · [abs](http://arxiv.org/abs/2603.01325v1) · [pdf](https://arxiv.org/pdf/2603.01325v1) · id: `2603.01325v1`
 - **FoSS: Modeling Long Range Dependencies and Multimodal Uncertainty in Trajectory Prediction via Fourier State Space Integration**  
   *Yizhou Huang, Gengze Jiang, Yihua Cheng, Kezhi Wang*  
   Published: `2026-03-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01284v1) · [pdf](https://arxiv.org/pdf/2603.01284v1) · id: `2603.01284v1`
@@ -372,6 +381,30 @@ Total papers tracked: **155**
 - **DCHO: A Decomposition-Composition Framework for Predicting Higher-Order Brain Connectivity to Enhance Diverse Downstream Applications**  
   *Weibin Li, Wendu Li, Quanying Liu*  
   Published: `2025-08-27` · Category: `q-bio.NC` · [abs](http://arxiv.org/abs/2509.09696v2) · [pdf](https://arxiv.org/pdf/2509.09696v2) · id: `2509.09696v2`
+- **Escaping Stability-Plasticity Dilemma in Online Continual Learning for Motion Forecasting via Synergetic Memory Rehearsal**  
+  *Yunlong Lin, Chao Lu, Tongshuai Wu, Xiaocong Zhao, Guodong Du, Yanwei Sun, Zirui Li, Jianwei Gong*  
+  Published: `2025-08-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2508.19571v1) · [pdf](https://arxiv.org/pdf/2508.19571v1) · id: `2508.19571v1`
+- **Adaptive Output Steps: FlexiSteps Network for Dynamic Trajectory Prediction**  
+  *Yunxiang Liu, Hongkuo Niu, Jianlin Zhu*  
+  Published: `2025-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2508.17797v1) · [pdf](https://arxiv.org/pdf/2508.17797v1) · id: `2508.17797v1`
+- **Great GATsBi: Hybrid, Multimodal, Trajectory Forecasting for Bicycles using Anticipation Mechanism**  
+  *Kevin Riehl, Shaimaa K. El-Baklish, Anastasios Kouvelas, Michail A. Makridis*  
+  Published: `2025-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2508.14523v1) · [pdf](https://arxiv.org/pdf/2508.14523v1) · id: `2508.14523v1`
+- **SocialTrack: Multi-Object Tracking in Complex Urban Traffic Scenes Inspired by Social Behavior**  
+  *Wenguang Tao, Xiaotian Wang, Tian Yan, Jie Yan, Guodong Li, Kun Bai*  
+  Published: `2025-08-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.12777v3) · [pdf](https://arxiv.org/pdf/2508.12777v3) · id: `2508.12777v3`
+- **Autonomous Oil Spill Response Through Liquid Neural Trajectory Modeling and Coordinated Marine Robotics**  
+  *Hadas C. Kuzmenko, David Ehevich, Oren Gal*  
+  Published: `2025-08-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2508.12456v1) · [pdf](https://arxiv.org/pdf/2508.12456v1) · id: `2508.12456v1`
+- **Understanding Dynamic Scenes in Ego Centric 4D Point Clouds**  
+  *Junsheng Huang, Shengyu Hao, Bocheng Hu, Hongwei Wang, Gaoang Wang*  
+  Published: `2025-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.07251v3) · [pdf](https://arxiv.org/pdf/2508.07251v3) · id: `2508.07251v3`
+- **CoopDiff: Anticipating 3D Human-object Interactions via Contact-consistent Decoupled Diffusion**  
+  *Xiaotong Lin, Tianming Liang, Jian-Fang Hu, Kun-Yu Lin, Yulei Kang, Chunwei Tian, Jianhuang Lai, Wei-Shi Zheng*  
+  Published: `2025-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.07162v1) · [pdf](https://arxiv.org/pdf/2508.07162v1) · id: `2508.07162v1`
+- **Model Predictive Control for Crowd Navigation via Learning-Based Trajectory Prediction**  
+  *Mohamed Parvez Aslam, Bojan Derajic, Mohamed-Khalil Bouzidi, Sebastian Bernhard, Jan Oliver Ringert*  
+  Published: `2025-08-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2508.07079v1) · [pdf](https://arxiv.org/pdf/2508.07079v1) · id: `2508.07079v1`
 - **Generalizable Trajectory Prediction via Inverse Reinforcement Learning with Mamba-Graph Architecture**  
   *Wenyun Li, Wenjie Huang, Zejian Deng, Chen Sun*  
   Published: `2025-06-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2506.12474v1) · [pdf](https://arxiv.org/pdf/2506.12474v1) · id: `2506.12474v1`

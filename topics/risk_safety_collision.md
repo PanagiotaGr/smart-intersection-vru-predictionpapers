@@ -1,8 +1,8 @@
-# Risk-aware / Safety / Collision Prediction
+# Risk-aware Safety and Collision Prediction
 
 Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **159**
+Total papers tracked: **169**
 
 ---
 
@@ -102,6 +102,9 @@ Total papers tracked: **159**
 - **Flow-Based Conformal Predictive Distributions**  
   *Trevor Harris*  
   Published: `2026-02-07` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2602.07633v2) · [pdf](https://arxiv.org/pdf/2602.07633v2) · id: `2602.07633v2`
+- **From Data to Behavior: Predicting Unintended Model Behaviors Before Training**  
+  *Mengru Wang, Zhenqian Xu, Junfeng Fang, Yunzhi Yao, Shumin Deng, Huajun Chen, Ningyu Zhang*  
+  Published: `2026-02-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.04735v1) · [pdf](https://arxiv.org/pdf/2602.04735v1) · id: `2602.04735v1`
 - **PlanTRansformer: Unified Prediction and Planning with Goal-conditioned Transformer**  
   *Constantin Selzer, Fabina B. Flohr*  
   Published: `2026-02-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.03376v1) · [pdf](https://arxiv.org/pdf/2602.03376v1) · id: `2602.03376v1`
@@ -126,6 +129,9 @@ Total papers tracked: **159**
 - **LLaViDA: A Large Language Vision Driving Assistant for Explicit Reasoning and Enhanced Trajectory Planning**  
   *Yudong Liu, Spencer Hallyburton, Jiwoo Kim, Yueqian Lin, Yiming Li, Qinsi Wang, Hui Ye, Jingwei Sun et al.*  
   Published: `2025-12-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.18211v1) · [pdf](https://arxiv.org/pdf/2512.18211v1) · id: `2512.18211v1`
+- **Systemic Risk Radar: A Multi-Layer Graph Framework for Early Market Crash Warning**  
+  *Sandeep Neela*  
+  Published: `2025-12-19` · Category: `q-fin.RM` · [abs](http://arxiv.org/abs/2512.17185v1) · [pdf](https://arxiv.org/pdf/2512.17185v1) · id: `2512.17185v1`
 - **R3ST: A Synthetic 3D Dataset With Realistic Trajectories**  
   *Simone Teglia, Claudia Melis Tonti, Francesco Pro, Leonardo Russo, Andrea Alfarano, Leonardo Pentassuglia, Irene Amerini*  
   Published: `2025-12-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2512.16784v1) · [pdf](https://arxiv.org/pdf/2512.16784v1) · id: `2512.16784v1`
@@ -189,6 +195,15 @@ Total papers tracked: **159**
 - **TrajGATFormer: A Graph-Based Transformer Approach for Worker and Obstacle Trajectory Prediction in Off-site Construction Environments**  
   *Mohammed Alduais, Xinming Li, Qipei Mei*  
   Published: `2025-10-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.22205v1) · [pdf](https://arxiv.org/pdf/2510.22205v1) · id: `2510.22205v1`
+- **Addressing Corner Cases in Autonomous Driving: A World Model-based Approach with Mixture of Experts and LLMs**  
+  *Haicheng Liao, Bonan Wang, Junxian Yang, Chengyue Wang, Zhengbin He, Guohui Zhang, Chengzhong Xu, Zhenning Li*  
+  Published: `2025-10-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.21867v1) · [pdf](https://arxiv.org/pdf/2510.21867v1) · id: `2510.21867v1`
+- **Monocular Visual 8D Pose Estimation for Articulated Bicycles and Cyclists**  
+  *Eduardo R. Corral-Soto, Yang Liu, Yuan Ren, Bai Dongfeng, Liu Bingbing*  
+  Published: `2025-10-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.20158v1) · [pdf](https://arxiv.org/pdf/2510.20158v1) · id: `2510.20158v1`
+- **HumanHalo - Safe and Efficient 3D Navigation Among Humans via Minimally Conservative MPC**  
+  *Simon Schaefer, Helen Oleynikova, Sandra Hirche, Stefan Leutenegger*  
+  Published: `2025-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.17525v2) · [pdf](https://arxiv.org/pdf/2510.17525v2) · id: `2510.17525v2`
 - **SimpleVSF: VLM-Scoring Fusion for Trajectory Prediction of End-to-End Autonomous Driving**  
   *Peiru Zheng, Yun Zhao, Zhan Gong, Hong Zhu, Shaohua Wu*  
   Published: `2025-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.17191v2) · [pdf](https://arxiv.org/pdf/2510.17191v2) · id: `2510.17191v2`
@@ -201,12 +216,18 @@ Total papers tracked: **159**
 - **Beyond ADE and FDE: A Comprehensive Evaluation Framework for Safety-Critical Prediction in Multi-Agent Autonomous Driving Scenarios**  
   *Feifei Liu, Haozhe Wang, Zejun Wei, Qirong Lu, Yiyang Wen, Xiaoyu Tang, Jingyan Jiang, Zhijian He*  
   Published: `2025-10-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.10086v1) · [pdf](https://arxiv.org/pdf/2510.10086v1) · id: `2510.10086v1`
+- **HyPlan: Hybrid Learning-Assisted Planning Under Uncertainty for Safe Autonomous Driving**  
+  *Donald Pfaffmann, Matthias Klusch, Marcel Steinmetz*  
+  Published: `2025-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.07210v2) · [pdf](https://arxiv.org/pdf/2510.07210v2) · id: `2510.07210v2`
 - **Diffusion^2: Dual Diffusion Model with Uncertainty-Aware Adaptive Noise for Momentary Trajectory Prediction**  
   *Yuhao Luo, Yuang Zhang, Kehua Chen, Xinyu Zheng, Shucheng Zhang, Sikai Chen, Yinhai Wang*  
   Published: `2025-10-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.04365v1) · [pdf](https://arxiv.org/pdf/2510.04365v1) · id: `2510.04365v1`
 - **Trajectory prediction for heterogeneous agents: A performance analysis on small and imbalanced datasets**  
   *Tiago Rodrigues de Almeida, Yufei Zhu, Andrey Rudenko, Tomasz P. Kucner, Johannes A. Stork, Martin Magnusson, Achim J. Lilienthal*  
   Published: `2025-10-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.03776v1) · [pdf](https://arxiv.org/pdf/2510.03776v1) · id: `2510.03776v1`
+- **Digital-Twin Evaluation for Proactive Human-Robot Collision Avoidance via Prediction-Guided A-RRT***  
+  *Vadivelan Murugesan, Rajasundaram Mathiazhagan, Sanjana Joshi, Aliasghar Arab*  
+  Published: `2025-10-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.03496v1) · [pdf](https://arxiv.org/pdf/2510.03496v1) · id: `2510.03496v1`
 - **Long-Term Human Motion Prediction Using Spatio-Temporal Maps of Dynamics**  
   *Yufei Zhu, Andrey Rudenko, Tomasz P. Kucner, Achim J. Lilienthal, Martin Magnusson*  
   Published: `2025-10-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2510.03031v1) · [pdf](https://arxiv.org/pdf/2510.03031v1) · id: `2510.03031v1`
@@ -216,6 +237,9 @@ Total papers tracked: **159**
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
+- **TinyBEV: Cross Modal Knowledge Distillation for Efficient Multi Task Bird's Eye View Perception and Planning**  
+  *Reeshad Khan, John Gauch*  
+  Published: `2025-09-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.18372v1) · [pdf](https://arxiv.org/pdf/2509.18372v1) · id: `2509.18372v1`
 - **CoPlanner: An Interactive Motion Planner with Contingency-Aware Diffusion for Autonomous Driving**  
   *Ruiguo Zhong, Ruoyu Yao, Pei Liu, Xiaolong Chen, Rui Yang, Jun Ma*  
   Published: `2025-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2509.17080v1) · [pdf](https://arxiv.org/pdf/2509.17080v1) · id: `2509.17080v1`
@@ -273,6 +297,9 @@ Total papers tracked: **159**
 - **Model Predictive Control for Crowd Navigation via Learning-Based Trajectory Prediction**  
   *Mohamed Parvez Aslam, Bojan Derajic, Mohamed-Khalil Bouzidi, Sebastian Bernhard, Jan Oliver Ringert*  
   Published: `2025-08-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2508.07079v1) · [pdf](https://arxiv.org/pdf/2508.07079v1) · id: `2508.07079v1`
+- **MA-CBP: A Criminal Behavior Prediction Framework Based on Multi-Agent Asynchronous Collaboration**  
+  *Cheng Liu, Daou Zhang, Tingxu Liu, Yuhan Wang, Jinyang Chen, Yuexuan Li, Xinying Xiao, Chenbo Xin et al.*  
+  Published: `2025-08-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2508.06189v2) · [pdf](https://arxiv.org/pdf/2508.06189v2) · id: `2508.06189v2`
 - **TrajEvo: Trajectory Prediction Heuristics Design via LLM-driven Evolution**  
   *Zhikai Zhao, Chuanbo Hua, Federico Berto, Kanghoon Lee, Zihan Ma, Jiachen Li, Jinkyoo Park*  
   Published: `2025-08-07` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2508.05616v1) · [pdf](https://arxiv.org/pdf/2508.05616v1) · id: `2508.05616v1`
@@ -285,6 +312,9 @@ Total papers tracked: **159**
 - **Social-Pose: Enhancing Trajectory Prediction with Human Body Pose**  
   *Yang Gao, Saeed Saadatnejad, Alexandre Alahi*  
   Published: `2025-07-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2507.22742v1) · [pdf](https://arxiv.org/pdf/2507.22742v1) · id: `2507.22742v1`
+- **DeMo++: Motion Decoupling for Autonomous Driving**  
+  *Bozhou Zhang, Nan Song, Xiatian Zhu, Li Zhang*  
+  Published: `2025-07-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2507.17342v2) · [pdf](https://arxiv.org/pdf/2507.17342v2) · id: `2507.17342v2`
 - **VLM-UDMC: VLM-Enhanced Unified Decision-Making and Motion Control for Urban Autonomous Driving**  
   *Haichao Liu, Haoren Guo, Pei Liu, Benshan Ma, Yuxiang Zhang, Jun Ma, Tong Heng Lee*  
   Published: `2025-07-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2507.15266v1) · [pdf](https://arxiv.org/pdf/2507.15266v1) · id: `2507.15266v1`

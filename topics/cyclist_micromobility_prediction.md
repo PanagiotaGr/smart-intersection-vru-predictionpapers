@@ -1,17 +1,26 @@
-# Cyclist & Micromobility Prediction
+# Cyclist and Micromobility Prediction
 
 Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **34**
+Total papers tracked: **43**
 
 ---
 
+- **GHOST: Ground-projected Hypotheses from Observed Structure-from-Motion Trajectories**  
+  *Tomasz Frelek, Rohan Patil, Akshar Tumu, Henrik I. Christensen*  
+  Published: `2026-03-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.20583v2) · [pdf](https://arxiv.org/pdf/2603.20583v2) · id: `2603.20583v2`
 - **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
   *Hongyan Wei, Wael AbdAlmageed*  
   Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v1) · [pdf](https://arxiv.org/pdf/2603.12421v1) · id: `2603.12421v1`
+- **Monocular Visual 8D Pose Estimation for Articulated Bicycles and Cyclists**  
+  *Eduardo R. Corral-Soto, Yang Liu, Yuan Ren, Bai Dongfeng, Liu Bingbing*  
+  Published: `2025-10-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.20158v1) · [pdf](https://arxiv.org/pdf/2510.20158v1) · id: `2510.20158v1`
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
+- **Vehicle-in-Virtual-Environment (VVE) Method for Developing and Evaluating VRU Safety of Connected and Autonomous Driving with Focus on Bicyclist Safety**  
+  *Haochong Chen, Xincheng Cao, Bilin Aksun-Guvenc, Levent Guvenc*  
+  Published: `2025-08-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2509.00624v1) · [pdf](https://arxiv.org/pdf/2509.00624v1) · id: `2509.00624v1`
 - **Great GATsBi: Hybrid, Multimodal, Trajectory Forecasting for Bicycles using Anticipation Mechanism**  
   *Kevin Riehl, Shaimaa K. El-Baklish, Anastasios Kouvelas, Michail A. Makridis*  
   Published: `2025-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2508.14523v1) · [pdf](https://arxiv.org/pdf/2508.14523v1) · id: `2508.14523v1`
@@ -48,6 +57,9 @@ Total papers tracked: **34**
 - **PIAug -- Physics Informed Augmentation for Learning Vehicle Dynamics for Off-Road Navigation**  
   *Parv Maheshwari, Wenshan Wang, Samuel Triest, Matthew Sivaprakasam, Shubhra Aich, John G. Rogers, Jason M. Gregory, Sebastian Scherer*  
   Published: `2023-11-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2311.00815v1) · [pdf](https://arxiv.org/pdf/2311.00815v1) · id: `2311.00815v1`
+- **EPG-MGCN: Ego-Planning Guided Multi-Graph Convolutional Network for Heterogeneous Agent Trajectory Prediction**  
+  *Zihao Sheng, Zilin Huang, Sikai Chen*  
+  Published: `2023-03-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2303.17027v1) · [pdf](https://arxiv.org/pdf/2303.17027v1) · id: `2303.17027v1`
 - **An Empirical Bayes Analysis of Object Trajectory Representation Models**  
   *Yue Yao, Daniel Goehring, Joerg Reichardt*  
   Published: `2022-11-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2211.01696v5) · [pdf](https://arxiv.org/pdf/2211.01696v5) · id: `2211.01696v5`
@@ -57,15 +69,27 @@ Total papers tracked: **34**
 - **Cyclist Trajectory Forecasts by Incorporation of Multi-View Video Information**  
   *Stefan Zernetsch, Oliver Trupp, Viktor Kress, Konrad Doll, Bernhard Sick*  
   Published: `2021-06-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2106.15991v1) · [pdf](https://arxiv.org/pdf/2106.15991v1) · id: `2106.15991v1`
+- **Euro-PVI: Pedestrian Vehicle Interactions in Dense Urban Centers**  
+  *Apratim Bhattacharyya, Daniel Olmeda Reino, Mario Fritz, Bernt Schiele*  
+  Published: `2021-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2106.12442v1) · [pdf](https://arxiv.org/pdf/2106.12442v1) · id: `2106.12442v1`
 - **Imagining The Road Ahead: Multi-Agent Trajectory Prediction via Differentiable Simulation**  
   *Adam Scibior, Vasileios Lioutas, Daniele Reda, Peyman Bateni, Frank Wood*  
   Published: `2021-04-22` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2104.11212v1) · [pdf](https://arxiv.org/pdf/2104.11212v1) · id: `2104.11212v1`
+- **Large Scale Interactive Motion Forecasting for Autonomous Driving : The Waymo Open Motion Dataset**  
+  *Scott Ettinger, Shuyang Cheng, Benjamin Caine, Chenxi Liu, Hang Zhao, Sabeek Pradhan, Yuning Chai, Ben Sapp et al.*  
+  Published: `2021-04-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2104.10133v1) · [pdf](https://arxiv.org/pdf/2104.10133v1) · id: `2104.10133v1`
 - **Cyclist Intention Detection: A Probabilistic Approach**  
   *Stefan Zernetsch, Hannes Reichert, Viktor Kress, Konrad Doll, Bernhard Sick*  
   Published: `2021-04-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2104.09176v1) · [pdf](https://arxiv.org/pdf/2104.09176v1) · id: `2104.09176v1`
 - **Spatio-Temporal Graph Dual-Attention Network for Multi-Agent Prediction and Tracking**  
   *Jiachen Li, Hengbo Ma, Zhihao Zhang, Jinning Li, Masayoshi Tomizuka*  
   Published: `2021-02-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2102.09117v1) · [pdf](https://arxiv.org/pdf/2102.09117v1) · id: `2102.09117v1`
+- **RAIST: Learning Risk Aware Traffic Interactions via Spatio-Temporal Graph Convolutional Networks**  
+  *Videsh Suman, Phu Pham, Aniket Bera*  
+  Published: `2020-11-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2011.08722v3) · [pdf](https://arxiv.org/pdf/2011.08722v3) · id: `2011.08722v3`
+- **Temporally-Continuous Probabilistic Prediction using Polynomial Trajectory Parameterization**  
+  *Zhaoen Su, Chao Wang, Henggang Cui, Nemanja Djuric, Carlos Vallespi-Gonzalez, David Bradley*  
+  Published: `2020-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2011.00399v1) · [pdf](https://arxiv.org/pdf/2011.00399v1) · id: `2011.00399v1`
 - **One Thousand and One Hours: Self-driving Motion Prediction Dataset**  
   *John Houston, Guido Zuidhof, Luca Bergamini, Yawei Ye, Long Chen, Ashesh Jain, Sammy Omari, Vladimir Iglovikov et al.*  
   Published: `2020-06-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2006.14480v2) · [pdf](https://arxiv.org/pdf/2006.14480v2) · id: `2006.14480v2`
@@ -93,6 +117,9 @@ Total papers tracked: **34**
 - **Social-BiGAT: Multimodal Trajectory Forecasting using Bicycle-GAN and Graph Attention Networks**  
   *Vineet Kosaraju, Amir Sadeghian, Roberto Martín-Martín, Ian Reid, S. Hamid Rezatofighi, Silvio Savarese*  
   Published: `2019-07-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/1907.03395v2) · [pdf](https://arxiv.org/pdf/1907.03395v2) · id: `1907.03395v2`
+- **Predicting Motion of Vulnerable Road Users using High-Definition Maps and Efficient ConvNets**  
+  *Fang-Chieh Chou, Tsung-Han Lin, Henggang Cui, Vladan Radosavljevic, Thi Nguyen, Tzu-Kuo Huang, Matthew Niedoba, Jeff Schneider et al.*  
+  Published: `2019-06-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/1906.08469v2) · [pdf](https://arxiv.org/pdf/1906.08469v2) · id: `1906.08469v2`
 - **Interaction-aware Kalman Neural Networks for Trajectory Prediction**  
   *Ce Ju, Zheng Wang, Cheng Long, Xiaoyu Zhang, Dong Eui Chang*  
   Published: `2019-02-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/1902.10928v4) · [pdf](https://arxiv.org/pdf/1902.10928v4) · id: `1902.10928v4`

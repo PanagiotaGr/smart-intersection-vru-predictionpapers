@@ -1,8 +1,8 @@
-# Intention & Crossing Behavior
+# Intention and Crossing Behavior
 
 Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **83**
+Total papers tracked: **99**
 
 ---
 
@@ -165,6 +165,9 @@ Total papers tracked: **83**
 - **A low complexity contextual stacked ensemble-learning approach for pedestrian intent prediction**  
   *Chia-Yen Chiang, Yasmin Fathy, Gregory Slabaugh, Mona Jaber*  
   Published: `2024-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2410.13039v2) · [pdf](https://arxiv.org/pdf/2410.13039v2) · id: `2410.13039v2`
+- **3DArticCyclists: Generating Synthetic Articulated 8D Pose-Controllable Cyclist Data for Computer Vision Applications**  
+  *Eduardo R. Corral-Soto, Yang Liu, Tongtong Cao, Yuan Ren, Liu Bingbing*  
+  Published: `2024-10-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2410.10782v2) · [pdf](https://arxiv.org/pdf/2410.10782v2) · id: `2410.10782v2`
 - **Reliable Heading Tracking for Pedestrian Road Crossing Prediction Using Commodity Devices**  
   *Yucheng Yang, Jingjie Li, Kassem Fawaz*  
   Published: `2024-10-08` · Category: `eess.SP` · [abs](http://arxiv.org/abs/2410.06400v1) · [pdf](https://arxiv.org/pdf/2410.06400v1) · id: `2410.06400v1`
@@ -222,9 +225,54 @@ Total papers tracked: **83**
 - **PIP-Net: Pedestrian Intention Prediction in the Wild**  
   *Mohsen Azarmi, Mahdi Rezaei, He Wang*  
   Published: `2024-02-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2402.12810v3) · [pdf](https://arxiv.org/pdf/2402.12810v3) · id: `2402.12810v3`
+- **Synthetic Data Generation Framework, Dataset, and Efficient Deep Model for Pedestrian Intention Prediction**  
+  *Muhammad Naveed Riaz, Maciej Wielgosz, Abel Garcia Romera, Antonio M. Lopez*  
+  Published: `2024-01-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2401.06757v2) · [pdf](https://arxiv.org/pdf/2401.06757v2) · id: `2401.06757v2`
+- **Hyper-STTN: Hypergraph Augmented Spatial-Temporal Transformer Network for Trajectory Prediction**  
+  *Weizheng Wang, Baijian Yang, Sungeun Hong, Wenhai Sun, Byung-Cheol Min*  
+  Published: `2024-01-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2401.06344v4) · [pdf](https://arxiv.org/pdf/2401.06344v4) · id: `2401.06344v4`
+- **How Do Pedestrians' Perception Change toward Autonomous Vehicles during Unmarked Midblock Multilane Crossings: Role of AV Operation and Signal Indication**  
+  *Fengjiao Zou, Jennifer Harper Ogle, Patrick Gerard, Weimin Jin*  
+  Published: `2024-01-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2401.02339v1) · [pdf](https://arxiv.org/pdf/2401.02339v1) · id: `2401.02339v1`
+- **Spatial-Temporal Conditional Random Field for Human Trajectory Prediction**  
+  *Pengqian Han, Jiamou Liu, Jialing He, Zeyu Zhang, Song Yang, Yanni Tang*  
+  Published: `2023-11-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2311.18198v2) · [pdf](https://arxiv.org/pdf/2311.18198v2) · id: `2311.18198v2`
 - **Interactive Autonomous Navigation with Internal State Inference and Interactivity Estimation**  
   *Jiachen Li, David Isele, Kanghoon Lee, Jinkyoo Park, Kikuo Fujimura, Mykel J. Kochenderfer*  
   Published: `2023-11-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2311.16091v1) · [pdf](https://arxiv.org/pdf/2311.16091v1) · id: `2311.16091v1`
+- **DICE: Diverse Diffusion Model with Scoring for Trajectory Prediction**  
+  *Younwoo Choi, Ray Coden Mercurius, Soheil Mohamad Alizadeh Shabestary, Amir Rasouli*  
+  Published: `2023-10-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2310.14570v1) · [pdf](https://arxiv.org/pdf/2310.14570v1) · id: `2310.14570v1`
+- **Reducing the False Positive Rate Using Bayesian Inference in Autonomous Driving Perception**  
+  *Gledson Melotti, Johann J. S. Bastos, Bruno L. S. da Silva, Tiago Zanotelli, Cristiano Premebida*  
+  Published: `2023-09-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2310.05951v2) · [pdf](https://arxiv.org/pdf/2310.05951v2) · id: `2310.05951v2`
+- **Pedestrian Environment Model for Automated Driving**  
+  *Adrian Holzbock, Alexander Tsaregorodtsev, Vasileios Belagiannis*  
+  Published: `2023-08-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2308.09080v1) · [pdf](https://arxiv.org/pdf/2308.09080v1) · id: `2308.09080v1`
+- **Evaluating Pedestrian Trajectory Prediction Methods with Respect to Autonomous Driving**  
+  *Nico Uhlemann, Felix Fent, Markus Lienkamp*  
+  Published: `2023-08-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2308.05194v3) · [pdf](https://arxiv.org/pdf/2308.05194v3) · id: `2308.05194v3`
+- **Discovering Intrinsic Spatial-Temporal Logic Rules to Explain Human Actions**  
+  *Chengzhi Cao, Chao Yang, Shuang Li*  
+  Published: `2023-06-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2306.12244v2) · [pdf](https://arxiv.org/pdf/2306.12244v2) · id: `2306.12244v2`
+- **HomE: Homography-Equivariant Video Representation Learning**  
+  *Anirudh Sriram, Adrien Gaidon, Jiajun Wu, Juan Carlos Niebles, Li Fei-Fei, Ehsan Adeli*  
+  Published: `2023-06-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2306.01623v1) · [pdf](https://arxiv.org/pdf/2306.01623v1) · id: `2306.01623v1`
+- **Local and Global Contextual Features Fusion for Pedestrian Intention Prediction**  
+  *Mohsen Azarmi, Mahdi Rezaei, Tanveer Hussain, Chenghao Qian*  
+  Published: `2023-05-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2305.01111v1) · [pdf](https://arxiv.org/pdf/2305.01111v1) · id: `2305.01111v1`
+- **Cross or Wait? Predicting Pedestrian Interaction Outcomes at Unsignalized Crossings**  
+  *Chi Zhang, Amir Hossein Kalantari, Yue Yang, Zhongjun Ni, Gustav Markkula, Natasha Merat, Christian Berger*  
+  Published: `2023-04-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2304.08260v2) · [pdf](https://arxiv.org/pdf/2304.08260v2) · id: `2304.08260v2`
+- **MonoPIC -- A Monocular Low-Latency Pedestrian Intention Classification Framework for IoT Edges Using ID3 Modelled Decision Trees**  
+  *Sriram Radhakrishna, Adithya Balasubramanyam*  
+  Published: `2023-04-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2304.00206v3) · [pdf](https://arxiv.org/pdf/2304.00206v3) · id: `2304.00206v3`
+- **Pedestrian Behavior Interacting with Autonomous Vehicles during Unmarked Midblock Multilane Crossings: Role of Infrastructure Design, AV Operations and Signaling**  
+  *Fengjiao Zou, Jennifer Ogle, Weimin Jin, Patrick Gerard, Daniel Petty, Andrew Robb*  
+  Published: `2023-03-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2303.17717v1) · [pdf](https://arxiv.org/pdf/2303.17717v1) · id: `2303.17717v1`
+- **Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset**  
+  *Duc M. Nguyen, Mohammad Nazeri, Amirreza Payandeh, Aniket Datar, Xuesu Xiao*  
+  Published: `2023-03-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2303.14880v2) · [pdf](https://arxiv.org/pdf/2303.14880v2) · id: `2303.14880v2`
 - **nuReality: A VR environment for research of pedestrian and autonomous vehicle interactions**  
   *Paul Schmitt, Nicholas Britten, JiHyun Jeong, Amelia Coffey, Kevin Clark, Shweta Sunil Kothawade, Elena Corina Grigore, Adam Khaw et al.*  
   Published: `2022-01-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2201.04742v1) · [pdf](https://arxiv.org/pdf/2201.04742v1) · id: `2201.04742v1`
