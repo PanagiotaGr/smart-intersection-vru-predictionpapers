@@ -1,0 +1,13 @@
+{
+  "summaries": {
+    "test": {
+      "title": "Test Paper",
+      "relevance_score": 8,
+      "relevance_label": "Υψηλή",
+      "short_summary_el": "Αυτό είναι test περίληψη.",
+      "abs_url": "https://arxiv.org/abs/test",
+      "pdf_url": "https://arxiv.org/pdf/test",
+      "published_utc": "2026-04-14"
+    }
+  }
+}
