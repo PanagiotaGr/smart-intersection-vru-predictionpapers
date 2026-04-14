@@ -8471,6 +8471,85 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.06882v1",
       "abs_url": "http://arxiv.org/abs/2604.06882v1"
+    },
+    "2604.10358v1": {
+      "arxiv_id": "2604.10358v1",
+      "title": "COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments",
+      "authors": [
+        "Ege Gursoy",
+        "Maxime Sabbah",
+        "Arthur Haffemayer",
+        "Joao Cavalcanti Santos",
+        "Pietro Noah Crestaz",
+        "Vladimir Petrik",
+        "Nicolas Mansard",
+        "Vincent Bonnet"
+      ],
+      "summary": "Ensuring safe physical interaction between torque-controlled manipulators and humans is essential for deploying robots in everyday environments. Model Predictive Control (MPC) has emerged as a suitable framework thanks to its capacity to handle hard constraints, provide strong guarantees and zero-shot adaptability through predictive reasoning. However, Gradient-Based MPC (GB-MPC) solvers have demonstrated limited performance for collision avoidance in complex environments. Sampling-based approaches such as Model Predictive Path Integral (MPPI) control offer an alternative via stochastic rollouts, but enforcing safety via additive penalties is inherently fragile, as it provides no formal constraint satisfaction guarantees. We propose a collision avoidance framework called COSMIK-MPPI combining MPPI with the toolbox for human motion estimation RT-COSMIK and the Constraints-as-Terminations transcription, which enforces safety by treating constraint violations as terminal events, without relying on large penalty terms or explicit human motion prediction. The proposed approach is evaluated against state-of-the-art GB-MPC and vanilla MPPI in simulation and on a real manipulator arm. Results show that COSMIK-MPPI achieves a 100% task success rate with a constant computation time (22 ms), largely outperforming GB-MPC. In simulated infeasible scenarios, COSMIK-MPPI consistently generates collision-free trajectories, contrary to vanilla MPPI. These properties enabled safe execution of complex real-world human-robot interaction tasks in shared workspaces using an affordable markerless human motion estimator, demonstrating a robust, compliant, and practical solution for predictive collision avoidance (cf. results showcased at https://exquisite-parfait-ffa925.netlify.app)",
+      "published_utc": "2026-04-11T22:04:22Z",
+      "updated_utc": "2026-04-11T22:04:22Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.10358v1",
+      "abs_url": "http://arxiv.org/abs/2604.10358v1"
+    },
+    "2604.10169v1": {
+      "arxiv_id": "2604.10169v1",
+      "title": "MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning",
+      "authors": [
+        "Wenchang Duan"
+      ],
+      "summary": "Trajectory prediction remains a critical yet challenging component in autonomous driving systems, requiring sophisticated reasoning capabilities while meeting strict real-time deployment constraints. While knowledge distillation has demonstrated effectiveness in model compression, existing approaches often fail to preserve complex decision-making capabilities, particularly in dynamic multi-agent scenarios. This paper introduces MAVEN-T, a teacher-student framework that achieves state-of-the-art trajectory prediction through complementary architectural co-design and progressive distillation. The teacher employs hybrid attention mechanisms for maximum representational capacity, while the student uses efficient architectures optimized for deployment. Knowledge transfer is performed via multi-granular distillation with adaptive curriculum learning that dynamically adjusts complexity based on performance. Importantly, the framework incorporates reinforcement learning to overcome the imitation ceiling of traditional distillation, enabling the student to verify, refine, and optimize teacher knowledge through dynamic environmental interaction, potentially achieving more robust decision-making than the teacher itself. Extensive experiments on NGSIM and highD datasets demonstrate 6.2x parameter compression and 3.7x inference speedup while maintaining state-of-the-art accuracy, establishing a new paradigm for deploying sophisticated reasoning models under resource constraints.",
+      "published_utc": "2026-04-11T11:34:13Z",
+      "updated_utc": "2026-04-11T11:34:13Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.10169v1",
+      "abs_url": "http://arxiv.org/abs/2604.10169v1"
+    },
+    "2604.09527v1": {
+      "arxiv_id": "2604.09527v1",
+      "title": "Envisioning the Future, One Step at a Time",
+      "authors": [
+        "Stefan Andreas Baumann",
+        "Jannik Wiese",
+        "Tommaso Martorella",
+        "Mahdi M. Kalayeh",
+        "Björn Ommer"
+      ],
+      "summary": "Accurately anticipating how complex, diverse scenes will evolve requires models that represent uncertainty, simulate along extended interaction chains, and efficiently explore many plausible futures. Yet most existing approaches rely on dense video or latent-space prediction, expending substantial capacity on dense appearance rather than on the underlying sparse trajectories of points in the scene. This makes large-scale exploration of future hypotheses costly and limits performance when long-horizon, multi-modal motion is essential. We address this by formulating the prediction of open-set future scene dynamics as step-wise inference over sparse point trajectories. Our autoregressive diffusion model advances these trajectories through short, locally predictable transitions, explicitly modeling the growth of uncertainty over time. This dynamics-centric representation enables fast rollout of thousands of diverse futures from a single image, optionally guided by initial constraints on motion, while maintaining physical plausibility and long-range coherence. We further introduce OWM, a benchmark for open-set motion prediction based on diverse in-the-wild videos, to evaluate accuracy and variability of predicted trajectory distributions under real-world uncertainty. Our method matches or surpasses dense simulators in predictive accuracy while achieving orders-of-magnitude higher sampling speed, making open-set future prediction both scalable and practical. Project page: http://compvis.github.io/myriad.",
+      "published_utc": "2026-04-10T17:46:05Z",
+      "updated_utc": "2026-04-10T17:46:05Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.09527v1",
+      "abs_url": "http://arxiv.org/abs/2604.09527v1"
+    },
+    "2604.11406v1": {
+      "arxiv_id": "2604.11406v1",
+      "title": "Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces",
+      "authors": [
+        "Jaerock Kwon",
+        "Jose Gonzalez-Belmonte"
+      ],
+      "summary": "One of the concerns with autonomous vehicles is their ability to communicate their intent to other road users, specially pedestrians, in order to prevent accidents. External Human-Machine Interfaces (eHMIs) are the proposed solution to this issue, through the introduction of electronic devices on the exterior of a vehicle that communicate when the vehicle is planning on slowing down or yielding. This paper uses the technique of unwrapping the faces of a mesh onto a texture where every pixel is a unique color, as well as a series of animated simulations made and ran in the Unity game engine, to measure how many times is each point on a 2015 Ford F-150 King Ranch is unobstructed to a pedestrian attempting to cross the road at a four-way intersection. By cross-referencing the results with a color-coded map of the labeled parts on the exterior of the vehicle, it was concluded that while the bumper, grill, and hood were the parts of the vehicle visible to the crossing pedestrian most often, the existence of other vehicles on the same lane that might obstruct the view of these makes them insufficient. The study recommends instead a distributive approach to eHMIs by using both the windshield and frontal fenders as simultaneous placements for these devices.",
+      "published_utc": "2026-04-13T12:49:20Z",
+      "updated_utc": "2026-04-13T12:49:20Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.11406v1",
+      "abs_url": "http://arxiv.org/abs/2604.11406v1"
     }
   },
   "topics": {
@@ -8774,9 +8853,12 @@
         "2603.24936v2",
         "2512.03795v2",
         "2603.24155v2",
-        "2604.06882v1"
+        "2604.06882v1",
+        "2604.10358v1",
+        "2604.10169v1",
+        "2604.09527v1"
       ],
-      "latest_update": "2026-04-10"
+      "latest_update": "2026-04-14"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -8862,9 +8944,10 @@
         "2511.20011v2",
         "2511.20008v2",
         "2604.00059v1",
-        "2505.00213v3"
+        "2505.00213v3",
+        "2604.11406v1"
       ],
-      "latest_update": "2026-04-02"
+      "latest_update": "2026-04-14"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -9026,9 +9109,10 @@
         "2604.02714v1",
         "2604.04573v1",
         "2512.03795v2",
-        "2603.24155v2"
+        "2603.24155v2",
+        "2604.10358v1"
       ],
-      "latest_update": "2026-04-08"
+      "latest_update": "2026-04-14"
     }
   }
 }

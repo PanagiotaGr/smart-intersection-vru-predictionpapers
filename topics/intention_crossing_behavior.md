@@ -1,11 +1,14 @@
 # Intention & Crossing Behavior
 
-Updated: `2026-04-12` (timezone: `Europe/Athens`)
+Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **82**
+Total papers tracked: **83**
 
 ---
 
+- **Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces**  
+  *Jaerock Kwon, Jose Gonzalez-Belmonte*  
+  Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v1) · [pdf](https://arxiv.org/pdf/2604.11406v1) · id: `2604.11406v1`
 - **MRReP: Mixed Reality-based Hand-drawn Reference Path Editing Interface for Mobile Robot Navigation**  
   *Takumi Taki, Masato Kobayashi, Yuki Uranishi*  
   Published: `2026-03-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.00059v1) · [pdf](https://arxiv.org/pdf/2604.00059v1) · id: `2604.00059v1`

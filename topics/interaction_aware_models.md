@@ -1,11 +1,20 @@
 # Interaction-aware & Social Models
 
-Updated: `2026-04-12` (timezone: `Europe/Athens`)
+Updated: `2026-04-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **152**
+Total papers tracked: **155**
 
 ---
 
+- **COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments**  
+  *Ege Gursoy, Maxime Sabbah, Arthur Haffemayer, Joao Cavalcanti Santos, Pietro Noah Crestaz, Vladimir Petrik, Nicolas Mansard, Vincent Bonnet*  
+  Published: `2026-04-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.10358v1) · [pdf](https://arxiv.org/pdf/2604.10358v1) · id: `2604.10358v1`
+- **MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning**  
+  *Wenchang Duan*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v1) · [pdf](https://arxiv.org/pdf/2604.10169v1) · id: `2604.10169v1`
+- **Envisioning the Future, One Step at a Time**  
+  *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
+  Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`
 - **Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G**  
   *Hang Zou, Yuzhi Yang, Lina Bariah, Yu Tian, Yuhuan Lu, Bohao Wang, Anis Bara, Brahim Mefgouda et al.*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.06882v1) · [pdf](https://arxiv.org/pdf/2604.06882v1) · id: `2604.06882v1`
