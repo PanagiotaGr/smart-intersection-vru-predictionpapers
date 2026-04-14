@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Data (optional)
+data/paper_summaries_el.json
+
+# OS
+.DS_Store
