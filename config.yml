@@ -1,6 +1,6 @@
 project:
   title: "Diploma Thesis – Trajectory Prediction of Vulnerable Road Users"
-  subtitle: "Daily ArXiv digest focused on VRU trajectory prediction (pedestrians, cyclists, micromobility) in smart intersections."
+  subtitle: "Daily ArXiv digest focused on VRU trajectory prediction, behavior, interaction, and safety in smart intersections and autonomous driving."
   timezone: "Europe/Athens"
 
 storage:
@@ -11,12 +11,12 @@ storage:
 
 arxiv:
   endpoint: "http://export.arxiv.org/api/query"
-  max_results_per_topic: 80
-  days_back: 3
+  max_results_per_topic: 120
+  days_back: 4
 
-  # Τραβάμε περισσότερα και μετά κόβουμε με filters/topic rules
-  fetch_multiplier: 8     # 80*8=640 (θα cap-άρεις π.χ. στα 300-500 στον κώδικα)
-  hard_cap_results: 400   # προστασία για να μην το παρακάνει
+  # τραβάμε αρκετά και μετά κάνουμε filtering / scoring
+  fetch_multiplier: 10
+  hard_cap_results: 600
 
   allowed_categories:
     - "cs.CV"
@@ -26,7 +26,7 @@ arxiv:
     - "cs.LG"
 
 filters:
-  # Global "gate": για να μπαίνουν κυρίως prediction papers για VRU
+  # Global gate: αρκετά ανοιχτό ώστε να πιάνει και papers που δεν γράφουν μόνο "trajectory prediction"
   include_keywords:
     - "trajectory prediction"
     - "motion prediction"
@@ -34,36 +34,109 @@ filters:
     - "motion forecasting"
     - "trajectory forecast"
     - "motion forecast"
+    - "path prediction"
+    - "path forecasting"
+    - "future trajectory"
+    - "future motion"
+    - "behavior prediction"
+    - "behavior forecasting"
     - "intention prediction"
+    - "intention estimation"
+    - "crossing intention"
+    - "crossing behavior"
+    - "crossing decision"
+    - "gap acceptance"
+    - "scene forecasting"
+    - "agent forecasting"
+    - "interactive prediction"
+    - "interaction-aware"
+    - "social prediction"
+    - "multi-agent prediction"
+    - "probabilistic prediction"
+    - "uncertainty-aware prediction"
+    - "risk-aware prediction"
+    - "collision prediction"
     - "vulnerable road user"
     - "vru"
+    - "road user"
     - "pedestrian"
     - "cyclist"
+    - "bicyclist"
+    - "bicycle"
+    - "bike"
     - "micromobility"
+    - "e-scooter"
+    - "scooter rider"
+    - "stroller"
 
-  # Global exclude: μόνο ό,τι είναι σχεδόν σίγουρα άσχετο
+  # μόνο σχετικά ισχυρά excludes
   exclude_keywords:
     - "license plate"
     - "vehicle re-identification"
     - "re-identification"
     - "lane detection"
+    - "lane segmentation"
     - "rain removal"
     - "dehazing"
     - "super-resolution"
     - "travel time"
     - "traffic flow"
+    - "traffic forecasting"
     - "pavement"
     - "road surface"
+    - "image enhancement"
+    - "object detection only"
+    - "speech recognition"
+    - "medical imaging"
+    - "protein structure"
 
-  # Optional: αν θες να ΜΗΝ αφαιρούνται papers από άλλα topics
-  # - "topic": dedupe μέσα στο ίδιο topic μόνο
-  # - "global": κάθε paper εμφανίζεται σε 1 topic (συνήθως σπάει counts)
+  # dedupe ανά topic για να μπορεί ένα paper να εμφανίζεται σε πολλά σχετικά buckets
   dedupe_mode: "topic"
+
+  # προαιρετικό scoring αν το υποστηρίζει ο κώδικάς σου
+  scoring:
+    strong_positive:
+      - "trajectory prediction"
+      - "motion prediction"
+      - "trajectory forecasting"
+      - "motion forecasting"
+      - "behavior prediction"
+      - "intention prediction"
+      - "crossing intention"
+      - "crossing behavior"
+      - "gap acceptance"
+    medium_positive:
+      - "pedestrian"
+      - "cyclist"
+      - "bicyclist"
+      - "vulnerable road user"
+      - "vru"
+      - "micromobility"
+      - "interaction"
+      - "social"
+      - "multi-agent"
+      - "uncertainty"
+      - "probabilistic"
+      - "risk"
+      - "safety"
+      - "collision"
+      - "intersection"
+      - "crosswalk"
+      - "traffic light"
+      - "autonomous driving"
+    strong_negative:
+      - "license plate"
+      - "re-identification"
+      - "lane detection"
+      - "traffic flow"
+      - "pavement"
+      - "road surface"
+    min_score: 2
 
 topics:
   - name: "Pedestrian Trajectory Prediction"
     slug: "pedestrian_trajectory_prediction"
-    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:pedestrian OR abs:pedestrian OR ti:"vulnerable road user" OR abs:"vulnerable road user" OR ti:VRU OR abs:VRU)'
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction") AND (ti:pedestrian OR abs:pedestrian OR ti:"vulnerable road user" OR abs:"vulnerable road user" OR ti:VRU OR abs:VRU)'
     include_keywords:
       - "pedestrian"
     exclude_keywords: []
@@ -72,62 +145,214 @@ topics:
       - "crosswalk"
       - "signalized"
       - "jaywalking"
+      - "traffic light"
+      - "smart intersection"
 
-  - name: "Cyclist & Micromobility Prediction"
+  - name: "Cyclist and Micromobility Prediction"
     slug: "cyclist_micromobility_prediction"
-    query: '(ti:"trajectory prediction" OR ti:"motion prediction" OR abs:"trajectory prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:cyclist OR abs:cyclist OR ti:bicycle OR abs:bicycle OR ti:bike OR abs:bike OR ti:micromobility OR abs:micromobility)'
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction") AND (ti:cyclist OR abs:cyclist OR ti:bicyclist OR abs:bicyclist OR ti:bicycle OR abs:bicycle OR ti:bike OR abs:bike OR ti:micromobility OR abs:micromobility OR ti:"e-scooter" OR abs:"e-scooter" OR ti:scooter OR abs:scooter)'
     include_keywords:
       - "cyclist"
+      - "bicyclist"
       - "bicycle"
       - "bike"
       - "micromobility"
+      - "e-scooter"
+      - "scooter"
     exclude_keywords: []
     boost_keywords:
       - "intersection"
       - "crosswalk"
       - "signalized"
+      - "traffic light"
+      - "urban"
 
-  - name: "Interaction-aware & Social Models"
+  - name: "Interaction-aware and Social Models"
     slug: "interaction_aware_models"
-    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting") AND (ti:interaction OR abs:interaction OR ti:social OR abs:social OR ti:"multi-agent" OR abs:"multi-agent" OR ti:agent OR abs:agent)'
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"motion forecasting" OR abs:"motion forecasting") AND (ti:interaction OR abs:interaction OR ti:social OR abs:social OR ti:"multi-agent" OR abs:"multi-agent" OR ti:"agent interaction" OR abs:"agent interaction" OR ti:"interactive prediction" OR abs:"interactive prediction")'
     include_keywords:
       - "interaction"
       - "social"
       - "multi-agent"
-      - "agent"
+      - "interactive"
     exclude_keywords: []
     boost_keywords:
       - "pedestrian"
       - "cyclist"
       - "vulnerable road user"
       - "vru"
+      - "intersection"
 
-  - name: "Intention & Crossing Behavior"
+  - name: "Intention and Crossing Behavior"
     slug: "intention_crossing_behavior"
-    query: '(ti:intention OR abs:intention OR ti:"crossing intention" OR abs:"crossing intention" OR ti:"crossing behavior" OR abs:"crossing behavior" OR ti:"gap acceptance" OR abs:"gap acceptance") AND (ti:pedestrian OR abs:pedestrian OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user")'
+    query: '(ti:intention OR abs:intention OR ti:"crossing intention" OR abs:"crossing intention" OR ti:"crossing behavior" OR abs:"crossing behavior" OR ti:"crossing decision" OR abs:"crossing decision" OR ti:"pedestrian intention" OR abs:"pedestrian intention" OR ti:"gap acceptance" OR abs:"gap acceptance") AND (ti:pedestrian OR abs:pedestrian OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user" OR ti:cyclist OR abs:cyclist)'
     include_keywords:
       - "intention"
       - "crossing"
       - "behavior"
+      - "decision"
+      - "gap acceptance"
     exclude_keywords: []
     boost_keywords:
       - "intersection"
       - "crosswalk"
+      - "signalized"
+      - "traffic light"
 
-  - name: "Risk-aware / Safety / Collision Prediction"
+  - name: "Risk-aware Safety and Collision Prediction"
     slug: "risk_safety_collision"
-    query: '(ti:risk OR abs:risk OR ti:collision OR abs:collision OR ti:safety OR abs:safety OR ti:near-miss OR abs:near-miss) AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting")'
+    query: '(ti:risk OR abs:risk OR ti:collision OR abs:collision OR ti:safety OR abs:safety OR ti:"near-miss" OR abs:"near-miss" OR ti:"risk-aware" OR abs:"risk-aware") AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction")'
     include_keywords:
       - "risk"
       - "collision"
       - "safety"
       - "near-miss"
+      - "risk-aware"
     exclude_keywords: []
     boost_keywords:
       - "pedestrian"
       - "cyclist"
       - "vru"
       - "vulnerable road user"
+      - "crosswalk"
+      - "intersection"
+
+  - name: "Scene and Context-aware Prediction"
+    slug: "scene_context_aware_prediction"
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"behavior prediction" OR abs:"behavior prediction" OR ti:"scene forecasting" OR abs:"scene forecasting") AND (ti:scene OR abs:scene OR ti:context OR abs:context OR ti:semantic OR abs:semantic OR ti:map OR abs:map OR ti:intersection OR abs:intersection OR ti:"traffic light" OR abs:"traffic light" OR ti:crosswalk OR abs:crosswalk)'
+    include_keywords:
+      - "scene"
+      - "context"
+      - "semantic"
+      - "map"
+      - "intersection"
+      - "crosswalk"
+      - "traffic light"
+    exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "vru"
+      - "urban"
+
+  - name: "Probabilistic and Uncertainty-aware Forecasting"
+    slug: "probabilistic_uncertainty_forecasting"
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction") AND (ti:uncertainty OR abs:uncertainty OR ti:probabilistic OR abs:probabilistic OR ti:multimodal OR abs:multimodal OR ti:distribution OR abs:distribution OR ti:calibration OR abs:calibration)'
+    include_keywords:
+      - "uncertainty"
+      - "probabilistic"
+      - "multimodal"
+      - "distribution"
+      - "calibration"
+    exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "interaction"
+      - "safety"
+
+  - name: "Graph Transformer and Diffusion Models"
+    slug: "graph_transformer_diffusion"
+    query: '(ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction") AND (ti:graph OR abs:graph OR ti:transformer OR abs:transformer OR ti:diffusion OR abs:diffusion OR ti:GNN OR abs:GNN OR ti:attention OR abs:attention)'
+    include_keywords:
+      - "graph"
+      - "transformer"
+      - "diffusion"
+      - "gnn"
+      - "attention"
+    exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "multi-agent"
+      - "interaction"
+
+  - name: "Autonomous Driving Forecasting for VRUs"
+    slug: "autonomous_driving_vru_forecasting"
+    query: '(ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"behavior prediction" OR abs:"behavior prediction") AND (ti:"autonomous driving" OR abs:"autonomous driving" OR ti:driving OR abs:driving OR ti:traffic OR abs:traffic OR ti:urban OR abs:urban) AND (ti:pedestrian OR abs:pedestrian OR ti:cyclist OR abs:cyclist OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user")'
+    include_keywords:
+      - "autonomous driving"
+      - "traffic"
+      - "pedestrian"
+      - "cyclist"
+      - "vru"
+    exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
+      - "safety"
+      - "prediction"
+
+  - name: "Crossing Decision and Gap Acceptance"
+    slug: "crossing_gap_acceptance"
+    query: '(ti:"gap acceptance" OR abs:"gap acceptance" OR ti:"crossing decision" OR abs:"crossing decision" OR ti:"crossing intention" OR abs:"crossing intention" OR ti:"pedestrian intention" OR abs:"pedestrian intention" OR ti:"crossing behavior" OR abs:"crossing behavior")'
+    include_keywords:
+      - "gap acceptance"
+      - "crossing decision"
+      - "crossing intention"
+      - "pedestrian intention"
+      - "crossing behavior"
+    exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
+      - "signalized"
+      - "traffic light"
+
+  - name: "Smart Intersections and Traffic Signal Context"
+    slug: "smart_intersections_signal_context"
+    query: '(ti:intersection OR abs:intersection OR ti:"smart intersection" OR abs:"smart intersection" OR ti:crosswalk OR abs:crosswalk OR ti:"traffic light" OR abs:"traffic light" OR ti:signalized OR abs:signalized) AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"behavior prediction" OR abs:"behavior prediction" OR ti:intention OR abs:intention)'
+    include_keywords:
+      - "intersection"
+      - "smart intersection"
+      - "crosswalk"
+      - "traffic light"
+      - "signalized"
+    exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "vru"
+      - "crossing"
+
+  - name: "VRU Datasets Benchmarks and Evaluation"
+    slug: "vru_datasets_benchmarks"
+    query: '(ti:dataset OR abs:dataset OR ti:benchmark OR abs:benchmark OR ti:evaluation OR abs:evaluation) AND (ti:pedestrian OR abs:pedestrian OR ti:cyclist OR abs:cyclist OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user") AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction")'
+    include_keywords:
+      - "dataset"
+      - "benchmark"
+      - "evaluation"
+    exclude_keywords: []
+    boost_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "trajectory prediction"
+      - "autonomous driving"
+
+  - name: "General VRU Prediction Broad Catch-All"
+    slug: "general_vru_prediction"
+    query: '(ti:pedestrian OR abs:pedestrian OR ti:cyclist OR abs:cyclist OR ti:bicyclist OR abs:bicyclist OR ti:VRU OR abs:VRU OR ti:"vulnerable road user" OR abs:"vulnerable road user" OR ti:micromobility OR abs:micromobility OR ti:"e-scooter" OR abs:"e-scooter") AND (ti:"trajectory prediction" OR abs:"trajectory prediction" OR ti:"motion prediction" OR abs:"motion prediction" OR ti:"trajectory forecasting" OR abs:"trajectory forecasting" OR ti:"motion forecasting" OR abs:"motion forecasting" OR ti:"behavior prediction" OR abs:"behavior prediction" OR ti:intention OR abs:intention)'
+    include_keywords:
+      - "pedestrian"
+      - "cyclist"
+      - "vru"
+      - "micromobility"
+      - "trajectory"
+      - "motion"
+      - "behavior"
+      - "intention"
+    exclude_keywords: []
+    boost_keywords:
+      - "intersection"
+      - "crosswalk"
+      - "interaction"
+      - "safety"
+      - "autonomous driving"
 
 output:
-  max_daily_per_topic: 12
+  max_daily_per_topic: 15
+  save_markdown: true
+  save_json: true
+  include_topic_summary: true
+  include_keyword_hits: true
+  include_score: true
