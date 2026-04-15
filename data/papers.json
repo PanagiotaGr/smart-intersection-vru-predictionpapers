@@ -12812,6 +12812,45 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.22527v1",
       "abs_url": "http://arxiv.org/abs/2603.22527v1"
+    },
+    "2602.04204v2": {
+      "arxiv_id": "2602.04204v2",
+      "title": "AGMA: Adaptive Gaussian Mixture Anchors for Prior-Guided Multimodal Human Trajectory Forecasting",
+      "authors": [
+        "Chao Li",
+        "Rui Zhang",
+        "Siyuan Huang",
+        "Xian Zhong",
+        "Hongbo Jiang"
+      ],
+      "summary": "Human trajectory forecasting requires capturing the multimodal nature of pedestrian behavior. However, existing approaches suffer from prior misalignment. Their learned or fixed priors often fail to capture the full distribution of plausible futures, limiting both prediction accuracy and diversity. We theoretically establish that prediction error is lower-bounded by prior quality, making prior modeling a key performance bottleneck. Guided by this insight, we propose AGMA (Adaptive Gaussian Mixture Anchors), which constructs expressive priors through two stages: extracting diverse behavioral patterns from training data and distilling them into a scene-adaptive global prior for inference. Extensive experiments on ETH-UCY, Stanford Drone, and JRDB datasets demonstrate that AGMA achieves state-of-the-art performance, confirming the critical role of high-quality priors in trajectory forecasting.",
+      "published_utc": "2026-02-04T04:42:57Z",
+      "updated_utc": "2026-04-14T00:21:22Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.04204v2",
+      "abs_url": "http://arxiv.org/abs/2602.04204v2"
+    },
+    "2604.12425v1": {
+      "arxiv_id": "2604.12425v1",
+      "title": "Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction",
+      "authors": [
+        "Michele De Vita",
+        "Julian Wiederer",
+        "Vasileios Belagiannis"
+      ],
+      "summary": "Trajectory prediction models often fail in real-world automated driving due to distributional shifts between training and test conditions. Such distributional shifts, whether behavioural or environmental, pose a critical risk by causing the model to make incorrect forecasts in unfamiliar situations. We propose a self-supervised method that trains a decoder in a post-hoc fashion on the self-supervised task of forecasting the second half of observed trajectories from the first half. The L2 norm of the gradient of this forecasting loss with respect to the decoder's final layer defines a score to identify distribution shifts. Our approach, first, does not affect the trajectory prediction model, ensuring no interference with original prediction performance and second, demonstrates substantial improvements on distribution shift detection for trajectory prediction on the Shifts and Argoverse datasets. Moreover, we show that this method can also be used to early detect collisions of a deep Q-Network motion planner in the Highway simulator. Source code is available at https://github.com/Michedev/forecasting-the-past.",
+      "published_utc": "2026-04-14T08:15:45Z",
+      "updated_utc": "2026-04-14T08:15:45Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.12425v1",
+      "abs_url": "http://arxiv.org/abs/2604.12425v1"
     }
   },
   "topics": {
@@ -12942,9 +12981,10 @@
         "2402.17339v1",
         "2402.08698v2",
         "2402.03893v2",
-        "2402.03457v1"
+        "2402.03457v1",
+        "2602.04204v2"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-15"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -13443,9 +13483,10 @@
         "2510.03496v1",
         "2509.18372v1",
         "2508.06189v2",
-        "2507.17342v2"
+        "2507.17342v2",
+        "2604.12425v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-15"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -13654,9 +13695,10 @@
         "2507.15266v1",
         "2507.14694v1",
         "2507.12083v1",
-        "2507.08238v1"
+        "2507.08238v1",
+        "2604.12425v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-15"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14167,9 +14209,10 @@
         "2501.02530v1",
         "2501.01915v1",
         "2412.08096v1",
-        "2412.04673v1"
+        "2412.04673v1",
+        "2602.04204v2"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-15"
     }
   }
 }
