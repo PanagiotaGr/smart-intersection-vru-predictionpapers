@@ -4,6 +4,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -14,6 +16,8 @@ import feedparser
 import requests
 import yaml
 from dateutil import parser as dtparser
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 try:
     from zoneinfo import ZoneInfo
@@ -83,7 +87,11 @@ def today_in_tz(tz_name: str) -> datetime:
 def to_tz_date(dt_utc: datetime, tz_name: str) -> datetime.date:
     if ZoneInfo is None:
         return dt_utc.date()
-    return dt_utc.replace(tzinfo=ZoneInfo("UTC")).astimezone(ZoneInfo(tz_name)).date()
+    if dt_utc.tzinfo is None:
+        dt_utc = dt_utc.replace(tzinfo=ZoneInfo("UTC"))
+    else:
+        dt_utc = dt_utc.astimezone(ZoneInfo("UTC"))
+    return dt_utc.astimezone(ZoneInfo(tz_name)).date()
 
 
 # ----------------------------
@@ -101,6 +109,28 @@ def build_arxiv_url(endpoint: str, search_query: str, max_results: int) -> str:
         f"&sortBy=submittedDate"
         f"&sortOrder=descending"
     )
+
+
+def build_http_session(user_agent: str) -> requests.Session:
+    retry = Retry(
+        total=5,
+        connect=5,
+        read=5,
+        status=5,
+        backoff_factor=2.0,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=frozenset(["GET"]),
+        respect_retry_after_header=True,
+        raise_on_status=False,
+    )
+
+    adapter = HTTPAdapter(max_retries=retry)
+
+    session = requests.Session()
+    session.headers.update({"User-Agent": user_agent})
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
 
 
 def parse_arxiv_entry(entry: Any) -> Paper:
@@ -131,7 +161,7 @@ def parse_arxiv_entry(entry: Any) -> Paper:
         if link.get("type") == "application/pdf":
             pdf_url = link.get("href", "").strip()
             break
-    if not pdf_url:
+    if not pdf_url and abs_url:
         pdf_url = abs_url.replace("/abs/", "/pdf/")
 
     return Paper(
@@ -148,21 +178,65 @@ def parse_arxiv_entry(entry: Any) -> Paper:
     )
 
 
-def fetch_arxiv(endpoint: str, search_query: str, max_results: int, timeout_s: int = 30) -> List[Paper]:
+def fetch_arxiv(
+    session: requests.Session,
+    endpoint: str,
+    search_query: str,
+    max_results: int,
+    timeout_s: Tuple[int, int] = (10, 90),
+    throttle_s: float = 3.5,
+    extra_attempts: int = 3,
+) -> List[Paper]:
+    """
+    Fetch arXiv Atom feed and parse it into Paper objects.
+
+    timeout_s = (connect_timeout, read_timeout)
+    throttle_s = minimum sleep before request (friendly to API / avoids bursts)
+    extra_attempts = additional manual retries on top of HTTPAdapter retries
+    """
     url = build_arxiv_url(endpoint, search_query, max_results)
-    r = requests.get(url, timeout=timeout_s)
-    r.raise_for_status()
 
-    feed = feedparser.parse(r.text)
+    last_err: Exception | None = None
 
-    papers: List[Paper] = []
-    for entry in feed.entries:
+    for attempt in range(extra_attempts):
         try:
-            papers.append(parse_arxiv_entry(entry))
-        except Exception:
-            # Skip malformed entry (rare)
-            continue
-    return papers
+            if throttle_s > 0:
+                time.sleep(throttle_s)
+
+            r = session.get(url, timeout=timeout_s, allow_redirects=True)
+            r.raise_for_status()
+
+            feed = feedparser.parse(r.text)
+
+            papers: List[Paper] = []
+            for entry in feed.entries:
+                try:
+                    papers.append(parse_arxiv_entry(entry))
+                except Exception:
+                    # Skip malformed entry (rare)
+                    continue
+
+            return papers
+
+        except (
+            requests.exceptions.ReadTimeout,
+            requests.exceptions.ConnectTimeout,
+            requests.exceptions.ConnectionError,
+            requests.exceptions.HTTPError,
+        ) as e:
+            last_err = e
+            if attempt < extra_attempts - 1:
+                sleep_s = min(60.0, 5.0 * (2 ** attempt))
+                print(
+                    f"[WARN] arXiv fetch failed (attempt {attempt + 1}/{extra_attempts}) "
+                    f"for query={search_query!r}: {e}. Retrying in {sleep_s:.1f}s...",
+                    file=sys.stderr,
+                )
+                time.sleep(sleep_s)
+            else:
+                break
+
+    raise RuntimeError(f"arXiv fetch failed after retries for query={search_query!r}: {last_err}")
 
 
 # ----------------------------
@@ -378,9 +452,18 @@ def main() -> int:
     digests_dir.mkdir(parents=True, exist_ok=True)
     topics_dir.mkdir(parents=True, exist_ok=True)
 
-    endpoint = cfg.get("arxiv", {}).get("endpoint", "http://export.arxiv.org/api/query")
-    max_results = int(cfg.get("arxiv", {}).get("max_results_per_topic", 80))
-    allowed_categories = cfg.get("arxiv", {}).get("allowed_categories", []) or []
+    arxiv_cfg = cfg.get("arxiv", {}) or {}
+    endpoint = arxiv_cfg.get("endpoint", "https://export.arxiv.org/api/query")
+    max_results = int(arxiv_cfg.get("max_results_per_topic", 80))
+    allowed_categories = arxiv_cfg.get("allowed_categories", []) or []
+    connect_timeout = int(arxiv_cfg.get("connect_timeout_s", 10))
+    read_timeout = int(arxiv_cfg.get("read_timeout_s", 90))
+    throttle_s = float(arxiv_cfg.get("throttle_seconds", 3.5))
+    extra_attempts = int(arxiv_cfg.get("extra_attempts", 3))
+    user_agent = arxiv_cfg.get(
+        "user_agent",
+        "smart-intersection-vru-predictionpapers/1.0 (GitHub Actions)"
+    )
 
     global_inc = cfg.get("filters", {}).get("include_keywords", []) or []
     global_exc = cfg.get("filters", {}).get("exclude_keywords", []) or []
@@ -399,6 +482,11 @@ def main() -> int:
 
     max_daily_per_topic = int(cfg.get("output", {}).get("max_daily_per_topic", 12))
 
+    session = build_http_session(user_agent=user_agent)
+
+    failed_topics: List[str] = []
+    successful_topics = 0
+
     for t in topics:
         name = t["name"]
         slug = t.get("slug") or slugify(name)
@@ -407,7 +495,21 @@ def main() -> int:
         t_inc = (t.get("include_keywords") or [])
         t_exc = (t.get("exclude_keywords") or [])
 
-        fetched = fetch_arxiv(endpoint, query, max_results=max_results)
+        try:
+            fetched = fetch_arxiv(
+                session=session,
+                endpoint=endpoint,
+                search_query=query,
+                max_results=max_results,
+                timeout_s=(connect_timeout, read_timeout),
+                throttle_s=throttle_s,
+                extra_attempts=extra_attempts,
+            )
+            successful_topics += 1
+        except Exception as e:
+            print(f"[ERROR] Failed fetching topic '{name}': {e}", file=sys.stderr)
+            failed_topics.append(name)
+            fetched = []
 
         filtered: List[Paper] = []
         for p in fetched:
@@ -483,6 +585,14 @@ def main() -> int:
 
     digest_path = digests_dir / f"{digest_date}.md"
     digest_md = render_digest(digest_date, topic_sections, tz_name)
+
+    if failed_topics:
+        digest_md += "\n---\n\n"
+        digest_md += "## Fetch warnings\n\n"
+        digest_md += "The following topics failed to fetch during this run:\n\n"
+        for topic_name in failed_topics:
+            digest_md += f"- `{topic_name}`\n"
+
     digest_path.write_text(digest_md, encoding="utf-8")
 
     write_json(db_file, db)
@@ -493,6 +603,17 @@ def main() -> int:
         latest_date=digest_date,
         latest_digest_relpath=f"digests/{digest_date}.md",
     )
+
+    if successful_topics == 0:
+        print("[FATAL] All topic fetches failed.", file=sys.stderr)
+        return 1
+
+    if failed_topics:
+        print(
+            f"[WARN] Completed with partial failures. "
+            f"Successful topics: {successful_topics}, Failed topics: {len(failed_topics)}",
+            file=sys.stderr,
+        )
 
     return 0
 
