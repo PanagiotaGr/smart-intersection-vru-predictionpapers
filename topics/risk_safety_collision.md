@@ -1,14 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-04-15` (timezone: `Europe/Athens`)
+Updated: `2026-04-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **170**
+Total papers tracked: **171**
 
 ---
 
 - **Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction**  
   *Michele De Vita, Julian Wiederer, Vasileios Belagiannis*  
   Published: `2026-04-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.12425v1) · [pdf](https://arxiv.org/pdf/2604.12425v1) · id: `2604.12425v1`
+- **Learning Probabilistic Responsibility Allocations for Multi-Agent Interactions**  
+  *Isaac Remy, Caleb Chang, Karen Leung*  
+  Published: `2026-04-13` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2604.13128v1) · [pdf](https://arxiv.org/pdf/2604.13128v1) · id: `2604.13128v1`
 - **COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments**  
   *Ege Gursoy, Maxime Sabbah, Arthur Haffemayer, Joao Cavalcanti Santos, Pietro Noah Crestaz, Vladimir Petrik, Nicolas Mansard, Vincent Bonnet*  
   Published: `2026-04-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.10358v1) · [pdf](https://arxiv.org/pdf/2604.10358v1) · id: `2604.10358v1`

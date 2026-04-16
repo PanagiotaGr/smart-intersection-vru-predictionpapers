@@ -12851,6 +12851,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.12425v1",
       "abs_url": "http://arxiv.org/abs/2604.12425v1"
+    },
+    "2604.13128v1": {
+      "arxiv_id": "2604.13128v1",
+      "title": "Learning Probabilistic Responsibility Allocations for Multi-Agent Interactions",
+      "authors": [
+        "Isaac Remy",
+        "Caleb Chang",
+        "Karen Leung"
+      ],
+      "summary": "Human behavior in interactive settings is shaped not only by individual objectives but also by shared constraints with others, such as safety. Understanding how people allocate responsibility, i.e., how much one deviates from their desired policy to accommodate others, can inform the design of socially compliant and trustworthy autonomous systems. In this work, we introduce a method for learning a probabilistic responsibility allocation model that captures the multimodal uncertainty inherent in multi-agent interactions. Specifically, our approach leverages the latent space of a conditional variational autoencoder, combined with techniques from multi-agent trajectory forecasting, to learn a distribution over responsibility allocations conditioned on scene and agent context. Although ground-truth responsibility labels are unavailable, the model remains tractable by incorporating a differentiable optimization layer that maps responsibility allocations to induced controls, which are available. We evaluate our method on the INTERACTION driving dataset and demonstrate that it not only achieves strong predictive performance but also provides interpretable insights, through the lens of responsibility, into patterns of multi-agent interaction.",
+      "published_utc": "2026-04-13T21:49:41Z",
+      "updated_utc": "2026-04-13T21:49:41Z",
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.13128v1",
+      "abs_url": "http://arxiv.org/abs/2604.13128v1"
     }
   },
   "topics": {
@@ -13203,9 +13224,10 @@
         "2508.12456v1",
         "2508.07251v3",
         "2508.07162v1",
-        "2508.07079v1"
+        "2508.07079v1",
+        "2604.13128v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-16"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -13484,9 +13506,10 @@
         "2509.18372v1",
         "2508.06189v2",
         "2507.17342v2",
-        "2604.12425v1"
+        "2604.12425v1",
+        "2604.13128v1"
       ],
-      "latest_update": "2026-04-15"
+      "latest_update": "2026-04-16"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
