@@ -10,9 +10,14 @@ storage:
   topics_dir: "topics"
 
 arxiv:
-  endpoint: "http://export.arxiv.org/api/query"
-  max_results_per_topic: 120
-  days_back: 4
+  endpoint: "https://export.arxiv.org/api/query"
+  max_results_per_topic: 80
+  connect_timeout_s: 10
+  read_timeout_s: 90
+  throttle_seconds: 3.5
+  extra_attempts: 3
+  user_agent: "smart-intersection-vru-predictionpapers/1.0 (GitHub Actions; contact: your-email@example.com)"
+  allowed_categories: []
 
   # τραβάμε αρκετά και μετά κάνουμε filtering / scoring
   fetch_multiplier: 10
