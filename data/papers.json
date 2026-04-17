@@ -12872,6 +12872,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.13128v1",
       "abs_url": "http://arxiv.org/abs/2604.13128v1"
+    },
+    "2604.15221v1": {
+      "arxiv_id": "2604.15221v1",
+      "title": "Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees",
+      "authors": [
+        "Jakob Thumm",
+        "Marian Frei",
+        "Tianle Ni",
+        "Matthias Althoff",
+        "Marco Pavone"
+      ],
+      "summary": "We propose a framework for vision-based human pose estimation and motion prediction that gives conformal prediction guarantees for certifiably safe human-robot collaboration. Our framework combines aleatoric uncertainty estimation with OOD detection for high probabilistic confidence. To integrate our pipeline in certifiable safety frameworks, we propose conformal prediction sets for human motion predictions with high, valid confidence. We evaluate our pipeline on recorded human motion data and a real-world human-robot collaboration setting.",
+      "published_utc": "2026-04-16T16:53:26Z",
+      "updated_utc": "2026-04-16T16:53:26Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.15221v1",
+      "abs_url": "http://arxiv.org/abs/2604.15221v1"
     }
   },
   "topics": {
@@ -13507,9 +13528,10 @@
         "2508.06189v2",
         "2507.17342v2",
         "2604.12425v1",
-        "2604.13128v1"
+        "2604.13128v1",
+        "2604.15221v1"
       ],
-      "latest_update": "2026-04-16"
+      "latest_update": "2026-04-17"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",

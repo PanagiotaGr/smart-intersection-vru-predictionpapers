@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-04-16` (timezone: `Europe/Athens`)
+Updated: `2026-04-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **171**
+Total papers tracked: **172**
 
 ---
 
+- **Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees**  
+  *Jakob Thumm, Marian Frei, Tianle Ni, Matthias Althoff, Marco Pavone*  
+  Published: `2026-04-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.15221v1) · [pdf](https://arxiv.org/pdf/2604.15221v1) · id: `2604.15221v1`
 - **Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction**  
   *Michele De Vita, Julian Wiederer, Vasileios Belagiannis*  
   Published: `2026-04-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.12425v1) · [pdf](https://arxiv.org/pdf/2604.12425v1) · id: `2604.12425v1`
