@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-04-19` (timezone: `Europe/Athens`)
+Updated: `2026-04-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **99**
+Total papers tracked: **100**
 
 ---
 
@@ -132,6 +132,9 @@ Total papers tracked: **99**
 - **SurgMotion: A Video-Native Foundation Model for Universal Understanding of Surgical Videos**  
   *Jinlin Wu, Felix Holm, Chuxi Chen, An Wang, Yaxin Hu, Xiaofan Ye, Zelin Zang, Miao Xu et al.*  
   Published: `2026-02-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.05638v2) · [pdf](https://arxiv.org/pdf/2602.05638v2) · id: `2602.05638v2`
+- **SurgMotion: A Video-Native Foundation Model for Universal Understanding of Surgical Videos**  
+  *Jinlin Wu, Felix Holm, Chuxi Chen, An Wang, Yaxin Hu, Xiaofan Ye, Zelin Zang, Miao Xu et al.*  
+  Published: `2026-02-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.05638v3) · [pdf](https://arxiv.org/pdf/2602.05638v3) · id: `2602.05638v3`
 - **PlanTRansformer: Unified Prediction and Planning with Goal-conditioned Transformer**  
   *Constantin Selzer, Fabina B. Flohr*  
   Published: `2026-02-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.03376v1) · [pdf](https://arxiv.org/pdf/2602.03376v1) · id: `2602.03376v1`

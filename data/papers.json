@@ -12893,6 +12893,41 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.15221v1",
       "abs_url": "http://arxiv.org/abs/2604.15221v1"
+    },
+    "2602.05638v3": {
+      "arxiv_id": "2602.05638v3",
+      "title": "SurgMotion: A Video-Native Foundation Model for Universal Understanding of Surgical Videos",
+      "authors": [
+        "Jinlin Wu",
+        "Felix Holm",
+        "Chuxi Chen",
+        "An Wang",
+        "Yaxin Hu",
+        "Xiaofan Ye",
+        "Zelin Zang",
+        "Miao Xu",
+        "Lihua Zhou",
+        "Huai Liao",
+        "Danny T. M. Chan",
+        "Ming Feng",
+        "Wai S. Poon",
+        "Hongliang Ren",
+        "Dong Yi",
+        "Nassir Navab",
+        "Gaofeng Meng",
+        "Jiebo Luo",
+        "Hongbin Liu",
+        "Zhen Lei"
+      ],
+      "summary": "While foundation models have advanced surgical video analysis, current approaches rely predominantly on pixel-level reconstruction objectives that waste model capacity on low-level visual details, such as smoke, specular reflections, and fluid motion, rather than semantic structures essential for surgical understanding. We present SurgMotion, a video-native foundation model that shifts the learning paradigm from pixel-level reconstruction to latent motion prediction. Built on the Video Joint Embedding Predictive Architecture (V-JEPA), SurgMotion introduces three key technical innovations tailored to surgical videos: (1) motion-guided latent masked prediction to prioritize semantically meaningful regions, (2) spatiotemporal affinity self-distillation to enforce relational consistency, and (3) spatiotemporal feature diversity regularization (SFDR) to prevent representation collapse in texture-sparse surgical scenes. To enable large-scale pretraining, we curate SurgMotion-15M, the largest surgical video dataset to date, comprising 3,658 hours of video from 50 sources across 13 anatomical regions. Extensive experiments across 17 benchmarks demonstrate that SurgMotion significantly outperforms state-of-the-art methods on surgical workflow recognition, achieving 14.6 percent improvement in F1 score on EgoSurgery and 10.3 percent on PitVis; on action triplet recognition with 39.54 percent mAP-IVT on CholecT50; as well as on skill assessment, polyp segmentation, and depth estimation. These results establish SurgMotion as a new standard for universal, motion-oriented surgical video understanding.",
+      "published_utc": "2026-02-05T13:18:33Z",
+      "updated_utc": "2026-04-17T08:31:14Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.05638v3",
+      "abs_url": "http://arxiv.org/abs/2602.05638v3"
     }
   },
   "topics": {
@@ -13634,9 +13669,10 @@
         "2510.10731v1",
         "2510.10086v1",
         "2510.07345v1",
-        "2510.03031v1"
+        "2510.03031v1",
+        "2602.05638v3"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-20"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
