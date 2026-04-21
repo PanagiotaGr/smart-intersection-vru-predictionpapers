@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-04-20` (timezone: `Europe/Athens`)
+Updated: `2026-04-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **101**
+Total papers tracked: **102**
 
 ---
 
@@ -93,6 +93,9 @@ Total papers tracked: **101**
 - **Integrating Specialized and Generic Agent Motion Prediction with Dynamic Occupancy Grid Maps**  
   *Rabbia Asghar, Lukas Rummelhard, Wenqian Liu, Anne Spalanzani, Christian Laugier*  
   Published: `2026-02-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.07938v1) · [pdf](https://arxiv.org/pdf/2602.07938v1) · id: `2602.07938v1`
+- **eCP: Equivariant Conformal Prediction with pre-trained models**  
+  *Nikolaos Bousias, Lars Lindemann, George Pappas*  
+  Published: `2026-02-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.03986v2) · [pdf](https://arxiv.org/pdf/2602.03986v2) · id: `2602.03986v2`
 - **eCP: Informative uncertainty quantification via Equivariantized Conformal Prediction with pre-trained models**  
   *Nikolaos Bousias, Lars Lindemann, George Pappas*  
   Published: `2026-02-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.03986v1) · [pdf](https://arxiv.org/pdf/2602.03986v1) · id: `2602.03986v1`

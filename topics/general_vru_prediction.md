@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-04-20` (timezone: `Europe/Athens`)
+Updated: `2026-04-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **93**
+Total papers tracked: **94**
 
 ---
 
@@ -57,6 +57,9 @@ Total papers tracked: **93**
 - **AGMA: Adaptive Gaussian Mixture Anchors for Prior-Guided Multimodal Human Trajectory Forecasting**  
   *Chao Li, Rui Zhang, Siyuan Huang, Xian Zhong, Hongbo Jiang*  
   Published: `2026-02-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.04204v2) · [pdf](https://arxiv.org/pdf/2602.04204v2) · id: `2602.04204v2`
+- **eCP: Equivariant Conformal Prediction with pre-trained models**  
+  *Nikolaos Bousias, Lars Lindemann, George Pappas*  
+  Published: `2026-02-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.03986v2) · [pdf](https://arxiv.org/pdf/2602.03986v2) · id: `2602.03986v2`
 - **eCP: Informative uncertainty quantification via Equivariantized Conformal Prediction with pre-trained models**  
   *Nikolaos Bousias, Lars Lindemann, George Pappas*  
   Published: `2026-02-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.03986v1) · [pdf](https://arxiv.org/pdf/2602.03986v1) · id: `2602.03986v1`

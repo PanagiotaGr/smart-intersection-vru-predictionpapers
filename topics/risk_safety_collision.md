@@ -1,11 +1,20 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-04-20` (timezone: `Europe/Athens`)
+Updated: `2026-04-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **172**
+Total papers tracked: **175**
 
 ---
 
+- **Chatting about Conditional Trajectory Prediction**  
+  *Yuxiang Zhao, Wei Huang, Haipeng Zeng, Huan Zhao, Yujie Song*  
+  Published: `2026-04-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.18126v1) · [pdf](https://arxiv.org/pdf/2604.18126v1) · id: `2604.18126v1`
+- **Shepherding UAV Swarm with Action Prediction Based on Movement Constraints**  
+  *Yusuke Tsunoda, Yusuke Goto, Takao Sato*  
+  Published: `2026-04-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.17189v1) · [pdf](https://arxiv.org/pdf/2604.17189v1) · id: `2604.17189v1`
+- **NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem**  
+  *Daniel Fuertes, Andrea Cavallaro, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García*  
+  Published: `2026-04-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.16967v1) · [pdf](https://arxiv.org/pdf/2604.16967v1) · id: `2604.16967v1`
 - **Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees**  
   *Jakob Thumm, Marian Frei, Tianle Ni, Matthias Althoff, Marco Pavone*  
   Published: `2026-04-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.15221v1) · [pdf](https://arxiv.org/pdf/2604.15221v1) · id: `2604.15221v1`

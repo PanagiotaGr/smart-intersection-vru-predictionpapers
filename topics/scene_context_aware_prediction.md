@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-04-20` (timezone: `Europe/Athens`)
+Updated: `2026-04-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **100**
+Total papers tracked: **101**
 
 ---
 
+- **EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications**  
+  *Seungjin Kim, Reza Jafarpourmarzouni, Christopher Neff, Hamed Tabkhi, Vinit Katariya*  
+  Published: `2026-04-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.16783v1) · [pdf](https://arxiv.org/pdf/2604.16783v1) · id: `2604.16783v1`
 - **Envisioning the Future, One Step at a Time**  
   *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`

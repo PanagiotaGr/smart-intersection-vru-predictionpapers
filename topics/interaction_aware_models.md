@@ -1,11 +1,20 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-04-20` (timezone: `Europe/Athens`)
+Updated: `2026-04-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **167**
+Total papers tracked: **170**
 
 ---
 
+- **TacticGen: Grounding Adaptable and Scalable Generation of Football Tactics**  
+  *Sheng Xu, Guiliang Liu, Tarak Kharrat, Yudong Luo, Mohamed Aloulou, Javier López Peña, Konstantin Sofeikov, Adam Reid et al.*  
+  Published: `2026-04-20` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.18210v1) · [pdf](https://arxiv.org/pdf/2604.18210v1) · id: `2604.18210v1`
+- **Chatting about Conditional Trajectory Prediction**  
+  *Yuxiang Zhao, Wei Huang, Haipeng Zeng, Huan Zhao, Yujie Song*  
+  Published: `2026-04-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.18126v1) · [pdf](https://arxiv.org/pdf/2604.18126v1) · id: `2604.18126v1`
+- **EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications**  
+  *Seungjin Kim, Reza Jafarpourmarzouni, Christopher Neff, Hamed Tabkhi, Vinit Katariya*  
+  Published: `2026-04-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.16783v1) · [pdf](https://arxiv.org/pdf/2604.16783v1) · id: `2604.16783v1`
 - **Learning Probabilistic Responsibility Allocations for Multi-Agent Interactions**  
   *Isaac Remy, Caleb Chang, Karen Leung*  
   Published: `2026-04-13` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2604.13128v1) · [pdf](https://arxiv.org/pdf/2604.13128v1) · id: `2604.13128v1`

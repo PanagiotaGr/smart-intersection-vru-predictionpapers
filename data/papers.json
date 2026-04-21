@@ -12928,6 +12928,138 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.05638v3",
       "abs_url": "http://arxiv.org/abs/2602.05638v3"
+    },
+    "2602.03986v2": {
+      "arxiv_id": "2602.03986v2",
+      "title": "eCP: Equivariant Conformal Prediction with pre-trained models",
+      "authors": [
+        "Nikolaos Bousias",
+        "Lars Lindemann",
+        "George Pappas"
+      ],
+      "summary": "Conformal prediction, a post-hoc, distribution-free, finite-sample method of uncertainty quantification that offers formal coverage guarantees under the assumption of data exchangeability. Unfortunately, the resulting uncertainty regions can grow significantly in long horizon missions, rendering the statistical guarantees uninformative. To that end, we propose infusing CP with geometric information via group-averaging of the pretrained predictor to distribute the non-conformity mass across the orbits. Each sample now is treated as a representative of an orbit, thus uncertainty can be mitigated by other samples entangled to it via the orbit inducing elements of the symmetry group. Our approach provably yields contracted non-conformity scores in increasing convex order, implying improved exponential-tail bounds and sharper conformal prediction sets in expectation, especially at high confidence levels. We then propose an experimental design to test these theoretical claims in pedestrian trajectory prediction.",
+      "published_utc": "2026-02-03T20:18:59Z",
+      "updated_utc": "2026-04-17T19:43:49Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.03986v2",
+      "abs_url": "http://arxiv.org/abs/2602.03986v2"
+    },
+    "2604.18210v1": {
+      "arxiv_id": "2604.18210v1",
+      "title": "TacticGen: Grounding Adaptable and Scalable Generation of Football Tactics",
+      "authors": [
+        "Sheng Xu",
+        "Guiliang Liu",
+        "Tarak Kharrat",
+        "Yudong Luo",
+        "Mohamed Aloulou",
+        "Javier López Peña",
+        "Konstantin Sofeikov",
+        "Adam Reid",
+        "Paul Roberts",
+        "Steven Spencer",
+        "Joe Carnall",
+        "Ian McHale",
+        "Oliver Schulte",
+        "Hongyuan Zha",
+        "Wei-Shi Zheng"
+      ],
+      "summary": "Success in association football relies on both individual skill and coordinated tactics. While recent advancements in spatio-temporal data and deep learning have enabled predictive analyses like trajectory forecasting, the development of tactical design remains limited. Bridging this gap is essential, as prediction reveals what is likely to occur, whereas tactic generation determines what should occur to achieve strategic objectives. In this work, we present TacticGen, a generative model for adaptable and scalable tactic generation. TacticGen formulates tactics as sequences of multi-agent movements and interactions conditioned on the game context. It employs a multi-agent diffusion transformer with agent-wise self-attention and context-aware cross-attention to capture cooperative and competitive dynamics among players and the ball. Trained with over 3.3 million events and 100 million tracking frames from top-tier leagues, TacticGen achieves state-of-the-art precision in predicting player trajectories. Building on it, TacticGen enables adaptable tactic generation tailored to diverse inference-time objectives through classifier guidance mechanism, specified via rules, natural language, or neural models. Its modeling performance is also inherently scalable. A case study with football experts confirms that TacticGen generates realistic, strategically valuable tactics, demonstrating its practical utility for tactical planning in professional football. The project page is available at: https://shengxu.net/TacticGen/.",
+      "published_utc": "2026-04-20T12:57:11Z",
+      "updated_utc": "2026-04-20T12:57:11Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.18210v1",
+      "abs_url": "http://arxiv.org/abs/2604.18210v1"
+    },
+    "2604.18126v1": {
+      "arxiv_id": "2604.18126v1",
+      "title": "Chatting about Conditional Trajectory Prediction",
+      "authors": [
+        "Yuxiang Zhao",
+        "Wei Huang",
+        "Haipeng Zeng",
+        "Huan Zhao",
+        "Yujie Song"
+      ],
+      "summary": "Human behavior has the nature of mutual dependencies, which requires human-robot interactive systems to predict surrounding agents trajectories by modeling complex social interactions, avoiding collisions and executing safe path planning. While there exist many trajectory prediction methods, most of them do not incorporate the own motion of the ego agent and only model interactions based on static information. We are inspired by the humans theory of mind during trajectory selection and propose a Cross time domain intention-interactive method for conditional Trajectory prediction(CiT). Our proposed CiT conducts joint analysis of behavior intentions over time, and achieves information complementarity and integration across different time domains. The intention in its own time domain can be corrected by the social interaction information from the other time domain to obtain a more precise intention representation. In addition, CiT is designed to closely integrate with robotic motion planning and control modules, capable of generating a set of optional trajectory prediction results for all surrounding agents based on potential motions of the ego agent. Extensive experiments demonstrate that the proposed CiT significantly outperforms the existing methods, achieving state-of-the-art performance in the benchmarks.",
+      "published_utc": "2026-04-20T11:44:16Z",
+      "updated_utc": "2026-04-20T11:44:16Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.18126v1",
+      "abs_url": "http://arxiv.org/abs/2604.18126v1"
+    },
+    "2604.16783v1": {
+      "arxiv_id": "2604.16783v1",
+      "title": "EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications",
+      "authors": [
+        "Seungjin Kim",
+        "Reza Jafarpourmarzouni",
+        "Christopher Neff",
+        "Hamed Tabkhi",
+        "Vinit Katariya"
+      ],
+      "summary": "Vehicle trajectory prediction is central to highway perception, but deployment on roadside edge devices necessitates bounded, deterministic end-to-end latency. We present EdgeVTP, an embedded-first trajectory predictor that combines interaction-aware graph modeling with a lightweight transformer backbone and a one-shot curve decoder. By predicting future motion as compact curve parameters (anchored at the last observed position) rather than horizon-scaled autoregressive waypoints, EdgeVTP reduces decoding overhead while producing smooth trajectories. To keep runtime predictable in crowded scenes, we explicitly bound interaction complexity via a locality graph with a hard neighbor cap. Across three highway benchmarks and two Jetson-class platforms, EdgeVTP achieves the lowest measured end-to-end latency under a protocol that includes graph construction and post-processing, while attaining state-of-the-art (SotA) prediction accuracy on two of the three datasets and competitive error on other benchmarks. Our code is available at https://github.com/SeungjinStevenKim/EdgeVTP.",
+      "published_utc": "2026-04-18T02:13:02Z",
+      "updated_utc": "2026-04-18T02:13:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.16783v1",
+      "abs_url": "http://arxiv.org/abs/2604.16783v1"
+    },
+    "2604.17189v1": {
+      "arxiv_id": "2604.17189v1",
+      "title": "Shepherding UAV Swarm with Action Prediction Based on Movement Constraints",
+      "authors": [
+        "Yusuke Tsunoda",
+        "Yusuke Goto",
+        "Takao Sato"
+      ],
+      "summary": "In this study, we propose a new sheepdog-inspired control method for a swarm of small unmanned aerial vehicles (UAVs), which predicts the swarm behavior while explicitly accounting for the motion constraints of real robots. Sheepdog-inspired guidance control refers to a framework in which a small number of navigator agents (sheepdog agents) indirectly drive a large number of autonomous agents (a flock of sheep agents) so as to steer the group toward a target position. In conventional studies on sheepdog-inspired guidance, both types of agents have typically been modeled as point masses, and the guidance law for the navigator agents has been designed using simple interaction vectors based on the instantaneous relative positions between the agents. However, when implementing such methods on real robots such as drones, it is necessary to consider each agent's motion constraints, including upper bounds on velocity and acceleration. Moreover, we argue that guidance can be made more efficient by predicting the future behavior of the autonomous swarm that is observable to the navigator agents. To this end, we propose a three-dimensional guidance control law based on behavior prediction of autonomous agents under motion constraints, inspired by the Dynamic Window Approach (DWA). At each control cycle, the navigator agent generates a set of feasible motion candidates that satisfy its motion constraints, and predicts the short-horizon swarm evolution using an internal model of the autonomous agents maintained within the navigator agent. The motion candidates are then evaluated according to criteria such as the progress velocity toward the target, the positioning strategy with respect to the swarm, and safety margins, and the optimal motion is selected to achieve safe and efficient guidance. Numerical simulation results demonstrate the effectiveness of the proposed guidance control law.",
+      "published_utc": "2026-04-19T01:32:37Z",
+      "updated_utc": "2026-04-19T01:32:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.17189v1",
+      "abs_url": "http://arxiv.org/abs/2604.17189v1"
+    },
+    "2604.16967v1": {
+      "arxiv_id": "2604.16967v1",
+      "title": "NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem",
+      "authors": [
+        "Daniel Fuertes",
+        "Andrea Cavallaro",
+        "Carlos R. del-Blanco",
+        "Fernando Jaureguizar",
+        "Narciso García"
+      ],
+      "summary": "Path planning is usually solved by addressing either the (high-level) route planning problem (waypoint sequencing to achieve the final goal) or the (low-level) path planning problem (trajectory prediction between two waypoints avoiding collisions). However, real-world problems usually require simultaneous solutions to the route and path planning subproblems with a holistic and efficient approach. In this paper, we introduce NaviFormer, a deep reinforcement learning model based on a Transformer architecture that solves the global navigation problem by predicting both high-level routes and low-level trajectories. To evaluate NaviFormer, several experiments have been conducted, including comparisons with other algorithms. Results show competitive accuracy from NaviFormer since it can understand the constraints and difficulties of each subproblem and act consequently to improve performance. Moreover, its superior computation speed proves its suitability for real-time missions.",
+      "published_utc": "2026-04-18T11:32:34Z",
+      "updated_utc": "2026-04-18T11:32:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.16967v1",
+      "abs_url": "http://arxiv.org/abs/2604.16967v1"
     }
   },
   "topics": {
@@ -13059,9 +13191,10 @@
         "2402.08698v2",
         "2402.03893v2",
         "2402.03457v1",
-        "2602.04204v2"
+        "2602.04204v2",
+        "2602.03986v2"
       ],
-      "latest_update": "2026-04-15"
+      "latest_update": "2026-04-21"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -13281,9 +13414,12 @@
         "2508.07251v3",
         "2508.07162v1",
         "2508.07079v1",
-        "2604.13128v1"
+        "2604.13128v1",
+        "2604.18210v1",
+        "2604.18126v1",
+        "2604.16783v1"
       ],
-      "latest_update": "2026-04-16"
+      "latest_update": "2026-04-21"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -13564,9 +13700,12 @@
         "2507.17342v2",
         "2604.12425v1",
         "2604.13128v1",
-        "2604.15221v1"
+        "2604.15221v1",
+        "2604.18126v1",
+        "2604.17189v1",
+        "2604.16967v1"
       ],
-      "latest_update": "2026-04-17"
+      "latest_update": "2026-04-21"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -13670,9 +13809,10 @@
         "2510.10086v1",
         "2510.07345v1",
         "2510.03031v1",
-        "2602.05638v3"
+        "2602.05638v3",
+        "2604.16783v1"
       ],
-      "latest_update": "2026-04-20"
+      "latest_update": "2026-04-21"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -13777,9 +13917,10 @@
         "2507.14694v1",
         "2507.12083v1",
         "2507.08238v1",
-        "2604.12425v1"
+        "2604.12425v1",
+        "2602.03986v2"
       ],
-      "latest_update": "2026-04-15"
+      "latest_update": "2026-04-21"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -13877,9 +14018,11 @@
         "2507.22742v1",
         "2507.22615v1",
         "2507.20601v1",
-        "2507.19119v3"
+        "2507.19119v3",
+        "2604.16967v1",
+        "2604.16783v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-21"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -14291,9 +14434,10 @@
         "2501.01915v1",
         "2412.08096v1",
         "2412.04673v1",
-        "2602.04204v2"
+        "2602.04204v2",
+        "2602.03986v2"
       ],
-      "latest_update": "2026-04-15"
+      "latest_update": "2026-04-21"
     }
   }
 }
