@@ -13060,6 +13060,30 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.16967v1",
       "abs_url": "http://arxiv.org/abs/2604.16967v1"
+    },
+    "2604.19368v1": {
+      "arxiv_id": "2604.19368v1",
+      "title": "Mind2Drive: Predicting Driver Intentions from EEG in Real-world On-Road Driving",
+      "authors": [
+        "Ghadah Alosaimi",
+        "Hanadi Alhamdan",
+        "Wenke E",
+        "Stamos Katsigiannis",
+        "Amir Atapour-Abarghouei",
+        "Toby P. Breckon"
+      ],
+      "summary": "Predicting driver intention from neurophysiological signals offers a promising pathway for enhancing proactive safety in advanced driver assistance systems, yet remains challenging in real-world driving due to EEG signal non-stationarity and the complexity of cognitive-motor preparation. This study proposes and evaluates an EEG-based driver intention prediction framework using a synchronised multi-sensor platform integrated into a real electric vehicle. A real-world on-road dataset was collected across 32 driving sessions, and 12 deep learning architectures were evaluated under consistent experimental conditions. Among the evaluated architectures, TSCeption achieved the highest average accuracy (0.907) and Macro-F1 score (0.901). The proposed framework demonstrates strong temporal stability, maintaining robust decoding performance up to 1000 ms before manoeuvre execution with minimal degradation. Furthermore, additional analyses reveal that minimal EEG preprocessing outperforms artefact-handling pipelines, and prediction performance peaks within a 400-600 ms interval, corresponding to a critical neural preparatory phase preceding driving manoeuvres. Overall, these findings support the feasibility of early and stable EEG-based driver intention decoding under real-world on-road conditions. Code: https://github.com/galosaimi/Mind2Drive.",
+      "published_utc": "2026-04-21T11:50:53Z",
+      "updated_utc": "2026-04-21T11:50:53Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.HC",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.19368v1",
+      "abs_url": "http://arxiv.org/abs/2604.19368v1"
     }
   },
   "topics": {
@@ -14218,9 +14242,10 @@
         "2603.05546v1",
         "2603.00919v2",
         "2602.22091v2",
-        "2602.20923v1"
+        "2602.20923v1",
+        "2604.19368v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-22"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
