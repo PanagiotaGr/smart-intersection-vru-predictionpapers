@@ -1,14 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-04-22` (timezone: `Europe/Athens`)
+Updated: `2026-04-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **21**
+Total papers tracked: **22**
 
 ---
 
 - **Mind2Drive: Predicting Driver Intentions from EEG in Real-world On-Road Driving**  
   *Ghadah Alosaimi, Hanadi Alhamdan, Wenke E, Stamos Katsigiannis, Amir Atapour-Abarghouei, Toby P. Breckon*  
   Published: `2026-04-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.19368v1) · [pdf](https://arxiv.org/pdf/2604.19368v1) · id: `2604.19368v1`
+- **If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems**  
+  *Jiamin Chang, Minhui Xue, Ruoxi Sun, Shuchao Pang, Salil S. Kanhere, Hammond Pearce*  
+  Published: `2026-04-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.19844v1) · [pdf](https://arxiv.org/pdf/2604.19844v1) · id: `2604.19844v1`
 - **Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces**  
   *Jaerock Kwon, Jose Gonzalez-Belmonte*  
   Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v1) · [pdf](https://arxiv.org/pdf/2604.11406v1) · id: `2604.11406v1`

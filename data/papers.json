@@ -13084,6 +13084,28 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.19368v1",
       "abs_url": "http://arxiv.org/abs/2604.19368v1"
+    },
+    "2604.19844v1": {
+      "arxiv_id": "2604.19844v1",
+      "title": "If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems",
+      "authors": [
+        "Jiamin Chang",
+        "Minhui Xue",
+        "Ruoxi Sun",
+        "Shuchao Pang",
+        "Salil S. Kanhere",
+        "Hammond Pearce"
+      ],
+      "summary": "Recent advances in embodied Vision-Language Agentic Systems (VLAS), powered by large vision-language models (LVLMs), enable AI systems to perceive and reason over real-world scenes. Within this context, environmental signals such as traffic lights are essential in-band signals that can and should influence agent behavior. However, similar signals could also be crafted to operate as misleading visual injections, overriding user intent and posing security risks. This duality creates a fundamental challenge: agents must respond to legitimate environmental cues while remaining robust to misleading ones. We refer to this tension as trust boundary confusion. To study this behavior, we design a dual-intent dataset and evaluation framework, through which we show that current LVLM-based agents fail to reliably balance this trade-off, either ignoring useful signals or following harmful ones. We systematically evaluate 7 LVLM agents across multiple embodied settings under both structure-based and noise-based visual injections. To address these vulnerabilities, we propose a multi-agent defense framework that separates perception from decision-making to dynamically assess the reliability of visual inputs. Our approach significantly reduces misleading behaviors while preserving correct responses and provides robustness guarantees under adversarial perturbations. The code of the evaluation framework and artifacts are made available at https://anonymous.4open.science/r/Visual-Prompt-Inject.",
+      "published_utc": "2026-04-21T11:27:30Z",
+      "updated_utc": "2026-04-21T11:27:30Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.19844v1",
+      "abs_url": "http://arxiv.org/abs/2604.19844v1"
     }
   },
   "topics": {
@@ -14243,9 +14265,10 @@
         "2603.00919v2",
         "2602.22091v2",
         "2602.20923v1",
-        "2604.19368v1"
+        "2604.19368v1",
+        "2604.19844v1"
       ],
-      "latest_update": "2026-04-22"
+      "latest_update": "2026-04-23"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
