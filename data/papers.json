@@ -13106,6 +13106,50 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.19844v1",
       "abs_url": "http://arxiv.org/abs/2604.19844v1"
+    },
+    "2604.21479v1": {
+      "arxiv_id": "2604.21479v1",
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": [
+        "Yanjiao Liu",
+        "Jiawei Liu",
+        "Xun Gong",
+        "Zifei Nie"
+      ],
+      "summary": "Large language models (LLMs) have recently demonstrated strong reasoning capabilities and attracted increasing research attention in the field of autonomous driving (AD). However, safe application of LLMs on AD perception and prediction still requires a thorough understanding of both the dynamic traffic agents and the static road infrastructure. To this end, this study introduces a framework to evaluate the capability of LLMs in understanding the behaviors of dynamic traffic agents and the topology of road networks. The framework leverages frozen LLMs as the reasoning engine, employing a traffic encoder to extract spatial-level scene features from observed trajectories of agents, while a lightweight Convolutional Neural Network (CNN) encodes the local high-definition (HD) maps. To assess the intrinsic reasoning ability of LLMs, the extracted scene features are then transformed into LLM-compatible tokens via a reprogramming adapter. By residing the prediction burden with the LLMs, a simpler linear decoder is applied to output future trajectories. The framework enables a quantitative analysis of the influence of multi-modal information, especially the impact of map semantics on trajectory prediction accuracy, and allows seamless integration of frozen LLMs with minimal adaptation, thereby demonstrating strong generalizability across diverse LLM architectures and providing a unified platform for model evaluation.",
+      "published_utc": "2026-04-23T09:39:51Z",
+      "updated_utc": "2026-04-23T09:39:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.21479v1",
+      "abs_url": "http://arxiv.org/abs/2604.21479v1"
+    },
+    "2604.21924v1": {
+      "arxiv_id": "2604.21924v1",
+      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+      "authors": [
+        "Isabella Liu",
+        "An-Chieh Cheng",
+        "Rui Yan",
+        "Geng Chen",
+        "Ri-Zhao Qiu",
+        "Xueyan Zou",
+        "Sha Yi",
+        "Hongxu Yin",
+        "Xiaolong Wang",
+        "Sifei Liu"
+      ],
+      "summary": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction following via a dedicated task-management VLM. The manager is decoupled from the executor and is invoked in a receding-horizon manner: given the current observation, it predicts a progress-aware remaining plan that combines (i) a subtask sequence with an explicit done + remaining split as lightweight language memory, and (ii) a visual trace -- a compact 2D keypoint trajectory prompt specifying where to go and what to approach next. The executor VLA is adapted to condition on the rendered trace, thereby turning long-horizon decision-making into repeated local control by following the trace. Crucially, predicting the remaining plan at each step yields an implicit closed loop: failed steps persist in subsequent outputs, and traces update accordingly, enabling automatic continuation and replanning without hand-crafted recovery logic or brittle visual-history buffers. Extensive experiments spanning embodied planning, long-horizon reasoning, trajectory prediction, and end-to-end manipulation in simulation and on a real Franka robot demonstrate strong gains in long-horizon success, robustness, and out-of-distribution generalization. Project page: https://www.liuisabella.com/LoHoManip",
+      "published_utc": "2026-04-23T17:59:04Z",
+      "updated_utc": "2026-04-23T17:59:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.21924v1",
+      "abs_url": "http://arxiv.org/abs/2604.21924v1"
     }
   },
   "topics": {
@@ -13856,9 +13900,10 @@
         "2510.07345v1",
         "2510.03031v1",
         "2602.05638v3",
-        "2604.16783v1"
+        "2604.16783v1",
+        "2604.21479v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-24"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -13964,9 +14009,10 @@
         "2507.12083v1",
         "2507.08238v1",
         "2604.12425v1",
-        "2602.03986v2"
+        "2602.03986v2",
+        "2604.21924v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-24"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14066,9 +14112,10 @@
         "2507.20601v1",
         "2507.19119v3",
         "2604.16967v1",
-        "2604.16783v1"
+        "2604.16783v1",
+        "2604.21479v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-24"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-04-23` (timezone: `Europe/Athens`)
+Updated: `2026-04-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **102**
+Total papers tracked: **103**
 
 ---
 
+- **Long-Horizon Manipulation via Trace-Conditioned VLA Planning**  
+  *Isabella Liu, An-Chieh Cheng, Rui Yan, Geng Chen, Ri-Zhao Qiu, Xueyan Zou, Sha Yi, Hongxu Yin et al.*  
+  Published: `2026-04-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.21924v1) · [pdf](https://arxiv.org/pdf/2604.21924v1) · id: `2604.21924v1`
 - **Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction**  
   *Michele De Vita, Julian Wiederer, Vasileios Belagiannis*  
   Published: `2026-04-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.12425v1) · [pdf](https://arxiv.org/pdf/2604.12425v1) · id: `2604.12425v1`
