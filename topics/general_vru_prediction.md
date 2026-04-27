@@ -1,14 +1,17 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-04-26` (timezone: `Europe/Athens`)
+Updated: `2026-04-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **94**
+Total papers tracked: **95**
 
 ---
 
 - **Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces**  
   *Jaerock Kwon, Jose Gonzalez-Belmonte*  
   Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v1) · [pdf](https://arxiv.org/pdf/2604.11406v1) · id: `2604.11406v1`
+- **Using Unwrapped Full Color Space Recording to Measure the Exposedness of Vehicle Exterior Parts for External Human Machine Interfaces**  
+  *Jose Gonzalez-Belmonte, Jaerock Kwon*  
+  Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v2) · [pdf](https://arxiv.org/pdf/2604.11406v2) · id: `2604.11406v2`
 - **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
   *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
   Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`

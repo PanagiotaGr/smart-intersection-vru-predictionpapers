@@ -13150,6 +13150,42 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.21924v1",
       "abs_url": "http://arxiv.org/abs/2604.21924v1"
+    },
+    "2604.11406v2": {
+      "arxiv_id": "2604.11406v2",
+      "title": "Using Unwrapped Full Color Space Recording to Measure the Exposedness of Vehicle Exterior Parts for External Human Machine Interfaces",
+      "authors": [
+        "Jose Gonzalez-Belmonte",
+        "Jaerock Kwon"
+      ],
+      "summary": "One of the concerns with autonomous vehicles is their ability to communicate their intent to other road users, specially pedestrians, in order to prevent accidents. External Human-Machine Interfaces (eHMIs) are the proposed solution to this issue, through the introduction of electronic devices on the exterior of a vehicle that communicate when the vehicle is planning on slowing down or yielding. This paper uses the technique of unwrapping the faces of a mesh onto a texture where every pixel is a unique color, as well as a series of animated simulations made and ran in the Unity game engine, to measure how many times is each point on a 2015 Ford F-150 King Ranch is unobstructed to a pedestrian attempting to cross the road at a four-way intersection. By cross-referencing the results with a color-coded map of the labeled parts on the exterior of the vehicle, it was concluded that while the bumper, grill, and hood were the parts of the vehicle visible to the crossing pedestrian most often, the existence of other vehicles on the same lane that might obstruct the view of these makes them insufficient. The study recommends instead a distributive approach to eHMIs by using both the windshield and frontal fenders as simultaneous placements for these devices.",
+      "published_utc": "2026-04-13T12:49:20Z",
+      "updated_utc": "2026-04-24T06:29:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.11406v2",
+      "abs_url": "http://arxiv.org/abs/2604.11406v2"
+    },
+    "2604.21479v2": {
+      "arxiv_id": "2604.21479v2",
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": [
+        "Yanjiao Liu",
+        "Jiawei Liu",
+        "Xun Gong",
+        "Zifei Nie"
+      ],
+      "summary": "Large language models (LLMs) have recently demonstrated strong reasoning capabilities and attracted increasing research attention in the field of autonomous driving (AD). However, safe application of LLMs on AD perception and prediction still requires a thorough understanding of both the dynamic traffic agents and the static road infrastructure. To this end, this study introduces a framework to evaluate the capability of LLMs in understanding the behaviors of dynamic traffic agents and the topology of road networks. The framework leverages frozen LLMs as the reasoning engine, employing a traffic encoder to extract spatial-level scene features from observed trajectories of agents, while a lightweight Convolutional Neural Network (CNN) encodes the local high-definition (HD) maps. To assess the intrinsic reasoning ability of LLMs, the extracted scene features are then transformed into LLM-compatible tokens via a reprogramming adapter. By residing the prediction burden with the LLMs, a simpler linear decoder is applied to output future trajectories. The framework enables a quantitative analysis of the influence of multi-modal information, especially the impact of map semantics on trajectory prediction accuracy, and allows seamless integration of frozen LLMs with minimal adaptation, thereby demonstrating strong generalizability across diverse LLM architectures and providing a unified platform for model evaluation.",
+      "published_utc": "2026-04-23T09:39:51Z",
+      "updated_utc": "2026-04-24T03:30:19Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.21479v2",
+      "abs_url": "http://arxiv.org/abs/2604.21479v2"
     }
   },
   "topics": {
@@ -13612,9 +13648,10 @@
         "2304.08260v2",
         "2304.00206v3",
         "2303.17717v1",
-        "2303.14880v2"
+        "2303.14880v2",
+        "2604.11406v2"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-27"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -13901,9 +13938,10 @@
         "2510.03031v1",
         "2602.05638v3",
         "2604.16783v1",
-        "2604.21479v1"
+        "2604.21479v1",
+        "2604.21479v2"
       ],
-      "latest_update": "2026-04-24"
+      "latest_update": "2026-04-27"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14113,9 +14151,10 @@
         "2507.19119v3",
         "2604.16967v1",
         "2604.16783v1",
-        "2604.21479v1"
+        "2604.21479v1",
+        "2604.21479v2"
       ],
-      "latest_update": "2026-04-24"
+      "latest_update": "2026-04-27"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -14313,9 +14352,10 @@
         "2602.22091v2",
         "2602.20923v1",
         "2604.19368v1",
-        "2604.19844v1"
+        "2604.19844v1",
+        "2604.11406v2"
       ],
-      "latest_update": "2026-04-23"
+      "latest_update": "2026-04-27"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -14530,9 +14570,10 @@
         "2412.08096v1",
         "2412.04673v1",
         "2602.04204v2",
-        "2602.03986v2"
+        "2602.03986v2",
+        "2604.11406v2"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-27"
     }
   }
 }
