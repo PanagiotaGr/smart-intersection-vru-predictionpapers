@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **103**
+Total papers tracked: **105**
 
 ---
 
+- **Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model**  
+  *Jingni Huang, Peter Bloodsworth*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23532v1) · [pdf](https://arxiv.org/pdf/2604.23532v1) · id: `2604.23532v1`
+- **Collaborative Trajectory Prediction via Late Fusion**  
+  *Nadya Abdel Madjid, Murad Mebrahtu, Zakhar Yagudin, Bilal Hassan, Naoufel Werghi, Jorge Dias, Dzmitry Tsetserukou, Majid Khonji*  
+  Published: `2026-04-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22973v1) · [pdf](https://arxiv.org/pdf/2604.22973v1) · id: `2604.22973v1`
 - **Long-Horizon Manipulation via Trace-Conditioned VLA Planning**  
   *Isabella Liu, An-Chieh Cheng, Rui Yan, Geng Chen, Ri-Zhao Qiu, Xueyan Zou, Sha Yi, Hongxu Yin et al.*  
   Published: `2026-04-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.21924v1) · [pdf](https://arxiv.org/pdf/2604.21924v1) · id: `2604.21924v1`

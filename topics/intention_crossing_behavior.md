@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **100**
+Total papers tracked: **101**
 
 ---
 
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
 - **Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces**  
   *Jaerock Kwon, Jose Gonzalez-Belmonte*  
   Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v1) · [pdf](https://arxiv.org/pdf/2604.11406v1) · id: `2604.11406v1`

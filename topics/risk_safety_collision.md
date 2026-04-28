@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **175**
+Total papers tracked: **176**
 
 ---
 
+- **Collaborative Trajectory Prediction via Late Fusion**  
+  *Nadya Abdel Madjid, Murad Mebrahtu, Zakhar Yagudin, Bilal Hassan, Naoufel Werghi, Jorge Dias, Dzmitry Tsetserukou, Majid Khonji*  
+  Published: `2026-04-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22973v1) · [pdf](https://arxiv.org/pdf/2604.22973v1) · id: `2604.22973v1`
 - **Chatting about Conditional Trajectory Prediction**  
   *Yuxiang Zhao, Wei Huang, Haipeng Zeng, Huan Zhao, Yujie Song*  
   Published: `2026-04-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.18126v1) · [pdf](https://arxiv.org/pdf/2604.18126v1) · id: `2604.18126v1`

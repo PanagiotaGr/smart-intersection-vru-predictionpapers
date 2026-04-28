@@ -13186,6 +13186,152 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.21479v2",
       "abs_url": "http://arxiv.org/abs/2604.21479v2"
+    },
+    "2604.23728v1": {
+      "arxiv_id": "2604.23728v1",
+      "title": "ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction",
+      "authors": [
+        "Yanping Wu",
+        "Meiting Dang",
+        "Lin Wu",
+        "Edmond S. L. Ho",
+        "Zhenghua Chen",
+        "Chongfeng Wei"
+      ],
+      "summary": "Recent advances in autonomous driving have motivated research on pedestrian intention prediction, which aims to infer future crossing decisions and actions by modeling temporal dynamics, social interactions, and environmental context. However, existing studies remain constrained by oversimplified multi-agent interaction patterns, opaque reasoning logic, and a lack of global consistency in behavioral predictions, which compromise both robustness and interpretability. In this work, we propose ESIA (Energy-based Spatiotemporal Interaction-Aware framework), a novel Conditional Random Field (CRF)-based paradigm. We cast the intention prediction task as a structured prediction problem over a unified graph-based representation, treating pedestrians and the environment as spatiotemporal nodes. To characterize their distinct roles, we assign unary potentials to nodes to capture individual intentions, and pairwise potentials to edges to encode social and environmental interactions. These potentials are integrated into a unified global energy function to ensure scene-level consistency across behavioral predictions. To further constrain inference without ground-truth supervision, we introduce structural consistency terms to penalize logical contradictions. This optimization is efficiently solved via a novel Unary-Seeded Simulated Annealing (U-SSA) algorithm, which leverages high-confidence unary priors to rapidly converge to a high-quality solution. Extensive experiments on standard benchmarks demonstrate that ESIA achieves state-of-the-art performance with improved interpretability over existing methods.",
+      "published_utc": "2026-04-26T14:13:58Z",
+      "updated_utc": "2026-04-26T14:13:58Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.23728v1",
+      "abs_url": "http://arxiv.org/abs/2604.23728v1"
+    },
+    "2604.24514v1": {
+      "arxiv_id": "2604.24514v1",
+      "title": "SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling",
+      "authors": [
+        "Xinrun Wang",
+        "Deshun Xia",
+        "Ke Xu",
+        "Weijie Zhu"
+      ],
+      "summary": "Accurate trajectory prediction is fundamentally challenging due to high scene heterogeneity - the severe variance in motion velocity, spatial density, and interaction patterns across different real-world environments. However, most existing approaches typically train a single unified model, expecting a fixed-capacity architecture to generalize universally across all possible scenarios. This conventional model-centric paradigm is fundamentally flawed when confronting such extreme heterogeneity, inevitably leading to a severe generalization gap, degraded accuracy, and massive computational waste. To overcome this bottleneck, rather than refining restricted model-centric architectures, we propose selective learning, a novel scene-centric paradigm. It explicitly analyzes the characteristics of the underlying scene to dynamically route inputs to the most appropriate expert models. As a concrete implementation of this paradigm, we introduce SceneSelect. Specifically, SceneSelect utilizes unsupervised clustering on interpretable geometric and kinematic features to discover a latent scene taxonomy. A highly decoupled classification module is then trained to assign real-time inputs to these scene categories, and a highly extensible, plug-and-play scheduling policy automatically dispatches the trajectory sequence to the optimal expert predictor. Crucially, this decoupled design ensures excellent generalization capabilities, allowing seamless integration with different off-the-shelf models and robust adaptation across new datasets without requiring computationally expensive joint retraining. Extensive experiments on three public benchmarks (ETH-UCY, SDD, and NBA) demonstrate that our method consistently outperforms strong single-model and ensemble baselines, achieving an average improvement of 10.5%, showcasing the effectiveness of scene-aware selective learning.",
+      "published_utc": "2026-04-27T14:15:44Z",
+      "updated_utc": "2026-04-27T14:15:44Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.24514v1",
+      "abs_url": "http://arxiv.org/abs/2604.24514v1"
+    },
+    "2604.23606v1": {
+      "arxiv_id": "2604.23606v1",
+      "title": "Hamiltonian Graph Inference Networks: Joint structure discovery and dynamics prediction for lattice Hamiltonian systems from trajectory data",
+      "authors": [
+        "Ru Geng",
+        "Panayotis Kevrekidis",
+        "Yixian Gao",
+        "Hong-Kun Zhang",
+        "Jian Zu"
+      ],
+      "summary": "Lattice Hamiltonian systems underpin models across condensed matter, nonlinear optics, and biophysics, yet learning their dynamics from data is obstructed by two unknowns: the interaction topology and whether node dynamics are homogeneous. Existing graph-based approaches either assume the graph is given or, as in $α$-separable graph Hamiltonian network, infer it only for separable Hamiltonians with homogeneous node dynamics. We introduce the Hamiltonian Graph Inference Network (HGIN), which jointly recovers the interaction graph and predicts long-time trajectories from state data alone, for both separable and non-separable Hamiltonians and under heterogeneous node dynamics. HGIN couples a structure-learning module -- a learnable weighted adjacency matrix trained under a Hamilton's-equations loss -- with a trajectory-prediction module that partitions edges into physically distinct subgraphs via $k$-means clustering, assigning each subgraph its own encoder and thereby breaking the parameter-sharing bottleneck of conventional GNNs. On three benchmarks -- a Klein--Gordon lattice with long-range interactions and two discrete nonlinear Schrödinger lattices (homogeneous and heterogeneous) -- HGIN reduces long-time energy prediction error and trajectory prediction error by six to thirteen orders of magnitude relative to baselines. A symmetry argument on the Hamiltonian loss further shows that the learned weights encode the parity of the underlying pair potential, yielding an interpretable readout of the system's interaction structure.",
+      "published_utc": "2026-04-26T08:37:10Z",
+      "updated_utc": "2026-04-26T08:37:10Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "math-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.23606v1",
+      "abs_url": "http://arxiv.org/abs/2604.23606v1"
+    },
+    "2604.23532v1": {
+      "arxiv_id": "2604.23532v1",
+      "title": "Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model",
+      "authors": [
+        "Jingni Huang",
+        "Peter Bloodsworth"
+      ],
+      "summary": "Short-term human pose prediction plays a crucial role in interactive systems, assistive robots, and emotion-aware human-computer interaction[1-3]. While current trajectory prediction models primarily rely on geometric motion cues, they often overlook the underlying emotional signals influencing human motion dynamics[4-5]. This paper investigates whether facial expression-derived emotion embeddings can provide auxiliary conditional signals for short-term pose prediction. To further evaluate multimodal conditionation in a recursive prediction setting, we propose a lightweight autoregressive predictive world model that performs 15-step rolling pose prediction. This framework combines pose keypoints with emotion embeddings through a learnable gating mechanism and performs autoregressive unfolding prediction using a recurrent sequence model based on a two-layer LSTM architecture. Experiments were conducted on two small-scale pose-emotion video datasets: controlled motion sequences with minimal facial expression changes and, natural emotion-driven motion sequences with considerable facial expression changes. The results show that simple multimodal fusion does not consistently improve prediction accuracy, while normalized gating fusion significantly enhances the performance of emotion-driven motion sequences. Furthermore, counterfactual perturbation experiments demonstrate that the predicted trajectory exhibits measurable sensitivity to changes in multimodal input, suggesting that facial expression embeddings act as auxiliary conditional signals rather than redundant features. In summary, these results indicate that incorporating facial expression-derived emotion embeddings into emotion-conditional short-term pose prediction based on a lightweight predictive world model architecture is a feasible approach.",
+      "published_utc": "2026-04-26T04:56:45Z",
+      "updated_utc": "2026-04-26T04:56:45Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.23532v1",
+      "abs_url": "http://arxiv.org/abs/2604.23532v1"
+    },
+    "2604.22875v1": {
+      "arxiv_id": "2604.22875v1",
+      "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+      "authors": [
+        "Brandon Collins",
+        "Logan Bolton",
+        "Hung Huy Nguyen",
+        "Mohammad Reza Taesiri",
+        "Trung Bui",
+        "Anh Totti Nguyen"
+      ],
+      "summary": "When answering questions about images, humans naturally point, label, and draw to explain their reasoning. In contrast, modern vision-language models (VLMs) such as Gemini-3-Pro and GPT-5 only respond with text, which can be difficult for users to verify. We present SketchVLM, a training-free, model-agnostic framework that enables VLMs to produce non-destructive, editable SVG overlays on the input image to visually explain their answers. Across seven benchmarks spanning visual reasoning (maze navigation, ball-drop trajectory prediction, and object counting) and drawing (part labeling, connecting-the-dots, and drawing shapes around objects), SketchVLM improves visual reasoning task accuracy by up to +28.5 percentage points and annotation quality by up to 1.48x relative to image-editing and fine-tuned sketching baselines, while also producing annotations that are more faithful to the model's stated answer. We find that single-turn generation already achieves strong accuracy and annotation quality, and multi-turn generation opens up further opportunities for human-AI collaboration. An interactive demo and code are at https://sketchvlm.github.io/.",
+      "published_utc": "2026-04-23T22:33:15Z",
+      "updated_utc": "2026-04-23T22:33:15Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.22875v1",
+      "abs_url": "http://arxiv.org/abs/2604.22875v1"
+    },
+    "2604.22973v1": {
+      "arxiv_id": "2604.22973v1",
+      "title": "Collaborative Trajectory Prediction via Late Fusion",
+      "authors": [
+        "Nadya Abdel Madjid",
+        "Murad Mebrahtu",
+        "Zakhar Yagudin",
+        "Bilal Hassan",
+        "Naoufel Werghi",
+        "Jorge Dias",
+        "Dzmitry Tsetserukou",
+        "Majid Khonji"
+      ],
+      "summary": "Predicting future trajectories of surrounding traffic agents is critical for safe autonomous navigation and collision avoidance. Despite all advances in the trajectory forecasting realm, the prediction models remains vulnerable to uncertainty caused by occlusions, limited sensing range, and perception errors. Collaborative vehicle-to-vehicle (V2V) approaches help reduce this uncertainty by sharing complementary information. Existing collaborative trajectory prediction methods typically fuse feature maps at the perception stage to construct a holistic scene view. Further this holistic representation is decoded into the future trajectories. Such design incurs substantial communication overhead due to the exchange of high-dimensional feature representations and often assumes idealized bandwidth and synchronization, limiting practical deployment. We address these limitations by shifting collaboration from perception to the prediction module and introducing a late-fusion framework for shared forecasts. The framework is model-agnostic and treats collaborating vehicles as independent asynchronous agents. We evaluate the approach on the OPV2V, V2V4Real, and DeepAccident datasets, comparing individual and collaborative forecasting. Across all datasets, late fusion consistently reduces miss rate and improves trajectory success rate ($\\mathrm{TSR}_{0.5}$), defined as the fraction of ground-truth agents with final displacement error below 0.5 m. On the real-world V2V4Real dataset, collaborative prediction improves the success rate by $1.69\\%$ and $1.22\\%$ for both intelligent vehicles, respectively, compared with individual forecasting.",
+      "published_utc": "2026-04-24T19:34:56Z",
+      "updated_utc": "2026-04-24T19:34:56Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.22973v1",
+      "abs_url": "http://arxiv.org/abs/2604.22973v1"
+    },
+    "2604.22852v1": {
+      "arxiv_id": "2604.22852v1",
+      "title": "SwarmDrive: Semantic V2V Coordination for Latency-Constrained Cooperative Autonomous Driving",
+      "authors": [
+        "Anjie Qiu",
+        "Donglin Wang",
+        "Zexin Fang",
+        "Sanket Partani",
+        "Hans D. Schotten"
+      ],
+      "summary": "Cloud-hosted LLM inference for autonomous driving adds round-trip delay and depends on stable connectivity, while purely local edge models struggle under occlusion. We present SwarmDrive, a semantic Vehicle-to-Vehicle (V2V) coordination framework in which nearby vehicles run local Small Language Models (SLMs), share compact intent distributions only when uncertainty is high, and fuse them through event-triggered consensus. We evaluate SwarmDrive in a 5-seed executable study built around one occluded intersection case, combining matched operating-point comparisons with robustness sweeps. In that setting, SwarmDrive under its 6G communication setting (\"Swarm 6G\") raises success from 68.9% to 94.1% over a single local SLM while reducing latency from a 510 ms cloud reference to 151.4 ms. However, an increased number of participating vehicles leads to higher communication overhead and packet loss. SwarmDrive also evaluates the impact of swarm-size, packet-loss, and entropy-threshold sweeps and shows that the cooperative gain holds across ablations and is best balanced near an active swarm size of 4 vehicles and an entropy trigger threshold of 0.65 in the current prototype. These results show that semantic edge cooperation can work under tight latency constraints in the targeted intersection case, but they are not a deployment-grade validation of a real 6G stack.",
+      "published_utc": "2026-04-22T08:02:18Z",
+      "updated_utc": "2026-04-22T08:02:18Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.22852v1",
+      "abs_url": "http://arxiv.org/abs/2604.22852v1"
     }
   },
   "topics": {
@@ -13318,9 +13464,10 @@
         "2402.03893v2",
         "2402.03457v1",
         "2602.04204v2",
-        "2602.03986v2"
+        "2602.03986v2",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-28"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -13543,9 +13690,13 @@
         "2604.13128v1",
         "2604.18210v1",
         "2604.18126v1",
-        "2604.16783v1"
+        "2604.16783v1",
+        "2604.24514v1",
+        "2604.23606v1",
+        "2604.23532v1",
+        "2604.22875v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-28"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -13649,9 +13800,10 @@
         "2304.00206v3",
         "2303.17717v1",
         "2303.14880v2",
-        "2604.11406v2"
+        "2604.11406v2",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-27"
+      "latest_update": "2026-04-28"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -13830,9 +13982,10 @@
         "2604.15221v1",
         "2604.18126v1",
         "2604.17189v1",
-        "2604.16967v1"
+        "2604.16967v1",
+        "2604.22973v1"
       ],
-      "latest_update": "2026-04-21"
+      "latest_update": "2026-04-28"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -13939,9 +14092,12 @@
         "2602.05638v3",
         "2604.16783v1",
         "2604.21479v1",
-        "2604.21479v2"
+        "2604.21479v2",
+        "2604.24514v1",
+        "2604.23728v1",
+        "2604.22973v1"
       ],
-      "latest_update": "2026-04-27"
+      "latest_update": "2026-04-28"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14048,9 +14204,11 @@
         "2507.08238v1",
         "2604.12425v1",
         "2602.03986v2",
-        "2604.21924v1"
+        "2604.21924v1",
+        "2604.23532v1",
+        "2604.22973v1"
       ],
-      "latest_update": "2026-04-24"
+      "latest_update": "2026-04-28"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14152,9 +14310,11 @@
         "2604.16967v1",
         "2604.16783v1",
         "2604.21479v1",
-        "2604.21479v2"
+        "2604.21479v2",
+        "2604.23728v1",
+        "2604.23606v1"
       ],
-      "latest_update": "2026-04-27"
+      "latest_update": "2026-04-28"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -14265,9 +14425,10 @@
         "2104.09176v1",
         "2104.03086v1",
         "2103.14107v3",
-        "2103.14023v3"
+        "2103.14023v3",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-28"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -14324,9 +14485,10 @@
         "2305.01111v1",
         "2304.08260v2",
         "2304.00206v3",
-        "2303.17717v1"
+        "2303.17717v1",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-28"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -14353,9 +14515,11 @@
         "2602.20923v1",
         "2604.19368v1",
         "2604.19844v1",
-        "2604.11406v2"
+        "2604.11406v2",
+        "2604.23532v1",
+        "2604.22852v1"
       ],
-      "latest_update": "2026-04-27"
+      "latest_update": "2026-04-28"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -14470,9 +14634,10 @@
         "2308.05634v1",
         "2308.05194v3",
         "2307.13924v1",
-        "2307.09306v1"
+        "2307.09306v1",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-04-28"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -14571,9 +14736,10 @@
         "2412.04673v1",
         "2602.04204v2",
         "2602.03986v2",
-        "2604.11406v2"
+        "2604.11406v2",
+        "2604.23728v1"
       ],
-      "latest_update": "2026-04-27"
+      "latest_update": "2026-04-28"
     }
   }
 }

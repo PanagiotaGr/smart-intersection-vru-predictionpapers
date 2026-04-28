@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **23**
+Total papers tracked: **25**
 
 ---
 
+- **Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model**  
+  *Jingni Huang, Peter Bloodsworth*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23532v1) · [pdf](https://arxiv.org/pdf/2604.23532v1) · id: `2604.23532v1`
+- **SwarmDrive: Semantic V2V Coordination for Latency-Constrained Cooperative Autonomous Driving**  
+  *Anjie Qiu, Donglin Wang, Zexin Fang, Sanket Partani, Hans D. Schotten*  
+  Published: `2026-04-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22852v1) · [pdf](https://arxiv.org/pdf/2604.22852v1) · id: `2604.22852v1`
 - **Mind2Drive: Predicting Driver Intentions from EEG in Real-world On-Road Driving**  
   *Ghadah Alosaimi, Hanadi Alhamdan, Wenke E, Stamos Katsigiannis, Amir Atapour-Abarghouei, Toby P. Breckon*  
   Published: `2026-04-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.19368v1) · [pdf](https://arxiv.org/pdf/2604.19368v1) · id: `2604.19368v1`

@@ -1,11 +1,14 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **107**
+Total papers tracked: **108**
 
 ---
 
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
 - **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
   *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`

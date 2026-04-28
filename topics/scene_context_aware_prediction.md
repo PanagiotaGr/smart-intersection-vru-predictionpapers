@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-04-27` (timezone: `Europe/Athens`)
+Updated: `2026-04-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **103**
+Total papers tracked: **106**
 
 ---
 
+- **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
+  *Xinrun Wang, Deshun Xia, Ke Xu, Weijie Zhu*  
+  Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v1) · [pdf](https://arxiv.org/pdf/2604.24514v1) · id: `2604.24514v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **Collaborative Trajectory Prediction via Late Fusion**  
+  *Nadya Abdel Madjid, Murad Mebrahtu, Zakhar Yagudin, Bilal Hassan, Naoufel Werghi, Jorge Dias, Dzmitry Tsetserukou, Majid Khonji*  
+  Published: `2026-04-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22973v1) · [pdf](https://arxiv.org/pdf/2604.22973v1) · id: `2604.22973v1`
 - **Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction**  
   *Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie*  
   Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.21479v1) · [pdf](https://arxiv.org/pdf/2604.21479v1) · id: `2604.21479v1`
