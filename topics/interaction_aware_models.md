@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-04-28` (timezone: `Europe/Athens`)
+Updated: `2026-04-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **174**
+Total papers tracked: **175**
 
 ---
 
@@ -18,6 +18,9 @@ Total papers tracked: **174**
 - **SketchVLM: Vision language models can annotate images to explain thoughts and guide users**  
   *Brandon Collins, Logan Bolton, Hung Huy Nguyen, Mohammad Reza Taesiri, Trung Bui, Anh Totti Nguyen*  
   Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.22875v1) · [pdf](https://arxiv.org/pdf/2604.22875v1) · id: `2604.22875v1`
+- **SketchVLM: Vision language models can annotate images to explain thoughts and guide users**  
+  *Brandon Collins, Logan Bolton, Hung Huy Nguyen, Mohammad Reza Taesiri, Trung Bui, Anh Totti Nguyen*  
+  Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.22875v2) · [pdf](https://arxiv.org/pdf/2604.22875v2) · id: `2604.22875v2`
 - **TacticGen: Grounding Adaptable and Scalable Generation of Football Tactics**  
   *Sheng Xu, Guiliang Liu, Tarak Kharrat, Yudong Luo, Mohamed Aloulou, Javier López Peña, Konstantin Sofeikov, Adam Reid et al.*  
   Published: `2026-04-20` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.18210v1) · [pdf](https://arxiv.org/pdf/2604.18210v1) · id: `2604.18210v1`
