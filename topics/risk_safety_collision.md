@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-04-29` (timezone: `Europe/Athens`)
+Updated: `2026-04-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **176**
+Total papers tracked: **178**
 
 ---
 
+- **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
+  *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
+  Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
 - **Collaborative Trajectory Prediction via Late Fusion**  
   *Nadya Abdel Madjid, Murad Mebrahtu, Zakhar Yagudin, Bilal Hassan, Naoufel Werghi, Jorge Dias, Dzmitry Tsetserukou, Majid Khonji*  
   Published: `2026-04-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22973v1) · [pdf](https://arxiv.org/pdf/2604.22973v1) · id: `2604.22973v1`
@@ -96,6 +99,9 @@ Total papers tracked: **176**
 - **Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways**  
   *Tom Legel, Dirk Söffker, Roland Schätzle, Kathrin Donandt*  
   Published: `2026-03-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.04472v1) · [pdf](https://arxiv.org/pdf/2603.04472v1) · id: `2603.04472v1`
+- **CoFL: Continuous Flow Fields for Language-Conditioned Navigation**  
+  *Haokun Liu, Zhaoqi Ma, Yicheng Chen, Masaki Kitagawa, Wentao Zhang, Zicen Xiong, Jinjie Li, Moju Zhao*  
+  Published: `2026-03-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.02854v2) · [pdf](https://arxiv.org/pdf/2603.02854v2) · id: `2603.02854v2`
 - **ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models**  
   *Jiarong Wei, Anna Rehr, Christian Feist, Abhinav Valada*  
   Published: `2026-02-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.20923v1) · [pdf](https://arxiv.org/pdf/2602.20923v1) · id: `2602.20923v1`

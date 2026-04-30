@@ -13354,6 +13354,72 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.22875v2",
       "abs_url": "http://arxiv.org/abs/2604.22875v2"
+    },
+    "2604.26065v1": {
+      "arxiv_id": "2604.26065v1",
+      "title": "FlowS: One-Step Motion Prediction via Local Transport Conditioning",
+      "authors": [
+        "Leandro Di Bella",
+        "Adrian Munteanu",
+        "Bruno Cornelis"
+      ],
+      "summary": "Generative motion prediction must satisfy three simultaneous requirements for real-world autonomy: high accuracy, diverse multimodal futures, and strictly bounded latency. Diffusion models meet the first two but violate the third, requiring tens to hundreds of denoising steps. We identify a conditioning strategy that resolves this tension: \\textit{single-step integration is accurate when the underlying transport problem is local}. A model that must both discover the correct behavioral mode and traverse a long displacement in one step accumulates large discretization errors; conditioning the base distribution to lie near plausible futures reduces the problem to short-range refinement, the regime where a single Euler step suffices. We instantiate this \\emph{local transport conditioning} in FlowS, a conditional flow matching framework with two mechanisms. First, an online, scene-conditioned learned prior emits $K$ calibrated anchor trajectories per agent, each already near a plausible future, converting mode discovery into local correction. Second, a step-consistent displacement field enforces semigroup self-consistency, guaranteeing that a single step inherits multi-step accuracy. Crucially, anchoring this field at learned priors along straight-line paths yields a {stable, low-variance} training target, unlike prior self-consistency methods that suffer from {high-variance bootstrap} signals on curved diffusion paths. On the Waymo Open Motion Dataset, FlowS achieves state-of-the-art Soft mAP {(0.4804) and mAP (0.4703) with ensemble at 75\\,FPS} with single-step inference, demonstrating that local transport conditioning makes one-step generative motion prediction practical for safety-critical autonomy. Code and pretrained models will be released upon acceptance.",
+      "published_utc": "2026-04-28T19:06:06Z",
+      "updated_utc": "2026-04-28T19:06:06Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.26065v1",
+      "abs_url": "http://arxiv.org/abs/2604.26065v1"
+    },
+    "2603.02854v2": {
+      "arxiv_id": "2603.02854v2",
+      "title": "CoFL: Continuous Flow Fields for Language-Conditioned Navigation",
+      "authors": [
+        "Haokun Liu",
+        "Zhaoqi Ma",
+        "Yicheng Chen",
+        "Masaki Kitagawa",
+        "Wentao Zhang",
+        "Zicen Xiong",
+        "Jinjie Li",
+        "Moju Zhao"
+      ],
+      "summary": "Existing language-conditioned navigation systems typically rely on modular pipelines or trajectory generators, but the latter use each scene--instruction annotation mainly to supervise one start-conditioned rollout. To address these limitations, we present CoFL, an end-to-end policy that maps a bird's-eye view (BEV) observation and a language instruction to a continuous flow field for navigation. CoFL reformulates navigation as workspace-conditioned field learning rather than start-conditioned trajectory prediction: it learns local motion vectors at arbitrary BEV locations, turning each scene--instruction annotation into dense spatial control supervision. Trajectories are generated from any start by numerical integration of the predicted field, enabling simple real-time rollout and closed-loop recovery. To enable large-scale training and evaluation, we build a dataset of over 500k BEV image--instruction pairs, each procedurally annotated with a flow field and a trajectory derived from semantic maps built on Matterport3D and ScanNet. Evaluating on strictly unseen scenes, CoFL significantly outperforms modular Vision-Language Model (VLM)-based planners and trajectory generation policies in both navigation precision and safety, while maintaining real-time inference. Finally, we deploy CoFL zero-shot in real-world experiments with BEV observations across multiple layouts, maintaining feasible closed-loop control and a high success rate.",
+      "published_utc": "2026-03-03T11:02:55Z",
+      "updated_utc": "2026-04-29T04:47:16Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.02854v2",
+      "abs_url": "http://arxiv.org/abs/2603.02854v2"
+    },
+    "2603.25342v2": {
+      "arxiv_id": "2603.25342v2",
+      "title": "From Intent to Evidence: A Categorical Approach for Structural Evaluation of Deep Research Agents",
+      "authors": [
+        "Shuoling Liu",
+        "Zhiquan Tan",
+        "Kun Yi",
+        "Hui Wu",
+        "Yihan Li",
+        "Jiangpeng Yan",
+        "Liyuan Chen",
+        "Kai Chen",
+        "Qiang Yang"
+      ],
+      "summary": "Deep Research Agents (DRAs) aim to answer complex questions by searching the web, checking evidence, and synthesizing conclusions across heterogeneous sources. We introduce a category-theoretic framework for evaluating and improving such agents. The framework treats deep research as a structured mapping from user intent to evidence-grounded conclusions, making retrieval traces, cross-source alignment, and final synthesis explicit. Guided by this view, we derive a mechanism-aware benchmark of 296 bilingual questions. The benchmark targets four structural skills central to real research: following multi-hop evidence chains, verifying claims across sources, re-ordering fragmented information, and rejecting unsupported assumptions. We evaluate 16 frontier systems with human verification and find that these structural tasks remain highly challenging: the best system reaches only 19.9% average accuracy. The results show that strong agents can sometimes reorganize evidence and detect false premises, but still struggle with long-horizon synthesis and intersection-heavy verification. Beyond evaluation, the same theory also leads to practical system improvements. We instantiate theory-guided interventions such as tracked search, which preserves retrieval traces, and category tools, which add explicit verification and synthesis steps. These interventions yield measurable gains in API-based deep research systems. Our work therefore provides both a challenging benchmark and concrete design guidance for building more reliable research agents.",
+      "published_utc": "2026-03-26T11:37:26Z",
+      "updated_utc": "2026-04-29T12:00:40Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.25342v2",
+      "abs_url": "http://arxiv.org/abs/2603.25342v2"
     }
   },
   "topics": {
@@ -14006,9 +14072,11 @@
         "2604.18126v1",
         "2604.17189v1",
         "2604.16967v1",
-        "2604.22973v1"
+        "2604.22973v1",
+        "2604.26065v1",
+        "2603.02854v2"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-04-30"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14118,9 +14186,11 @@
         "2604.21479v2",
         "2604.24514v1",
         "2604.23728v1",
-        "2604.22973v1"
+        "2604.22973v1",
+        "2604.26065v1",
+        "2603.02854v2"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-04-30"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14540,9 +14610,11 @@
         "2604.19844v1",
         "2604.11406v2",
         "2604.23532v1",
-        "2604.22852v1"
+        "2604.22852v1",
+        "2604.26065v1",
+        "2603.25342v2"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-04-30"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

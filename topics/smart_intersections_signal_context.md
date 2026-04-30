@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-04-29` (timezone: `Europe/Athens`)
+Updated: `2026-04-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **25**
+Total papers tracked: **27**
 
 ---
 
+- **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
+  *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
+  Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
 - **Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model**  
   *Jingni Huang, Peter Bloodsworth*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23532v1) · [pdf](https://arxiv.org/pdf/2604.23532v1) · id: `2604.23532v1`
@@ -45,6 +48,9 @@ Total papers tracked: **25**
 - **From Intent to Evidence: A Categorical Approach for Structural Evaluation of Deep Research Agents**  
   *Shuoling Liu, Zhiquan Tan, Kun Yi, Hui Wu, Yihan Li, Jiangpeng Yan, Liyuan Chen, Kai Chen et al.*  
   Published: `2026-03-26` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.25342v1) · [pdf](https://arxiv.org/pdf/2603.25342v1) · id: `2603.25342v1`
+- **From Intent to Evidence: A Categorical Approach for Structural Evaluation of Deep Research Agents**  
+  *Shuoling Liu, Zhiquan Tan, Kun Yi, Hui Wu, Yihan Li, Jiangpeng Yan, Liyuan Chen, Kai Chen et al.*  
+  Published: `2026-03-26` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.25342v2) · [pdf](https://arxiv.org/pdf/2603.25342v2) · id: `2603.25342v2`
 - **Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction**  
   *Harsh Yadav, Tobias Meisen*  
   Published: `2026-03-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.24155v2) · [pdf](https://arxiv.org/pdf/2603.24155v2) · id: `2603.24155v2`

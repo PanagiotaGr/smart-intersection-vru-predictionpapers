@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-04-29` (timezone: `Europe/Athens`)
+Updated: `2026-04-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **106**
+Total papers tracked: **108**
 
 ---
 
+- **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
+  *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
+  Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
 - **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
   *Xinrun Wang, Deshun Xia, Ke Xu, Weijie Zhu*  
   Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v1) · [pdf](https://arxiv.org/pdf/2604.24514v1) · id: `2604.24514v1`
@@ -111,6 +114,9 @@ Total papers tracked: **106**
 - **Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections**  
   *Kuo-Yi Chao, Erik Leo Haß, Melina Gegg, Jiajie Zhang, Ralph Raßhofer, Alois Christian Knoll*  
   Published: `2026-03-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.05546v1) · [pdf](https://arxiv.org/pdf/2603.05546v1) · id: `2603.05546v1`
+- **CoFL: Continuous Flow Fields for Language-Conditioned Navigation**  
+  *Haokun Liu, Zhaoqi Ma, Yicheng Chen, Masaki Kitagawa, Wentao Zhang, Zicen Xiong, Jinjie Li, Moju Zhao*  
+  Published: `2026-03-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.02854v2) · [pdf](https://arxiv.org/pdf/2603.02854v2) · id: `2603.02854v2`
 - **Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-03-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.01864v1) · [pdf](https://arxiv.org/pdf/2603.01864v1) · id: `2603.01864v1`
