@@ -1,6 +1,6 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-04-30` (timezone: `Europe/Athens`)
+Updated: `2026-05-01` (timezone: `Europe/Athens`)
 
 Total papers tracked: **27**
 

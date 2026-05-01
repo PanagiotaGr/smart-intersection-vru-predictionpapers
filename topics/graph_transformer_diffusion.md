@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-04-30` (timezone: `Europe/Athens`)
+Updated: `2026-05-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **100**
+Total papers tracked: **101**
 
 ---
 
@@ -18,6 +18,9 @@ Total papers tracked: **100**
 - **Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction**  
   *Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie*  
   Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.21479v2) · [pdf](https://arxiv.org/pdf/2604.21479v2) · id: `2604.21479v2`
+- **Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction**  
+  *Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie*  
+  Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.21479v3) · [pdf](https://arxiv.org/pdf/2604.21479v3) · id: `2604.21479v3`
 - **NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem**  
   *Daniel Fuertes, Andrea Cavallaro, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García*  
   Published: `2026-04-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.16967v1) · [pdf](https://arxiv.org/pdf/2604.16967v1) · id: `2604.16967v1`

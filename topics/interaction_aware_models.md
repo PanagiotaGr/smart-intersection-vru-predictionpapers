@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-04-30` (timezone: `Europe/Athens`)
+Updated: `2026-05-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **175**
+Total papers tracked: **176**
 
 ---
 
+- **Uni-HOI:A Unified framework for Learning the Joint distribution of Text and Human-Object Interaction**  
+  *Mengfei Zhang, Jinlu Zhang, Zhigang Tu*  
+  Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.27491v1) · [pdf](https://arxiv.org/pdf/2604.27491v1) · id: `2604.27491v1`
 - **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
   *Xinrun Wang, Deshun Xia, Ke Xu, Weijie Zhu*  
   Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v1) · [pdf](https://arxiv.org/pdf/2604.24514v1) · id: `2604.24514v1`

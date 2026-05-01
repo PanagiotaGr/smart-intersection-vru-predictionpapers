@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-04-30` (timezone: `Europe/Athens`)
+Updated: `2026-05-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **108**
+Total papers tracked: **110**
 
 ---
 
+- **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
+  *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
+  Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v1) · [pdf](https://arxiv.org/pdf/2604.28173v1) · id: `2604.28173v1`
 - **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
   *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
   Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
@@ -24,6 +27,9 @@ Total papers tracked: **108**
 - **Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction**  
   *Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie*  
   Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.21479v2) · [pdf](https://arxiv.org/pdf/2604.21479v2) · id: `2604.21479v2`
+- **Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction**  
+  *Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie*  
+  Published: `2026-04-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.21479v3) · [pdf](https://arxiv.org/pdf/2604.21479v3) · id: `2604.21479v3`
 - **EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications**  
   *Seungjin Kim, Reza Jafarpourmarzouni, Christopher Neff, Hamed Tabkhi, Vinit Katariya*  
   Published: `2026-04-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.16783v1) · [pdf](https://arxiv.org/pdf/2604.16783v1) · id: `2604.16783v1`

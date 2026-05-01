@@ -13420,6 +13420,64 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.25342v2",
       "abs_url": "http://arxiv.org/abs/2603.25342v2"
+    },
+    "2604.27491v1": {
+      "arxiv_id": "2604.27491v1",
+      "title": "Uni-HOI:A Unified framework for Learning the Joint distribution of Text and Human-Object Interaction",
+      "authors": [
+        "Mengfei Zhang",
+        "Jinlu Zhang",
+        "Zhigang Tu"
+      ],
+      "summary": "Modeling 4D human-object interaction (HOI) is a compelling challenge in computer vision and an essential technology powering virtual and mixed-reality applications. While existing works have achieved promising results on specific HOI tasks-such as text-conditioned HOI generation and human motion generation from object motion, they typically rely on task-specific architectures and lack a unified framework capable of handling diverse conditional inputs. Building on this, we propose Uni-HOI, a unified framework that learns the joint distribution among text, human motion, and object motion. By leveraging large language models (LLMs) and two motion-specific vector quantized variational autoencoders (VQ-VAEs), we convert heterogeneous motion data into token sequences compatible with LLM inputs, enabling seamless integration and joint modeling of all three modalities. We introduce a two-stage training strategy: the first stage performs multi-task learning on a large-scale HOI dataset to capture the underlying correlations among the three modalities, while the second stage fine-tunes the model on specific tasks to further enhance performance. Extensive experiments demonstrate that Uni-HOI achieves remarkable performances on multiple HOI-related tasks including text-driven HOI generation, object motion-driven human motion generation (optionally with text) and human motion-driven object motion prediction within a unified framework.",
+      "published_utc": "2026-04-30T06:44:10Z",
+      "updated_utc": "2026-04-30T06:44:10Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.27491v1",
+      "abs_url": "http://arxiv.org/abs/2604.27491v1"
+    },
+    "2604.28173v1": {
+      "arxiv_id": "2604.28173v1",
+      "title": "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements",
+      "authors": [
+        "Genki Kinoshita",
+        "Shu Nakamura",
+        "Ryo Kawahara",
+        "Shohei Nobuhara",
+        "Yasutomo Kawanishi",
+        "Ko Nishino"
+      ],
+      "summary": "Effective human behavior modeling requires a representation of the human body movement that capitalizes on its compositionality. We propose a hierarchical representation consisting of Action Atoms that capture the atomic joint movements and Action Motifs that are formed by their temporal compositions and encode similar body movements found across different overall human actions. We derive A4Mer, a nested latent Transformer to learn this hierarchical representation from human pose data in a fully self-supervised manner. A4Mer splits a 3D pose sequence into variable-length segments and represents each segment as a single latent token (Action Atoms). Through bottom-up representation learning, temporal patterns composed of these Action Atoms, which capture meaningful temporal spans of reusable, semantic segments of body movements, naturally emerge (Action Motifs). A4Mer achieves this with a unified pretext task of masked token prediction in their respective latent spaces. We also introduce Action Motif Dataset (AMD), a large-scale dataset of multi-view human behavior videos with full SMPL annotations. We introduce a novel use of cameras by mounting them on the feet to achieve their frame-wise annotations despite frequent and heavy body occlusions. Experimental results demonstrate the effectiveness of A4Mer for extracting meaningful Action Motifs, which significantly benefit human behavior modeling tasks including action recognition, motion prediction, and motion interpolation.",
+      "published_utc": "2026-04-30T17:55:01Z",
+      "updated_utc": "2026-04-30T17:55:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.28173v1",
+      "abs_url": "http://arxiv.org/abs/2604.28173v1"
+    },
+    "2604.21479v3": {
+      "arxiv_id": "2604.21479v3",
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": [
+        "Yanjiao Liu",
+        "Jiawei Liu",
+        "Xun Gong",
+        "Zifei Nie"
+      ],
+      "summary": "Large language models (LLMs) have recently demonstrated strong reasoning capabilities and attracted increasing research attention in the field of autonomous driving (AD). However, safe application of LLMs on AD perception and prediction still requires a thorough understanding of both the dynamic traffic agents and the static road infrastructure. To this end, this study introduces a framework to evaluate the capability of LLMs in understanding the behaviors of dynamic traffic agents and the topology of road networks. The framework leverages frozen LLMs as the reasoning engine, employing a traffic encoder to extract spatial-level scene features from observed trajectories of agents, while a lightweight Convolutional Neural Network (CNN) encodes the local high-definition (HD) maps. To assess the intrinsic reasoning ability of LLMs, the extracted scene features are then transformed into LLM-compatible tokens via a reprogramming adapter. By residing the prediction burden with the LLMs, a simpler linear decoder is applied to output future trajectories. The framework enables a quantitative analysis of the influence of multi-modal information, especially the impact of map semantics on trajectory prediction accuracy, and allows seamless integration of frozen LLMs with minimal adaptation, thereby demonstrating strong generalizability across diverse LLM architectures and providing a unified platform for model evaluation.",
+      "published_utc": "2026-04-23T09:39:51Z",
+      "updated_utc": "2026-04-30T04:19:07Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.21479v3",
+      "abs_url": "http://arxiv.org/abs/2604.21479v3"
     }
   },
   "topics": {
@@ -13783,9 +13841,10 @@
         "2604.23606v1",
         "2604.23532v1",
         "2604.22875v1",
-        "2604.22875v2"
+        "2604.22875v2",
+        "2604.27491v1"
       ],
-      "latest_update": "2026-04-29"
+      "latest_update": "2026-05-01"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14188,9 +14247,11 @@
         "2604.23728v1",
         "2604.22973v1",
         "2604.26065v1",
-        "2603.02854v2"
+        "2603.02854v2",
+        "2604.28173v1",
+        "2604.21479v3"
       ],
-      "latest_update": "2026-04-30"
+      "latest_update": "2026-05-01"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14405,9 +14466,10 @@
         "2604.21479v1",
         "2604.21479v2",
         "2604.23728v1",
-        "2604.23606v1"
+        "2604.23606v1",
+        "2604.21479v3"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-01"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
