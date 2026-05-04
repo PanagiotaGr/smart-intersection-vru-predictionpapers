@@ -13478,6 +13478,49 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.21479v3",
       "abs_url": "http://arxiv.org/abs/2604.21479v3"
+    },
+    "2605.00059v1": {
+      "arxiv_id": "2605.00059v1",
+      "title": "Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction",
+      "authors": [
+        "Wentao Chen",
+        "Jingtang Chen",
+        "Mingjian Fu",
+        "Tiantian Li",
+        "Youfeng Su",
+        "Wenxi Liu",
+        "Yuanlong Yu"
+      ],
+      "summary": "Deep reinforcement learning (DRL) finds extensive application in autonomous drone navigation within complex, high-risk environments. However, its practical deployment faces a safety-exploration dilemma: soft penalty mechanisms encourage risky trial-and-error, while most constraint-based methods suffer degraded performance under sensor noise and intent uncertainty. We propose Dynamic-TD3, a physically enhanced framework that enforces strict safety constraints while maintaining maneuverability by modeling navigation as a Constrained Markov Decision Process (CMDP). This framework integrates an Adaptive Trajectory Relational Evolution Mechanism (ATREM) to capture long-range intentions and employs a Physically Aware Gated Kalman Filter (PAG-KF) to mitigate non-stationary observation noise. The resulting state representation drives a dual-criterion policy that balances mission efficiency against hard safety constraints via Lagrangian relaxation. In experiments with aggressive dynamic threats, this approach demonstrates superior collision avoidance performance, reduced energy consumption, and smoother flight trajectories.",
+      "published_utc": "2026-04-30T02:56:29Z",
+      "updated_utc": "2026-04-30T02:56:29Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.00059v1",
+      "abs_url": "http://arxiv.org/abs/2605.00059v1"
+    },
+    "2605.00362v1": {
+      "arxiv_id": "2605.00362v1",
+      "title": "Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking",
+      "authors": [
+        "Nhat-Tan Do",
+        "Le-Huy Tu",
+        "Nhi Ngoc-Yen Nguyen",
+        "Dieu-Phuong Nguyen",
+        "Trong-Hop Do"
+      ],
+      "summary": "Multi-object tracking (MOT) is critical in numerous real-world applications, including surveillance, autonomous driving, and robotics. Accurately predicting object motion is fundamental to MOT, but current methods struggle with the complexities of real-world, non-linear motion (e.g., sudden stops, sharp turns). While recent research has gravitated towards increasingly complex and computationally expensive generative models to tackle this problem, their practical utility is often constrained. This paper challenges that paradigm, arguing that such complexity is not only unnecessary but can be outperformed by a more efficient, purpose-built approach. We introduce the Temporal Convolutional Motion Predictor (TCMP), a novel framework for MOT that leverages a modified Temporal Convolutional Network (TCN) featuring dilated convolutions and a regression head. This design allows for effective motion prediction across arbitrary temporal context lengths. Experimental results demonstrate that our approach achieves state-of-the-art performance, specifically improves upon the previous best method in several key metrics: HOTA (a measure of overall tracking accuracy) increases from 62.3% to 63.4%, IDF1 (a measure of identity preservation) rises from 63.0% to 65.0%, and AssA (a measure of association accuracy) improves from 47.2% to 49.1%. Significantly, TCMP achieves this performance while being highly efficient; it has only 0.014 times the parameters and requires only 0.05 times the computational cost (FLOPs) compared to the SOTA method. while is only 0.014 times the size (in terms of parameters) and requires only 0.05 times the computational cost (in terms of FLOPs). These findings highlight the robustness of our method to advance MOT systems by ensuring adaptability, accuracy, and efficiency in complex tracking environments.",
+      "published_utc": "2026-05-01T02:51:59Z",
+      "updated_utc": "2026-05-01T02:51:59Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.00362v1",
+      "abs_url": "http://arxiv.org/abs/2605.00362v1"
     }
   },
   "topics": {
@@ -14133,9 +14176,10 @@
         "2604.16967v1",
         "2604.22973v1",
         "2604.26065v1",
-        "2603.02854v2"
+        "2603.02854v2",
+        "2605.00059v1"
       ],
-      "latest_update": "2026-04-30"
+      "latest_update": "2026-05-04"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14249,9 +14293,10 @@
         "2604.26065v1",
         "2603.02854v2",
         "2604.28173v1",
-        "2604.21479v3"
+        "2604.21479v3",
+        "2605.00362v1"
       ],
-      "latest_update": "2026-05-01"
+      "latest_update": "2026-05-04"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14360,9 +14405,10 @@
         "2602.03986v2",
         "2604.21924v1",
         "2604.23532v1",
-        "2604.22973v1"
+        "2604.22973v1",
+        "2605.00059v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-04"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

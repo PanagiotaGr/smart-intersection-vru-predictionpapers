@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-03` (timezone: `Europe/Athens`)
+Updated: `2026-05-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **105**
+Total papers tracked: **106**
 
 ---
 
+- **Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction**  
+  *Wentao Chen, Jingtang Chen, Mingjian Fu, Tiantian Li, Youfeng Su, Wenxi Liu, Yuanlong Yu*  
+  Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.00059v1) · [pdf](https://arxiv.org/pdf/2605.00059v1) · id: `2605.00059v1`
 - **Emotion-Conditioned Short-Horizon Human Pose Forecasting with a Lightweight Predictive World Model**  
   *Jingni Huang, Peter Bloodsworth*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23532v1) · [pdf](https://arxiv.org/pdf/2604.23532v1) · id: `2604.23532v1`

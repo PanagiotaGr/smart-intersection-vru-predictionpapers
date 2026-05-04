@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-03` (timezone: `Europe/Athens`)
+Updated: `2026-05-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **110**
+Total papers tracked: **111**
 
 ---
 
+- **Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking**  
+  *Nhat-Tan Do, Le-Huy Tu, Nhi Ngoc-Yen Nguyen, Dieu-Phuong Nguyen, Trong-Hop Do*  
+  Published: `2026-05-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.00362v1) · [pdf](https://arxiv.org/pdf/2605.00362v1) · id: `2605.00362v1`
 - **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
   *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
   Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v1) · [pdf](https://arxiv.org/pdf/2604.28173v1) · id: `2604.28173v1`

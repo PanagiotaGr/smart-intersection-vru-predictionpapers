@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-03` (timezone: `Europe/Athens`)
+Updated: `2026-05-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **178**
+Total papers tracked: **179**
 
 ---
 
+- **Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction**  
+  *Wentao Chen, Jingtang Chen, Mingjian Fu, Tiantian Li, Youfeng Su, Wenxi Liu, Yuanlong Yu*  
+  Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.00059v1) · [pdf](https://arxiv.org/pdf/2605.00059v1) · id: `2605.00059v1`
 - **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
   *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
   Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
