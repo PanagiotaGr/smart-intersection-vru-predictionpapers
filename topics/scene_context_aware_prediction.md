@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-04` (timezone: `Europe/Athens`)
+Updated: `2026-05-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **111**
+Total papers tracked: **112**
 
 ---
 
+- **HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar**  
+  *Yeheng Zong, Pou-Chun Kung, Yike Pan, Seth Isaacson, Yizhou Chen, Ram Vasudevan, Katherine A. Skinner*  
+  Published: `2026-05-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.02784v1) · [pdf](https://arxiv.org/pdf/2605.02784v1) · id: `2605.02784v1`
 - **Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking**  
   *Nhat-Tan Do, Le-Huy Tu, Nhi Ngoc-Yen Nguyen, Dieu-Phuong Nguyen, Trong-Hop Do*  
   Published: `2026-05-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.00362v1) · [pdf](https://arxiv.org/pdf/2605.00362v1) · id: `2605.00362v1`

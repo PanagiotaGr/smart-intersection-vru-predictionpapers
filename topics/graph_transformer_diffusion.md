@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-04` (timezone: `Europe/Athens`)
+Updated: `2026-05-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **101**
+Total papers tracked: **103**
 
 ---
 
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank**  
+  *Abhishek Vivekanandan, Ahmed Abouelazm, J. Marius Zöllner*  
+  Published: `2026-05-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.01393v1) · [pdf](https://arxiv.org/pdf/2605.01393v1) · id: `2605.01393v1`
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`

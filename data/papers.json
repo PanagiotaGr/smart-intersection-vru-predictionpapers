@@ -13521,6 +13521,84 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.00362v1",
       "abs_url": "http://arxiv.org/abs/2605.00362v1"
+    },
+    "2605.02759v1": {
+      "arxiv_id": "2605.02759v1",
+      "title": "DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation",
+      "authors": [
+        "Danil Tokhchukov",
+        "Veronika Morozova",
+        "Gonzalo Ferrer"
+      ],
+      "summary": "Traditional Simultaneous Localization and Mapping (SLAM) algorithms rely heavily on the static environment assumption, which severely limits their applicability in real-world spaces populated by moving entities, such as pedestrians. In this work, we propose DynoSLAM, a tightly-coupled Dynamic GraphSLAM architecture that integrates socially-aware Graph Neural Networks (GNNs) directly into the factor graph optimization. Unlike conventional approaches that use rigid constant-velocity heuristics or deterministic single-agent neural priors, our framework formulates pedestrian motion forecasting as a stochastic World Model. By utilizing Monte Carlo rollouts from a trained GNN, we capture the multimodal epistemic uncertainty of human interactions and embed it into the SLAM graph via a dynamic Mahalanobis distance factor. We demonstrate through extensive simulated experiments that this stochastic formulation not only maintains highly accurate retrospective tracking but also prevents the optimization failures caused by the deterministic \"argmax problem\". Ultimately, extracting the empirical mean and covariance matrices of future pedestrian states provides a mathematically rigorous, probabilistic safety envelope for downstream local planners, enabling anticipatory and collision-free robot navigation in densely crowded environments.",
+      "published_utc": "2026-05-04T15:58:08Z",
+      "updated_utc": "2026-05-04T15:58:08Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.02759v1",
+      "abs_url": "http://arxiv.org/abs/2605.02759v1"
+    },
+    "2605.02784v1": {
+      "arxiv_id": "2605.02784v1",
+      "title": "HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar",
+      "authors": [
+        "Yeheng Zong",
+        "Pou-Chun Kung",
+        "Yike Pan",
+        "Seth Isaacson",
+        "Yizhou Chen",
+        "Ram Vasudevan",
+        "Katherine A. Skinner"
+      ],
+      "summary": "Accurately recovering human pose and appearance from video is an essential component of scene reconstruction, with applications to motion capture, motion prediction, virtual reality, and digital twinning. Despite significant interest in building realistic human avatars from video, this paper demonstrates that existing methods do not accurately recover the 3D geometry of humans. ViT-based approaches are not consistently reliable and can overfit to 2D views, while NeRF- and Gaussian Splatting-based avatars treat pose and appearance separately, limiting rendering generalization to new poses. To resolve these shortcomings, this paper proposes HumanSplatHMR, a joint optimization framework that refines 3D human poses while simultaneously learning a high-fidelity avatar for novel-view and novel-pose synthesis. Our key insight is to close the loop between geometric pose estimation and differentiable rendering. Unlike prior human avatar methods that rely on accurate human pose obtained through motion capture systems or offline refinement, which are impractical in in-the-wild scenarios, our approach uses only human mesh estimates from a state-of-the-art human pose estimator to better reflect real-world conditions. Therefore, instead of using the human pose only as a deformation prior, HumanSplatHMR backpropagates photometric, segmentation, and depth losses through a differentiable renderer to the pose parameters and global position. This coupling refines the global 3D pose over time, improving accuracy and alignment while producing better renderings from novel views. Experiments show consistent improvements over pose recovery baselines that omit image-level refinement and avatar baselines that decouple pose estimation from avatar reconstruction.",
+      "published_utc": "2026-05-04T16:26:11Z",
+      "updated_utc": "2026-05-04T16:26:11Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.02784v1",
+      "abs_url": "http://arxiv.org/abs/2605.02784v1"
+    },
+    "2605.01393v1": {
+      "arxiv_id": "2605.01393v1",
+      "title": "Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank",
+      "authors": [
+        "Abhishek Vivekanandan",
+        "Ahmed Abouelazm",
+        "J. Marius Zöllner"
+      ],
+      "summary": "Motion forecasting often requires trading interpretability for predictive accuracy. Standard anchor-based architectures rely on opaque latent queries that are highly prone to latent collapse, or naive trajectory sampling that limits multi-modal diversity. We propose an end-to-end differentiable framework that grounds predictions in a comprehensive \"motion bank\", a structured embedding space of physically realizable trajectories constructed via contrastive learning. Rather than regressing paths from a blank slate, our architecture dynamically retrieves explicit motion priors using a novel Anchor Retrieval Layer. This module adapts orthogonally initialized queries via a Dual-Level Gated Cross-Attention mechanism and executes discrete trajectory selection using a Straight-Through Gumbel-Softmax estimator to preserve continuous gradient flow. The retrieved semantically grounded anchors are then geometrically refined by a DETR-style decoder, optimized jointly with a Winner-Takes-All (WTA) kinematic Gaussian Mixture Model (GMM), a latent diversity penalty, and a soft-min weighted endpoint loss. By strictly conditioning the decoding phase on diverse, interpretable motion primitives, our approach eliminates the \"black box\" of standard latent queries while achieving competitive multi-modal accuracy on the Argoverse 2 and Waymo Open Motion datasets. Code is available at: https://github.com/abviv/recall2predict",
+      "published_utc": "2026-05-02T11:31:26Z",
+      "updated_utc": "2026-05-02T11:31:26Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.01393v1",
+      "abs_url": "http://arxiv.org/abs/2605.01393v1"
+    },
+    "2605.01485v1": {
+      "arxiv_id": "2605.01485v1",
+      "title": "Cut-In Gap Acceptance Toward Autonomous vs. Human-Driven Vehicles: Evidence from the Waymo Open Motion Dataset",
+      "authors": [
+        "Abdulaziz Alhuraish",
+        "Yuhang Wang",
+        "Hao Zhou"
+      ],
+      "summary": "Autonomous vehicles (AVs) are widely known to follow conservative, rule-based motion policies that surrounding drivers can learn to anticipate. A direct consequence is that human drivers may accept shorter longitudinal gaps when cutting in front of an AV than when targeting another human-driven vehicle (HDV). We test this hypothesis using the Waymo Open Motion Dataset (WOMD), which provides 25,906 real-world highway scenarios at 10 hertz. An eight-criterion lane-change detector extracts 706 HDV-to-AV and 3,172 HDV-to-HDV cut-in events from the same traffic environment. The median accepted gap in front of the Waymo AV is 7.58 meters versus 9.57 meters for HDV targets, a 1.99 meter reduction that is statistically significant (p equals 5.76 times 10 to the negative eighth power, d equals negative 0.224) and persists under speed-matched resampling. Cut-in speeds toward the AV are 37 percent higher (51.7 versus 37.7 kilometers per hour, d equals 0.502), and 68.0 percent of AV-targeted cut-ins occur below the 10 meter gap boundary versus 51.8 percent of HDV-targeted events (chi-squared equals 60.5, p is less than 10 to the negative thirteenth power). These results reveal a systematic and safety-relevant asymmetry in human gap-acceptance behavior that warrants AV-specific calibration of both motion-planning safety envelopes and traffic simulation models.",
+      "published_utc": "2026-05-02T15:13:39Z",
+      "updated_utc": "2026-05-02T15:13:39Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "physics.soc-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.01485v1",
+      "abs_url": "http://arxiv.org/abs/2605.01485v1"
     }
   },
   "topics": {
@@ -13654,9 +13732,10 @@
         "2402.03457v1",
         "2602.04204v2",
         "2602.03986v2",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.02759v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-05"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -13885,9 +13964,10 @@
         "2604.23532v1",
         "2604.22875v1",
         "2604.22875v2",
-        "2604.27491v1"
+        "2604.27491v1",
+        "2605.02759v1"
       ],
-      "latest_update": "2026-05-01"
+      "latest_update": "2026-05-05"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14177,9 +14257,10 @@
         "2604.22973v1",
         "2604.26065v1",
         "2603.02854v2",
-        "2605.00059v1"
+        "2605.00059v1",
+        "2605.02759v1"
       ],
-      "latest_update": "2026-05-04"
+      "latest_update": "2026-05-05"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14294,9 +14375,10 @@
         "2603.02854v2",
         "2604.28173v1",
         "2604.21479v3",
-        "2605.00362v1"
+        "2605.00362v1",
+        "2605.02784v1"
       ],
-      "latest_update": "2026-05-04"
+      "latest_update": "2026-05-05"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14406,9 +14488,10 @@
         "2604.21924v1",
         "2604.23532v1",
         "2604.22973v1",
-        "2605.00059v1"
+        "2605.00059v1",
+        "2605.02759v1"
       ],
-      "latest_update": "2026-05-04"
+      "latest_update": "2026-05-05"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14513,9 +14596,11 @@
         "2604.21479v2",
         "2604.23728v1",
         "2604.23606v1",
-        "2604.21479v3"
+        "2604.21479v3",
+        "2605.02759v1",
+        "2605.01393v1"
       ],
-      "latest_update": "2026-05-01"
+      "latest_update": "2026-05-05"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -14687,9 +14772,10 @@
         "2304.08260v2",
         "2304.00206v3",
         "2303.17717v1",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.01485v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-05"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -14940,9 +15026,10 @@
         "2602.04204v2",
         "2602.03986v2",
         "2604.11406v2",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.02759v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-05"
     }
   }
 }

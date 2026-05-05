@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-04` (timezone: `Europe/Athens`)
+Updated: `2026-05-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **176**
+Total papers tracked: **177**
 
 ---
 
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
 - **Uni-HOI:A Unified framework for Learning the Joint distribution of Text and Human-Object Interaction**  
   *Mengfei Zhang, Jinlu Zhang, Zhigang Tu*  
   Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.27491v1) · [pdf](https://arxiv.org/pdf/2604.27491v1) · id: `2604.27491v1`

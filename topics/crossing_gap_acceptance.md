@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-05-04` (timezone: `Europe/Athens`)
+Updated: `2026-05-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **54**
+Total papers tracked: **55**
 
 ---
 
+- **Cut-In Gap Acceptance Toward Autonomous vs. Human-Driven Vehicles: Evidence from the Waymo Open Motion Dataset**  
+  *Abdulaziz Alhuraish, Yuhang Wang, Hao Zhou*  
+  Published: `2026-05-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.01485v1) · [pdf](https://arxiv.org/pdf/2605.01485v1) · id: `2605.01485v1`
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
