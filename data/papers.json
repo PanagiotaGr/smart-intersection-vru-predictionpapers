@@ -13599,6 +13599,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.01485v1",
       "abs_url": "http://arxiv.org/abs/2605.01485v1"
+    },
+    "2604.17189v2": {
+      "arxiv_id": "2604.17189v2",
+      "title": "Shepherding UAV Swarm with Action Prediction Based on Movement Constraints",
+      "authors": [
+        "Yusuke Tsunoda",
+        "Yusuke Goto",
+        "Takao Sato"
+      ],
+      "summary": "In this study, we propose a new sheepdog-inspired control method for a swarm of small unmanned aerial vehicles (UAVs), which predicts the swarm behavior while explicitly accounting for the motion constraints of real robots. Sheepdog-inspired guidance control refers to a framework in which a small number of navigator agents (sheepdog agents) indirectly drive a large number of autonomous agents (a flock of sheep agents) so as to steer the group toward a target position. In conventional studies on sheepdog-inspired guidance, both types of agents have typically been modeled as point masses, and the guidance law for the navigator agents has been designed using simple interaction vectors based on the instantaneous relative positions between the agents. However, when implementing such methods on real robots such as drones, it is necessary to consider each agent's motion constraints, including upper bounds on velocity and acceleration. Moreover, we argue that guidance can be made more efficient by predicting the future behavior of the autonomous swarm that is observable to the navigator agents. To this end, we propose a three-dimensional guidance control law based on behavior prediction of autonomous agents under motion constraints, inspired by the Dynamic Window Approach (DWA). At each control cycle, the navigator agent generates a set of feasible motion candidates that satisfy its motion constraints, and predicts the short-horizon swarm evolution using an internal model of the autonomous agents maintained within the navigator agent. The motion candidates are then evaluated according to criteria such as the progress velocity toward the target, the positioning strategy with respect to the swarm, and safety margins, and the optimal motion is selected to achieve safe and efficient guidance. Numerical simulation results demonstrate the effectiveness of the proposed guidance control law.",
+      "published_utc": "2026-04-19T01:32:37Z",
+      "updated_utc": "2026-05-06T03:04:38Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.17189v2",
+      "abs_url": "http://arxiv.org/abs/2604.17189v2"
     }
   },
   "topics": {
@@ -14258,9 +14276,10 @@
         "2604.26065v1",
         "2603.02854v2",
         "2605.00059v1",
-        "2605.02759v1"
+        "2605.02759v1",
+        "2604.17189v2"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-07"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",

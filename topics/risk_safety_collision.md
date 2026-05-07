@@ -1,8 +1,8 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-06` (timezone: `Europe/Athens`)
+Updated: `2026-05-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **180**
+Total papers tracked: **181**
 
 ---
 
@@ -24,6 +24,9 @@ Total papers tracked: **180**
 - **Shepherding UAV Swarm with Action Prediction Based on Movement Constraints**  
   *Yusuke Tsunoda, Yusuke Goto, Takao Sato*  
   Published: `2026-04-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.17189v1) · [pdf](https://arxiv.org/pdf/2604.17189v1) · id: `2604.17189v1`
+- **Shepherding UAV Swarm with Action Prediction Based on Movement Constraints**  
+  *Yusuke Tsunoda, Yusuke Goto, Takao Sato*  
+  Published: `2026-04-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.17189v2) · [pdf](https://arxiv.org/pdf/2604.17189v2) · id: `2604.17189v2`
 - **NaviFormer: A Deep Reinforcement Learning Transformer-like Model to Holistically Solve the Navigation Problem**  
   *Daniel Fuertes, Andrea Cavallaro, Carlos R. del-Blanco, Fernando Jaureguizar, Narciso García*  
   Published: `2026-04-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.16967v1) · [pdf](https://arxiv.org/pdf/2604.16967v1) · id: `2604.16967v1`
