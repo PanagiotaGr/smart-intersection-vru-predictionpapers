@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-07` (timezone: `Europe/Athens`)
+Updated: `2026-05-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **103**
+Total papers tracked: **104**
 
 ---
 
@@ -120,6 +120,9 @@ Total papers tracked: **103**
 - **Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalman Filtering**  
   *Yin Tang, Jiawei Ma, Jinrui Zhang, Alex Jinpeng Wang, Deyu Zhang*  
   Published: `2026-01-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.11183v1) · [pdf](https://arxiv.org/pdf/2602.11183v1) · id: `2602.11183v1`
+- **Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalman Filtering**  
+  *Yin Tang, Jiawei Ma, Jinrui Zhang, Alex Jinpeng Wang, Deyu Zhang*  
+  Published: `2026-01-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.11183v2) · [pdf](https://arxiv.org/pdf/2602.11183v2) · id: `2602.11183v2`
 - **Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction**  
   *Matej Halinkovic, Nina Masarykova, Alexey Vinel, Marek Galinski*  
   Published: `2026-01-28` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.20720v1) · [pdf](https://arxiv.org/pdf/2601.20720v1) · id: `2601.20720v1`

@@ -13617,6 +13617,28 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.17189v2",
       "abs_url": "http://arxiv.org/abs/2604.17189v2"
+    },
+    "2602.11183v2": {
+      "arxiv_id": "2602.11183v2",
+      "title": "Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalman Filtering",
+      "authors": [
+        "Yin Tang",
+        "Jiawei Ma",
+        "Jinrui Zhang",
+        "Alex Jinpeng Wang",
+        "Deyu Zhang"
+      ],
+      "summary": "Continuous navigation in complex environments is critical for Unmanned Aerial Vehicle (UAV). However, the existing Vision-Language Navigation (VLN) models follow the dead-reckoning, which iteratively updates its position for the next waypoint prediction, and subsequently construct the complete trajectory. Then, such stepwise manner will inevitably lead to accumulated errors of position over time, resulting in misalignment between internal belief and objective coordinates, which is known as \"state drift\" and ultimately compromises the full trajectory prediction. Drawing inspiration from classical control theory, we propose to correct for errors by formulating such sequential prediction as a recursive Bayesian state estimation problem. In this paper, we design NeuroKalman, a novel framework that decouples navigation into two complementary processes: a Prior Prediction, based on motion dynamics and a Likelihood Correction, from historical observation. We first mathematically associate Kernel Density Estimation of the measurement likelihood with the attention-based retrieval mechanism, which then allows the system to rectify the latent representation using retrieved historical anchors without gradient updates. Comprehensive experiments on TravelUAV benchmark demonstrate that, with only 10% of the training data fine-tuning, our method clearly outperforms strong baselines and regulates drift accumulation.",
+      "published_utc": "2026-01-30T05:03:08Z",
+      "updated_utc": "2026-05-07T07:20:15Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.11183v2",
+      "abs_url": "http://arxiv.org/abs/2602.11183v2"
     }
   },
   "topics": {
@@ -14617,9 +14639,10 @@
         "2604.23606v1",
         "2604.21479v3",
         "2605.02759v1",
-        "2605.01393v1"
+        "2605.01393v1",
+        "2602.11183v2"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-08"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
