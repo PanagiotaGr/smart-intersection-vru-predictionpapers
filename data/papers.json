@@ -13639,6 +13639,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2602.11183v2",
       "abs_url": "http://arxiv.org/abs/2602.11183v2"
+    },
+    "2605.06863v1": {
+      "arxiv_id": "2605.06863v1",
+      "title": "Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation",
+      "authors": [
+        "Andrew Stratton",
+        "Phani Teja Singamaneni",
+        "Pranav Goyal",
+        "Rachid Alami",
+        "Christoforos Mavrogiannis"
+      ],
+      "summary": "We contribute Bi3, a dataset of social robot navigation among groups of people in a constrained lab space. Compared to prior data collection efforts for social robot navigation, our dataset is unique in that it features: an original experiment design giving rise to close navigation encounters between two humans and a robot; five different navigation algorithms; two different robot platforms; a diverse participant pool of 74 people recruited from two sites in the USA and France; multimodal data streams including 10.5 hours of human and robot ground-truth motion tracks, RGB video, and user impressions over robot performance. Our analysis of the collected dataset through metrics like interaction density and human velocity suggests that Bi3 represents a benchmark of unique diversity and modeling complexity. Bi3 contributes towards understanding how humans and robots can productively mesh their activities in constrained environments, and can be a resource for training models of human motion prediction and robot control policies for navigation in densely crowded spaces.",
+      "published_utc": "2026-05-07T19:05:37Z",
+      "updated_utc": "2026-05-07T19:05:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.06863v1",
+      "abs_url": "http://arxiv.org/abs/2605.06863v1"
     }
   },
   "topics": {
@@ -14005,9 +14026,10 @@
         "2604.22875v1",
         "2604.22875v2",
         "2604.27491v1",
-        "2605.02759v1"
+        "2605.02759v1",
+        "2605.06863v1"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-11"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

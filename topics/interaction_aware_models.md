@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-10` (timezone: `Europe/Athens`)
+Updated: `2026-05-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **177**
+Total papers tracked: **178**
 
 ---
 
+- **Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation**  
+  *Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, Christoforos Mavrogiannis*  
+  Published: `2026-05-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.06863v1) · [pdf](https://arxiv.org/pdf/2605.06863v1) · id: `2605.06863v1`
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
