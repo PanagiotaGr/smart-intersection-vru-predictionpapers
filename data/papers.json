@@ -13660,6 +13660,143 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.06863v1",
       "abs_url": "http://arxiv.org/abs/2605.06863v1"
+    },
+    "2605.10376v1": {
+      "arxiv_id": "2605.10376v1",
+      "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
+      "authors": [
+        "Niyati Rawal",
+        "Sushant Ravva",
+        "Shah Alam Abir",
+        "Saksham Jain",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Suranjana Trivedy",
+        "Amitava Das"
+      ],
+      "summary": "Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluating instruction-grounded trajectory prediction in single-scene 3D worlds generated from textual scene descriptions and filtered for navigability. Unlike prior navigation benchmarks centered on long-range exploration across rooms, SleepWalk targets localized, interaction-centric embodied reasoning: given rendered visual observations and a natural-language instruction, a model must predict a trajectory that respects scene geometry, avoids collisions, and terminates at an action-compatible location. The benchmark covers diverse indoor and outdoor environments and organizes tasks into three tiers of spatial and temporal difficulty, enabling fine-grained analysis of grounding under increasing compositional complexity. Using a standardized pointwise judge-based evaluation protocol, we evaluate three frontier VLMs on 2,472 curated 3D environments with nine instructions per scene. Results reveal systematic failures in grounded spatial reasoning, especially under occlusion, interaction constraints, and multi-step instructions: performance drops as the difficulty level of the tasks increase. In general, current VLMs can somewhat produce trajectories that are simultaneously spatially coherent, plausibly executable, and aligned with intended actions. By exposing failures in a controlled yet scalable setting, SleepWalk provides a critical benchmark for advancing grounded multimodal reasoning, embodied planning, vision-language navigation, and action-capable agents in 3D environments.",
+      "published_utc": "2026-05-11T11:20:14Z",
+      "updated_utc": "2026-05-11T11:20:14Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.10376v1",
+      "abs_url": "http://arxiv.org/abs/2605.10376v1"
+    },
+    "2605.09112v1": {
+      "arxiv_id": "2605.09112v1",
+      "title": "Contextual Plackett-Luce: An Efficient Neural Model for Probabilistic Sequence Selection under Ambiguity",
+      "authors": [
+        "Noam Mizrachi",
+        "Nadav Har-Tuv",
+        "Shai Shalev-Shwartz"
+      ],
+      "summary": "Selecting a coherent sequence or subset of elements is a fundamental problem in structured prediction, arising in tasks such as detection, trajectory forecasting, and representative subset selection. In many such settings, the target is inherently ambiguous: each input admits multiple valid outputs, while supervision provides only a single sampled instance. This induces a mismatch between the underlying multi-modal target distribution and the observed training signal. We propose Contextual Plackett-Luce (CPL), a structured probabilistic model for sequence selection that extends the classical Plackett-Luce model to a context-dependent setting following an Ising-style parameterization with unary and pairwise interaction terms. CPL can be viewed as a hybrid between fully autoregressive prediction and parallel sequence selection: autoregressive models effectively capture uncertainty but are computationally expensive on modern parallel hardware such as GPUs, while parallel methods are efficient but struggle to represent multi-modal dependencies. CPL combines the strengths of both by constructing the parameters of a probabilistic selection model in a fully parallel manner, followed by a lightweight autoregressive selection process in which each step applies incremental updates to contextual logits. This decoupling of parallel scoring and sequential selection enables efficient computation without sacrificing expressivity. We evaluate CPL on two structured selection tasks: multi-modal path prediction and representative subset selection. CPL achieves improved structural consistency and robustness under ambiguous supervision compared to strong parallel baselines.",
+      "published_utc": "2026-05-09T18:52:53Z",
+      "updated_utc": "2026-05-09T18:52:53Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.09112v1",
+      "abs_url": "http://arxiv.org/abs/2605.09112v1"
+    },
+    "2605.08830v1": {
+      "arxiv_id": "2605.08830v1",
+      "title": "VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving",
+      "authors": [
+        "Rui Zhao",
+        "Jianlin Yu",
+        "Zhenhai Gao",
+        "Jiaqiao Liu",
+        "Fei Gao"
+      ],
+      "summary": "End-to-end autonomous driving requires models to understand traffic scenes, infer driving intent, and generate executable motion plans. Recent vision-language-action (VLA) models inherit semantic priors from large-scale vision-language pretraining, yet still face a coupling trade-off: fully shared backbones preserve multimodal interaction but may entangle language reasoning and trajectory prediction, whereas decou pled reasoning-action pipelines reduce task conflict but weaken semantic-motion coupling. We propose VECTOR-DRIVE, a tightly coupled VLA framework built on Qwen2.5-VL-3B. VECTOR-DRIVE keeps all tokens coupled through shared self attention and routes feed-forward computation according to token semantics. Vision and language tokens are processed by a Vision-Language Expert to preserve semantic priors, while target-point, ego-state, and noisy action tokens are routed to a Trajectory Expert for motion-specific computation. On the action-token pathway, a flow-matching planner refines noisy action tokens into future waypoints and speed profiles. This design couples semantic reasoning and motion planning within a single multimodal Transformer while separating task-specific FFN computation. On Bench2Drive, VECTOR-DRIVE achieves 88.91 Driving Score and outperforms representative end-to end and VLA-based baselines. Qualitative results and ablations further validate the benefits of shared attention, semantic-aware expert routing, progressive training, and flow-based action de coding.",
+      "published_utc": "2026-05-09T09:34:50Z",
+      "updated_utc": "2026-05-09T09:34:50Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.08830v1",
+      "abs_url": "http://arxiv.org/abs/2605.08830v1"
+    },
+    "2605.08572v1": {
+      "arxiv_id": "2605.08572v1",
+      "title": "Enhancing Consistency Models for Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Alen Mrdovic",
+        "Qingze",
+        "Liu",
+        "Danrui Li",
+        "Mathew Schwartz",
+        "Kaidong Hu",
+        "Sejong Yoon",
+        "Mubbasir Kapadia",
+        "Vladimir Pavlovic"
+      ],
+      "summary": "Diffusion models for multi-agent trajectory prediction are limited by iterative denoising, which causes inference latency that hinders their use in time-critical settings like autonomous driving. Fast-sampling variants using DDIM and informed initial noise distributions partially alleviate this issue, but they either fail to achieve true single-step generation or are constrained by the chosen noise distribution. Consistency Models (CMs) offer high-quality one-step generation by mapping noise directly to data, but are difficult to train from scratch . We propose ECTraj, an enhanced CM pipeline with improved training and conditional generation for trajectory prediction. Our framework extends the student-teacher consistency training scheme: the student produces standard outputs, while the teacher explicitly fuses its predictions with parts of the ground truth to give stronger supervision. We also exploit CMs' direct denoising for top-K multi-shot generation during training. Combining conditional generation with this enhanced consistency objective yields faster inference and improved prediction accuracy, establishing competitive new benchmarks on the large-scale Argoverse 2 dataset.",
+      "published_utc": "2026-05-09T00:23:08Z",
+      "updated_utc": "2026-05-09T00:23:08Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.08572v1",
+      "abs_url": "http://arxiv.org/abs/2605.08572v1"
+    },
+    "2605.08888v1": {
+      "arxiv_id": "2605.08888v1",
+      "title": "DocScope: Benchmarking Verifiable Reasoning for Trustworthy Long-Document Understanding",
+      "authors": [
+        "Xiang Feng",
+        "Jiawei Zhou",
+        "Zhangfeng Huang",
+        "Kewei Wang",
+        "Shanshan Ye",
+        "Jinxin Hu",
+        "Zulong Chen",
+        "Yong Luo",
+        "Jing Zhang"
+      ],
+      "summary": "Evaluating whether Multimodal Large Language Models can produce trustworthy, verifiable reasoning over long, visually rich documents requires evaluation beyond end-to-end answer accuracy. We introduce DocScope, a benchmark that formulates long-document QA as a structured reasoning trajectory prediction problem: given a complete PDF document and a question, the model outputs evidence pages, supporting evidence regions, relevant factual statements, and a final answer. We design a four-stage evaluation protocol -- Page Localization, Region Grounding, Fact Extraction, and Answer Verification -- that audits each level of the trajectory independently through inter-stage decoupling, with all judges selected and calibrated via human alignment studies. DocScope comprises 1,124 questions derived from 273 documents, with all hierarchical evidence annotations completed by human annotators. We benchmark 6 proprietary models, 12 open-weight models, and several domain-specific systems. Our experiments reveal that answer accuracy cannot substitute for trajectory-level evaluation: even among correct answers, the highest observed rate of complete evidence chains is only 29\\%. Across all models, region grounding remains the weakest trajectory stage. Furthermore, the primary difficulty stems from aggregating evidence dispersed across long distances and multiple document clusters, while an oracle study identifies faithful perception and fact extraction as the dominant capability bottleneck. Cross-architecture comparisons further suggest that activated parameter count matters more than total scale. The benchmark and code will be publicly released at https://github.com/MiliLab/DocScope.",
+      "published_utc": "2026-05-09T11:12:59Z",
+      "updated_utc": "2026-05-09T11:12:59Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.08888v1",
+      "abs_url": "http://arxiv.org/abs/2605.08888v1"
+    },
+    "2511.12878v4": {
+      "arxiv_id": "2511.12878v4",
+      "title": "Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views",
+      "authors": [
+        "Junyi Ma",
+        "Wentao Bao",
+        "Jingyi Xu",
+        "Guanzhong Sun",
+        "Yu Zheng",
+        "Erhang Zhang",
+        "Xieyuanli Chen",
+        "Hesheng Wang"
+      ],
+      "summary": "Forecasting how human hands move in egocentric views is critical for applications like augmented reality and human-robot policy transfer. Recently, several hand trajectory prediction (HTP) methods have been developed to generate future possible hand waypoints, which still suffer from insufficient prediction targets, inherent modality gaps, entangled hand-head motion, and limited validation in downstream tasks. To address these limitations, we present a universal hand motion forecasting framework considering multi-modal input, multi-dimensional and multi-target prediction patterns, and multi-task affordances for downstream applications. We harmonize multiple modalities by vision-language fusion, global context incorporation, and task-aware text embedding injection, to forecast hand waypoints in both 2D and 3D spaces. A novel dual-branch diffusion is proposed to concurrently predict human head and hand movements, capturing their motion synergy in egocentric vision. By introducing target indicators, the prediction model can forecast the specific joint waypoints of the wrist or the fingers, besides the widely studied hand center points. In addition, we enable Uni-Hand to additionally predict hand-object interaction states (contact/separation) to facilitate downstream tasks better. As the first work to incorporate downstream task evaluation in the literature, we build novel benchmarks to assess the real-world applicability of hand motion forecasting algorithms. The experimental results on multiple publicly available datasets and our newly proposed benchmarks demonstrate that Uni-Hand achieves the state-of-the-art performance in multi-dimensional and multi-target hand motion forecasting. Extensive validation in multiple downstream tasks also presents its impressive human-robot policy transfer to enable robotic manipulation, and effective feature enhancement for action anticipation/recognition.",
+      "published_utc": "2025-11-17T02:14:13Z",
+      "updated_utc": "2026-05-11T01:22:42Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2511.12878v4",
+      "abs_url": "http://arxiv.org/abs/2511.12878v4"
     }
   },
   "topics": {
@@ -14027,9 +14164,13 @@
         "2604.22875v2",
         "2604.27491v1",
         "2605.02759v1",
-        "2605.06863v1"
+        "2605.06863v1",
+        "2605.10376v1",
+        "2605.09112v1",
+        "2605.08830v1",
+        "2605.08572v1"
       ],
-      "latest_update": "2026-05-11"
+      "latest_update": "2026-05-12"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14321,9 +14462,10 @@
         "2603.02854v2",
         "2605.00059v1",
         "2605.02759v1",
-        "2604.17189v2"
+        "2604.17189v2",
+        "2605.10376v1"
       ],
-      "latest_update": "2026-05-07"
+      "latest_update": "2026-05-12"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14439,9 +14581,12 @@
         "2604.28173v1",
         "2604.21479v3",
         "2605.00362v1",
-        "2605.02784v1"
+        "2605.02784v1",
+        "2605.10376v1",
+        "2605.08830v1",
+        "2605.08572v1"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-12"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14552,9 +14697,13 @@
         "2604.23532v1",
         "2604.22973v1",
         "2605.00059v1",
-        "2605.02759v1"
+        "2605.02759v1",
+        "2605.10376v1",
+        "2605.08888v1",
+        "2605.08830v1",
+        "2605.08572v1"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-12"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14662,9 +14811,12 @@
         "2604.21479v3",
         "2605.02759v1",
         "2605.01393v1",
-        "2602.11183v2"
+        "2602.11183v2",
+        "2605.08830v1",
+        "2605.08572v1",
+        "2511.12878v4"
       ],
-      "latest_update": "2026-05-08"
+      "latest_update": "2026-05-12"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

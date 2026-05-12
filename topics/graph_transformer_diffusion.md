@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-11` (timezone: `Europe/Athens`)
+Updated: `2026-05-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **104**
+Total papers tracked: **107**
 
 ---
 
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
@@ -189,6 +195,9 @@ Total papers tracked: **104**
 - **Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views**  
   *Junyi Ma, Wentao Bao, Jingyi Xu, Guanzhong Sun, Yu Zheng, Erhang Zhang, Xieyuanli Chen, Hesheng Wang*  
   Published: `2025-11-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.12878v3) · [pdf](https://arxiv.org/pdf/2511.12878v3) · id: `2511.12878v3`
+- **Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views**  
+  *Junyi Ma, Wentao Bao, Jingyi Xu, Guanzhong Sun, Yu Zheng, Erhang Zhang, Xieyuanli Chen, Hesheng Wang*  
+  Published: `2025-11-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.12878v4) · [pdf](https://arxiv.org/pdf/2511.12878v4) · id: `2511.12878v4`
 - **SocialNav-Map: Dynamic Mapping with Human Trajectory Prediction for Zero-Shot Social Navigation**  
   *Lingfeng Zhang, Erjia Xiao, Xiaoshuai Hao, Haoxiang Fu, Zeying Gong, Long Chen, Xiaojun Liang, Renjing Xu et al.*  
   Published: `2025-11-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2511.12232v2) · [pdf](https://arxiv.org/pdf/2511.12232v2) · id: `2511.12232v2`

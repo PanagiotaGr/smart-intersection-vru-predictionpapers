@@ -1,11 +1,23 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-11` (timezone: `Europe/Athens`)
+Updated: `2026-05-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **178**
+Total papers tracked: **182**
 
 ---
 
+- **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
+  *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
+  Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
+- **Contextual Plackett-Luce: An Efficient Neural Model for Probabilistic Sequence Selection under Ambiguity**  
+  *Noam Mizrachi, Nadav Har-Tuv, Shai Shalev-Shwartz*  
+  Published: `2026-05-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.09112v1) · [pdf](https://arxiv.org/pdf/2605.09112v1) · id: `2605.09112v1`
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
 - **Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation**  
   *Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, Christoforos Mavrogiannis*  
   Published: `2026-05-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.06863v1) · [pdf](https://arxiv.org/pdf/2605.06863v1) · id: `2605.06863v1`
