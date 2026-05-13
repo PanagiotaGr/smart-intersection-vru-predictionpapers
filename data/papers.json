@@ -13797,6 +13797,46 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2511.12878v4",
       "abs_url": "http://arxiv.org/abs/2511.12878v4"
+    },
+    "2605.11463v1": {
+      "arxiv_id": "2605.11463v1",
+      "title": "Encore: Conditioning Trajectory Forecasting via Biased Ego Rehearsals",
+      "authors": [
+        "Conghao Wong",
+        "Ziqian Zou",
+        "Xinge You"
+      ],
+      "summary": "Learning and representing the subjectivities of agents has become a challenging but crucial problem in the trajectory prediction task. Such subjectivities not only present specific spatial or temporal structures, but also are anisotropic for all interaction participants. Despite great efforts, it remains difficult to explicitly learn and forecast these subjectivities, let alone further modulate models' predictions through a specific ego's subjectivity. Inspired by prefactual thoughts in psychology and relevant theatrical concepts, we interpret such subjectivities in future trajectories as the continuous process from rehearsal to encore. In the rehearsal phase, the proposed ego predictor focuses on how each ego agent learns to derive and direct a set of explicitly biased rehearsal trajectories for all participants in the scene from the short-term observations. Then, these rehearsal trajectories serve as immediate controls to condition final predictions, providing direct yet distinct ego biases for the prediction network to simulate agents' various subjectivities. Experiments across datasets not only demonstrate a consistent improvement in the performance of the proposed \\emph{Encore} trajectory prediction model but also provide clear interpretability regarding subjectivities as biased ego rehearsals.",
+      "published_utc": "2026-05-12T03:21:24Z",
+      "updated_utc": "2026-05-12T03:21:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.11463v1",
+      "abs_url": "http://arxiv.org/abs/2605.11463v1"
+    },
+    "2605.11385v1": {
+      "arxiv_id": "2605.11385v1",
+      "title": "JACoP: Joint Alignment for Compliant Multi-Agent Prediction",
+      "authors": [
+        "Qingze Liu",
+        "Alen Mrdovic",
+        "Danrui Li",
+        "Mathew Schwartz",
+        "Sejong Yoon",
+        "Mubbasir Kapadia"
+      ],
+      "summary": "Stochastic Human Trajectory Prediction (HTP) using generative modeling has emerged as a significant area of research. Although state-of-the-art models excel in optimizing the accuracy of individual agents, they often struggle to generate predictions that are collectively compliant, leading to output trajectories marred by social collisions and environmental violations, thus rendering them impractical for real-world applications. To bridge this gap, we present JACoP: Joint Alignment for Compliant Multi-Agent Prediction, an innovative multi-stage framework that ensures scene-level plausibility. JACoP incorporates an Anchor-Based Agent-Centric Profiler for effective initial compliance filtering and employs a Markov Random Field (MRF) based aligner to formalize the joint selection for scene predictions. By representing inter-agent spatial and social costs as MRF energy potentials, we successfully infer and sample from the joint trajectory distribution, achieving prediction with optimal scene compliance. Comprehensive experiments show that JACoP not only achieves competitive accuracy, but also sets a new standard in reducing both environmental violations and social collisions, thereby confirming its ability to produce collectively feasible and practically applicable trajectory predictions.",
+      "published_utc": "2026-05-12T01:15:22Z",
+      "updated_utc": "2026-05-12T01:15:22Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.11385v1",
+      "abs_url": "http://arxiv.org/abs/2605.11385v1"
     }
   },
   "topics": {
@@ -14168,9 +14208,11 @@
         "2605.10376v1",
         "2605.09112v1",
         "2605.08830v1",
-        "2605.08572v1"
+        "2605.08572v1",
+        "2605.11463v1",
+        "2605.11385v1"
       ],
-      "latest_update": "2026-05-12"
+      "latest_update": "2026-05-13"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14463,9 +14505,10 @@
         "2605.00059v1",
         "2605.02759v1",
         "2604.17189v2",
-        "2605.10376v1"
+        "2605.10376v1",
+        "2605.11385v1"
       ],
-      "latest_update": "2026-05-12"
+      "latest_update": "2026-05-13"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14584,9 +14627,11 @@
         "2605.02784v1",
         "2605.10376v1",
         "2605.08830v1",
-        "2605.08572v1"
+        "2605.08572v1",
+        "2605.11463v1",
+        "2605.11385v1"
       ],
-      "latest_update": "2026-05-12"
+      "latest_update": "2026-05-13"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14701,9 +14746,10 @@
         "2605.10376v1",
         "2605.08888v1",
         "2605.08830v1",
-        "2605.08572v1"
+        "2605.08572v1",
+        "2605.11385v1"
       ],
-      "latest_update": "2026-05-12"
+      "latest_update": "2026-05-13"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

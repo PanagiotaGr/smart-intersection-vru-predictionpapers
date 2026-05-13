@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-12` (timezone: `Europe/Athens`)
+Updated: `2026-05-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **182**
+Total papers tracked: **183**
 
 ---
 
+- **JACoP: Joint Alignment for Compliant Multi-Agent Prediction**  
+  *Qingze Liu, Alen Mrdovic, Danrui Li, Mathew Schwartz, Sejong Yoon, Mubbasir Kapadia*  
+  Published: `2026-05-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.11385v1) · [pdf](https://arxiv.org/pdf/2605.11385v1) · id: `2605.11385v1`
 - **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
   *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
   Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
