@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-05-13` (timezone: `Europe/Athens`)
+Updated: `2026-05-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **97**
+Total papers tracked: **98**
 
 ---
 
+- **HCSG: Human-Centric Semantic-Geometric Reasoning for Vision-Language Navigation**  
+  *Haoxuan Xu, Tianfu Li, Wenbo Chen, Yi Liu, Jin Wu, Huashuo Lei, Yunfan Lou, Lujia Wang et al.*  
+  Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13321v1) · [pdf](https://arxiv.org/pdf/2605.13321v1) · id: `2605.13321v1`
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`

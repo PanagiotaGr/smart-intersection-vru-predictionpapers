@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-13` (timezone: `Europe/Athens`)
+Updated: `2026-05-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **184**
+Total papers tracked: **186**
 
 ---
 
+- **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
+  *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
+  Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v1) · [pdf](https://arxiv.org/pdf/2605.13646v1) · id: `2605.13646v1`
+- **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
+  *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
+  Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
 - **Encore: Conditioning Trajectory Forecasting via Biased Ego Rehearsals**  
   *Conghao Wong, Ziqian Zou, Xinge You*  
   Published: `2026-05-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.11463v1) · [pdf](https://arxiv.org/pdf/2605.11463v1) · id: `2605.11463v1`

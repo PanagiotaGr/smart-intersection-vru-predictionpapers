@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-13` (timezone: `Europe/Athens`)
+Updated: `2026-05-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **112**
+Total papers tracked: **113**
 
 ---
 
+- **Bayesian Nonparametric Mixed-Effect ODEs with Gaussian Processes**  
+  *Julien Martinelli, Maksim Sinelnikov, Harri Lähdesmäki, Quentin Clairon, Mélanie Prague*  
+  Published: `2026-05-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.13088v1) · [pdf](https://arxiv.org/pdf/2605.13088v1) · id: `2605.13088v1`
 - **JACoP: Joint Alignment for Compliant Multi-Agent Prediction**  
   *Qingze Liu, Alen Mrdovic, Danrui Li, Mathew Schwartz, Sejong Yoon, Mubbasir Kapadia*  
   Published: `2026-05-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.11385v1) · [pdf](https://arxiv.org/pdf/2605.11385v1) · id: `2605.11385v1`
