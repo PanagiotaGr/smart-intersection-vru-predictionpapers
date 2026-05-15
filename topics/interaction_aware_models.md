@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-14` (timezone: `Europe/Athens`)
+Updated: `2026-05-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **186**
+Total papers tracked: **187**
 
 ---
 
+- **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
+  *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
+  Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
 - **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
   *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
   Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v1) · [pdf](https://arxiv.org/pdf/2605.13646v1) · id: `2605.13646v1`

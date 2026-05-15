@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-05-14` (timezone: `Europe/Athens`)
+Updated: `2026-05-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **27**
+Total papers tracked: **28**
 
 ---
 
+- **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
+  *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
+  Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
 - **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
   *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
   Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`

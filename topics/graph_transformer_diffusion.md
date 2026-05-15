@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-14` (timezone: `Europe/Athens`)
+Updated: `2026-05-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **107**
+Total papers tracked: **109**
 
 ---
 
+- **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
+  *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
+  Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
+- **DT-Transformer: A Foundation Model for Disease Trajectory Prediction on a Real-world Health System**  
+  *Yunying Zhu, Andrew R Weckstein, Kueiyu Joshua Lin, Jie Yang*  
+  Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14227v1) · [pdf](https://arxiv.org/pdf/2605.14227v1) · id: `2605.14227v1`
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`

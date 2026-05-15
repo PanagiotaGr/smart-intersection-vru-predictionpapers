@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-14` (timezone: `Europe/Athens`)
+Updated: `2026-05-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **183**
+Total papers tracked: **184**
 
 ---
 
+- **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
+  *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
+  Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
 - **JACoP: Joint Alignment for Compliant Multi-Agent Prediction**  
   *Qingze Liu, Alen Mrdovic, Danrui Li, Mathew Schwartz, Sejong Yoon, Mubbasir Kapadia*  
   Published: `2026-05-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.11385v1) · [pdf](https://arxiv.org/pdf/2605.11385v1) · id: `2605.11385v1`

@@ -13922,6 +13922,127 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.13321v1",
       "abs_url": "http://arxiv.org/abs/2605.13321v1"
+    },
+    "2605.14855v1": {
+      "arxiv_id": "2605.14855v1",
+      "title": "Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers",
+      "authors": [
+        "Lukas Schelenz",
+        "Shobha Rajanna",
+        "Denis Gosalci",
+        "Lucas Heublein",
+        "Jonas Pirkl",
+        "Jonathan Ott",
+        "Felix Ott",
+        "Christopher Mutschler",
+        "Tobias Feigl"
+      ],
+      "summary": "Forecasting within signal processing pipelines is crucial for mitigating delays, particularly in predicting the dynamic movements of objects such as NBA players. This task poses significant challenges due to the inherently interactive and unpredictable nature of sports, where abrupt changes in velocity and direction are prevalent. Traditional approaches, including (S)ARIMA(X), Kalman filters (KF), and Particle filters (PF), often struggle to model the non-linear dynamics present in such scenarios. Machine learning (ML) methods, such as long short-term memory (LSTM) networks, graph neural networks (GNNs), and Transformers, offer greater flexibility and accuracy but frequently fail to explicitly capture the interplay between temporal dependencies and contextual interactions, which are critical in chaotic sports environments. In this paper, we evaluate these models and assess their strengths and weaknesses. Experimental results reveal key performance trade-offs across input history length, generalizability, and the ability to incorporate contextual information. ML-based methods demonstrated substantial improvements over linear models across forecast horizons of up to 2s. Among the tested architectures, our hybrid LSTM augmented with contextual information achieved the lowest final displacement error (FDE) of 1.51m, outperforming temporal convolutional neural network (TCNN), graph attention network (GAT), and Transformers, while also requiring less data and training time compared to GAT and Transformers. Our findings indicate that no single architecture excels across all metrics, emphasizing the need for task-specific considerations in trajectory prediction for fast-paced, dynamic environments such as NBA gameplay.",
+      "published_utc": "2026-05-14T14:02:45Z",
+      "updated_utc": "2026-05-14T14:02:45Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SP"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.14855v1",
+      "abs_url": "http://arxiv.org/abs/2605.14855v1"
+    },
+    "2605.12743v1": {
+      "arxiv_id": "2605.12743v1",
+      "title": "Still Camouflage, Moving Illusion: View-Induced Trajectory Manipulation in Autonomous Driving",
+      "authors": [
+        "Shuo Ju",
+        "Qingzhao Zhang",
+        "Huashan Chen",
+        "Xuheng Wang",
+        "Haotang Li",
+        "Wanqian Zhang",
+        "Feng Liu",
+        "Kebin Peng",
+        "Sen He"
+      ],
+      "summary": "Existing physical adversarial attacks on vision-based autonomous driving induce time-evolving perception errors, including biased object tracking or trajectory prediction, through (i) sophisticated physical patch inducing detection box drift when entering the view distance, or (ii) dynamically changing patches that cause different perception errors at different time. In both cases, viewing-angle variation is treated as a challenge, requiring adversarial patches to remain effective across frames under varying views, leading to complex multi-view optimization. In contrast, we show that viewing-angle variation itself can be turned into an attack tool. We design a new attack paradigm where a static, passive adversarial camouflage is mounted on a vehicle whose view-dependent appearance naturally evolves with relative motion, inducing consistent feature drift across frames. This causes the system to infer a physically plausible but incorrect trajectory, such as a false cut-in, which propagates to downstream decision-making and triggers unnecessary braking. Unlike prior approaches that require multi-view robustness or active intervention, our attack emerges from normal driving dynamics and is easy to deploy: a parked vehicle with a natural camouflage can induce hard braking in passing autonomous vehicles. We demonstrate the novel attack on nuScenes dataset, showing the effectiveness with an end-to-end success rate of up to 87.5%, measured by hard-braking events, and robustness across different scene backgrounds, victim vehicle speeds, and perception models.",
+      "published_utc": "2026-05-12T20:47:55Z",
+      "updated_utc": "2026-05-12T20:47:55Z",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.12743v1",
+      "abs_url": "http://arxiv.org/abs/2605.12743v1"
+    },
+    "2605.08888v2": {
+      "arxiv_id": "2605.08888v2",
+      "title": "DocScope: Benchmarking Verifiable Reasoning for Trustworthy Long-Document Understanding",
+      "authors": [
+        "Xiang Feng",
+        "Jiawei Zhou",
+        "Zhangfeng Huang",
+        "Kewei Wang",
+        "Shanshan Ye",
+        "Jinxin Hu",
+        "Zulong Chen",
+        "Yong Luo",
+        "Jing Zhang"
+      ],
+      "summary": "Evaluating whether Multimodal Large Language Models can produce trustworthy, verifiable reasoning over long, visually rich documents requires evaluation beyond end-to-end answer accuracy. We introduce DocScope, a benchmark that formulates long-document QA as a structured reasoning trajectory prediction problem: given a complete PDF document and a question, the model outputs evidence pages, supporting evidence regions, relevant factual statements, and a final answer. We design a four-stage evaluation protocol -- Page Localization, Region Grounding, Fact Extraction, and Answer Verification -- that audits each level of the trajectory independently through inter-stage decoupling, with all judges selected and calibrated via human alignment studies. DocScope comprises 1,124 questions derived from 273 documents, with all hierarchical evidence annotations completed by human annotators. We benchmark 6 proprietary models, 12 open-weight models, and several domain-specific systems. Our experiments reveal that answer accuracy cannot substitute for trajectory-level evaluation: even among correct answers, the highest observed rate of complete evidence chains is only 29\\%. Across all models, region grounding remains the weakest trajectory stage. Furthermore, the primary difficulty stems from aggregating evidence dispersed across long distances and multiple document clusters, while an oracle study identifies faithful perception and fact extraction as the dominant capability bottleneck. Cross-architecture comparisons further suggest that activated parameter count matters more than total scale. The benchmark and code will be publicly released at https://github.com/MiliLab/DocScope.",
+      "published_utc": "2026-05-09T11:12:59Z",
+      "updated_utc": "2026-05-14T06:57:18Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.08888v2",
+      "abs_url": "http://arxiv.org/abs/2605.08888v2"
+    },
+    "2604.06757v2": {
+      "arxiv_id": "2604.06757v2",
+      "title": "FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching",
+      "authors": [
+        "Junchao Yi",
+        "Rui Zhao",
+        "Jiahao Tang",
+        "Weixian Lei",
+        "Linjie Li",
+        "Qisheng Su",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Xiaofeng Zhu",
+        "Alex Jinpeng Wang"
+      ],
+      "summary": "Multimodal generation has long been dominated by text-driven pipelines where language dictates vision but cannot reason or create within it. We challenge this paradigm by asking whether all modalities, including textual descriptions, spatial layouts, and editing instructions, can be unified into a single visual representation. We present FlowInOne, a framework that reformulates multimodal generation as a purely visual flow, converting all inputs into visual prompts and enabling a clean image-in, image-out pipeline governed by a single flow matching model. This vision-centric formulation naturally eliminates cross-modal alignment bottlenecks, noise scheduling, and task-specific architectural branches, unifying text-to-image generation, layout-guided editing, and visual instruction following under one coherent paradigm. To support this, we introduce VisPrompt-5M, a large-scale dataset of 5 million visual prompt pairs spanning diverse tasks including physics-aware force dynamics and trajectory prediction, alongside VP-Bench, a rigorously curated benchmark assessing instruction faithfulness, spatial precision, visual realism, and content consistency. Extensive experiments demonstrate that FlowInOne achieves state-of-the-art performance across all unified generation tasks, surpassing both open-source models and competitive commercial systems, establishing a new foundation for fully vision-centric generative modeling where perception and creation coexist within a single continuous visual space. Our code and models are released on https://csu-jpg.github.io/FlowInOne.github.io/",
+      "published_utc": "2026-04-08T07:22:08Z",
+      "updated_utc": "2026-05-14T12:44:36Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.06757v2",
+      "abs_url": "http://arxiv.org/abs/2604.06757v2"
+    },
+    "2605.14227v1": {
+      "arxiv_id": "2605.14227v1",
+      "title": "DT-Transformer: A Foundation Model for Disease Trajectory Prediction on a Real-world Health System",
+      "authors": [
+        "Yunying Zhu",
+        "Andrew R Weckstein",
+        "Kueiyu Joshua Lin",
+        "Jie Yang"
+      ],
+      "summary": "Accurate disease trajectory prediction is critical for early intervention, resource allocation, and improving long-term outcomes. While electronic health records (EHRs) provide a rich longitudinal view of patient health in clinical environments, models trained on curated research cohorts may not reflect routine deployment settings, and those trained on single-hospital datasets capture only fragments of each patient's trajectory. This highlights the importance of leveraging large, multi-hospital health systems for training and validation to better reflect real-world clinical complexity. In this work, we develop DT-Transformer, a foundation model trained on 57.1M structured EHR entries over 1.7M patients from Mass General Brigham (MGB), spanning 11 hospitals and a broad network of outpatient clinics. DT-Transformer achieves strong discrimination in both held-out and prospective validation settings. Next-event prediction achieves a median age- and sex-stratified AUC of 0.871 across 896 disease categories, with all categories exceeding AUC 0.5. These results support health system-scale training as a path toward foundation models suited to real-world clinical forecasting.",
+      "published_utc": "2026-05-14T00:45:04Z",
+      "updated_utc": "2026-05-14T00:45:04Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.14227v1",
+      "abs_url": "http://arxiv.org/abs/2605.14227v1"
     }
   },
   "topics": {
@@ -14297,9 +14418,10 @@
         "2605.11463v1",
         "2605.11385v1",
         "2605.13646v1",
-        "2605.13591v1"
+        "2605.13591v1",
+        "2605.14855v1"
       ],
-      "latest_update": "2026-05-14"
+      "latest_update": "2026-05-15"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14404,9 +14526,10 @@
         "2303.17717v1",
         "2303.14880v2",
         "2604.11406v2",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.13321v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-15"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -14593,9 +14716,10 @@
         "2605.02759v1",
         "2604.17189v2",
         "2605.10376v1",
-        "2605.11385v1"
+        "2605.11385v1",
+        "2605.13591v1"
       ],
-      "latest_update": "2026-05-13"
+      "latest_update": "2026-05-15"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -14716,9 +14840,13 @@
         "2605.08830v1",
         "2605.08572v1",
         "2605.11463v1",
-        "2605.11385v1"
+        "2605.11385v1",
+        "2605.14855v1",
+        "2605.13646v1",
+        "2605.13591v1",
+        "2605.12743v1"
       ],
-      "latest_update": "2026-05-13"
+      "latest_update": "2026-05-15"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -14835,9 +14963,11 @@
         "2605.08830v1",
         "2605.08572v1",
         "2605.11385v1",
-        "2605.13088v1"
+        "2605.13088v1",
+        "2605.08888v2",
+        "2604.06757v2"
       ],
-      "latest_update": "2026-05-14"
+      "latest_update": "2026-05-15"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -14948,9 +15078,11 @@
         "2602.11183v2",
         "2605.08830v1",
         "2605.08572v1",
-        "2511.12878v4"
+        "2511.12878v4",
+        "2605.14855v1",
+        "2605.14227v1"
       ],
-      "latest_update": "2026-05-12"
+      "latest_update": "2026-05-15"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -15156,9 +15288,10 @@
         "2604.23532v1",
         "2604.22852v1",
         "2604.26065v1",
-        "2603.25342v2"
+        "2603.25342v2",
+        "2605.14855v1"
       ],
-      "latest_update": "2026-04-30"
+      "latest_update": "2026-05-15"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

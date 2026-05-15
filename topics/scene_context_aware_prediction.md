@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-14` (timezone: `Europe/Athens`)
+Updated: `2026-05-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **117**
+Total papers tracked: **121**
 
 ---
 
+- **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
+  *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
+  Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
+- **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
+  *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
+  Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v1) · [pdf](https://arxiv.org/pdf/2605.13646v1) · id: `2605.13646v1`
+- **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
+  *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
+  Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
+- **Still Camouflage, Moving Illusion: View-Induced Trajectory Manipulation in Autonomous Driving**  
+  *Shuo Ju, Qingzhao Zhang, Huashan Chen, Xuheng Wang, Haotang Li, Wanqian Zhang, Feng Liu, Kebin Peng et al.*  
+  Published: `2026-05-12` · Category: `cs.CR` · [abs](http://arxiv.org/abs/2605.12743v1) · [pdf](https://arxiv.org/pdf/2605.12743v1) · id: `2605.12743v1`
 - **Encore: Conditioning Trajectory Forecasting via Biased Ego Rehearsals**  
   *Conghao Wong, Ziqian Zou, Xinge You*  
   Published: `2026-05-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.11463v1) · [pdf](https://arxiv.org/pdf/2605.11463v1) · id: `2605.11463v1`
