@@ -14043,6 +14043,45 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.14227v1",
       "abs_url": "http://arxiv.org/abs/2605.14227v1"
+    },
+    "2605.16115v1": {
+      "arxiv_id": "2605.16115v1",
+      "title": "Beyond Collision Avoidance: Multi-Robot Yielding and Spatial Affordance in Emergency Evacuations",
+      "authors": [
+        "Ning Zhou",
+        "Edmund R. Hunt",
+        "Nikolai W. F. Bode"
+      ],
+      "summary": "As mobile service robots increasingly coexist with pedestrians, ensuring passively safe behaviour during confined emergency evacuations is critical. Existing multi-robot yielding strategies often focus solely on collision avoidance and macroscopic flow optimisation, overlooking environmental affordances and human spatial expectations. To bridge the gap between macroscopic theory and micro-level perception, we conducted a game-based virtual evacuation experiment (N=56). We investigated individual psychological responses to four multi-robot yielding strategies (Hide, LineEscape, Freeze, ShortestPath) across confined corridors with and without refuge niches. Our results establish a robust preference hierarchy (Hide > LineEscape > Freeze > ShortestPath), demonstrating that proactive space-yielding significantly outperforms freezing and efficiency-first approaches. Crucially, we found that environmental affordances heavily shape cognitive expectations. Actively utilising available niches amplifies the psychological comfort of proactive yielding (Hide). Conversely, failing to use an obvious niche (e.g., executing LineEscape) may trigger Expectation Violation. This is reflected in a drastically increased perceived cognitive delay, despite objectively unimpeded trajectories. Furthermore, prior robot interaction experience helps users decode complex social intents. Ultimately, this research demonstrates that safe human-robot interaction during emergencies must evolve from pure trajectory optimisation to semantically aware navigation. Future work will extend this framework to investigate complex interactions between robot swarms and pedestrian crowds.",
+      "published_utc": "2026-05-15T16:00:31Z",
+      "updated_utc": "2026-05-15T16:00:31Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.16115v1",
+      "abs_url": "http://arxiv.org/abs/2605.16115v1"
+    },
+    "2604.15221v2": {
+      "arxiv_id": "2604.15221v2",
+      "title": "Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees",
+      "authors": [
+        "Jakob Thumm",
+        "Marian Frei",
+        "Tianle Ni",
+        "Matthias Althoff",
+        "Marco Pavone"
+      ],
+      "summary": "We propose a framework for vision-based human pose estimation and motion prediction that gives conformal prediction guarantees for certifiably safe human-robot collaboration. Our framework combines aleatoric uncertainty estimation with OOD detection for high probabilistic confidence. To integrate our pipeline in certifiable safety frameworks, we propose conformal prediction sets for human motion predictions with high, valid confidence. We evaluate our pipeline on recorded human motion data and a real-world human-robot collaboration setting.",
+      "published_utc": "2026-04-16T16:53:26Z",
+      "updated_utc": "2026-05-14T22:17:21Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.15221v2",
+      "abs_url": "http://arxiv.org/abs/2604.15221v2"
     }
   },
   "topics": {
@@ -14527,9 +14566,10 @@
         "2303.14880v2",
         "2604.11406v2",
         "2604.23728v1",
-        "2605.13321v1"
+        "2605.13321v1",
+        "2605.16115v1"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-18"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -14717,9 +14757,10 @@
         "2604.17189v2",
         "2605.10376v1",
         "2605.11385v1",
-        "2605.13591v1"
+        "2605.13591v1",
+        "2604.15221v2"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-18"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15511,9 +15552,10 @@
         "2604.11406v2",
         "2604.23728v1",
         "2605.02759v1",
-        "2605.13321v1"
+        "2605.13321v1",
+        "2605.16115v1"
       ],
-      "latest_update": "2026-05-14"
+      "latest_update": "2026-05-18"
     }
   }
 }
