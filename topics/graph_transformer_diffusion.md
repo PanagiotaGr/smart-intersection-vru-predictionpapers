@@ -1,11 +1,20 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **109**
+Total papers tracked: **113**
 
 ---
 
+- **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
+  *Yuzhou Liu, Cristina Olaverri-Monreal*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
+- **Hierarchical Two-Stage Framework for Environment-Aware Long-Horizon Vessel Trajectory Prediction**  
+  *Ganeshaaraj Gnanavel, Tharindu Fernando, Sridha Sridharan, Clinton Fookes*  
+  Published: `2026-05-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16442v1) · [pdf](https://arxiv.org/pdf/2605.16442v1) · id: `2605.16442v1`
+- **Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models**  
+  *Po-Chien Luan, Wuyang Li, Yang Gao, Alexandre Alahi*  
+  Published: `2026-05-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.15424v1) · [pdf](https://arxiv.org/pdf/2605.15424v1) · id: `2605.15424v1`
 - **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
   *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
   Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
@@ -21,6 +30,9 @@ Total papers tracked: **109**
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
 - **Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank**  
   *Abhishek Vivekanandan, Ahmed Abouelazm, J. Marius Zöllner*  
   Published: `2026-05-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.01393v1) · [pdf](https://arxiv.org/pdf/2605.01393v1) · id: `2605.01393v1`

@@ -14082,6 +14082,201 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.15221v2",
       "abs_url": "http://arxiv.org/abs/2604.15221v2"
+    },
+    "2605.16858v1": {
+      "arxiv_id": "2605.16858v1",
+      "title": "Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles",
+      "authors": [
+        "Aidana Baimbetova",
+        "Haruki Yonekura",
+        "Hamada Rizk",
+        "Hirozumi Yamaguchi"
+      ],
+      "summary": "Autonomous Vehicles (AVs) must make reliable decisions in dense urban environments where pedestrian behavior is variable, sometimes abnormal, and often unseen during training. Reinforcement learning (RL)-based AV control systems perform well in structured traffic but struggle to generalize to unpredictable pedestrian interactions and out-of-distribution scenarios. Their reliance on handcrafted rewards and opaque decisions further limits their suitability for safety-critical, pedestrian-rich environments. To address these limitations, we introduce a Large Language Model (LLM)-based decision-making framework for pedestrian-aware behavioral planning. The system converts structured scene observations into natural-language reasoning prompts, enabling the LLM to infer pedestrian intent, anticipate risk, and generate cautious tactical driving decisions. These decisions are executed by a motion planner that ensures smooth, kinematically feasible control. We evaluate the framework in SUMO across multiple pedestrian-interaction scenarios, including unexpected jaywalking, turn-back crossing, hesitation, and bidirectional crossing. In zero-shot evaluation, the LLM-based agent achieves a 68% collision-free success rate, substantially outperforming deep RL baselines (17.7%). With few-shot episodic memory in a single-pedestrian scenario, performance increases to 96.0%, exceeding a custom DQN controller (82.0%). Cross-behavior evaluation further shows that memory derived from turn-back interactions transfers to unseen hesitation and bidirectional crossing scenarios, achieving 82.0% and 90.0% success, respectively. The system consistently initiates earlier responses, maintains wider safety buffers, and produces interpretable, human-aligned decisions.",
+      "published_utc": "2026-05-16T07:41:42Z",
+      "updated_utc": "2026-05-16T07:41:42Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.16858v1",
+      "abs_url": "http://arxiv.org/abs/2605.16858v1"
+    },
+    "2605.18010v1": {
+      "arxiv_id": "2605.18010v1",
+      "title": "Functionalization via Structure Completion and Motion Rectification",
+      "authors": [
+        "Mingrui Zhao",
+        "Sai Raj Kishore Perla",
+        "Kai Wang",
+        "Sauradip Nag",
+        "Duc Anh Nguyen",
+        "Jiayi Peng",
+        "Ruiqi Wang",
+        "Angel X. Chang",
+        "Manolis Savva",
+        "Ali Mahdavi-Amiri",
+        "Hao Zhang"
+      ],
+      "summary": "Acquisition and creation of 3D assets have been largely view- or appearance-driven. As a result, existing digital 3D models often lack the requisite structural components to function as intended, such as joints, supports, interiors, or interaction elements. At the same time, even human-annotated motions are frequently error-prone, leading to physically implausible behavior. We introduce object functionalization, a novel task aimed at transforming visually plausible but non-functional 3D models into functional and physically operable ones. We formulate functionalization as a graph completion problem over a new functional graph representation, where labeled nodes represent object parts, labeled edges encode functional and contact relations, and movable nodes carry motion attributes, so that structural functional deficiencies manifest as missing nodes or incorrect edges. We develop a neural Graph Functionalizer (GraFu) to complete an incomplete graph representing a non-functional 3D object. The completed graph then drives a geometry realization stage that instantiates predicted connectors and structural elements in 3D, with the compelling side effect of rectifying erroneous human-annotated and predicted motions. To support training and evaluation, focusing on furniture as a rich and challenging target category, we introduce FurFun-233, a dataset of 233 paired non-functional and functionalized furniture models. On PartNet-Mobility (\"zero-shot\") and HSSD test sets, our method matches state-of-the-art methods in motion prediction accuracy while substantially improving functionality in terms of collision and connectivity.",
+      "published_utc": "2026-05-18T08:05:07Z",
+      "updated_utc": "2026-05-18T08:05:07Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.18010v1",
+      "abs_url": "http://arxiv.org/abs/2605.18010v1"
+    },
+    "2605.16442v1": {
+      "arxiv_id": "2605.16442v1",
+      "title": "Hierarchical Two-Stage Framework for Environment-Aware Long-Horizon Vessel Trajectory Prediction",
+      "authors": [
+        "Ganeshaaraj Gnanavel",
+        "Tharindu Fernando",
+        "Sridha Sridharan",
+        "Clinton Fookes"
+      ],
+      "summary": "Long-horizon vessel trajectory forecasting under real ocean conditions is critical for collision avoidance, traffic management, and route planning. However, achieving accurate predictions is challenging due to long-range temporal dependencies and dynamic environmental factors such as currents, wind, and waves. To address these issues, we propose a hierarchical two-stage framework that combines a coarse long-term predictor with a grid-aware short-term predictor through a hierarchical fusion mechanism. The short-term branch leverages a Spatio-Temporal Graph Transformer on discretized maritime cells to capture localized dynamics, while the long-term branch encodes overarching navigational intent. An integrated environmental module incorporates oceanographic parameters, including surface currents, wind vectors, and significant wave height, using cross-modal attention and feature-wise modulation for adaptive response to varying sea conditions. Additionally, a learnable Savitzky-Golay smoothing layer enhances temporal coherence in fused trajectories. We evaluate our approach on Australian Craft Tracking System (CTS) data from the North West region, aligned with Copernicus Marine Service products, using a 3-hour input and a 10-hour prediction horizon. Experimental results show that our framework outperforms the state-of-the-art by 25% in Average Displacement Error (ADE) and 17% in Final Displacement Error (FDE). Ablation studies further validate the contribution of each component.",
+      "published_utc": "2026-05-15T00:50:39Z",
+      "updated_utc": "2026-05-15T00:50:39Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.16442v1",
+      "abs_url": "http://arxiv.org/abs/2605.16442v1"
+    },
+    "2605.02759v2": {
+      "arxiv_id": "2605.02759v2",
+      "title": "DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation",
+      "authors": [
+        "Danil Tokhchukov",
+        "Veronika Morozova",
+        "Gonzalo Ferrer"
+      ],
+      "summary": "Traditional Simultaneous Localization and Mapping (SLAM) algorithms rely heavily on the static environment assumption, which severely limits their applicability in real-world spaces populated by moving entities, such as pedestrians. In this work, we propose DynoSLAM, a tightly-coupled Dynamic GraphSLAM architecture that integrates socially-aware Graph Neural Networks (GNNs) directly into the factor graph optimization. Unlike conventional approaches that use rigid constant-velocity heuristics or deterministic single-agent neural priors, our framework formulates pedestrian motion forecasting as a stochastic World Model. By utilizing Monte Carlo rollouts from a trained GNN, we capture the multimodal epistemic uncertainty of human interactions and embed it into the SLAM graph via a dynamic Mahalanobis distance factor. We demonstrate through extensive simulated experiments that this stochastic formulation not only maintains highly accurate retrospective tracking but also prevents the optimization failures caused by the deterministic \"argmax problem\". Ultimately, extracting the empirical mean and covariance matrices of future pedestrian states provides a mathematically rigorous, probabilistic safety envelope for downstream local planners, enabling anticipatory and collision-free robot navigation in densely crowded environments.",
+      "published_utc": "2026-05-04T15:58:08Z",
+      "updated_utc": "2026-05-16T23:09:41Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.02759v2",
+      "abs_url": "http://arxiv.org/abs/2605.02759v2"
+    },
+    "2605.18449v1": {
+      "arxiv_id": "2605.18449v1",
+      "title": "Modelling Customer Trajectories with Reinforcement Learning for Practical Retail Insights",
+      "authors": [
+        "Ken Ming Lee",
+        "Paul Barde",
+        "Maxime C. Cohen",
+        "Derek Nowrouzezahrai"
+      ],
+      "summary": "Understanding customer movement within retail spaces is essential for optimizing store layouts. Real-world trajectory data can provide highly accurate insights, but collecting it is costly and often infeasible for many retailers. Heuristics such as Travelling Salesman Problem (TSP) and Probabilistic Nearest Neighbours (PNN) are commonly used as inexpensive approximations, but actual customer trajectories deviate by an average of 28% from shortest paths, highlighting a tradeoff between accuracy and practicality. We propose an agent-based modelling framework that casts customer trajectory prediction as a maximum entropy reinforcement learning (RL) problem, balancing reward maximization with stochasticity to better reflect customers with bounded rationality. Using real-world trajectory data from a convenience store, we show that RL-generated trajectories align more closely with customer behaviour than TSP and PNN, providing more accurate estimates of impulse purchase rates and shelf traffic densities. Furthermore, only RL-based predictions yield repositioning decisions for impulse products that align with those derived from actual trajectory data, resulting in comparable estimated profit gains. Our work demonstrates that RL provides a practical, behaviourally grounded alternative that bridges the gap between oversimplified heuristics and data-intensive approaches, making accurate layout optimization more accessible. To encourage further research, the source code is available on GitHub.",
+      "published_utc": "2026-05-18T14:17:51Z",
+      "updated_utc": "2026-05-18T14:17:51Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.18449v1",
+      "abs_url": "http://arxiv.org/abs/2605.18449v1"
+    },
+    "2605.18262v1": {
+      "arxiv_id": "2605.18262v1",
+      "title": "On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data",
+      "authors": [
+        "Yuzhou Liu",
+        "Cristina Olaverri-Monreal"
+      ],
+      "summary": "Accurate pedestrian trajectory prediction is crucial for autonomous systems operating in complex environments, such as modular buses and delivery robots in suburban or semi-structured areas. Social Spatio-Temporal Graph Convolutional Neural Networks (Social-STGCNN) have shown strong performance by modeling social interactions; however, producing diverse and well-calibrated future trajectories remains challenging. In this work, we build on a Social-STGCNN backbone and introduce a Conditional Variational Autoencoder (CVAE)-based probabilistic formulation to explicitly model multimodal future trajectories. We evaluate the method on the ETH and UCY pedestrian trajectory datasets as well as on a real-world pedestrian dataset collected by a mobile robot. Results show moderate gains on public benchmarks, but more consistent endpoint accuracy and improved trajectory diversity across different crowd configurations. Evaluation on robot-collected data further demonstrates the approach's effectiveness beyond curated benchmarks and supports its applicability in practical deployments.",
+      "published_utc": "2026-05-18T11:59:52Z",
+      "updated_utc": "2026-05-18T11:59:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.18262v1",
+      "abs_url": "http://arxiv.org/abs/2605.18262v1"
+    },
+    "2603.26720v2": {
+      "arxiv_id": "2603.26720v2",
+      "title": "SutureFormer: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space",
+      "authors": [
+        "Huanrong Liu",
+        "Chunlin Tian",
+        "Tongyu Jia",
+        "Tailai Zhou",
+        "Qin Liu",
+        "Yu Gao",
+        "Yutong Ban",
+        "Yun Gu",
+        "Guy Rosman",
+        "Xin Ma",
+        "Qingbiao Li"
+      ],
+      "summary": "Predicting surgical needle trajectories from endoscopic video is critical for robot-assisted suturing, enabling anticipatory planning, real-time guidance, and safer motion execution. Existing methods that directly learn motion distributions from visual observations tend to overlook the sequential dependency among adjacent motion steps. Moreover, sparse waypoint annotations often fail to provide sufficient supervision, further increasing the difficulty of supervised or imitation learning methods. To address these challenges, we formulate image-based needle trajectory prediction as a sequential decision-making problem, in which the needle tip is treated as an agent that moves step by step in pixel space. This formulation naturally captures the continuity of needle motion and enables the explicit modeling of physically plausible pixel-wise state transitions over time. From this perspective, we propose SutureFormer, a goal-conditioned offline reinforcement learning framework that leverages sparse annotations to dense reward signals via cubic spline interpolation, encouraging the policy to exploit limited expert guidance while exploring plausible future motion paths. SutureFormer encodes variable-length clips using an observation encoder to capture both local spatial cues and long-range temporal dynamics, and autoregressively predicts future waypoints through actions composed of discrete directions and continuous magnitudes. To enable stable offline policy optimization from expert demonstrations, we adopt Conservative Q-Learning with Behavioral Cloning regularization. Experiments on a new kidney wound suturing dataset containing 1,158 trajectories from 50 patients show that SutureFormer reduces Average Displacement Error by 58.6% compared with the strongest baseline, demonstrating the effectiveness of modeling needle trajectory prediction as pixel-level sequential action learning.",
+      "published_utc": "2026-03-19T01:36:07Z",
+      "updated_utc": "2026-05-18T17:07:27Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.26720v2",
+      "abs_url": "http://arxiv.org/abs/2603.26720v2"
+    },
+    "2605.15424v1": {
+      "arxiv_id": "2605.15424v1",
+      "title": "Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models",
+      "authors": [
+        "Po-Chien Luan",
+        "Wuyang Li",
+        "Yang Gao",
+        "Alexandre Alahi"
+      ],
+      "summary": "Human trajectory forecasting is crucial for safe navigation in crowded environments, requiring models that balance accuracy with computational efficiency. Efficiently modeling social interactions is key to performance in dense crowds. Yet, most recent methods rely on attention mechanisms, which are effective at capturing complex dependencies, but incur quadratic computational costs that scale poorly with the growing number of neighbors. Recently, Selective State-Space Models have provided a linear-time alternative; however, their inherently sequential design is misaligned with the unstructured and dynamic nature of social interactions. To address this challenge, we propose Social-Mamba, a forecasting architecture that reformulates social interactions as structured sequential processes. At its core is the Cycle Mamba block, a novel module that enables continuous bidirectional information flow. Social-Mamba organizes agents on an egocentric grid and introduces social triplet factorization, which decomposes interactions into temporal, egocentric, and goal-centric scans. These are dynamically integrated through a learnable social gate and global scan to generate accurate and efficient trajectory predictions. Extensive experiments on five trajectory forecasting benchmarks show that Social-Mamba achieves state-of-the-art accuracy while offering superior parameter efficiency and computational scalability. Furthermore, embedding Social-Mamba into a flow-matching framework further enhances both accuracy and efficiency, establishing it as a flexible and robust foundation for future trajectory forecasting research. The code is publicly available: https://github.com/vita-epfl/Social-Mamba",
+      "published_utc": "2026-05-14T21:16:01Z",
+      "updated_utc": "2026-05-14T21:16:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.15424v1",
+      "abs_url": "http://arxiv.org/abs/2605.15424v1"
+    },
+    "2605.18074v1": {
+      "arxiv_id": "2605.18074v1",
+      "title": "4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving",
+      "authors": [
+        "Kane Qian",
+        "Xin Zhao",
+        "Yining Shi",
+        "Rujun Yan",
+        "Zhengqing Pan",
+        "Kaojin Zhu",
+        "Mengmeng Yang",
+        "Kai Sun",
+        "Diange Yang",
+        "Kun Jiang"
+      ],
+      "summary": "We present 4DLidarOpen, a large-scale open multi-modal dataset for autonomous driving, centered on 4D frequency-modulated continuous-wave (FMCW) Lidar sensing. Unlike conventional time-of-flight Lidar datasets that mainly provide geometric measurements, 4DLidarOpen includes point-wise radial velocity measurements from a forward-facing 4D FMCW Lidar, together with multiple Lidars of different types, including rotating, solid-state, and blind-spot variants, surround-view cameras, and 6-DOF ego-vehicle poses. The dataset was collected in complex urban environments in Beijing and covers dense pedestrian interactions, congested traffic, high-speed driving, and unprotected maneuvers. 4DLidarOpen provides synchronized multi-sensor data and 3D bounding-box annotations with persistent track IDs across five object categories. A hybrid annotation strategy is adopted, where large-scale auto-labeled data support scalable training and human experts refine annotations for the human-annotated training and validation sets. Based on this dataset, we establish benchmarks for 3D object detection, birds-eye view (BEV) segmentation and flow prediction, and motion forecasting with planning. Extensive experiments show that direct velocity measurements from 4D FMCW Lidar provide complementary motion cues for dynamic-scene understanding. Compared with geometric-only sensing, the velocity-aware representation improves motion-related perception and downstream forecasting and planning, especially in scenarios involving vulnerable road users and fast-moving objects. These results indicate that 4D FMCW Lidar is a promising sensing modality for motion-aware autonomous driving. The dataset and evaluation toolkit are publicly released to support research on 4D scene understanding, multi-Lidar fusion, and velocity-aware perception and planning.",
+      "published_utc": "2026-05-18T08:55:32Z",
+      "updated_utc": "2026-05-18T08:55:32Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.18074v1",
+      "abs_url": "http://arxiv.org/abs/2605.18074v1"
     }
   },
   "topics": {
@@ -14567,9 +14762,10 @@
         "2604.11406v2",
         "2604.23728v1",
         "2605.13321v1",
-        "2605.16115v1"
+        "2605.16115v1",
+        "2605.16858v1"
       ],
-      "latest_update": "2026-05-18"
+      "latest_update": "2026-05-19"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -14758,9 +14954,12 @@
         "2605.10376v1",
         "2605.11385v1",
         "2605.13591v1",
-        "2604.15221v2"
+        "2604.15221v2",
+        "2605.18010v1",
+        "2605.16442v1",
+        "2605.02759v2"
       ],
-      "latest_update": "2026-05-18"
+      "latest_update": "2026-05-19"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15006,9 +15205,13 @@
         "2605.11385v1",
         "2605.13088v1",
         "2605.08888v2",
-        "2604.06757v2"
+        "2604.06757v2",
+        "2605.18449v1",
+        "2605.18262v1",
+        "2605.02759v2",
+        "2603.26720v2"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-19"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -15121,9 +15324,13 @@
         "2605.08572v1",
         "2511.12878v4",
         "2605.14855v1",
-        "2605.14227v1"
+        "2605.14227v1",
+        "2605.18262v1",
+        "2605.16442v1",
+        "2605.15424v1",
+        "2605.02759v2"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-19"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -15235,9 +15442,10 @@
         "2104.03086v1",
         "2103.14107v3",
         "2103.14023v3",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.18074v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-19"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -15296,9 +15504,10 @@
         "2304.00206v3",
         "2303.17717v1",
         "2604.23728v1",
-        "2605.01485v1"
+        "2605.01485v1",
+        "2605.16858v1"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-19"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -15448,9 +15657,11 @@
         "2308.05194v3",
         "2307.13924v1",
         "2307.09306v1",
-        "2604.23728v1"
+        "2604.23728v1",
+        "2605.18262v1",
+        "2605.18074v1"
       ],
-      "latest_update": "2026-04-28"
+      "latest_update": "2026-05-19"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -15553,9 +15764,13 @@
         "2604.23728v1",
         "2605.02759v1",
         "2605.13321v1",
-        "2605.16115v1"
+        "2605.16115v1",
+        "2605.18262v1",
+        "2605.18074v1",
+        "2605.16858v1",
+        "2605.02759v2"
       ],
-      "latest_update": "2026-05-18"
+      "latest_update": "2026-05-19"
     }
   }
 }

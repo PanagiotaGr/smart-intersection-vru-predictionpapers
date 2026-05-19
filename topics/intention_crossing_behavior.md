@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **103**
+Total papers tracked: **104**
 
 ---
 
+- **Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles**  
+  *Aidana Baimbetova, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi*  
+  Published: `2026-05-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16858v1) · [pdf](https://arxiv.org/pdf/2605.16858v1) · id: `2605.16858v1`
 - **Beyond Collision Avoidance: Multi-Robot Yielding and Spatial Affordance in Emergency Evacuations**  
   *Ning Zhou, Edmund R. Hunt, Nikolai W. F. Bode*  
   Published: `2026-05-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16115v1) · [pdf](https://arxiv.org/pdf/2605.16115v1) · id: `2605.16115v1`

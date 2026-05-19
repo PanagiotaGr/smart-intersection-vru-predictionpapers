@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **185**
+Total papers tracked: **188**
 
 ---
 
+- **Functionalization via Structure Completion and Motion Rectification**  
+  *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v1) · [pdf](https://arxiv.org/pdf/2605.18010v1) · id: `2605.18010v1`
+- **Hierarchical Two-Stage Framework for Environment-Aware Long-Horizon Vessel Trajectory Prediction**  
+  *Ganeshaaraj Gnanavel, Tharindu Fernando, Sridha Sridharan, Clinton Fookes*  
+  Published: `2026-05-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16442v1) · [pdf](https://arxiv.org/pdf/2605.16442v1) · id: `2605.16442v1`
 - **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
   *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
   Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
@@ -18,6 +24,9 @@ Total papers tracked: **185**
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
 - **Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction**  
   *Wentao Chen, Jingtang Chen, Mingjian Fu, Tiantian Li, Youfeng Su, Wenxi Liu, Yuanlong Yu*  
   Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.00059v1) · [pdf](https://arxiv.org/pdf/2605.00059v1) · id: `2605.00059v1`

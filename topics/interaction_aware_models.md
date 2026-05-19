@@ -1,6 +1,6 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
 Total papers tracked: **187**
 

@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **55**
+Total papers tracked: **56**
 
 ---
 
+- **Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles**  
+  *Aidana Baimbetova, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi*  
+  Published: `2026-05-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16858v1) · [pdf](https://arxiv.org/pdf/2605.16858v1) · id: `2605.16858v1`
 - **Cut-In Gap Acceptance Toward Autonomous vs. Human-Driven Vehicles: Evidence from the Waymo Open Motion Dataset**  
   *Abdulaziz Alhuraish, Yuhang Wang, Hao Zhou*  
   Published: `2026-05-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.01485v1) · [pdf](https://arxiv.org/pdf/2605.01485v1) · id: `2605.01485v1`

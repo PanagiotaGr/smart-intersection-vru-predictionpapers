@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-18` (timezone: `Europe/Athens`)
+Updated: `2026-05-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **115**
+Total papers tracked: **119**
 
 ---
 
+- **Modelling Customer Trajectories with Reinforcement Learning for Practical Retail Insights**  
+  *Ken Ming Lee, Paul Barde, Maxime C. Cohen, Derek Nowrouzezahrai*  
+  Published: `2026-05-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.18449v1) · [pdf](https://arxiv.org/pdf/2605.18449v1) · id: `2605.18449v1`
+- **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
+  *Yuzhou Liu, Cristina Olaverri-Monreal*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
 - **Bayesian Nonparametric Mixed-Effect ODEs with Gaussian Processes**  
   *Julien Martinelli, Maksim Sinelnikov, Harri Lähdesmäki, Quentin Clairon, Mélanie Prague*  
   Published: `2026-05-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.13088v1) · [pdf](https://arxiv.org/pdf/2605.13088v1) · id: `2605.13088v1`
@@ -30,6 +36,9 @@ Total papers tracked: **115**
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
 - **Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction**  
   *Wentao Chen, Jingtang Chen, Mingjian Fu, Tiantian Li, Youfeng Su, Wenxi Liu, Yuanlong Yu*  
   Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.00059v1) · [pdf](https://arxiv.org/pdf/2605.00059v1) · id: `2605.00059v1`
@@ -87,6 +96,9 @@ Total papers tracked: **115**
 - **SutureAgent: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
   *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
   Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v1) · [pdf](https://arxiv.org/pdf/2603.26720v1) · id: `2603.26720v1`
+- **SutureFormer: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
+  *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
+  Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v2) · [pdf](https://arxiv.org/pdf/2603.26720v2) · id: `2603.26720v2`
 - **Real-Time Online Learning for Model Predictive Control using a Spatio-Temporal Gaussian Process Approximation**  
   *Lars Bartels, Amon Lahr, Andrea Carron, Melanie N. Zeilinger*  
   Published: `2026-03-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2603.17632v1) · [pdf](https://arxiv.org/pdf/2603.17632v1) · id: `2603.17632v1`
