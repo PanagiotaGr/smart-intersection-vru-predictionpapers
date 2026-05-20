@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-19` (timezone: `Europe/Athens`)
+Updated: `2026-05-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **113**
+Total papers tracked: **114**
 
 ---
 
@@ -24,6 +24,9 @@ Total papers tracked: **113**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
