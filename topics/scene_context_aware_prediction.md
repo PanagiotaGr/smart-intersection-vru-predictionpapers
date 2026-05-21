@@ -1,17 +1,26 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **121**
+Total papers tracked: **125**
 
 ---
 
+- **Spatially Prompted Visual Trajectory Prediction for Egocentric Manipulation**  
+  *Yifan Li, Xinyu Zhou, Yunhao Ge, Yu Kong*  
+  Published: `2026-05-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.20085v1) · [pdf](https://arxiv.org/pdf/2605.20085v1) · id: `2605.20085v1`
+- **EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction**  
+  *Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao, Christian Claudel*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.19004v1) · [pdf](https://arxiv.org/pdf/2605.19004v1) · id: `2605.19004v1`
 - **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
   *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
   Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
 - **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
   *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
   Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v1) · [pdf](https://arxiv.org/pdf/2605.13646v1) · id: `2605.13646v1`
+- **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
+  *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
+  Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v2) · [pdf](https://arxiv.org/pdf/2605.13646v2) · id: `2605.13646v2`
 - **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
   *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
   Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
@@ -30,6 +39,9 @@ Total papers tracked: **121**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`

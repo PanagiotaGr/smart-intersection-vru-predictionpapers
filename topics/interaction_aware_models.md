@@ -1,17 +1,32 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **187**
+Total papers tracked: **194**
 
 ---
 
+- **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
+  *Yuzhou Liu, Cristina Olaverri-Monreal*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
+- **4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving**  
+  *Kane Qian, Xin Zhao, Yining Shi, Rujun Yan, Zhengqing Pan, Kaojin Zhu, Mengmeng Yang, Kai Sun et al.*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18074v1) · [pdf](https://arxiv.org/pdf/2605.18074v1) · id: `2605.18074v1`
+- **Functionalization via Structure Completion and Motion Rectification**  
+  *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v1) · [pdf](https://arxiv.org/pdf/2605.18010v1) · id: `2605.18010v1`
+- **Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models**  
+  *Po-Chien Luan, Wuyang Li, Yang Gao, Alexandre Alahi*  
+  Published: `2026-05-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.15424v1) · [pdf](https://arxiv.org/pdf/2605.15424v1) · id: `2605.15424v1`
 - **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
   *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
   Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`
 - **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
   *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
   Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v1) · [pdf](https://arxiv.org/pdf/2605.13646v1) · id: `2605.13646v1`
+- **Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling**  
+  *Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee*  
+  Published: `2026-05-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.13646v2) · [pdf](https://arxiv.org/pdf/2605.13646v2) · id: `2605.13646v2`
 - **Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes**  
   *Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke*  
   Published: `2026-05-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.13591v1) · [pdf](https://arxiv.org/pdf/2605.13591v1) · id: `2605.13591v1`
@@ -30,6 +45,9 @@ Total papers tracked: **187**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
@@ -39,6 +57,9 @@ Total papers tracked: **187**
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
 - **Uni-HOI:A Unified framework for Learning the Joint distribution of Text and Human-Object Interaction**  
   *Mengfei Zhang, Jinlu Zhang, Zhigang Tu*  
   Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.27491v1) · [pdf](https://arxiv.org/pdf/2604.27491v1) · id: `2604.27491v1`

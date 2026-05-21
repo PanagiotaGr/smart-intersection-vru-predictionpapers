@@ -1,14 +1,23 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **129**
+Total papers tracked: **132**
 
 ---
 
+- **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
+  *Yuzhou Liu, Cristina Olaverri-Monreal*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
+- **4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving**  
+  *Kane Qian, Xin Zhao, Yining Shi, Rujun Yan, Zhengqing Pan, Kaojin Zhu, Mengmeng Yang, Kai Sun et al.*  
+  Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18074v1) · [pdf](https://arxiv.org/pdf/2605.18074v1) · id: `2605.18074v1`
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v1) · [pdf](https://arxiv.org/pdf/2605.02759v1) · id: `2605.02759v1`
+- **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
+  *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
+  Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`

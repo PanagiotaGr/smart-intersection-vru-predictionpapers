@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **188**
+Total papers tracked: **189**
 
 ---
 
+- **Probabilistic Recursively Feasible Motion Planning Under Uncertain Environments**  
+  *Hyeontae Sung, Hyeongchan Ham, Junyoung Park, Kai Ren, Heejin Ahn*  
+  Published: `2026-05-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2605.19015v1) · [pdf](https://arxiv.org/pdf/2605.19015v1) · id: `2605.19015v1`
 - **Functionalization via Structure Completion and Motion Rectification**  
   *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
   Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v1) · [pdf](https://arxiv.org/pdf/2605.18010v1) · id: `2605.18010v1`

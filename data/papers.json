@@ -14299,6 +14299,113 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.08830v2",
       "abs_url": "http://arxiv.org/abs/2605.08830v2"
+    },
+    "2605.13646v2": {
+      "arxiv_id": "2605.13646v2",
+      "title": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+      "authors": [
+        "Seokha Moon",
+        "Minseung Lee",
+        "Joon Seo",
+        "Jinkyu Kim",
+        "Jungbeom Lee"
+      ],
+      "summary": "End-to-end autonomous driving, which bypasses traditional modular pipelines by directly predicting future trajectories from sensor inputs, has recently achieved substantial progress. However, existing methods often overlook the causal inter-dependencies in ego-vehicle planning, ignoring the reciprocal relations between the ego vehicle and surrounding agents. This causal oversight leads to inconsistent and unreliable trajectory predictions, especially in interaction-critical scenarios where ego decisions and neighboring agent behaviors must be reasoned about jointly. To address this limitation, we propose CaAD, a Causality-aware end-to-end Autonomous Driving framework that captures these dependencies within a shared latent scene representation. First, we propose an ego-centric joint-causal modeling module that builds on the marginal prediction branch, and learns causal dependencies between the ego vehicle and interaction-relevant agents. Second, we employ a causality-aware policy alignment stage implemented with joint-mode embeddings to align the stochastic ego policy with planning-oriented closed-loop feedback computed from surrounding traffic and map context. On the Bench2Drive and NAVSIM benchmarks, CaAD demonstrates strong closed-loop planning performance, achieving a Driving Score of 87.53 and Success Rate of 71.81 on Bench2Drive, and a PDMS of 91.1 on NAVSIM. The project page is available at https://moonseokha.github.io/CaAD/.",
+      "published_utc": "2026-05-13T15:06:22Z",
+      "updated_utc": "2026-05-19T11:58:26Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.13646v2",
+      "abs_url": "http://arxiv.org/abs/2605.13646v2"
+    },
+    "2605.20255v1": {
+      "arxiv_id": "2605.20255v1",
+      "title": "Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty",
+      "authors": [
+        "Prakash Aryan",
+        "Kaushik Raghupathruni",
+        "Timo Kehrer",
+        "Sebastiano Panichella"
+      ],
+      "summary": "Simulation-based testing of self-driving cars (SDCs) typically relies on scripted or simplified pedestrian models that do not capture the heterogeneity and uncertainty of real human crossing behavior. This limits the realism of safety assessments, especially in scenarios involving jaywalking, which is governed by latent personality traits that the vehicle cannot observe. We hypothesize that jointly training pedestrians and the SDC with multi-agent reinforcement learning (MARL) produces more realistic interaction scenarios than training the SDC against fixed pedestrian policies, and that the resulting behavior gap between predictable and unpredictable crossings can be measured directly from trajectories. This paper describes a MARL environment in which an SDC and 12 pedestrians are co-trained using Multi-Agent Proximal Policy Optimization (MAPPO). Pedestrian locomotion follows scripted Dijkstra pathfinding, while an RL policy controls high-level go/wait decisions. Jaywalking probability depends on a per-pedestrian personality trait sampled at episode start and hidden from the SDC. In 500-episode evaluations, the co-trained SDC reached 78% of goals with a 14% collision rate, compared to 35% goals and 33% collisions for the best rule-based baseline. A speed differential metric shows that the SDC traveled 2.65 m/s faster near jaywalkers than near crosswalk users at close range (0-3 m), indicating that jaywalking encounters were not anticipated. Jaywalking accounted for 13% of crossing events but was associated with 62% of collisions. Co-training with MARL pedestrians reduced collisions by 30% relative to single-agent RL, as pedestrians learned to wait when the SDC approached at speed.",
+      "published_utc": "2026-05-18T12:02:41Z",
+      "updated_utc": "2026-05-18T12:02:41Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.20255v1",
+      "abs_url": "http://arxiv.org/abs/2605.20255v1"
+    },
+    "2605.19015v1": {
+      "arxiv_id": "2605.19015v1",
+      "title": "Probabilistic Recursively Feasible Motion Planning Under Uncertain Environments",
+      "authors": [
+        "Hyeontae Sung",
+        "Hyeongchan Ham",
+        "Junyoung Park",
+        "Kai Ren",
+        "Heejin Ahn"
+      ],
+      "summary": "Safe motion planning in uncertain, time-varying environments is challenging because the safe region can change unpredictably across planning steps, often causing a loss of recursive feasibility. In this work, we present a Probabilistic Recursively Feasible Model Predictive Control (PRF-MPC) framework that guarantees recursive feasibility with a specified probability. We introduce properties that an ideal predictor should satisfy to ensure distributional consistency, and use these properties to derive closed-form expressions for the means and covariances of trajectories predicted at future time steps. Building on this analysis, we construct safety constraints that ensure, with high probability, that the current safe set is contained within the safe sets at future time steps, thereby probabilistically guaranteeing recursive feasibility. Simulation results on a lane-change scenario demonstrate that the proposed method significantly improves recursive feasibility.",
+      "published_utc": "2026-05-18T18:35:37Z",
+      "updated_utc": "2026-05-18T18:35:37Z",
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.19015v1",
+      "abs_url": "http://arxiv.org/abs/2605.19015v1"
+    },
+    "2605.20085v1": {
+      "arxiv_id": "2605.20085v1",
+      "title": "Spatially Prompted Visual Trajectory Prediction for Egocentric Manipulation",
+      "authors": [
+        "Yifan Li",
+        "Xinyu Zhou",
+        "Yunhao Ge",
+        "Yu Kong"
+      ],
+      "summary": "Robotic manipulation is often specified through language instructions or task identifiers, yet cluttered environments with similar objects are better handled by spatially indicating what to move and where to place it. Addressing the vision-centric challenge of object and goal specification, we present, to the best of our knowledge, the first formalization of Spatially Prompted Visual Trajectory Prediction (SP-VTP). This novel setting utilizes initial spatial prompts (like bounding boxes or points) to define task objectives, tasking the model with forecasting future end-effector trajectories from egocentric streams. To study this problem, we collect and annotate EgoSPT, a dataset of egocentric spatially prompted manipulation trajectories with first-frame object and target grounding annotations and recovered 3D end-effector motion. SP-VTP is challenging because the task specification is static, while the scene configuration evolves over time. To solve this problem, we propose SPOT(Spatially Prompted Object-Target Policy), which combines a task encoder for first-frame visual and coordinate spatial prompts, an observation encoder for current visual and history context, and a trajectory generator for future end-effector motion. Experiments under strict scene-level splits show that SPOT improves cross-scene trajectory prediction over non-prompted or single-source prompted baselines. Together, EgoSPT and SPOT establish a new spatial prompting problem SP-VTP, as a simple and scalable task condition for egocentric manipulation.",
+      "published_utc": "2026-05-19T16:39:30Z",
+      "updated_utc": "2026-05-19T16:39:30Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.20085v1",
+      "abs_url": "http://arxiv.org/abs/2605.20085v1"
+    },
+    "2605.19004v1": {
+      "arxiv_id": "2605.19004v1",
+      "title": "EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction",
+      "authors": [
+        "Ahmad Yehia",
+        "Abduallah Mohamed",
+        "Tianyi Wang",
+        "Jiseop Byeon",
+        "Kun Qian",
+        "Junfeng Jiao",
+        "Christian Claudel"
+      ],
+      "summary": "Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments. Addressing this need, we introduce EgoTraj, an egocentric multimodal open dataset recorded using Meta Quest Pro (MQPro). EgoTraj contains 75 sequences of human navigation collected from multiple MQPro wearers in real-world urban environments. Each recording provides synchronized RGB video along with ground-truth data, including continuous time-synchronized 6-degree-of-freedom head poses, per-frame 3D eye gaze vectors, scene annotations. To the best of our knowledge, EgoTraj differs from typical egocentric trajectory datasets by capturing long-horizon, self-directed navigation across diverse urban routes with broad participant diversity. To demonstrate the potential of the dataset, we benchmark several state-of-the-art methods for egocentric trajectory prediction and conduct ablation studies to analyze the contributions of gaze, scene, and motion cues. The results highlight the utility of EgoTraj for AR-based perception, navigation, and assistive systems. The EgoTraj dataset, code, and EgoViz Dashboard are publicly available at https://github.com/yehiahmad/EgoTraj.",
+      "published_utc": "2026-05-18T18:26:51Z",
+      "updated_utc": "2026-05-18T18:26:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.19004v1",
+      "abs_url": "http://arxiv.org/abs/2605.19004v1"
     }
   },
   "topics": {
@@ -14433,9 +14540,12 @@
         "2602.04204v2",
         "2602.03986v2",
         "2604.23728v1",
-        "2605.02759v1"
+        "2605.02759v1",
+        "2605.18262v1",
+        "2605.18074v1",
+        "2605.02759v2"
       ],
-      "latest_update": "2026-05-05"
+      "latest_update": "2026-05-21"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -14675,9 +14785,16 @@
         "2605.11385v1",
         "2605.13646v1",
         "2605.13591v1",
-        "2605.14855v1"
+        "2605.14855v1",
+        "2605.18262v1",
+        "2605.18074v1",
+        "2605.18010v1",
+        "2605.15424v1",
+        "2605.13646v2",
+        "2605.08830v2",
+        "2605.02759v2"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-21"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -14785,9 +14902,10 @@
         "2604.23728v1",
         "2605.13321v1",
         "2605.16115v1",
-        "2605.16858v1"
+        "2605.16858v1",
+        "2605.20255v1"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-21"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -14979,9 +15097,10 @@
         "2604.15221v2",
         "2605.18010v1",
         "2605.16442v1",
-        "2605.02759v2"
+        "2605.02759v2",
+        "2605.19015v1"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-21"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15106,9 +15225,13 @@
         "2605.14855v1",
         "2605.13646v1",
         "2605.13591v1",
-        "2605.12743v1"
+        "2605.12743v1",
+        "2605.20085v1",
+        "2605.19004v1",
+        "2605.13646v2",
+        "2605.08830v2"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-05-21"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -15231,9 +15354,12 @@
         "2605.18449v1",
         "2605.18262v1",
         "2605.02759v2",
-        "2603.26720v2"
+        "2603.26720v2",
+        "2605.19015v1",
+        "2605.19004v1",
+        "2605.08830v2"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-21"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -15528,9 +15654,10 @@
         "2303.17717v1",
         "2604.23728v1",
         "2605.01485v1",
-        "2605.16858v1"
+        "2605.16858v1",
+        "2605.20255v1"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-21"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",

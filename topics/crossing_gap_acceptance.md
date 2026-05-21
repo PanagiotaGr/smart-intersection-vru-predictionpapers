@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **56**
+Total papers tracked: **57**
 
 ---
 
+- **Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty**  
+  *Prakash Aryan, Kaushik Raghupathruni, Timo Kehrer, Sebastiano Panichella*  
+  Published: `2026-05-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.20255v1) · [pdf](https://arxiv.org/pdf/2605.20255v1) · id: `2605.20255v1`
 - **Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles**  
   *Aidana Baimbetova, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi*  
   Published: `2026-05-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16858v1) · [pdf](https://arxiv.org/pdf/2605.16858v1) · id: `2605.16858v1`

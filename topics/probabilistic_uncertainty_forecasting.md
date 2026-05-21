@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-20` (timezone: `Europe/Athens`)
+Updated: `2026-05-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **122**
 
 ---
 
+- **Probabilistic Recursively Feasible Motion Planning Under Uncertain Environments**  
+  *Hyeontae Sung, Hyeongchan Ham, Junyoung Park, Kai Ren, Heejin Ahn*  
+  Published: `2026-05-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2605.19015v1) · [pdf](https://arxiv.org/pdf/2605.19015v1) · id: `2605.19015v1`
+- **EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction**  
+  *Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao, Christian Claudel*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.19004v1) · [pdf](https://arxiv.org/pdf/2605.19004v1) · id: `2605.19004v1`
 - **Modelling Customer Trajectories with Reinforcement Learning for Practical Retail Insights**  
   *Ken Ming Lee, Paul Barde, Maxime C. Cohen, Derek Nowrouzezahrai*  
   Published: `2026-05-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.18449v1) · [pdf](https://arxiv.org/pdf/2605.18449v1) · id: `2605.18449v1`
@@ -30,6 +36,9 @@ Total papers tracked: **119**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`
+- **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
+  *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
