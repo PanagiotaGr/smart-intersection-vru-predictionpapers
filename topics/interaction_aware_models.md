@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-21` (timezone: `Europe/Athens`)
+Updated: `2026-05-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **194**
+Total papers tracked: **196**
 
 ---
 
+- **Diverse Yet Consistent: Context-Guided Diffusion with Energy-Based Joint Refinement for Multi-Agent Motion Prediction**  
+  *Lei Chu, Yuhuan Zhao*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.22017v1) · [pdf](https://arxiv.org/pdf/2605.22017v1) · id: `2605.22017v1`
 - **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
   *Yuzhou Liu, Cristina Olaverri-Monreal*  
   Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
@@ -66,6 +69,9 @@ Total papers tracked: **194**
 - **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
   *Xinrun Wang, Deshun Xia, Ke Xu, Weijie Zhu*  
   Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v1) · [pdf](https://arxiv.org/pdf/2604.24514v1) · id: `2604.24514v1`
+- **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
+  *Xinrun Wang, Deshun Xia, Yuxi Sun, Weijie Zhu*  
+  Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v2) · [pdf](https://arxiv.org/pdf/2604.24514v2) · id: `2604.24514v2`
 - **Hamiltonian Graph Inference Networks: Joint structure discovery and dynamics prediction for lattice Hamiltonian systems from trajectory data**  
   *Ru Geng, Panayotis Kevrekidis, Yixian Gao, Hong-Kun Zhang, Jian Zu*  
   Published: `2026-04-26` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.23606v1) · [pdf](https://arxiv.org/pdf/2604.23606v1) · id: `2604.23606v1`

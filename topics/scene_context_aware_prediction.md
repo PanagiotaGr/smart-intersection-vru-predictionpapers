@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-21` (timezone: `Europe/Athens`)
+Updated: `2026-05-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **129**
 
 ---
 
+- **LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model**  
+  *Xiaodong Mei, Diankun Zhang, Hongwei Xie, Guang Chen, Hangjun Ye, Dan Xu*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.22089v1) · [pdf](https://arxiv.org/pdf/2605.22089v1) · id: `2605.22089v1`
+- **Diverse Yet Consistent: Context-Guided Diffusion with Energy-Based Joint Refinement for Multi-Agent Motion Prediction**  
+  *Lei Chu, Yuhuan Zhao*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.22017v1) · [pdf](https://arxiv.org/pdf/2605.22017v1) · id: `2605.22017v1`
 - **Spatially Prompted Visual Trajectory Prediction for Egocentric Manipulation**  
   *Yifan Li, Xinyu Zhou, Yunhao Ge, Yu Kong*  
   Published: `2026-05-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.20085v1) · [pdf](https://arxiv.org/pdf/2605.20085v1) · id: `2605.20085v1`
@@ -48,6 +54,9 @@ Total papers tracked: **125**
 - **HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar**  
   *Yeheng Zong, Pou-Chun Kung, Yike Pan, Seth Isaacson, Yizhou Chen, Ram Vasudevan, Katherine A. Skinner*  
   Published: `2026-05-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.02784v1) · [pdf](https://arxiv.org/pdf/2605.02784v1) · id: `2605.02784v1`
+- **HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar**  
+  *Yeheng Zong, Pou-Chun Kung, Yike Pan, Seth Isaacson, Yizhou Chen, Ram Vasudevan, Katherine A. Skinner*  
+  Published: `2026-05-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.02784v2) · [pdf](https://arxiv.org/pdf/2605.02784v2) · id: `2605.02784v2`
 - **Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking**  
   *Nhat-Tan Do, Le-Huy Tu, Nhi Ngoc-Yen Nguyen, Dieu-Phuong Nguyen, Trong-Hop Do*  
   Published: `2026-05-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.00362v1) · [pdf](https://arxiv.org/pdf/2605.00362v1) · id: `2605.00362v1`
@@ -60,6 +69,9 @@ Total papers tracked: **125**
 - **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
   *Xinrun Wang, Deshun Xia, Ke Xu, Weijie Zhu*  
   Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v1) · [pdf](https://arxiv.org/pdf/2604.24514v1) · id: `2604.24514v1`
+- **SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling**  
+  *Xinrun Wang, Deshun Xia, Yuxi Sun, Weijie Zhu*  
+  Published: `2026-04-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.24514v2) · [pdf](https://arxiv.org/pdf/2604.24514v2) · id: `2604.24514v2`
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`

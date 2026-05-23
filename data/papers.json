@@ -14406,6 +14406,103 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.19004v1",
       "abs_url": "http://arxiv.org/abs/2605.19004v1"
+    },
+    "2605.22017v1": {
+      "arxiv_id": "2605.22017v1",
+      "title": "Diverse Yet Consistent: Context-Guided Diffusion with Energy-Based Joint Refinement for Multi-Agent Motion Prediction",
+      "authors": [
+        "Lei Chu",
+        "Yuhuan Zhao"
+      ],
+      "summary": "Deepgenerative models havebecomeapromisingapproach for human motion prediction due to their ability to capture multimodal distributions and represent diverse human be haviors. However, generating predictions that are both di verse and jointly consistent among interacting agents re mains challenging. In addition, most existing approaches are primarily evaluated using single-agent (marginal) met rics, which fail to fully reflect the joint dynamics of multi agent interactions. We propose a diffusion-based frame work that improves multi-agent motion prediction by lever aging rich contextual information from historical trajecto ries. This information is incorporated through a guidance mechanism to enhance the diversity and expressiveness of predicted motions. To further enforce interaction consis tency, we introduce an energy-based formulation that re fines the joint trajectory distribution while preserving the plausibility of individual trajectories. Extensive experi ments on four benchmark datasets demonstrate that our approach consistently outperforms existing methods. No tably, our approach substantially improves both marginal (ADE/FDE) and joint (JADE/JFDE) metrics on ETH/UCY over strong marginal baselines. Compared with prior joint prediction methods, it delivers significant gains in marginal metrics while maintaining competitive joint performance.",
+      "published_utc": "2026-05-21T05:25:41Z",
+      "updated_utc": "2026-05-21T05:25:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.22017v1",
+      "abs_url": "http://arxiv.org/abs/2605.22017v1"
+    },
+    "2604.24514v2": {
+      "arxiv_id": "2604.24514v2",
+      "title": "SceneSelect: Selective Learning for Trajectory Scene Classification and Expert Scheduling",
+      "authors": [
+        "Xinrun Wang",
+        "Deshun Xia",
+        "Yuxi Sun",
+        "Weijie Zhu"
+      ],
+      "summary": "Accurate trajectory prediction is fundamentally challenging due to high scene heterogeneity - the severe variance in motion velocity, spatial density, and interaction patterns across different real-world environments. However, most existing approaches typically train a single unified model, expecting a fixed-capacity architecture to generalize universally across all possible scenarios. This conventional model-centric paradigm is fundamentally flawed when confronting such extreme heterogeneity, inevitably leading to a severe generalization gap, degraded accuracy, and massive computational waste. To overcome this bottleneck, rather than refining restricted model-centric architectures, we propose selective learning, a novel scene-centric paradigm. It explicitly analyzes the characteristics of the underlying scene to dynamically route inputs to the most appropriate expert models. As a concrete implementation of this paradigm, we introduce SceneSelect. Specifically, SceneSelect utilizes unsupervised clustering on interpretable geometric and kinematic features to discover a latent scene taxonomy. A highly decoupled classification module is then trained to assign real-time inputs to these scene categories, and a highly extensible, plug-and-play scheduling policy automatically dispatches the trajectory sequence to the optimal expert predictor. Crucially, this decoupled design ensures excellent generalization capabilities, allowing seamless integration with different off-the-shelf models and robust adaptation across new datasets without requiring computationally expensive joint retraining. Extensive experiments on three public benchmarks (ETH-UCY, SDD, and NBA) demonstrate that our method consistently outperforms strong single-model and ensemble baselines, achieving an average improvement of 10.5%, showcasing the effectiveness of scene-aware selective learning.",
+      "published_utc": "2026-04-27T14:15:44Z",
+      "updated_utc": "2026-05-21T06:37:02Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.24514v2",
+      "abs_url": "http://arxiv.org/abs/2604.24514v2"
+    },
+    "2605.21500v1": {
+      "arxiv_id": "2605.21500v1",
+      "title": "A Task-Agnostic Algebraic Integrity Metric for Event-Camera Streams Toward SOTIF-Compliant Perception using Pearson Correlation Coefficient",
+      "authors": [
+        "Arthur de Miranda Neto"
+      ],
+      "summary": "Event cameras have emerged as a high-bandwidth, low-latency sensing modality for safety-critical perception in automated driving systems (ADS), offering microsecond temporal resolution, 120-140 dB dynamic range, and intrinsic absence of motion blur. However, no task-agnostic quality metric currently operates directly on the asynchronous event stream: state-of-the-art proxies require a downstream task (e.g., detection accuracy, tracking error) to assess stream integrity, which is incompatible with the certification requirements of ISO 21448 (SOTIF) and ISO/PAS 8800:2024. The recent BiasBench benchmark (CVPR 2025) explicitly identifies this gap. This work proposes a unified algebraic framework that lifts the Pearson Correlation Coefficient (PCC), historically used in two prior works for redundancy filtering and ROI selection on frame-based images, to the three standard event representations: Time Surface, Event Frame, and Voxel Grid. The framework yields three metrics: (i) r-TS for stream integrity monitoring against an ego-motion-predicted Time Surface, (ii) r2-EF for adaptive ROI selection requiring only integer comparisons, and (iii) r-VG for temporal redundancy gating. A structural isomorphism is established between the contrast-threshold mechanism of the event camera (|Delta L| >= C) and the PCC-based change criterion, the three lifted metrics are formalized, and pipeline latency and information loss are analyzed symmetrically against the raw stream. Illustrative behavior of each metric is demonstrated on a procedural-synthetic event stream, generated by direct simulation of the emission model rather than drawn from any real or video-derived dataset, including a tunnel-dip integrity-anomaly scenario in which r_C drops from 0.93 (coherent flow) to below 0 (alarm). An explicit epistemic convention ([ESTABLISHED], [SOLID], [HYPOTH.], [OPEN]) delineates the status of every contribution.",
+      "published_utc": "2026-05-08T12:54:23Z",
+      "updated_utc": "2026-05-08T12:54:23Z",
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.21500v1",
+      "abs_url": "http://arxiv.org/abs/2605.21500v1"
+    },
+    "2605.22089v1": {
+      "arxiv_id": "2605.22089v1",
+      "title": "LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model",
+      "authors": [
+        "Xiaodong Mei",
+        "Diankun Zhang",
+        "Hongwei Xie",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Dan Xu"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have emerged as a promising framework for end-to-end autonomous driving. However, existing VLAs typically rely on sparse action supervision, which underutilizes their powerful scene understanding and reasoning capabilities. Recent attempts to incorporate dense visual supervision via world modeling often overemphasize pixel-level image reconstruction, neglecting semantically meaningful scene representation learning. In this work, we propose LVDrive, a Latent Visual representation enhanced VLA framework for autonomous driving. LVDrive introduces a future scene prediction task into the VLA paradigm, where future representations are learned entirely in a high-level latent space under auxiliary supervision from a pretrained vision backbone. Departing from inefficient autoregressive generation, we jointly model future scene and motion prediction within a unified embedding space, processed in a single forward pass to conduct the future-aware reasoning. We further design a two-stage trajectory decoding strategy that explicitly leverages the learned latent future representations to refine trajectory generation. Extensive experiments on the challenging Bench2Drive benchmark demonstrate that LVDrive achieves significant improvements in closed-loop driving performance, outperforming both action supervised methods and image-reconstruction-based world model approaches.",
+      "published_utc": "2026-05-21T07:31:49Z",
+      "updated_utc": "2026-05-21T07:31:49Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.22089v1",
+      "abs_url": "http://arxiv.org/abs/2605.22089v1"
+    },
+    "2605.02784v2": {
+      "arxiv_id": "2605.02784v2",
+      "title": "HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar",
+      "authors": [
+        "Yeheng Zong",
+        "Pou-Chun Kung",
+        "Yike Pan",
+        "Seth Isaacson",
+        "Yizhou Chen",
+        "Ram Vasudevan",
+        "Katherine A. Skinner"
+      ],
+      "summary": "Accurately recovering human pose and appearance from video is an essential component of scene reconstruction, with applications to motion capture, motion prediction, virtual reality, and digital twinning. Despite significant interest in building realistic human avatars from video, this paper demonstrates that existing methods do not accurately recover the 3D geometry of humans. ViT-based approaches are not consistently reliable and can overfit to 2D views, while NeRF- and Gaussian Splatting-based avatars treat pose and appearance separately, limiting rendering generalization to new poses. To resolve these shortcomings, this paper proposes HumanSplatHMR, a joint optimization framework that refines 3D human poses while simultaneously learning a high-fidelity avatar for novel-view and novel-pose synthesis. Our key insight is to close the loop between geometric pose estimation and differentiable rendering. Unlike prior human avatar methods that rely on accurate human pose obtained through motion capture systems or offline refinement, which are impractical in in-the-wild scenarios, our approach uses only human mesh estimates from a state-of-the-art human pose estimator to better reflect real-world conditions. Therefore, instead of using the human pose only as a deformation prior, HumanSplatHMR backpropagates photometric, segmentation, and depth losses through a differentiable renderer to the pose parameters and global position. This coupling refines the global 3D pose over time, improving accuracy and alignment while producing better renderings from novel views. Experiments show consistent improvements over pose recovery baselines that omit image-level refinement and avatar baselines that decouple pose estimation from avatar reconstruction.",
+      "published_utc": "2026-05-04T16:26:11Z",
+      "updated_utc": "2026-05-21T16:22:38Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.02784v2",
+      "abs_url": "http://arxiv.org/abs/2605.02784v2"
     }
   },
   "topics": {
@@ -14792,9 +14889,11 @@
         "2605.15424v1",
         "2605.13646v2",
         "2605.08830v2",
-        "2605.02759v2"
+        "2605.02759v2",
+        "2605.22017v1",
+        "2604.24514v2"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-23"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15098,9 +15197,10 @@
         "2605.18010v1",
         "2605.16442v1",
         "2605.02759v2",
-        "2605.19015v1"
+        "2605.19015v1",
+        "2605.21500v1"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-23"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15229,9 +15329,13 @@
         "2605.20085v1",
         "2605.19004v1",
         "2605.13646v2",
-        "2605.08830v2"
+        "2605.08830v2",
+        "2605.22089v1",
+        "2605.22017v1",
+        "2605.02784v2",
+        "2604.24514v2"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-23"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
