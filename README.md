@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-05-23**
-- Latest digest: `digests/2026-05-23.md`
+- Updated on: **2026-05-24**
+- Latest digest: `digests/2026-05-24.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator

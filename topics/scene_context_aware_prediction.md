@@ -1,6 +1,6 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-23` (timezone: `Europe/Athens`)
+Updated: `2026-05-24` (timezone: `Europe/Athens`)
 
 Total papers tracked: **129**
 
