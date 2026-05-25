@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-24` (timezone: `Europe/Athens`)
+Updated: `2026-05-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **196**
+Total papers tracked: **197**
 
 ---
 
@@ -153,6 +153,9 @@ Total papers tracked: **196**
 - **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
   *Danya Li, Yan Feng, Rico Krueger*  
   Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
+- **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
+  *Danya Li, Yan Feng, Rico Krueger*  
+  Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v2) · [pdf](https://arxiv.org/pdf/2603.19812v2) · id: `2603.19812v2`
 - **SutureAgent: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
   *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
   Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v1) · [pdf](https://arxiv.org/pdf/2603.26720v1) · id: `2603.26720v1`

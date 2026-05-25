@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-24` (timezone: `Europe/Athens`)
+Updated: `2026-05-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **129**
+Total papers tracked: **130**
 
 ---
 
@@ -144,6 +144,9 @@ Total papers tracked: **129**
 - **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
   *Danya Li, Yan Feng, Rico Krueger*  
   Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v1) · [pdf](https://arxiv.org/pdf/2603.19812v1) · id: `2603.19812v1`
+- **Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study**  
+  *Danya Li, Yan Feng, Rico Krueger*  
+  Published: `2026-03-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2603.19812v2) · [pdf](https://arxiv.org/pdf/2603.19812v2) · id: `2603.19812v2`
 - **Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting**  
   *Yiren Lu, Xin Ye, Burhaneddin Yaman, Jingru Luo, Zhexiao Xiong, Liu Ren, Yu Yin*  
   Published: `2026-03-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.19193v1) · [pdf](https://arxiv.org/pdf/2603.19193v1) · id: `2603.19193v1`

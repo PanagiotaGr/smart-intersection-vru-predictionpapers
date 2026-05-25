@@ -14503,6 +14503,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.02784v2",
       "abs_url": "http://arxiv.org/abs/2605.02784v2"
+    },
+    "2603.19812v2": {
+      "arxiv_id": "2603.19812v2",
+      "title": "Eye Gaze-Informed and Context-Aware Pedestrian Trajectory Prediction in Shared Spaces with Automated Shuttles: A Virtual Reality Study",
+      "authors": [
+        "Danya Li",
+        "Yan Feng",
+        "Rico Krueger"
+      ],
+      "summary": "To address this gap, we conduct a Virtual Reality experiment in which pedestrians interact with automated shuttles under varying approach angles (45°, 90°, 135°) and continuous-traffic conditions (single shuttle, two shuttles with 3 or 5-second gaps), collecting synchronized motion, eye gaze, and head orientation data. To investigate to what extent, under what conditions, and in what form fine-grained eye gaze is informative for pedestrian motion prediction, we develop a multi-modal prediction model that fuses these signals through modality-specific encoders, and systematically ablate gaze representations against head orientation and situational context. We report three main results. First, the predictive value of eye gaze is angle-dependent and tightly coupled with eye-head-body coordination: at acute angles where pedestrians actively redirect gaze to acquire the shuttle, eye gaze carries information that head orientation alone misses. Second, continuous gaze orientation outperforms categorical semantic fixation labels, with the optimal encoding frame (global or body-relative) depending on whether gaze is used alone or jointly with context. Third, eye gaze and situational context provide complementary predictive information: their combination reduces final displacement error (FDE) by 8.47%, close to the sum of their individual contributions. Together, these findings highlight the value of incorporating human perceptual signals into pedestrian behavior prediction and motivate a human-centered complement to vehicle-centric modeling approaches. Our code is available at https://github.com/danyayay/GazeX.git.",
+      "published_utc": "2026-03-20T09:57:23Z",
+      "updated_utc": "2026-05-22T04:49:36Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.19812v2",
+      "abs_url": "http://arxiv.org/abs/2603.19812v2"
     }
   },
   "topics": {
@@ -14640,9 +14658,10 @@
         "2605.02759v1",
         "2605.18262v1",
         "2605.18074v1",
-        "2605.02759v2"
+        "2605.02759v2",
+        "2603.19812v2"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-25"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -14891,9 +14910,10 @@
         "2605.08830v2",
         "2605.02759v2",
         "2605.22017v1",
-        "2604.24514v2"
+        "2604.24514v2",
+        "2603.19812v2"
       ],
-      "latest_update": "2026-05-23"
+      "latest_update": "2026-05-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15333,9 +15353,10 @@
         "2605.22089v1",
         "2605.22017v1",
         "2605.02784v2",
-        "2604.24514v2"
+        "2604.24514v2",
+        "2603.19812v2"
       ],
-      "latest_update": "2026-05-23"
+      "latest_update": "2026-05-25"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -15696,9 +15717,10 @@
         "2103.14107v3",
         "2103.14023v3",
         "2604.23728v1",
-        "2605.18074v1"
+        "2605.18074v1",
+        "2603.19812v2"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-25"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -16022,9 +16044,10 @@
         "2605.18262v1",
         "2605.18074v1",
         "2605.16858v1",
-        "2605.02759v2"
+        "2605.02759v2",
+        "2603.19812v2"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-25"
     }
   }
 }
