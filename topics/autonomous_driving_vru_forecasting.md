@@ -1,17 +1,26 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **110**
+Total papers tracked: **113**
 
 ---
 
+- **A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras**  
+  *Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang*  
+  Published: `2026-05-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.25947v1) · [pdf](https://arxiv.org/pdf/2605.25947v1) · id: `2605.25947v1`
+- **PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction**  
+  *Naman Mishra, Shankar Gangisetty, C. V. Jawahar*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24562v1) · [pdf](https://arxiv.org/pdf/2605.24562v1) · id: `2605.24562v1`
 - **4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving**  
   *Kane Qian, Xin Zhao, Yining Shi, Rujun Yan, Zhengqing Pan, Kaojin Zhu, Mengmeng Yang, Kai Sun et al.*  
   Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18074v1) · [pdf](https://arxiv.org/pdf/2605.18074v1) · id: `2605.18074v1`
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
 - **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
   *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`

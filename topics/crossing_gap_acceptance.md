@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **57**
+Total papers tracked: **59**
 
 ---
 
+- **PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction**  
+  *Naman Mishra, Shankar Gangisetty, C. V. Jawahar*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24562v1) · [pdf](https://arxiv.org/pdf/2605.24562v1) · id: `2605.24562v1`
 - **Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty**  
   *Prakash Aryan, Kaushik Raghupathruni, Timo Kehrer, Sebastiano Panichella*  
   Published: `2026-05-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.20255v1) · [pdf](https://arxiv.org/pdf/2605.20255v1) · id: `2605.20255v1`
@@ -18,6 +21,9 @@ Total papers tracked: **57**
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
 - **Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion**  
   *Sima Ashayer, Hoang H. Nguyen, Yu Liang, Mina Sartipi*  
   Published: `2026-03-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.19533v1) · [pdf](https://arxiv.org/pdf/2603.19533v1) · id: `2603.19533v1`

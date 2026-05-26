@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **130**
+Total papers tracked: **134**
 
 ---
 
+- **A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras**  
+  *Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang*  
+  Published: `2026-05-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.25947v1) · [pdf](https://arxiv.org/pdf/2605.25947v1) · id: `2605.25947v1`
+- **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
+  *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v1) · [pdf](https://arxiv.org/pdf/2605.24354v1) · id: `2605.24354v1`
+- **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
+  *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`
 - **LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model**  
   *Xiaodong Mei, Diankun Zhang, Hongwei Xie, Guang Chen, Hangjun Ye, Dan Xu*  
   Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.22089v1) · [pdf](https://arxiv.org/pdf/2605.22089v1) · id: `2605.22089v1`
@@ -75,6 +84,9 @@ Total papers tracked: **130**
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
 - **Collaborative Trajectory Prediction via Late Fusion**  
   *Nadya Abdel Madjid, Murad Mebrahtu, Zakhar Yagudin, Bilal Hassan, Naoufel Werghi, Jorge Dias, Dzmitry Tsetserukou, Majid Khonji*  
   Published: `2026-04-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.22973v1) · [pdf](https://arxiv.org/pdf/2604.22973v1) · id: `2604.22973v1`

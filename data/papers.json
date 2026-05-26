@@ -14521,6 +14521,137 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.19812v2",
       "abs_url": "http://arxiv.org/abs/2603.19812v2"
+    },
+    "2605.25947v1": {
+      "arxiv_id": "2605.25947v1",
+      "title": "A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras",
+      "authors": [
+        "Haoyang Peng",
+        "Qian Hu",
+        "Songan Zhang",
+        "Ming Yang"
+      ],
+      "summary": "Predicting the interaction between pedestrian and vehicle is essential for autonomous driving safety in unstructured and semi-structured scenarios; however, this task is severely hindered by the scarcity of public datasets that feature dense pedestrian-vehicle interactions. Most current studies rely on structured road data, leaving the complex, heterogeneous interactions found in unstructured environments insufficiently represented and researched. In this paper, we propose a dataset annotation framework based on video data from uncalibrated surveillance cameras and present PINNS (Pedestrian-vehicle Interaction dataset from uNcalibrated cameras in uNstructured Scenes). The dataset covers multiple countries and regions, includes diverse typical traffic scenarios, and considers variations in seasons, lighting conditions, and weather. It focuses on complex scenes with dense pedestrian-vehicle interactions and is designed to be easily extensible. The dataset is constructed and annotated according to the standard issued by the Chinese Association of Automation, providing both trajectory data and corresponding scene-level information. Furthermore, this paper analyzes current challenges and research directions in heterogeneous agent trajectory prediction, shows the necessity and usefulness of the proposed dataset. We hope our framework and dataset will facilitate research on trajectory prediction and autonomous driving in complex mixed traffic scenarios. PINNS is publicly available at https://github.com/Songan-Lab.",
+      "published_utc": "2026-05-25T15:26:18Z",
+      "updated_utc": "2026-05-25T15:26:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.25947v1",
+      "abs_url": "http://arxiv.org/abs/2605.25947v1"
+    },
+    "2605.24562v1": {
+      "arxiv_id": "2605.24562v1",
+      "title": "PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction",
+      "authors": [
+        "Naman Mishra",
+        "Shankar Gangisetty",
+        "C. V. Jawahar"
+      ],
+      "summary": "Pedestrian intention and trajectory prediction are critical for the safe deployment of autonomous driving systems, directly influencing navigation decisions in complex traffic environments. Recent advances in large vision-language models offer a powerful new paradigm for these tasks by combining high-capacity visual understanding with flexible natural language reasoning. In this work, we introduce PedestrianQA, a large-scale video-based dataset that formulates pedestrian intention and trajectory prediction as question-answering tasks augmented with structured rationales. PedestrianQA expresses richly annotated pedestrian sequences, in natural language, enabling VLMs to learn from visual dynamics, contextual cues, and interactions among traffic agents while generating concise explanations of their predictions without needing specialized architectures tailored for each task. Empirical evaluations across PIE, JAAD, TITAN, and IDD-PeD show that finetuning state-of-the-art VLMs on PedestrianQA significantly improves intention classification, trajectory forecasting accuracy, and the quality of explanatory rationales, demonstrating the strong potential of VLMs as a unified and explainable framework for safety-critical pedestrian behavior modeling.",
+      "published_utc": "2026-05-23T12:56:44Z",
+      "updated_utc": "2026-05-23T12:56:44Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.24562v1",
+      "abs_url": "http://arxiv.org/abs/2605.24562v1"
+    },
+    "2604.23728v2": {
+      "arxiv_id": "2604.23728v2",
+      "title": "ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction",
+      "authors": [
+        "Yanping Wu",
+        "Meiting Dang",
+        "Lin Wu",
+        "Edmond S. L. Ho",
+        "Zhenghua Chen",
+        "Chongfeng Wei"
+      ],
+      "summary": "Recent advances in autonomous driving have motivated research on pedestrian intention prediction, which aims to infer future crossing decisions and actions by modeling temporal dynamics, social interactions, and environmental context. However, existing studies remain constrained by oversimplified multi-agent interaction patterns, opaque reasoning logic, and a lack of global consistency in behavioral predictions, which compromise both robustness and interpretability. In this work, we propose ESIA (Energy-based Spatiotemporal Interaction-Aware framework), a novel Conditional Random Field (CRF)-based paradigm. We cast the intention prediction task as a structured prediction problem over a unified graph-based representation, treating pedestrians and the environment as spatiotemporal nodes. To characterize their distinct roles, we assign unary potentials to nodes to capture individual intentions, and pairwise potentials to edges to encode social and environmental interactions. These potentials are integrated into a unified global energy function to ensure scene-level consistency across behavioral predictions. To further constrain inference without ground-truth supervision, we introduce structural consistency terms to penalize logical contradictions. This optimization is efficiently solved via a novel Unary-Seeded Simulated Annealing (U-SSA) algorithm, which leverages high-confidence unary priors to rapidly converge to a high-quality solution. Extensive experiments on standard benchmarks demonstrate that ESIA achieves state-of-the-art performance with improved interpretability over existing methods.",
+      "published_utc": "2026-04-26T14:13:58Z",
+      "updated_utc": "2026-05-25T11:15:59Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.23728v2",
+      "abs_url": "http://arxiv.org/abs/2604.23728v2"
+    },
+    "2605.24354v1": {
+      "arxiv_id": "2605.24354v1",
+      "title": "SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation",
+      "authors": [
+        "Ruoyu Wang",
+        "Jingke Wang",
+        "Yukai Ma",
+        "Yuehao Huang",
+        "Shuangming Lei",
+        "Guanglin Xu",
+        "Aixue Ye",
+        "Yong Liu"
+      ],
+      "summary": "Recently, world models have made significant progress in enhancing end-to-end driving systems through both future situation forecasting and improved scene understanding. However, existing driving world models are typically built upon dense scene representations, causing high computational costs and redundant information. In this paper, we present SparseWorld, a lightweight world model that focuses on predicting only the critical layout of the scene, enabling efficient future forecasting for end-to-end driving systems. SparseWorld first performs autoregressive rollout to forecast future map elements and surrounding agents, enabling the model to learn how driving scenarios evolve over time. It then leverages these predicted futures to refine downstream motion prediction and trajectory planning. Specifically, we propose a Sparse Dreamer that anticipates future instances in the latent space through joint temporal and spatial attention. By interacting with predicted future instances, the motion planner captures more accurate motion patterns and generates more informed and safety-aware trajectories. Extensive experiments demonstrate that SparseWorld significantly reduces collision risk and achieves state-of-the-art performance on the open-loop planning metrics of the nuScenes dataset with a collision rate of 0.05\\%. Moreover, it substantially outperforms the baseline method in closed-loop planning metrics on the Bench2Drive benchmark. Supplementary material is available at the project page: https://wryzju.github.io/SparseWorld/.",
+      "published_utc": "2026-05-23T02:30:33Z",
+      "updated_utc": "2026-05-23T02:30:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.24354v1",
+      "abs_url": "http://arxiv.org/abs/2605.24354v1"
+    },
+    "2605.24037v1": {
+      "arxiv_id": "2605.24037v1",
+      "title": "Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling",
+      "authors": [
+        "Zikang Zhou",
+        "Haibo Hu",
+        "Xinhong Chen",
+        "Yifan Zhang",
+        "Nan Guan",
+        "Yung-Hui Li",
+        "Chun Jason Xue",
+        "Jianping Wang"
+      ],
+      "summary": "Multimodal motion forecasting is inherently under-supervised: each training scene provides only one realized future, yet multiple plausible futures exist. This sparse supervision often leads to mode collapse (redundant hypotheses and insufficient mode coverage) and unreliable confidence ranking when predicting a small set of trajectories. We propose Mode-as-Sequence, a unified decoding framework that translates an unordered mode set into an ordered mode sequence and explicitly models mode-to-mode dependency. Under this framework, we develop two complementary instantiations. ModeSeq performs recurrent mode decoding, where each mode is generated conditioned on the previously generated modes, encouraging diverse, non-redundant hypotheses with calibrated confidence ordering. To remove the mode-by-mode autoregressive bottleneck, we further propose Parallel ModeSeq, which preserves the same causal dependency using masked mode-to-mode self-attention while decoding all modes in a single forward pass, enabling efficient large-$K$ inference and scalable joint-scene prediction. To learn representative modes and calibrated confidence under sparse labels, we introduce Early-Match-Take-All (EMTA) and its joint-scene extension MA-EMTA, together with a lightweight ranking regularizer that reduces confidence inversions. Extensive experiments on large-scale benchmarks demonstrate consistent improvements in both ranking-oriented metrics and best-of-K accuracy across datasets, horizons, and object types. In the Waymo Open Dataset challenges, ModeSeq achieves 1st place in the 2024 LiDAR-free motion prediction track, and Parallel ModeSeq achieves 1st place in the 2025 Interaction Prediction Challenge, validating the effectiveness of Mode-as-Sequence for both accuracy and efficiency.",
+      "published_utc": "2026-05-21T11:37:17Z",
+      "updated_utc": "2026-05-21T11:37:17Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.24037v1",
+      "abs_url": "http://arxiv.org/abs/2605.24037v1"
+    },
+    "2605.25829v1": {
+      "arxiv_id": "2605.25829v1",
+      "title": "OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation",
+      "authors": [
+        "Xinzhe Chen",
+        "Sihua Ren",
+        "Liqi Huang",
+        "Haowen Sun",
+        "Mingyang Li",
+        "Xingyu Chen",
+        "Zeyang Liu",
+        "Xuguang Lan"
+      ],
+      "summary": "Recent vision-language-action (VLA) models and world action models (WAMs) advance robotic manipulation by enriching intermediate representations with auxiliary spatial features or future visual-state prediction. However, these representations largely remain within the observation space and do not share the rigid-body geometry of the action space, forcing the action decoder to implicitly recover this geometry. We propose OASIS, a visuomotor policy that aligns the intermediate representation with the action space via $SE(3)$ end-effector trajectory prediction. OASIS couples a 3D-aware feature encoder that fuses vision-language and metric-depth features with an $SE(3)$ trajectory predictor that produces a camera-frame end-effector trajectory. Conditioned on the predictor's pose-supervised hidden states, the action decoder generates action chunks consistent with rigid-body motion. Across simulation and real-world experiments, OASIS outperforms VLA and WAM baselines in success rate and out-of-distribution generalization. Our project page is available at https://npuhandsome.github.io/OASIS_web.",
+      "published_utc": "2026-05-25T13:28:33Z",
+      "updated_utc": "2026-05-25T13:28:33Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.25829v1",
+      "abs_url": "http://arxiv.org/abs/2605.25829v1"
     }
   },
   "topics": {
@@ -14659,9 +14790,12 @@
         "2605.18262v1",
         "2605.18074v1",
         "2605.02759v2",
-        "2603.19812v2"
+        "2603.19812v2",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-25"
+      "latest_update": "2026-05-26"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -14911,9 +15045,13 @@
         "2605.02759v2",
         "2605.22017v1",
         "2604.24514v2",
-        "2603.19812v2"
+        "2603.19812v2",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2605.24354v1",
+        "2605.24037v1"
       ],
-      "latest_update": "2026-05-25"
+      "latest_update": "2026-05-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15022,9 +15160,11 @@
         "2605.13321v1",
         "2605.16115v1",
         "2605.16858v1",
-        "2605.20255v1"
+        "2605.20255v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-26"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -15218,9 +15358,12 @@
         "2605.16442v1",
         "2605.02759v2",
         "2605.19015v1",
-        "2605.21500v1"
+        "2605.21500v1",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2605.24354v1"
       ],
-      "latest_update": "2026-05-23"
+      "latest_update": "2026-05-26"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15354,9 +15497,13 @@
         "2605.22017v1",
         "2605.02784v2",
         "2604.24514v2",
-        "2603.19812v2"
+        "2603.19812v2",
+        "2605.25947v1",
+        "2605.24354v1",
+        "2605.24037v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-25"
+      "latest_update": "2026-05-26"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -15482,9 +15629,11 @@
         "2603.26720v2",
         "2605.19015v1",
         "2605.19004v1",
-        "2605.08830v2"
+        "2605.08830v2",
+        "2605.25829v1",
+        "2605.24037v1"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-26"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -15602,9 +15751,11 @@
         "2605.16442v1",
         "2605.15424v1",
         "2605.02759v2",
-        "2605.08830v2"
+        "2605.08830v2",
+        "2605.24037v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-20"
+      "latest_update": "2026-05-26"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -15718,9 +15869,12 @@
         "2103.14023v3",
         "2604.23728v1",
         "2605.18074v1",
-        "2603.19812v2"
+        "2603.19812v2",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-25"
+      "latest_update": "2026-05-26"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -15781,9 +15935,11 @@
         "2604.23728v1",
         "2605.01485v1",
         "2605.16858v1",
-        "2605.20255v1"
+        "2605.20255v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-21"
+      "latest_update": "2026-05-26"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -15935,9 +16091,12 @@
         "2307.09306v1",
         "2604.23728v1",
         "2605.18262v1",
-        "2605.18074v1"
+        "2605.18074v1",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-19"
+      "latest_update": "2026-05-26"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -16045,9 +16204,12 @@
         "2605.18074v1",
         "2605.16858v1",
         "2605.02759v2",
-        "2603.19812v2"
+        "2603.19812v2",
+        "2605.25947v1",
+        "2605.24562v1",
+        "2604.23728v2"
       ],
-      "latest_update": "2026-05-25"
+      "latest_update": "2026-05-26"
     }
   }
 }

@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **114**
+Total papers tracked: **116**
 
 ---
 
+- **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
+  *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`
 - **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
   *Yuzhou Liu, Cristina Olaverri-Monreal*  
   Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
@@ -42,6 +45,9 @@ Total papers tracked: **114**
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
 - **Hamiltonian Graph Inference Networks: Joint structure discovery and dynamics prediction for lattice Hamiltonian systems from trajectory data**  
   *Ru Geng, Panayotis Kevrekidis, Yixian Gao, Hong-Kun Zhang, Jian Zu*  
   Published: `2026-04-26` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.23606v1) · [pdf](https://arxiv.org/pdf/2604.23606v1) · id: `2604.23606v1`

@@ -1,11 +1,17 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **104**
+Total papers tracked: **107**
 
 ---
 
+- **A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras**  
+  *Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang*  
+  Published: `2026-05-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.25947v1) · [pdf](https://arxiv.org/pdf/2605.25947v1) · id: `2605.25947v1`
+- **PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction**  
+  *Naman Mishra, Shankar Gangisetty, C. V. Jawahar*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24562v1) · [pdf](https://arxiv.org/pdf/2605.24562v1) · id: `2605.24562v1`
 - **On Improving Multimodal Pedestrian Trajectory Prediction with CVAE: A Study on Benchmark and Robot Data**  
   *Yuzhou Liu, Cristina Olaverri-Monreal*  
   Published: `2026-05-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.18262v1) · [pdf](https://arxiv.org/pdf/2605.18262v1) · id: `2605.18262v1`
@@ -30,6 +36,9 @@ Total papers tracked: **104**
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v1) · [pdf](https://arxiv.org/pdf/2604.23728v1) · id: `2604.23728v1`
+- **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
+  *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
+  Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
 - **Using Unwrapped Full Color Space Palette Recording to Measure Exposedness of a Vehicle Exterior Parts for External Human Machine Interfaces**  
   *Jaerock Kwon, Jose Gonzalez-Belmonte*  
   Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11406v1) · [pdf](https://arxiv.org/pdf/2604.11406v1) · id: `2604.11406v1`

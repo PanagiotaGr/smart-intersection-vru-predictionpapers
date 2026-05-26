@@ -1,11 +1,23 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **197**
+Total papers tracked: **201**
 
 ---
 
+- **A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras**  
+  *Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang*  
+  Published: `2026-05-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.25947v1) · [pdf](https://arxiv.org/pdf/2605.25947v1) · id: `2605.25947v1`
+- **PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction**  
+  *Naman Mishra, Shankar Gangisetty, C. V. Jawahar*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24562v1) · [pdf](https://arxiv.org/pdf/2605.24562v1) · id: `2605.24562v1`
+- **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
+  *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v1) · [pdf](https://arxiv.org/pdf/2605.24354v1) · id: `2605.24354v1`
+- **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
+  *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`
 - **Diverse Yet Consistent: Context-Guided Diffusion with Energy-Based Joint Refinement for Multi-Agent Motion Prediction**  
   *Lei Chu, Yuhuan Zhao*  
   Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.22017v1) · [pdf](https://arxiv.org/pdf/2605.22017v1) · id: `2605.22017v1`

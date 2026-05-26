@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-25` (timezone: `Europe/Athens`)
+Updated: `2026-05-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **122**
+Total papers tracked: **124**
 
 ---
 
+- **OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation**  
+  *Xinzhe Chen, Sihua Ren, Liqi Huang, Haowen Sun, Mingyang Li, Xingyu Chen, Zeyang Liu, Xuguang Lan*  
+  Published: `2026-05-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.25829v1) · [pdf](https://arxiv.org/pdf/2605.25829v1) · id: `2605.25829v1`
+- **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
+  *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
+  Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`
 - **Probabilistic Recursively Feasible Motion Planning Under Uncertain Environments**  
   *Hyeontae Sung, Hyeongchan Ham, Junyoung Park, Kai Ren, Heejin Ahn*  
   Published: `2026-05-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2605.19015v1) · [pdf](https://arxiv.org/pdf/2605.19015v1) · id: `2605.19015v1`
