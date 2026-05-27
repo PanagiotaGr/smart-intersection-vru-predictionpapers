@@ -1,6 +1,6 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-05-26` (timezone: `Europe/Athens`)
+Updated: `2026-05-27` (timezone: `Europe/Athens`)
 
 Total papers tracked: **43**
 

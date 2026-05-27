@@ -14652,6 +14652,49 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.25829v1",
       "abs_url": "http://arxiv.org/abs/2605.25829v1"
+    },
+    "2605.26524v1": {
+      "arxiv_id": "2605.26524v1",
+      "title": "CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence",
+      "authors": [
+        "Yuxu Lu",
+        "Dong Yang",
+        "Xiaoyu Li",
+        "Mengwei Bao",
+        "Congcong Zhao"
+      ],
+      "summary": "Maritime intelligent transportation systems (MITS) are essential for ensuring navigation safety and efficiency in busy waterways. However, accurate vessel trajectory prediction remains challenging due to the limitations of single-source data. Automatic identification system (AIS) data is often sparse or unavailable for small vessels, while closed-circuit television (CCTV) data alone cannot fully capture dynamic vessel behavior. To mitigate these challenges, we propose a cross-modal interaction-based vessel trajectory prediction (named CmIVTP) framework to model the intricate interactions between vessel dynamics and environmental constraints. Specifically, we introduce a target-aware scene encoder to extract scene semantic features, effectively capturing vessel-environment interactions and enhancing trajectory prediction accuracy. In addition, we propose a cross-modal interaction transformer, which integrates AIS-derived motion features, CCTV-based environmental features, and scene representations. It leverages cross-modal attention mechanisms to simultaneously capture intra-modal semantics and inter-modal interactions, ensuring dynamically consistent and environmentally feasible predictions. Furthermore, we construct a vessel group trajectory bank by clustering historical AIS trajectories into representative motion patterns, providing an efficient and scalable approach for candidate trajectory generation. Additionally, we introduce the maritime multimodal dataset plus (named Maritime-MmD$^+$), a large-scale dataset that synchronizes AIS data and CCTV video data, providing robust support for multimodal trajectory prediction research. Extensive experiments demonstrate that CmIVTP achieves better performance on multimodal-driven vessel trajectory prediction benchmarks. The code resources for this work can be available at https://github.com/LouisYxLu/CmIVTP.",
+      "published_utc": "2026-05-26T04:14:35Z",
+      "updated_utc": "2026-05-26T04:14:35Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.26524v1",
+      "abs_url": "http://arxiv.org/abs/2605.26524v1"
+    },
+    "2605.20255v2": {
+      "arxiv_id": "2605.20255v2",
+      "title": "Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty",
+      "authors": [
+        "Prakash Aryan",
+        "Kaushik Raghupathruni",
+        "Timo Kehrer",
+        "Sebastiano Panichella"
+      ],
+      "summary": "Simulation-based testing of self-driving cars (SDCs) typically relies on scripted pedestrian models that do not capture the heterogeneity and uncertainty of real crossing behavior, limiting the realism of safety assessments, especially for jaywalking, which is governed by latent personality traits the vehicle cannot observe. We hypothesize that jointly training pedestrians and the SDC with multi-agent reinforcement learning (MARL) yields more realistic interaction scenarios than training against fixed pedestrian policies, and that the behavior gap between predictable and unpredictable crossings can be measured directly from trajectories. We co-train an SDC and 12 pedestrians using Multi-Agent Proximal Policy Optimization (MAPPO): pedestrian locomotion follows scripted Dijkstra pathfinding while an RL policy controls high-level go/wait decisions, and jaywalking probability depends on a per-pedestrian trait sampled at episode start and hidden from the SDC. In 500-episode evaluations, the co-trained SDC reached 78% of goals with a 14% collision rate, versus 35%/33% for the best rule-based baseline. A speed differential metric shows the SDC traveled 2.65 m/s faster near jaywalkers than near crosswalk users at close range (0-3 m), indicating jaywalking encounters were not anticipated. Jaywalking was 13% of crossing events but 62% of collisions, and co-training reduced collisions by 30% relative to single-agent RL as pedestrians learned to wait when the SDC approached at speed.",
+      "published_utc": "2026-05-18T12:02:41Z",
+      "updated_utc": "2026-05-25T19:49:33Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.20255v2",
+      "abs_url": "http://arxiv.org/abs/2605.20255v2"
     }
   },
   "topics": {
@@ -15049,9 +15092,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2605.24354v1",
-        "2605.24037v1"
+        "2605.24037v1",
+        "2605.26524v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15162,9 +15206,10 @@
         "2605.16858v1",
         "2605.20255v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.20255v2"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -15361,9 +15406,10 @@
         "2605.21500v1",
         "2605.25947v1",
         "2605.24562v1",
-        "2605.24354v1"
+        "2605.24354v1",
+        "2605.26524v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15501,9 +15547,10 @@
         "2605.25947v1",
         "2605.24354v1",
         "2605.24037v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.26524v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -15631,9 +15678,10 @@
         "2605.19004v1",
         "2605.08830v2",
         "2605.25829v1",
-        "2605.24037v1"
+        "2605.24037v1",
+        "2605.26524v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -15753,9 +15801,10 @@
         "2605.02759v2",
         "2605.08830v2",
         "2605.24037v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.26524v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -15937,9 +15986,10 @@
         "2605.16858v1",
         "2605.20255v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.20255v2"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-27"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",

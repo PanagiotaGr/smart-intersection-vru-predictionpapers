@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-26` (timezone: `Europe/Athens`)
+Updated: `2026-05-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **124**
+Total papers tracked: **125**
 
 ---
 
+- **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
+  *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
+  Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`
 - **OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation**  
   *Xinzhe Chen, Sihua Ren, Liqi Huang, Haowen Sun, Mingyang Li, Xingyu Chen, Zeyang Liu, Xuguang Lan*  
   Published: `2026-05-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.25829v1) · [pdf](https://arxiv.org/pdf/2605.25829v1) · id: `2605.25829v1`
