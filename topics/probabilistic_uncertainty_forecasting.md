@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-27` (timezone: `Europe/Athens`)
+Updated: `2026-05-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **126**
 
 ---
 
+- **UniMaia: Steering Chess Policies with Language for Human-like Play**  
+  *Sherman Siu, Lesley Istead*  
+  Published: `2026-05-26` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2605.27767v1) · [pdf](https://arxiv.org/pdf/2605.27767v1) · id: `2605.27767v1`
 - **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
   *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
   Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`

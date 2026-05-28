@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-05-27**
-- Latest digest: `digests/2026-05-27.md`
+- Updated on: **2026-05-28**
+- Latest digest: `digests/2026-05-28.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -30,7 +30,7 @@ This repository supports:
 | Intention and Crossing Behavior | 2026-05-27 | 108 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
 | Risk-aware Safety and Collision Prediction | 2026-05-27 | 194 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
 | Scene and Context-aware Prediction | 2026-05-27 | 135 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
-| Probabilistic and Uncertainty-aware Forecasting | 2026-05-27 | 125 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
+| Probabilistic and Uncertainty-aware Forecasting | 2026-05-28 | 126 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
 | Graph Transformer and Diffusion Models | 2026-05-27 | 117 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 2026-05-26 | 113 | [Autonomous Driving Forecasting for VRUs](topics/autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 2026-05-27 | 60 | [Crossing Decision and Gap Acceptance](topics/crossing_gap_acceptance.md) |
