@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-28` (timezone: `Europe/Athens`)
+Updated: `2026-05-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **202**
+Total papers tracked: **203**
 
 ---
 
+- **Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models**  
+  *Jiyao Zhang, Mingxu Zhang, Yitong Peng, Haoxuan Liu, Chenshuo Wang, Yuxing Long, Haoyang Huang, Dongjiang Li et al.*  
+  Published: `2026-05-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.29074v1) · [pdf](https://arxiv.org/pdf/2605.29074v1) · id: `2605.29074v1`
 - **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
   *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
   Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`

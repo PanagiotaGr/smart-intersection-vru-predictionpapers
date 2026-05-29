@@ -14714,6 +14714,109 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.27767v1",
       "abs_url": "http://arxiv.org/abs/2605.27767v1"
+    },
+    "2505.18647v3": {
+      "arxiv_id": "2505.18647v3",
+      "title": "STFlow: Data-Coupled Flow Matching for Geometric Trajectory Simulation",
+      "authors": [
+        "Kiet Bennema ten Brinke",
+        "Koen Minartz",
+        "Vlado Menkovski"
+      ],
+      "summary": "Simulating trajectories of dynamical systems is a fundamental problem in a wide range of fields such as molecular dynamics, biochemistry, and pedestrian dynamics. Machine learning has become an invaluable tool for scaling physics-based simulators and developing models directly from experimental data. In particular, recent advances in deep generative modeling and geometric deep learning enable probabilistic simulation by learning complex trajectory distributions while respecting intrinsic permutation and time-shift symmetries. However, trajectories of N-body systems are commonly characterized by high sensitivity to perturbations leading to bifurcations, as well as multi-scale temporal and spatial correlations. To address these challenges, we introduce STFlow (Spatio-Temporal Flow), a generative model based on graph neural networks and hierarchical convolutions. By incorporating data-dependent couplings within the Flow Matching framework, STFlow denoises starting from conditioned random-walks instead of Gaussian noise. This novel informed prior simplifies the learning task by reducing transport cost, increasing training and inference efficiency. We validate our approach on N-body systems, molecular dynamics, and human trajectory forecasting. Across these benchmarks, STFlow achieves the lowest prediction errors with fewer simulation steps and improved scalability.",
+      "published_utc": "2025-05-24T11:18:59Z",
+      "updated_utc": "2026-05-27T12:23:23Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2505.18647v3",
+      "abs_url": "http://arxiv.org/abs/2505.18647v3"
+    },
+    "2605.29074v1": {
+      "arxiv_id": "2605.29074v1",
+      "title": "Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models",
+      "authors": [
+        "Jiyao Zhang",
+        "Mingxu Zhang",
+        "Yitong Peng",
+        "Haoxuan Liu",
+        "Chenshuo Wang",
+        "Yuxing Long",
+        "Haoyang Huang",
+        "Dongjiang Li",
+        "Nan Duan",
+        "Hui Shen",
+        "Hao Dong"
+      ],
+      "summary": "Are current Vision Language Models (VLMs) ready to comprehend and reason about complex embodied interactions in 3D environments? We introduce Embodied3DBench, a robot-centric benchmark targeting low-level spatial intelligence in embodied 3D environments. To systematically evaluate these foundational perceptual capabilities, the benchmark includes 6 task categories divided into two core groups: Spatial Structural Understanding (Grounding, Spatial Relation Prediction, and Multi-view Correspondence) and Interaction-Oriented Perception (Affordance Prediction, Grasp Point Prediction, and Trajectory Prediction). The benchmark spans 12 subcategories and contains over 21k high-quality question-answer pairs. We evaluate 13 state-of-the-art models, and the results show that while current models exhibit relatively strong high-level spatial reasoning, such as understanding object-to-object positional relations, they remain fragile in interaction-oriented perception, highlighting a significant lack of robust 3D-aware interaction priors. To actively bridge this capability gap revealed by our benchmark, we further synthesize a large-scale training dataset comprising 1.3M QA pairs. Notably, fine-tuning on this dataset yields significant improvements in low-level spatial intelligence. Ultimately, Embodied3DBench fills a critical gap by providing both a systematic evaluation framework and a scalable data solution, setting a clear target for the development of interaction-aware multimodal systems.",
+      "published_utc": "2026-05-27T20:28:56Z",
+      "updated_utc": "2026-05-27T20:28:56Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.29074v1",
+      "abs_url": "http://arxiv.org/abs/2605.29074v1"
+    },
+    "2605.30280v1": {
+      "arxiv_id": "2605.30280v1",
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "authors": [
+        "Qiuyue Wang",
+        "Mingsheng Li",
+        "Jian Guan",
+        "Jinhui Ye",
+        "Sicheng Xie",
+        "Yitao Liu",
+        "Junhao Chen",
+        "Zhixuan Liang",
+        "Jie Zhang",
+        "Xintong Hu",
+        "Xuhong Huang",
+        "Pei Lin",
+        "Junyang Lin",
+        "Dayiheng Liu",
+        "Shuai Bai",
+        "Jingren Zhou",
+        "Jiazhao Zhang",
+        "Haoqi Yuan",
+        "Gengze Zhou",
+        "Hang Yin",
+        "Ye Wang",
+        "Yiyang Huang",
+        "Zixing Lei",
+        "Wujian Peng",
+        "Delin Chen",
+        "Yingming Zheng",
+        "Jingyang Fan",
+        "Xianwei Zhuang",
+        "Xin Zhou",
+        "Haoyang Li",
+        "Anzhe Chen",
+        "Tong Zhang",
+        "Xuejing Liu",
+        "Yuchong Sun",
+        "Ruizhe Chen",
+        "Zhaohai Li",
+        "Chenxu Lü",
+        "Zhibo Yang",
+        "Tao Yu",
+        "Xionghui Chen"
+      ],
+      "summary": "Embodied intelligence is often studied through specialized models for individual tasks such as manipulation or navigation, resulting in fragmented capabilities and limited generalization across tasks, environments, and robot embodiments. In this work, we study whether heterogeneous embodied decision-making problems can be unified within a single vision-language-action model. We present Qwen-VLA, a unified embodied foundation model that extends Qwen's vision-language modeling stack from perception, understanding, and reasoning to continuous action and trajectory generation through a DiT-based action decoder. Qwen-VLA is trained with a large-scale joint pretraining recipe over diverse data sources, including robotics manipulation trajectories, human egocentric demonstrations, synthetic simulation data, vision-and-language navigation data, trajectory-centric supervision, and auxiliary vision-language data. To support multiple robot platforms, we introduce embodiment-aware prompt conditioning, where robot-specific textual descriptions specify the current embodiment and control convention. We further cast manipulation, navigation, and trajectory prediction into a unified action-and-trajectory prediction framework, enabling transferable visual grounding, spatial reasoning, and continuous action generation across robot morphologies, task families, and environments. Experiments on manipulation, navigation, and trajectory-centric benchmarks show consistent multi-task performance and out-of-distribution generalization under variations in scene layout, background, lighting, object configuration, and robot embodiment. Qwen-VLA-Instruct achieves 97.9% on LIBERO, 73.7% on Simpler-WidowX, 86.1%/87.2% on RoboTwin-Easy/Hard, 69.0% OSR on R2R, 59.6% SR on RxR, 76.9% average OOD success in real-world ALOHA experiments, and 26.6% zero-shot success on DOMINO dynamic manipulation.",
+      "published_utc": "2026-05-28T17:36:31Z",
+      "updated_utc": "2026-05-28T17:36:31Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
+      "abs_url": "http://arxiv.org/abs/2605.30280v1"
     }
   },
   "topics": {
@@ -14855,9 +14958,10 @@
         "2603.19812v2",
         "2605.25947v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2505.18647v3"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-05-29"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -15112,9 +15216,10 @@
         "2605.24562v1",
         "2605.24354v1",
         "2605.24037v1",
-        "2605.26524v1"
+        "2605.26524v1",
+        "2605.29074v1"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-05-29"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15699,9 +15804,11 @@
         "2605.25829v1",
         "2605.24037v1",
         "2605.26524v1",
-        "2605.27767v1"
+        "2605.27767v1",
+        "2605.30280v1",
+        "2605.29074v1"
       ],
-      "latest_update": "2026-05-28"
+      "latest_update": "2026-05-29"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

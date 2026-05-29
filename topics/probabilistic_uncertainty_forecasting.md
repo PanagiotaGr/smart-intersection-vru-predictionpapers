@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-28` (timezone: `Europe/Athens`)
+Updated: `2026-05-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **126**
+Total papers tracked: **128**
 
 ---
 
+- **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
+  *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
+  Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v1) · [pdf](https://arxiv.org/pdf/2605.30280v1) · id: `2605.30280v1`
+- **Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models**  
+  *Jiyao Zhang, Mingxu Zhang, Yitong Peng, Haoxuan Liu, Chenshuo Wang, Yuxing Long, Haoyang Huang, Dongjiang Li et al.*  
+  Published: `2026-05-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.29074v1) · [pdf](https://arxiv.org/pdf/2605.29074v1) · id: `2605.29074v1`
 - **UniMaia: Steering Chess Policies with Language for Human-like Play**  
   *Sherman Siu, Lesley Istead*  
   Published: `2026-05-26` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2605.27767v1) · [pdf](https://arxiv.org/pdf/2605.27767v1) · id: `2605.27767v1`
