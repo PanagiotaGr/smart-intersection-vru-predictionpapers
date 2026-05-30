@@ -1,8 +1,8 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-29` (timezone: `Europe/Athens`)
+Updated: `2026-05-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **194**
+Total papers tracked: **195**
 
 ---
 
@@ -93,6 +93,9 @@ Total papers tracked: **194**
 - **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
   *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
   Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v1) · [pdf](https://arxiv.org/pdf/2604.00402v1) · id: `2604.00402v1`
+- **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
+  *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
+  Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v2) · [pdf](https://arxiv.org/pdf/2604.00402v2) · id: `2604.00402v2`
 - **Forecast collapse of transformer-based models under squared loss in financial time series**  
   *Pierre Andreoletti*  
   Published: `2026-03-31` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2604.00064v1) · [pdf](https://arxiv.org/pdf/2604.00064v1) · id: `2604.00064v1`

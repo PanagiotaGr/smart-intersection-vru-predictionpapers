@@ -14817,6 +14817,28 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
       "abs_url": "http://arxiv.org/abs/2605.30280v1"
+    },
+    "2604.00402v2": {
+      "arxiv_id": "2604.00402v2",
+      "title": "COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving",
+      "authors": [
+        "Seohyoung Park",
+        "Jaeyeol Lim",
+        "Seoyoung Ju",
+        "Kyeonghun Kim",
+        "Nam-Joon Kim",
+        "Hyuk-Jae Lee"
+      ],
+      "summary": "Developing robust models to accurately predict the trajectories of surrounding agents is fundamental to autonomous driving safety. However, most public datasets, such as the Waymo Open Motion Dataset and Argoverse, are collected in Western road environments and do not reflect the unique traffic patterns, infrastructure, and driving behaviors of other regions, including South Korea. This domain discrepancy leads to performance degradation when state-of-the-art models trained on Western data are deployed in different geographic contexts. In this work, we investigate the adaptability of Query-Centric Trajectory Prediction (QCNet) when transferred from U.S.-based data to Korean road environments. Using a Korean autonomous driving dataset, we compare four training strategies: zero-shot transfer, training from scratch, full fine-tuning, and encoder freezing. Experimental results demonstrate that leveraging pretrained knowledge significantly improves prediction performance. Specifically, selectively fine-tuning the decoder while freezing the encoder yields the best trade-off between accuracy and training efficiency, reducing prediction error by over 66% compared to training from scratch. This study provides practical insights into effective transfer learning strategies for deploying trajectory prediction models in new geographic domains.",
+      "published_utc": "2026-04-01T02:36:28Z",
+      "updated_utc": "2026-05-27T05:28:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.00402v2",
+      "abs_url": "http://arxiv.org/abs/2604.00402v2"
     }
   },
   "topics": {
@@ -15531,9 +15553,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2605.24354v1",
-        "2605.26524v1"
+        "2605.26524v1",
+        "2604.00402v2"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-05-30"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15672,9 +15695,12 @@
         "2605.24354v1",
         "2605.24037v1",
         "2604.23728v2",
-        "2605.26524v1"
+        "2605.26524v1",
+        "2605.30280v1",
+        "2605.27767v1",
+        "2604.00402v2"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-05-30"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",

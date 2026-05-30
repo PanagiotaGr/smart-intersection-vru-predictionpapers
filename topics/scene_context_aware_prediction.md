@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-05-29` (timezone: `Europe/Athens`)
+Updated: `2026-05-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **135**
+Total papers tracked: **138**
 
 ---
 
+- **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
+  *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
+  Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v1) · [pdf](https://arxiv.org/pdf/2605.30280v1) · id: `2605.30280v1`
+- **UniMaia: Steering Chess Policies with Language for Human-like Play**  
+  *Sherman Siu, Lesley Istead*  
+  Published: `2026-05-26` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2605.27767v1) · [pdf](https://arxiv.org/pdf/2605.27767v1) · id: `2605.27767v1`
 - **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
   *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
   Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`
@@ -132,6 +138,9 @@ Total papers tracked: **135**
 - **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
   *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
   Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v1) · [pdf](https://arxiv.org/pdf/2604.00402v1) · id: `2604.00402v1`
+- **COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving**  
+  *Seohyoung Park, Jaeyeol Lim, Seoyoung Ju, Kyeonghun Kim, Nam-Joon Kim, Hyuk-Jae Lee*  
+  Published: `2026-04-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.00402v2) · [pdf](https://arxiv.org/pdf/2604.00402v2) · id: `2604.00402v2`
 - **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
   *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
   Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`
