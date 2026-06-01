@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-05-31` (timezone: `Europe/Athens`)
+Updated: `2026-06-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **137**
+Total papers tracked: **138**
 
 ---
 
+- **Simulation of collision avoidance behavior in crowd movement by data-driven approach**  
+  *Xuanwen Liang, Eric Wai Ming Lee*  
+  Published: `2026-05-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.31210v1) · [pdf](https://arxiv.org/pdf/2605.31210v1) · id: `2605.31210v1`
 - **A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras**  
   *Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang*  
   Published: `2026-05-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.25947v1) · [pdf](https://arxiv.org/pdf/2605.25947v1) · id: `2605.25947v1`

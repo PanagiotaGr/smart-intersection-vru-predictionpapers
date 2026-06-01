@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-05-31` (timezone: `Europe/Athens`)
+Updated: `2026-06-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **195**
+Total papers tracked: **197**
 
 ---
 
+- **Simulation of collision avoidance behavior in crowd movement by data-driven approach**  
+  *Xuanwen Liang, Eric Wai Ming Lee*  
+  Published: `2026-05-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.31210v1) · [pdf](https://arxiv.org/pdf/2605.31210v1) · id: `2605.31210v1`
+- **Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?**  
+  *Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng*  
+  Published: `2026-05-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.31041v1) · [pdf](https://arxiv.org/pdf/2605.31041v1) · id: `2605.31041v1`
 - **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
   *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
   Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`

@@ -14839,6 +14839,86 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.00402v2",
       "abs_url": "http://arxiv.org/abs/2604.00402v2"
+    },
+    "2605.31210v1": {
+      "arxiv_id": "2605.31210v1",
+      "title": "Simulation of collision avoidance behavior in crowd movement by data-driven approach",
+      "authors": [
+        "Xuanwen Liang",
+        "Eric Wai Ming Lee"
+      ],
+      "summary": "Crowd movement simulation is essential for pedestrian safety management and facility layout optimization. Data-driven models enhance trajectory prediction accuracy under Euclidean metrics, yet they suffer from excessively high collision rates, especially in bidirectional and multidirectional flows. In this paper, we establish a novel data-driven crowd simulation model that incorporates the pedestrian collision mechanism into the loss function to reduce collisions. A new lateral-acceleration-based collision loss function and a Voronoi-based motion feature extraction approach are proposed. The model is based on a Generative Adversarial Network (GAN) architecture and is termed CPGAN (Collision-Penalized GAN). We evaluate CPGAN in bidirectional flow scenarios, which involve frequent collision avoidance behaviors. Results show that the proposed lateral-acceleration-based collision loss significantly reduces opposite-direction pedestrian collision rates to levels comparable with controlled experiments. CPGAN effectively simulates bidirectional flow, reproducing lane formation and N-t curves. The research outcomes can provide inspiration for integrating pedestrian dynamics mechanisms into loss functions in data-driven crowd simulation.",
+      "published_utc": "2026-05-29T12:15:52Z",
+      "updated_utc": "2026-05-29T12:15:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.31210v1",
+      "abs_url": "http://arxiv.org/abs/2605.31210v1"
+    },
+    "2605.31041v1": {
+      "arxiv_id": "2605.31041v1",
+      "title": "Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?",
+      "authors": [
+        "Jingtao He",
+        "Hongliang Lu",
+        "Xiaoyun Qiu",
+        "Yixuan Wang",
+        "Xinhu Zheng"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have demonstrated promising capability in autonomous driving, highlighting the potential of unified multimodal architectures for jointly modeling perception and planning. However, how current VLA-based driving behavior is grounded in visual information remains poorly understood. Existing evaluation protocols mainly focus on aggregate performance metrics, lacking structured and practical diagnostics to quantify visual-behavior dependency. In this work, we introduce a structured multi-level visual perturbation framework to analyze visual-behavior dependency in VLA-based driving models systematically. The framework organizes controlled visual perturbations along three complementary dimensions: channellevel degradation, information-level disruption, and structurelevel modification. We apply it to VLA-based driving systems and evaluate behavioral responses under both open-loop trajectory prediction and interactive closed-loop safety evaluation. Experimental results reveal evaluation-dependent dependency patterns and uneven visual grounding across abstraction levels. These findings call for more structured analyses and principled design of VLA driving models to better understand how visual information shapes behavior and develop safer, more robust systems.",
+      "published_utc": "2026-05-29T09:18:32Z",
+      "updated_utc": "2026-05-29T09:18:32Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.31041v1",
+      "abs_url": "http://arxiv.org/abs/2605.31041v1"
+    },
+    "2503.21168v3": {
+      "arxiv_id": "2503.21168v3",
+      "title": "TAGA: A Tangent-Based Reactive Approach for Socially Compliant Robot Navigation Around Human Groups",
+      "authors": [
+        "Utsha Kumar Roy",
+        "Sejuti Rahman"
+      ],
+      "summary": "Robots navigating human-populated environments must avoid collisions while respecting the social structure of crowds, particularly the implicit boundaries of social groups. Most navigation approaches model humans as independent individuals,causing socially disruptive behavior even when collision-free. This paper presents TAGA (Tangent Action for Group Avoidance), detected group boundaries via tangent-path maneuvers without modifying the underlying navigation policy. A hierarchical safety controller coordinates group-level avoidance with individual collision prevention. We propose the Group Crossing Rate (GCR), a continuous metric measuring the fraction of timesteps the robot spends inside any group convex hull, providing finer-grained social compliance assessment than terminal metrics alone. We introduce a realistic crowd simulation benchmark with five empirically grounded phases: individual speed heterogeneity, group speed coupling, F-formation static groups, leader-follower dynamics, and convex-hull boundaries, evaluated under both ORCA and Social Force pedestrian dynamics. Experiments across ORCA, Social Force, DS-RNN, and Intention-RL reveal a reactive-learning asymmetry: TAGA provides the largest gains for classical reactive baselines (up to +8pp success rate, GCR halved) with near-zero cost for learned policies. These findings offer actionable guidance for when modular group-awareness adds value versus when end-to-end group-aware training is preferable.",
+      "published_utc": "2025-03-27T05:37:16Z",
+      "updated_utc": "2026-05-28T21:02:42Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.21168v3",
+      "abs_url": "http://arxiv.org/abs/2503.21168v3"
+    },
+    "2601.18537v3": {
+      "arxiv_id": "2601.18537v3",
+      "title": "SKETCH: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction",
+      "authors": [
+        "Linyong Gan",
+        "Zimo Li",
+        "Wenxin Xu",
+        "Xingjian Li",
+        "Jianhua Z. Huang",
+        "Enmei Tu",
+        "Shuhang Chen"
+      ],
+      "summary": "Accurate long-horizon vessel trajectory prediction remains challenging due to compounded uncertainty from complex navigation behaviors and environmental factors. Existing methods often struggle to maintain global directional consistency, leading to drifting or implausible trajectories when extrapolated over long time horizons. To address this issue, we propose a semantic-key-point-conditioned trajectory modeling framework, in which future trajectories are predicted by conditioning on a high-level Next Key Point (NKP) that captures navigational intent. This formulation decomposes long-horizon prediction into global semantic decision-making and local motion modeling, effectively restricting the support of future trajectories to semantically feasible subsets. To efficiently estimate the NKP prior from historical observations, we adopt a pretrain-finetune strategy. Extensive experiments on real-world AIS data demonstrate that the proposed method consistently outperforms state-of-the-art approaches, particularly for long travel durations, directional accuracy, and fine-grained trajectory prediction.",
+      "published_utc": "2026-01-26T14:42:31Z",
+      "updated_utc": "2026-05-29T08:17:45Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.18537v3",
+      "abs_url": "http://arxiv.org/abs/2601.18537v3"
     }
   },
   "topics": {
@@ -14981,9 +15061,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2505.18647v3"
+        "2505.18647v3",
+        "2605.31210v1"
       ],
-      "latest_update": "2026-05-29"
+      "latest_update": "2026-06-01"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -15239,9 +15320,10 @@
         "2605.24354v1",
         "2605.24037v1",
         "2605.26524v1",
-        "2605.29074v1"
+        "2605.29074v1",
+        "2605.31041v1"
       ],
-      "latest_update": "2026-05-29"
+      "latest_update": "2026-06-01"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15353,9 +15435,10 @@
         "2605.20255v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2605.20255v2"
+        "2605.20255v2",
+        "2503.21168v3"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-06-01"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -15554,9 +15637,11 @@
         "2605.24562v1",
         "2605.24354v1",
         "2605.26524v1",
-        "2604.00402v2"
+        "2604.00402v2",
+        "2605.31210v1",
+        "2605.31041v1"
       ],
-      "latest_update": "2026-05-30"
+      "latest_update": "2026-06-01"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15832,9 +15917,11 @@
         "2605.26524v1",
         "2605.27767v1",
         "2605.30280v1",
-        "2605.29074v1"
+        "2605.29074v1",
+        "2605.31041v1",
+        "2601.18537v3"
       ],
-      "latest_update": "2026-05-29"
+      "latest_update": "2026-06-01"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16297,9 +16384,10 @@
         "2605.18074v1",
         "2605.25947v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.31210v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-06-01"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -16410,9 +16498,10 @@
         "2603.19812v2",
         "2605.25947v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2605.31210v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-06-01"
     }
   }
 }

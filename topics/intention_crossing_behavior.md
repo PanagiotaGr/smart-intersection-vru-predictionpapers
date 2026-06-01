@@ -1,8 +1,8 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-05-31` (timezone: `Europe/Athens`)
+Updated: `2026-06-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **108**
+Total papers tracked: **109**
 
 ---
 
@@ -162,6 +162,9 @@ Total papers tracked: **108**
 - **Temporal-contextual Event Learning for Pedestrian Crossing Intent Prediction**  
   *Hongbin Liang, Hezhe Qiao, Wei Huang, Qizhou Wang, Mingsheng Shang, Lin Chen*  
   Published: `2025-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2504.06292v1) · [pdf](https://arxiv.org/pdf/2504.06292v1) · id: `2504.06292v1`
+- **TAGA: A Tangent-Based Reactive Approach for Socially Compliant Robot Navigation Around Human Groups**  
+  *Utsha Kumar Roy, Sejuti Rahman*  
+  Published: `2025-03-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2503.21168v3) · [pdf](https://arxiv.org/pdf/2503.21168v3) · id: `2503.21168v3`
 - **ICPR 2024 Competition on Rider Intention Prediction**  
   *Shankar Gangisetty, Abdul Wasi, Shyam Nandan Rai, C. V. Jawahar, Sajay Raj, Manish Prajapati, Ayesha Choudhary, Aaryadev Chandra et al.*  
   Published: `2025-03-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2503.08437v1) · [pdf](https://arxiv.org/pdf/2503.08437v1) · id: `2503.08437v1`

@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-05-31` (timezone: `Europe/Athens`)
+Updated: `2026-06-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **128**
+Total papers tracked: **130**
 
 ---
 
+- **Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?**  
+  *Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng*  
+  Published: `2026-05-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.31041v1) · [pdf](https://arxiv.org/pdf/2605.31041v1) · id: `2605.31041v1`
 - **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
   *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
   Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v1) · [pdf](https://arxiv.org/pdf/2605.30280v1) · id: `2605.30280v1`
@@ -189,6 +192,9 @@ Total papers tracked: **128**
 - **SKETCH: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction**  
   *Linyong Gan, Zimo Li, Wenxin Xu, Xingjian Li, Jianhua Z. Huang, Enmei Tu, Shuhang Chen*  
   Published: `2026-01-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.18537v2) · [pdf](https://arxiv.org/pdf/2601.18537v2) · id: `2601.18537v2`
+- **SKETCH: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction**  
+  *Linyong Gan, Zimo Li, Wenxin Xu, Xingjian Li, Jianhua Z. Huang, Enmei Tu, Shuhang Chen*  
+  Published: `2026-01-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.18537v3) · [pdf](https://arxiv.org/pdf/2601.18537v3) · id: `2601.18537v3`
 - **CARLA-Round: A Multi-Factor Simulation Dataset for Roundabout Trajectory Prediction**  
   *Xiaotong Zhou, Zhenhui Yuan, Yi Han, Tianhua Xu, Laurence T. Yang*  
   Published: `2026-01-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2601.12119v1) · [pdf](https://arxiv.org/pdf/2601.12119v1) · id: `2601.12119v1`

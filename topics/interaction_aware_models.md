@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-05-31` (timezone: `Europe/Athens`)
+Updated: `2026-06-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **203**
+Total papers tracked: **204**
 
 ---
 
+- **Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?**  
+  *Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng*  
+  Published: `2026-05-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.31041v1) · [pdf](https://arxiv.org/pdf/2605.31041v1) · id: `2605.31041v1`
 - **Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models**  
   *Jiyao Zhang, Mingxu Zhang, Yitong Peng, Haoxuan Liu, Chenshuo Wang, Yuxing Long, Haoyang Huang, Dongjiang Li et al.*  
   Published: `2026-05-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.29074v1) · [pdf](https://arxiv.org/pdf/2605.29074v1) · id: `2605.29074v1`
