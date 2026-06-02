@@ -1,17 +1,26 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **130**
+Total papers tracked: **134**
 
 ---
 
+- **From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction**  
+  *Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-05-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.00857v1) · [pdf](https://arxiv.org/pdf/2606.00857v1) · id: `2606.00857v1`
+- **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
+  *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
+  Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`
 - **Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?**  
   *Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng*  
   Published: `2026-05-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.31041v1) · [pdf](https://arxiv.org/pdf/2605.31041v1) · id: `2605.31041v1`
 - **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
   *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
   Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v1) · [pdf](https://arxiv.org/pdf/2605.30280v1) · id: `2605.30280v1`
+- **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
+  *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
+  Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v2) · [pdf](https://arxiv.org/pdf/2605.30280v2) · id: `2605.30280v2`
 - **Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models**  
   *Jiyao Zhang, Mingxu Zhang, Yitong Peng, Haoxuan Liu, Chenshuo Wang, Yuxing Long, Haoyang Huang, Dongjiang Li et al.*  
   Published: `2026-05-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.29074v1) · [pdf](https://arxiv.org/pdf/2605.29074v1) · id: `2605.29074v1`
@@ -87,6 +96,9 @@ Total papers tracked: **130**
 - **EagleVision: A Multi-Task Benchmark for Cross-Domain Perception in High-Speed Autonomous Racing**  
   *Zakhar Yagudin, Murad Mebrahtu, Ren Jin, Jiaqi Huang, Yujia Yue, Dzmitry Tsetserukou, Jorge Dias, Majid Khonji*  
   Published: `2026-04-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.11400v1) · [pdf](https://arxiv.org/pdf/2604.11400v1) · id: `2604.11400v1`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

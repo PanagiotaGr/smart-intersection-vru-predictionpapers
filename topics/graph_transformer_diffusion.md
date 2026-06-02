@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **117**
+Total papers tracked: **119**
 
 ---
 
+- **Learning Multi-Modal Trajectory Policies for Data-Efficient Robotic Manipulation**  
+  *Zijia Chen, Yuenan Hou, Xinhua Jiang, Yu Li, Weijie Li, Li Liu*  
+  Published: `2026-05-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.01047v1) · [pdf](https://arxiv.org/pdf/2606.01047v1) · id: `2606.01047v1`
 - **CmIVTP: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence**  
   *Yuxu Lu, Dong Yang, Xiaoyu Li, Mengwei Bao, Congcong Zhao*  
   Published: `2026-05-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.26524v1) · [pdf](https://arxiv.org/pdf/2605.26524v1) · id: `2605.26524v1`
@@ -72,6 +75,9 @@ Total papers tracked: **117**
 - **MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning**  
   *Wenchang Duan*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v1) · [pdf](https://arxiv.org/pdf/2604.10169v1) · id: `2604.10169v1`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

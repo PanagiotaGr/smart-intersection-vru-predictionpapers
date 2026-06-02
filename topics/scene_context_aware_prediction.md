@@ -1,14 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **138**
+Total papers tracked: **142**
 
 ---
 
+- **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
+  *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
+  Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`
 - **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
   *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
   Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v1) · [pdf](https://arxiv.org/pdf/2605.30280v1) · id: `2605.30280v1`
+- **Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments**  
+  *Qiuyue Wang, Mingsheng Li, Jian Guan, Jinhui Ye, Sicheng Xie, Yitao Liu, Junhao Chen, Zhixuan Liang et al.*  
+  Published: `2026-05-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.30280v2) · [pdf](https://arxiv.org/pdf/2605.30280v2) · id: `2605.30280v2`
 - **UniMaia: Steering Chess Policies with Language for Human-like Play**  
   *Sherman Siu, Lesley Istead*  
   Published: `2026-05-26` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2605.27767v1) · [pdf](https://arxiv.org/pdf/2605.27767v1) · id: `2605.27767v1`
@@ -81,6 +87,9 @@ Total papers tracked: **138**
 - **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
   *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
   Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v1) · [pdf](https://arxiv.org/pdf/2604.28173v1) · id: `2604.28173v1`
+- **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
+  *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
+  Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v2) · [pdf](https://arxiv.org/pdf/2604.28173v2) · id: `2604.28173v2`
 - **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
   *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
   Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
@@ -111,6 +120,9 @@ Total papers tracked: **138**
 - **EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications**  
   *Seungjin Kim, Reza Jafarpourmarzouni, Christopher Neff, Hamed Tabkhi, Vinit Katariya*  
   Published: `2026-04-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.16783v1) · [pdf](https://arxiv.org/pdf/2604.16783v1) · id: `2604.16783v1`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
 - **Envisioning the Future, One Step at a Time**  
   *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`

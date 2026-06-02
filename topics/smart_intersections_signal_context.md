@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **28**
+Total papers tracked: **30**
 
 ---
 
+- **KG-FairDiff: Knowledge Graph-Guided Prompt Refinement for Demographically Fair Text-to-Image Generation**  
+  *Farbod Davoodi, Seyed Reza Tavakoli Shiyadeh, Pooria Safaei, Sana Harighi, Parsa Gholami, Amirali Amini, Kimia Vanaei, Emad Firoozi et al.*  
+  Published: `2026-05-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.01282v1) · [pdf](https://arxiv.org/pdf/2606.01282v1) · id: `2606.01282v1`
+- **From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction**  
+  *Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-05-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.00857v1) · [pdf](https://arxiv.org/pdf/2606.00857v1) · id: `2606.00857v1`
 - **Exploitation of Hidden Context in Dynamic Movement Forecasting: A Neural Network Journey from Recurrent to Graph Neural Networks and General Purpose Transformers**  
   *Lukas Schelenz, Shobha Rajanna, Denis Gosalci, Lucas Heublein, Jonas Pirkl, Jonathan Ott, Felix Ott, Christopher Mutschler et al.*  
   Published: `2026-05-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.14855v1) · [pdf](https://arxiv.org/pdf/2605.14855v1) · id: `2605.14855v1`

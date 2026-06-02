@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **108**
+Total papers tracked: **109**
 
 ---
 
+- **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
+  *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
+  Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`
 - **Simulation of collision avoidance behavior in crowd movement by data-driven approach**  
   *Xuanwen Liang, Eric Wai Ming Lee*  
   Published: `2026-05-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.31210v1) · [pdf](https://arxiv.org/pdf/2605.31210v1) · id: `2605.31210v1`

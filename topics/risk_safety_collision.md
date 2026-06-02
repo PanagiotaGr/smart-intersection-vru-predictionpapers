@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **197**
+Total papers tracked: **199**
 
 ---
 
+- **From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction**  
+  *Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-05-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.00857v1) · [pdf](https://arxiv.org/pdf/2606.00857v1) · id: `2606.00857v1`
 - **Simulation of collision avoidance behavior in crowd movement by data-driven approach**  
   *Xuanwen Liang, Eric Wai Ming Lee*  
   Published: `2026-05-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.31210v1) · [pdf](https://arxiv.org/pdf/2605.31210v1) · id: `2605.31210v1`
@@ -87,6 +90,9 @@ Total papers tracked: **197**
 - **COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments**  
   *Ege Gursoy, Maxime Sabbah, Arthur Haffemayer, Joao Cavalcanti Santos, Pietro Noah Crestaz, Vladimir Petrik, Nicolas Mansard, Vincent Bonnet*  
   Published: `2026-04-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.10358v1) · [pdf](https://arxiv.org/pdf/2604.10358v1) · id: `2604.10358v1`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
 - **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
   *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
   Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`

@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-01` (timezone: `Europe/Athens`)
+Updated: `2026-06-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **204**
+Total papers tracked: **205**
 
 ---
 
@@ -123,6 +123,9 @@ Total papers tracked: **204**
 - **MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning**  
   *Wenchang Duan*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v1) · [pdf](https://arxiv.org/pdf/2604.10169v1) · id: `2604.10169v1`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
 - **Envisioning the Future, One Step at a Time**  
   *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`

@@ -14919,6 +14919,199 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2601.18537v3",
       "abs_url": "http://arxiv.org/abs/2601.18537v3"
+    },
+    "2606.00471v1": {
+      "arxiv_id": "2606.00471v1",
+      "title": "MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting",
+      "authors": [
+        "Yu Liu",
+        "Ming Huang",
+        "Xiao Ren",
+        "Zhijie Liu",
+        "Youfu Li",
+        "He Kong"
+      ],
+      "summary": "Accurate pedestrian trajectory prediction is essential for safe navigation in autonomous driving and intelligent transportation systems. Despite substantial progress made by recent methods, most existing approaches are limited in fully exploiting diverse observations and often overlook the scale dependency of future motion, treating multiscale features uniformly regardless of underlying motion dynamics. This limits their robustness across diverse pedestrian behaviors. To address these challenges, we propose a Predicted-MUltiSCale-Aware Network (MUSCLE-NET) for Pedestrian Trajectory Forecasting that integrates complementary multimodal cues with scale-adaptive prediction mechanisms. The proposed framework is built upon a Multiscale Multimodal Feature Extraction (MMFE) module, which combines multiscale representation, modality-aware recalibration, and directional cross-modal fusion to construct semantically aligned representations from bounding boxes, velocities, and pose information. Building on these features, a Multiscale Enhanced Hierarchical Prediction (MEHP) module performs prediction-aware future-motion refinement via a probabilistic coarse predictor, scale-aligned fusion, and progressive refinement, adaptively selecting scale-relevant cues to mitigate spatial drift. Extensive experiments on the JAAD and PIE benchmarks demonstrate that the proposed MUSCLE-Net achieves competitive performance and consistent gains compared with state-of-the-art trajectory prediction methods.",
+      "published_utc": "2026-05-30T01:30:02Z",
+      "updated_utc": "2026-05-30T01:30:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.00471v1",
+      "abs_url": "http://arxiv.org/abs/2606.00471v1"
+    },
+    "2604.10169v2": {
+      "arxiv_id": "2604.10169v2",
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Wenchang Duan",
+        "Zhenguo Gao",
+        "Jinguo Xian",
+        "Yi Shi"
+      ],
+      "summary": "Trajectory prediction is a key component of autonomous driving systems because future motions directly affect collision checking, behavior planning, and control. The task remains challenging under dense interactions, heterogeneous behaviors, multimodal futures, and limited on-board computation. Existing graph, attention, and generative predictors improve interaction reasoning or uncertainty modeling, but their high-capacity designs are often costly for real-time deployment. Lightweight predictors and conventional distillation reduce inference cost, yet usually rely on static imitation and do not explicitly correct safety-relevant teacher bias. This paper proposes \\textbf{MAVEN-T}, a reinforced heterogeneous distillation framework for real-time multi-agent trajectory prediction. A high-capacity teacher models directed local interactions with a surround-aware graph encoder, combines efficient temporal filtering with shifted-window spatial attention, and decodes maneuver-specific futures through a sparse Mixture-of-Experts head. A compact GRU--Squeeze-and-Excitation student with a Low-Rank Adapted policy head is trained by feature-, attention-, and semantic-level distillation. To align prediction with downstream behavior, the student is further refined by Proximal Policy Optimization rewards for collision avoidance, comfort, and progress, while a complexity-aware curriculum and Elastic Weight Consolidation stabilize stage-wise training. Experiments on NGSIM, HighD, MoCAD, Argoverse~2, and the Waymo Open Motion Dataset evaluate accuracy, efficiency, generalization, robustness, and closed-loop safety. The student achieves 6.2$\\times$ parameter compression, 3.7$\\times$ inference acceleration, and 14.6,ms latency on an NVIDIA Jetson AGX Orin while maintaining competitive accuracy.",
+      "published_utc": "2026-04-11T11:34:13Z",
+      "updated_utc": "2026-05-31T05:49:41Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.10169v2",
+      "abs_url": "http://arxiv.org/abs/2604.10169v2"
+    },
+    "2606.00857v1": {
+      "arxiv_id": "2606.00857v1",
+      "title": "From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction",
+      "authors": [
+        "Xinyi Ning",
+        "Zilin Bian",
+        "Dachuan Zuo",
+        "Semiha Ergan",
+        "Kaan Ozbay"
+      ],
+      "summary": "Accurate and reliable vehicle trajectory prediction is essential for safe autonomous driving. Recent studies have incorporated safety risk into trajectory prediction to quantify dangers posed by surrounding agents. However, most risk-aware approaches use past risk information as a secondary signal to help guide decisions, overlooking its future evolution and uncertainty. In this paper, we propose a risk horizon profiling (RHP) module that incorporates a continuous, learnable potential field model for risk-aware trajectory prediction. The RHP module calculates the spatial-temporal proximity of surrounding objects to profile risk distributions across future horizons, which supports better trajectory prediction by adaptively identifying what human drivers perceive as critical moments. We evaluate our method on two datasets from different driving settings, highD for highway corridors and SHRP2 for urban streets, which cover diverse risk scenarios including safe, near-crash, and crash events. Compared to the baseline methods, our framework achieves a 25.0\\% reduction in 5s RMSE on the highD dataset and a 29.1\\% reduction in 5s minFDE on SHRP2. These results indicate strong performance for both short and long horizon prediction and robust generalization across highway and urban scenarios. The proposed method enables more realistic AV path planning and strategic selection, thereby supporting safer autonomous driving and more advanced driver-assistance systems. The source code for this work is available at: https://github.com/bilab-nyu/RHP",
+      "published_utc": "2026-05-30T19:17:24Z",
+      "updated_utc": "2026-05-30T19:17:24Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.00857v1",
+      "abs_url": "http://arxiv.org/abs/2606.00857v1"
+    },
+    "2605.30280v2": {
+      "arxiv_id": "2605.30280v2",
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "authors": [
+        "Qiuyue Wang",
+        "Mingsheng Li",
+        "Jian Guan",
+        "Jinhui Ye",
+        "Sicheng Xie",
+        "Yitao Liu",
+        "Junhao Chen",
+        "Zhixuan Liang",
+        "Jie Zhang",
+        "Xintong Hu",
+        "Xuhong Huang",
+        "Pei Lin",
+        "Junyang Lin",
+        "Dayiheng Liu",
+        "Shuai Bai",
+        "Jingren Zhou",
+        "Jiazhao Zhang",
+        "Haoqi Yuan",
+        "Gengze Zhou",
+        "Hang Yin",
+        "Ye Wang",
+        "Yiyang Huang",
+        "Zixing Lei",
+        "Wujian Peng",
+        "Delin Chen",
+        "Yingming Zheng",
+        "Jingyang Fan",
+        "Xianwei Zhuang",
+        "Xin Zhou",
+        "Haoyang Li",
+        "Anzhe Chen",
+        "Tong Zhang",
+        "Xuejing Liu",
+        "Yuchong Sun",
+        "Ruizhe Chen",
+        "Zhaohai Li",
+        "Chenxu Lü",
+        "Zhibo Yang",
+        "Tao Yu",
+        "Xionghui Chen"
+      ],
+      "summary": "Embodied intelligence is often studied through specialized models for individual tasks such as manipulation or navigation, resulting in fragmented capabilities and limited generalization across tasks, environments, and robot embodiments. In this work, we study whether heterogeneous embodied decision-making problems can be unified within a single vision-language-action model. We present Qwen-VLA, a unified embodied foundation model that extends Qwen's vision-language modeling stack from perception, understanding, and reasoning to continuous action and trajectory generation through a DiT-based action decoder. Qwen-VLA is trained with a large-scale joint pretraining recipe over diverse data sources, including robotics manipulation trajectories, human egocentric demonstrations, synthetic simulation data, vision-and-language navigation data, trajectory-centric supervision, and auxiliary vision-language data. To support multiple robot platforms, we introduce embodiment-aware prompt conditioning, where robot-specific textual descriptions specify the current embodiment and control convention. We further cast manipulation, navigation, and trajectory prediction into a unified action-and-trajectory prediction framework, enabling transferable visual grounding, spatial reasoning, and continuous action generation across robot morphologies, task families, and environments. Experiments on manipulation, navigation, and trajectory-centric benchmarks show consistent multi-task performance and out-of-distribution generalization under variations in scene layout, background, lighting, object configuration, and robot embodiment. Qwen-VLA-Instruct achieves 97.9% on LIBERO, 73.7% on Simpler-WidowX, 86.1%/87.2% on RoboTwin-Easy/Hard, 69.0% OSR on R2R, 59.6% SR on RxR, 76.9% average OOD success in real-world ALOHA experiments, and 26.6% zero-shot success on DOMINO dynamic manipulation.",
+      "published_utc": "2026-05-28T17:36:31Z",
+      "updated_utc": "2026-06-01T13:48:35Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.30280v2",
+      "abs_url": "http://arxiv.org/abs/2605.30280v2"
+    },
+    "2604.28173v2": {
+      "arxiv_id": "2604.28173v2",
+      "title": "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements",
+      "authors": [
+        "Genki Kinoshita",
+        "Shu Nakamura",
+        "Ryo Kawahara",
+        "Shohei Nobuhara",
+        "Yasutomo Kawanishi",
+        "Ko Nishino"
+      ],
+      "summary": "Effective human behavior modeling requires a representation of the human body movement that capitalizes on its compositionality. We propose a hierarchical representation consisting of Action Atoms that capture the atomic joint movements and Action Motifs that are formed by their temporal compositions and encode similar body movements found across different overall human actions. We derive A4Mer, a nested latent Transformer to learn this hierarchical representation from human pose data in a fully self-supervised manner. A4Mer splits a 3D pose sequence into variable-length segments and represents each segment as a single latent token (Action Atoms). Through bottom-up representation learning, temporal patterns composed of these Action Atoms, which capture meaningful temporal spans of reusable, semantic segments of body movements, naturally emerge (Action Motifs). A4Mer achieves this with a unified pretext task of masked token prediction in their respective latent spaces. We also introduce Action Motif Dataset (AMD), a large-scale dataset of multi-view human behavior videos with full SMPL annotations. We introduce a novel use of cameras by mounting them on the feet to achieve their frame-wise annotations despite frequent and heavy body occlusions. Experimental results demonstrate the effectiveness of A4Mer for extracting meaningful Action Motifs, which significantly benefit human behavior modeling tasks including action recognition, motion prediction, and motion interpolation.",
+      "published_utc": "2026-04-30T17:55:01Z",
+      "updated_utc": "2026-06-01T05:23:11Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.28173v2",
+      "abs_url": "http://arxiv.org/abs/2604.28173v2"
+    },
+    "2606.01047v1": {
+      "arxiv_id": "2606.01047v1",
+      "title": "Learning Multi-Modal Trajectory Policies for Data-Efficient Robotic Manipulation",
+      "authors": [
+        "Zijia Chen",
+        "Yuenan Hou",
+        "Xinhua Jiang",
+        "Yu Li",
+        "Weijie Li",
+        "Li Liu"
+      ],
+      "summary": "Robotic manipulation requires the effective integration of heterogeneous inputs, including visual observations, language instructions, and trajectory representations, to generate accurate actions. Existing transformer-based policies typically process these heterogeneous modalities within a shared parameter space, which often leads to modality interference and inefficient representation learning, especially in data-scarce scenarios. While Mixture-of-Experts (MoE) offers a scalable solution through expert specialization, conventional routing mechanisms are often sensitive to such cross-modal representation discrepancies, resulting in unstable expert assignment and expert collapse. In this work, we propose MATE (Multi-ModAl TrajEctory Policies), a novel trajectory prediction framework built upon MoE. Specifically, we introduce a Multi-Modal MoE architecture to achieve fine-grained sub-token feature decoupling, and design a cross-modal cosine router for stable and scale-invariant expert assignment across heterogeneous modalities. We further employ temperature-controlled routing and stochastic noise injection to improve expert balance and prevent premature routing collapse under scarce demonstrations. Experiments on the LIBERO benchmark show that our MATE consistently outperforms prior work under data scarcity. It achieves a 4.75% improvement in average success rate over the trajectory-guided counterpart. Real-world experiments on robotic ping-pong also suggest that the predicted trajectories can provide useful guidance for downstream robotic execution, further indicating the practical feasibility of our algorithm.",
+      "published_utc": "2026-05-31T06:35:10Z",
+      "updated_utc": "2026-05-31T06:35:10Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.01047v1",
+      "abs_url": "http://arxiv.org/abs/2606.01047v1"
+    },
+    "2606.01282v1": {
+      "arxiv_id": "2606.01282v1",
+      "title": "KG-FairDiff: Knowledge Graph-Guided Prompt Refinement for Demographically Fair Text-to-Image Generation",
+      "authors": [
+        "Farbod Davoodi",
+        "Seyed Reza Tavakoli Shiyadeh",
+        "Pooria Safaei",
+        "Sana Harighi",
+        "Parsa Gholami",
+        "Amirali Amini",
+        "Kimia Vanaei",
+        "Emad Firoozi",
+        "Parham Abed Azad",
+        "Babak Khalaj",
+        "Siavash Ahmadi",
+        "Amir Hossein Payberah",
+        "Mohammad Hossein Rohban",
+        "Soheil Kolouri",
+        "Ali Diba"
+      ],
+      "summary": "Text-to-Image (TTI) systems are now everyday infrastructure for journalism, education, advertising, and public communication, and the demographic and cultural stereotypes they inherit from training data (rendering women, people of colour, older adults, and non-Western cultures as under-represented or caricatured) become a population-level harm at deployment scale. Existing mitigations either require costly retraining, infeasible for the closed-source backbones that dominate consumer products, or rely on fixed demographic templates that ignore cultural context. We present KG-FairDiff, a model-agnostic, inference-time framework that formalises fairness-aware prompt refinement as a constrained optimisation problem and operationalises it as a closed-loop pipeline: a knowledge graph of ~1,200 culture- and bias-related triples retrieves structured context, an LLM rewriter proposes refinements, and a validator accepts only prompts that reduce a divergence-based fairness loss while preserving semantic fidelity to the user's original intent. We prove a finite-termination bound for the refinement loop, contribute a mathematically consistent evaluation suite linking Bias-P/Bias-W to divergence from target distributions and ENS to KL divergence, and audit eight widely-deployed backbone generators. KG-FairDiff substantially reduces gender, race, age, and intersectional disparities while preserving prompt semantics, offering a practical, deployment-ready route to more equitable generative AI.",
+      "published_utc": "2026-05-31T15:06:43Z",
+      "updated_utc": "2026-05-31T15:06:43Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.01282v1",
+      "abs_url": "http://arxiv.org/abs/2606.01282v1"
     }
   },
   "topics": {
@@ -15062,9 +15255,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2505.18647v3",
-        "2605.31210v1"
+        "2605.31210v1",
+        "2606.00471v1"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -15321,9 +15515,10 @@
         "2605.24037v1",
         "2605.26524v1",
         "2605.29074v1",
-        "2605.31041v1"
+        "2605.31041v1",
+        "2604.10169v2"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15639,9 +15834,11 @@
         "2605.26524v1",
         "2604.00402v2",
         "2605.31210v1",
-        "2605.31041v1"
+        "2605.31041v1",
+        "2606.00857v1",
+        "2604.10169v2"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -15783,9 +15980,13 @@
         "2605.26524v1",
         "2605.30280v1",
         "2605.27767v1",
-        "2604.00402v2"
+        "2604.00402v2",
+        "2606.00471v1",
+        "2605.30280v2",
+        "2604.28173v2",
+        "2604.10169v2"
       ],
-      "latest_update": "2026-05-30"
+      "latest_update": "2026-06-02"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -15919,9 +16120,13 @@
         "2605.30280v1",
         "2605.29074v1",
         "2605.31041v1",
-        "2601.18537v3"
+        "2601.18537v3",
+        "2606.00857v1",
+        "2606.00471v1",
+        "2605.30280v2",
+        "2604.10169v2"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16042,9 +16247,11 @@
         "2605.08830v2",
         "2605.24037v1",
         "2604.23728v2",
-        "2605.26524v1"
+        "2605.26524v1",
+        "2606.01047v1",
+        "2604.10169v2"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-06-02"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -16161,9 +16368,10 @@
         "2603.19812v2",
         "2605.25947v1",
         "2605.24562v1",
-        "2604.23728v2"
+        "2604.23728v2",
+        "2606.00471v1"
       ],
-      "latest_update": "2026-05-26"
+      "latest_update": "2026-06-02"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -16261,9 +16469,11 @@
         "2604.22852v1",
         "2604.26065v1",
         "2603.25342v2",
-        "2605.14855v1"
+        "2605.14855v1",
+        "2606.01282v1",
+        "2606.00857v1"
       ],
-      "latest_update": "2026-05-15"
+      "latest_update": "2026-06-02"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -16385,9 +16595,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2605.31210v1"
+        "2605.31210v1",
+        "2606.00471v1"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -16499,9 +16710,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2605.31210v1"
+        "2605.31210v1",
+        "2606.00471v1"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-02"
     }
   }
 }
