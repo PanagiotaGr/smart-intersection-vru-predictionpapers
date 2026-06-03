@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-02` (timezone: `Europe/Athens`)
+Updated: `2026-06-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **205**
+Total papers tracked: **207**
 
 ---
 
+- **Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift**  
+  *Doyeong Lim, Seungyoon Lee, In Cheol Bang*  
+  Published: `2026-06-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.03321v1) · [pdf](https://arxiv.org/pdf/2606.03321v1) · id: `2606.03321v1`
 - **Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?**  
   *Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng*  
   Published: `2026-05-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.31041v1) · [pdf](https://arxiv.org/pdf/2605.31041v1) · id: `2605.31041v1`
@@ -126,6 +129,9 @@ Total papers tracked: **205**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
 - **Envisioning the Future, One Step at a Time**  
   *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`

@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-02` (timezone: `Europe/Athens`)
+Updated: `2026-06-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **199**
+Total papers tracked: **201**
 
 ---
 
+- **Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift**  
+  *Doyeong Lim, Seungyoon Lee, In Cheol Bang*  
+  Published: `2026-06-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.03321v1) · [pdf](https://arxiv.org/pdf/2606.03321v1) · id: `2606.03321v1`
 - **From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction**  
   *Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay*  
   Published: `2026-05-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.00857v1) · [pdf](https://arxiv.org/pdf/2606.00857v1) · id: `2606.00857v1`
@@ -93,6 +96,9 @@ Total papers tracked: **199**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
 - **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
   *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
   Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`

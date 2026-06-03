@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-06-02**
-- Latest digest: `digests/2026-06-02.md`
+- Updated on: **2026-06-03**
+- Latest digest: `digests/2026-06-03.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -26,9 +26,9 @@ This repository supports:
 |------|--------------:|------:|------|
 | Pedestrian Trajectory Prediction | 2026-06-02 | 139 | [Pedestrian Trajectory Prediction](topics/pedestrian_trajectory_prediction.md) |
 | Cyclist and Micromobility Prediction | 2026-04-14 | 43 | [Cyclist and Micromobility Prediction](topics/cyclist_micromobility_prediction.md) |
-| Interaction-aware and Social Models | 2026-06-02 | 205 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
+| Interaction-aware and Social Models | 2026-06-03 | 207 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
 | Intention and Crossing Behavior | 2026-06-01 | 109 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
-| Risk-aware Safety and Collision Prediction | 2026-06-02 | 199 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
+| Risk-aware Safety and Collision Prediction | 2026-06-03 | 201 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
 | Scene and Context-aware Prediction | 2026-06-02 | 142 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
 | Probabilistic and Uncertainty-aware Forecasting | 2026-06-02 | 134 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
 | Graph Transformer and Diffusion Models | 2026-06-02 | 119 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
