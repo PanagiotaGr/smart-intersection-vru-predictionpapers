@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-03` (timezone: `Europe/Athens`)
+Updated: `2026-06-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **201**
+Total papers tracked: **202**
 
 ---
 
+- **RSC: Decentralized Rigid Formation Flocking for Large-Scale Swarms via Hybrid Predictive Control and Online Reconfiguration**  
+  *Ganyu Zou, Linhan Wang, Chen Dai, Siji Chen, Chang-Tien Lu*  
+  Published: `2026-06-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.04248v1) · [pdf](https://arxiv.org/pdf/2606.04248v1) · id: `2606.04248v1`
 - **Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift**  
   *Doyeong Lim, Seungyoon Lee, In Cheol Bang*  
   Published: `2026-06-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.03321v1) · [pdf](https://arxiv.org/pdf/2606.03321v1) · id: `2606.03321v1`

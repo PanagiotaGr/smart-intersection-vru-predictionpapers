@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-03` (timezone: `Europe/Athens`)
+Updated: `2026-06-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **142**
+Total papers tracked: **144**
 
 ---
 
@@ -90,6 +90,9 @@ Total papers tracked: **142**
 - **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
   *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
   Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v2) · [pdf](https://arxiv.org/pdf/2604.28173v2) · id: `2604.28173v2`
+- **Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements**  
+  *Genki Kinoshita, Shu Nakamura, Ryo Kawahara, Shohei Nobuhara, Yasutomo Kawanishi, Ko Nishino*  
+  Published: `2026-04-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.28173v3) · [pdf](https://arxiv.org/pdf/2604.28173v3) · id: `2604.28173v3`
 - **FlowS: One-Step Motion Prediction via Local Transport Conditioning**  
   *Leandro Di Bella, Adrian Munteanu, Bruno Cornelis*  
   Published: `2026-04-28` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.26065v1) · [pdf](https://arxiv.org/pdf/2604.26065v1) · id: `2604.26065v1`
@@ -123,6 +126,9 @@ Total papers tracked: **142**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
 - **Envisioning the Future, One Step at a Time**  
   *Stefan Andreas Baumann, Jannik Wiese, Tommaso Martorella, Mahdi M. Kalayeh, Björn Ommer*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09527v1) · [pdf](https://arxiv.org/pdf/2604.09527v1) · id: `2604.09527v1`

@@ -15152,6 +15152,47 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.10169v3",
       "abs_url": "http://arxiv.org/abs/2604.10169v3"
+    },
+    "2606.04248v1": {
+      "arxiv_id": "2606.04248v1",
+      "title": "RSC: Decentralized Rigid Formation Flocking for Large-Scale Swarms via Hybrid Predictive Control and Online Reconfiguration",
+      "authors": [
+        "Ganyu Zou",
+        "Linhan Wang",
+        "Chen Dai",
+        "Siji Chen",
+        "Chang-Tien Lu"
+      ],
+      "summary": "Decentralized rigid formation flocking requires a swarm of autonomous agents to maintain a predetermined geometric configuration while moving, relying solely on local sensing and communication. However, existing decentralized control methods struggle to maintain strict inter-agent distance constraints in cluttered environments, often suffering from local minima deadlocks, high frequency control oscillations, or limited flexibility during obstacle navigation, resulting in low success rate. To address these limitations, we propose Rigid Swarm Control (RSC), a decentralized control framework for large-scale rigid formation flocking. To escape local minima via robust long-term planning while ensuring short-term safety, RSC integrates finite-horizon trajectory predictions with a reactive artificial potential field (APF) safety controller within a hybrid architecture. Furthermore, to accelerate formation reassembly after obstacle traversal without interrupting task execution, RSC introduces an online leader-follower reconfiguration mechanism based on stable role exchange. Extensive evaluations in challenging cluttered environments with 25 UAVs demonstrate that RSC reliably unifies rigid formation maintenance, obstacle avoidance, and target tracking. Under strict success criteria - collision-free operation with a maximum relative edge-length error below 10%, RSC achieves an 83% success rate, significantly outperforming existing heuristic and learning-based baselines that fall below 5%.",
+      "published_utc": "2026-06-02T21:54:30Z",
+      "updated_utc": "2026-06-02T21:54:30Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.04248v1",
+      "abs_url": "http://arxiv.org/abs/2606.04248v1"
+    },
+    "2604.28173v3": {
+      "arxiv_id": "2604.28173v3",
+      "title": "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements",
+      "authors": [
+        "Genki Kinoshita",
+        "Shu Nakamura",
+        "Ryo Kawahara",
+        "Shohei Nobuhara",
+        "Yasutomo Kawanishi",
+        "Ko Nishino"
+      ],
+      "summary": "Effective human behavior modeling requires a representation of the human body movement that capitalizes on its compositionality. We propose a hierarchical representation consisting of Action Atoms that capture the atomic joint movements and Action Motifs that are formed by their temporal compositions and encode similar body movements found across different overall human actions. We derive A4Mer, a nested latent Transformer to learn this hierarchical representation from human pose data in a fully self-supervised manner. A4Mer splits a 3D pose sequence into variable-length segments and represents each segment as a single latent token (Action Atoms). Through bottom-up representation learning, temporal patterns composed of these Action Atoms, which capture meaningful temporal spans of reusable, semantic segments of body movements, naturally emerge (Action Motifs). A4Mer achieves this with a unified pretext task of masked token prediction in their respective latent spaces. We also introduce Action Motif Dataset (AMD), a large-scale dataset of multi-view human behavior videos with full SMPL annotations. We introduce a novel use of cameras by mounting them on the feet to achieve their frame-wise annotations despite frequent and heavy body occlusions. Experimental results demonstrate the effectiveness of A4Mer for extracting meaningful Action Motifs, which significantly benefit human behavior modeling tasks including action recognition, motion prediction, and motion interpolation.",
+      "published_utc": "2026-04-30T17:55:01Z",
+      "updated_utc": "2026-06-02T21:05:58Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.28173v3",
+      "abs_url": "http://arxiv.org/abs/2604.28173v3"
     }
   },
   "topics": {
@@ -15880,9 +15921,10 @@
         "2606.00857v1",
         "2604.10169v2",
         "2606.03321v1",
-        "2604.10169v3"
+        "2604.10169v3",
+        "2606.04248v1"
       ],
-      "latest_update": "2026-06-03"
+      "latest_update": "2026-06-04"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16028,9 +16070,11 @@
         "2606.00471v1",
         "2605.30280v2",
         "2604.28173v2",
-        "2604.10169v2"
+        "2604.10169v2",
+        "2604.28173v3",
+        "2604.10169v3"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-04"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
