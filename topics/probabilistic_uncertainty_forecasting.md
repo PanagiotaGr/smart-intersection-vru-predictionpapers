@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-04` (timezone: `Europe/Athens`)
+Updated: `2026-06-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **134**
+Total papers tracked: **136**
 
 ---
 
+- **Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction**  
+  *Jaeyeong Lee, Wonmo Koo, Heeyoung Kim*  
+  Published: `2026-06-04` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2606.06351v1) · [pdf](https://arxiv.org/pdf/2606.06351v1) · id: `2606.06351v1`
 - **From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction**  
   *Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay*  
   Published: `2026-05-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.00857v1) · [pdf](https://arxiv.org/pdf/2606.00857v1) · id: `2606.00857v1`
@@ -99,6 +102,9 @@ Total papers tracked: **134**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

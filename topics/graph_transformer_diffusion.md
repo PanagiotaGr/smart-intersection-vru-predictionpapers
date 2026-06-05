@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-04` (timezone: `Europe/Athens`)
+Updated: `2026-06-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **121**
 
 ---
 
+- **LiAuto-GeoX: Efficient Grounded Driving Transformer**  
+  *Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, Le Hui, Ning Mao, Tao Wei et al.*  
+  Published: `2026-06-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.05774v1) · [pdf](https://arxiv.org/pdf/2606.05774v1) · id: `2606.05774v1`
 - **Learning Multi-Modal Trajectory Policies for Data-Efficient Robotic Manipulation**  
   *Zijia Chen, Yuenan Hou, Xinhua Jiang, Yu Li, Weijie Li, Li Liu*  
   Published: `2026-05-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.01047v1) · [pdf](https://arxiv.org/pdf/2606.01047v1) · id: `2606.01047v1`
@@ -78,6 +81,9 @@ Total papers tracked: **119**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v2) · [pdf](https://arxiv.org/pdf/2604.10169v2) · id: `2604.10169v2`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

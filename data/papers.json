@@ -15193,6 +15193,51 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.28173v3",
       "abs_url": "http://arxiv.org/abs/2604.28173v3"
+    },
+    "2606.06351v1": {
+      "arxiv_id": "2606.06351v1",
+      "title": "Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction",
+      "authors": [
+        "Jaeyeong Lee",
+        "Wonmo Koo",
+        "Heeyoung Kim"
+      ],
+      "summary": "Vessel trajectory prediction from Automatic Identification System (AIS) data is essential for maritime situational awareness, yet it remains challenging due to irregular sampling, missing reports, and complex dynamics. Beyond accurate point forecasts, maritime applications also demand well-calibrated uncertainty estimates for reliable decision-making. Bayesian Neural Ordinary Differential Equations (ODEs) offer a principled framework for continuous-time trajectory modeling with uncertainty quantification by placing a prior over the neural vector field parameters. However, the commonly used isotropic Gaussian weight prior fails to encode informative structural properties of vessel dynamics, such as smoothness and locality. Existing function-space Bayesian neural network methods address this limitation for static mappings, but do not transfer directly to Neural ODEs, where the primary quantity of interest is the trajectory rather than the vector field itself. In principle, one could place a Gaussian process (GP) prior directly over ODE solutions, but this requires propagating distributions through a nonlinear ODE solver, which is analytically intractable. To address this challenge, we adopt a practical approach that imposes a GP-kernel-based prior directly on the vector field evaluated at a finite set of measurement points. Specifically, we augment the standard weight-space variational objective with a kernel-based regularizer that penalizes deviations of the vector field from the structure implied by a GP prior. To handle long and irregular AIS trajectories, we further combine this function-space regularization with probabilistic multiple shooting, which decouples inference across temporal segments while maintaining global consistency.",
+      "published_utc": "2026-06-04T16:21:08Z",
+      "updated_utc": "2026-06-04T16:21:08Z",
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.06351v1",
+      "abs_url": "http://arxiv.org/abs/2606.06351v1"
+    },
+    "2606.05774v1": {
+      "arxiv_id": "2606.05774v1",
+      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
+      "authors": [
+        "Jiawei Lian",
+        "Haoyi Sun",
+        "Yang Wu",
+        "Lifu Mu",
+        "Siyuan Wang",
+        "Le Hui",
+        "Ning Mao",
+        "Tao Wei",
+        "Pan Zhou",
+        "Kun Zhan",
+        "Jian Yang"
+      ],
+      "summary": "Dense 3D reconstruction has demonstrated immense potential for spatial understanding, yet its viability as a real-time, onboard representation for autonomous driving remains an open challenge. Existing large-scale visual geometry models typically require substantial computational resources and lack the long-range geometric fidelity, surround-view consistency, and real-time efficiency demanded by dynamic driving environments. To bridge this gap, we present \\textbf{LiAuto-GeoX}, an efficient grounded driving transformer designed for deployable, ego-centric 3D scene understanding. Our approach begins by learning a high-capacity driving geometry model from large-scale surround-view data, utilizing sparse LiDAR priors to provide robust geometric grounding in distant, ambiguous, or structure-sparse regions. We then instantiate this capability into a highly compact 155M-parameter onboard model through a novel geometry-preserving distillation framework. This framework employs mask-guided depth-aware distillation to retain fine-grained metric structures by emphasizing geometrically informative regions, and relative-pose relational distillation to enforce cross-view spatial consistency through pose-induced geometric relations. Extensive evaluations reveal that \\textbf{LiAuto-GeoX} runs at 220 FPS on KITTI while maintaining high-fidelity dense reconstruction, enabling real-time deployment. The learned geometry transfers seamlessly to downstream autonomy tasks, achieving 90.6 PDMS in trajectory prediction, 24.63 mIoU in occupancy prediction, and 47.67 IoU in future-frame prediction. These all demonstrate that efficient dense 3D reconstruction can transcend its traditional role as a perception target to serve as a scalable, foundational geometric representation for next-generation autonomous driving.",
+      "published_utc": "2026-06-04T06:58:44Z",
+      "updated_utc": "2026-06-04T06:58:44Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.05774v1",
+      "abs_url": "http://arxiv.org/abs/2606.05774v1"
     }
   },
   "topics": {
@@ -16072,9 +16117,11 @@
         "2604.28173v2",
         "2604.10169v2",
         "2604.28173v3",
-        "2604.10169v3"
+        "2604.10169v3",
+        "2606.06351v1",
+        "2606.05774v1"
       ],
-      "latest_update": "2026-06-04"
+      "latest_update": "2026-06-05"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16212,9 +16259,11 @@
         "2606.00857v1",
         "2606.00471v1",
         "2605.30280v2",
-        "2604.10169v2"
+        "2604.10169v2",
+        "2606.06351v1",
+        "2604.10169v3"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-05"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16337,9 +16386,11 @@
         "2604.23728v2",
         "2605.26524v1",
         "2606.01047v1",
-        "2604.10169v2"
+        "2604.10169v2",
+        "2606.05774v1",
+        "2604.10169v3"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-05"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

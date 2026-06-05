@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-04` (timezone: `Europe/Athens`)
+Updated: `2026-06-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **144**
+Total papers tracked: **146**
 
 ---
 
+- **Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction**  
+  *Jaeyeong Lee, Wonmo Koo, Heeyoung Kim*  
+  Published: `2026-06-04` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2606.06351v1) · [pdf](https://arxiv.org/pdf/2606.06351v1) · id: `2606.06351v1`
+- **LiAuto-GeoX: Efficient Grounded Driving Transformer**  
+  *Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, Le Hui, Ning Mao, Tao Wei et al.*  
+  Published: `2026-06-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.05774v1) · [pdf](https://arxiv.org/pdf/2606.05774v1) · id: `2606.05774v1`
 - **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
   *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
   Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`
