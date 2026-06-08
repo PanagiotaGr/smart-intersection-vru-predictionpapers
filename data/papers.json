@@ -15238,6 +15238,67 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.05774v1",
       "abs_url": "http://arxiv.org/abs/2606.05774v1"
+    },
+    "2606.07437v1": {
+      "arxiv_id": "2606.07437v1",
+      "title": "Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability",
+      "authors": [
+        "Chaitanya Shinde",
+        "Hadi Hajieghrary",
+        "Paul Schmitt",
+        "Adam Shoemaker",
+        "Bodo Seifert",
+        "Steve Kenner"
+      ],
+      "summary": "The ISO 26262 standard defines functional safety for road vehicles through risk assessments based on Severity, Exposure, and Controllability, grounded in a human-driven vehicle paradigm. In the context of autonomous vehicles (AVs), the absence of a human driver necessitates revisiting these principles. This paper decomposes the Controllability placeholder into two auditable evidence dimensions of ISO 26262 by introducing two measurable sub-concepts: Transferability and Predictability. Transferability extends Controllability to capture AV systems' ability to hand off control to dedicated fallback safety mechanisms, while Predictability captures how easily external agents can anticipate AV behavior. Predictability is formally defined from human-robot interaction-inspired principles, and a mathematical framework is provided to quantify it. A designed-versus-achievable gap is introduced to distinguish architectural fallback claims from scene-conditioned achievable fallback capability. The proposed metrics align with ISO 26262 and ISO/PAS 21448 (SOTIF), rendering fallback and interaction claims falsifiable and traceable across ODD slices. These dimensions complement rather than replace existing standards, and the enhancements preserve the structure of ISO 26262 while extending its applicability to driverless automated systems operating at SAE Levels 4 and 5.",
+      "published_utc": "2026-06-05T16:35:58Z",
+      "updated_utc": "2026-06-05T16:35:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC",
+        "cs.SE",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.07437v1",
+      "abs_url": "http://arxiv.org/abs/2606.07437v1"
+    },
+    "2606.06565v1": {
+      "arxiv_id": "2606.06565v1",
+      "title": "AI Level of Detail: Distance-Aware ML Model Precision Selection for Real-Time Human Motion Prediction in Games",
+      "authors": [
+        "Mathew Varghese"
+      ],
+      "summary": "Modern game engines spend significant compute animating NPCs with learned motion models. This paper proposes AI Level of Detail (AI LOD), a framework in which machine learning inference precision is adapted based on the distance between each NPC and the player camera. The core idea mirrors classical geometry LOD: substitute a cheaper approximation where the difference is imperceptible. Here, the approximation is a lower-precision quantized machine learning model rather than a lower-polygon mesh. The contribution of this work is the AI LOD concept itself: that inference-time quantization can serve as the LOD axis for AI-driven character animation - and more broadly, for any AI-based runtime system where perceptual sensitivity varies with context. The convolutional sequence-to-sequence model of Li et al. is used as a representative example to demonstrate the concept, with its trained checkpoint exported into three ONNX Runtime variants (FP32, FP16, and INT8 per-tensor), intended to be routed by a distance-based selector at runtime. Evaluation on the CMU Mocap dataset provides initial evidence that each precision tier can be served at its assigned distance range with negligible perceptible degradation, supporting the broader premise that distance-aware ML model precision selection is a viable LOD strategy for AI-based character animation.",
+      "published_utc": "2026-06-04T17:27:00Z",
+      "updated_utc": "2026-06-04T17:27:00Z",
+      "primary_category": "cs.GR",
+      "categories": [
+        "cs.GR",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.06565v1",
+      "abs_url": "http://arxiv.org/abs/2606.06565v1"
+    },
+    "2606.07338v1": {
+      "arxiv_id": "2606.07338v1",
+      "title": "VeriDrive: Verifiable Counterfactual Supervision for Cost-Efficient Vision-Language Planning",
+      "authors": [
+        "Zikai Zhang",
+        "Hubert P. H. Shum",
+        "Toby P. Breckon"
+      ],
+      "summary": "Vision-language driving models increasingly use reasoning supervision to bridge perception, prediction, and planning, but existing driving rationales are often free-form and expensive to generate with frontier models. We present VeriDrive, a framework for constructing planning-oriented, verifiable counterfactual supervision. VeriDrive converts driving reasoning into a structured Perception-Evaluation-Revision chain that grounds key objects in future motion, evaluates alternative ego trajectories with rule-checkable evidence, revises risky intent toward expert behavior, and produces final planning targets. To scale data construction, VeriDrive combines local generation with validator-guided selective correction, escalating only invalid or difficult samples. We build the VeriDrive dataset on nuScenes and train under the Omni-Q protocol. Controlled open-loop experiments show that VeriDrive improves L2, Collision, and Intersection over OmniDrive while reducing logged token usage, generation time, and actual paid LLM/VLM cost. These results show that auditable intermediate fields and structured revision targets can improve vision-language planning supervision under realistic annotation budgets. Code, prompts, and validator scripts are coming soon and will be released after the review process.",
+      "published_utc": "2026-06-05T14:50:11Z",
+      "updated_utc": "2026-06-05T14:50:11Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.07338v1",
+      "abs_url": "http://arxiv.org/abs/2606.07338v1"
     }
   },
   "topics": {
@@ -15967,9 +16028,10 @@
         "2604.10169v2",
         "2606.03321v1",
         "2604.10169v3",
-        "2606.04248v1"
+        "2606.04248v1",
+        "2606.07437v1"
       ],
-      "latest_update": "2026-06-04"
+      "latest_update": "2026-06-08"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16119,9 +16181,11 @@
         "2604.28173v3",
         "2604.10169v3",
         "2606.06351v1",
-        "2606.05774v1"
+        "2606.05774v1",
+        "2606.07437v1",
+        "2606.06565v1"
       ],
-      "latest_update": "2026-06-05"
+      "latest_update": "2026-06-08"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16610,9 +16674,10 @@
         "2603.25342v2",
         "2605.14855v1",
         "2606.01282v1",
-        "2606.00857v1"
+        "2606.00857v1",
+        "2606.07338v1"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-08"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

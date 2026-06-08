@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-06-07` (timezone: `Europe/Athens`)
+Updated: `2026-06-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **30**
+Total papers tracked: **31**
 
 ---
 
+- **VeriDrive: Verifiable Counterfactual Supervision for Cost-Efficient Vision-Language Planning**  
+  *Zikai Zhang, Hubert P. H. Shum, Toby P. Breckon*  
+  Published: `2026-06-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.07338v1) · [pdf](https://arxiv.org/pdf/2606.07338v1) · id: `2606.07338v1`
 - **KG-FairDiff: Knowledge Graph-Guided Prompt Refinement for Demographically Fair Text-to-Image Generation**  
   *Farbod Davoodi, Seyed Reza Tavakoli Shiyadeh, Pooria Safaei, Sana Harighi, Parsa Gholami, Amirali Amini, Kimia Vanaei, Emad Firoozi et al.*  
   Published: `2026-05-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.01282v1) · [pdf](https://arxiv.org/pdf/2606.01282v1) · id: `2606.01282v1`

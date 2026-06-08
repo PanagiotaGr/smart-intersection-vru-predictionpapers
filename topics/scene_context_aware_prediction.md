@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-07` (timezone: `Europe/Athens`)
+Updated: `2026-06-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **146**
+Total papers tracked: **148**
 
 ---
 
+- **Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability**  
+  *Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, Steve Kenner*  
+  Published: `2026-06-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.07437v1) · [pdf](https://arxiv.org/pdf/2606.07437v1) · id: `2606.07437v1`
+- **AI Level of Detail: Distance-Aware ML Model Precision Selection for Real-Time Human Motion Prediction in Games**  
+  *Mathew Varghese*  
+  Published: `2026-06-04` · Category: `cs.GR` · [abs](http://arxiv.org/abs/2606.06565v1) · [pdf](https://arxiv.org/pdf/2606.06565v1) · id: `2606.06565v1`
 - **Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction**  
   *Jaeyeong Lee, Wonmo Koo, Heeyoung Kim*  
   Published: `2026-06-04` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2606.06351v1) · [pdf](https://arxiv.org/pdf/2606.06351v1) · id: `2606.06351v1`

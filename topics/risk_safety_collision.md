@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-07` (timezone: `Europe/Athens`)
+Updated: `2026-06-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **202**
+Total papers tracked: **203**
 
 ---
 
+- **Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability**  
+  *Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, Steve Kenner*  
+  Published: `2026-06-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.07437v1) · [pdf](https://arxiv.org/pdf/2606.07437v1) · id: `2606.07437v1`
 - **RSC: Decentralized Rigid Formation Flocking for Large-Scale Swarms via Hybrid Predictive Control and Online Reconfiguration**  
   *Ganyu Zou, Linhan Wang, Chen Dai, Siji Chen, Chang-Tien Lu*  
   Published: `2026-06-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.04248v1) · [pdf](https://arxiv.org/pdf/2606.04248v1) · id: `2606.04248v1`
