@@ -15299,6 +15299,137 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.07338v1",
       "abs_url": "http://arxiv.org/abs/2606.07338v1"
+    },
+    "2605.10376v2": {
+      "arxiv_id": "2605.10376v2",
+      "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
+      "authors": [
+        "Niyati Rawal",
+        "Sushant Ravva",
+        "Shah Alam Abir",
+        "Saksham Jain",
+        "Aman Chadha",
+        "Vinija Jain",
+        "Suranjana Trivedy",
+        "Amitava Das"
+      ],
+      "summary": "Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluating instruction-grounded trajectory prediction in single-scene 3D worlds generated from textual scene descriptions and filtered for navigability. Unlike prior navigation benchmarks centered on long-range exploration across rooms, SleepWalk targets localized, interaction-centric embodied reasoning: given rendered visual observations and a natural-language instruction, a model must predict a trajectory that respects scene geometry, avoids collisions, and terminates at an action-compatible location. The benchmark covers diverse indoor and outdoor environments and organizes tasks into three tiers of spatial and temporal difficulty, enabling fine-grained analysis of grounding under increasing compositional complexity. Using a standardized pointwise judge-based evaluation protocol, we evaluate three frontier VLMs on 2,472 curated 3D environments with nine instructions per scene. Results reveal systematic failures in grounded spatial reasoning, especially under occlusion, interaction constraints, and multi-step instructions: performance drops as the difficulty level of the tasks increase. In general, current VLMs can somewhat produce trajectories that are simultaneously spatially coherent, plausibly executable, and aligned with intended actions. By exposing failures in a controlled yet scalable setting, SleepWalk provides a critical benchmark for advancing grounded multimodal reasoning, embodied planning, vision-language navigation, and action-capable agents in 3D environments.",
+      "published_utc": "2026-05-11T11:20:14Z",
+      "updated_utc": "2026-06-07T06:58:14Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.10376v2",
+      "abs_url": "http://arxiv.org/abs/2605.10376v2"
+    },
+    "2606.09142v1": {
+      "arxiv_id": "2606.09142v1",
+      "title": "Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models",
+      "authors": [
+        "Danya Li",
+        "Xiang Su",
+        "Yan Feng",
+        "Rico Krueger"
+      ],
+      "summary": "Egocentric vision offers a first-person view of human perception and decision making, yet its potential for traffic-safety prediction remains underexplored. In this work, we study the decoding of pedestrian crossing intentions from short egocentric video clips. We approach this by formulating the task as a closed-ended visual question answering (VQA) problem and leveraging vision language models (VLMs) to predict the pedestrians' intent. We first benchmark three families of state-of-the-art VLMs in a zero-shot setting, finding that they achieve moderate gains over random guessing but exhibit limited higher-level traffic reasoning. Motivated by these findings, we further adapt VLMs to the target task using parameter-efficient fine-tuning. Our results show that the fine-tuned models substantially outperform their zero-shot counterparts and achieve a 9\\% accuracy improvement over a specialized transformer-based baseline. Finally, we demonstrate that incorporating additional contextual cues, including ego motion, vehicle motion, and eye gaze, further improves predictive performance. In particular, the fine-tuned Qwen3-VL-2B model guided by eye gaze and ego motion achieves a 14.5% accuracy improvement over the transformer baseline, establishing a new state of the art for egocentric pedestrian intent decoding.",
+      "published_utc": "2026-06-08T07:39:42Z",
+      "updated_utc": "2026-06-08T07:39:42Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09142v1",
+      "abs_url": "http://arxiv.org/abs/2606.09142v1"
+    },
+    "2606.09671v1": {
+      "arxiv_id": "2606.09671v1",
+      "title": "Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data",
+      "authors": [
+        "Yinyu Huang",
+        "Yilin Zhang",
+        "Sofia Michopoulou",
+        "Christopher Kipps",
+        "Rahman Attar"
+      ],
+      "summary": "Alzheimer's disease (AD) progression is highly heterogeneous and is typically observed through sparse and irregular longitudinal data, posing challenges for prediction and personalised monitoring. Existing machine learning approaches have improved AD prediction using multimodal data, yet often focus on static classification or cohort-level risk estimation, providing limited support for subject-specific modelling and uncertainty-aware reasoning. To address these limitations, we present a personalised digital twin framework for AD prediction and scenario-based analysis using multimodal longitudinal data. The proposed approach integrates complementary modelling strategies to capture clinical transitions and temporal dependencies across visits. Using data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), including cognitive assessments, clinical variables, and MRI-derived phenotypes, the framework predicts cognitive status and diagnostic categories while quantifying predictive uncertainty and enabling patient-specific what-if trajectory analysis. Evaluation on leak-free subject-level splits demonstrates strong performance in score forecasting and diagnosis classification. In this sparse and irregular ADNI setting, transition-based modelling of adjacent visits achieved higher predictive accuracy than the sequence-based branch, suggesting that local transition modelling may be more data-efficient. While sequence models remain valuable for uncertainty-aware trajectory forecasting, local transition modelling offers a more data-efficient and robust predictive strategy. These findings highlight the importance of aligning temporal modelling strategies with clinical data structure and suggest that transition-based digital twin formulations may provide a practical and interpretable approach for personalised disease forecasting in neurodegenerative disorders.",
+      "published_utc": "2026-06-08T15:54:10Z",
+      "updated_utc": "2026-06-08T15:54:10Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09671v1",
+      "abs_url": "http://arxiv.org/abs/2606.09671v1"
+    },
+    "2606.08633v1": {
+      "arxiv_id": "2606.08633v1",
+      "title": "Towards Long-Horizon Vessel Trajectory and Destination Forecasting with Reasoning Large Language Models",
+      "authors": [
+        "Hongwei Wang",
+        "Miao Zhou",
+        "Fengde Wang",
+        "Yuting Wang",
+        "Jiewen Yu",
+        "Jun-Yan He",
+        "Bohao Qu",
+        "Wanbing Zhang",
+        "Xiuju Fu",
+        "Qing Guo",
+        "Zipei Fan",
+        "Yingying Xing",
+        "Yi Yuan"
+      ],
+      "summary": "Long-horizon maritime trajectory prediction is important for shipping management, logistics planning, and maritime risk analysis, yet month-level forecasting remains insufficiently studied. Existing deep learning methods mainly focus on short- and mid-term coordinate extrapolation and often struggle to preserve route feasibility and destination correctness over extended horizons. This paper investigates joint long-horizon vessel trajectory and destination forecasting with reasoning-capable large language models, and develops a Maritime LLM post-training framework based on Reinforcement Learning with Verifiable Reward (RLVR). An AIS-based benchmark is constructed with 60-day historical trajectories and 30-day forecasting horizons, where trajectories are converted into semantic textual representations for RL prompt construction. RLVR aligns LLMs with maritime forecasting objectives by enforcing physical validity, providing early-weighted trajectory supervision, and evaluating destination correctness through hierarchical matching and curriculum learning. Experimental results show that RLVR-trained LLMs substantially improve over zero-shot LLMs and representative deep learning baselines, especially on destination-related metrics. Among the evaluated RLVR-trained variants, 4B LLMs achieve the best overall performance, suggesting that reward-compatible optimization and task-specific capacity matching are more important than simply using larger 8B or 14B LLMs. The results also show that LSTM remains a strong deep learning baseline under limited fine-tuning data, while Transformer-style spatio-temporal models typically require larger datasets and richer structured inputs. Overall, this work advances semantic, verifier-aligned maritime forecasting for operational decision support.",
+      "published_utc": "2026-06-07T13:55:11Z",
+      "updated_utc": "2026-06-07T13:55:11Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.08633v1",
+      "abs_url": "http://arxiv.org/abs/2606.08633v1"
+    },
+    "2606.09390v1": {
+      "arxiv_id": "2606.09390v1",
+      "title": "Real-time body pose non-verbal communication with a consistency-based reliability measure",
+      "authors": [
+        "Alina Marcu",
+        "Dragos Costea",
+        "Cristina Lazar",
+        "Marius Leordeanu"
+      ],
+      "summary": "Body movement communicates intent at distances and in conditions where neither the face, nor speech can be captured. We study the recognition of communicative intent from 2D body pose alone. We argue that body motion is a reliable signal especially in scenarios that require real time low-cost on-device person-to-robot communication in long distance environments, such as rescue missions. However, existing resources do not isolate this signal. Affective corpora combine body, face, voice and text, while skeleton action-recognition benchmarks label the action performed rather than the message conveyed. We release a dataset of real frames of full-body pose covering ten communicative intents and we compare it against other real (IPC) and synthetic (MotionLCM, VEO3.1, Kimodo) ones that span a range of difficulty. We target systems that can run on a robot's limited onboard hardware. We benchmark multiple models, from skeleton graph classifiers to joint motion-forecasting networks, and report performance metrics together with frame rate on an embedded GPU (NVIDIA Orin~Nano), since speed matters as much as accuracy in our scenario. Finally, we show that a model's own autoregressive self-consistency works as an unsupervised reliability signal. We give a short proof that bounds the probability that a self-consistent prediction is correct, show that this probability grows with the number of consistent steps, and identify the conditions under which a confident prediction can still be false, benchmarked against industry-standard metrics.",
+      "published_utc": "2026-06-08T12:05:23Z",
+      "updated_utc": "2026-06-08T12:05:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09390v1",
+      "abs_url": "http://arxiv.org/abs/2606.09390v1"
+    },
+    "2606.09289v1": {
+      "arxiv_id": "2606.09289v1",
+      "title": "Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning",
+      "authors": [
+        "Yuesen Li",
+        "Daniel Link"
+      ],
+      "summary": "Understanding tactical organisation of association football, hereafter referred to as football, requires identifying distinct match phases. Yet in-possession phases are rarely directly observable and are shaped by evolving tactical intentions, rather than spatial patterns alone. This study proposes a data-driven framework for identifying in-possession match phases from spatiotemporal tracking data. Seven German Bundesliga matches recorded at 25 Hz with TRACAB were analysed. A hierarchical phase model was defined with three tactical intentions (Invade Opponent Space, Keep Possession, Scoring) and six phases (Build Up, Progression, Counter Attack, Maintenance, Sustained Threat, Finishing). A Temporal Graph Attention Network (T-GAN) was developed to combine frame-level player-interaction graphs, contextual features, and Transformer-based temporal modelling. Performance was evaluated using frame-level F1 and a sequence-aware Intersection over Truth-Dominance (IoT-D) metric. T-GAN achieved macro-average frame-level F1 scores of 0.87 at the intention level, 0.76 for invasion-related phases, and 0.79 for scoring phases. At the sequence level, mean diagonal IoT-D F1 increased from 0.68 to 0.79 for intentions and from 0.61 to 0.71 for phases after post-processing, indicating improved temporal coherence. Model comparisons showed that sequence modelling was the main driver of segmentation quality, while graph-based relational modelling was particularly beneficial for Counter Attack recognition. Exploratory player attention analysis further suggested that wide and midfield positional groups contributed strongly to phase discrimination. Overall, the framework translates continuous tracking data into tactically interpretable in-possession phase representations, with potential applications in automated match annotation, tactical analysis, and playing-style profiling.",
+      "published_utc": "2026-06-08T09:57:04Z",
+      "updated_utc": "2026-06-08T09:57:04Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09289v1",
+      "abs_url": "http://arxiv.org/abs/2606.09289v1"
     }
   },
   "topics": {
@@ -15705,9 +15836,10 @@
         "2605.31041v1",
         "2604.10169v2",
         "2606.03321v1",
-        "2604.10169v3"
+        "2604.10169v3",
+        "2605.10376v2"
       ],
-      "latest_update": "2026-06-03"
+      "latest_update": "2026-06-09"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -15820,9 +15952,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2605.20255v2",
-        "2503.21168v3"
+        "2503.21168v3",
+        "2606.09142v1"
       ],
-      "latest_update": "2026-06-01"
+      "latest_update": "2026-06-09"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -16029,9 +16162,12 @@
         "2606.03321v1",
         "2604.10169v3",
         "2606.04248v1",
-        "2606.07437v1"
+        "2606.07437v1",
+        "2606.09671v1",
+        "2606.08633v1",
+        "2605.10376v2"
       ],
-      "latest_update": "2026-06-08"
+      "latest_update": "2026-06-09"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16183,9 +16319,11 @@
         "2606.06351v1",
         "2606.05774v1",
         "2606.07437v1",
-        "2606.06565v1"
+        "2606.06565v1",
+        "2606.08633v1",
+        "2605.10376v2"
       ],
-      "latest_update": "2026-06-08"
+      "latest_update": "2026-06-09"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16325,9 +16463,10 @@
         "2605.30280v2",
         "2604.10169v2",
         "2606.06351v1",
-        "2604.10169v3"
+        "2604.10169v3",
+        "2605.10376v2"
       ],
-      "latest_update": "2026-06-05"
+      "latest_update": "2026-06-09"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16452,9 +16591,11 @@
         "2606.01047v1",
         "2604.10169v2",
         "2606.05774v1",
-        "2604.10169v3"
+        "2604.10169v3",
+        "2606.09390v1",
+        "2606.08633v1"
       ],
-      "latest_update": "2026-06-05"
+      "latest_update": "2026-06-09"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -16638,9 +16779,10 @@
         "2605.20255v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2605.20255v2"
+        "2605.20255v2",
+        "2606.09142v1"
       ],
-      "latest_update": "2026-05-27"
+      "latest_update": "2026-06-09"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -16675,9 +16817,10 @@
         "2605.14855v1",
         "2606.01282v1",
         "2606.00857v1",
-        "2606.07338v1"
+        "2606.07338v1",
+        "2606.09289v1"
       ],
-      "latest_update": "2026-06-08"
+      "latest_update": "2026-06-09"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -16915,9 +17058,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2605.31210v1",
-        "2606.00471v1"
+        "2606.00471v1",
+        "2606.09142v1"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-09"
     }
   }
 }

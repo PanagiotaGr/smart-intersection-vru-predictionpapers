@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-06-08**
-- Latest digest: `digests/2026-06-08.md`
+- Updated on: **2026-06-09**
+- Latest digest: `digests/2026-06-09.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -26,17 +26,17 @@ This repository supports:
 |------|--------------:|------:|------|
 | Pedestrian Trajectory Prediction | 2026-06-02 | 139 | [Pedestrian Trajectory Prediction](topics/pedestrian_trajectory_prediction.md) |
 | Cyclist and Micromobility Prediction | 2026-04-14 | 43 | [Cyclist and Micromobility Prediction](topics/cyclist_micromobility_prediction.md) |
-| Interaction-aware and Social Models | 2026-06-03 | 207 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
-| Intention and Crossing Behavior | 2026-06-01 | 109 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
-| Risk-aware Safety and Collision Prediction | 2026-06-08 | 203 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 2026-06-08 | 148 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
-| Probabilistic and Uncertainty-aware Forecasting | 2026-06-05 | 136 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 2026-06-05 | 121 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
+| Interaction-aware and Social Models | 2026-06-09 | 208 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
+| Intention and Crossing Behavior | 2026-06-09 | 110 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
+| Risk-aware Safety and Collision Prediction | 2026-06-09 | 206 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
+| Scene and Context-aware Prediction | 2026-06-09 | 150 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
+| Probabilistic and Uncertainty-aware Forecasting | 2026-06-09 | 137 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
+| Graph Transformer and Diffusion Models | 2026-06-09 | 123 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 2026-06-02 | 114 | [Autonomous Driving Forecasting for VRUs](topics/autonomous_driving_vru_forecasting.md) |
-| Crossing Decision and Gap Acceptance | 2026-05-27 | 60 | [Crossing Decision and Gap Acceptance](topics/crossing_gap_acceptance.md) |
-| Smart Intersections and Traffic Signal Context | 2026-06-08 | 31 | [Smart Intersections and Traffic Signal Context](topics/smart_intersections_signal_context.md) |
+| Crossing Decision and Gap Acceptance | 2026-06-09 | 61 | [Crossing Decision and Gap Acceptance](topics/crossing_gap_acceptance.md) |
+| Smart Intersections and Traffic Signal Context | 2026-06-09 | 32 | [Smart Intersections and Traffic Signal Context](topics/smart_intersections_signal_context.md) |
 | VRU Datasets Benchmarks and Evaluation | 2026-06-02 | 119 | [VRU Datasets Benchmarks and Evaluation](topics/vru_datasets_benchmarks.md) |
-| General VRU Prediction Broad Catch-All | 2026-06-02 | 109 | [General VRU Prediction Broad Catch-All](topics/general_vru_prediction.md) |
+| General VRU Prediction Broad Catch-All | 2026-06-09 | 110 | [General VRU Prediction Broad Catch-All](topics/general_vru_prediction.md) |
 <!-- TOPICS:END -->
 
 ## How it works

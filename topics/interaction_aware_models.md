@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **207**
+Total papers tracked: **208**
 
 ---
 
@@ -66,6 +66,9 @@ Total papers tracked: **207**
 - **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
   *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
   Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
+- **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
+  *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
+  Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v2) · [pdf](https://arxiv.org/pdf/2605.10376v2) · id: `2605.10376v2`
 - **Contextual Plackett-Luce: An Efficient Neural Model for Probabilistic Sequence Selection under Ambiguity**  
   *Noam Mizrachi, Nadav Har-Tuv, Shai Shalev-Shwartz*  
   Published: `2026-05-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2605.09112v1) · [pdf](https://arxiv.org/pdf/2605.09112v1) · id: `2605.09112v1`

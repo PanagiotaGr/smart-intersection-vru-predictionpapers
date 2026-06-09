@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
@@ -60,6 +60,9 @@ Total papers tracked: **136**
 - **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
   *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
   Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
+- **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
+  *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
+  Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v2) · [pdf](https://arxiv.org/pdf/2605.10376v2) · id: `2605.10376v2`
 - **DocScope: Benchmarking Verifiable Reasoning for Trustworthy Long-Document Understanding**  
   *Xiang Feng, Jiawei Zhou, Zhangfeng Huang, Kewei Wang, Shanshan Ye, Jinxin Hu, Zulong Chen, Yong Luo et al.*  
   Published: `2026-05-09` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2605.08888v1) · [pdf](https://arxiv.org/pdf/2605.08888v1) · id: `2605.08888v1`

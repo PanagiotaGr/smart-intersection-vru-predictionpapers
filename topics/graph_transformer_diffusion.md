@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **121**
+Total papers tracked: **123**
 
 ---
 
+- **Real-time body pose non-verbal communication with a consistency-based reliability measure**  
+  *Alina Marcu, Dragos Costea, Cristina Lazar, Marius Leordeanu*  
+  Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09390v1) · [pdf](https://arxiv.org/pdf/2606.09390v1) · id: `2606.09390v1`
+- **Towards Long-Horizon Vessel Trajectory and Destination Forecasting with Reasoning Large Language Models**  
+  *Hongwei Wang, Miao Zhou, Fengde Wang, Yuting Wang, Jiewen Yu, Jun-Yan He, Bohao Qu, Wanbing Zhang et al.*  
+  Published: `2026-06-07` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.08633v1) · [pdf](https://arxiv.org/pdf/2606.08633v1) · id: `2606.08633v1`
 - **LiAuto-GeoX: Efficient Grounded Driving Transformer**  
   *Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, Le Hui, Ning Mao, Tao Wei et al.*  
   Published: `2026-06-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.05774v1) · [pdf](https://arxiv.org/pdf/2606.05774v1) · id: `2606.05774v1`

@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **203**
+Total papers tracked: **206**
 
 ---
 
+- **Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data**  
+  *Yinyu Huang, Yilin Zhang, Sofia Michopoulou, Christopher Kipps, Rahman Attar*  
+  Published: `2026-06-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.09671v1) · [pdf](https://arxiv.org/pdf/2606.09671v1) · id: `2606.09671v1`
+- **Towards Long-Horizon Vessel Trajectory and Destination Forecasting with Reasoning Large Language Models**  
+  *Hongwei Wang, Miao Zhou, Fengde Wang, Yuting Wang, Jiewen Yu, Jun-Yan He, Bohao Qu, Wanbing Zhang et al.*  
+  Published: `2026-06-07` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.08633v1) · [pdf](https://arxiv.org/pdf/2606.08633v1) · id: `2606.08633v1`
 - **Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability**  
   *Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, Steve Kenner*  
   Published: `2026-06-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.07437v1) · [pdf](https://arxiv.org/pdf/2606.07437v1) · id: `2606.07437v1`
@@ -54,6 +60,9 @@ Total papers tracked: **203**
 - **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
   *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
   Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
+- **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
+  *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
+  Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v2) · [pdf](https://arxiv.org/pdf/2605.10376v2) · id: `2605.10376v2`
 - **A Task-Agnostic Algebraic Integrity Metric for Event-Camera Streams Toward SOTIF-Compliant Perception using Pearson Correlation Coefficient**  
   *Arthur de Miranda Neto*  
   Published: `2026-05-08` · Category: `eess.IV` · [abs](http://arxiv.org/abs/2605.21500v1) · [pdf](https://arxiv.org/pdf/2605.21500v1) · id: `2605.21500v1`

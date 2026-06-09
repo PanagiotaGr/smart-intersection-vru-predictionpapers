@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **148**
+Total papers tracked: **150**
 
 ---
 
+- **Towards Long-Horizon Vessel Trajectory and Destination Forecasting with Reasoning Large Language Models**  
+  *Hongwei Wang, Miao Zhou, Fengde Wang, Yuting Wang, Jiewen Yu, Jun-Yan He, Bohao Qu, Wanbing Zhang et al.*  
+  Published: `2026-06-07` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.08633v1) · [pdf](https://arxiv.org/pdf/2606.08633v1) · id: `2606.08633v1`
 - **Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability**  
   *Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, Steve Kenner*  
   Published: `2026-06-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.07437v1) · [pdf](https://arxiv.org/pdf/2606.07437v1) · id: `2606.07437v1`
@@ -78,6 +81,9 @@ Total papers tracked: **148**
 - **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
   *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
   Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v1) · [pdf](https://arxiv.org/pdf/2605.10376v1) · id: `2605.10376v1`
+- **SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation**  
+  *Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das*  
+  Published: `2026-05-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.10376v2) · [pdf](https://arxiv.org/pdf/2605.10376v2) · id: `2605.10376v2`
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v1) · [pdf](https://arxiv.org/pdf/2605.08830v1) · id: `2605.08830v1`

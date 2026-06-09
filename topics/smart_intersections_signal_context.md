@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **31**
+Total papers tracked: **32**
 
 ---
 
+- **Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning**  
+  *Yuesen Li, Daniel Link*  
+  Published: `2026-06-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.09289v1) · [pdf](https://arxiv.org/pdf/2606.09289v1) · id: `2606.09289v1`
 - **VeriDrive: Verifiable Counterfactual Supervision for Cost-Efficient Vision-Language Planning**  
   *Zikai Zhang, Hubert P. H. Shum, Toby P. Breckon*  
   Published: `2026-06-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.07338v1) · [pdf](https://arxiv.org/pdf/2606.07338v1) · id: `2606.07338v1`

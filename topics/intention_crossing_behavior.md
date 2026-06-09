@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-06-08` (timezone: `Europe/Athens`)
+Updated: `2026-06-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **109**
+Total papers tracked: **110**
 
 ---
 
+- **Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models**  
+  *Danya Li, Xiang Su, Yan Feng, Rico Krueger*  
+  Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09142v1) · [pdf](https://arxiv.org/pdf/2606.09142v1) · id: `2606.09142v1`
 - **PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction**  
   *Naman Mishra, Shankar Gangisetty, C. V. Jawahar*  
   Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24562v1) · [pdf](https://arxiv.org/pdf/2605.24562v1) · id: `2605.24562v1`
