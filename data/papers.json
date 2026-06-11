@@ -15430,6 +15430,42 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.09289v1",
       "abs_url": "http://arxiv.org/abs/2606.09289v1"
+    },
+    "2606.11507v1": {
+      "arxiv_id": "2606.11507v1",
+      "title": "SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining",
+      "authors": [
+        "Abdalmalek Aburaddaha",
+        "Venkatraman Narayanan",
+        "Keval Thaker",
+        "Samir A. Rawashdeh"
+      ],
+      "summary": "Mining hard, safety-critical scenes from driving logs is bottlenecked by the absence of difficulty labels, and no single proxy, collision risk, trajectory ambiguity, or semantic rarity suffices to find such scenes on its own. We present SceneMiner, a unified, camera-only bird's-eye-view pipeline that emits complementary mining signals from a frozen vision-language backbone in a single forward pass, with no LiDAR or radar: a retrieval embedding for text-prompted scenario search, a multi-label scene-tag distribution, and a continuous physics-based risk score (a motion forecast is a byproduct, not a contribution). Building such a multi-head model exposes our central finding, a failure mode we term cross-task interference: adding or upgrading one head shifts a shared activation stream and degrades weight-frozen sibling heads, so freezing parameters alone is insufficient. Our contribution, identity-preserving multi-task fine-tuning, removes this interference by zero-initializing every new sub-module and freezing every parameter that feeds the shared stream. The mining heads are thereby preserved bit-identically while training only ~102k parameters. The tagging head reaches mAP 0.4614 (micro-F1 0.5557) on 20 scene tags by pooling each scene into 32 visual tokens, and the embedding head supports text-prompted retrieval, validated qualitatively. Code is available at: https://anonymous.4open.science/r/sceneminer_anonymous-64E5",
+      "published_utc": "2026-06-09T22:59:41Z",
+      "updated_utc": "2026-06-09T22:59:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.11507v1",
+      "abs_url": "http://arxiv.org/abs/2606.11507v1"
+    },
+    "2606.09289v2": {
+      "arxiv_id": "2606.09289v2",
+      "title": "Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning",
+      "authors": [
+        "Yuesen Li",
+        "Daniel Link"
+      ],
+      "summary": "Understanding tactical organisation of association football, hereafter referred to as football, requires identifying distinct match phases. Yet in-possession phases are rarely directly observable and are shaped by evolving tactical intentions, rather than spatial patterns alone. This study proposes a data-driven framework for identifying in-possession match phases from spatiotemporal tracking data. Seven German Bundesliga matches recorded at 25 Hz with TRACAB were analysed. A hierarchical phase model was defined with three tactical intentions (Invade Opponent Space, Keep Possession, Scoring) and six phases (Build Up, Progression, Counter Attack, Maintenance, Sustained Threat, Finishing). A Temporal Graph Attention Network (T-GAN) was developed to combine frame-level player-interaction graphs, contextual features, and Transformer-based temporal modelling. Performance was evaluated using frame-level F1 and a sequence-aware Intersection over Truth-Dominance (IoT-D) metric. T-GAN achieved macro-average frame-level F1 scores of 0.87 at the intention level, 0.76 for invasion-related phases, and 0.79 for scoring phases. At the sequence level, mean diagonal IoT-D F1 increased from 0.68 to 0.79 for intentions and from 0.61 to 0.71 for phases after post-processing, indicating improved temporal coherence. Model comparisons showed that sequence modelling was the main driver of segmentation quality, while graph-based relational modelling was particularly beneficial for Counter Attack recognition. Exploratory player attention analysis further suggested that wide and midfield positional groups contributed strongly to phase discrimination. Overall, the framework translates continuous tracking data into tactically interpretable in-possession phase representations, with potential applications in automated match annotation, tactical analysis, and playing-style profiling.",
+      "published_utc": "2026-06-08T09:57:04Z",
+      "updated_utc": "2026-06-10T09:27:33Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09289v2",
+      "abs_url": "http://arxiv.org/abs/2606.09289v2"
     }
   },
   "topics": {
@@ -16165,9 +16201,10 @@
         "2606.07437v1",
         "2606.09671v1",
         "2606.08633v1",
-        "2605.10376v2"
+        "2605.10376v2",
+        "2606.11507v1"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-11"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16464,9 +16501,10 @@
         "2604.10169v2",
         "2606.06351v1",
         "2604.10169v3",
-        "2605.10376v2"
+        "2605.10376v2",
+        "2606.11507v1"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-11"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16818,9 +16856,10 @@
         "2606.01282v1",
         "2606.00857v1",
         "2606.07338v1",
-        "2606.09289v1"
+        "2606.09289v1",
+        "2606.09289v2"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-11"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

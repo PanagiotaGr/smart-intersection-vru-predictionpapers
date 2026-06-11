@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-10` (timezone: `Europe/Athens`)
+Updated: `2026-06-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **137**
+Total papers tracked: **138**
 
 ---
 
+- **SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining**  
+  *Abdalmalek Aburaddaha, Venkatraman Narayanan, Keval Thaker, Samir A. Rawashdeh*  
+  Published: `2026-06-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.11507v1) · [pdf](https://arxiv.org/pdf/2606.11507v1) · id: `2606.11507v1`
 - **Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction**  
   *Jaeyeong Lee, Wonmo Koo, Heeyoung Kim*  
   Published: `2026-06-04` · Category: `stat.ML` · [abs](http://arxiv.org/abs/2606.06351v1) · [pdf](https://arxiv.org/pdf/2606.06351v1) · id: `2606.06351v1`

@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-10` (timezone: `Europe/Athens`)
+Updated: `2026-06-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **206**
+Total papers tracked: **207**
 
 ---
 
+- **SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining**  
+  *Abdalmalek Aburaddaha, Venkatraman Narayanan, Keval Thaker, Samir A. Rawashdeh*  
+  Published: `2026-06-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.11507v1) · [pdf](https://arxiv.org/pdf/2606.11507v1) · id: `2606.11507v1`
 - **Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data**  
   *Yinyu Huang, Yilin Zhang, Sofia Michopoulou, Christopher Kipps, Rahman Attar*  
   Published: `2026-06-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.09671v1) · [pdf](https://arxiv.org/pdf/2606.09671v1) · id: `2606.09671v1`
