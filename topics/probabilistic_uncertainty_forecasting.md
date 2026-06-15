@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-14` (timezone: `Europe/Athens`)
+Updated: `2026-06-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **138**
+Total papers tracked: **139**
 
 ---
 
+- **An Attention-based Model for Robust Forecasting with Missing Modality**  
+  *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
+  Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`
 - **SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining**  
   *Abdalmalek Aburaddaha, Venkatraman Narayanan, Keval Thaker, Samir A. Rawashdeh*  
   Published: `2026-06-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.11507v1) · [pdf](https://arxiv.org/pdf/2606.11507v1) · id: `2606.11507v1`

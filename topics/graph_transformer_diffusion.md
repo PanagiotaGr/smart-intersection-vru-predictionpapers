@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-14` (timezone: `Europe/Athens`)
+Updated: `2026-06-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **123**
+Total papers tracked: **125**
 
 ---
 
+- **An Attention-based Model for Robust Forecasting with Missing Modality**  
+  *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
+  Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`
 - **Real-time body pose non-verbal communication with a consistency-based reliability measure**  
   *Alina Marcu, Dragos Costea, Cristina Lazar, Marius Leordeanu*  
   Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09390v1) · [pdf](https://arxiv.org/pdf/2606.09390v1) · id: `2606.09390v1`
@@ -15,6 +18,9 @@ Total papers tracked: **123**
 - **LiAuto-GeoX: Efficient Grounded Driving Transformer**  
   *Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, Le Hui, Ning Mao, Tao Wei et al.*  
   Published: `2026-06-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.05774v1) · [pdf](https://arxiv.org/pdf/2606.05774v1) · id: `2606.05774v1`
+- **LiAuto-GeoX: Efficient Grounded Driving Transformer**  
+  *Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, Le Hui, Ning Mao, Tao Wei et al.*  
+  Published: `2026-06-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.05774v2) · [pdf](https://arxiv.org/pdf/2606.05774v2) · id: `2606.05774v2`
 - **Learning Multi-Modal Trajectory Policies for Data-Efficient Robotic Manipulation**  
   *Zijia Chen, Yuenan Hou, Xinhua Jiang, Yu Li, Weijie Li, Li Liu*  
   Published: `2026-05-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.01047v1) · [pdf](https://arxiv.org/pdf/2606.01047v1) · id: `2606.01047v1`
