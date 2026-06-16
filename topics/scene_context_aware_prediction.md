@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **154**
 
 ---
 
+- **ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments**  
+  *Xiao-Yin Liu, Guotao Li, Long Sun, Xu Liang, Zeng-Guang Hou*  
+  Published: `2026-06-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.16876v1) · [pdf](https://arxiv.org/pdf/2606.16876v1) · id: `2606.16876v1`
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
+- **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
+  *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
+  Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
 - **Towards Long-Horizon Vessel Trajectory and Destination Forecasting with Reasoning Large Language Models**  
   *Hongwei Wang, Miao Zhou, Fengde Wang, Yuting Wang, Jiewen Yu, Jun-Yan He, Bohao Qu, Wanbing Zhang et al.*  
   Published: `2026-06-07` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.08633v1) · [pdf](https://arxiv.org/pdf/2606.08633v1) · id: `2606.08633v1`

@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **33**
+Total papers tracked: **34**
 
 ---
 
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
 - **Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning**  
   *Yuesen Li, Daniel Link*  
   Published: `2026-06-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.09289v1) · [pdf](https://arxiv.org/pdf/2606.09289v1) · id: `2606.09289v1`

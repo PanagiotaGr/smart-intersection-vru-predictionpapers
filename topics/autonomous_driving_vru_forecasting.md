@@ -1,8 +1,8 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **114**
+Total papers tracked: **115**
 
 ---
 
@@ -42,6 +42,9 @@ Total papers tracked: **114**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **Don't double it: Efficient Agent Prediction in Occlusions**  
   *Anna Rothenhäusler, Markus Mazzola, Andreas Look, Raghu Rajan, Joschka Bödecker*  
   Published: `2026-01-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2601.21504v1) · [pdf](https://arxiv.org/pdf/2601.21504v1) · id: `2601.21504v1`

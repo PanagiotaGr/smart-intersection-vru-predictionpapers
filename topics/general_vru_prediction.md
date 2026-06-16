@@ -1,11 +1,17 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **110**
+Total papers tracked: **113**
 
 ---
 
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
+- **Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent**  
+  *Ashutosh Kumar*  
+  Published: `2026-06-13` · Category: `cs.GT` · [abs](http://arxiv.org/abs/2606.15139v1) · [pdf](https://arxiv.org/pdf/2606.15139v1) · id: `2606.15139v1`
 - **Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models**  
   *Danya Li, Xiang Su, Yan Feng, Rico Krueger*  
   Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09142v1) · [pdf](https://arxiv.org/pdf/2606.09142v1) · id: `2606.09142v1`
@@ -99,6 +105,9 @@ Total papers tracked: **110**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **AGMA: Adaptive Gaussian Mixture Anchors for Prior-Guided Multimodal Human Trajectory Forecasting**  
   *Chao Li, Rui Zhang, Siyuan Huang, Xian Zhong, Hongbo Jiang*  
   Published: `2026-02-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.04204v1) · [pdf](https://arxiv.org/pdf/2602.04204v1) · id: `2602.04204v1`

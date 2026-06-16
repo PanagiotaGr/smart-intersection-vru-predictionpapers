@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **110**
+Total papers tracked: **112**
 
 ---
 
+- **Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent**  
+  *Ashutosh Kumar*  
+  Published: `2026-06-13` · Category: `cs.GT` · [abs](http://arxiv.org/abs/2606.15139v1) · [pdf](https://arxiv.org/pdf/2606.15139v1) · id: `2606.15139v1`
 - **Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models**  
   *Danya Li, Xiang Su, Yan Feng, Rico Krueger*  
   Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09142v1) · [pdf](https://arxiv.org/pdf/2606.09142v1) · id: `2606.09142v1`
@@ -60,6 +63,9 @@ Total papers tracked: **110**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **HERMES: A Holistic End-to-End Risk-Aware Multimodal Embodied System with Vision-Language Models for Long-Tail Autonomous Driving**  
   *Weizhe Tang, Junwei You, Jiaxi Liu, Zhaoyi Wang, Rui Gan, Zilin Huang, Feng Wei, Bin Ran*  
   Published: `2026-02-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.00993v1) · [pdf](https://arxiv.org/pdf/2602.00993v1) · id: `2602.00993v1`

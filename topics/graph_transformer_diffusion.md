@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **127**
 
 ---
 
+- **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
+  *George Daoud, Mohamed El-Darieby*  
+  Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`
 - **An Attention-based Model for Robust Forecasting with Missing Modality**  
   *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
   Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`
@@ -165,6 +168,9 @@ Total papers tracked: **125**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **ST4VLA: Spatially Guided Training for Vision-Language-Action Models**  
   *Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Yangkun Zhu, Bin Wang, Jinyu Zhang, Weiyang Jin et al.*  
   Published: `2026-02-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2602.10109v1) · [pdf](https://arxiv.org/pdf/2602.10109v1) · id: `2602.10109v1`

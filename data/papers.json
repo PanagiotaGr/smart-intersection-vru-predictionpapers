@@ -15514,6 +15514,128 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.13970v1",
       "abs_url": "http://arxiv.org/abs/2606.13970v1"
+    },
+    "2606.15251v1": {
+      "arxiv_id": "2606.15251v1",
+      "title": "Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility",
+      "authors": [
+        "Simon Kohaut",
+        "Felix Divo",
+        "Julius Hahnewald",
+        "Benedict Flade",
+        "Julian Eggert",
+        "Kristian Kersting",
+        "Devendra Singh Dhami"
+      ],
+      "summary": "Accurate and interpretable motion prediction for heterogeneous traffic spaces, including pedestrians, bicycles, cars, and trucks, is essential for safe autonomous navigation. Nevertheless, state-of-the-art approaches remain predominantly black-box, lacking explicit encoding of the regulatory and behavioral constraints of real-world mobility. We propose Trajectory Compliance-Shaping (TraCS), a neuro-symbolic framework that augments existing black-box motion prediction backbones with interpretable and probabilistic first-order logic. To do so, TraCS employs an agentic code-generation pipeline to bridge the gap between natural-language descriptions of traffic regulations and probabilistic motion prediction. Furthermore, TraCS employs a reactive data-streaming inference engine that maintains and efficiently updates compliance landscapes as scenes evolve. To prevent TraCS from overconfidently steering the backbone's predictions in the wrong direction, we propose a neural confidence rating learned as a context-aware attenuation of the compliance signal. We demonstrate on the Argoverse 2 benchmark how TraCS consistently improves state-of-the-art prediction backbones, showing that probabilistic and symbolic compliance reasoning is a broadly applicable and computationally efficient complement to purely neural motion predictors.",
+      "published_utc": "2026-06-13T11:15:04Z",
+      "updated_utc": "2026-06-13T11:15:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15251v1",
+      "abs_url": "http://arxiv.org/abs/2606.15251v1"
+    },
+    "2602.14780v2": {
+      "arxiv_id": "2602.14780v2",
+      "title": "ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic",
+      "authors": [
+        "Anna-Lena Schlamp",
+        "Jeremias Gerner",
+        "Klaus Bogenberger",
+        "Werner Huber",
+        "Stefanie Schmidtner"
+      ],
+      "summary": "We present ROSA -- Roundabout Optimized Speed Advisory -- a system that combines multi-agent trajectory prediction with coordinated speed guidance for multimodal, mixed traffic at roundabouts. Using a Transformer-based model, ROSA jointly predicts the future trajectories of vehicles and Vulnerable Road Users (VRUs) at roundabouts. Trained for single-step prediction and deployed autoregressively, it generates deterministic outputs, enabling actionable speed advisories. Incorporating motion dynamics, the model achieves high accuracy (ADE: 1.29m, FDE: 2.99m at a five-second prediction horizon), surpassing prior work. Adding route intention further improves performance (ADE: 1.10m, FDE: 2.36m), demonstrating the value of connected vehicle data. Based on predicted conflicts with VRUs and circulating vehicles, ROSA provides real-time, proactive speed advisories for approaching and entering the roundabout. Despite prediction uncertainty, ROSA significantly improves vehicle efficiency and safety, with positive effects even on perceived safety from a VRU perspective. The source code of this work is available under: github.com/urbanAIthi/ROSA.",
+      "published_utc": "2026-02-16T14:30:01Z",
+      "updated_utc": "2026-06-15T11:06:37Z",
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.CY",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.14780v2",
+      "abs_url": "http://arxiv.org/abs/2602.14780v2"
+    },
+    "2606.15240v1": {
+      "arxiv_id": "2606.15240v1",
+      "title": "EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction",
+      "authors": [
+        "Kun Ma",
+        "Qilong Han",
+        "Chengjing Song",
+        "Jingzheng Yao",
+        "Hao Wang",
+        "Changmao Wu"
+      ],
+      "summary": "Vessel trajectory prediction is important for intelligent shipping, maritime surveillance, and navigation safety. However, existing public maritime AIS resources are often limited by inconsistent forecasting protocols, uneven data quality, and the lack of benchmark-ready contextual annotations, which hinder fair comparison and context-aware modeling. To address this gap, we present EnvShip-Bench, a unified benchmark for short-term vessel trajectory prediction built from large-scale raw AIS data from the Danish Maritime Authority (DMA) and NOAA through a common processing pipeline. EnvShip-Bench adopts a standardized forecasting protocol with 10 minutes of observation, 10 minutes of prediction, and 20-second sampling in vessel-centric local metric coordinates. Beyond the large-scale core benchmark, it provides a quality-first compact subset for efficient and reproducible experimentation, together with synchronized environmental and nearby-vessel context extensions. As a result, EnvShip-Bench supports trajectory-only, environment-aware, and interaction-aware forecasting under a unified evaluation framework. Extensive benchmark statistics and analysis demonstrate that EnvShip-Bench offers a standardized, extensible, and context-aware foundation for maritime trajectory forecasting research.",
+      "published_utc": "2026-06-13T10:44:06Z",
+      "updated_utc": "2026-06-13T10:44:06Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15240v1",
+      "abs_url": "http://arxiv.org/abs/2606.15240v1"
+    },
+    "2606.14956v1": {
+      "arxiv_id": "2606.14956v1",
+      "title": "A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction",
+      "authors": [
+        "George Daoud",
+        "Mohamed El-Darieby"
+      ],
+      "summary": "Autonomous driving systems rely on precise trajectory prediction to plan safe and efficient movement. Graph Neural Networks (GNNs) have become a promising approach for modelling spatiotemporal interactions among road agents. However, designing GNN architectures for trajectory prediction remains non-standardized, with little guidance on which graph layers effectively capture spatial interactions and temporal dynamics. This paper offers a detailed comparative study of 19 graph layer types, focusing on their spatial and temporal processing capabilities to discover the most effective architectures for trajectory prediction. Within the explored hyperparameter setting, we highlight five standout layer combinations, with ARMA, Chebyshev, and topology-aware layers consistently performing better than others. Beyond performance metrics, our findings yield practical design principles: sum-based aggregation is more effective than mean-based methods, multi-head attention mechanisms enable richer interactions, and assigning different weights to different hop distances significantly improves prediction accuracy. These findings offer useful guidance for designing more interpretable and effective trajectory prediction models.",
+      "published_utc": "2026-06-12T20:57:27Z",
+      "updated_utc": "2026-06-12T20:57:27Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.14956v1",
+      "abs_url": "http://arxiv.org/abs/2606.14956v1"
+    },
+    "2606.15139v1": {
+      "arxiv_id": "2606.15139v1",
+      "title": "Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent",
+      "authors": [
+        "Ashutosh Kumar"
+      ],
+      "summary": "Autonomous driving is full of tiny social negotiations: a driver presses forward, another yields, a pedestrian fakes toward the curb, or a lane vehicle chooses whether to open a merge gap. Such interactions require inferring hidden intent from behavior under partial observability and then acting safely and efficiently. Existing autonomous-driving language benchmarks mostly focus on perception, visual question answering, or open-loop planning, while existing language-agent negotiation benchmarks typically make the negotiation explicit in text. Self-Driving Negotiator bridges the gap between the two: a text-only, multi-turn, procedurally generated environment for measuring implicit social coordination in driving. Agents generate specific driving actions. Reward and diagnostics are computed from the privileged simulator state, not from the explanation of the model. This report covers task design, reward and anti-gaming invariants, validated scenarios, non-LLM baselines, and a six-model inference leaderboard. Current models are far removed from the scripted expert. The best average success rate across three scenarios is 0.68; contested merge is statistically flat across models; and difficulty tiers separate cue-following from true wait-for-commitment behavior.",
+      "published_utc": "2026-06-13T05:58:48Z",
+      "updated_utc": "2026-06-13T05:58:48Z",
+      "primary_category": "cs.GT",
+      "categories": [
+        "cs.GT",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15139v1",
+      "abs_url": "http://arxiv.org/abs/2606.15139v1"
+    },
+    "2606.16876v1": {
+      "arxiv_id": "2606.16876v1",
+      "title": "ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments",
+      "authors": [
+        "Xiao-Yin Liu",
+        "Guotao Li",
+        "Long Sun",
+        "Xu Liang",
+        "Zeng-Guang Hou"
+      ],
+      "summary": "Adaptive torque prediction in dynamic exoskeleton scenarios requires expensive motion capture systems, which are infeasible in complex outdoor environments. Trajectory prediction has emerged as one of the effective approaches to address such an issue. However, the core challenges of exoskeleton trajectory prediction are twofold: establishing the mapping from multi-modal features to trajectory information; constructing the mapping from trajectory to torque. For the former, most existing methods perform only single-step prediction and neglect inter-subject trajectory variability, thereby limiting the trajectory optimization space and prediction generalization. To address this, this paper proposes a fast flow matching method that enables accurate trajectory prediction and better generalization for real-time performance, where trajectory generation errors and encoded observations are used to guide the training direction. For the second challenge, due to the high dynamics of the human-robot system and the strong coupling between perception and control, simple control methods struggle to achieve efficient assistance based on the predicted trajectory. This paper utilizes model predictive control and designs a novel optimization objective to optimize torque, ensuring the exoskeleton achieves comfortable and robust assistance. By integrating the above two components, the unified policy, denoted as ExoTraj, is developed to enable adaptive assistance in complex outdoor scenarios without high data acquisition cost. Experimental results show that compared to traditional methods, ExoTraj reduces cross-subject prediction error by 14.0% during the online phase and maintains robustness against external noise. Relative to the zero torque condition, ExoTraj decreases metabolic rate by 11.5-24.4%, heart rate by 1.7-19.5%, and peak muscle activation levels by 10.9-41.3%, respectively.",
+      "published_utc": "2026-06-15T15:50:29Z",
+      "updated_utc": "2026-06-15T15:50:29Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.16876v1",
+      "abs_url": "http://arxiv.org/abs/2606.16876v1"
     }
   },
   "topics": {
@@ -15658,9 +15780,11 @@
         "2604.23728v2",
         "2505.18647v3",
         "2605.31210v1",
-        "2606.00471v1"
+        "2606.00471v1",
+        "2606.15251v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-16"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -15707,9 +15831,10 @@
         "2104.10133v1",
         "2011.08722v3",
         "2011.00399v1",
-        "1906.08469v2"
+        "1906.08469v2",
+        "2606.15251v1"
       ],
-      "latest_update": "2026-04-14"
+      "latest_update": "2026-06-16"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -15921,9 +16046,12 @@
         "2604.10169v2",
         "2606.03321v1",
         "2604.10169v3",
-        "2605.10376v2"
+        "2605.10376v2",
+        "2606.15240v1",
+        "2606.14956v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-16"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16037,9 +16165,11 @@
         "2604.23728v2",
         "2605.20255v2",
         "2503.21168v3",
-        "2606.09142v1"
+        "2606.09142v1",
+        "2606.15139v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-16"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -16250,9 +16380,11 @@
         "2606.09671v1",
         "2606.08633v1",
         "2605.10376v2",
-        "2606.11507v1"
+        "2606.11507v1",
+        "2606.15240v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-11"
+      "latest_update": "2026-06-16"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16407,9 +16539,12 @@
         "2606.06565v1",
         "2606.08633v1",
         "2605.10376v2",
-        "2606.05774v2"
+        "2606.05774v2",
+        "2606.16876v1",
+        "2606.15251v1",
+        "2606.15240v1"
       ],
-      "latest_update": "2026-06-15"
+      "latest_update": "2026-06-16"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16552,9 +16687,10 @@
         "2604.10169v3",
         "2605.10376v2",
         "2606.11507v1",
-        "2606.13970v1"
+        "2606.13970v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-15"
+      "latest_update": "2026-06-16"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16683,9 +16819,11 @@
         "2606.09390v1",
         "2606.08633v1",
         "2606.13970v1",
-        "2606.05774v2"
+        "2606.05774v2",
+        "2606.14956v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-15"
+      "latest_update": "2026-06-16"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -16803,9 +16941,10 @@
         "2605.25947v1",
         "2605.24562v1",
         "2604.23728v2",
-        "2606.00471v1"
+        "2606.00471v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-16"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -16909,9 +17048,10 @@
         "2606.00857v1",
         "2606.07338v1",
         "2606.09289v1",
-        "2606.09289v2"
+        "2606.09289v2",
+        "2606.15251v1"
       ],
-      "latest_update": "2026-06-11"
+      "latest_update": "2026-06-16"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -17150,9 +17290,12 @@
         "2604.23728v2",
         "2605.31210v1",
         "2606.00471v1",
-        "2606.09142v1"
+        "2606.09142v1",
+        "2606.15251v1",
+        "2606.15139v1",
+        "2602.14780v2"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-16"
     }
   }
 }

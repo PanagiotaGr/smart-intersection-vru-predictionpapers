@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **207**
+Total papers tracked: **209**
 
 ---
 
+- **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
+  *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
+  Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
 - **SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining**  
   *Abdalmalek Aburaddaha, Venkatraman Narayanan, Keval Thaker, Samir A. Rawashdeh*  
   Published: `2026-06-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.11507v1) · [pdf](https://arxiv.org/pdf/2606.11507v1) · id: `2606.11507v1`
@@ -201,6 +204,9 @@ Total papers tracked: **207**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **X-VORTEX: Spatio-Temporal Contrastive Learning for Wake Vortex Trajectory Forecasting**  
   *Zhan Qu, Michael Färber*  
   Published: `2026-02-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2602.12869v1) · [pdf](https://arxiv.org/pdf/2602.12869v1) · id: `2602.12869v1`

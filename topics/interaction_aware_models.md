@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-15` (timezone: `Europe/Athens`)
+Updated: `2026-06-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **208**
+Total papers tracked: **211**
 
 ---
 
+- **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
+  *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
+  Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
+- **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
+  *George Daoud, Mohamed El-Darieby*  
+  Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`
 - **Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift**  
   *Doyeong Lim, Seungyoon Lee, In Cheol Bang*  
   Published: `2026-06-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.03321v1) · [pdf](https://arxiv.org/pdf/2606.03321v1) · id: `2606.03321v1`
@@ -258,6 +264,9 @@ Total papers tracked: **208**
 - **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
   *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
   Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v1) · [pdf](https://arxiv.org/pdf/2602.14780v1) · id: `2602.14780v1`
+- **ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic**  
+  *Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner*  
+  Published: `2026-02-16` · Category: `cs.MA` · [abs](http://arxiv.org/abs/2602.14780v2) · [pdf](https://arxiv.org/pdf/2602.14780v2) · id: `2602.14780v2`
 - **ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving**  
   *Jinqing Zhang, Zehua Fu, Zelin Xu, Wenying Dai, Qingjie Liu, Yunhong Wang*  
   Published: `2026-02-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2602.10884v1) · [pdf](https://arxiv.org/pdf/2602.10884v1) · id: `2602.10884v1`
