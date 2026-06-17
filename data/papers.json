@@ -15636,6 +15636,50 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.16876v1",
       "abs_url": "http://arxiv.org/abs/2606.16876v1"
+    },
+    "2606.17897v1": {
+      "arxiv_id": "2606.17897v1",
+      "title": "Learn to Quantify Social Interaction with Constraints for Pedestrian Walking",
+      "authors": [
+        "Xiaodan Shi"
+      ],
+      "summary": "Long-term human path forecasting in crowds is critical for autonomous moving platforms (like autonomous driving cars and social robots) to avoid collision and make high-quality planning. Although the current research take into account social interactions for prediction, they don't reveal the exact kinds of social interactions happened among people and how the social interactions affect the decision-making process of pedestrians, which further limits its robustness. Social interactions in pedestrian walking are intuitively massive and hard to label and quantify. In this paper, we explore creatively to quantify and interpret how pedestrians interact with others by proposing Learn to Cluster. Our clustering social interactions is probabilistic latent variable generative, learning directly from sequential trajectory observations, scalable to arbitrary number of pedestrians. Learn to cluster is label-free and can be naturally integrated into the training process of the prediction model. The latent variables will then serve as 'labels' to categorize social interactions. Extensive experiments over several trajectory prediction benchmarks demonstrate that our method is able to learn the patterns of social interactions and effectively integrate the patterns to pedestrian trajectory prediction.",
+      "published_utc": "2026-06-16T13:18:22Z",
+      "updated_utc": "2026-06-16T13:18:22Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.17897v1",
+      "abs_url": "http://arxiv.org/abs/2606.17897v1"
+    },
+    "2603.22281v2": {
+      "arxiv_id": "2603.22281v2",
+      "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+      "authors": [
+        "Haichao Zhang",
+        "Yijiang Li",
+        "Shwai He",
+        "Tushar Nagarajan",
+        "Mingfei Chen",
+        "Jianglin Lu",
+        "Ang Li",
+        "Yun Fu"
+      ],
+      "summary": "Recent progress in latent world models (e.g., V-JEPA2) has shown promising capability in forecasting future world states from video observations. Nevertheless, dense prediction from a short observation window limits temporal context and can bias predictors toward local, low-level extrapolation, making it difficult to capture long-horizon semantics and reducing downstream utility. Vision--language models (VLMs), in contrast, provide strong semantic grounding and general knowledge by reasoning over uniformly sampled frames, but they are not ideal as standalone dense predictors due to compute-driven sparse sampling, a language-output bottleneck that compresses fine-grained interaction states into text-oriented representations, and a data-regime mismatch when adapting to small action-conditioned datasets. We propose a VLM-guided JEPA-style latent world modeling framework that combines dense-frame dynamics modeling with long-horizon semantic guidance via a dual-temporal pathway: a dense JEPA branch for fine-grained motion and interaction cues, and a uniformly sampled VLM \\emph{thinker} branch with a larger temporal stride for knowledge-rich guidance. To transfer the VLM's progressive reasoning signals effectively, we introduce a hierarchical pyramid representation extraction module that aggregates multi-layer VLM representations into guidance features compatible with latent prediction. Experiments on hand-manipulation trajectory prediction show that our method outperforms both a strong VLM-only baseline and a JEPA-predictor baseline, and yields more robust long-horizon rollout behavior.",
+      "published_utc": "2026-03-23T17:59:42Z",
+      "updated_utc": "2026-06-16T09:39:03Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.22281v2",
+      "abs_url": "http://arxiv.org/abs/2603.22281v2"
     }
   },
   "topics": {
@@ -15782,9 +15826,10 @@
         "2605.31210v1",
         "2606.00471v1",
         "2606.15251v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -16049,9 +16094,11 @@
         "2605.10376v2",
         "2606.15240v1",
         "2606.14956v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1",
+        "2603.22281v2"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16382,9 +16429,10 @@
         "2605.10376v2",
         "2606.11507v1",
         "2606.15240v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16542,9 +16590,10 @@
         "2606.05774v2",
         "2606.16876v1",
         "2606.15251v1",
-        "2606.15240v1"
+        "2606.15240v1",
+        "2603.22281v2"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16688,9 +16737,10 @@
         "2605.10376v2",
         "2606.11507v1",
         "2606.13970v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16942,9 +16992,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2606.00471v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -17174,9 +17225,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2605.31210v1",
-        "2606.00471v1"
+        "2606.00471v1",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-02"
+      "latest_update": "2026-06-17"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -17293,9 +17345,10 @@
         "2606.09142v1",
         "2606.15251v1",
         "2606.15139v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.17897v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-17"
     }
   }
 }

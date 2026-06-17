@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-16` (timezone: `Europe/Athens`)
+Updated: `2026-06-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **211**
+Total papers tracked: **213**
 
 ---
 
+- **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
+  *Xiaodan Shi*  
+  Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
 - **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
   *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
   Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
@@ -186,6 +189,9 @@ Total papers tracked: **211**
 - **ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model**  
   *Haichao Zhang, Yijiang Li, Shwai He, Tushar Nagarajan, Mingfei Chen, Jianglin Lu, Ang Li, Yun Fu*  
   Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.22281v1) · [pdf](https://arxiv.org/pdf/2603.22281v1) · id: `2603.22281v1`
+- **ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model**  
+  *Haichao Zhang, Yijiang Li, Shwai He, Tushar Nagarajan, Mingfei Chen, Jianglin Lu, Ang Li, Yun Fu*  
+  Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.22281v2) · [pdf](https://arxiv.org/pdf/2603.22281v2) · id: `2603.22281v2`
 - **Language-Conditioned World Modeling for Visual Navigation**  
   *Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Xu Zhu, Qiyu Hu, Tianyu Wang et al.*  
   Published: `2026-03-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.26741v1) · [pdf](https://arxiv.org/pdf/2603.26741v1) · id: `2603.26741v1`

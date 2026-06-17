@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-06-16` (timezone: `Europe/Athens`)
+Updated: `2026-06-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **120**
 
 ---
 
+- **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
+  *Xiaodan Shi*  
+  Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
 - **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
   *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
   Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`
