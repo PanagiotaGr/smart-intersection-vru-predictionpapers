@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-06-17` (timezone: `Europe/Athens`)
+Updated: `2026-06-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **112**
+Total papers tracked: **113**
 
 ---
 
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
 - **Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent**  
   *Ashutosh Kumar*  
   Published: `2026-06-13` · Category: `cs.GT` · [abs](http://arxiv.org/abs/2606.15139v1) · [pdf](https://arxiv.org/pdf/2606.15139v1) · id: `2606.15139v1`

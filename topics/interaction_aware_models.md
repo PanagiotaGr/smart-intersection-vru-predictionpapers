@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-17` (timezone: `Europe/Athens`)
+Updated: `2026-06-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **213**
+Total papers tracked: **215**
 
 ---
 
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
+- **MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction**  
+  *Jianing Zhang, Chenhao Zheng, Yajun Yang, Max Argus, Rustin Soraki, Winson Han, Taira Anderson, Chun-Liang Li et al.*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18558v1) · [pdf](https://arxiv.org/pdf/2606.18558v1) · id: `2606.18558v1`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`

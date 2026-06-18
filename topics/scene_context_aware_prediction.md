@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-17` (timezone: `Europe/Athens`)
+Updated: `2026-06-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **155**
+Total papers tracked: **156**
 
 ---
 
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
 - **ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments**  
   *Xiao-Yin Liu, Guotao Li, Long Sun, Xu Liang, Zeng-Guang Hou*  
   Published: `2026-06-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.16876v1) · [pdf](https://arxiv.org/pdf/2606.16876v1) · id: `2606.16876v1`

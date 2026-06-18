@@ -15680,6 +15680,73 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.22281v2",
       "abs_url": "http://arxiv.org/abs/2603.22281v2"
+    },
+    "2606.18824v1": {
+      "arxiv_id": "2606.18824v1",
+      "title": "Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos",
+      "authors": [
+        "Yuxuan Xie",
+        "Nicolas Pugeault",
+        "Chongfeng Wei",
+        "Hubert P. H. Shum",
+        "Edmond S. L. Ho"
+      ],
+      "summary": "Pedestrian trajectory prediction from an ego-centric camera is challenging since it depends on complex interactions with vehicles and scene context, as well as the intention of the pedestrian. By modelling correlation and intent from the historical and future trajectories of the pedestrian, it will usually result in a multimodal (i.e. multiple modes) distribution. Existing stochastic predictors often sample multiple futures from a single unimodal distribution, which can yield sub-optimal 'mixed-mode' trajectories that lie between distinct motion patterns and become implausible in real scenes. In this paper, we propose MMPM, a mode-aware framework that separately models future trajectory distributions into semantically meaningful modes based on the pedestrian's crossing behavior. MMPM consists of two modules: behavior-aware Pedestrian Interaction Module (PIM) that jointly captures pedestrian-vehicle and pedestrian-environment interactions by introducing gaze, head and hand gesture, and a CVAE-based Mode-aware Trajectory Predictor (MTP) module to model the future trajectory distributions on two modes, crossing and non-crossing the road, separately. A query-based decoder further enforces mode consistency during decoding. Experiments on PIE and JAAD datasets show that our method surpasses state-of-the-art baselines. Our proposed MTP is model-agnostic, which can be integrated into existing frameworks such as BiTrap-NP and SGNet-ED to further improve future trajectory prediction performance. We additionally introduce a data-driven validation protocol that matches predictions to spatio-temporally consistent ground-truth trajectories, demonstrating improved frame-wise displacement errors over previous work.",
+      "published_utc": "2026-06-17T08:55:01Z",
+      "updated_utc": "2026-06-17T08:55:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18824v1",
+      "abs_url": "http://arxiv.org/abs/2606.18824v1"
+    },
+    "2606.18558v1": {
+      "arxiv_id": "2606.18558v1",
+      "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
+      "authors": [
+        "Jianing Zhang",
+        "Chenhao Zheng",
+        "Yajun Yang",
+        "Max Argus",
+        "Rustin Soraki",
+        "Winson Han",
+        "Taira Anderson",
+        "Chun-Liang Li",
+        "Shuo Liu",
+        "Jiafei Duan",
+        "Zhongzheng Ren",
+        "Jieyu Zhang",
+        "Ranjay Krishna"
+      ],
+      "summary": "Motion forecasting is central to visual intelligence: agents must anticipate how objects will move in order to plan actions, reason about physical interactions, and synthesize realistic futures. We argue that 3D points in world coordinates provide a general representation that is class-agnostic, view-stable, compact, and directly useful for downstream tasks. We formalize the task of goal-conditioned 3D point motion forecasting: given a short visual history, a set of 3D query points on an object of interest, and a language description of the intended goal, the model predicts the future 3D trajectory of each point. We introduce a full stack to study this task at scale: (1) MolmoMotion-1M is a large corpus of action-described, object-grounded 3D point trajectories annotated from 1.16M unconstrained videos; (2) PointMotionBench is a human-verified benchmark spanning 111 object categories and 61 motion types; and (3) MolmoMotion is a general motion forecasting model that supports both autoregressive coordinate prediction and flow-matching-based trajectory generation. MolmoMotion accurately predicts diverse motion patterns with different language instructions, and significantly outperforms existing motion prediction baselines on PointMotionBench. Finally, we show that the learned 3D motion prior transfers well to downstream applications: it improves training efficiency and generalization for robot manipulation, and its predicted trajectories provide effective motion guidance for generative models to synthesize videos with more realistic object motion.",
+      "published_utc": "2026-06-17T00:19:00Z",
+      "updated_utc": "2026-06-17T00:19:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18558v1",
+      "abs_url": "http://arxiv.org/abs/2606.18558v1"
+    },
+    "2606.19227v1": {
+      "arxiv_id": "2606.19227v1",
+      "title": "Constant Time-Delay Leader Following with Neural Networks and Invariant Extended Kalman Filters for Arbitrary Trajectories",
+      "authors": [
+        "Luka Antonyshyn",
+        "Paulo Ricardo Marques de Araujo",
+        "Sidney Givigi"
+      ],
+      "summary": "This paper proposes a constant time-delay trajectory tracking method for vehicle convoys operating without inter-vehicle communication, a common coordinate system, or global positioning. The method integrates a probabilistic sequence-to-sequence (Seq2Seq) neural network with an invariant extended Kalman filter (IEKF) to warm-start the prediction process, allowing accurate estimation of a leader vehicle's relative trajectory on the SE(2) manifold. A geometric model predictive controller is further incorporated to fully exploit the manifold-based trajectory predictions for improved control performance. The system can handle arbitrary nonlinear trajectories with varying speeds and motion profiles while reducing the need for expert-based domain knowledge for the design of trajectory following systems, even under long trajectory delays. The effectiveness of the method is validated through comparisons with a pure IEKF baseline, learning-based methods, and the ground-truth trajectory in kinematic simulations, as well as in experiments using real robotic vehicles.",
+      "published_utc": "2026-06-17T16:04:58Z",
+      "updated_utc": "2026-06-17T16:04:58Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.19227v1",
+      "abs_url": "http://arxiv.org/abs/2606.19227v1"
     }
   },
   "topics": {
@@ -15827,9 +15894,10 @@
         "2606.00471v1",
         "2606.15251v1",
         "2602.14780v2",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -16096,9 +16164,11 @@
         "2606.14956v1",
         "2602.14780v2",
         "2606.17897v1",
-        "2603.22281v2"
+        "2603.22281v2",
+        "2606.18824v1",
+        "2606.18558v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16214,9 +16284,10 @@
         "2503.21168v3",
         "2606.09142v1",
         "2606.15139v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-18"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -16591,9 +16662,10 @@
         "2606.16876v1",
         "2606.15251v1",
         "2606.15240v1",
-        "2603.22281v2"
+        "2603.22281v2",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16738,9 +16810,11 @@
         "2606.11507v1",
         "2606.13970v1",
         "2602.14780v2",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.19227v1",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17060,9 +17134,10 @@
         "2605.24562v1",
         "2604.23728v2",
         "2605.20255v2",
-        "2606.09142v1"
+        "2606.09142v1",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-09"
+      "latest_update": "2026-06-18"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -17226,9 +17301,10 @@
         "2604.23728v2",
         "2605.31210v1",
         "2606.00471v1",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -17346,9 +17422,10 @@
         "2606.15251v1",
         "2606.15139v1",
         "2602.14780v2",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.18824v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-18"
     }
   }
 }
