@@ -1,11 +1,14 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-06-18` (timezone: `Europe/Athens`)
+Updated: `2026-06-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **116**
+Total papers tracked: **117**
 
 ---
 
+- **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
+  *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
+  Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`

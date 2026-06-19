@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-18` (timezone: `Europe/Athens`)
+Updated: `2026-06-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **143**
+Total papers tracked: **145**
 
 ---
 
+- **Leveraging tails for adaptation**  
+  *Sergios Agapiou, Ismaël Castillo, Paul Egels*  
+  Published: `2026-06-18` · Category: `math.ST` · [abs](http://arxiv.org/abs/2606.20480v1) · [pdf](https://arxiv.org/pdf/2606.20480v1) · id: `2606.20480v1`
+- **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
+  *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
+  Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
 - **Constant Time-Delay Leader Following with Neural Networks and Invariant Extended Kalman Filters for Arbitrary Trajectories**  
   *Luka Antonyshyn, Paulo Ricardo Marques de Araujo, Sidney Givigi*  
   Published: `2026-06-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.19227v1) · [pdf](https://arxiv.org/pdf/2606.19227v1) · id: `2606.19227v1`

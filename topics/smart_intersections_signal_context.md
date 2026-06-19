@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-06-18` (timezone: `Europe/Athens`)
+Updated: `2026-06-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **34**
+Total papers tracked: **35**
 
 ---
 
+- **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
+  *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
+  Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`

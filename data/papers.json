@@ -15747,6 +15747,44 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.19227v1",
       "abs_url": "http://arxiv.org/abs/2606.19227v1"
+    },
+    "2606.20336v1": {
+      "arxiv_id": "2606.20336v1",
+      "title": "Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty",
+      "authors": [
+        "Taha Bouzid",
+        "Shuhao Qi",
+        "Mircea Lazar",
+        "Sofie Haesaert"
+      ],
+      "summary": "Autonomous vehicles must plan trajectories that satisfy a multitude of requirements on safety, passenger comfort, and compliance with traffic rules. However, in safety-critical scenarios, it is not always possible to satisfy all requirements simultaneously, necessitating their prioritization based on importance. At the same time, in these safety-critical scenarios, the uncertainty in trajectory predictions of the surrounding traffic, such as other vehicles and pedestrians, should be explicitly accounted for. In this work, we propose an uncertainty-aware trajectory planning framework that incorporates a predefined lexicographic ordering over Signal Temporal Logic (STL) specifications that stays valid under uncertainty. We implement this formulation with Model Predictive Path Integral (MPPI) control and we demonstrate the effectiveness of our method on simulation scenarios, showing that our framework efficiently handles conflicting objectives under realistic multi-modal uncertainty.",
+      "published_utc": "2026-06-18T15:06:40Z",
+      "updated_utc": "2026-06-18T15:06:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20336v1",
+      "abs_url": "http://arxiv.org/abs/2606.20336v1"
+    },
+    "2606.20480v1": {
+      "arxiv_id": "2606.20480v1",
+      "title": "Leveraging tails for adaptation",
+      "authors": [
+        "Sergios Agapiou",
+        "Ismaël Castillo",
+        "Paul Egels"
+      ],
+      "summary": "We consider contraction of Bayesian posterior distributions in nonparametric settings where coefficients of a function over a basis or dictionary are given priors with $p$--exponential tails, including Laplace tails $(p=1)$ and heavier tails $(p<1)$. It is shown that contraction rates improve as $p$ decreases and that full adaptation to smoothness, up to logarithmic factors, is obtained in an appropriate $p\\to 0$ regime. As applications, we consider both series priors in white noise regression and shallow ReLU neural networks in random design regression. In particular, we show that overparametrised shallow ReLU networks can adapt to any regularity $0\\le β\\le 2$. Through a simulation study, we show strong empirical agreement with the behavior predicted by our theory.",
+      "published_utc": "2026-06-18T16:57:06Z",
+      "updated_utc": "2026-06-18T16:57:06Z",
+      "primary_category": "math.ST",
+      "categories": [
+        "math.ST",
+        "stat.ML"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20480v1",
+      "abs_url": "http://arxiv.org/abs/2606.20480v1"
     }
   },
   "topics": {
@@ -15895,9 +15933,10 @@
         "2606.15251v1",
         "2602.14780v2",
         "2606.17897v1",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-19"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -16501,9 +16540,10 @@
         "2606.11507v1",
         "2606.15240v1",
         "2602.14780v2",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-19"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16812,9 +16852,11 @@
         "2602.14780v2",
         "2606.17897v1",
         "2606.19227v1",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.20480v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-19"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17067,9 +17109,10 @@
         "2604.23728v2",
         "2606.00471v1",
         "2602.14780v2",
-        "2606.17897v1"
+        "2606.17897v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-17"
+      "latest_update": "2026-06-19"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -17175,9 +17218,10 @@
         "2606.07338v1",
         "2606.09289v1",
         "2606.09289v2",
-        "2606.15251v1"
+        "2606.15251v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-19"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -17423,9 +17467,10 @@
         "2606.15139v1",
         "2602.14780v2",
         "2606.17897v1",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.20336v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-19"
     }
   }
 }
