@@ -1,17 +1,23 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **121**
+Total papers tracked: **123**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
   *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
   Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`

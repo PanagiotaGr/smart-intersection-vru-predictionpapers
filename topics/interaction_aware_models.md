@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **215**
+Total papers tracked: **219**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
+- **Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-06-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.21344v1) · [pdf](https://arxiv.org/pdf/2606.21344v1) · id: `2606.21344v1`
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
@@ -15,6 +21,9 @@ Total papers tracked: **215**
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
   *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
   Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
@@ -42,6 +51,9 @@ Total papers tracked: **215**
 - **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
   *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
   Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v1) · [pdf](https://arxiv.org/pdf/2605.24354v1) · id: `2605.24354v1`
+- **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
+  *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v2) · [pdf](https://arxiv.org/pdf/2605.24354v2) · id: `2605.24354v2`
 - **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
   *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
   Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`

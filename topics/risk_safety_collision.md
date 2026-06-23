@@ -1,17 +1,26 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **211**
+Total papers tracked: **215**
 
 ---
 
+- **Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-06-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.21344v1) · [pdf](https://arxiv.org/pdf/2606.21344v1) · id: `2606.21344v1`
+- **Continuous-Time Probabilistic Correctors for Uncertainty-Aware Physics-Based Spacecraft Trajectory Forecasting**  
+  *Muhammad Bilal Shahid, Zhanhong Jiang, Soumik Sarkar, Cody Fleming*  
+  Published: `2026-06-19` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.21021v1) · [pdf](https://arxiv.org/pdf/2606.21021v1) · id: `2606.21021v1`
 - **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
   *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
   Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
   *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
   Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
@@ -54,6 +63,9 @@ Total papers tracked: **211**
 - **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
   *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
   Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v1) · [pdf](https://arxiv.org/pdf/2605.24354v1) · id: `2605.24354v1`
+- **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
+  *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v2) · [pdf](https://arxiv.org/pdf/2605.24354v2) · id: `2605.24354v2`
 - **Probabilistic Recursively Feasible Motion Planning Under Uncertain Environments**  
   *Hyeontae Sung, Hyeongchan Ham, Junyoung Park, Kai Ren, Heejin Ahn*  
   Published: `2026-05-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2605.19015v1) · [pdf](https://arxiv.org/pdf/2605.19015v1) · id: `2605.19015v1`

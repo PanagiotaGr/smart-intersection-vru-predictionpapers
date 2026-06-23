@@ -1,11 +1,17 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **44**
+Total papers tracked: **46**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`

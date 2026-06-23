@@ -1,11 +1,23 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **127**
+Total papers tracked: **131**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
+- **A DVDrive Approach for doScenes Instructed Driving Challenge**  
+  *Zijian Fu, Xiangyang Chu, Mengshi Qi, Huadong Ma, Guanghao Zhang, Wei Li*  
+  Published: `2026-06-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.21623v1) · [pdf](https://arxiv.org/pdf/2606.21623v1) · id: `2606.21623v1`
+- **Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-06-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.21344v1) · [pdf](https://arxiv.org/pdf/2606.21344v1) · id: `2606.21344v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
   *George Daoud, Mohamed El-Darieby*  
   Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`

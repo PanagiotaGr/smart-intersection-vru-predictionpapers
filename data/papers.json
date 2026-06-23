@@ -15785,6 +15785,147 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.20480v1",
       "abs_url": "http://arxiv.org/abs/2606.20480v1"
+    },
+    "2606.23058v1": {
+      "arxiv_id": "2606.23058v1",
+      "title": "Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction",
+      "authors": [
+        "Raphaël Delécluse",
+        "Hazem Wannous",
+        "Laurent Grisoni",
+        "Laurent Guimas"
+      ],
+      "summary": "Pedestrian trajectory prediction requires modeling temporal dynamics, multimodal cues, and social interactions in crowded environments. Existing methods often address these factors separately or entangle them in costly attention blocks, limiting scalability, flexibility, and interpretability. We propose a three-step hierarchical Transformer that explicitly separates temporal encoding, multimodal fusion, and scene-level interaction reasoning. Lightweight GRU summaries enable efficient cross-modal attention, while social attention over time--agent tokens captures inter-pedestrian influences at manageable cost. Experiments on JTA, JRDB, and the Pedestrians and Cyclists in Road Traffic dataset show state-of-the-art performance on real-world datasets (JRDB, Urban) and competitive results on JTA. Ablation and qualitative analyses confirm the contribution of each stage and the model's ability to anticipate complex behaviors such as early turning.",
+      "published_utc": "2026-06-22T09:11:20Z",
+      "updated_utc": "2026-06-22T09:11:20Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23058v1",
+      "abs_url": "http://arxiv.org/abs/2606.23058v1"
+    },
+    "2606.20686v1": {
+      "arxiv_id": "2606.20686v1",
+      "title": "JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems",
+      "authors": [
+        "Jiahao Wu",
+        "Shengwen Yu"
+      ],
+      "summary": "Shared-space transportation operation requires low-speed autonomous platforms to navigate safely and efficiently among pedestrians, service robots, micromobility users, carts, and other road users. Most existing systems decompose this problem into trajectory prediction followed by motion planning, which creates one-way information flow: predicted participant futures influence the robot plan, but the selected robot plan cannot influence the predicted multi-agent evolution. This paper presents a joint prediction-planning diffusion framework that treats participant prediction and robot planning as a single conditional trajectory generation problem, where the model samples the future robot trajectory and all participant trajectories from one coupled distribution using a causal Transformer with cross-trajectory attention. To replace heuristic repulsive post-processing, the framework introduces differentiable safety potential guidance, a time-varying occupancy-probability potential whose gradient directly guides the joint sampler, and conditional flow matching is used to reduce inference steps while preserving multimodal trajectory diversity. The evaluation emphasizes shared-space operational effects, including near misses, blockage time, induced participant deviation, hard-braking events, and embedded latency, rather than treating average displacement error and final displacement error as the main result. Experiments in scenario-grounded simulation, naturalistic pedestrian replay, Isaac Sim validation, and ROS/Orin deployment show that joint sampling improves tail safety and runtime efficiency over a separated prediction-then-planning baseline.",
+      "published_utc": "2026-06-14T11:15:44Z",
+      "updated_utc": "2026-06-14T11:15:44Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20686v1",
+      "abs_url": "http://arxiv.org/abs/2606.20686v1"
+    },
+    "2606.21344v1": {
+      "arxiv_id": "2606.21344v1",
+      "title": "Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data",
+      "authors": [
+        "Shahab Salehi",
+        "Luca Lusvarghi",
+        "Miguel Sepulcre",
+        "Javier Gozalvez"
+      ],
+      "summary": "Trajectory prediction allows autonomous vehicles to anticipate the future behavior of surrounding objects (or agents) and, accordingly, maximize the safety and efficiency of their driving. State-of-the-art Transformed-based interaction-aware trajectory prediction models, which rely on attention mechanisms to capture multi-agent interactions and maximize prediction accuracy, are commonly trained and evaluated on long-range high-quality datasets. These datasets are typically obtained by aggregating data from multiple vehicles or drones and removing any object detection or tracking noise offline. Yet, information about a surrounding object's state (its position, speed, heading) is far from being noiseless in real-world deployments. Object state estimation is affected by perception uncertainties and localization errors that can be particularly large for objects received via Vehicle-to-Everything (V2X) communications. In this paper, we analyze the impact of noisy object state information on the trajectory prediction accuracy of a state-of-the-art Transformer-based interaction-aware trajectory prediction model. Our study demonstrates that trajectory prediction accuracy can rapidly deteriorate as the noise intensity increases. Numerical results show that the prediction accuracy can reduce by a 1.3x factor under small noise levels and by as much as a 3.9x factor under the highest (yet realistic) noise conditions. These findings reveal the strong sensitivity of trajectory prediction models to noisy data, underscoring the need for more realistic training and evaluation datasets as well as noise mitigation strategies.",
+      "published_utc": "2026-06-19T11:41:52Z",
+      "updated_utc": "2026-06-19T11:41:52Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21344v1",
+      "abs_url": "http://arxiv.org/abs/2606.21344v1"
+    },
+    "2605.24354v2": {
+      "arxiv_id": "2605.24354v2",
+      "title": "SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation",
+      "authors": [
+        "Ruoyu Wang",
+        "Jingke Wang",
+        "Yukai Ma",
+        "Yuehao Huang",
+        "Shuangming Lei",
+        "Guanglin Xu",
+        "Aixue Ye",
+        "Yong Liu"
+      ],
+      "summary": "Recently, world models have made significant progress in enhancing end-to-end driving systems through both future situation forecasting and improved scene understanding. However, existing driving world models are typically built upon dense scene representations, causing high computational costs and redundant information. In this paper, we present SparseWorld, a lightweight world model that focuses on predicting only the critical layout of the scene, enabling efficient future forecasting for end-to-end driving systems. SparseWorld first performs autoregressive rollout to forecast future map elements and surrounding agents, enabling the model to learn how driving scenarios evolve over time. It then leverages these predicted futures to refine downstream motion prediction and trajectory planning. Specifically, we propose a Sparse Dreamer that anticipates future instances in the latent space through joint temporal and spatial attention. By interacting with predicted future instances, the motion planner captures more accurate motion patterns and generates more informed and safety-aware trajectories. Extensive experiments demonstrate that SparseWorld significantly reduces collision risk and achieves state-of-the-art performance on the open-loop planning metrics of the nuScenes dataset with a collision rate of 0.05\\%. Moreover, it substantially outperforms the baseline method in closed-loop planning metrics on the Bench2Drive benchmark. Supplementary material is available at the project page: https://wryzju.github.io/SparseWorld/.",
+      "published_utc": "2026-05-23T02:30:33Z",
+      "updated_utc": "2026-06-22T08:06:10Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.24354v2",
+      "abs_url": "http://arxiv.org/abs/2605.24354v2"
+    },
+    "2606.21021v1": {
+      "arxiv_id": "2606.21021v1",
+      "title": "Continuous-Time Probabilistic Correctors for Uncertainty-Aware Physics-Based Spacecraft Trajectory Forecasting",
+      "authors": [
+        "Muhammad Bilal Shahid",
+        "Zhanhong Jiang",
+        "Soumik Sarkar",
+        "Cody Fleming"
+      ],
+      "summary": "Long-horizon spacecraft trajectory forecasting suffers from error accumulation due to the absence of corrective observations in the forecast regime, making reliable uncertainty estimation crucial for safety-critical decision-making such as space domain awareness and conjunction assessment. While high-fidelity physics-based orbit propagators provide accurate deterministic forecasts, they typically lack calibrated uncertainty estimates over long horizons. We introduce a Predictor--Corrector framework in which a physics-based continuous-time $\\textit{deterministic}$ forecaster is augmented with a learned continuous-time $\\textit{probabilistic}$ Corrector that models forecast errors. The proposed Corrector can be wrapped around an existing deterministic propagator to improve forecast accuracy while producing sharp and calibrated full-covariance uncertainty estimates. The Corrector is based on Latent Neural Controlled Differential Equations (Latent NCDEs) and models the probabilistic temporal evolution of forecast errors in continuous time, naturally supporting irregular sampling and missing features. We further introduce a loss function that promotes calibration and sharpness in long-horizon uncertainty propagation. We evaluate the proposed framework on long-horizon spacecraft trajectory forecasting using real-world data from NASA's Crustal Dynamics Data Information System (CDDIS), wrapping the Corrector around NASA's General Mission Analysis Tool (GMAT). Across forecast horizons of 2--4 days without observations and six rolling test windows, the proposed approach consistently improves accuracy and uncertainty calibration compared to deterministic baselines and Latent ODE-based correctors, demonstrating the effectiveness of the continuous-time probabilistic Corrector for trajectory forecasting.",
+      "published_utc": "2026-06-19T01:16:45Z",
+      "updated_utc": "2026-06-19T01:16:45Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21021v1",
+      "abs_url": "http://arxiv.org/abs/2606.21021v1"
+    },
+    "2606.21623v1": {
+      "arxiv_id": "2606.21623v1",
+      "title": "A DVDrive Approach for doScenes Instructed Driving Challenge",
+      "authors": [
+        "Zijian Fu",
+        "Xiangyang Chu",
+        "Mengshi Qi",
+        "Huadong Ma",
+        "Guanghao Zhang",
+        "Wei Li"
+      ],
+      "summary": "Instruction-conditioned trajectory prediction is an emerging problem in autonomous driving, where a model predicts the future ego trajectory not only from visual scene context and historical motion, but also from a natural-language maneuver instruction. This paper presents our submission to the doScenes Instructed Driving Challenge, built upon OmniDrive, a vision-language-action driving agent with 3D perception, reasoning, and planning capabilities. We adapt OmniDrive to the doScenes setting by training it on instruction-annotated nuScenes scenes and generating a 6-second ego trajectory represented by 12 future waypoints. To improve multi-view visual grounding, we further introduce a DVPE-style divided-view perception module into the OmniDrive perception head. Instead of attending globally to all camera features, the proposed module groups query features and image tokens into divided local view spaces and performs visibility-aware cross-attention within each view. This design reduces irrelevant cross-view interference and helps the model better align language instructions with local driving-relevant visual evidence. The code is publicly available at: https://github.com/feel12348/doscenes-omnidrive.",
+      "published_utc": "2026-06-19T17:26:58Z",
+      "updated_utc": "2026-06-19T17:26:58Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21623v1",
+      "abs_url": "http://arxiv.org/abs/2606.21623v1"
+    },
+    "2606.20480v2": {
+      "arxiv_id": "2606.20480v2",
+      "title": "Leveraging tails for adaptation",
+      "authors": [
+        "Sergios Agapiou",
+        "Ismaël Castillo",
+        "Paul Egels"
+      ],
+      "summary": "We consider contraction of Bayesian posterior distributions in nonparametric settings where coefficients of a function over a basis or dictionary are given priors with $p$--exponential tails, including Laplace tails $(p=1)$ and heavier tails $(p<1)$. It is shown that contraction rates improve as $p$ decreases and that full adaptation to smoothness, up to logarithmic factors, is obtained in an appropriate $p\\to 0$ regime. As applications, we consider both series priors in white noise regression and shallow ReLU neural networks in random design regression. In particular, we show that overparametrised shallow ReLU networks can adapt to any regularity $0\\le β\\le 2$. Through a simulation study, we show strong empirical agreement with the behavior predicted by our theory.",
+      "published_utc": "2026-06-18T16:57:06Z",
+      "updated_utc": "2026-06-19T08:00:38Z",
+      "primary_category": "math.ST",
+      "categories": [
+        "math.ST",
+        "stat.ML"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20480v2",
+      "abs_url": "http://arxiv.org/abs/2606.20480v2"
     }
   },
   "topics": {
@@ -15934,9 +16075,11 @@
         "2602.14780v2",
         "2606.17897v1",
         "2606.18824v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2606.23058v1",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-06-23"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -15984,9 +16127,11 @@
         "2011.08722v3",
         "2011.00399v1",
         "1906.08469v2",
-        "2606.15251v1"
+        "2606.15251v1",
+        "2606.23058v1",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-23"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -16205,9 +16350,13 @@
         "2606.17897v1",
         "2603.22281v2",
         "2606.18824v1",
-        "2606.18558v1"
+        "2606.18558v1",
+        "2606.23058v1",
+        "2606.21344v1",
+        "2606.20686v1",
+        "2605.24354v2"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-23"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16541,9 +16690,13 @@
         "2606.15240v1",
         "2602.14780v2",
         "2606.17897v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2606.21344v1",
+        "2606.21021v1",
+        "2606.20686v1",
+        "2605.24354v2"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-06-23"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -16703,9 +16856,12 @@
         "2606.15251v1",
         "2606.15240v1",
         "2603.22281v2",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.23058v1",
+        "2606.21623v1",
+        "2605.24354v2"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-23"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -16854,9 +17010,13 @@
         "2606.19227v1",
         "2606.18824v1",
         "2606.20480v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2606.23058v1",
+        "2606.21344v1",
+        "2606.20480v2",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-06-23"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -16987,9 +17147,13 @@
         "2606.13970v1",
         "2606.05774v2",
         "2606.14956v1",
-        "2602.14780v2"
+        "2602.14780v2",
+        "2606.23058v1",
+        "2606.21623v1",
+        "2606.21344v1",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-16"
+      "latest_update": "2026-06-23"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -17110,9 +17274,10 @@
         "2606.00471v1",
         "2602.14780v2",
         "2606.17897v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2606.23058v1"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-06-23"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -17346,9 +17511,11 @@
         "2605.31210v1",
         "2606.00471v1",
         "2606.17897v1",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.23058v1",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-23"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -17468,9 +17635,11 @@
         "2602.14780v2",
         "2606.17897v1",
         "2606.18824v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2606.23058v1",
+        "2606.20686v1"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-06-23"
     }
   }
 }

@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **156**
+Total papers tracked: **159**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
+- **A DVDrive Approach for doScenes Instructed Driving Challenge**  
+  *Zijian Fu, Xiangyang Chu, Mengshi Qi, Huadong Ma, Guanghao Zhang, Wei Li*  
+  Published: `2026-06-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.21623v1) · [pdf](https://arxiv.org/pdf/2606.21623v1) · id: `2606.21623v1`
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
@@ -57,6 +63,9 @@ Total papers tracked: **156**
 - **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
   *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
   Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v1) · [pdf](https://arxiv.org/pdf/2605.24354v1) · id: `2605.24354v1`
+- **SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation**  
+  *Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, Guanglin Xu, Aixue Ye, Yong Liu*  
+  Published: `2026-05-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24354v2) · [pdf](https://arxiv.org/pdf/2605.24354v2) · id: `2605.24354v2`
 - **Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling**  
   *Zikang Zhou, Haibo Hu, Xinhong Chen, Yifan Zhang, Nan Guan, Yung-Hui Li, Chun Jason Xue, Jianping Wang*  
   Published: `2026-05-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.24037v1) · [pdf](https://arxiv.org/pdf/2605.24037v1) · id: `2605.24037v1`

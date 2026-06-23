@@ -1,14 +1,23 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **145**
+Total papers tracked: **149**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
+- **Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-06-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.21344v1) · [pdf](https://arxiv.org/pdf/2606.21344v1) · id: `2606.21344v1`
 - **Leveraging tails for adaptation**  
   *Sergios Agapiou, Ismaël Castillo, Paul Egels*  
   Published: `2026-06-18` · Category: `math.ST` · [abs](http://arxiv.org/abs/2606.20480v1) · [pdf](https://arxiv.org/pdf/2606.20480v1) · id: `2606.20480v1`
+- **Leveraging tails for adaptation**  
+  *Sergios Agapiou, Ismaël Castillo, Paul Egels*  
+  Published: `2026-06-18` · Category: `math.ST` · [abs](http://arxiv.org/abs/2606.20480v2) · [pdf](https://arxiv.org/pdf/2606.20480v2) · id: `2606.20480v2`
 - **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
   *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
   Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
@@ -21,6 +30,9 @@ Total papers tracked: **145**
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **An Attention-based Model for Robust Forecasting with Missing Modality**  
   *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
   Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`

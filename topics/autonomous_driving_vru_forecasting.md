@@ -1,11 +1,14 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **117**
+Total papers tracked: **118**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
 - **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
   *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
   Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`

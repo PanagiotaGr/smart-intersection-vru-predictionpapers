@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-06-22` (timezone: `Europe/Athens`)
+Updated: `2026-06-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **144**
+Total papers tracked: **146**
 
 ---
 
+- **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
+  *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
+  Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
 - **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
   *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
   Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`
@@ -15,6 +18,9 @@ Total papers tracked: **144**
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
+- **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
+  *Jiahao Wu, Shengwen Yu*  
+  Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
