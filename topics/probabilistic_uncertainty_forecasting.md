@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-23` (timezone: `Europe/Athens`)
+Updated: `2026-06-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **149**
+Total papers tracked: **151**
 
 ---
 
+- **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
+  *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
+  Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v1) · [pdf](https://arxiv.org/pdf/2606.24162v1) · id: `2606.24162v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`
@@ -33,6 +36,9 @@ Total papers tracked: **149**
 - **JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems**  
   *Jiahao Wu, Shengwen Yu*  
   Published: `2026-06-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20686v1) · [pdf](https://arxiv.org/pdf/2606.20686v1) · id: `2606.20686v1`
+- **Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding**  
+  *Baimam Boukar Jean Jacques, Brandone Fonya, Nchofon Tagha Ghogomu, Pauline Nyaboe, Kipngeno Koech*  
+  Published: `2026-06-12` · Category: `eess.SP` · [abs](http://arxiv.org/abs/2606.23706v1) · [pdf](https://arxiv.org/pdf/2606.23706v1) · id: `2606.23706v1`
 - **An Attention-based Model for Robust Forecasting with Missing Modality**  
   *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
   Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`

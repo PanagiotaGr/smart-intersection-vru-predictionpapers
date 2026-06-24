@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-23` (timezone: `Europe/Athens`)
+Updated: `2026-06-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **131**
+Total papers tracked: **132**
 
 ---
 
@@ -21,6 +21,9 @@ Total papers tracked: **131**
 - **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
   *George Daoud, Mohamed El-Darieby*  
   Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`
+- **Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding**  
+  *Baimam Boukar Jean Jacques, Brandone Fonya, Nchofon Tagha Ghogomu, Pauline Nyaboe, Kipngeno Koech*  
+  Published: `2026-06-12` · Category: `eess.SP` · [abs](http://arxiv.org/abs/2606.23706v1) · [pdf](https://arxiv.org/pdf/2606.23706v1) · id: `2606.23706v1`
 - **An Attention-based Model for Robust Forecasting with Missing Modality**  
   *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
   Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`

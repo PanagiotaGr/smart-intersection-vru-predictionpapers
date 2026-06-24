@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-06-23` (timezone: `Europe/Athens`)
+Updated: `2026-06-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **118**
+Total papers tracked: **119**
 
 ---
 
@@ -30,6 +30,9 @@ Total papers tracked: **118**
 - **Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models**  
   *Danya Li, Xiang Su, Yan Feng, Rico Krueger*  
   Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09142v1) · [pdf](https://arxiv.org/pdf/2606.09142v1) · id: `2606.09142v1`
+- **A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle**  
+  *Gandhimathi Padmanaban, Rayane Moustafa, Fred Feng*  
+  Published: `2026-06-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23699v1) · [pdf](https://arxiv.org/pdf/2606.23699v1) · id: `2606.23699v1`
 - **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
   *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
   Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`

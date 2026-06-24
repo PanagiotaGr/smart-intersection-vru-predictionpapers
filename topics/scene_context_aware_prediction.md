@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-23` (timezone: `Europe/Athens`)
+Updated: `2026-06-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **159**
+Total papers tracked: **160**
 
 ---
 
+- **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
+  *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
+  Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v1) · [pdf](https://arxiv.org/pdf/2606.24162v1) · id: `2606.24162v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

@@ -15926,6 +15926,70 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.20480v2",
       "abs_url": "http://arxiv.org/abs/2606.20480v2"
+    },
+    "2606.23699v1": {
+      "arxiv_id": "2606.23699v1",
+      "title": "A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle",
+      "authors": [
+        "Gandhimathi Padmanaban",
+        "Rayane Moustafa",
+        "Fred Feng"
+      ],
+      "summary": "Instrumented bicycle studies have produced direct field evidence on vehicle passing behavior, but extracting overtaking events from continuous rear-facing video has remained dependent on manual, frame-by-frame annotation. This bottleneck constrains sample sizes and limits naturalistic cycling safety research. We present a geometry-informed computer vision pipeline that automates overtaking event detection from a single bicycle-mounted camera without multi-sensor configurations or explicit camera calibration. The system combines RT-DETR object detection with ByteTrack multi-object tracking through a three-stage geometric validation module enforcing bearing angle trend, apparent size growth, and spatial confirmation criteria derived from perspective projection principles. Validated on 315 manually annotated real-world overtaking events from urban roads in Ann Arbor, Michigan, the pipeline achieved 97.8% recall with zero false positives. The system identified overtaking intentions a mean of 2.44 seconds before vehicle passage, with 84.1% of events exceeding the 1.5-second human reaction time threshold, demonstrating feasibility for active cyclist warning. Lateral passing distance measurements from 96 events revealed 33.3% of passes below the 5-foot (152.4 cm) threshold, consistent with non-compliance rates in prior field and self-reported studies. A preliminary calibration-free lateral distance estimation approach using bounding box geometric features achieved mean absolute errors of 13-14 cm under leave-one-out cross-validation, sufficient to distinguish close passes from standard passes for safety categorization. By automating event isolation from consumer-grade footage, the system removes the primary annotation bottleneck of instrumented bicycle research and provides a scalable foundation for vehicle-bicycle interaction analysis across larger datasets and diverse urban environments.",
+      "published_utc": "2026-06-03T17:41:00Z",
+      "updated_utc": "2026-06-03T17:41:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23699v1",
+      "abs_url": "http://arxiv.org/abs/2606.23699v1"
+    },
+    "2606.24162v1": {
+      "arxiv_id": "2606.24162v1",
+      "title": "BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks",
+      "authors": [
+        "Jin Huang",
+        "Yutong Xie",
+        "Wanli Song",
+        "Xingjian Zhang",
+        "Walter Yuan",
+        "Matthew O. Jackson",
+        "Qiaozhu Mei"
+      ],
+      "summary": "Foundation models have been increasingly applied to behavioral science domains such as psychology, sociology, and economics. While these models show promise in individual tasks such as survey response prediction and human-subject experiment simulation, there remains no systematic understanding of how well they perform across diverse behavioral science tasks, contexts, and populations. We introduce BehaviorBench, a comprehensive benchmark that evaluates foundation models along four core capabilities: (1) behavior prediction and simulation, (2) strategic decision-making, (3) subject-trait inference, and (4) behavioral knowledge application. Crucially, BehaviorBench evaluates model outputs at both the individual and distributional levels, capturing not only per-subject accuracy but also population-level alignment, an essential requirement for behavioral validity. Leveraging the tasks in BehaviorBench, we further develop Be.FM-1.5, extending the Be.FM family of behavioral foundation models fine-tuned on behavioral data. Our results reveal a considerable gap: proprietary general-purpose models excel at individual-level prediction and knowledge-intensive tasks, whereas behavioral foundation models, fine-tuned on behavioral data, achieve substantially stronger distributional alignment. Notably, Be.FM-1.5 leads on distributional metrics and remains competitive on individual-level metrics, suggesting that proper behavioral adaptation can close the gap. Our results highlight the importance of distributional evaluation, establish BehaviorBench as a foundation for developing and assessing behaviorally aligned AI systems, and demonstrate Be.FM-1.5's potential for a broad range of behavioral science studies. Our BehaviorBench and Be.FM-1.5 models can be accessed via https://umich-foreseer.github.io/behaviorbench/.",
+      "published_utc": "2026-06-23T05:30:54Z",
+      "updated_utc": "2026-06-23T05:30:54Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.24162v1",
+      "abs_url": "http://arxiv.org/abs/2606.24162v1"
+    },
+    "2606.23706v1": {
+      "arxiv_id": "2606.23706v1",
+      "title": "Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding",
+      "authors": [
+        "Baimam Boukar Jean Jacques",
+        "Brandone Fonya",
+        "Nchofon Tagha Ghogomu",
+        "Pauline Nyaboe",
+        "Kipngeno Koech"
+      ],
+      "summary": "The development of generalizable electroencephalography (EEG) decoding models is essential for robust brain-computer interfaces (BCI) and objective neural biomarkers in mental health. Conventional approaches have been hindered by poor cross-subject and cross-task generalization, owing to high inter-subject variability and non-stationary neural signals. We address this challenge with a zero-shot cross-subject decoding framework on the large-scale Healthy Brain Network dataset, benchmarking a convolutional neural network baseline, a hybrid LSTM, and a Transformer-based foundation model. To adapt the Transformer for regression while averting catastrophic forgetting, we propose a novel progressive unfreezing strategy. The baseline yielded an nRMSE of 0.9991, whereas our fine-tuned Transformer achieved 0.9799 on unseen subjects. This work advances scalable, calibration-free EEG decoding for computational psychiatry and behavioral prediction.",
+      "published_utc": "2026-06-12T02:04:56Z",
+      "updated_utc": "2026-06-12T02:04:56Z",
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23706v1",
+      "abs_url": "http://arxiv.org/abs/2606.23706v1"
     }
   },
   "topics": {
@@ -16473,9 +16537,10 @@
         "2606.09142v1",
         "2606.15139v1",
         "2602.14780v2",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2606.23699v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-06-24"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -16859,9 +16924,10 @@
         "2606.18824v1",
         "2606.23058v1",
         "2606.21623v1",
-        "2605.24354v2"
+        "2605.24354v2",
+        "2606.24162v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-24"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -17014,9 +17080,11 @@
         "2606.23058v1",
         "2606.21344v1",
         "2606.20480v2",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2606.24162v1",
+        "2606.23706v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-24"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17151,9 +17219,10 @@
         "2606.23058v1",
         "2606.21623v1",
         "2606.21344v1",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2606.23706v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-24"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -17637,9 +17706,10 @@
         "2606.18824v1",
         "2606.20336v1",
         "2606.23058v1",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2606.23699v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-24"
     }
   }
 }
