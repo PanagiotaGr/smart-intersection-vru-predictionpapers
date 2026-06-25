@@ -15990,6 +15990,96 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.23706v1",
       "abs_url": "http://arxiv.org/abs/2606.23706v1"
+    },
+    "2606.25295v1": {
+      "arxiv_id": "2606.25295v1",
+      "title": "DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects",
+      "authors": [
+        "Zhinan Yu",
+        "Junyan Xu",
+        "Jiazhao Zhang",
+        "Zheng Qin",
+        "Yijie Tang",
+        "Yuhang Huang",
+        "Yihan Cao",
+        "Zhiyuan Yu",
+        "Yongjun Wang",
+        "Renjiao Yi",
+        "Chenyang Zhu",
+        "Kai Xu"
+      ],
+      "summary": "Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses. A key challenge lies in predicting temporally consistent short-horizon grasp trajectories from dynamic observations. In this work, we propose \\ours{}, a dynamic mobile manipulation framework that couples instantaneous grasp trajectory prediction with whole-body control policy. Our predictor uses an anchor-based diffusion model to generate temporally consistent short-horizon grasp trajectories conditioned on historical observations. The predicted trajectories are then encoded as compact features and fed to a whole-body reinforcement learning policy, which controls the mobile manipulator for dynamic grasping. We further introduce a anticipation-guided reward that equips the policy with an anticipatory grasping horizon by adaptively shifting the target from the current grasp observation to the instantaneously predicted grasp trajectory. Through extensive experiments in Isaac Gym simulation, we show that our method achieves strong performance in mobile manipulation of dynamic objects across diverse settings and grasping metrics. Furthermore, our predictor and policy demonstrate strong generalizability in real-world experiments.",
+      "published_utc": "2026-06-24T01:58:15Z",
+      "updated_utc": "2026-06-24T01:58:15Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.25295v1",
+      "abs_url": "http://arxiv.org/abs/2606.25295v1"
+    },
+    "2606.26047v1": {
+      "arxiv_id": "2606.26047v1",
+      "title": "Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations",
+      "authors": [
+        "Han Bao",
+        "Bingyi Xia",
+        "Hanjing Ye",
+        "Yu Zhan",
+        "Hao Cheng",
+        "Baozhi Jia",
+        "Wenjun Xu",
+        "Jiankun Wang"
+      ],
+      "summary": "Robot crowd navigation requires the ability to infer human intentions while accounting for the structural constraints of the environment. Currently, deep reinforcement learning (DRL) provides a promising method for learning navigation policies that understand human intentions. However, most of them rely on limited scene representations, treating pedestrians as simple 2D points and ignoring rich visual cues from both humans and the environment. To address this issue, we introduce iCrowdNav, a novel visual crowd navigation method with intention-aware scene representations, to encode behavioral and structural context from egocentric visual observations. Our method employs two key components: a spatio-temporal encoder for extracting occupancy features of the scene, and Intent-Interact Former (I$^2$ Former), an attention-based module that encodes human poses to infer pedestrians' motion intentions. These features are integrated into a compact state embedding that supports effective DRL policy training. Extensive experiments show that our method achieves superior performance over baselines, and real-world deployment demonstrates vision-based crowd navigation.",
+      "published_utc": "2026-06-24T17:26:17Z",
+      "updated_utc": "2026-06-24T17:26:17Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.26047v1",
+      "abs_url": "http://arxiv.org/abs/2606.26047v1"
+    },
+    "2606.25504v1": {
+      "arxiv_id": "2606.25504v1",
+      "title": "GROVE: Grounded Pedestrian Simulation via Natural Language for Interactive Social Robot Navigation",
+      "authors": [
+        "Duc Tai Nguyen",
+        "Volodymyr Shcherbyna",
+        "Anh Do Duc",
+        "Zhengcheng Shen",
+        "Teham Buiyan",
+        "Linh Kästner"
+      ],
+      "summary": "Pedestrian simulation is a critical component for training and deploying social robot navigation approaches, yet it remains a largely rigid system that repeatedly requires manual data generation to define even simple scenarios. We propose GROVE, a text-to-scenario pedestrian simulation framework that combines state-of-the-art approaches to produce realistic, socially challenging scenarios for social robot navigation. Our framework allows users to customize one of several common presets (emergency, queuing, normal) or even enter a fully independent prompt to generate a highly customizable pedestrian simulation. Multiple modules separately ensure the realism and soundness of long-horizon human behavior, medium-horizon pedestrian navigation, and short-horizon robot/social interactions. Each module is tuned by the prompt in a way that reflects the user intent across all aspects of pedestrian simulation. By dynamically selecting one of several state-of-the-art (SotA) approaches in our modules based on the scenario, we capture many situational nuances of pedestrian behavior in order to narrow the simulation-to-real (sim2real) gap. The human simulation is directly integrated into Isaac Sim, Gazebo, and RViz simulators for robot deployment in highly social environments. We validate our approach through qualitative comparison against existing pedestrian simulation baselines across scenarios of varying complexity in residential, hospital, and office environments. The result is a high-fidelity pedestrian simulation that challenges social robot navigation with complex, diverse, realistic human behaviors.",
+      "published_utc": "2026-06-24T07:39:01Z",
+      "updated_utc": "2026-06-24T07:39:01Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.25504v1",
+      "abs_url": "http://arxiv.org/abs/2606.25504v1"
+    },
+    "2606.25122v1": {
+      "arxiv_id": "2606.25122v1",
+      "title": "AeroCast: Probabilistic 3D Trajectory Prediction for Non-Cooperative Aerial Obstacles via Transformer-MDN Architecture",
+      "authors": [
+        "Syed Izzat Ullah",
+        "Jose Baca"
+      ],
+      "summary": "Autonomous aerial vehicles operating in shared airspace must predict the future positions of non-cooperative obstacles to plan evasive maneuvers before a collision becomes unavoidable. Unlike cooperative systems that share intent, non-cooperative obstacles such as birds, uncontrolled drones, or debris exhibit multi-modal motion that deterministic predictors cannot adequately represent. Existing methods either rely on recurrent encoders that propagate temporal information sequentially, limiting their ability to capture long-range kinematic precursors of maneuver initiation, or produce point forecasts that provide no distributional information to downstream planners. This paper presents AeroCast, a probabilistic trajectory prediction framework that combines a Transformer encoder with a Mixture Density Network output head to predict per-timestep Gaussian mixture distributions over future three-dimensional displacements. A translation-invariant consecutive displacement encoding and a calibration-oriented training objective address the input design and mode-degeneracy challenges specific to mixture-based aerial trajectory prediction. On a hybrid real-and-synthetic quadrotor corpus spanning nine motion categories, AeroCast reduces Average Displacement Error and Final Displacement Error by approximately 50% relative to the baselines over a five-second horizon, and achieves the lowest negative log-likelihood and Continuous Ranked Probability Score among all compared methods. Ablation analysis identifies velocity input and model capacity as the primary contributors to prediction quality, and positional encoding as essential for long-horizon trajectory coherence. AeroCast inference completes in 0.1ms per sample, compatible with real-time onboard deployment at 100Hz.",
+      "published_utc": "2026-06-23T19:52:07Z",
+      "updated_utc": "2026-06-23T19:52:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.25122v1",
+      "abs_url": "http://arxiv.org/abs/2606.25122v1"
     }
   },
   "topics": {
@@ -16418,9 +16508,10 @@
         "2606.23058v1",
         "2606.21344v1",
         "2606.20686v1",
-        "2605.24354v2"
+        "2605.24354v2",
+        "2606.25295v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16538,9 +16629,11 @@
         "2606.15139v1",
         "2602.14780v2",
         "2606.18824v1",
-        "2606.23699v1"
+        "2606.23699v1",
+        "2606.26047v1",
+        "2606.25504v1"
       ],
-      "latest_update": "2026-06-24"
+      "latest_update": "2026-06-25"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -16759,9 +16852,10 @@
         "2606.21344v1",
         "2606.21021v1",
         "2606.20686v1",
-        "2605.24354v2"
+        "2605.24354v2",
+        "2606.25122v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-06-25"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17082,9 +17176,10 @@
         "2606.20480v2",
         "2606.20686v1",
         "2606.24162v1",
-        "2606.23706v1"
+        "2606.23706v1",
+        "2606.25122v1"
       ],
-      "latest_update": "2026-06-24"
+      "latest_update": "2026-06-25"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17220,9 +17315,11 @@
         "2606.21623v1",
         "2606.21344v1",
         "2606.20686v1",
-        "2606.23706v1"
+        "2606.23706v1",
+        "2606.25295v1",
+        "2606.25122v1"
       ],
-      "latest_update": "2026-06-24"
+      "latest_update": "2026-06-25"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -17707,9 +17804,11 @@
         "2606.20336v1",
         "2606.23058v1",
         "2606.20686v1",
-        "2606.23699v1"
+        "2606.23699v1",
+        "2606.26047v1",
+        "2606.25504v1"
       ],
-      "latest_update": "2026-06-24"
+      "latest_update": "2026-06-25"
     }
   }
 }

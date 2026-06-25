@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-24` (timezone: `Europe/Athens`)
+Updated: `2026-06-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **219**
+Total papers tracked: **220**
 
 ---
 
+- **DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects**  
+  *Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang, Yihan Cao, Zhiyuan Yu et al.*  
+  Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25295v1) · [pdf](https://arxiv.org/pdf/2606.25295v1) · id: `2606.25295v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

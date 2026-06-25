@@ -1,11 +1,17 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-06-24` (timezone: `Europe/Athens`)
+Updated: `2026-06-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **114**
+Total papers tracked: **116**
 
 ---
 
+- **Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations**  
+  *Han Bao, Bingyi Xia, Hanjing Ye, Yu Zhan, Hao Cheng, Baozhi Jia, Wenjun Xu, Jiankun Wang*  
+  Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.26047v1) · [pdf](https://arxiv.org/pdf/2606.26047v1) · id: `2606.26047v1`
+- **GROVE: Grounded Pedestrian Simulation via Natural Language for Interactive Social Robot Navigation**  
+  *Duc Tai Nguyen, Volodymyr Shcherbyna, Anh Do Duc, Zhengcheng Shen, Teham Buiyan, Linh Kästner*  
+  Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25504v1) · [pdf](https://arxiv.org/pdf/2606.25504v1) · id: `2606.25504v1`
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`

@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-24` (timezone: `Europe/Athens`)
+Updated: `2026-06-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **215**
+Total papers tracked: **216**
 
 ---
 
+- **AeroCast: Probabilistic 3D Trajectory Prediction for Non-Cooperative Aerial Obstacles via Transformer-MDN Architecture**  
+  *Syed Izzat Ullah, Jose Baca*  
+  Published: `2026-06-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25122v1) · [pdf](https://arxiv.org/pdf/2606.25122v1) · id: `2606.25122v1`
 - **Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data**  
   *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
   Published: `2026-06-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.21344v1) · [pdf](https://arxiv.org/pdf/2606.21344v1) · id: `2606.21344v1`

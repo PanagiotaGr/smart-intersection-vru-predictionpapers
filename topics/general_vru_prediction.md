@@ -1,11 +1,17 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-06-24` (timezone: `Europe/Athens`)
+Updated: `2026-06-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **121**
 
 ---
 
+- **Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations**  
+  *Han Bao, Bingyi Xia, Hanjing Ye, Yu Zhan, Hao Cheng, Baozhi Jia, Wenjun Xu, Jiankun Wang*  
+  Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.26047v1) · [pdf](https://arxiv.org/pdf/2606.26047v1) · id: `2606.26047v1`
+- **GROVE: Grounded Pedestrian Simulation via Natural Language for Interactive Social Robot Navigation**  
+  *Duc Tai Nguyen, Volodymyr Shcherbyna, Anh Do Duc, Zhengcheng Shen, Teham Buiyan, Linh Kästner*  
+  Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25504v1) · [pdf](https://arxiv.org/pdf/2606.25504v1) · id: `2606.25504v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

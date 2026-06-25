@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-24` (timezone: `Europe/Athens`)
+Updated: `2026-06-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **152**
 
 ---
 
+- **AeroCast: Probabilistic 3D Trajectory Prediction for Non-Cooperative Aerial Obstacles via Transformer-MDN Architecture**  
+  *Syed Izzat Ullah, Jose Baca*  
+  Published: `2026-06-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25122v1) · [pdf](https://arxiv.org/pdf/2606.25122v1) · id: `2606.25122v1`
 - **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
   *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
   Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v1) · [pdf](https://arxiv.org/pdf/2606.24162v1) · id: `2606.24162v1`
