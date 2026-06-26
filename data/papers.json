@@ -16080,6 +16080,73 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.25122v1",
       "abs_url": "http://arxiv.org/abs/2606.25122v1"
+    },
+    "2604.28197v2": {
+      "arxiv_id": "2604.28197v2",
+      "title": "OmniRobotHome: A Multi-Camera Home Platform for Real-Time Human-Robot Interaction",
+      "authors": [
+        "Junyoung Lee",
+        "Inhee Lee",
+        "Sookwan Han",
+        "Jeonghwan Kim",
+        "Kyungwon Cho",
+        "Mingi Choi",
+        "Lee Chae-Yeon",
+        "Wonjung Woo",
+        "Gunhee Kim",
+        "Jisoo Kim",
+        "Jeonghyeon Na",
+        "Hanbyul Joo"
+      ],
+      "summary": "Robots in homes must continuously sense the people around them, yet most prior work relies on limited or offline perception. We argue that perception quality is the dominant factor governing what interaction is achievable at home, and build a testbed to test this claim. OmniRobotHome instruments a furnished home with 48 hardware-synchronized cameras and three manipulators in a unified world frame, delivering real-time markerless full-body human pose, 6D object pose, anticipatory motion forecasting, and a social avatar agent that converses with residents. Using the platform, we treat perception quality as an experimental variable across safety, human assistance, and social interaction, and find that interaction quality degrades measurably as real-timeness, granularity, coverage, accuracy, forecasting, or memory is weakened. All code and data will be released.",
+      "published_utc": "2026-04-30T17:59:58Z",
+      "updated_utc": "2026-06-25T17:13:48Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.28197v2",
+      "abs_url": "http://arxiv.org/abs/2604.28197v2"
+    },
+    "2606.26661v1": {
+      "arxiv_id": "2606.26661v1",
+      "title": "LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction",
+      "authors": [
+        "Sangjin Han",
+        "Hoseong Jung",
+        "Jeongtae Her",
+        "Changhyun Choi",
+        "H. Jin Kim"
+      ],
+      "summary": "Motion forecasting is essential for autonomous driving systems to enable safe decision-making and planning in complex driving scenarios. While existing predictors excel at minimizing standard displacement errors, they often overlook the adherence to lane topology of multimodal predictions, particularly for lower-probability modes. Consequently, predicted trajectories may violate physical and logical constraints, making the prediction set unreliable for safety-critical planning. In this paper, we propose LAMP (Lane-Aligned Motion Primitives), a topology-aware forecasting framework that anchors multimodal prediction to structured motion primitives aligned with lane topology. Specifically, we use a VQ-VAE to learn shape-aware motion primitives as discrete intention queries, capturing spatiotemporal patterns beyond endpoint-based intentions. We further introduce a feasibility-aware intention selector trained with a lane-topology prior for filtering unreachable intention queries, guiding the decoder to prioritize topology-consistent intentions while preserving behavioral diversity. Extensive experiments on the Argoverse 2 dataset demonstrate that LAMP achieves prediction accuracy comparable to state-of-the-art baselines while outperforming them in feasibility and diversity metrics.",
+      "published_utc": "2026-06-25T06:52:17Z",
+      "updated_utc": "2026-06-25T06:52:17Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.26661v1",
+      "abs_url": "http://arxiv.org/abs/2606.26661v1"
+    },
+    "2606.27364v1": {
+      "arxiv_id": "2606.27364v1",
+      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+      "authors": [
+        "Yiming Chen",
+        "Yushi Lan",
+        "Andrea Vedaldi"
+      ],
+      "summary": "We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as object material type, rigid or elastic, the model samples future vertex trajectories. While related neural physics approaches build on ad-hoc latent spaces or explicitly enforce rigidity and causality, PhysiFormer shows that excellent results can be obtained without any such inductive biases, by casting vertex trajectory prediction as a single denoising diffusion process directly in world coordinates. The probabilistic formulation captures uncertainty in the learned dynamics, enabling diverse plausible futures from initial conditions, making this framework potentially useful for applications with unobserved uncertainty. The model features attention factorised over time, space, and objects for efficiency, enabling permutation-invariant multi-object reasoning without needing explicit object encoding. Trained on over 100k simulated trajectories, PhysiFormer generates rigid and elastic mechanics, and generalises to mixed-material settings, unseen real-world geometries, and larger object counts. It substantially outperforms autoregressive baselines in trajectory accuracy, rigidity preservation, and momentum-based physical consistency. Our results position coordinate-space diffusion as a promising step toward view-invariant, geometry-aware world modelling for robotics, graphics, and physical design. Visualisations, code, and models are available at https://yimingc9.github.io/physiformer.",
+      "published_utc": "2026-06-25T17:59:00Z",
+      "updated_utc": "2026-06-25T17:59:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.27364v1",
+      "abs_url": "http://arxiv.org/abs/2606.27364v1"
     }
   },
   "topics": {
@@ -16509,9 +16576,10 @@
         "2606.21344v1",
         "2606.20686v1",
         "2605.24354v2",
-        "2606.25295v1"
+        "2606.25295v1",
+        "2604.28197v2"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-06-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16853,9 +16921,11 @@
         "2606.21021v1",
         "2606.20686v1",
         "2605.24354v2",
-        "2606.25122v1"
+        "2606.25122v1",
+        "2606.26661v1",
+        "2604.28197v2"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-06-26"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17177,9 +17247,11 @@
         "2606.20686v1",
         "2606.24162v1",
         "2606.23706v1",
-        "2606.25122v1"
+        "2606.25122v1",
+        "2606.27364v1",
+        "2606.26661v1"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-06-26"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17317,9 +17389,10 @@
         "2606.20686v1",
         "2606.23706v1",
         "2606.25295v1",
-        "2606.25122v1"
+        "2606.25122v1",
+        "2606.27364v1"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-06-26"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

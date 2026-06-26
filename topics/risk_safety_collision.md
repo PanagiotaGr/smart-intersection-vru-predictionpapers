@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-06-25` (timezone: `Europe/Athens`)
+Updated: `2026-06-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **216**
+Total papers tracked: **218**
 
 ---
 
+- **LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction**  
+  *Sangjin Han, Hoseong Jung, Jeongtae Her, Changhyun Choi, H. Jin Kim*  
+  Published: `2026-06-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.26661v1) · [pdf](https://arxiv.org/pdf/2606.26661v1) · id: `2606.26661v1`
 - **AeroCast: Probabilistic 3D Trajectory Prediction for Non-Cooperative Aerial Obstacles via Transformer-MDN Architecture**  
   *Syed Izzat Ullah, Jose Baca*  
   Published: `2026-06-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25122v1) · [pdf](https://arxiv.org/pdf/2606.25122v1) · id: `2606.25122v1`
@@ -99,6 +102,9 @@ Total papers tracked: **216**
 - **DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**  
   *Danil Tokhchukov, Veronika Morozova, Gonzalo Ferrer*  
   Published: `2026-05-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.02759v2) · [pdf](https://arxiv.org/pdf/2605.02759v2) · id: `2605.02759v2`
+- **OmniRobotHome: A Multi-Camera Home Platform for Real-Time Human-Robot Interaction**  
+  *Junyoung Lee, Inhee Lee, Sookwan Han, Jeonghwan Kim, Kyungwon Cho, Mingi Choi, Lee Chae-Yeon, Wonjung Woo et al.*  
+  Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.28197v2) · [pdf](https://arxiv.org/pdf/2604.28197v2) · id: `2604.28197v2`
 - **Dynamic-TD3: A Novel Algorithm for UAV Path Planning with Dynamic Obstacle Trajectory Prediction**  
   *Wentao Chen, Jingtang Chen, Mingjian Fu, Tiantian Li, Youfeng Su, Wenxi Liu, Yuanlong Yu*  
   Published: `2026-04-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.00059v1) · [pdf](https://arxiv.org/pdf/2605.00059v1) · id: `2605.00059v1`

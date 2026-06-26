@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-25` (timezone: `Europe/Athens`)
+Updated: `2026-06-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **152**
+Total papers tracked: **154**
 
 ---
 
+- **PhysiFormer: Learning to Simulate Mechanics in World Space**  
+  *Yiming Chen, Yushi Lan, Andrea Vedaldi*  
+  Published: `2026-06-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.27364v1) · [pdf](https://arxiv.org/pdf/2606.27364v1) · id: `2606.27364v1`
+- **LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction**  
+  *Sangjin Han, Hoseong Jung, Jeongtae Her, Changhyun Choi, H. Jin Kim*  
+  Published: `2026-06-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.26661v1) · [pdf](https://arxiv.org/pdf/2606.26661v1) · id: `2606.26661v1`
 - **AeroCast: Probabilistic 3D Trajectory Prediction for Non-Cooperative Aerial Obstacles via Transformer-MDN Architecture**  
   *Syed Izzat Ullah, Jose Baca*  
   Published: `2026-06-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25122v1) · [pdf](https://arxiv.org/pdf/2606.25122v1) · id: `2606.25122v1`
