@@ -16147,6 +16147,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.27364v1",
       "abs_url": "http://arxiv.org/abs/2606.27364v1"
+    },
+    "2606.27900v1": {
+      "arxiv_id": "2606.27900v1",
+      "title": "Long-Term Prediction of Local and Global Human Motion with Occlusion Recovery",
+      "authors": [
+        "Qiaoyue Yang",
+        "Sven Heutger",
+        "Christopher Niemann",
+        "Magnus Jung",
+        "Ayoub Al-Hamadi",
+        "Sven Wachsmuth"
+      ],
+      "summary": "Human motion describes the three-dimensional full-body movement of a person. Anticipating such motion holds significant relevance across a wide range of application domains such as human-robot interaction, autonomous driving, animation, and healthcare. In recent research, spatial and temporal dependencies are modeled by bidirectional attention mechanisms. These typically anticipate human motion in an autoregressive manner which could cause an accumulation of errors over time. As a consequence, they solely focus on local pose forecasting. To address these limitations, we propose a non-autoregressive transformer based on spatio-temporal attention, and train it not only for local pose anticipation, but also for global motion prediction in space. Furthermore, to enhance its applicability in real-world scenarios, our model is also trained to recover missing joints due to occlusions, and is capable of processing varying lengths of history observations. Our code is publicly available at https://github.com/Q-Y-Yang/Prediction-of-Local-and-Global-Human-Motion.",
+      "published_utc": "2026-06-26T09:49:56Z",
+      "updated_utc": "2026-06-26T09:49:56Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.27900v1",
+      "abs_url": "http://arxiv.org/abs/2606.27900v1"
     }
   },
   "topics": {
@@ -16577,9 +16598,10 @@
         "2606.20686v1",
         "2605.24354v2",
         "2606.25295v1",
-        "2604.28197v2"
+        "2604.28197v2",
+        "2606.27900v1"
       ],
-      "latest_update": "2026-06-26"
+      "latest_update": "2026-06-29"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

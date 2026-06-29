@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-28` (timezone: `Europe/Athens`)
+Updated: `2026-06-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **221**
+Total papers tracked: **222**
 
 ---
 
+- **Long-Term Prediction of Local and Global Human Motion with Occlusion Recovery**  
+  *Qiaoyue Yang, Sven Heutger, Christopher Niemann, Magnus Jung, Ayoub Al-Hamadi, Sven Wachsmuth*  
+  Published: `2026-06-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.27900v1) · [pdf](https://arxiv.org/pdf/2606.27900v1) · id: `2606.27900v1`
 - **DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects**  
   *Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang, Yihan Cao, Zhiyuan Yu et al.*  
   Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.25295v1) · [pdf](https://arxiv.org/pdf/2606.25295v1) · id: `2606.25295v1`
