@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-29` (timezone: `Europe/Athens`)
+Updated: `2026-06-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **160**
+Total papers tracked: **162**
 
 ---
 
+- **CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking**  
+  *Buyin Deng, Kai Luo, Lingxin Huang, Xinqi Liu, Fei Cheng, Hang Zheng, Liming Yin, Kailun Yang*  
+  Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30097v1) · [pdf](https://arxiv.org/pdf/2606.30097v1) · id: `2606.30097v1`
+- **Zero-Gated Language-conditioned Human Motion Prediction**  
+  *Guanhui Qiao, Lu Zhou, Ding Jiang, Jinqiao Wang*  
+  Published: `2026-06-28` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.29208v1) · [pdf](https://arxiv.org/pdf/2606.29208v1) · id: `2606.29208v1`
 - **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
   *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
   Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v1) · [pdf](https://arxiv.org/pdf/2606.24162v1) · id: `2606.24162v1`

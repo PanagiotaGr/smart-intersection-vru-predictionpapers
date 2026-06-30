@@ -16168,6 +16168,87 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.27900v1",
       "abs_url": "http://arxiv.org/abs/2606.27900v1"
+    },
+    "2606.30097v1": {
+      "arxiv_id": "2606.30097v1",
+      "title": "CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking",
+      "authors": [
+        "Buyin Deng",
+        "Kai Luo",
+        "Lingxin Huang",
+        "Xinqi Liu",
+        "Fei Cheng",
+        "Hang Zheng",
+        "Liming Yin",
+        "Kailun Yang"
+      ],
+      "summary": "Multi-Object Tracking (MOT) is a core capability for embodied perception, and panoramic cameras are attractive for embodied systems because their 360° field of view reduces blind spots and keeps surrounding targets observable for longer durations. However, panoramic MOT is not a straightforward extension of perspective MOT. In equirectangular panoramic videos, the horizontal image domain is periodic rather than Euclidean, which breaks planar motion assumptions and makes IoU-based association unreliable near the 0°/360° seam. Meanwhile, large-FoV scenes often contain more objects, stronger scale variation, and more frequent interactions, making online association particularly sensitive to unstable frame-wise depth cues. To address these issues, we propose CylindTrack, a depth-aware cylindrical tracking-by-detection framework for panoramic MOT. CylindTrack first introduces Depth-Temporal Trajectory Modeling (DTM), which promotes instance depth from an isolated frame-wise cue to a temporally filtered trajectory-level state. To improve the reliability of depth observations, we further develop Spherical Spatio-Temporal Consistency Learning (SSTC), which combines a Temporal Mixer and Spherical Geometry-aware Attention to enhance temporal coherence and panoramic geometric alignment in depth-aware representations. Finally, we design a Topology-Aware Cylindrical Motion Model (TCMM) that lifts horizontal motion into a continuous angular state space and performs seam-consistent motion prediction and association in the periodic panoramic domain. By jointly modeling trajectory-level depth consistency and panoramic topology, CylindTrack improves identity preservation and trajectory continuity in challenging panoramic scenes. The source code will be released at https://github.com/warriordby/CylindTrack.",
+      "published_utc": "2026-06-29T10:32:08Z",
+      "updated_utc": "2026-06-29T10:32:08Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.30097v1",
+      "abs_url": "http://arxiv.org/abs/2606.30097v1"
+    },
+    "2604.02714v2": {
+      "arxiv_id": "2604.02714v2",
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": [
+        "Zihao Sheng",
+        "Xin Ye",
+        "Jingru Luo",
+        "Sikai Chen",
+        "Liu Ren"
+      ],
+      "summary": "End-to-end autonomous driving models based on Vision-Language-Action (VLA) architectures have shown promising results by learning driving policies through behavior cloning on expert demonstrations. However, imitation learning inherently limits the model to replicating observed behaviors without exploring diverse driving strategies, leaving it brittle in novel or out-of-distribution scenarios. Reinforcement learning (RL) offers a natural remedy by enabling policy exploration beyond the expert distribution. Yet VLA models, typically trained on offline datasets, lack directly observable state transitions, necessitating a learned world model to anticipate action consequences. In this work, we propose a unified understanding-and-generation framework that leverages world modeling to simultaneously enable meaningful exploration and provide dense supervision. Specifically, we augment trajectory prediction with future RGB and depth image generation as dense world modeling objectives, requiring the model to learn fine-grained visual and geometric representations that substantially enrich the planning backbone. Beyond serving as a supervisory signal, the world model further acts as a source of intrinsic reward for policy exploration: its image prediction uncertainty naturally measures a trajectory's novelty relative to the training distribution, where high uncertainty indicates out-of-distribution scenarios that, if safe, represent valuable learning opportunities. We incorporate this exploration signal into a safety-gated reward and optimize the policy via Group Relative Policy Optimization (GRPO). Experiments on the NAVSIM and nuScenes benchmarks demonstrate the effectiveness of our approach, achieving a state-of-the-art PDMS score of 93.7 and an EPDMS of 88.8 on NAVSIM. The code is available at https://zihaosheng.github.io/ExploreVLA/.",
+      "published_utc": "2026-04-03T04:14:13Z",
+      "updated_utc": "2026-06-29T00:47:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.02714v2",
+      "abs_url": "http://arxiv.org/abs/2604.02714v2"
+    },
+    "2606.29208v1": {
+      "arxiv_id": "2606.29208v1",
+      "title": "Zero-Gated Language-conditioned Human Motion Prediction",
+      "authors": [
+        "Guanhui Qiao",
+        "Lu Zhou",
+        "Ding Jiang",
+        "Jinqiao Wang"
+      ],
+      "summary": "Pose histories provide the core kinematic evidence for 3D human motion prediction, but they lack explicit high-level semantic guidance. This paper introduces ZGL, a lightweight language-conditioned predictor that uses captions of the observed motion as a semantic prior while preserving a strong motion backbone as the main source of dynamics. We render only the observed poses, generate a one-sentence description with a vision-language model, encode the caption with a frozen CLIP-L text tower, and project it into a small set of conditioning tokens. These tokens are injected into a DCT-based spatial-temporal Transformer by compact crossattention adapters with zero gates: each adapter output is multiplied by a learnable gate initialized to zero, so the full network is numerically identical to the pose-only baseline at initialization and can learn to use language only when it reduces prediction error. On Human3.6M, ZGL improves overall MPJPE over representative motion-prediction baselines in our comparison. Results on CMUMocap further show that compact caption conditioning transfers to a second benchmark and provides a practical semantic cue for 3D human motion prediction.",
+      "published_utc": "2026-06-28T05:20:10Z",
+      "updated_utc": "2026-06-28T05:20:10Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.29208v1",
+      "abs_url": "http://arxiv.org/abs/2606.29208v1"
+    },
+    "2606.28881v1": {
+      "arxiv_id": "2606.28881v1",
+      "title": "An Integrated Machine Learning and Hierarchical Variance Decomposition Pipeline for Student Performance Prediction and Metacognitive Calibration on Multi-Signal Telemetry",
+      "authors": [
+        "Gurdeep Singh Virdee"
+      ],
+      "summary": "Predicting student performance and characterizing metacognitive calibration are essential for personalization in intelligent tutoring systems. Prior research treats performance prediction, calibration error calculation, and variance decomposition as separate pipelines, preventing unified interpretation. I propose the Unified Behavioral Prediction and Calibration Analysis Pipeline (UBP-CAP), an integrated framework processing student pre-execution behavioral telemetry through three linked modules: (1) a LightGBM classifier with SHAP for binary correctness prediction, (2) formal calibration metrics (ECE, MCE, and Brier score decomposition) to evaluate metacognitive alignment, and (3) a crossed Generalized Linear Mixed-Effects Model (GLMM) for decomposing calibration deviations. I introduce the Predictive-Explanatory Divergence Index (PEDI), which quantifies structural divergence between predictive and explanatory feature profiles. Evaluated on 1,195 interaction records (27 students, 45 tasks), Logistic Regression achieves AUC-ROC = 0.903, outperforming LightGBM (0.878). Student naive ECE (0.109) significantly exceeds model ECE (0.068), confirming systematic miscalibration. The crossed GLMM yields ICCStudent = 0.123, showing calibration is situational rather than dispositional. PEDIcos = 0.081 (p = 0.327) indicates structural alignment between prediction and explanation on shared behavioral features.",
+      "published_utc": "2026-06-27T11:59:41Z",
+      "updated_utc": "2026-06-27T11:59:41Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.28881v1",
+      "abs_url": "http://arxiv.org/abs/2606.28881v1"
     }
   },
   "topics": {
@@ -16599,9 +16680,10 @@
         "2605.24354v2",
         "2606.25295v1",
         "2604.28197v2",
-        "2606.27900v1"
+        "2606.27900v1",
+        "2606.30097v1"
       ],
-      "latest_update": "2026-06-29"
+      "latest_update": "2026-06-30"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -16945,9 +17027,10 @@
         "2605.24354v2",
         "2606.25122v1",
         "2606.26661v1",
-        "2604.28197v2"
+        "2604.28197v2",
+        "2604.02714v2"
       ],
-      "latest_update": "2026-06-26"
+      "latest_update": "2026-06-30"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17111,9 +17194,11 @@
         "2606.23058v1",
         "2606.21623v1",
         "2605.24354v2",
-        "2606.24162v1"
+        "2606.24162v1",
+        "2606.30097v1",
+        "2606.29208v1"
       ],
-      "latest_update": "2026-06-24"
+      "latest_update": "2026-06-30"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -17271,9 +17356,11 @@
         "2606.23706v1",
         "2606.25122v1",
         "2606.27364v1",
-        "2606.26661v1"
+        "2606.26661v1",
+        "2606.28881v1",
+        "2604.02714v2"
       ],
-      "latest_update": "2026-06-26"
+      "latest_update": "2026-06-30"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

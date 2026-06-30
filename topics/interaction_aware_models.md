@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-06-29` (timezone: `Europe/Athens`)
+Updated: `2026-06-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **222**
+Total papers tracked: **223**
 
 ---
 
+- **CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking**  
+  *Buyin Deng, Kai Luo, Lingxin Huang, Xinqi Liu, Fei Cheng, Hang Zheng, Liming Yin, Kailun Yang*  
+  Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30097v1) · [pdf](https://arxiv.org/pdf/2606.30097v1) · id: `2606.30097v1`
 - **Long-Term Prediction of Local and Global Human Motion with Occlusion Recovery**  
   *Qiaoyue Yang, Sven Heutger, Christopher Niemann, Magnus Jung, Ayoub Al-Hamadi, Sven Wachsmuth*  
   Published: `2026-06-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.27900v1) · [pdf](https://arxiv.org/pdf/2606.27900v1) · id: `2606.27900v1`

@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-29` (timezone: `Europe/Athens`)
+Updated: `2026-06-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **154**
+Total papers tracked: **156**
 
 ---
 
+- **An Integrated Machine Learning and Hierarchical Variance Decomposition Pipeline for Student Performance Prediction and Metacognitive Calibration on Multi-Signal Telemetry**  
+  *Gurdeep Singh Virdee*  
+  Published: `2026-06-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.28881v1) · [pdf](https://arxiv.org/pdf/2606.28881v1) · id: `2606.28881v1`
 - **PhysiFormer: Learning to Simulate Mechanics in World Space**  
   *Yiming Chen, Yushi Lan, Andrea Vedaldi*  
   Published: `2026-06-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.27364v1) · [pdf](https://arxiv.org/pdf/2606.27364v1) · id: `2606.27364v1`
@@ -171,6 +174,9 @@ Total papers tracked: **154**
 - **ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving**  
   *Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren*  
   Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02714v1) · [pdf](https://arxiv.org/pdf/2604.02714v1) · id: `2604.02714v1`
+- **ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving**  
+  *Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren*  
+  Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02714v2) · [pdf](https://arxiv.org/pdf/2604.02714v2) · id: `2604.02714v2`
 - **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
   *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
   Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`
