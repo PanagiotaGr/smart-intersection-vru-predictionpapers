@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-06-30` (timezone: `Europe/Athens`)
+Updated: `2026-07-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **162**
+Total papers tracked: **165**
 
 ---
 
+- **3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance**  
+  *Dongyoon Hwang, Byungkun Lee, Dongjin Kim, Hyojin Jang, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee et al.*  
+  Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31329v1) · [pdf](https://arxiv.org/pdf/2606.31329v1) · id: `2606.31329v1`
+- **Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning**  
+  *Hongyi Lin, Yang Liu, Jinhua Zhao, Xiaobo Qu*  
+  Published: `2026-06-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.31157v1) · [pdf](https://arxiv.org/pdf/2606.31157v1) · id: `2606.31157v1`
+- **Unveiling Transferability in Trajectory Prediction via Latent Scene Embeddings**  
+  *Theodor Westny, David Axelsson, Björn Olofsson, Erik Frisk*  
+  Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30777v1) · [pdf](https://arxiv.org/pdf/2606.30777v1) · id: `2606.30777v1`
 - **CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking**  
   *Buyin Deng, Kai Luo, Lingxin Huang, Xinqi Liu, Fei Cheng, Hang Zheng, Liming Yin, Kailun Yang*  
   Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30097v1) · [pdf](https://arxiv.org/pdf/2606.30097v1) · id: `2606.30097v1`

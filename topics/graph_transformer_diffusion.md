@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-06-30` (timezone: `Europe/Athens`)
+Updated: `2026-07-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **135**
+Total papers tracked: **136**
 
 ---
 
+- **Diffusion-based 4D Trajectory Prediction and Distributed Control for UAV Swarms**  
+  *Tianshun Li, Hongliang Lu, Haoang Li, Xinhu Zheng*  
+  Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31197v1) · [pdf](https://arxiv.org/pdf/2606.31197v1) · id: `2606.31197v1`
 - **PhysiFormer: Learning to Simulate Mechanics in World Space**  
   *Yiming Chen, Yushi Lan, Andrea Vedaldi*  
   Published: `2026-06-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.27364v1) · [pdf](https://arxiv.org/pdf/2606.27364v1) · id: `2606.27364v1`

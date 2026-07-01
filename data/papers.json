@@ -16249,6 +16249,89 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.28881v1",
       "abs_url": "http://arxiv.org/abs/2606.28881v1"
+    },
+    "2606.31329v1": {
+      "arxiv_id": "2606.31329v1",
+      "title": "3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance",
+      "authors": [
+        "Dongyoon Hwang",
+        "Byungkun Lee",
+        "Dongjin Kim",
+        "Hyojin Jang",
+        "Hoiyeong Jin",
+        "Jueun Mun",
+        "Minho Park",
+        "Hojoon Lee",
+        "Hyunseung Kim",
+        "Jaegul Choo"
+      ],
+      "summary": "Hierarchical Vision-Language-Action (VLA) models decouple high-level planning from low-level control to improve generalization in robot manipulation. Recent work in this paradigm uses 2D end-effector trajectories predicted by a Vision-Language Model (VLM) as explicit guidance for a downstream policy. However, state-of-the-art low-level policies operate in 3D metric space on point clouds, and feeding them 2D guidance that lacks depth forces each waypoint to be assigned the depth of whatever scene surface lies beneath it, producing geometrically distorted trajectories. We propose 3D HAMSTER, a hierarchical framework that closes this gap by having the planner directly output metrically reliable 3D trajectories. We augment a VLM with a dedicated depth encoder and a dense depth reconstruction objective to predict 3D waypoint sequences, which are directly integrated into a pointcloudbased low-level policy. Across 3D trajectory prediction, simulation, and real-world manipulation, 3D HAMSTER consistently outperforms proprietary VLMs and 2D-guided baselines, with the largest gains under appearance-altering shifts and unseen language, spatial, and visual conditions. The project page is available at https://davian-robotics.github.io/3D_HAMSTER/.",
+      "published_utc": "2026-06-30T08:31:35Z",
+      "updated_utc": "2026-06-30T08:31:35Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.31329v1",
+      "abs_url": "http://arxiv.org/abs/2606.31329v1"
+    },
+    "2606.31157v1": {
+      "arxiv_id": "2606.31157v1",
+      "title": "Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning",
+      "authors": [
+        "Hongyi Lin",
+        "Yang Liu",
+        "Jinhua Zhao",
+        "Xiaobo Qu"
+      ],
+      "summary": "Foundation models are increasingly integrated into embodied intelligence systems, but directly assigning them structured prediction tasks requires precise geometric and numerical estimation, where specialized models often remain stronger. This capability mismatch raises a key question: should foundation models replace task-specific predictors, or should they collaborate through tasks better aligned with their strengths? We propose FAT, a foundation-model-augmented task-specific reasoning framework that treats collaboration as task decomposition rather than model replacement. FAT decomposes structured prediction into specialist prediction, information-space reconstruction, and foundation-model proxy reasoning. The specialist generates geometrically and physically valid hypotheses in the native output space, while the foundation model performs a bounded proxy task, such as selection or verification, over reconstructed multimodal candidates. We instantiate this principle as ProxySelect with a vision--language model. Across 2D object detection, 3D object detection, trajectory prediction, and semantic segmentation, ProxySelect consistently improves specialized baselines and substantially outperforms direct foundation-model regression at lower computational cost. These results suggest a general collaboration principle: specialized models preserve task-specific structure, while foundation models refine their hypotheses through contextual proxy reasoning.",
+      "published_utc": "2026-06-30T05:35:18Z",
+      "updated_utc": "2026-06-30T05:35:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.31157v1",
+      "abs_url": "http://arxiv.org/abs/2606.31157v1"
+    },
+    "2606.30777v1": {
+      "arxiv_id": "2606.30777v1",
+      "title": "Unveiling Transferability in Trajectory Prediction via Latent Scene Embeddings",
+      "authors": [
+        "Theodor Westny",
+        "David Axelsson",
+        "Björn Olofsson",
+        "Erik Frisk"
+      ],
+      "summary": "The growing availability of trajectory datasets has fueled major advances in data-driven motion prediction. Yet, models trained on one dataset often fail to generalize beyond their training domain as a result of differences in scene layouts, agent behaviors, and sensing conditions. A framework that learns latent representations of datasets and quantifies their similarity using distributional metrics is presented. This large-scale study covers 24 major datasets, including the most widely used motion-prediction benchmarks, and shows that the resulting transferability scores strongly correlate with cross-dataset model performance. The results provide practical guidance for dataset selection, pretraining, and large-scale foundation models for motion prediction, paving the way toward more generalizable and robust predictive systems.",
+      "published_utc": "2026-06-29T18:07:34Z",
+      "updated_utc": "2026-06-29T18:07:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.30777v1",
+      "abs_url": "http://arxiv.org/abs/2606.30777v1"
+    },
+    "2606.31197v1": {
+      "arxiv_id": "2606.31197v1",
+      "title": "Diffusion-based 4D Trajectory Prediction and Distributed Control for UAV Swarms",
+      "authors": [
+        "Tianshun Li",
+        "Hongliang Lu",
+        "Haoang Li",
+        "Xinhu Zheng"
+      ],
+      "summary": "Accurate 4D trajectory prediction and closed-loop tracking are essential for Unmanned Aerial Vehicle (UAV) swarms to achieve safe and efficient operations in complex low-altitude environments such as urban airspaces, industrial sites, and indoor facilities. However, this task remains challenging due to intrinsic nonlinearity of UAV swarm dynamics and strict real-time constraints of swarm formation control. To address these challenges, we propose a unified framework that couples coarse-to-fine trajectory forecasting with uncertainty-aware Distributed Nonlinear Model Predictive Control (DNMPC). Our approach features two key innovations: 1) a dimension-decoupled trajectory prediction module that reduces computational complexity by forecasting axis-wise motion, and 2) a diffusion-based residual dynamics refinement module that captures temporally correlated dynamic uncertainties. These refined predictions are then integrated into a DNMPC loop to ensure formation stability. We also introduce a synchronized multi-scenario 4D UAV swarm dataset spanning six representative airspace scenarios. The dataset contains over \\textbf{7,900} frames of synchronized three-UAV trajectories with frame-level annotations of speed intention and target sector. Extensive experiments demonstrate that our approach outperforms state-of-the-art baselines, reducing trajectory tracking error by up to \\textbf{10-15\\%} and achieving sub-\\textbf{0.07\\,m} average tracking error in complex urban and industrial environments, while maintaining real-time inference speeds of 34 FPS (sub-30 ms latency) suitable for agile flight.",
+      "published_utc": "2026-06-30T06:26:34Z",
+      "updated_utc": "2026-06-30T06:26:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.31197v1",
+      "abs_url": "http://arxiv.org/abs/2606.31197v1"
     }
   },
   "topics": {
@@ -17196,9 +17279,12 @@
         "2605.24354v2",
         "2606.24162v1",
         "2606.30097v1",
-        "2606.29208v1"
+        "2606.29208v1",
+        "2606.31329v1",
+        "2606.31157v1",
+        "2606.30777v1"
       ],
-      "latest_update": "2026-06-30"
+      "latest_update": "2026-07-01"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -17358,9 +17444,12 @@
         "2606.27364v1",
         "2606.26661v1",
         "2606.28881v1",
-        "2604.02714v2"
+        "2604.02714v2",
+        "2606.31197v1",
+        "2606.31157v1",
+        "2606.30777v1"
       ],
-      "latest_update": "2026-06-30"
+      "latest_update": "2026-07-01"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17499,9 +17588,10 @@
         "2606.23706v1",
         "2606.25295v1",
         "2606.25122v1",
-        "2606.27364v1"
+        "2606.27364v1",
+        "2606.31197v1"
       ],
-      "latest_update": "2026-06-26"
+      "latest_update": "2026-07-01"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

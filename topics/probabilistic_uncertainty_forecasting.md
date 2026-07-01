@@ -1,11 +1,20 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-06-30` (timezone: `Europe/Athens`)
+Updated: `2026-07-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **156**
+Total papers tracked: **159**
 
 ---
 
+- **Diffusion-based 4D Trajectory Prediction and Distributed Control for UAV Swarms**  
+  *Tianshun Li, Hongliang Lu, Haoang Li, Xinhu Zheng*  
+  Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31197v1) · [pdf](https://arxiv.org/pdf/2606.31197v1) · id: `2606.31197v1`
+- **Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning**  
+  *Hongyi Lin, Yang Liu, Jinhua Zhao, Xiaobo Qu*  
+  Published: `2026-06-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.31157v1) · [pdf](https://arxiv.org/pdf/2606.31157v1) · id: `2606.31157v1`
+- **Unveiling Transferability in Trajectory Prediction via Latent Scene Embeddings**  
+  *Theodor Westny, David Axelsson, Björn Olofsson, Erik Frisk*  
+  Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30777v1) · [pdf](https://arxiv.org/pdf/2606.30777v1) · id: `2606.30777v1`
 - **An Integrated Machine Learning and Hierarchical Variance Decomposition Pipeline for Student Performance Prediction and Metacognitive Calibration on Multi-Signal Telemetry**  
   *Gurdeep Singh Virdee*  
   Published: `2026-06-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.28881v1) · [pdf](https://arxiv.org/pdf/2606.28881v1) · id: `2606.28881v1`
