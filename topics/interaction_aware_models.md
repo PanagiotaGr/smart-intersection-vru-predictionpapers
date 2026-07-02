@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-01` (timezone: `Europe/Athens`)
+Updated: `2026-07-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **223**
+Total papers tracked: **224**
 
 ---
 
@@ -201,6 +201,9 @@ Total papers tracked: **223**
 - **E-TIDE: Fast, Structure-Preserving Motion Forecasting from Event Sequences**  
   *Biswadeep Sen, Benoit R. Cottereau, Nicolas Cuperlier, Terence Sim*  
   Published: `2026-03-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.27757v1) · [pdf](https://arxiv.org/pdf/2603.27757v1) · id: `2603.27757v1`
+- **E-TIDE: Fast, Structure-Preserving Motion Forecasting from Event Sequences**  
+  *Biswadeep Sen, Benoit R. Cottereau, Nicolas Cuperlier, Terence Sim*  
+  Published: `2026-03-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.27757v2) · [pdf](https://arxiv.org/pdf/2603.27757v2) · id: `2603.27757v2`
 - **TIGFlow-GRPO: Trajectory Forecasting via Interaction-Aware Flow Matching and Reward-Driven Optimization**  
   *Xuepeng Jing, Wenhuan Lu, Hao Meng, Zhizhi Yu, Jianguo Wei*  
   Published: `2026-03-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.24936v1) · [pdf](https://arxiv.org/pdf/2603.24936v1) · id: `2603.24936v1`

@@ -16332,6 +16332,126 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.31197v1",
       "abs_url": "http://arxiv.org/abs/2606.31197v1"
+    },
+    "2603.27757v2": {
+      "arxiv_id": "2603.27757v2",
+      "title": "E-TIDE: Fast, Structure-Preserving Motion Forecasting from Event Sequences",
+      "authors": [
+        "Biswadeep Sen",
+        "Benoit R. Cottereau",
+        "Nicolas Cuperlier",
+        "Terence Sim"
+      ],
+      "summary": "Event-based cameras capture visual information as asynchronous streams of per-pixel brightness changes, generating sparse, temporally precise data. Compared to conventional frame-based sensors, they offer significant advantages in capturing high-speed dynamics while consuming substantially less power. Predicting future event representations from past observations is an important problem, enabling downstream tasks such as future semantic segmentation or object tracking without requiring access to future sensor measurements. While recent state-of-the-art approaches achieve strong performance, they often rely on computationally heavy backbones and, in some cases, large-scale pretraining, limiting their applicability in resource-constrained scenarios. In this work, we introduce E-TIDE, a lightweight, end-to-end trainable architecture for event-tensor prediction that is designed to operate efficiently without large-scale pretraining. Our approach employs the TIDE module (Temporal Interaction for Dynamic Events), motivated by efficient spatiotemporal interaction design for sparse event tensors, to capture temporal dependencies via large-kernel mixing and activity-aware gating while maintaining low computational complexity. Experiments on standard event-based datasets demonstrate that our method achieves competitive performance with significantly reduced model size and training requirements, making it well-suited for real-time deployment under tight latency and memory budgets.",
+      "published_utc": "2026-03-29T16:34:12Z",
+      "updated_utc": "2026-07-01T11:53:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.27757v2",
+      "abs_url": "http://arxiv.org/abs/2603.27757v2"
+    },
+    "2607.00326v1": {
+      "arxiv_id": "2607.00326v1",
+      "title": "NeHMO: Neural Hamilton-Jacobi Reachability Learning for Decentralized Safe Multi-Arm Motion Planning",
+      "authors": [
+        "Qingyi Chen",
+        "Zachary Kingston",
+        "Ahmed H. Qureshi"
+      ],
+      "summary": "Safe multi-arm motion planning is a challenging problem in robotics due to its high dimensionality, coupled configuration space, and complex collision constraints. Centralized planners are capable of coordinating all arms but often face scalability limitations, restricting applicability in real-time settings. On the other hand, decentralized methods are scalable and recent deep learning-based approaches have shown promising results. However, these depend on accurate behavior prediction or coordination protocols and may fail when other arms act unpredictably. To address these challenges, we introduce a neural Hamilton-Jacobi Reachability (HJR) learning-based approach to approximate a safety value function that captures worst-case inter-arm safety constraints. We further develop a decentralized trajectory optimization framework that uses the learned HJR representation for real-time planning. The proposed method is scalable and data-efficient, generalizes across multi-manipulator systems, and outperforms state-of-the-art baselines on challenging multi-arm motion planning tasks.",
+      "published_utc": "2026-07-01T01:56:07Z",
+      "updated_utc": "2026-07-01T01:56:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.00326v1",
+      "abs_url": "http://arxiv.org/abs/2607.00326v1"
+    },
+    "2607.01139v1": {
+      "arxiv_id": "2607.01139v1",
+      "title": "SD-RouteFusion: Ego-Trajectory Prediction with SD-Map Route Conditioning",
+      "authors": [
+        "Sviatoslav Voloshyn",
+        "Bruno K. W. Martens",
+        "Wangxin Liu",
+        "Jakob Vinkås",
+        "Junsheng Fu"
+      ],
+      "summary": "This paper presents SD-RouteFusion, a deployable end-to-end ego-trajectory prediction method that fuses a front-facing camera, vehicle kinematics, and a navigation route derived from a Standard Definition (SD) map. Unlike approaches that rely on High Definition (HD) map geometry, SD-RouteFusion aligns the learning objective with scalable and production-ready SD-map route inputs, enabling route-aware prediction without requiring HD-map infrastructure. First, we demonstrate that SD-map route prior provides a powerful long-horizon semantic prior. Through a comprehensive study on a large-scale real-world dataset comprising 480k driving scenarios across 10 European countries and the U.S., we quantify the value of SD-route conditioning: incorporating SD-map routes yields a 10.5% ADE improvement over an image-and-kinematics baseline, while our full fusion strategy achieves a 16.9% ADE reduction given a prediction horizon of 8 seconds. The fusion strategy consists of a dual-hypothesis design paired with a gated classifier, to ensure robustness under route corruption and visual uncertainty. Finally, to support broader evaluation, we release an SD-route generation toolkit that enables SD-route-conditioned ego-trajectory prediction on all datasets containing ego pose and future trajectories. Together, SD-RouteFusion establishes a practical path toward robust, route-aware ego-trajectory prediction at scale.",
+      "published_utc": "2026-07-01T16:22:50Z",
+      "updated_utc": "2026-07-01T16:22:50Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.01139v1",
+      "abs_url": "http://arxiv.org/abs/2607.01139v1"
+    },
+    "2607.01133v1": {
+      "arxiv_id": "2607.01133v1",
+      "title": "Towards Metric-Agnostic Trajectory Forecasting",
+      "authors": [
+        "Markus Knoche",
+        "Daan de Geus",
+        "Bastian Leibe"
+      ],
+      "summary": "Accurate trajectory forecasting of surrounding traffic participants is a core capability for autonomous driving, enabling vehicles to anticipate behavior and plan safe maneuvers. We observe that current state-of-the-art forecasting models on Argoverse 2 and the Waymo Open Motion Dataset tailor their training objectives to the different benchmark metrics. Because these metrics encourage conflicting behavior, we propose a paradigm change for trajectory forecasting: training models with metric-agnostic probabilistic objectives and treating metric optimization as a downstream task applied to the predictive distribution. Concretely, we introduce Trajectory Distribution Evaluation (TraDiE) policies, metric-specific policies that map a predictive distribution to the set of $K$ trajectories and confidences required by trajectory forecasting metrics. We evaluate this framework by introducing DONUT-NLL, which adapts the training objective of the state-of-the-art trajectory forecasting model DONUT to directly optimize the predictive distribution. Using our policies, DONUT-NLL achieves state-of-the-art results on all metrics of the Waymo motion prediction benchmark.",
+      "published_utc": "2026-07-01T16:20:43Z",
+      "updated_utc": "2026-07-01T16:20:43Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.01133v1",
+      "abs_url": "http://arxiv.org/abs/2607.01133v1"
+    },
+    "2606.31329v2": {
+      "arxiv_id": "2606.31329v2",
+      "title": "3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance",
+      "authors": [
+        "Dongyoon Hwang",
+        "Byungkun Lee",
+        "Dongjin Kim",
+        "Hyojin Jang",
+        "Hoiyeong Jin",
+        "Jueun Mun",
+        "Minho Park",
+        "Hojoon Lee",
+        "Hyunseung Kim",
+        "Jaegul Choo"
+      ],
+      "summary": "Hierarchical Vision-Language-Action (VLA) models decouple high-level planning from low-level control to improve generalization in robot manipulation. Recent work in this paradigm uses 2D end-effector trajectories predicted by a Vision-Language Model (VLM) as explicit guidance for a downstream policy. However, state-of-the-art low-level policies operate in 3D metric space on point clouds, and feeding them 2D guidance that lacks depth forces each waypoint to be assigned the depth of whatever scene surface lies beneath it, producing geometrically distorted trajectories. We propose 3D HAMSTER, a hierarchical framework that closes this gap by having the planner directly output metrically reliable 3D trajectories. We augment a VLM with a dedicated depth encoder and a dense depth reconstruction objective to predict 3D waypoint sequences, which are directly integrated into a pointcloudbased low-level policy. Across 3D trajectory prediction, simulation, and real-world manipulation, 3D HAMSTER consistently outperforms proprietary VLMs and 2D-guided baselines, with the largest gains under appearance-altering shifts and unseen language, spatial, and visual conditions. The project page is available at https://davian-robotics.github.io/3D_HAMSTER/.",
+      "published_utc": "2026-06-30T08:31:35Z",
+      "updated_utc": "2026-07-01T13:05:08Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.31329v2",
+      "abs_url": "http://arxiv.org/abs/2606.31329v2"
+    },
+    "2607.00296v1": {
+      "arxiv_id": "2607.00296v1",
+      "title": "Learning When to Listen: Gated Affect Fusion for Human Motion Prediction",
+      "authors": [
+        "Jingni Huang"
+      ],
+      "summary": "Human motion forecasting in unconstrained real-world videos remains challenging due to the ambiguity of future behaviors and the presence of noisy multimodal observations. While facial affect potentially provides complementary behavioral cues, its practical utility and mechanistic boundaries within motion forecasting frameworks remain poorly understood. In this work, we present a systematic study investigating the utility and temporal limitations of affect-conditioned forecasting in-the-wild. We establish a rigorous multimodal pipeline combining MediaPipe body pose trajectories with HSEmotion facial affect representations, and introduce the Gated Affect Transformer (GAT) to dynamically regulate cross-modal information flow. Through extensive multi-horizon evaluations under a strict subject-wise protocol, we demonstrate that naive early cross-modal concatenation consistently degrades forecasting accuracy relative to pose-only baselines. Conversely, our proposed gating mechanism stabilizes cross-modal integration by adaptively controlling the affective stream. Crucially, controlled counterfactual experiments using shuffled and randomized affect inputs reveal that the learned gate successfully suppresses unstructured cross-modal noise while remaining responsive to plausible affective signals. Furthermore, our empirical results indicate that facial affect features provide bounded, horizon-dependent predictive cues strictly within short-to-medium windows (e.g., 30 frames), whereas long-term trajectories remain predominantly governed by intrinsic kinematic continuity. Our findings provide empirical evidence that facial affect should be regarded as a complementary behavioral cue rather than a dominant driver of future motion, offering practical guidance for selective multimodal fusion in unconstrained human motion forecasting.",
+      "published_utc": "2026-07-01T00:47:02Z",
+      "updated_utc": "2026-07-01T00:47:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.00296v1",
+      "abs_url": "http://arxiv.org/abs/2607.00296v1"
     }
   },
   "topics": {
@@ -16764,9 +16884,10 @@
         "2606.25295v1",
         "2604.28197v2",
         "2606.27900v1",
-        "2606.30097v1"
+        "2606.30097v1",
+        "2603.27757v2"
       ],
-      "latest_update": "2026-06-30"
+      "latest_update": "2026-07-02"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17111,9 +17232,10 @@
         "2606.25122v1",
         "2606.26661v1",
         "2604.28197v2",
-        "2604.02714v2"
+        "2604.02714v2",
+        "2607.00326v1"
       ],
-      "latest_update": "2026-06-30"
+      "latest_update": "2026-07-02"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17282,9 +17404,12 @@
         "2606.29208v1",
         "2606.31329v1",
         "2606.31157v1",
-        "2606.30777v1"
+        "2606.30777v1",
+        "2607.01139v1",
+        "2607.01133v1",
+        "2606.31329v2"
       ],
-      "latest_update": "2026-07-01"
+      "latest_update": "2026-07-02"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -17447,9 +17572,11 @@
         "2604.02714v2",
         "2606.31197v1",
         "2606.31157v1",
-        "2606.30777v1"
+        "2606.30777v1",
+        "2607.01139v1",
+        "2607.00296v1"
       ],
-      "latest_update": "2026-07-01"
+      "latest_update": "2026-07-02"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17589,9 +17716,10 @@
         "2606.25295v1",
         "2606.25122v1",
         "2606.27364v1",
-        "2606.31197v1"
+        "2606.31197v1",
+        "2607.00296v1"
       ],
-      "latest_update": "2026-07-01"
+      "latest_update": "2026-07-02"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -17822,9 +17950,10 @@
         "2606.09289v1",
         "2606.09289v2",
         "2606.15251v1",
-        "2606.20336v1"
+        "2606.20336v1",
+        "2607.00296v1"
       ],
-      "latest_update": "2026-06-19"
+      "latest_update": "2026-07-02"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

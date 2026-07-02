@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-07-01` (timezone: `Europe/Athens`)
+Updated: `2026-07-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **35**
+Total papers tracked: **36**
 
 ---
 
+- **Learning When to Listen: Gated Affect Fusion for Human Motion Prediction**  
+  *Jingni Huang*  
+  Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.00296v1) · [pdf](https://arxiv.org/pdf/2607.00296v1) · id: `2607.00296v1`
 - **Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty**  
   *Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert*  
   Published: `2026-06-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.20336v1) · [pdf](https://arxiv.org/pdf/2606.20336v1) · id: `2606.20336v1`

@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-01` (timezone: `Europe/Athens`)
+Updated: `2026-07-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **159**
+Total papers tracked: **161**
 
 ---
 
+- **SD-RouteFusion: Ego-Trajectory Prediction with SD-Map Route Conditioning**  
+  *Sviatoslav Voloshyn, Bruno K. W. Martens, Wangxin Liu, Jakob Vinkås, Junsheng Fu*  
+  Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01139v1) · [pdf](https://arxiv.org/pdf/2607.01139v1) · id: `2607.01139v1`
+- **Learning When to Listen: Gated Affect Fusion for Human Motion Prediction**  
+  *Jingni Huang*  
+  Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.00296v1) · [pdf](https://arxiv.org/pdf/2607.00296v1) · id: `2607.00296v1`
 - **Diffusion-based 4D Trajectory Prediction and Distributed Control for UAV Swarms**  
   *Tianshun Li, Hongliang Lu, Haoang Li, Xinhu Zheng*  
   Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31197v1) · [pdf](https://arxiv.org/pdf/2606.31197v1) · id: `2606.31197v1`

@@ -1,14 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-01` (timezone: `Europe/Athens`)
+Updated: `2026-07-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **165**
+Total papers tracked: **168**
 
 ---
 
+- **SD-RouteFusion: Ego-Trajectory Prediction with SD-Map Route Conditioning**  
+  *Sviatoslav Voloshyn, Bruno K. W. Martens, Wangxin Liu, Jakob Vinkås, Junsheng Fu*  
+  Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01139v1) · [pdf](https://arxiv.org/pdf/2607.01139v1) · id: `2607.01139v1`
+- **Towards Metric-Agnostic Trajectory Forecasting**  
+  *Markus Knoche, Daan de Geus, Bastian Leibe*  
+  Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01133v1) · [pdf](https://arxiv.org/pdf/2607.01133v1) · id: `2607.01133v1`
 - **3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance**  
   *Dongyoon Hwang, Byungkun Lee, Dongjin Kim, Hyojin Jang, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee et al.*  
   Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31329v1) · [pdf](https://arxiv.org/pdf/2606.31329v1) · id: `2606.31329v1`
+- **3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance**  
+  *Dongyoon Hwang, Byungkun Lee, Dongjin Kim, Hyojin Jang, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee et al.*  
+  Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31329v2) · [pdf](https://arxiv.org/pdf/2606.31329v2) · id: `2606.31329v2`
 - **Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning**  
   *Hongyi Lin, Yang Liu, Jinhua Zhao, Xiaobo Qu*  
   Published: `2026-06-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.31157v1) · [pdf](https://arxiv.org/pdf/2606.31157v1) · id: `2606.31157v1`
