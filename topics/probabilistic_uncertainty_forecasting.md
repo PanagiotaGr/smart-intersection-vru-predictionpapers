@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-02` (timezone: `Europe/Athens`)
+Updated: `2026-07-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **161**
+Total papers tracked: **162**
 
 ---
 
+- **Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**  
+  *William English, Hao Zheng, Rickard Ewetz*  
+  Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01378v1) · [pdf](https://arxiv.org/pdf/2607.01378v1) · id: `2607.01378v1`
 - **SD-RouteFusion: Ego-Trajectory Prediction with SD-Map Route Conditioning**  
   *Sviatoslav Voloshyn, Bruno K. W. Martens, Wangxin Liu, Jakob Vinkås, Junsheng Fu*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01139v1) · [pdf](https://arxiv.org/pdf/2607.01139v1) · id: `2607.01139v1`

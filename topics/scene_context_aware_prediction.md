@@ -1,17 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-02` (timezone: `Europe/Athens`)
+Updated: `2026-07-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **168**
+Total papers tracked: **170**
 
 ---
 
+- **Teaching Vision-Language-Action Models What to See and Where to Look**  
+  *Yuguang Yang, Canyu Chen, Zhewen Tan, Yizhi Wang, Zichao Feng, Chunyang Liu, Kehua Sheng, Juan Zhang et al.*  
+  Published: `2026-07-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01658v1) · [pdf](https://arxiv.org/pdf/2607.01658v1) · id: `2607.01658v1`
 - **SD-RouteFusion: Ego-Trajectory Prediction with SD-Map Route Conditioning**  
   *Sviatoslav Voloshyn, Bruno K. W. Martens, Wangxin Liu, Jakob Vinkås, Junsheng Fu*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01139v1) · [pdf](https://arxiv.org/pdf/2607.01139v1) · id: `2607.01139v1`
 - **Towards Metric-Agnostic Trajectory Forecasting**  
   *Markus Knoche, Daan de Geus, Bastian Leibe*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01133v1) · [pdf](https://arxiv.org/pdf/2607.01133v1) · id: `2607.01133v1`
+- **WaveLander: A Generalizable Hierarchical Control Framework for UAV Landing on Wave-Disturbed Platforms via Reinforcement Learning**  
+  *Chun-Kit Li, Iok Long Sit, Ming Fung Siu, Ka Yu Kui, Hin Wang Lin, Pengyu Wang, Ling Shi*  
+  Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01281v1) · [pdf](https://arxiv.org/pdf/2607.01281v1) · id: `2607.01281v1`
 - **3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance**  
   *Dongyoon Hwang, Byungkun Lee, Dongjin Kim, Hyojin Jang, Hoiyeong Jin, Jueun Mun, Minho Park, Hojoon Lee et al.*  
   Published: `2026-06-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.31329v1) · [pdf](https://arxiv.org/pdf/2606.31329v1) · id: `2606.31329v1`

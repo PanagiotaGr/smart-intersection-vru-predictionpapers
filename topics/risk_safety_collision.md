@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-02` (timezone: `Europe/Athens`)
+Updated: `2026-07-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **220**
+Total papers tracked: **221**
 
 ---
 
+- **Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**  
+  *William English, Hao Zheng, Rickard Ewetz*  
+  Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01378v1) · [pdf](https://arxiv.org/pdf/2607.01378v1) · id: `2607.01378v1`
 - **NeHMO: Neural Hamilton-Jacobi Reachability Learning for Decentralized Safe Multi-Arm Motion Planning**  
   *Qingyi Chen, Zachary Kingston, Ahmed H. Qureshi*  
   Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.00326v1) · [pdf](https://arxiv.org/pdf/2607.00326v1) · id: `2607.00326v1`
