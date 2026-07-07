@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **221**
+Total papers tracked: **222**
 
 ---
 
+- **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
+  *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
+  Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`
 - **Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**  
   *William English, Hao Zheng, Rickard Ewetz*  
   Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01378v1) · [pdf](https://arxiv.org/pdf/2607.01378v1) · id: `2607.01378v1`

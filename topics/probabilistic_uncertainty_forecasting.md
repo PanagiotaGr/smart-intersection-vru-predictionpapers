@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **162**
+Total papers tracked: **165**
 
 ---
 
+- **CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining**  
+  *Jingyu Song, Yi Liu, Katherine A. Skinner*  
+  Published: `2026-07-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04541v1) · [pdf](https://arxiv.org/pdf/2607.04541v1) · id: `2607.04541v1`
 - **Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**  
   *William English, Hao Zheng, Rickard Ewetz*  
   Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01378v1) · [pdf](https://arxiv.org/pdf/2607.01378v1) · id: `2607.01378v1`
@@ -144,6 +147,9 @@ Total papers tracked: **162**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
+- **ECTraj: Enhanced Consistency Training for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v2) · [pdf](https://arxiv.org/pdf/2605.08572v2) · id: `2605.08572v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
@@ -222,6 +228,9 @@ Total papers tracked: **162**
 - **SutureFormer: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
   *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
   Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v2) · [pdf](https://arxiv.org/pdf/2603.26720v2) · id: `2603.26720v2`
+- **SutureFormer: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space**  
+  *Huanrong Liu, Chunlin Tian, Tongyu Jia, Tailai Zhou, Qin Liu, Yu Gao, Yutong Ban, Yun Gu et al.*  
+  Published: `2026-03-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.26720v3) · [pdf](https://arxiv.org/pdf/2603.26720v3) · id: `2603.26720v3`
 - **Real-Time Online Learning for Model Predictive Control using a Spatio-Temporal Gaussian Process Approximation**  
   *Lars Bartels, Amon Lahr, Andrea Carron, Melanie N. Zeilinger*  
   Published: `2026-03-18` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2603.17632v1) · [pdf](https://arxiv.org/pdf/2603.17632v1) · id: `2603.17632v1`

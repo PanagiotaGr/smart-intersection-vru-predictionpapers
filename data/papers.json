@@ -16521,6 +16521,166 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.01281v1",
       "abs_url": "http://arxiv.org/abs/2607.01281v1"
+    },
+    "2607.04689v1": {
+      "arxiv_id": "2607.04689v1",
+      "title": "A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving",
+      "authors": [
+        "Argho Dey",
+        "Yunfei Yin",
+        "Swachha Ray",
+        "Md Minhazul Islam",
+        "Zheng Yuan",
+        "Sijing Xiong",
+        "Hongyu Liu",
+        "Zhiqiu Huang"
+      ],
+      "summary": "Safe operation of autonomous vehicles in dense urban traffic depends on perception and planning that remain reliable when onboard sensing is degraded. In real driving conditions, camera observations are frequently corrupted by occlusion, motion blur, illumination change, and sensor noise, and when such degraded observations are aggregated indiscriminately over time, trajectory planning becomes unstable and collision risk rises for both the ego vehicle and surrounding road users. Recent Bird's-Eye-View (BEV) approaches unify perception and planning through a shared spatial representation, but most fuse temporal information across frames without assessing the reliability of the underlying observations. We present a Reliable Context-Aware and Temporal Planning framework for Autonomous Driving (RCT-AD) that explicitly models feature quality and temporal consistency to support safer, more consistent planning. A Reliable Context Awareness module scores per-frame reliability and selectively retains trustworthy features through a quality-gated First-In-Last-Out (FILO) memory mechanism, reconstructing degraded observations from reliable historical context so that corrupted inputs do not destabilize the scene representation. A Temporal Trajectory Planner captures long-term dependencies and multi-agent interactions to produce smoother, safety-aware trajectories, while a joint detection-and-segmentation head injects semantic and motion cues into the shared BEV space to strengthen scene understanding. Experiments on the nuScenes autonomous driving benchmark show that RCT-AD improves perception accuracy, motion prediction, and planning robustness over recent end-to-end baselines, achieving 61.5 nuScenes Detection Score, 52.9 mean Average Precision, and 52.3 mean Intersection over Union, while maintaining competitive computational efficiency suitable for real-time deployment.",
+      "published_utc": "2026-07-06T05:32:48Z",
+      "updated_utc": "2026-07-06T05:32:48Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.04689v1",
+      "abs_url": "http://arxiv.org/abs/2607.04689v1"
+    },
+    "2607.03182v1": {
+      "arxiv_id": "2607.03182v1",
+      "title": "AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning",
+      "authors": [
+        "Qi Liu",
+        "Yabei Li",
+        "Hongsong Wang",
+        "Heng Zhang",
+        "Lei He"
+      ],
+      "summary": "Autonomous driving planning requires translating navigation intent, traffic rules, dynamic interactions, and language instructions into executable continuous trajectories. Vision-Language-Action models have been introduced into driving planning to improve long-tail generalization, commonsense reasoning, high-level semantic understanding, and explainability. However, existing VLA planners mainly follow planning-head-based trajectory prediction or full-trajectory autoregressive generation. The former only weakly constrains continuous trajectory generation with VLA reasoning, while the latter relies on long sequences of low-information-density coordinate tokens, making semantic-action alignment difficult and leading to discretization errors and inefficient inference. To address these limitations, we propose AnchorVLA, a hierarchical decision-anchored VLA planning framework that uses trajectory-pattern anchors as an explicit interface between high-level VLA reasoning and continuous trajectory execution. Specifically, Decision-as-Anchor Representation represents behavior-level driving decisions with anchor tokens, each encoding an entire local motion pattern rather than a single coordinate point. Decision-Anchored Residual Flow then generates fine-grained continuous trajectories in the selected anchor-defined residual space, capturing multi-modal execution refinements after high-level decision making. By reasoning over compact and semantically meaningful anchors instead of autoregressively generating waypoint sequences, AnchorVLA preserves LLM-based decision making while improving inference efficiency, semantic-action alignment, and continuous generation flexibility. Experiments on the Bench2Drive closed-loop benchmark show that AnchorVLA achieves a state-of-the-art Success Rate of 77.28 and a competitive Driving Score of 89.92.",
+      "published_utc": "2026-07-03T10:38:30Z",
+      "updated_utc": "2026-07-03T10:38:30Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.03182v1",
+      "abs_url": "http://arxiv.org/abs/2607.03182v1"
+    },
+    "2605.08572v2": {
+      "arxiv_id": "2605.08572v2",
+      "title": "ECTraj: Enhanced Consistency Training for Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Alen Mrdovic",
+        "Qingze",
+        "Liu",
+        "Danrui Li",
+        "Mathew Schwartz",
+        "Kaidong Hu",
+        "Sejong Yoon",
+        "Mubbasir Kapadia",
+        "Vladimir Pavlovic"
+      ],
+      "summary": "Diffusion models for multi-agent trajectory prediction are limited by iterative denoising, which causes inference latency that hinders their use in time-critical settings like autonomous driving. Fast-sampling variants using DDIM and informed initial noise distributions partially alleviate this issue, but they either fail to achieve true single-step generation or are constrained by the chosen noise distribution. Consistency Models (CMs) offer high-quality one-step generation by mapping noise directly to data, but are difficult to train from scratch. We propose ECTraj, an enhanced CM pipeline with improved training and conditional generation for trajectory prediction. Our framework extends the student-teacher consistency training scheme: the student produces standard outputs, while the teacher explicitly fuses its predictions with parts of the ground truth to give stronger supervision. We also exploit CMs' direct denoising for top-K multi-shot generation during training. Combining conditional generation with this enhanced consistency objective yields faster inference and improved prediction accuracy, establishing competitive new benchmarks on the large-scale Argoverse 2 dataset.",
+      "published_utc": "2026-05-09T00:23:08Z",
+      "updated_utc": "2026-07-05T14:10:50Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.08572v2",
+      "abs_url": "http://arxiv.org/abs/2605.08572v2"
+    },
+    "2607.04812v1": {
+      "arxiv_id": "2607.04812v1",
+      "title": "TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving",
+      "authors": [
+        "Miguel Antunes-García",
+        "Santiago Montiel-Marín",
+        "Fabio Sánchez-García",
+        "Rodrigo Gutiérrez-Moreno",
+        "Rafael Barea",
+        "Luis M. Bergasa"
+      ],
+      "summary": "Bird's-Eye View (BEV) end-to-end instance prediction has emerged as a robust paradigm for autonomous driving perception, effectively mitigating the error propagation inherent in traditional modular pipelines. However, current state-of-the-art approaches rely predominantly on geometric supervision, such as occupancy regression and optical flow, effectively treating scene agents as generic moving obstacles. This absence of explicit semantic awareness imposes limitations on the capacity of the model to solve ambiguities in complex scenarios, particularly those where object-specific behavior is essential for accurate forecasting (e.g. overtaking, intersections). In this paper, we introduce Text-Guided Representation for Instance Prediction (TGRIP), a novel framework that bridges this gap by injecting rich semantic priors into the instance prediction loop. The proposed teacher-student pipeline employs Vision-Language Foundation Models to generate dense, semantic-enhanced BEV maps from multi-camera images. These maps serve as auxiliary supervision during training, guiding the network to learn spatio-temporal representations that are not only geometrically consistent but also semantically discriminative. To the best of our knowledge, this represents the first attempt to unify semantic guidance with the temporal task of future instance prediction. The experimental results demonstrate that TGRIP surpasses existing state-of-the-art models in nuScenes, validating the hypothesis that semantic enrichment is a fundamental element for robust, end-to-end motion prediction. Code is available on https://github.com/miguelag99/TGRIP.",
+      "published_utc": "2026-07-06T08:47:56Z",
+      "updated_utc": "2026-07-06T08:47:56Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.04812v1",
+      "abs_url": "http://arxiv.org/abs/2607.04812v1"
+    },
+    "2607.04637v1": {
+      "arxiv_id": "2607.04637v1",
+      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+      "authors": [
+        "Pin Tang",
+        "Guoqing Wang",
+        "Xiangxuan Ren",
+        "Zhongdao Wang",
+        "Guodongfang Zhao",
+        "Bailan",
+        "Chao Ma"
+      ],
+      "summary": "Vision-Language-Action Models (VLAs), which leverage the advanced reasoning capabilities of Vision-Language Models (VLMs), show promising generalization in complex autonomous driving scenarios. Existing VLAs typically predict and optimize 3D trajectories from 2D images. While intuitive, this 2D-to-3D prediction is inherently entangled with camera parameters, leading to limited data scalability across heterogeneous driving datasets. Moreover, directly optimizing in 3D space induces severe convergence to trivial solutions, where VLAs rely on ego-status rather than visual scene understanding. To address these issues, we propose PixelPilot, a novel VLA featuring a decoupled planning and lifting paradigm. In the planning phase, PixelPilot reformulates scene understanding and trajectory prediction as sensor-agnostic 2D-to-2D tasks in the image plane, thereby facilitating scalable training across diverse datasets. The planned 2D trajectories are then deterministically lifted to 3D only during inference, ensuring the full exploitation of visual cues and generalization across different vehicles. To realize this paradigm, we propose a knowledge-instilled policy learning strategy that applies dense, intermediate rewards via Group Relative Policy Optimization (GRPO) to enforce a rigorous causal chain from visual perception to spatial planning. Extensive experiments demonstrate that PixelPilot achieves state-of-the-art performance in both open-loop and closed-loop settings, validating its superior scalability and visual reasoning capabilities.",
+      "published_utc": "2026-07-06T03:40:48Z",
+      "updated_utc": "2026-07-06T03:40:48Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.04637v1",
+      "abs_url": "http://arxiv.org/abs/2607.04637v1"
+    },
+    "2607.04541v1": {
+      "arxiv_id": "2607.04541v1",
+      "title": "CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining",
+      "authors": [
+        "Jingyu Song",
+        "Yi Liu",
+        "Katherine A. Skinner"
+      ],
+      "summary": "Camera-radar (CR) fusion is a practical sensing configuration for autonomous driving, but existing models are typically trained with task-specific supervision, limiting reusable representation learning. We present CRISP, a spatiotemporal CR backbone pretrained through forecasting-based representation learning. Given historical multi-view images and radar sweeps, CRISP learns a unified bird's-eye-view (BEV) representation by predicting future LiDAR point clouds. LiDAR is used only as privileged supervision during pretraining; the deployed model requires only camera and radar. To make forecasting-based pretraining effective for CR fusion, CRISP introduces an enhanced radar encoder, radar-enhanced temporal self-attention, and multimodal feature rendering with modality innovation gating. These components inject radar range and Doppler cues into BEV temporal propagation and allow BEV tokens to selectively incorporate camera and radar evidence. Experiments on nuScenes show that CRISP improves long-horizon point cloud forecasting and transfers effectively to downstream tasks, including 3D detection, tracking, online mapping, motion forecasting, future occupancy prediction, and planning, suggesting that predictive CR pretraining is a promising path toward scalable driving representations under practical sensor configurations. The project website is https://umfieldrobotics.github.io/CRISP.",
+      "published_utc": "2026-07-05T23:07:45Z",
+      "updated_utc": "2026-07-05T23:07:45Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.04541v1",
+      "abs_url": "http://arxiv.org/abs/2607.04541v1"
+    },
+    "2603.26720v3": {
+      "arxiv_id": "2603.26720v3",
+      "title": "SutureFormer: Learning Surgical Trajectories via Goal-conditioned Offline RL in Pixel Space",
+      "authors": [
+        "Huanrong Liu",
+        "Chunlin Tian",
+        "Tongyu Jia",
+        "Tailai Zhou",
+        "Qin Liu",
+        "Yu Gao",
+        "Yutong Ban",
+        "Yun Gu",
+        "Guy Rosman",
+        "Xin Ma",
+        "Qingbiao Li"
+      ],
+      "summary": "Predicting surgical needle trajectories from endoscopic video is critical for robot-assisted suturing, enabling anticipatory planning, real-time guidance, and safer motion execution. Existing methods that directly learn motion distributions from visual observations tend to overlook the sequential dependency among adjacent motion steps. Moreover, sparse waypoint annotations often fail to provide sufficient supervision, further increasing the difficulty of supervised or imitation learning methods. To address these challenges, we formulate image-based needle trajectory prediction as a sequential decision-making problem, in which the needle tip is treated as an agent that moves step by step in pixel space. This formulation naturally captures the continuity of needle motion and enables the explicit modeling of physically plausible pixel-wise state transitions over time. From this perspective, we propose SutureFormer, a goal-conditioned offline reinforcement learning framework that leverages sparse annotations to dense reward signals via cubic spline interpolation, encouraging the policy to exploit limited expert guidance while exploring plausible future motion paths. SutureFormer encodes variable-length clips using an observation encoder to capture both local spatial cues and long-range temporal dynamics, and autoregressively predicts future waypoints through actions composed of discrete directions and continuous magnitudes. To enable stable offline policy optimization from expert demonstrations, we adopt Conservative Q-Learning with Behavioral Cloning regularization. Experiments on a new kidney wound suturing dataset containing 1,158 trajectories from 50 patients show that SutureFormer reduces Average Displacement Error by 58.6% compared with the strongest baseline, demonstrating the effectiveness of modeling needle trajectory prediction as pixel-level sequential action learning.",
+      "published_utc": "2026-03-19T01:36:07Z",
+      "updated_utc": "2026-07-05T08:08:43Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.26720v3",
+      "abs_url": "http://arxiv.org/abs/2603.26720v3"
     }
   },
   "topics": {
@@ -16954,9 +17114,12 @@
         "2604.28197v2",
         "2606.27900v1",
         "2606.30097v1",
-        "2603.27757v2"
+        "2603.27757v2",
+        "2607.04689v1",
+        "2607.03182v1",
+        "2605.08572v2"
       ],
-      "latest_update": "2026-07-02"
+      "latest_update": "2026-07-07"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17303,9 +17466,10 @@
         "2604.28197v2",
         "2604.02714v2",
         "2607.00326v1",
-        "2607.01378v1"
+        "2607.01378v1",
+        "2607.04689v1"
       ],
-      "latest_update": "2026-07-03"
+      "latest_update": "2026-07-07"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17479,9 +17643,14 @@
         "2607.01133v1",
         "2606.31329v2",
         "2607.01658v1",
-        "2607.01281v1"
+        "2607.01281v1",
+        "2607.04812v1",
+        "2607.04689v1",
+        "2607.04637v1",
+        "2607.03182v1",
+        "2605.08572v2"
       ],
-      "latest_update": "2026-07-03"
+      "latest_update": "2026-07-07"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -17647,9 +17816,12 @@
         "2606.30777v1",
         "2607.01139v1",
         "2607.00296v1",
-        "2607.01378v1"
+        "2607.01378v1",
+        "2607.04541v1",
+        "2605.08572v2",
+        "2603.26720v3"
       ],
-      "latest_update": "2026-07-03"
+      "latest_update": "2026-07-07"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -17790,9 +17962,11 @@
         "2606.25122v1",
         "2606.27364v1",
         "2606.31197v1",
-        "2607.00296v1"
+        "2607.00296v1",
+        "2607.04541v1",
+        "2605.08572v2"
       ],
-      "latest_update": "2026-07-02"
+      "latest_update": "2026-07-07"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -18024,9 +18198,11 @@
         "2606.09289v2",
         "2606.15251v1",
         "2606.20336v1",
-        "2607.00296v1"
+        "2607.00296v1",
+        "2607.04812v1",
+        "2607.04689v1"
       ],
-      "latest_update": "2026-07-02"
+      "latest_update": "2026-07-07"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

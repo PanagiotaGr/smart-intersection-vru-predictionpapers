@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **36**
+Total papers tracked: **38**
 
 ---
 
+- **TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving**  
+  *Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa*  
+  Published: `2026-07-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04812v1) · [pdf](https://arxiv.org/pdf/2607.04812v1) · id: `2607.04812v1`
+- **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
+  *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
+  Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`
 - **Learning When to Listen: Gated Affect Fusion for Human Motion Prediction**  
   *Jingni Huang*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.00296v1) · [pdf](https://arxiv.org/pdf/2607.00296v1) · id: `2607.00296v1`

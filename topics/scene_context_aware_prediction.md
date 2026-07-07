@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **170**
+Total papers tracked: **175**
 
 ---
 
+- **TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving**  
+  *Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa*  
+  Published: `2026-07-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04812v1) · [pdf](https://arxiv.org/pdf/2607.04812v1) · id: `2607.04812v1`
+- **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
+  *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
+  Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`
+- **PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving**  
+  *Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan, Chao Ma*  
+  Published: `2026-07-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04637v1) · [pdf](https://arxiv.org/pdf/2607.04637v1) · id: `2607.04637v1`
+- **AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning**  
+  *Qi Liu, Yabei Li, Hongsong Wang, Heng Zhang, Lei He*  
+  Published: `2026-07-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.03182v1) · [pdf](https://arxiv.org/pdf/2607.03182v1) · id: `2607.03182v1`
 - **Teaching Vision-Language-Action Models What to See and Where to Look**  
   *Yuguang Yang, Canyu Chen, Zhewen Tan, Yizhi Wang, Zichao Feng, Chunyang Liu, Kehua Sheng, Juan Zhang et al.*  
   Published: `2026-07-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01658v1) · [pdf](https://arxiv.org/pdf/2607.01658v1) · id: `2607.01658v1`
@@ -147,6 +159,9 @@ Total papers tracked: **170**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
+- **ECTraj: Enhanced Consistency Training for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v2) · [pdf](https://arxiv.org/pdf/2605.08572v2) · id: `2605.08572v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`

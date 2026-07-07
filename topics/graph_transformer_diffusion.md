@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **137**
+Total papers tracked: **139**
 
 ---
 
+- **CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining**  
+  *Jingyu Song, Yi Liu, Katherine A. Skinner*  
+  Published: `2026-07-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04541v1) · [pdf](https://arxiv.org/pdf/2607.04541v1) · id: `2607.04541v1`
 - **Learning When to Listen: Gated Affect Fusion for Human Motion Prediction**  
   *Jingni Huang*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.00296v1) · [pdf](https://arxiv.org/pdf/2607.00296v1) · id: `2607.00296v1`
@@ -84,6 +87,9 @@ Total papers tracked: **137**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
+- **ECTraj: Enhanced Consistency Training for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v2) · [pdf](https://arxiv.org/pdf/2605.08572v2) · id: `2605.08572v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`

@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-06` (timezone: `Europe/Athens`)
+Updated: `2026-07-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **224**
+Total papers tracked: **227**
 
 ---
 
+- **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
+  *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
+  Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`
+- **AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning**  
+  *Qi Liu, Yabei Li, Hongsong Wang, Heng Zhang, Lei He*  
+  Published: `2026-07-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.03182v1) · [pdf](https://arxiv.org/pdf/2607.03182v1) · id: `2607.03182v1`
 - **CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking**  
   *Buyin Deng, Kai Luo, Lingxin Huang, Xinqi Liu, Fei Cheng, Hang Zheng, Liming Yin, Kailun Yang*  
   Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30097v1) · [pdf](https://arxiv.org/pdf/2606.30097v1) · id: `2606.30097v1`
@@ -114,6 +120,9 @@ Total papers tracked: **224**
 - **VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving**  
   *Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08830v2) · [pdf](https://arxiv.org/pdf/2605.08830v2) · id: `2605.08830v2`
+- **ECTraj: Enhanced Consistency Training for Multi-Agent Trajectory Prediction**  
+  *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
+  Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v2) · [pdf](https://arxiv.org/pdf/2605.08572v2) · id: `2605.08572v2`
 - **Enhancing Consistency Models for Multi-Agent Trajectory Prediction**  
   *Alen Mrdovic, Qingze, Liu, Danrui Li, Mathew Schwartz, Kaidong Hu, Sejong Yoon, Mubbasir Kapadia et al.*  
   Published: `2026-05-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.08572v1) · [pdf](https://arxiv.org/pdf/2605.08572v1) · id: `2605.08572v1`
