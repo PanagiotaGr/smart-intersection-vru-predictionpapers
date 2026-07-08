@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-07` (timezone: `Europe/Athens`)
+Updated: `2026-07-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **222**
+Total papers tracked: **224**
 
 ---
 
+- **Synthetic-to-Real Translation for Class-Agnostic Motion Prediction**  
+  *Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, Xiao Song, Zhe Wang, Chenjing Ding et al.*  
+  Published: `2026-07-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.06319v1) · [pdf](https://arxiv.org/pdf/2607.06319v1) · id: `2607.06319v1`
+- **IMR: Iterative Mode-World Weighted Regression for Multi-Agent Trajectory Prediction**  
+  *Honglin Wang, Shiyao Pan, Yun-Fu Liu*  
+  Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.05705v1) · [pdf](https://arxiv.org/pdf/2607.05705v1) · id: `2607.05705v1`
 - **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
   *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
   Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`

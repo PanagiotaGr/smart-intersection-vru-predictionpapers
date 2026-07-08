@@ -16681,6 +16681,53 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2603.26720v3",
       "abs_url": "http://arxiv.org/abs/2603.26720v3"
+    },
+    "2607.05705v1": {
+      "arxiv_id": "2607.05705v1",
+      "title": "IMR: Iterative Mode-World Weighted Regression for Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Honglin Wang",
+        "Shiyao Pan",
+        "Yun-Fu Liu"
+      ],
+      "summary": "Multi-agent motion prediction is essential for automated vehicles to understand the intentions of surrounding vehicles. However, previous prediction-based and anchor-based methods have limitations in mode diversity and prediction accuracy, respectively. These limitations may cause inadequate safety assessments and behavioral deviations in automated vehicles. To address this issue, a mode-world weighted regression loss is proposed to bridge the gap between these features. Specifically, this approach mitigates mode collapse while simultaneously improving world ranking and top-1 confidence. Furthermore, the proposed iterative decoder improves prediction accuracy by recurrently and segmentally generating trajectories. Experimental results show the proposed method ranks first in the Argoverse 2 multi-agent motion forecasting benchmark against other methods.",
+      "published_utc": "2026-07-06T23:59:19Z",
+      "updated_utc": "2026-07-06T23:59:19Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.05705v1",
+      "abs_url": "http://arxiv.org/abs/2607.05705v1"
+    },
+    "2607.06319v1": {
+      "arxiv_id": "2607.06319v1",
+      "title": "Synthetic-to-Real Translation for Class-Agnostic Motion Prediction",
+      "authors": [
+        "Yizheng Wu",
+        "Hongwei Fan",
+        "Kewei Wang",
+        "Ruibo Li",
+        "Xingyi Li",
+        "Xiao Song",
+        "Zhe Wang",
+        "Chenjing Ding",
+        "Dongliang Wang",
+        "Zhiguo Cao",
+        "Guosheng Lin"
+      ],
+      "summary": "Motion understanding is critical for ensuring safety and robustness in autonomous driving systems, driving increasing interest in motion prediction. A key challenge in this domain is the high cost associated with acquiring real-world motion labels. It is therefore ideal if we could transfer motion knowledge from synthetic data to real data. In this context, we explore the potential of synthetic-to-real translation for motion prediction (SRMP). However, the most used naive motion regression methods are notably sensitive to the synthetic-to-real domain shift, resulting in unreliable knowledge translation. To address this, we propose a novel approach integrating a motion knowledge translation framework with two key components: (1) objectness-aware motion prediction, which explicitly models the joint distribution of motion patterns and objectness priors to improve domain-invariant feature learning, and (2) objectness-aided motion enhancement, a motion label refinement mechanism that leverages learned objectness priors to filter motion noise. Furthermore, we present a physically-based pipeline for generating Motion4D, the first synthetic 4D LiDAR dataset tailored for SRMP research, addressing the lack of synthetic motion datasets. Experimental results demonstrate that our approach effectively bridges the domain gaps and yields superior performance on real scenes.",
+      "published_utc": "2026-07-07T14:19:22Z",
+      "updated_utc": "2026-07-07T14:19:22Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.06319v1",
+      "abs_url": "http://arxiv.org/abs/2607.06319v1"
     }
   },
   "topics": {
@@ -17117,9 +17164,10 @@
         "2603.27757v2",
         "2607.04689v1",
         "2607.03182v1",
-        "2605.08572v2"
+        "2605.08572v2",
+        "2607.05705v1"
       ],
-      "latest_update": "2026-07-07"
+      "latest_update": "2026-07-08"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17467,9 +17515,11 @@
         "2604.02714v2",
         "2607.00326v1",
         "2607.01378v1",
-        "2607.04689v1"
+        "2607.04689v1",
+        "2607.06319v1",
+        "2607.05705v1"
       ],
-      "latest_update": "2026-07-07"
+      "latest_update": "2026-07-08"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17648,9 +17698,10 @@
         "2607.04689v1",
         "2607.04637v1",
         "2607.03182v1",
-        "2605.08572v2"
+        "2605.08572v2",
+        "2607.06319v1"
       ],
-      "latest_update": "2026-07-07"
+      "latest_update": "2026-07-08"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",

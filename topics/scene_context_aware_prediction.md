@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-07` (timezone: `Europe/Athens`)
+Updated: `2026-07-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **175**
+Total papers tracked: **176**
 
 ---
 
+- **Synthetic-to-Real Translation for Class-Agnostic Motion Prediction**  
+  *Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, Xiao Song, Zhe Wang, Chenjing Ding et al.*  
+  Published: `2026-07-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.06319v1) · [pdf](https://arxiv.org/pdf/2607.06319v1) · id: `2607.06319v1`
 - **TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving**  
   *Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa*  
   Published: `2026-07-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04812v1) · [pdf](https://arxiv.org/pdf/2607.04812v1) · id: `2607.04812v1`
