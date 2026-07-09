@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-08` (timezone: `Europe/Athens`)
+Updated: `2026-07-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **176**
+Total papers tracked: **178**
 
 ---
 
+- **Ego-Human Motion Prediction with 3D-Aware LLM**  
+  *Yujin Bae, Jaewoo Jeong, Hyeonseong Kim, Kuk-Jin Yoon*  
+  Published: `2026-07-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.07001v1) · [pdf](https://arxiv.org/pdf/2607.07001v1) · id: `2607.07001v1`
 - **Synthetic-to-Real Translation for Class-Agnostic Motion Prediction**  
   *Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, Xiao Song, Zhe Wang, Chenjing Ding et al.*  
   Published: `2026-07-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.06319v1) · [pdf](https://arxiv.org/pdf/2607.06319v1) · id: `2607.06319v1`
@@ -243,6 +246,9 @@ Total papers tracked: **176**
 - **GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes**  
   *Mijeong Kim, Jungtaek Kim, Bohyung Han*  
   Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02915v1) · [pdf](https://arxiv.org/pdf/2604.02915v1) · id: `2604.02915v1`
+- **GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes**  
+  *Mijeong Kim, Jungtaek Kim, Bohyung Han*  
+  Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02915v2) · [pdf](https://arxiv.org/pdf/2604.02915v2) · id: `2604.02915v2`
 - **STDDN: A Physics-Guided Deep Learning Framework for Crowd Simulation**  
   *Zijin Liu, Xu Geng, Wenshuai Xu, Xiang Zhao, Yan Xia, You Song*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.02756v1) · [pdf](https://arxiv.org/pdf/2604.02756v1) · id: `2604.02756v1`

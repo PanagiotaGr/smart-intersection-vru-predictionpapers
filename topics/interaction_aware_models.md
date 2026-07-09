@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-08` (timezone: `Europe/Athens`)
+Updated: `2026-07-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **228**
+Total papers tracked: **229**
 
 ---
 
+- **HumAIN: Human-Aware Implicit Social Robot Navigation**  
+  *Daeun Song, Nhat Le, Jeffrey Chen, Mohammad Nazeri, Amirreza Payandeh, Rohan Chandra, Reuth Mirsky, Ross Mead et al.*  
+  Published: `2026-07-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.07357v1) · [pdf](https://arxiv.org/pdf/2607.07357v1) · id: `2607.07357v1`
 - **IMR: Iterative Mode-World Weighted Regression for Multi-Agent Trajectory Prediction**  
   *Honglin Wang, Shiyao Pan, Yun-Fu Liu*  
   Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.05705v1) · [pdf](https://arxiv.org/pdf/2607.05705v1) · id: `2607.05705v1`

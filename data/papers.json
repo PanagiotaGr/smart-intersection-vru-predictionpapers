@@ -16728,6 +16728,69 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.06319v1",
       "abs_url": "http://arxiv.org/abs/2607.06319v1"
+    },
+    "2607.07357v1": {
+      "arxiv_id": "2607.07357v1",
+      "title": "HumAIN: Human-Aware Implicit Social Robot Navigation",
+      "authors": [
+        "Daeun Song",
+        "Nhat Le",
+        "Jeffrey Chen",
+        "Mohammad Nazeri",
+        "Amirreza Payandeh",
+        "Rohan Chandra",
+        "Reuth Mirsky",
+        "Ross Mead",
+        "Ling Xiao",
+        "Xuesu Xiao"
+      ],
+      "summary": "Effective social robot navigation requires sensitivity to human behavior, often revealed through subtle skeletal cues like gait and orientation. We present Human-Aware Implicit Social Robot Navigation (HumAIN), a novel framework that fuses implicit social cues directly into the planning loop via knowledge distillation. We first employ a transformer-based teacher model that fuses rich multi-modal inputs, including historic images, skeletal keypoints, robot state, and a robot's target goal, to learn robust, human-aware representations for the robot's future trajectory planning. To enable real-time deployment, we then distill this knowledge into a lightweight student model. By optimizing for both trajectory reconstruction and latent feature alignment with the teacher, the student learns to infer complex social dynamics from minimal inputs. Bridging the prediction-planning gap with an efficient distilled architecture, our method enables robots to reason about human behavior in a manner that is adaptive, robust, and socially compliant. We validate HumAIN through extensive experiments, where it improves trajectory prediction metrics by an average of 29.8% across all metrics compared to state-of-the-art baselines. These results highlight the benefit of using implicit, whole-body cues to achieve human-like navigation awareness on resource-constrained platforms.",
+      "published_utc": "2026-07-08T12:52:51Z",
+      "updated_utc": "2026-07-08T12:52:51Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.07357v1",
+      "abs_url": "http://arxiv.org/abs/2607.07357v1"
+    },
+    "2607.07001v1": {
+      "arxiv_id": "2607.07001v1",
+      "title": "Ego-Human Motion Prediction with 3D-Aware LLM",
+      "authors": [
+        "Yujin Bae",
+        "Jaewoo Jeong",
+        "Hyeonseong Kim",
+        "Kuk-Jin Yoon"
+      ],
+      "summary": "Anticipating human motion from an egocentric perspective is fundamental for proactive assistance in AR/VR, human-robot collaboration, and embodied AI. While recent works incorporate language as a semantic prior to reduce the ill-posed nature of egocentric forecasting, they largely neglect the 3D spatial and semantic context that governs how motion unfolds, and treat pose and language prediction as separate inference streams. We introduce Ego3DLM, built on two core principles: accurate motion forecasting requires explicit spatial and semantic understanding of the 3D environment, and pose and language must be predicted holistically in a single pass, since motion is inherently tied to the semantic interpretation of actions being performed. Given three-point tracking, 3D scene features, and egocentric video, Ego3DLM simultaneously decodes past pose, future pose, past narration, and future narration in a single autoregressive pass, grounding predicted poses and descriptions in one another to enforce cross-modal and temporal consistency. We adopt a three-stage training scheme: (1) spatial-semantic scene awareness pretraining; (2) holistic instruction tuning over all four outputs in a single pass; and (3) GRPO-based reinforcement finetuning with intra- and inter-modal rewards that directly optimize pose-language fidelity. Experiments on the Nymeria benchmark demonstrate that Ego3DLM achieves state-of-the-art performance across future motion prediction, past motion tracking, and motion description, showing that 3D scene grounding and holistic cross-modal prediction yield physically plausible and semantically coherent motion forecasts. The project page is available at https://jaewoo97.github.io/Ego3DLM/.",
+      "published_utc": "2026-07-08T04:51:24Z",
+      "updated_utc": "2026-07-08T04:51:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.07001v1",
+      "abs_url": "http://arxiv.org/abs/2607.07001v1"
+    },
+    "2604.02915v2": {
+      "arxiv_id": "2604.02915v2",
+      "title": "GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes",
+      "authors": [
+        "Mijeong Kim",
+        "Jungtaek Kim",
+        "Bohyung Han"
+      ],
+      "summary": "We present GP-4DGS, a novel framework that integrates Gaussian Processes (GPs) into 4D Gaussian Splatting (4DGS) for principled probabilistic modeling of dynamic scenes. While existing 4DGS methods focus on deterministic reconstruction, they are inherently limited in capturing motion ambiguity and lack mechanisms to assess prediction reliability. By leveraging the kernel-based probabilistic nature of GPs, our approach introduces three key capabilities: (i) uncertainty quantification for motion predictions, (ii) motion estimation for unobserved or sparsely sampled regions, and (iii) temporal extrapolation beyond observed training frames. To scale GPs to the large number of Gaussian primitives in 4DGS, we design spatio-temporal kernels that capture the correlation structure of deformation fields and adopt variational Gaussian Processes with inducing points for tractable inference. Our experiments show that GP-4DGS enhances reconstruction quality while providing reliable uncertainty estimates that effectively identify regions of high motion ambiguity. By addressing these challenges, our work takes a meaningful step toward bridging probabilistic modeling and neural graphics.",
+      "published_utc": "2026-04-03T09:33:43Z",
+      "updated_utc": "2026-07-08T05:51:20Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.02915v2",
+      "abs_url": "http://arxiv.org/abs/2604.02915v2"
     }
   },
   "topics": {
@@ -17165,9 +17228,10 @@
         "2607.04689v1",
         "2607.03182v1",
         "2605.08572v2",
-        "2607.05705v1"
+        "2607.05705v1",
+        "2607.07357v1"
       ],
-      "latest_update": "2026-07-08"
+      "latest_update": "2026-07-09"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17699,9 +17763,11 @@
         "2607.04637v1",
         "2607.03182v1",
         "2605.08572v2",
-        "2607.06319v1"
+        "2607.06319v1",
+        "2607.07001v1",
+        "2604.02915v2"
       ],
-      "latest_update": "2026-07-08"
+      "latest_update": "2026-07-09"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18015,9 +18081,10 @@
         "2606.31197v1",
         "2607.00296v1",
         "2607.04541v1",
-        "2605.08572v2"
+        "2605.08572v2",
+        "2607.07357v1"
       ],
-      "latest_update": "2026-07-07"
+      "latest_update": "2026-07-09"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

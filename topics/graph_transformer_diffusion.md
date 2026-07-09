@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-08` (timezone: `Europe/Athens`)
+Updated: `2026-07-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **139**
+Total papers tracked: **140**
 
 ---
 
+- **HumAIN: Human-Aware Implicit Social Robot Navigation**  
+  *Daeun Song, Nhat Le, Jeffrey Chen, Mohammad Nazeri, Amirreza Payandeh, Rohan Chandra, Reuth Mirsky, Ross Mead et al.*  
+  Published: `2026-07-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.07357v1) · [pdf](https://arxiv.org/pdf/2607.07357v1) · id: `2607.07357v1`
 - **CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining**  
   *Jingyu Song, Yi Liu, Katherine A. Skinner*  
   Published: `2026-07-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04541v1) · [pdf](https://arxiv.org/pdf/2607.04541v1) · id: `2607.04541v1`
