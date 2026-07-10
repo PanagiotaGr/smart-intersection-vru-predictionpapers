@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **62**
+Total papers tracked: **63**
 
 ---
 
+- **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
+  *Roba H. Farouk, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`

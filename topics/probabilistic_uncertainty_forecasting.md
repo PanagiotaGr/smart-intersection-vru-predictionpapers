@@ -1,6 +1,6 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
 Total papers tracked: **165**
 

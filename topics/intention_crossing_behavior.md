@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **116**
+Total papers tracked: **117**
 
 ---
 
+- **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
+  *Roba H. Farouk, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`
 - **Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations**  
   *Han Bao, Bingyi Xia, Hanjing Ye, Yu Zhan, Hao Cheng, Baozhi Jia, Wenjun Xu, Jiankun Wang*  
   Published: `2026-06-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.26047v1) · [pdf](https://arxiv.org/pdf/2606.26047v1) · id: `2606.26047v1`

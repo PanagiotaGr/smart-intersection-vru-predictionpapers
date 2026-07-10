@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **229**
+Total papers tracked: **230**
 
 ---
 
+- **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
+  *Logine M. Zaki, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`
 - **HumAIN: Human-Aware Implicit Social Robot Navigation**  
   *Daeun Song, Nhat Le, Jeffrey Chen, Mohammad Nazeri, Amirreza Payandeh, Rohan Chandra, Reuth Mirsky, Ross Mead et al.*  
   Published: `2026-07-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.07357v1) · [pdf](https://arxiv.org/pdf/2607.07357v1) · id: `2607.07357v1`

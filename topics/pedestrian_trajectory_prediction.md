@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **146**
+Total papers tracked: **147**
 
 ---
 
+- **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
+  *Roba H. Farouk, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

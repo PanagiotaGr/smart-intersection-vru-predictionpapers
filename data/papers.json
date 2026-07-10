@@ -16791,6 +16791,44 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.02915v2",
       "abs_url": "http://arxiv.org/abs/2604.02915v2"
+    },
+    "2607.08402v1": {
+      "arxiv_id": "2607.08402v1",
+      "title": "Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS",
+      "authors": [
+        "Roba H. Farouk",
+        "Catherine M. Elias"
+      ],
+      "summary": "Large-scale and diverse datasets are needed to train AI models to take real-time decisions for autonomous vehicles (AVs), an intelligent transportation system (ITS) application. Pedestrian intention and trajectory prediction are critical models used in AVs, requiring datasets involving diverse pedestrian images. Unrestricted access to these datasets imposes serious security risks, like identity theft and pedestrian tracking. The challenge is to apply privacy preservation procedures while maintaining the image attributes needed to train the models. Existing privacy methods may preserve the pedestrian's privacy, but degrade the image usability, which hinders the models' effectiveness. This work's focus is to implement a five-stage pipeline to protect pedestrians' privacy through face swapping while keeping the essential facial attributes intact. It should be tailored to satisfy the privacy needs of the Egy-DRiVeS dataset. Moreover, Roop and Ghost-v2 face-swapping models are evaluated. Provenly, Roop outperforms Ghost-v2 in various aspects, as will be discussed. Consequently, Roop is the face-swapping model to be used in the pipeline to strike the balance between pedestrian privacy via identity concealment and data usability via facial attribute preservation.",
+      "published_utc": "2026-07-09T12:27:57Z",
+      "updated_utc": "2026-07-09T12:27:57Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.08402v1",
+      "abs_url": "http://arxiv.org/abs/2607.08402v1"
+    },
+    "2607.08316v1": {
+      "arxiv_id": "2607.08316v1",
+      "title": "INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis",
+      "authors": [
+        "Logine M. Zaki",
+        "Catherine M. Elias"
+      ],
+      "summary": "Vehicle intention prediction is a pivotal aspect in the agility and safety of autonomous vehicles in all driving scenarios; if genuine enhancement of autonomous vehicles are required, we need to make them adopt human interpretation of driver's intention especially in cases that require a lot of human interaction as well as complex driving behaviors like the ones at intersections, roundabouts and emergency cases such as sudden stops where vehicle intention prediction helps in taking the correct evasive action within a real time period where every second of action makes an impact and can prevent a catastrophe from taking place. In the worst case, it helps minimize the damage and make safety a priority. Intention prediction can also be used to enhance trajectory prediction (intention conditioned trajectory prediction). In this study, The INTENT framework is proposed using LSTM model to predict the vehicle's intention at intersections 2 seconds ahead of the event occurrence to predict whether the cars in intersections are going straight, turning left, or turning right. Various model experiments and ablation study are thoroughly tested on InD dataset achieving 99.71% accuracy.",
+      "published_utc": "2026-07-09T09:56:26Z",
+      "updated_utc": "2026-07-09T09:56:26Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.08316v1",
+      "abs_url": "http://arxiv.org/abs/2607.08316v1"
     }
   },
   "topics": {
@@ -16942,9 +16980,10 @@
         "2606.18824v1",
         "2606.20336v1",
         "2606.23058v1",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-07-10"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -17229,9 +17268,10 @@
         "2607.03182v1",
         "2605.08572v2",
         "2607.05705v1",
-        "2607.07357v1"
+        "2607.07357v1",
+        "2607.08316v1"
       ],
-      "latest_update": "2026-07-09"
+      "latest_update": "2026-07-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17351,9 +17391,10 @@
         "2606.18824v1",
         "2606.23699v1",
         "2606.26047v1",
-        "2606.25504v1"
+        "2606.25504v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-07-10"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -17581,9 +17622,11 @@
         "2607.01378v1",
         "2607.04689v1",
         "2607.06319v1",
-        "2607.05705v1"
+        "2607.05705v1",
+        "2607.08402v1",
+        "2607.08316v1"
       ],
-      "latest_update": "2026-07-08"
+      "latest_update": "2026-07-10"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17765,9 +17808,10 @@
         "2605.08572v2",
         "2607.06319v1",
         "2607.07001v1",
-        "2604.02915v2"
+        "2604.02915v2",
+        "2607.08316v1"
       ],
-      "latest_update": "2026-07-09"
+      "latest_update": "2026-07-10"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18206,9 +18250,10 @@
         "2602.14780v2",
         "2606.17897v1",
         "2606.20336v1",
-        "2606.23058v1"
+        "2606.23058v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-07-10"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -18274,9 +18319,10 @@
         "2604.23728v2",
         "2605.20255v2",
         "2606.09142v1",
-        "2606.18824v1"
+        "2606.18824v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-18"
+      "latest_update": "2026-07-10"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -18318,9 +18364,10 @@
         "2606.20336v1",
         "2607.00296v1",
         "2607.04812v1",
-        "2607.04689v1"
+        "2607.04689v1",
+        "2607.08316v1"
       ],
-      "latest_update": "2026-07-07"
+      "latest_update": "2026-07-10"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -18447,9 +18494,10 @@
         "2606.17897v1",
         "2606.18824v1",
         "2606.23058v1",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-07-10"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -18574,9 +18622,10 @@
         "2606.20686v1",
         "2606.23699v1",
         "2606.26047v1",
-        "2606.25504v1"
+        "2606.25504v1",
+        "2607.08402v1"
       ],
-      "latest_update": "2026-06-25"
+      "latest_update": "2026-07-10"
     }
   }
 }

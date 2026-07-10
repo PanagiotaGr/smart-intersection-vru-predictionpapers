@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **224**
+Total papers tracked: **226**
 
 ---
 
+- **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
+  *Roba H. Farouk, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`
+- **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
+  *Logine M. Zaki, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`
 - **Synthetic-to-Real Translation for Class-Agnostic Motion Prediction**  
   *Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, Xiao Song, Zhe Wang, Chenjing Ding et al.*  
   Published: `2026-07-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.06319v1) · [pdf](https://arxiv.org/pdf/2607.06319v1) · id: `2607.06319v1`

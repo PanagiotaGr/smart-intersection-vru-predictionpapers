@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-07-09` (timezone: `Europe/Athens`)
+Updated: `2026-07-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **38**
+Total papers tracked: **39**
 
 ---
 
+- **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
+  *Logine M. Zaki, Catherine M. Elias*  
+  Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`
 - **TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving**  
   *Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa*  
   Published: `2026-07-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04812v1) · [pdf](https://arxiv.org/pdf/2607.04812v1) · id: `2607.04812v1`
