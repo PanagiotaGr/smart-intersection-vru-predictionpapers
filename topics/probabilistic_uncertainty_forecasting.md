@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-12` (timezone: `Europe/Athens`)
+Updated: `2026-07-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **165**
+Total papers tracked: **166**
 
 ---
 
+- **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
+  *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
+  Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`
 - **CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining**  
   *Jingyu Song, Yi Liu, Katherine A. Skinner*  
   Published: `2026-07-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04541v1) · [pdf](https://arxiv.org/pdf/2607.04541v1) · id: `2607.04541v1`

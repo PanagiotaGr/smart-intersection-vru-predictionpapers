@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-12` (timezone: `Europe/Athens`)
+Updated: `2026-07-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **179**
+Total papers tracked: **180**
 
 ---
 
+- **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
+  *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
+  Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`
 - **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
   *Logine M. Zaki, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`

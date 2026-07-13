@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-12` (timezone: `Europe/Athens`)
+Updated: `2026-07-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
+- **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
+  *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
+  Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`
 - **HumAIN: Human-Aware Implicit Social Robot Navigation**  
   *Daeun Song, Nhat Le, Jeffrey Chen, Mohammad Nazeri, Amirreza Payandeh, Rohan Chandra, Reuth Mirsky, Ross Mead et al.*  
   Published: `2026-07-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.07357v1) · [pdf](https://arxiv.org/pdf/2607.07357v1) · id: `2607.07357v1`
