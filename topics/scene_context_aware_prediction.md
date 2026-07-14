@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **180**
+Total papers tracked: **183**
 
 ---
 
+- **OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields**  
+  *Yanqin Jiang, Tengfei Wang, Zhengwei Wang, Chenjie Cao, Junta Wu, Wenhan Luo, Weiming Hu, Jin Gao et al.*  
+  Published: `2026-07-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.10840v1) · [pdf](https://arxiv.org/pdf/2607.10840v1) · id: `2607.10840v1`
+- **PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving**  
+  *Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, Zhe Wang, Luqi Tang, Lei He*  
+  Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10336v1) · [pdf](https://arxiv.org/pdf/2607.10336v1) · id: `2607.10336v1`
 - **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
   *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
   Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`
@@ -30,6 +36,9 @@ Total papers tracked: **180**
 - **AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning**  
   *Qi Liu, Yabei Li, Hongsong Wang, Heng Zhang, Lei He*  
   Published: `2026-07-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.03182v1) · [pdf](https://arxiv.org/pdf/2607.03182v1) · id: `2607.03182v1`
+- **A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles**  
+  *Joshua Kofi Asamoah, Blessing Agyei Kyem, Eugene Denteh, Armstrong Aboah*  
+  Published: `2026-07-02` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.09740v1) · [pdf](https://arxiv.org/pdf/2607.09740v1) · id: `2607.09740v1`
 - **Teaching Vision-Language-Action Models What to See and Where to Look**  
   *Yuguang Yang, Canyu Chen, Zhewen Tan, Yizhi Wang, Zichao Feng, Chunyang Liu, Kehua Sheng, Juan Zhang et al.*  
   Published: `2026-07-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.01658v1) · [pdf](https://arxiv.org/pdf/2607.01658v1) · id: `2607.01658v1`

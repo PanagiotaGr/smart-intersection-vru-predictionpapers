@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **122**
+Total papers tracked: **123**
 
 ---
 
@@ -120,6 +120,9 @@ Total papers tracked: **122**
 - **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
   *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
   Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`
+- **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
+  *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
+  Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v2) · [pdf](https://arxiv.org/pdf/2603.10407v2) · id: `2603.10407v2`
 - **From GEV to ResLogit: Spatially Correlated Discrete Choice Models for Pedestrian Movement Prediction**  
   *Rulla Al-Haideri, Bilal Farooq*  
   Published: `2026-03-01` · Category: `physics.soc-ph` · [abs](http://arxiv.org/abs/2603.01325v1) · [pdf](https://arxiv.org/pdf/2603.01325v1) · id: `2603.01325v1`

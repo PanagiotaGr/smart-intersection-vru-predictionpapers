@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **166**
+Total papers tracked: **167**
 
 ---
 
@@ -243,6 +243,9 @@ Total papers tracked: **166**
 - **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
   *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
   Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`
+- **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
+  *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
+  Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v2) · [pdf](https://arxiv.org/pdf/2603.10407v2) · id: `2603.10407v2`
 - **MetaDAT: Generalizable Trajectory Prediction via Meta Pre-training and Data-Adaptive Test-Time Updating**  
   *Yuning Wang, Pu Zhang, Yuan He, Ke Wang, Jianru Xue*  
   Published: `2026-03-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.09419v1) · [pdf](https://arxiv.org/pdf/2603.09419v1) · id: `2603.09419v1`

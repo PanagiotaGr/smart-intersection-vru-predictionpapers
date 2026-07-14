@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **226**
+Total papers tracked: **229**
 
 ---
 
+- **Navigating the Crowd: Non-linear MPC with Social Forces Dynamics for Human-Aware Robot Navigation**  
+  *Stefano Trepella, Andrea Ostuni, Mauro Martini, Pablo Pueyo, Noé Pérez-Higueras, Marcello Chiaberge, Fernando Caballero, Luis Merino*  
+  Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10374v1) · [pdf](https://arxiv.org/pdf/2607.10374v1) · id: `2607.10374v1`
 - **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
   *Roba H. Farouk, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`
@@ -21,6 +24,9 @@ Total papers tracked: **226**
 - **A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving**  
   *Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong, Hongyu Liu, Zhiqiu Huang*  
   Published: `2026-07-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.04689v1) · [pdf](https://arxiv.org/pdf/2607.04689v1) · id: `2607.04689v1`
+- **A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles**  
+  *Joshua Kofi Asamoah, Blessing Agyei Kyem, Eugene Denteh, Armstrong Aboah*  
+  Published: `2026-07-02` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.09740v1) · [pdf](https://arxiv.org/pdf/2607.09740v1) · id: `2607.09740v1`
 - **Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**  
   *William English, Hao Zheng, Rickard Ewetz*  
   Published: `2026-07-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.01378v1) · [pdf](https://arxiv.org/pdf/2607.01378v1) · id: `2607.01378v1`
@@ -225,6 +231,9 @@ Total papers tracked: **226**
 - **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
   *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
   Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v1) · [pdf](https://arxiv.org/pdf/2603.10407v1) · id: `2603.10407v1`
+- **Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning**  
+  *Fatemeh Cheraghi Pouria, Mahsa Golchoubian, Katherine Driggs-Campbell*  
+  Published: `2026-03-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.10407v2) · [pdf](https://arxiv.org/pdf/2603.10407v2) · id: `2603.10407v2`
 - **A Lightweight Digital-Twin-Based Framework for Edge-Assisted Vehicle Tracking and Collision Prediction**  
   *Murat Arda Onsu, Poonam Lohan, Burak Kantarci, Aisha Syed, Matthew Andrews, Sean Kennedy*  
   Published: `2026-03-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.07338v1) · [pdf](https://arxiv.org/pdf/2603.07338v1) · id: `2603.07338v1`

@@ -1,11 +1,20 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **230**
+Total papers tracked: **234**
 
 ---
 
+- **OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields**  
+  *Yanqin Jiang, Tengfei Wang, Zhengwei Wang, Chenjie Cao, Junta Wu, Wenhan Luo, Weiming Hu, Jin Gao et al.*  
+  Published: `2026-07-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.10840v1) · [pdf](https://arxiv.org/pdf/2607.10840v1) · id: `2607.10840v1`
+- **Navigating the Crowd: Non-linear MPC with Social Forces Dynamics for Human-Aware Robot Navigation**  
+  *Stefano Trepella, Andrea Ostuni, Mauro Martini, Pablo Pueyo, Noé Pérez-Higueras, Marcello Chiaberge, Fernando Caballero, Luis Merino*  
+  Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10374v1) · [pdf](https://arxiv.org/pdf/2607.10374v1) · id: `2607.10374v1`
+- **PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving**  
+  *Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, Zhe Wang, Luqi Tang, Lei He*  
+  Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10336v1) · [pdf](https://arxiv.org/pdf/2607.10336v1) · id: `2607.10336v1`
 - **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
   *Logine M. Zaki, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`
@@ -21,6 +30,9 @@ Total papers tracked: **230**
 - **AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning**  
   *Qi Liu, Yabei Li, Hongsong Wang, Heng Zhang, Lei He*  
   Published: `2026-07-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.03182v1) · [pdf](https://arxiv.org/pdf/2607.03182v1) · id: `2607.03182v1`
+- **A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles**  
+  *Joshua Kofi Asamoah, Blessing Agyei Kyem, Eugene Denteh, Armstrong Aboah*  
+  Published: `2026-07-02` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.09740v1) · [pdf](https://arxiv.org/pdf/2607.09740v1) · id: `2607.09740v1`
 - **CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking**  
   *Buyin Deng, Kai Luo, Lingxin Huang, Xinqi Liu, Fei Cheng, Hang Zheng, Liming Yin, Kailun Yang*  
   Published: `2026-06-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.30097v1) · [pdf](https://arxiv.org/pdf/2606.30097v1) · id: `2606.30097v1`

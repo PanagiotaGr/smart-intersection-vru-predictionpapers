@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-13` (timezone: `Europe/Athens`)
+Updated: `2026-07-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **141**
+Total papers tracked: **142**
 
 ---
 
@@ -15,6 +15,9 @@ Total papers tracked: **141**
 - **CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining**  
   *Jingyu Song, Yi Liu, Katherine A. Skinner*  
   Published: `2026-07-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.04541v1) · [pdf](https://arxiv.org/pdf/2607.04541v1) · id: `2607.04541v1`
+- **A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles**  
+  *Joshua Kofi Asamoah, Blessing Agyei Kyem, Eugene Denteh, Armstrong Aboah*  
+  Published: `2026-07-02` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.09740v1) · [pdf](https://arxiv.org/pdf/2607.09740v1) · id: `2607.09740v1`
 - **Learning When to Listen: Gated Affect Fusion for Human Motion Prediction**  
   *Jingni Huang*  
   Published: `2026-07-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.00296v1) · [pdf](https://arxiv.org/pdf/2607.00296v1) · id: `2607.00296v1`

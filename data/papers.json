@@ -16849,6 +16849,116 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.09315v1",
       "abs_url": "http://arxiv.org/abs/2607.09315v1"
+    },
+    "2603.10407v2": {
+      "arxiv_id": "2603.10407v2",
+      "title": "Rethinking Gaussian Trajectory Predictors: Calibrated Uncertainty for Safe Planning",
+      "authors": [
+        "Fatemeh Cheraghi Pouria",
+        "Mahsa Golchoubian",
+        "Katherine Driggs-Campbell"
+      ],
+      "summary": "Accurate trajectory prediction is critical for safe autonomous navigation in crowded environments. While many trajectory predictors output Gaussian distributions to represent the multi-modal distribution over future pedestrian positions, the reliability of their confidence levels often remains unaddressed. This limitation can lead to unsafe or overly conservative motion planning when the predictor is integrated with an uncertainty-aware planner. Existing Gaussian trajectory predictors primarily rely on the Negative Log-Likelihood loss, which is prone to predict over- or under-confident distributions, and may compromise downstream planner safety. This paper introduces a novel loss function for calibrating prediction uncertainty which leverages Kernel Density Estimation to estimate the empirical distribution of confidence levels. The proposed formulation enforces consistency with the properties of a Gaussian assumption by explicitly matching the estimated empirical distribution to the Chi-squared distribution. To ensure accurate mean prediction, a Mean Squared Error term is also incorporated in the final loss formulation. Experimental results on real-world trajectory datasets show that our method significantly improves the reliability of confidence levels predicted by different State-Of-The-Art Gaussian trajectory predictors. We also demonstrate the importance of providing planners with reliable probabilistic insights (i.e. calibrated confidence levels) for collision-free navigation in complex scenarios. For this purpose, we integrate Gaussian trajectory predictors trained with our loss function with an uncertainty-aware Model Predictive Control on scenarios extracted from real-world datasets, achieving improved planning performance through calibrated confidence levels.",
+      "published_utc": "2026-03-11T04:42:49Z",
+      "updated_utc": "2026-07-12T19:45:05Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.10407v2",
+      "abs_url": "http://arxiv.org/abs/2603.10407v2"
+    },
+    "2607.10840v1": {
+      "arxiv_id": "2607.10840v1",
+      "title": "OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields",
+      "authors": [
+        "Yanqin Jiang",
+        "Tengfei Wang",
+        "Zhengwei Wang",
+        "Chenjie Cao",
+        "Junta Wu",
+        "Wenhan Luo",
+        "Weiming Hu",
+        "Jin Gao",
+        "Chunchao Guo"
+      ],
+      "summary": "Previous feed-forward 4D reconstruction methods either predict per-frame static point clouds, ignoring foreground motion, or estimate point cloud trajectories while being limited to small camera motions. This restricts their ability to aggregate observations over time and reconstruct complete dynamic scenes under large viewpoint changes. To address this limitation, we propose OmniX, a feed-forward 4D reconstruction framework that predicts dense 3D point trajectories for every pixel from videos with large camera motion. OmniX decouples dynamic motion modeling from static geometry prediction and represents motion using a compact set of dynamic tokens. By leveraging the sparse and low-rank structure of 3D motion, these tokens generate trajectory fields for all pixels across all images while efficiently preserving global interactions. To facilitate training, we further build an automatic UE5-based 4D data engine and introduce a large-scale dataset containing 80K scenes and 1.28M multi-view videos with full geometric annotations. OmniX achieves state-of-the-art performance on dense 3D point trajectory prediction and 3D point tracking, while also demonstrating competitive results on video depth estimation and camera pose estimation.",
+      "published_utc": "2026-07-12T17:05:18Z",
+      "updated_utc": "2026-07-12T17:05:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.10840v1",
+      "abs_url": "http://arxiv.org/abs/2607.10840v1"
+    },
+    "2607.10374v1": {
+      "arxiv_id": "2607.10374v1",
+      "title": "Navigating the Crowd: Non-linear MPC with Social Forces Dynamics for Human-Aware Robot Navigation",
+      "authors": [
+        "Stefano Trepella",
+        "Andrea Ostuni",
+        "Mauro Martini",
+        "Pablo Pueyo",
+        "Noé Pérez-Higueras",
+        "Marcello Chiaberge",
+        "Fernando Caballero",
+        "Luis Merino"
+      ],
+      "summary": "Safe and socially compliant navigation remains a fundamental challenge for autonomous robots operating in human-populated environments. Beyond collision avoidance, robots must anticipate human motion and respect personal space to ensure human comfort. Model Predictive Control (MPC) offers a robust alternative to classical and data-driven methods, although its effectiveness strongly depends on accurate human motion prediction and efficient computation. This paper introduces SFM-NMPC, a Social Force Model-based Non-linear Model Predictive Control framework that embeds human motion prediction directly within the optimization loop. By incorporating the Social Force Model into the dynamic model of surrounding agents, the controller jointly predicts the trajectories of humans and robots over the prediction horizon, thereby enabling socially-aware planning. A tailored set of social cost functions guides the optimization toward human-compliant behaviors. Despite the increased model complexity, the proposed formulation runs in real time at 20 Hz. Extensive simulated testing in crowded environments demonstrates that SFM-NMPC outperforms state-of-the-art baselines in social compliance metrics while maintaining efficient and smooth navigation. Visual trajectory analysis and an ablation study further highlight the contribution of the embedded SFM dynamics and social cost terms, confirming the effectiveness of the proposed approach for real-world social navigation.",
+      "published_utc": "2026-07-11T15:57:33Z",
+      "updated_utc": "2026-07-11T15:57:33Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.10374v1",
+      "abs_url": "http://arxiv.org/abs/2607.10374v1"
+    },
+    "2607.10336v1": {
+      "arxiv_id": "2607.10336v1",
+      "title": "PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving",
+      "authors": [
+        "Kang Ding",
+        "Zhigui Lin",
+        "Hongsong Wang",
+        "Jie Gui",
+        "Qi Liu",
+        "Zhe Wang",
+        "Luqi Tang",
+        "Lei He"
+      ],
+      "summary": "This letter presents PrismAD, a decoupled end-to-end autonomous driving framework based on a Semantic Mixture-of-Planners. Existing planners usually aggregate heterogeneous scene tokens into a coupled representation space, forcing a single planning branch to jointly model agent interaction, road geometry, and driving intention. Such coupling may weaken factor-specific reasoning and obscure the contribution of different planning cues. To address this limitation, PrismAD partitions scene tokens into interaction, geometry, and intent groups, and assigns them to independent planning experts with the same architecture but separate parameters. Each expert learns a specialized motion-planning representation, while a semantics-aware router adaptively aggregates expert predictions with separate routing weights for motion prediction and ego planning. Sparse top-$K$ activation with noisy gating is further introduced to improve routing robustness and reduce unnecessary expert computation. Extensive experiments on the nuScenes open-loop dataset and NeuroNCAP closed-loop benchmark demonstrate that PrismAD exhibits competitive performance. Our code will be released soon.",
+      "published_utc": "2026-07-11T14:36:40Z",
+      "updated_utc": "2026-07-11T14:36:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.10336v1",
+      "abs_url": "http://arxiv.org/abs/2607.10336v1"
+    },
+    "2607.09740v1": {
+      "arxiv_id": "2607.09740v1",
+      "title": "A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles",
+      "authors": [
+        "Joshua Kofi Asamoah",
+        "Blessing Agyei Kyem",
+        "Eugene Denteh",
+        "Armstrong Aboah"
+      ],
+      "summary": "Safe motion planning in advanced driver-assistance systems and autonomous vehicles requires an accurate understanding of how the surrounding traffic scene is likely to evolve. However, many existing lane-change prediction methods remain centered on a single target vehicle, while multi-agent forecasting approaches often describe scene evolution only through future positions and provide limited explicit information about the maneuver associated with each vehicle. This study proposes a dynamic scene graph attention framework that predicts the lane-change intention and future trajectory of every relevant vehicle within a local traffic scene. The scene is represented as a time-varying interaction graph in which vehicles are modeled as nodes and their spatial and kinematic relationships are encoded through explicit edge features. Temporal graph-attention message passing captures evolving inter-vehicle dependencies and pre-maneuver cues, while an intention-guided decoder links each predicted maneuver to its corresponding future motion. A scene-level consistency objective further encourages compatible multi-vehicle futures. Experiments on the NGSIM I-80, NGSIM US-101, and highD datasets demonstrate consistent improvements over competing baselines. DSiGAT achieves intention prediction accuracies of 90.12% and 90.97% on NGSIM I-80 and US-101, respectively, and reduces trajectory RMSE by up to 52.94% relative to the strongest baseline. It also produces lower inter-agent collision rates and joint displacement errors, indicating more coherent scene-level predictions. Ablation, sensitivity, robustness, and qualitative analyses further validate the contribution of the proposed components and the effectiveness of the scene-focused formulation.",
+      "published_utc": "2026-07-02T23:55:53Z",
+      "updated_utc": "2026-07-02T23:55:53Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.09740v1",
+      "abs_url": "http://arxiv.org/abs/2607.09740v1"
     }
   },
   "topics": {
@@ -17001,9 +17111,10 @@
         "2606.20336v1",
         "2606.23058v1",
         "2606.20686v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2603.10407v2"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-14"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -17289,9 +17400,13 @@
         "2605.08572v2",
         "2607.05705v1",
         "2607.07357v1",
-        "2607.08316v1"
+        "2607.08316v1",
+        "2607.10840v1",
+        "2607.10374v1",
+        "2607.10336v1",
+        "2607.09740v1"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-14"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17644,9 +17759,12 @@
         "2607.06319v1",
         "2607.05705v1",
         "2607.08402v1",
-        "2607.08316v1"
+        "2607.08316v1",
+        "2607.10374v1",
+        "2607.09740v1",
+        "2603.10407v2"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-14"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17830,9 +17948,12 @@
         "2607.07001v1",
         "2604.02915v2",
         "2607.08316v1",
-        "2607.09315v1"
+        "2607.09315v1",
+        "2607.10840v1",
+        "2607.10336v1",
+        "2607.09740v1"
       ],
-      "latest_update": "2026-07-13"
+      "latest_update": "2026-07-14"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18002,9 +18123,10 @@
         "2607.04541v1",
         "2605.08572v2",
         "2603.26720v3",
-        "2607.09315v1"
+        "2607.09315v1",
+        "2603.10407v2"
       ],
-      "latest_update": "2026-07-13"
+      "latest_update": "2026-07-14"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -18149,9 +18271,10 @@
         "2607.04541v1",
         "2605.08572v2",
         "2607.07357v1",
-        "2607.09315v1"
+        "2607.09315v1",
+        "2607.09740v1"
       ],
-      "latest_update": "2026-07-13"
+      "latest_update": "2026-07-14"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -18518,9 +18641,10 @@
         "2606.18824v1",
         "2606.23058v1",
         "2606.20686v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2603.10407v2"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-14"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -18646,9 +18770,10 @@
         "2606.23699v1",
         "2606.26047v1",
         "2606.25504v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2603.10407v2"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-14"
     }
   }
 }
