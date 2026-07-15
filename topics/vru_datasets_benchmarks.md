@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-07-14` (timezone: `Europe/Athens`)
+Updated: `2026-07-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **126**
 
 ---
 
+- **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**  
+  *Md Mustafizur Rahman, Guangchao Yang, A F M Abdun Noor, Md Imam Ahasan, Md Mahfuzur Rahman, Md Ariful Islam*  
+  Published: `2026-07-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.11939v1) · [pdf](https://arxiv.org/pdf/2607.11939v1) · id: `2607.11939v1`
 - **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
   *Roba H. Farouk, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`

@@ -1,8 +1,8 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-14` (timezone: `Europe/Athens`)
+Updated: `2026-07-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **234**
+Total papers tracked: **235**
 
 ---
 
@@ -15,6 +15,9 @@ Total papers tracked: **234**
 - **PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving**  
   *Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, Zhe Wang, Luqi Tang, Lei He*  
   Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10336v1) · [pdf](https://arxiv.org/pdf/2607.10336v1) · id: `2607.10336v1`
+- **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**  
+  *Md Mustafizur Rahman, Guangchao Yang, A F M Abdun Noor, Md Imam Ahasan, Md Mahfuzur Rahman, Md Ariful Islam*  
+  Published: `2026-07-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.11939v1) · [pdf](https://arxiv.org/pdf/2607.11939v1) · id: `2607.11939v1`
 - **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
   *Logine M. Zaki, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`

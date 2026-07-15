@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-14` (timezone: `Europe/Athens`)
+Updated: `2026-07-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **183**
+Total papers tracked: **184**
 
 ---
 
@@ -12,6 +12,9 @@ Total papers tracked: **183**
 - **PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving**  
   *Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, Zhe Wang, Luqi Tang, Lei He*  
   Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10336v1) · [pdf](https://arxiv.org/pdf/2607.10336v1) · id: `2607.10336v1`
+- **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**  
+  *Md Mustafizur Rahman, Guangchao Yang, A F M Abdun Noor, Md Imam Ahasan, Md Mahfuzur Rahman, Md Ariful Islam*  
+  Published: `2026-07-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.11939v1) · [pdf](https://arxiv.org/pdf/2607.11939v1) · id: `2607.11939v1`
 - **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
   *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
   Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`

@@ -16959,6 +16959,50 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.09740v1",
       "abs_url": "http://arxiv.org/abs/2607.09740v1"
+    },
+    "2607.11939v1": {
+      "arxiv_id": "2607.11939v1",
+      "title": "TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction",
+      "authors": [
+        "Md Mustafizur Rahman",
+        "Guangchao Yang",
+        "A F M Abdun Noor",
+        "Md Imam Ahasan",
+        "Md Mahfuzur Rahman",
+        "Md Ariful Islam"
+      ],
+      "summary": "Accurate pedestrian trajectory prediction in crowded environments remains challenging due to the multimodal uncertainty of human motion and the variable complexity of motion dynamics across different scene contexts. Existing goal-conditioned models rely on static displacement structures that assign equal weight to all historical time steps, standard graph attention mechanisms, and fixed-capacity motion decoders that cannot adapt to local prediction complexity. To address these limitations, we propose TSCA-Net, a trajectory prediction framework built upon three complementary modules. The Temporal-Spatial Clique Attention (TSCA) module introduces learnable temporal gating into clique-based goal-history interaction, enabling time-aware modulation of historical observations relative to each candidate goal. The Cross-Pedestrian Clique Potential (CPCP) module models asymmetric pairwise agent relationships through a dynamic clique potential framework with a time-varying social graph. The Adaptive KAN Grid Refinement (AKGR) mechanism dynamically adjusts the B-spline grid resolution of a Kolmogorov-Arnold Network-augmented LSTM decoder based on per-agent goal distribution entropy, balancing model expressiveness against overfitting across varying motion complexities. Extensive experiments on the ETH/UCY and Stanford Drone Dataset benchmarks demonstrate that TSCA-Net achieves state-of-the-art performance, with average ADE/FDE of 0.13/0.20 m on ETH/UCY and 6.95/10.43 pixels on SDD. Comprehensive ablation studies confirm the complementary contributions of all three proposed modules.",
+      "published_utc": "2026-07-11T08:32:02Z",
+      "updated_utc": "2026-07-11T08:32:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.11939v1",
+      "abs_url": "http://arxiv.org/abs/2607.11939v1"
+    },
+    "2607.12293v1": {
+      "arxiv_id": "2607.12293v1",
+      "title": "Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction",
+      "authors": [
+        "Md Mahfuzur Rahman",
+        "Pengzhan Zhou",
+        "A F M Abdun Noor",
+        "Md Imam Ahasan",
+        "Kah Ong Michael Goh",
+        "S. M. Hasan Mahmud",
+        "Md Mustafizur Rahman",
+        "Kaixin Gao"
+      ],
+      "summary": "Predicting pedestrian crossing intention is a safety-critical task for autonomous driving, yet existing approaches often rely on single-modal inputs or dense multimodal fusion strategies that inadequately capture complementary visual and kinematic information while introducing redundant inter-modal interactions. We propose ADAPT (Adaptive Domain-Aware Pedestrian Crossing Transformer), a multimodal framework that jointly models local and global visual context together with temporal motion dynamics for accurate pedestrian crossing intention prediction. ADAPT processes four spatially aligned visual modalities, including RGB images, local depth maps, global semantic maps, and global depth maps, together with ego-vehicle speed, pedestrian bounding boxes, and skeleton pose information through five specialized modules: a weight-shared Swin Transformer V2 backbone for visual feature extraction, a Cross-Modality Guided Attention module for hierarchical visual fusion, a Mamba-based Motion Feature Encoding module for efficient temporal modeling, a Sparse Cross-Modal Attention module that selectively preserves the most informative inter-modal interactions, and a Vision Transformer-based Temporal Feature Fusion module for sequence-level prediction. Extensive experiments on the JAAD and PIE benchmark datasets demonstrate that ADAPT consistently outperforms existing state-of-the-art methods while maintaining low computational complexity. On JAAD, the proposed method achieves an AUC of 0.73 on JAADbeh and 0.85 on JAADall, while on PIE it achieves an accuracy of 0.92 and an AUC of 0.90. Furthermore, ADAPT performs inference in only 17.23 ms per sample, offering an effective balance between predictive accuracy and real-time deployment efficiency for intelligent transportation and autonomous driving applications.",
+      "published_utc": "2026-07-14T03:05:09Z",
+      "updated_utc": "2026-07-14T03:05:09Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.12293v1",
+      "abs_url": "http://arxiv.org/abs/2607.12293v1"
     }
   },
   "topics": {
@@ -17112,9 +17156,10 @@
         "2606.23058v1",
         "2606.20686v1",
         "2607.08402v1",
-        "2603.10407v2"
+        "2603.10407v2",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -17404,9 +17449,10 @@
         "2607.10840v1",
         "2607.10374v1",
         "2607.10336v1",
-        "2607.09740v1"
+        "2607.09740v1",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17527,9 +17573,10 @@
         "2606.23699v1",
         "2606.26047v1",
         "2606.25504v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2607.12293v1"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-15"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -17951,9 +17998,10 @@
         "2607.09315v1",
         "2607.10840v1",
         "2607.10336v1",
-        "2607.09740v1"
+        "2607.09740v1",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18124,9 +18172,10 @@
         "2605.08572v2",
         "2603.26720v3",
         "2607.09315v1",
-        "2603.10407v2"
+        "2603.10407v2",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -18272,9 +18321,10 @@
         "2605.08572v2",
         "2607.07357v1",
         "2607.09315v1",
-        "2607.09740v1"
+        "2607.09740v1",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -18466,9 +18516,10 @@
         "2605.20255v2",
         "2606.09142v1",
         "2606.18824v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2607.12293v1"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-15"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -18642,9 +18693,10 @@
         "2606.23058v1",
         "2606.20686v1",
         "2607.08402v1",
-        "2603.10407v2"
+        "2603.10407v2",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -18771,9 +18823,11 @@
         "2606.26047v1",
         "2606.25504v1",
         "2607.08402v1",
-        "2603.10407v2"
+        "2603.10407v2",
+        "2607.12293v1",
+        "2607.11939v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-15"
     }
   }
 }
