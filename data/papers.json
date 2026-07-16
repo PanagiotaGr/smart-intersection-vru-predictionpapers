@@ -17003,6 +17003,26 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.12293v1",
       "abs_url": "http://arxiv.org/abs/2607.12293v1"
+    },
+    "2607.13626v1": {
+      "arxiv_id": "2607.13626v1",
+      "title": "Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields",
+      "authors": [
+        "David Costa",
+        "Francesco Cerrito",
+        "Massimo Canale",
+        "Carlo Novara"
+      ],
+      "summary": "This paper presents a novel framework for integrated Decision-Making (DM) and Trajectory Planning (TP) for automated vehicles at unsignalized intersections. The approach leverages a Finite Horizon Optimal Control Problem (FHOCP) that employs Time-Varying Artificial Potential Fields (TV-APF). By utilizing short-horizon motion prediction and a dedicated conflict-zone occupancy coefficient, the framework suitably accounts for potential collisions within the FHOCP. The proposed method effectively unifies DM and TP, ensuring the generation of a feasible and safe reference trajectory. Simulation results in multi-vehicle traffic scenarios demonstrate the effectiveness of the approach.",
+      "published_utc": "2026-07-15T09:17:54Z",
+      "updated_utc": "2026-07-15T09:17:54Z",
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.13626v1",
+      "abs_url": "http://arxiv.org/abs/2607.13626v1"
     }
   },
   "topics": {
@@ -17809,9 +17829,10 @@
         "2607.08316v1",
         "2607.10374v1",
         "2607.09740v1",
-        "2603.10407v2"
+        "2603.10407v2",
+        "2607.13626v1"
       ],
-      "latest_update": "2026-07-14"
+      "latest_update": "2026-07-16"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -17999,9 +18020,10 @@
         "2607.10840v1",
         "2607.10336v1",
         "2607.09740v1",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.13626v1"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-16"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18562,9 +18584,10 @@
         "2607.00296v1",
         "2607.04812v1",
         "2607.04689v1",
-        "2607.08316v1"
+        "2607.08316v1",
+        "2607.13626v1"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-16"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

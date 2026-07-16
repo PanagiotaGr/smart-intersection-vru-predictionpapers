@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-15` (timezone: `Europe/Athens`)
+Updated: `2026-07-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **229**
+Total papers tracked: **230**
 
 ---
 
+- **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
+  *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
+  Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v1) · [pdf](https://arxiv.org/pdf/2607.13626v1) · id: `2607.13626v1`
 - **Navigating the Crowd: Non-linear MPC with Social Forces Dynamics for Human-Aware Robot Navigation**  
   *Stefano Trepella, Andrea Ostuni, Mauro Martini, Pablo Pueyo, Noé Pérez-Higueras, Marcello Chiaberge, Fernando Caballero, Luis Merino*  
   Published: `2026-07-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.10374v1) · [pdf](https://arxiv.org/pdf/2607.10374v1) · id: `2607.10374v1`
