@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-16` (timezone: `Europe/Athens`)
+Updated: `2026-07-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **185**
+Total papers tracked: **186**
 
 ---
 
+- **WorkDrive: Roadwork Chain of Causation for Autonomous Driving**  
+  *Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang*  
+  Published: `2026-07-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.14727v1) · [pdf](https://arxiv.org/pdf/2607.14727v1) · id: `2607.14727v1`
 - **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
   *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
   Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v1) · [pdf](https://arxiv.org/pdf/2607.13626v1) · id: `2607.13626v1`

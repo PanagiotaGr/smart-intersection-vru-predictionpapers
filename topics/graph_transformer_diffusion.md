@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-16` (timezone: `Europe/Athens`)
+Updated: `2026-07-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **143**
+Total papers tracked: **145**
 
 ---
 
+- **WorkDrive: Roadwork Chain of Causation for Autonomous Driving**  
+  *Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang*  
+  Published: `2026-07-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.14727v1) · [pdf](https://arxiv.org/pdf/2607.14727v1) · id: `2607.14727v1`
+- **MIDiff: Tackling Sparsity and Imbalance in Mobile Usage Generation via Multivariate-Imaging Diffusion**  
+  *Yilai Liu, Shiyuan Zhang, Hongyang Du*  
+  Published: `2026-07-15` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.14249v1) · [pdf](https://arxiv.org/pdf/2607.14249v1) · id: `2607.14249v1`
 - **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**  
   *Md Mustafizur Rahman, Guangchao Yang, A F M Abdun Noor, Md Imam Ahasan, Md Mahfuzur Rahman, Md Ariful Islam*  
   Published: `2026-07-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.11939v1) · [pdf](https://arxiv.org/pdf/2607.11939v1) · id: `2607.11939v1`

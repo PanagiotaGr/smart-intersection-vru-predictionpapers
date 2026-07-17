@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-16` (timezone: `Europe/Athens`)
+Updated: `2026-07-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **230**
+Total papers tracked: **231**
 
 ---
 
+- **Learning Agile Navigation in Crowded Environments for Quadruped Robots**  
+  *Shuyu Wu, Zeyu Liu, Tianbao Zhang, Fanxing Li, Fangyu Sun, Mingkang Xiong, Wei Xi, Wenxian Yu et al.*  
+  Published: `2026-07-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.15036v1) · [pdf](https://arxiv.org/pdf/2607.15036v1) · id: `2607.15036v1`
 - **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
   *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
   Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v1) · [pdf](https://arxiv.org/pdf/2607.13626v1) · id: `2607.13626v1`

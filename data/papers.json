@@ -17023,6 +17023,68 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.13626v1",
       "abs_url": "http://arxiv.org/abs/2607.13626v1"
+    },
+    "2607.15036v1": {
+      "arxiv_id": "2607.15036v1",
+      "title": "Learning Agile Navigation in Crowded Environments for Quadruped Robots",
+      "authors": [
+        "Shuyu Wu",
+        "Zeyu Liu",
+        "Tianbao Zhang",
+        "Fanxing Li",
+        "Fangyu Sun",
+        "Mingkang Xiong",
+        "Wei Xi",
+        "Wenxian Yu",
+        "Danping Zou"
+      ],
+      "summary": "Navigating dynamic and crowded environments presents significant challenges for quadruped robots due to severe sensor occlusion and unpredictable human motion. Existing approaches face a trade-off: model-based methods, such as Velocity Obstacles (VO), theoretically guarantee safety but rely on accurate obstacle motion estimates that often fail in dense crowds, while end-to-end learning methods offer robustness but lack motion prediction capability of obstacles, leading to collisions or conservative behaviors. To solve this, we propose VOP-Nav, a novel navigation system that combines the geometric safety of VO with the agile adaptability of end-to-end learning. Using only local onboard observations, our system avoids explicit obstacle detection and tracking pipelines. The VOP-Net processes multi-frame LiDAR data to implicitly encode dynamic constraints and predict a safe velocity region derived from Velocity Obstacle theory. Importantly, the VO predictions serve a dual role: they are used as input to the navigation policy during inference and as a reward signal during training to encourage safe motion. Evaluations in Isaac Gym demonstrate that VOP-Nav achieves higher success rates than all baselines while balancing locomotion speed and collision avoidance. Real-world deployment on a Unitree Go2 quadruped robot further validates the system's robustness and efficiency in complex indoor and outdoor dynamic environments.",
+      "published_utc": "2026-07-16T14:16:19Z",
+      "updated_utc": "2026-07-16T14:16:19Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.15036v1",
+      "abs_url": "http://arxiv.org/abs/2607.15036v1"
+    },
+    "2607.14727v1": {
+      "arxiv_id": "2607.14727v1",
+      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
+      "authors": [
+        "Tianyi Jiang",
+        "Wen Zhang",
+        "Sihan Yang",
+        "Ming Lu",
+        "Wentao Zhang"
+      ],
+      "summary": "Autonomous driving vision-language models (VLMs) struggle in roadwork zones, where familiar visual cues such as lane markings and permanent signs are altered or absent, and temporary devices such as cones and barriers redefine the drivable corridor. VLMs can detect these objects, but without explicit guidance they anchor their reasoning on familiar elements from pre-training and fail to connect work-zone observations to correct planning decisions. We propose WorkDrive, a framework that constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. An automated multitask perception pipeline extracts structured scene facts and injects them into a Chain-of-Causation (CoC) annotation pipeline, redirecting the annotator's attention to domain-specific elements. The resulting reasoning labels are used for supervised fine-tuning, followed by reinforcement learning with a single reward: consistency between lateral meta-actions and the predicted trajectory. On ROADWork, the largest public work-zone dataset, the proposed roadwork CoC reduces trajectory average displacement error (ADE) by 9.0\\%, and consistency-based GRPO yields a further 3.0\\%, achieving progressive improvement over the trajectory-only baseline. Code and data will be publicly released.",
+      "published_utc": "2026-07-16T08:53:25Z",
+      "updated_utc": "2026-07-16T08:53:25Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14727v1",
+      "abs_url": "http://arxiv.org/abs/2607.14727v1"
+    },
+    "2607.14249v1": {
+      "arxiv_id": "2607.14249v1",
+      "title": "MIDiff: Tackling Sparsity and Imbalance in Mobile Usage Generation via Multivariate-Imaging Diffusion",
+      "authors": [
+        "Yilai Liu",
+        "Shiyuan Zhang",
+        "Hongyang Du"
+      ],
+      "summary": "Mobile usage traces are critical for tasks such as user behavior prediction and app recommendation, yet their use is constrained by privacy restrictions and costly large-scale data collection. Although generative models perform well on general time series, their application to mobile usage data remains challenging because (i) limited user activity causes severe sparsity, (ii) heterogeneous variable types complicate joint modeling, and (iii) functional differences across apps create pronounced usage imbalance. To address these challenges, we propose Multivariate-Imaging Diffusion (MIDiff), a diffusion-based framework operating in an imaging space defined by Cross-Gramian Angular Sum Field (C-GASF). C-GASF transforms sparse multivariate sequences into correlation images, while MIDiff employs Triple Attention in a U-Net to preserve temporal consistency and variable dependencies. Experiments show that MIDiff achieves state-of-the-art performance across fidelity metrics. In particular, it obtains a Discriminative Accuracy (DA) of 0.1526, compared with 0.3476 for the strongest baseline, ZITS-VAE, demonstrating its effectiveness in generating realistic and diverse mobile usage traces. Our code is available at https://github.com/YilaiLiu-HKU/MIDiff.",
+      "published_utc": "2026-07-15T18:07:54Z",
+      "updated_utc": "2026-07-15T18:07:54Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14249v1",
+      "abs_url": "http://arxiv.org/abs/2607.14249v1"
     }
   },
   "topics": {
@@ -17830,9 +17892,10 @@
         "2607.10374v1",
         "2607.09740v1",
         "2603.10407v2",
-        "2607.13626v1"
+        "2607.13626v1",
+        "2607.15036v1"
       ],
-      "latest_update": "2026-07-16"
+      "latest_update": "2026-07-17"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18021,9 +18084,10 @@
         "2607.10336v1",
         "2607.09740v1",
         "2607.11939v1",
-        "2607.13626v1"
+        "2607.13626v1",
+        "2607.14727v1"
       ],
-      "latest_update": "2026-07-16"
+      "latest_update": "2026-07-17"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18344,9 +18408,11 @@
         "2607.07357v1",
         "2607.09315v1",
         "2607.09740v1",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.14727v1",
+        "2607.14249v1"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-17"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -18585,9 +18651,10 @@
         "2607.04812v1",
         "2607.04689v1",
         "2607.08316v1",
-        "2607.13626v1"
+        "2607.13626v1",
+        "2607.15036v1"
       ],
-      "latest_update": "2026-07-16"
+      "latest_update": "2026-07-17"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
