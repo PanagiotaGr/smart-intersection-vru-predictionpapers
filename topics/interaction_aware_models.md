@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **235**
+Total papers tracked: **238**
 
 ---
 
+- **MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction**  
+  *Homanga Bharadhwaj, Yash Jangir*  
+  Published: `2026-07-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.16192v1) · [pdf](https://arxiv.org/pdf/2607.16192v1) · id: `2607.16192v1`
+- **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
+  *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
+  Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
 - **OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields**  
   *Yanqin Jiang, Tengfei Wang, Zhengwei Wang, Chenjie Cao, Junta Wu, Wenhan Luo, Weiming Hu, Jin Gao et al.*  
   Published: `2026-07-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.10840v1) · [pdf](https://arxiv.org/pdf/2607.10840v1) · id: `2607.10840v1`
@@ -54,6 +60,9 @@ Total papers tracked: **235**
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v2) · [pdf](https://arxiv.org/pdf/2606.18824v2) · id: `2606.18824v2`
 - **MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction**  
   *Jianing Zhang, Chenhao Zheng, Yajun Yang, Max Argus, Rustin Soraki, Winson Han, Taira Anderson, Chun-Liang Li et al.*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18558v1) · [pdf](https://arxiv.org/pdf/2606.18558v1) · id: `2606.18558v1`

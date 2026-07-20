@@ -1,11 +1,14 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **46**
+Total papers tracked: **47**
 
 ---
 
+- **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
+  *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
+  Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

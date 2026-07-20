@@ -17085,6 +17085,69 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.14249v1",
       "abs_url": "http://arxiv.org/abs/2607.14249v1"
+    },
+    "2607.16156v1": {
+      "arxiv_id": "2607.16156v1",
+      "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment",
+      "authors": [
+        "Tam Bang",
+        "Hussam Abubakr",
+        "Emiliano de la Garza Villarreal",
+        "Truc Phuong Nguyen",
+        "Austin Harris",
+        "Toru Hirano",
+        "Mina Sartipi",
+        "Yunfei Xu",
+        "Hoang H. Nguyen"
+      ],
+      "summary": "Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of multi-agent interactions demands continuous, real-time monitoring systems capable of anticipating conflicts before they escalate into crashes. We present PRISA, a modular infrastructure LiDAR framework leveraging privacy-preserving, low-light-robust roadside sensors for long-term traffic observation and real-time risk detection at the edge. The framework comprises two core components: a sensing and perception layer and a plug-and-play risk assessment module. The latter automatically curates site-specific training data from accumulated perception outputs to train a trajectory prediction model without manual annotation. It then deploys the trained model for continuous motion forecasting and dual surrogate safety evaluation, using Time-to-Collision (TTC) for longitudinal conflicts and Predicted Post-Encroachment Time (PPET) for crossing and VRU-involved interactions. PRISA is evaluated on the public R-LiViT dataset and deployed on an NVIDIA Jetson AGX Thor at a live signalized intersection in Chattanooga, Tennessee. PPET-based assessment operates at 194~ms end-to-end latency over a 2.4-second predictive horizon, with TTC-based detection and perception remaining within real-time constraints, demonstrating practical feasibility for proactive multi-agent intersection safety monitoring.",
+      "published_utc": "2026-07-17T17:35:23Z",
+      "updated_utc": "2026-07-17T17:35:23Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16156v1",
+      "abs_url": "http://arxiv.org/abs/2607.16156v1"
+    },
+    "2606.18824v2": {
+      "arxiv_id": "2606.18824v2",
+      "title": "Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos",
+      "authors": [
+        "Yuxuan Xie",
+        "Nicolas Pugeault",
+        "Chongfeng Wei",
+        "Hubert P. H. Shum",
+        "Edmond S. L. Ho"
+      ],
+      "summary": "Pedestrian trajectory prediction from an on-board ego-centric camera is challenging since it depends on complex interactions with vehicles and scene context, as well as the intention of the pedestrian. The task becomes even more challenging since pedestrian intention is often ambiguous from historical observations alone, leading to an inherently multimodal distribution over future trajectories. Existing CVAE-based predictors learn a latent representation by aligning the prior conditioned on trajectory history with the posterior conditioned on both history and future trajectories. This alignment may suppress multimodality in the latent space, leading to mixed-mode predictions that interpolate between distinct future behaviours. In this paper, we propose MMPM, a mode-aware framework that separately models future trajectory distributions into semantically meaningful modes based on the pedestrian's crossing behavior. MMPM consists of two modules: behavior-aware Pedestrian Interaction Module (PIM) that jointly captures pedestrian-vehicle and pedestrian-environment interactions by introducing gaze and hand gestures, and a CVAE-based Mode-aware Trajectory Predictor (MTP) module to model the future trajectory distributions in two modes, crossing and non-crossing the road, separately. A query-based decoder further enforces mode consistency during decoding. Experiments on PIE and JAAD datasets show that our method surpasses state-of-the-art baselines. Our proposed MTP is model-agnostic, which can be integrated into existing frameworks such as BiTrap and SGNet to further improve future trajectory prediction performance. We additionally introduce a data-driven validation protocol that retrieves spatio-temporally consistent real-world trajectories from the same scene and evaluates predictions against these retrieved examples, demonstrating improved frame-wise displacement errors over previous work.",
+      "published_utc": "2026-06-17T08:55:01Z",
+      "updated_utc": "2026-07-17T00:09:47Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18824v2",
+      "abs_url": "http://arxiv.org/abs/2606.18824v2"
+    },
+    "2607.16192v1": {
+      "arxiv_id": "2607.16192v1",
+      "title": "MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction",
+      "authors": [
+        "Homanga Bharadhwaj",
+        "Yash Jangir"
+      ],
+      "summary": "Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocular videos of human-object interaction. Given a short observed video context, MotionForesight predicts future 3D trajectories for points on the manipulated object. This casts interaction prediction as object-centered 3D motion forecasting without any assumptions on the object properties. Our key insight is that video prediction models already encode rich priors about how objects move during human interactions. We redirect these priors from pixel prediction toward future 3D scene flow. We start from a dense 3D tracker built on a pretrained video model, generate pseudo-ground-truth tracks from complete clips, and train the forecaster using only the observed frames. We replace future RGB and geometry with learned mask latents and train a lightweight adapter to turn the retrospective tracking representation into a forward predictor, while freezing the large video and tracking components. Using just 40k human videos and no auxiliary inputs such as language, MotionForesight generalizes across diverse out-of-distribution objects, environments, viewpoints, and interactions. It also outperforms substantially larger models that use over a million training videos. These results show that we can efficiently re-purpose video priors into explicit geometric forecasts for embodied intelligence. https://motionforesight.github.io/",
+      "published_utc": "2026-07-17T17:59:38Z",
+      "updated_utc": "2026-07-17T17:59:38Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16192v1",
+      "abs_url": "http://arxiv.org/abs/2607.16192v1"
     }
   },
   "topics": {
@@ -17239,9 +17302,11 @@
         "2606.20686v1",
         "2607.08402v1",
         "2603.10407v2",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.16156v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -17291,9 +17356,10 @@
         "1906.08469v2",
         "2606.15251v1",
         "2606.23058v1",
-        "2606.20686v1"
+        "2606.20686v1",
+        "2607.16156v1"
       ],
-      "latest_update": "2026-06-23"
+      "latest_update": "2026-07-20"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -17532,9 +17598,12 @@
         "2607.10374v1",
         "2607.10336v1",
         "2607.09740v1",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.16192v1",
+        "2607.16156v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17656,9 +17725,10 @@
         "2606.26047v1",
         "2606.25504v1",
         "2607.08402v1",
-        "2607.12293v1"
+        "2607.12293v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -17893,9 +17963,10 @@
         "2607.09740v1",
         "2603.10407v2",
         "2607.13626v1",
-        "2607.15036v1"
+        "2607.15036v1",
+        "2607.16156v1"
       ],
-      "latest_update": "2026-07-17"
+      "latest_update": "2026-07-20"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18085,9 +18156,11 @@
         "2607.09740v1",
         "2607.11939v1",
         "2607.13626v1",
-        "2607.14727v1"
+        "2607.14727v1",
+        "2607.16156v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-17"
+      "latest_update": "2026-07-20"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18259,9 +18332,11 @@
         "2603.26720v3",
         "2607.09315v1",
         "2603.10407v2",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.16192v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -18535,9 +18610,10 @@
         "2606.17897v1",
         "2606.20336v1",
         "2606.23058v1",
-        "2607.08402v1"
+        "2607.08402v1",
+        "2607.16156v1"
       ],
-      "latest_update": "2026-07-10"
+      "latest_update": "2026-07-20"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -18605,9 +18681,10 @@
         "2606.09142v1",
         "2606.18824v1",
         "2607.08402v1",
-        "2607.12293v1"
+        "2607.12293v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -18652,9 +18729,10 @@
         "2607.04689v1",
         "2607.08316v1",
         "2607.13626v1",
-        "2607.15036v1"
+        "2607.15036v1",
+        "2607.16156v1"
       ],
-      "latest_update": "2026-07-17"
+      "latest_update": "2026-07-20"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -18784,9 +18862,11 @@
         "2606.20686v1",
         "2607.08402v1",
         "2603.10407v2",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.16156v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -18915,9 +18995,11 @@
         "2607.08402v1",
         "2603.10407v2",
         "2607.12293v1",
-        "2607.11939v1"
+        "2607.11939v1",
+        "2607.16156v1",
+        "2606.18824v2"
       ],
-      "latest_update": "2026-07-15"
+      "latest_update": "2026-07-20"
     }
   }
 }

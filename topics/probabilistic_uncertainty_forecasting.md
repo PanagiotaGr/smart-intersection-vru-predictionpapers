@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **168**
+Total papers tracked: **170**
 
 ---
 
+- **MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction**  
+  *Homanga Bharadhwaj, Yash Jangir*  
+  Published: `2026-07-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.16192v1) · [pdf](https://arxiv.org/pdf/2607.16192v1) · id: `2607.16192v1`
 - **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**  
   *Md Mustafizur Rahman, Guangchao Yang, A F M Abdun Noor, Md Imam Ahasan, Md Mahfuzur Rahman, Md Ariful Islam*  
   Published: `2026-07-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.11939v1) · [pdf](https://arxiv.org/pdf/2607.11939v1) · id: `2607.11939v1`
@@ -69,6 +72,9 @@ Total papers tracked: **168**
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v2) · [pdf](https://arxiv.org/pdf/2606.18824v2) · id: `2606.18824v2`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`

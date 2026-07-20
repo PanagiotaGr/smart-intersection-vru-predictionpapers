@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **231**
+Total papers tracked: **232**
 
 ---
 
+- **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
+  *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
+  Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
 - **Learning Agile Navigation in Crowded Environments for Quadruped Robots**  
   *Shuyu Wu, Zeyu Liu, Tianbao Zhang, Fanxing Li, Fangyu Sun, Mingkang Xiong, Wei Xi, Wenxian Yu et al.*  
   Published: `2026-07-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.15036v1) · [pdf](https://arxiv.org/pdf/2607.15036v1) · id: `2607.15036v1`

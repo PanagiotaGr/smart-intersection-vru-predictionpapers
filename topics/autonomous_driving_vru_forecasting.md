@@ -1,11 +1,14 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **120**
 
 ---
 
+- **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
+  *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
+  Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
 - **Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS**  
   *Roba H. Farouk, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.08402v1) · [pdf](https://arxiv.org/pdf/2607.08402v1) · id: `2607.08402v1`

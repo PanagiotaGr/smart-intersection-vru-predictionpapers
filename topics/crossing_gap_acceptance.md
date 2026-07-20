@@ -1,8 +1,8 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **64**
+Total papers tracked: **65**
 
 ---
 
@@ -15,6 +15,9 @@ Total papers tracked: **64**
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v2) · [pdf](https://arxiv.org/pdf/2606.18824v2) · id: `2606.18824v2`
 - **Decoding Pedestrian Crossing Intention from Egocentric Vision via Vision Language Models**  
   *Danya Li, Xiang Su, Yan Feng, Rico Krueger*  
   Published: `2026-06-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.09142v1) · [pdf](https://arxiv.org/pdf/2606.09142v1) · id: `2606.09142v1`

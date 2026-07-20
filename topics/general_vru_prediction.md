@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-07-19` (timezone: `Europe/Athens`)
+Updated: `2026-07-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **125**
+Total papers tracked: **127**
 
 ---
 
+- **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
+  *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
+  Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
 - **Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction**  
   *Md Mahfuzur Rahman, Pengzhan Zhou, A F M Abdun Noor, Md Imam Ahasan, Kah Ong Michael Goh, S. M. Hasan Mahmud, Md Mustafizur Rahman, Kaixin Gao*  
   Published: `2026-07-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.12293v1) · [pdf](https://arxiv.org/pdf/2607.12293v1) · id: `2607.12293v1`
@@ -30,6 +33,9 @@ Total papers tracked: **125**
 - **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
   *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
   Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v1) · [pdf](https://arxiv.org/pdf/2606.18824v1) · id: `2606.18824v1`
+- **Where Will They Go? Modelling Multimodal Pedestrian Manoeuvres from Ego-centric Videos**  
+  *Yuxuan Xie, Nicolas Pugeault, Chongfeng Wei, Hubert P. H. Shum, Edmond S. L. Ho*  
+  Published: `2026-06-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.18824v2) · [pdf](https://arxiv.org/pdf/2606.18824v2) · id: `2606.18824v2`
 - **Learn to Quantify Social Interaction with Constraints for Pedestrian Walking**  
   *Xiaodan Shi*  
   Published: `2026-06-16` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2606.17897v1) · [pdf](https://arxiv.org/pdf/2606.17897v1) · id: `2606.17897v1`
