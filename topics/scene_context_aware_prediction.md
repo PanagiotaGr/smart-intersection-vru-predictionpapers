@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-20` (timezone: `Europe/Athens`)
+Updated: `2026-07-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **188**
+Total papers tracked: **189**
 
 ---
 
+- **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
+  *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v1) · [pdf](https://arxiv.org/pdf/2607.16619v1) · id: `2607.16619v1`
 - **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
   *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
   Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`

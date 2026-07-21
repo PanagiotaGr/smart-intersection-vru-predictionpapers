@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-20` (timezone: `Europe/Athens`)
+Updated: `2026-07-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **145**
+Total papers tracked: **147**
 
 ---
 
+- **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
+  *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v1) · [pdf](https://arxiv.org/pdf/2607.16619v1) · id: `2607.16619v1`
 - **WorkDrive: Roadwork Chain of Causation for Autonomous Driving**  
   *Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang*  
   Published: `2026-07-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.14727v1) · [pdf](https://arxiv.org/pdf/2607.14727v1) · id: `2607.14727v1`
@@ -18,6 +21,9 @@ Total papers tracked: **145**
 - **Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation**  
   *Pinhao Song, Zhongxi Li, Ze Fu, Federico Ulloa Rios, Renaud Detry*  
   Published: `2026-07-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.09315v1) · [pdf](https://arxiv.org/pdf/2607.09315v1) · id: `2607.09315v1`
+- **A Novel Hybrid Quantum Reservoir Computing (nHQRC) for Phase Transition Detection in Non-Equilibrium Dynamical Systems**  
+  *Manoj B. Bhatkar, Prashant M. Yawalkar*  
+  Published: `2026-07-09` · Category: `quant-ph` · [abs](http://arxiv.org/abs/2607.16281v1) · [pdf](https://arxiv.org/pdf/2607.16281v1) · id: `2607.16281v1`
 - **HumAIN: Human-Aware Implicit Social Robot Navigation**  
   *Daeun Song, Nhat Le, Jeffrey Chen, Mohammad Nazeri, Amirreza Payandeh, Rohan Chandra, Reuth Mirsky, Ross Mead et al.*  
   Published: `2026-07-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.07357v1) · [pdf](https://arxiv.org/pdf/2607.07357v1) · id: `2607.07357v1`

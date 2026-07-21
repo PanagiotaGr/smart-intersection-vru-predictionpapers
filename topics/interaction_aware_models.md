@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-20` (timezone: `Europe/Athens`)
+Updated: `2026-07-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **238**
+Total papers tracked: **240**
 
 ---
 
+- **Receiver-Centered Robot-to-Human Handover with Grasp-Aware Object Orientation**  
+  *Federico Biagi, Dario Onfiani, Simone Silenzi, Luigi Biagiotti*  
+  Published: `2026-07-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.17839v1) · [pdf](https://arxiv.org/pdf/2607.17839v1) · id: `2607.17839v1`
+- **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
+  *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v1) · [pdf](https://arxiv.org/pdf/2607.16619v1) · id: `2607.16619v1`
 - **MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction**  
   *Homanga Bharadhwaj, Yash Jangir*  
   Published: `2026-07-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.16192v1) · [pdf](https://arxiv.org/pdf/2607.16192v1) · id: `2607.16192v1`

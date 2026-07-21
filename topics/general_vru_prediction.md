@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-07-20` (timezone: `Europe/Athens`)
+Updated: `2026-07-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **127**
+Total papers tracked: **128**
 
 ---
 
+- **Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation**  
+  *Tianshuai Hu, Yangyi Zhong, Zeying Gong, Lingdong Kong, Xiaodong Mei, Guoyang Zhao, Xiaolu Liu, Song Wang et al.*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16806v1) · [pdf](https://arxiv.org/pdf/2607.16806v1) · id: `2607.16806v1`
 - **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
   *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
   Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`

@@ -17148,6 +17148,94 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.16192v1",
       "abs_url": "http://arxiv.org/abs/2607.16192v1"
+    },
+    "2607.17839v1": {
+      "arxiv_id": "2607.17839v1",
+      "title": "Receiver-Centered Robot-to-Human Handover with Grasp-Aware Object Orientation",
+      "authors": [
+        "Federico Biagi",
+        "Dario Onfiani",
+        "Simone Silenzi",
+        "Luigi Biagiotti"
+      ],
+      "summary": "Collaborative robots are increasingly sharing workspaces with human operators, making tool handover a frequent and safety-critical micro-interaction. However, traditional static handovers often lead to awkward grasps when handling asymmetric industrial tools. This paper presents a receiver-centered voice-driven adaptive handover system for mechanical tools, built on a Franka cobot. Using an LLM for intention recognition and MediaPipe for real-time 3D hand tracking, the framework dynamically adjusts the end-effector's orientation to present tools in an ergonomically optimal, handle-first pose. A within-subjects study compared this adaptive approach with an object-agnostic static baseline. The results demonstrate that the adaptive system reduces the grasp delay for asymmetric tools, improving the fluency of the interaction. Furthermore, the adaptive strategy improved specific trust-related perceptions, particularly motion predictability and perceived task simplicity.",
+      "published_utc": "2026-07-20T11:30:03Z",
+      "updated_utc": "2026-07-20T11:30:03Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.17839v1",
+      "abs_url": "http://arxiv.org/abs/2607.17839v1"
+    },
+    "2607.16619v1": {
+      "arxiv_id": "2607.16619v1",
+      "title": "SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation",
+      "authors": [
+        "Lan Hu",
+        "Minghui Liwang",
+        "Wenbo Zhu",
+        "Xinlei Yi",
+        "Yiguang Hong",
+        "Xianbin Wang",
+        "Zhenzhen Jiao",
+        "Seyyedali Hosseinalipour"
+      ],
+      "summary": "Safe and socially compliant navigation in open human-robot environments requires robots to reason about heterogeneous participants with different dynamics, autonomy levels, and social roles. Existing trajectory prediction and planning methods often rely on homogeneous interaction assumptions or enforce only geometric collision constraints, making it difficult to jointly model asymmetric interactions, coupled prediction-planning, and soft social norms. This paper proposes SAGE, a socially-aware generative engine for heterogeneous multi-agent navigation. SAGE represents robots and surrounding entities as a directed heterogeneous graph and employs a Heterogeneous Graph Transformer (HGT) to encode type-specific asymmetric interactions. Conditioned on the resulting context, a diffusion-based generative module jointly models future entity trajectories and robot trajectory plans. During inference, a training-free safety-social energy guidance mechanism refines sampled robot trajectories using differentiable collision, kinematic, task-progress, and role-conditioned social-compliance terms. Extensive experiments on real-world (ETH/UCY and SDD) and synthetic datasets verify the effectiveness of SAGE in improving safety and social compliance while maintaining task performance. The proposed guidance mechanism consistently reduces collision and social-violation rates, scales to teams of up to 20 robots, and enables explicit control of the safety-accuracy-task trade-off without retraining. These findings demonstrate the potential of SAGE as a scalable framework for socially-aware multi-agent navigation in complex environments.",
+      "published_utc": "2026-07-18T03:40:59Z",
+      "updated_utc": "2026-07-18T03:40:59Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16619v1",
+      "abs_url": "http://arxiv.org/abs/2607.16619v1"
+    },
+    "2607.16806v1": {
+      "arxiv_id": "2607.16806v1",
+      "title": "Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation",
+      "authors": [
+        "Tianshuai Hu",
+        "Yangyi Zhong",
+        "Zeying Gong",
+        "Lingdong Kong",
+        "Xiaodong Mei",
+        "Guoyang Zhao",
+        "Xiaolu Liu",
+        "Song Wang",
+        "Rong Li",
+        "Junwei Liang"
+      ],
+      "summary": "Vision-Language Navigation in dynamic, human-centric environments exposes a fundamental tension: linguistic reasoning is slow and deliberative, whereas safe, socially compliant planning should be instant and reactive. The resulting observation staleness is safety-critical: a maneuver chosen during inference can already be unsafe by the time it executes. We observe that, long before a VLM finishes its inference, its intermediate hidden states already encode action-relevant intent. We propose SPARK-VLN, a dual-system framework for dynamic social VLN that streams the slow VLM reasoner's knowledge to a fast flow-matching expert planner throughout token generation, providing fresh and evolving guidance during inference. This design is realized by three modules: a Token-Wise Hidden Streamer that extracts intermediate hidden states along the token generation process, a Sequence-to-Slot Latent Bridge that projects them into fixed-size latent slots, and an Evolving Latent Conditioner that infuses them into the expert planner. We also introduce a human-centric benchmark suite for dynamic social vision-language navigation that keeps pedestrians and the robot active throughout inference and reports navigation success, social compliance, human collisions, and explicit staleness statistics. Across these settings, SPARK-VLN mproves navigation success and social compliance while sustaining inference efficiency. Webpage: https://hutslib.github.io/SPARK-VLN/.",
+      "published_utc": "2026-07-18T12:55:40Z",
+      "updated_utc": "2026-07-18T12:55:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16806v1",
+      "abs_url": "http://arxiv.org/abs/2607.16806v1"
+    },
+    "2607.16281v1": {
+      "arxiv_id": "2607.16281v1",
+      "title": "A Novel Hybrid Quantum Reservoir Computing (nHQRC) for Phase Transition Detection in Non-Equilibrium Dynamical Systems",
+      "authors": [
+        "Manoj B. Bhatkar",
+        "Prashant M. Yawalkar"
+      ],
+      "summary": "The analysis of highly non-linear stochastic data within non-equilibrium dynamical systems requires computational frameworks capable of detecting latent phase transitions before systemic structural breakdowns occur. Traditional Variational Quantum Algorithms (VQAs) are frequently bottlenecked by vanishing gradients, the barren plateau problem, and prohibitive training overheads. In this paper, we propose a novel Hybrid Quantum Reservoir Computing (nHQRC) framework, which bypasses these limitations by employing a frozen, disordered Transverse-Field Ising Model (TFIM) to project time-dependent stochastic driving forces into an exponentially large Hilbert space. To resolve the physical phase multi-wrapping vulnerabilities present in baseline quantum reservoir models, we introduce a lookahead-free, pre-amplification manifold scaling technique. Multi-qubit configurations are genetically optimized to the \"edge of chaos,\" while quantum state tracking is performed by extracting von Neumann entropy ($S$) and exact mixed-state Quantum Fisher Information (QFI) to act as leading entanglement witnesses. Utilizing these quantum triggers as boundary constraints, trajectory predictions are constructed via a generative Stochastic Schrödinger Bridge (SSB) readout. By subjecting the quantum reservoir to an 8-dimensional non-stationary stochastic driving field, the framework significantly improves systemic drift-to-diffusion efficiency ($η$) and actively arrests maximum trajectory decay (MTD) by over 13% compared to standard classical benchmarks. This establishes a robust, $\\mathcal{O}(1)$ temporal overhead blueprint for near-term quantum regime detection and macroscopic subsystem stabilization.",
+      "published_utc": "2026-07-09T19:22:30Z",
+      "updated_utc": "2026-07-09T19:22:30Z",
+      "primary_category": "quant-ph",
+      "categories": [
+        "quant-ph",
+        "cs.LG",
+        "q-fin.CP",
+        "q-fin.ST"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16281v1",
+      "abs_url": "http://arxiv.org/abs/2607.16281v1"
     }
   },
   "topics": {
@@ -17601,9 +17689,11 @@
         "2607.11939v1",
         "2607.16192v1",
         "2607.16156v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2607.17839v1",
+        "2607.16619v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-21"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -17726,9 +17816,10 @@
         "2606.25504v1",
         "2607.08402v1",
         "2607.12293v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2607.16806v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-21"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -17964,9 +18055,11 @@
         "2603.10407v2",
         "2607.13626v1",
         "2607.15036v1",
-        "2607.16156v1"
+        "2607.16156v1",
+        "2607.17839v1",
+        "2607.16619v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-21"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18158,9 +18251,10 @@
         "2607.13626v1",
         "2607.14727v1",
         "2607.16156v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2607.16619v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-21"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18485,9 +18579,11 @@
         "2607.09740v1",
         "2607.11939v1",
         "2607.14727v1",
-        "2607.14249v1"
+        "2607.14249v1",
+        "2607.16619v1",
+        "2607.16281v1"
       ],
-      "latest_update": "2026-07-17"
+      "latest_update": "2026-07-21"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -18997,9 +19093,10 @@
         "2607.12293v1",
         "2607.11939v1",
         "2607.16156v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2607.16806v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-21"
     }
   }
 }

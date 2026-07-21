@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-07-20` (timezone: `Europe/Athens`)
+Updated: `2026-07-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **119**
+Total papers tracked: **120**
 
 ---
 
+- **Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation**  
+  *Tianshuai Hu, Yangyi Zhong, Zeying Gong, Lingdong Kong, Xiaodong Mei, Guoyang Zhao, Xiaolu Liu, Song Wang et al.*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16806v1) · [pdf](https://arxiv.org/pdf/2607.16806v1) · id: `2607.16806v1`
 - **Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction**  
   *Md Mahfuzur Rahman, Pengzhan Zhou, A F M Abdun Noor, Md Imam Ahasan, Kah Ong Michael Goh, S. M. Hasan Mahmud, Md Mustafizur Rahman, Kaixin Gao*  
   Published: `2026-07-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.12293v1) · [pdf](https://arxiv.org/pdf/2607.12293v1) · id: `2607.12293v1`
