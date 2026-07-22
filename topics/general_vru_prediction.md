@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-07-21` (timezone: `Europe/Athens`)
+Updated: `2026-07-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **128**
+Total papers tracked: **129**
 
 ---
 
@@ -180,6 +180,9 @@ Total papers tracked: **128**
 - **ROBOPOL: Social Robotics Meets Vehicular Communications for Cooperative Automated Driving**  
   *Manuel Bied, John Arockiasamy, Andy Comeca, Maximilian Schrapel, Victoria Yang, Alexey Rolich, Barbara Bruno, Maike Schwammberger et al.*  
   Published: `2025-12-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2512.24129v1) · [pdf](https://arxiv.org/pdf/2512.24129v1) · id: `2512.24129v1`
+- **Read or Ignore? A Unified Benchmark for Typographic-Attack Robustness and Text Recognition in Vision-Language Models**  
+  *Futa Waseda, Shojiro Yamabe, Daiki Shiono, Kento Sasaki, Tsubasa Takahashi*  
+  Published: `2025-12-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2512.11899v2) · [pdf](https://arxiv.org/pdf/2512.11899v2) · id: `2512.11899v2`
 - **ACIT: Attention-Guided Cross-Modal Interaction Transformer for Pedestrian Crossing Intention Prediction**  
   *Yuanzhe Li, Steffen Müller*  
   Published: `2025-11-25` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.20020v1) · [pdf](https://arxiv.org/pdf/2511.20020v1) · id: `2511.20020v1`

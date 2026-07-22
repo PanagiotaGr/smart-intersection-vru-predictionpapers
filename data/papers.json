@@ -17236,6 +17236,26 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.16281v1",
       "abs_url": "http://arxiv.org/abs/2607.16281v1"
+    },
+    "2512.11899v2": {
+      "arxiv_id": "2512.11899v2",
+      "title": "Read or Ignore? A Unified Benchmark for Typographic-Attack Robustness and Text Recognition in Vision-Language Models",
+      "authors": [
+        "Futa Waseda",
+        "Shojiro Yamabe",
+        "Daiki Shiono",
+        "Kento Sasaki",
+        "Tsubasa Takahashi"
+      ],
+      "summary": "Large vision-language models (LVLMs) are vulnerable to typographic attacks, where misleading text inserted into an image can override visual understanding. However, existing evaluation protocols and defenses are largely focused on object recognition and do not consider text-reading capability. This is a critical oversight: real-world scenarios often require both recognizing objects and reading scene text (e.g., recognizing pedestrians while reading traffic signs), where simply ignoring all text for robustness is unacceptable in practice. To address this gap, we introduce a novel task, Read-or-Ignore VQA (RIO-VQA), which jointly evaluates both requirements: models must decide, from context, when to read scene text and when to ignore inserted distractor text. To evaluate this capability, we present RIO-Bench, a same-scene counterfactual benchmark that holds the scene fixed while varying only question intent (object vs. text) and text condition (clean vs. attack), enabling direct comparisons of model behaviors with reduced confounding factors. Using RIO-Bench, we highlight a trade-off: representative defenses developed in object-centric settings can achieve robustness by suppressing text sensitivity, at the cost of text-reading performance (i.e., \"ignoring\" text). Motivated by this trade-off, we provide a data-driven defense baseline that improves both requirements on RIO-Bench, complementing prior text-ignoring baselines. Overall, this work highlights a fundamental misalignment between the current object-centric robustness scope and real-world multimodal requirements, providing a principled path toward reliable LVLMs.",
+      "published_utc": "2025-12-10T08:34:28Z",
+      "updated_utc": "2026-07-21T16:21:35Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.11899v2",
+      "abs_url": "http://arxiv.org/abs/2512.11899v2"
     }
   },
   "topics": {
@@ -17817,9 +17837,10 @@
         "2607.08402v1",
         "2607.12293v1",
         "2606.18824v2",
-        "2607.16806v1"
+        "2607.16806v1",
+        "2512.11899v2"
       ],
-      "latest_update": "2026-07-21"
+      "latest_update": "2026-07-22"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -19094,9 +19115,10 @@
         "2607.11939v1",
         "2607.16156v1",
         "2606.18824v2",
-        "2607.16806v1"
+        "2607.16806v1",
+        "2512.11899v2"
       ],
-      "latest_update": "2026-07-21"
+      "latest_update": "2026-07-22"
     }
   }
 }
