@@ -1,8 +1,8 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-07-22` (timezone: `Europe/Athens`)
+Updated: `2026-07-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **42**
+Total papers tracked: **43**
 
 ---
 
@@ -15,6 +15,9 @@ Total papers tracked: **42**
 - **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
   *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
   Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v1) · [pdf](https://arxiv.org/pdf/2607.13626v1) · id: `2607.13626v1`
+- **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
+  *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
+  Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v2) · [pdf](https://arxiv.org/pdf/2607.13626v2) · id: `2607.13626v2`
 - **INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis**  
   *Logine M. Zaki, Catherine M. Elias*  
   Published: `2026-07-09` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2607.08316v1) · [pdf](https://arxiv.org/pdf/2607.08316v1) · id: `2607.08316v1`

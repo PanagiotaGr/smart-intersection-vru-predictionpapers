@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-22` (timezone: `Europe/Athens`)
+Updated: `2026-07-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **189**
+Total papers tracked: **190**
 
 ---
 
@@ -18,6 +18,9 @@ Total papers tracked: **189**
 - **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
   *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
   Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v1) · [pdf](https://arxiv.org/pdf/2607.13626v1) · id: `2607.13626v1`
+- **Unifying Decision-Making and Trajectory-Planning in Unsignalized Intersections Using Time-Varying Potential Fields**  
+  *David Costa, Francesco Cerrito, Massimo Canale, Carlo Novara*  
+  Published: `2026-07-15` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2607.13626v2) · [pdf](https://arxiv.org/pdf/2607.13626v2) · id: `2607.13626v2`
 - **OmniX: Any-view and Any-time 4D Reconstruction via Feed-forward Trajectory Fields**  
   *Yanqin Jiang, Tengfei Wang, Zhengwei Wang, Chenjie Cao, Junta Wu, Wenhan Luo, Weiming Hu, Jin Gao et al.*  
   Published: `2026-07-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.10840v1) · [pdf](https://arxiv.org/pdf/2607.10840v1) · id: `2607.10840v1`

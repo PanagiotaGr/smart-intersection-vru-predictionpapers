@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-07-22` (timezone: `Europe/Athens`)
+Updated: `2026-07-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **240**
+Total papers tracked: **241**
 
 ---
 
+- **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
+  *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
+  Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v1) · [pdf](https://arxiv.org/pdf/2607.19971v1) · id: `2607.19971v1`
 - **Receiver-Centered Robot-to-Human Handover with Grasp-Aware Object Orientation**  
   *Federico Biagi, Dario Onfiani, Simone Silenzi, Luigi Biagiotti*  
   Published: `2026-07-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.17839v1) · [pdf](https://arxiv.org/pdf/2607.17839v1) · id: `2607.17839v1`
