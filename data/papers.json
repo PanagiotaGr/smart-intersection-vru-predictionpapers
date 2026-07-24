@@ -17297,6 +17297,52 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2607.13626v2",
       "abs_url": "http://arxiv.org/abs/2607.13626v2"
+    },
+    "2607.16619v2": {
+      "arxiv_id": "2607.16619v2",
+      "title": "SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation",
+      "authors": [
+        "Lan Hu",
+        "Minghui Liwang",
+        "Wenbo Zhu",
+        "Xinlei Yi",
+        "Yiguang Hong",
+        "Xianbin Wang",
+        "Zhenzhen Jiao",
+        "Seyyedali Hosseinalipour"
+      ],
+      "summary": "Safe and socially compliant navigation in open human-robot environments requires robots to reason about heterogeneous participants with different dynamics, autonomy levels, and social roles. Existing trajectory prediction and planning methods often rely on homogeneous interaction assumptions or enforce only geometric collision constraints, making it difficult to jointly model asymmetric interactions, coupled prediction-planning, and soft social norms. This paper proposes SAGE, a socially-aware generative engine for heterogeneous multi-agent navigation. SAGE represents robots and surrounding entities as a directed heterogeneous graph and employs a Heterogeneous Graph Transformer (HGT) to encode type-specific asymmetric interactions. Conditioned on the resulting context, a diffusion-based generative module jointly models future entity trajectories and robot trajectory plans. During inference, a training-free safety-social energy guidance mechanism refines sampled robot trajectories using differentiable collision, kinematic, task-progress, and role-conditioned social-compliance terms. Extensive experiments on real-world (ETH/UCY and SDD) and synthetic datasets verify the effectiveness of SAGE in improving safety and social compliance while maintaining task performance. The proposed guidance mechanism consistently reduces collision and social-violation rates, scales to teams of up to 20 robots, and enables explicit control of the safety-accuracy-task trade-off without retraining. These findings demonstrate the potential of SAGE as a scalable framework for socially-aware multi-agent navigation in complex environments.",
+      "published_utc": "2026-07-18T03:40:59Z",
+      "updated_utc": "2026-07-23T16:41:08Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16619v2",
+      "abs_url": "http://arxiv.org/abs/2607.16619v2"
+    },
+    "2606.23706v2": {
+      "arxiv_id": "2606.23706v2",
+      "title": "Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding",
+      "authors": [
+        "Baimam Boukar Jean Jacques",
+        "Brandone Fonya",
+        "Nchofon Tagha Ghogomu",
+        "Pauline Nyaboe",
+        "Kipngeno Koech"
+      ],
+      "summary": "The development of generalizable electroencephalography (EEG) decoding models is essential for robust brain-computer interfaces (BCI) and objective neural biomarkers in mental health. Conventional approaches have been hindered by poor cross-subject and cross-task generalization, owing to high inter-subject variability and non-stationary neural signals. We address this challenge with a zero-shot cross-subject decoding framework on the large-scale Healthy Brain Network dataset, benchmarking a convolutional neural network baseline, a hybrid LSTM, and a Transformer-based foundation model. To adapt the Transformer for regression while averting catastrophic forgetting, we propose a novel progressive unfreezing strategy. The baseline yielded an nRMSE of 0.9991, whereas our fine-tuned Transformer achieved 0.9799 on unseen subjects. This work advances scalable, calibration-free EEG decoding for computational psychiatry and behavioral prediction.",
+      "published_utc": "2026-06-12T02:04:56Z",
+      "updated_utc": "2026-07-23T08:12:34Z",
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23706v2",
+      "abs_url": "http://arxiv.org/abs/2606.23706v2"
     }
   },
   "topics": {
@@ -17753,9 +17799,10 @@
         "2606.18824v2",
         "2607.17839v1",
         "2607.16619v1",
-        "2607.19971v1"
+        "2607.19971v1",
+        "2607.16619v2"
       ],
-      "latest_update": "2026-07-23"
+      "latest_update": "2026-07-24"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18122,9 +18169,10 @@
         "2607.17839v1",
         "2607.16619v1",
         "2607.19971v1",
-        "2607.13626v2"
+        "2607.13626v2",
+        "2607.16619v2"
       ],
-      "latest_update": "2026-07-23"
+      "latest_update": "2026-07-24"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18318,9 +18366,10 @@
         "2607.16156v1",
         "2606.18824v2",
         "2607.16619v1",
-        "2607.13626v2"
+        "2607.13626v2",
+        "2607.16619v2"
       ],
-      "latest_update": "2026-07-23"
+      "latest_update": "2026-07-24"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18494,9 +18543,10 @@
         "2603.10407v2",
         "2607.11939v1",
         "2607.16192v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2606.23706v2"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-24"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -18647,9 +18697,11 @@
         "2607.14727v1",
         "2607.14249v1",
         "2607.16619v1",
-        "2607.16281v1"
+        "2607.16281v1",
+        "2607.16619v2",
+        "2606.23706v2"
       ],
-      "latest_update": "2026-07-21"
+      "latest_update": "2026-07-24"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

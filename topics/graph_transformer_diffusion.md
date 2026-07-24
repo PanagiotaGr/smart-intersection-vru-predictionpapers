@@ -1,14 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-23` (timezone: `Europe/Athens`)
+Updated: `2026-07-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **147**
+Total papers tracked: **149**
 
 ---
 
 - **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
   *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
   Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v1) · [pdf](https://arxiv.org/pdf/2607.16619v1) · id: `2607.16619v1`
+- **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
+  *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
+  Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v2) · [pdf](https://arxiv.org/pdf/2607.16619v2) · id: `2607.16619v2`
 - **WorkDrive: Roadwork Chain of Causation for Autonomous Driving**  
   *Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang*  
   Published: `2026-07-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.14727v1) · [pdf](https://arxiv.org/pdf/2607.14727v1) · id: `2607.14727v1`
@@ -66,6 +69,9 @@ Total papers tracked: **147**
 - **Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding**  
   *Baimam Boukar Jean Jacques, Brandone Fonya, Nchofon Tagha Ghogomu, Pauline Nyaboe, Kipngeno Koech*  
   Published: `2026-06-12` · Category: `eess.SP` · [abs](http://arxiv.org/abs/2606.23706v1) · [pdf](https://arxiv.org/pdf/2606.23706v1) · id: `2606.23706v1`
+- **Zero-Shot Neural Priors for Generalizable Cross-Subject and Cross-Task EEG Decoding**  
+  *Baimam Boukar Jean Jacques, Brandone Fonya, Nchofon Tagha Ghogomu, Pauline Nyaboe, Kipngeno Koech*  
+  Published: `2026-06-12` · Category: `eess.SP` · [abs](http://arxiv.org/abs/2606.23706v2) · [pdf](https://arxiv.org/pdf/2606.23706v2) · id: `2606.23706v2`
 - **An Attention-based Model for Robust Forecasting with Missing Modality**  
   *Zhitian Zhang, Wenjie Zi, Yunduz Rakhmangulova, Saghar Irandoust, Hossein Hajimirsadeghi, Thibaut Durand*  
   Published: `2026-06-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.13970v1) · [pdf](https://arxiv.org/pdf/2606.13970v1) · id: `2606.13970v1`
