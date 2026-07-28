@@ -1,0 +1,71 @@
+name: Backfill All Historical Papers EL
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Πόσα παλιά/ελλιπή papers θα αναλυθούν σε αυτή την εκτέλεση"
+        required: false
+        default: "20"
+  schedule:
+    - cron: "20 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: historical-paper-backfill-el
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openai python-dotenv
+
+      - name: Backfill oldest missing or stale analyses
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MANUAL_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          LIMIT="${MANUAL_LIMIT:-20}"
+          python scripts/backfill_paper_analyses_el.py \
+            --db data/papers.json \
+            --out data/paper_analyses_el.json \
+            --legacy-out data/paper_summaries_el.json \
+            --paper-dir data/papers_el \
+            --report data/backfill_status_el.json \
+            --limit "$LIMIT"
+
+      - name: Rebuild all Greek derived files
+        run: |
+          python scripts/build_greek_digest.py || true
+          python scripts/build_greek_topic_library.py || true
+          python scripts/build_thesis_knowledge_base.py \
+            --papers data/papers.json \
+            --analyses data/paper_analyses_el.json \
+            --fallback-analyses data/paper_summaries_el.json \
+            --taxonomy config/thesis_taxonomy.json \
+            --out thesis
+
+      - name: Commit historical upgrades and regenerated indexes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/paper_analyses_el.json data/papers_el data/backfill_status_el.json thesis topics README.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No historical analyses required an update."
+          else
+            git commit -m "Backfill historical Greek paper analyses"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
