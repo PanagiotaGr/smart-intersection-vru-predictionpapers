@@ -1,0 +1,46 @@
+name: Audit Research Quality
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 8 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/paper_analyses_el.json"
+      - "data/papers_el/**"
+      - "config/research_quality_schema.json"
+      - "scripts/audit_research_quality.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-research-quality
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit every paper analysis
+        run: |
+          python scripts/audit_research_quality.py \
+            --analyses data/paper_analyses_el.json \
+            --schema config/research_quality_schema.json \
+            --out thesis/quality
+      - name: Commit quality reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add thesis/quality
+          if git diff --cached --quiet; then
+            echo "Quality report is already current."
+          else
+            git commit -m "Update scientific quality audit"
+            git push
+          fi
