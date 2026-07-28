@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "evidence_levels": ["metadata_only", "title_and_abstract", "full_text", "full_text_plus_supplement", "reproduced"],
+  "claim_types": [
+    "motivation", "research_gap", "method", "architecture", "input", "output",
+    "dataset", "split", "preprocessing", "feature", "loss", "optimizer",
+    "hyperparameter", "baseline", "metric", "result", "ablation", "limitation",
+    "future_work", "runtime", "complexity", "code_availability", "imptc_adaptation"
+  ],
+  "required_claim_fields": [
+    "claim_id", "paper_id", "claim_type", "claim_text_el", "source_kind",
+    "page", "section", "table", "figure", "quote_or_paraphrase", "confidence",
+    "author_claim", "thesis_inference", "extraction_method"
+  ],
+  "source_kinds": ["abstract", "body", "table", "figure_caption", "appendix", "supplement", "code", "manual_review"],
+  "confidence_scale": {
+    "high": "Ρητή δήλωση με σαφή σελίδα/πίνακα/ενότητα",
+    "medium": "Ισχυρά τεκμηριωμένη παράφραση",
+    "low": "Αβέβαιη ή ελλιπής εξαγωγή που απαιτεί έλεγχο"
+  },
+  "scientific_rules": [
+    "Numerical results require page and table or figure provenance.",
+    "Author claims and thesis inferences must never be merged.",
+    "Missing evidence remains null and is never inferred as fact.",
+    "Benchmark comparisons require compatible dataset, split, horizon, sampling rate and metric definition.",
+    "PDF extraction output is provisional until schema validation succeeds."
+  ]
+}
