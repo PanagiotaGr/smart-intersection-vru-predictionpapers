@@ -1,0 +1,45 @@
+name: Build VRU dataset catalogue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/papers.json"
+      - "scripts/build_dataset_catalog.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vru-dataset-catalog
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalogue
+        run: python scripts/build_dataset_catalog.py
+
+      - name: Commit generated catalogue
+        run: |
+          if git diff --quiet -- data/vru_datasets.csv datasets/VRU_DATASET_CATALOG.md; then
+            echo "Dataset catalogue is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/vru_datasets.csv datasets/VRU_DATASET_CATALOG.md
+          git commit -m "Update VRU dataset catalogue"
+          git push
