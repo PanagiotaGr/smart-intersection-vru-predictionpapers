@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "evidence_levels": {
+    "metadata_only": 0,
+    "title_and_abstract": 1,
+    "full_text": 2,
+    "full_text_plus_supplement": 3,
+    "reproduced": 4
+  },
+  "required_sections": [
+    "research_question",
+    "motivation",
+    "literature_gap",
+    "hypotheses",
+    "methodology_detailed",
+    "model_architecture_or_algorithm",
+    "preprocessing",
+    "input_output",
+    "loss_functions",
+    "training_protocol",
+    "datasets_vru_types_scenarios",
+    "sensors_and_context",
+    "evaluation_protocol",
+    "metrics",
+    "baselines",
+    "key_results",
+    "statistical_significance",
+    "ablation_studies",
+    "robustness_analysis",
+    "computational_complexity",
+    "reproducibility_assets",
+    "scientific_contribution",
+    "limitations",
+    "threats_to_validity",
+    "future_work_authors",
+    "imptc_applicability",
+    "imptc_required_adaptations",
+    "imptc_baseline_value",
+    "thesis_research_opportunity"
+  ],
+  "quality_dimensions": {
+    "evidence_completeness": 20,
+    "methodological_depth": 15,
+    "experimental_rigor": 15,
+    "reproducibility": 15,
+    "dataset_transparency": 10,
+    "metric_comparability": 10,
+    "limitations_and_validity": 5,
+    "imptc_transferability": 10
+  },
+  "result_provenance_required": [
+    "source_section",
+    "source_page",
+    "table_or_figure",
+    "dataset",
+    "split",
+    "prediction_horizon",
+    "observation_horizon",
+    "metric",
+    "value",
+    "unit",
+    "higher_or_lower_is_better"
+  ],
+  "scientific_rules": [
+    "Never infer numerical results from prose.",
+    "Never compare ADE or FDE across incompatible horizons, coordinate systems, sampling rates or evaluation protocols.",
+    "Every extracted claim must carry an evidence level and provenance.",
+    "Keyword classification is discovery evidence, not proof of implementation.",
+    "A leaderboard entry is allowed only when protocol compatibility is explicit.",
+    "Missing information must remain missing rather than being generated.",
+    "IMPTC recommendations must be marked as thesis proposals, not author claims."
+  ]
+}
