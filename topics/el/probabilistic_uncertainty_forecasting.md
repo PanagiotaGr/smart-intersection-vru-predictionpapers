@@ -1,4 +1,4 @@
-# Probabilistic and Uncertainty-aware Forecasting — Αναλυτική παρουσίαση στα ελληνικά
+# Probabilistic and Uncertainty-aware Forecasting — Αναλυτική παρουσίαση στα ελληνικά με έμφαση στο IMPTC
 
 Τελευταία ενημέρωση: `2026-07-28`
 Αναλυμένα papers: **0** από **171** καταχωρίσεις της κατηγορίας.

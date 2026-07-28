@@ -1,4 +1,4 @@
-# Crossing Decision and Gap Acceptance — Αναλυτική παρουσίαση στα ελληνικά
+# Crossing Decision and Gap Acceptance — Αναλυτική παρουσίαση στα ελληνικά με έμφαση στο IMPTC
 
 Τελευταία ενημέρωση: `2026-07-28`
 Αναλυμένα papers: **0** από **65** καταχωρίσεις της κατηγορίας.

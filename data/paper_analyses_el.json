@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "imptc_profile": {
+    "name": "IMPTC — Infrastructural Multi-Person Trajectory and Context Dataset",
+    "scene": "δημόσια, σηματοδοτούμενη αστική διασταύρωση στη Γερμανία",
+    "viewpoint": "υποδομή / roadside sensing",
+    "sensors": [
+      "πολλαπλές κάμερες",
+      "LiDAR",
+      "αισθητήρες καιρού",
+      "καταστάσεις φωτεινών σηματοδοτών"
+    ],
+    "frequency": "25 Hz για τα βασικά συγχρονισμένα δεδομένα",
+    "vru_types": [
+      "πεζοί",
+      "ποδηλάτες",
+      "μοτοσικλετιστές",
+      "χρήστες scooter",
+      "άτομα με καρότσι",
+      "χρήστες αναπηρικού αμαξιδίου"
+    ],
+    "context": [
+      "καιρός",
+      "φωτισμός",
+      "σήματα κυκλοφορίας",
+      "segmentation/ground map",
+      "OSM map",
+      "GPS timestamps"
+    ],
+    "research_targets": [
+      "πρόβλεψη τροχιάς ενός VRU",
+      "multi-agent trajectory forecasting",
+      "interaction-aware forecasting",
+      "scene understanding",
+      "context-aware prediction"
+    ]
+  },
+  "analyses": {
+    "test123": {
+      "arxiv_id": "test123",
+      "title": "Test Paper on Pedestrian Trajectory Prediction",
+      "published_utc": "2026-04-14",
+      "primary_category": "cs.CV",
+      "abs_url": "https://arxiv.org/abs/test123",
+      "pdf_url": "https://arxiv.org/pdf/test123",
+      "short_summary_el": "Το άρθρο εξετάζει την πρόβλεψη τροχιών πεζών σε αστικά περιβάλλοντα.",
+      "what_problem_does_it_solve": "Βελτιώνει την πρόβλεψη κίνησης πεζών.",
+      "main_method": "Χρησιμοποιεί interaction-aware νευρωνικό μοντέλο.",
+      "input_output": "Είσοδος ιστορικές τροχιές, έξοδος μελλοντικές θέσεις.",
+      "datasets_or_scenarios": "Αστικά intersections.",
+      "key_results": "Παρουσιάζει καλύτερη πρόβλεψη από baseline μοντέλα.",
+      "limitations": "Δεν αναφέρεται καθαρά στο abstract.",
+      "why_it_matters_for_thesis": "Σχετίζεται άμεσα με VRU trajectory prediction.",
+      "relevance_score": 9,
+      "relevance_label": "Πολύ σχετικό",
+      "keywords_el": [
+        "πεζός",
+        "πρόβλεψη τροχιάς",
+        "intersection"
+      ]
+    }
+  }
+}

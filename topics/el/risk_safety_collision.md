@@ -1,4 +1,4 @@
-# Risk-aware / Safety / Collision Prediction — Αναλυτική παρουσίαση στα ελληνικά
+# Risk-aware / Safety / Collision Prediction — Αναλυτική παρουσίαση στα ελληνικά με έμφαση στο IMPTC
 
 Τελευταία ενημέρωση: `2026-07-28`
 Αναλυμένα papers: **0** από **237** καταχωρίσεις της κατηγορίας.
