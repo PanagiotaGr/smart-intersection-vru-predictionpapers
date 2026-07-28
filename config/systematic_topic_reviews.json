@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "review_standard": "evidence-aware systematic narrative review",
+  "topics": [
+    {"slug":"pedestrian-trajectory-prediction","title":"Pedestrian Trajectory Prediction"},
+    {"slug":"cyclist-micromobility-prediction","title":"Cyclist and Micromobility Prediction"},
+    {"slug":"interaction-aware-social-models","title":"Interaction-aware and Social Models"},
+    {"slug":"intention-crossing-behavior","title":"Intention and Crossing Behavior"},
+    {"slug":"risk-aware-safety-collision","title":"Risk-aware Safety and Collision Prediction"},
+    {"slug":"scene-context-aware-prediction","title":"Scene and Context-aware Prediction"},
+    {"slug":"probabilistic-uncertainty-forecasting","title":"Probabilistic and Uncertainty-aware Forecasting"},
+    {"slug":"graph-transformer-diffusion","title":"Graph Transformer and Diffusion Models"},
+    {"slug":"autonomous-driving-vru-forecasting","title":"Autonomous Driving Forecasting for VRUs"},
+    {"slug":"crossing-decision-gap-acceptance","title":"Crossing Decision and Gap Acceptance"},
+    {"slug":"smart-intersections-signal-context","title":"Smart Intersections and Traffic Signal Context"},
+    {"slug":"vru-datasets-benchmarks-evaluation","title":"VRU Datasets Benchmarks and Evaluation"},
+    {"slug":"general-vru-prediction","title":"General VRU Prediction Broad Catch-All"}
+  ],
+  "required_sections": [
+    "Scope and research questions",
+    "Evidence coverage and review limitations",
+    "Historical evolution",
+    "Method taxonomy",
+    "Inputs and contextual signals",
+    "Datasets and experimental protocols",
+    "Metrics and comparability constraints",
+    "Strongest supported findings",
+    "Contradictory or inconclusive evidence",
+    "Limitations and threats to validity",
+    "Open research gaps",
+    "IMPTC applicability",
+    "Thesis research opportunities",
+    "Priority papers for full-text review"
+  ],
+  "scientific_rules": {
+    "no_claim_without_source_record": true,
+    "separate_abstract_from_fulltext_evidence": true,
+    "separate_author_claims_from_repository_inference": true,
+    "do_not_rank_incompatible_protocols": true,
+    "report_missing_information_explicitly": true,
+    "deduplicate_overlapping_topics": true
+  }
+}

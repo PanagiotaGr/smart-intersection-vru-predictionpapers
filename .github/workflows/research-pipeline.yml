@@ -76,6 +76,14 @@ jobs:
             --taxonomy config/thesis_taxonomy.json \
             --out thesis
 
+      - name: Build systematic Topic Navigator reviews
+        run: |
+          python scripts/build_systematic_topic_reviews.py \
+            --config config/systematic_topic_reviews.json \
+            --analyses data/paper_analyses_el.json \
+            --claims data/fulltext_research_records.json \
+            --out thesis/reviews
+
       - name: Audit scientific research quality
         run: |
           python scripts/audit_research_quality.py \
@@ -104,5 +112,6 @@ jobs:
           echo "- Greek digest and topic library" >> "$GITHUB_STEP_SUMMARY"
           echo "- Full-text provenance validation" >> "$GITHUB_STEP_SUMMARY"
           echo "- Thesis knowledge-base generation" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Systematic Topic Navigator reviews" >> "$GITHUB_STEP_SUMMARY"
           echo "- Scientific quality audit" >> "$GITHUB_STEP_SUMMARY"
           echo "- One final commit and push" >> "$GITHUB_STEP_SUMMARY"
