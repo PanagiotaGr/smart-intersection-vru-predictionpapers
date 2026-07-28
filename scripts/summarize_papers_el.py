@@ -32,25 +32,30 @@ def write_json(path: Path, obj: Any) -> None:
     tmp.replace(path)
 
 
-def build_prompt(title: str, abstract: str) -> str:
+def build_prompt(title: str, abstract: str, authors: List[str]) -> str:
     return f"""
-Διάβασε τα παρακάτω metadata από επιστημονικό paper και γράψε επιστημονική σύνοψη στα ελληνικά.
+Ανάλυσε επιστημονικά το παρακάτω paper στα ελληνικά, χρησιμοποιώντας αποκλειστικά όσα τεκμηριώνονται από τον τίτλο και το abstract.
 
-Τίτλος:
-{title}
-
-Abstract:
-{abstract}
+Τίτλος: {title}
+Συγγραφείς: {', '.join(authors)}
+Abstract: {abstract}
 
 Επέστρεψε ΜΟΝΟ έγκυρο JSON με ακριβώς αυτά τα πεδία:
 {{
   "short_summary_el": "...",
+  "research_question": "...",
+  "authors_work_and_objective": "...",
   "what_problem_does_it_solve": "...",
   "main_method": "...",
+  "methodology_detailed": "...",
   "input_output": "...",
   "datasets_or_scenarios": "...",
+  "datasets_vru_types_scenarios": "...",
   "key_results": "...",
+  "evaluation_and_key_results": "...",
+  "scientific_contribution": "...",
   "limitations": "...",
+  "future_work": "...",
   "why_it_matters_for_thesis": "...",
   "relevance_score": 0,
   "relevance_label": "...",
@@ -58,52 +63,44 @@ Abstract:
 }}
 
 Κανόνες:
-- Γράψε στα ελληνικά.
-- Να είναι σαφές τι κάνει το paper, όχι γενικόλογο.
-- Αν κάτι δεν αναφέρεται καθαρά στο abstract, γράψε: "Δεν αναφέρεται καθαρά στο abstract."
-- Το relevance_score να είναι από 0 έως 10.
-- relevance_label:
-  - 8 έως 10: "Πολύ σχετικό"
-  - 5 έως 7: "Μερικώς σχετικό"
-  - 0 έως 4: "Χαμηλή συνάφεια"
-- Η συνάφεια να βασίζεται στο αν σχετίζεται με:
-  VRU trajectory prediction, pedestrians, cyclists, micromobility,
-  interaction-aware prediction, smart intersections, safety, intention, crossing behavior.
+- Όλο το κείμενο να είναι στα ελληνικά, με ακαδημαϊκό και σαφή λόγο.
+- Μην επινοείς datasets, metrics, αποτελέσματα, αρχιτεκτονικές, περιορισμούς ή future work.
+- Όταν κάτι δεν δηλώνεται ρητά, γράψε ακριβώς: «Δεν αναφέρεται καθαρά στο abstract.»
+- Στο research_question διατύπωσε το ερώτημα μόνο όταν προκύπτει εύλογα από το abstract· διαφορετικά χρησιμοποίησε την παραπάνω φράση.
+- Στο future_work ξεχώρισε όσα προτείνουν ρητά οι συγγραφείς από πιθανές επεκτάσεις. Μην παρουσιάζεις δική σου υπόθεση ως θέση των συγγραφέων.
+- Στο datasets_vru_types_scenarios ανέφερε dataset names, τύπους VRU, περιβάλλον, sensors και σενάρια μόνο όταν αναφέρονται.
+- relevance_score: ακέραιος 0–10 για VRU trajectory prediction, pedestrians, cyclists, micromobility, interactions, smart intersections, safety, intention και crossing behavior.
+- relevance_label: 8–10 «Πολύ σχετικό», 5–7 «Μερικώς σχετικό», 0–4 «Χαμηλή συνάφεια».
 """
 
 
-def call_llm(client: OpenAI, model: str, title: str, abstract: str) -> Dict[str, Any]:
-    prompt = build_prompt(title, abstract)
-
+def call_llm(client: OpenAI, model: str, title: str, abstract: str, authors: List[str]) -> Dict[str, Any]:
     response = client.chat.completions.create(
         model=model,
-        temperature=0.2,
+        temperature=0.1,
         response_format={"type": "json_object"},
         messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
+            {"role": "system", "content": "Είσαι επιστημονικός βοηθός βιβλιογραφικής ανασκόπησης. Δεν επινοείς πληροφορίες που απουσιάζουν από την πηγή."},
+            {"role": "user", "content": build_prompt(title, abstract, authors)},
         ],
     )
-
-    content = response.choices[0].message.content
-    return json.loads(content)
+    return json.loads(response.choices[0].message.content)
 
 
-def extract_candidate_papers(db: Dict[str, Any]) -> List[Dict[str, Any]]:
+def extract_candidate_papers(db: Dict[str, Any], summaries: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
     papers = list((db.get("papers") or {}).values())
     papers.sort(key=lambda x: (x.get("published_utc", ""), x.get("title", "")), reverse=True)
-    return papers
+    pending = [p for p in papers if p.get("arxiv_id") and p.get("arxiv_id") not in summaries]
+    return pending[:limit]
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--db", default="data/papers.json", help="Path to papers.json")
-    ap.add_argument("--out", default="data/paper_summaries_el.json", help="Output summaries JSON")
-    ap.add_argument("--model", default="gpt-4o-mini", help="OpenAI model")
-    ap.add_argument("--limit", type=int, default=25, help="Max papers per run")
-    ap.add_argument("--sleep", type=float, default=0.5, help="Sleep between API calls")
+    ap.add_argument("--db", default="data/papers.json")
+    ap.add_argument("--out", default="data/paper_summaries_el.json")
+    ap.add_argument("--model", default="gpt-4o-mini")
+    ap.add_argument("--limit", type=int, default=25, help="Αριθμός νέων, μη αναλυμένων papers ανά εκτέλεση")
+    ap.add_argument("--sleep", type=float, default=0.5)
     args = ap.parse_args()
 
     api_key = os.getenv("OPENAI_API_KEY")
@@ -111,45 +108,39 @@ def main() -> int:
         raise SystemExit("OPENAI_API_KEY is not set.")
 
     client = OpenAI(api_key=api_key)
-
-    db_path = Path(args.db)
-    out_path = Path(args.out)
-
-    db = read_json(db_path, default={"papers": {}, "topics": {}})
-    existing = read_json(out_path, default={"summaries": {}})
-
+    db_path, out_path = Path(args.db), Path(args.out)
+    db = read_json(db_path, {"papers": {}, "topics": {}})
+    existing = read_json(out_path, {"summaries": {}})
     summaries = existing.get("summaries", {})
-    papers = extract_candidate_papers(db)[: args.limit]
+    papers = extract_candidate_papers(db, summaries, args.limit)
 
+    print(f"Pending batch: {len(papers)} papers; already analyzed: {len(summaries)}")
     for paper in papers:
         arxiv_id = paper.get("arxiv_id")
-        if not arxiv_id:
+        title = str(paper.get("title", "")).strip()
+        abstract = str(paper.get("summary", "")).strip()
+        if not arxiv_id or not title or not abstract:
             continue
-        if arxiv_id in summaries:
-            continue
-
-        title = paper.get("title", "").strip()
-        abstract = paper.get("summary", "").strip()
-
-        if not title or not abstract:
-            continue
-
         try:
-            result = call_llm(client, args.model, title, abstract)
+            result = call_llm(client, args.model, title, abstract, paper.get("authors") or [])
             summaries[arxiv_id] = {
                 "arxiv_id": arxiv_id,
                 "title": title,
+                "authors": paper.get("authors") or [],
                 "published_utc": paper.get("published_utc", ""),
+                "updated_utc": paper.get("updated_utc", ""),
                 "primary_category": paper.get("primary_category", ""),
+                "categories": paper.get("categories") or [],
                 "abs_url": paper.get("abs_url", ""),
                 "pdf_url": paper.get("pdf_url", ""),
+                "analysis_source": "title_and_abstract",
                 **result,
             }
-            print(f"[OK] {arxiv_id} :: {title}")
             write_json(out_path, {"summaries": summaries})
+            print(f"[OK] {arxiv_id} :: {title}")
             time.sleep(args.sleep)
-        except Exception as e:
-            print(f"[ERROR] {arxiv_id} :: {e}")
+        except Exception as exc:
+            print(f"[ERROR] {arxiv_id} :: {exc}")
 
     write_json(out_path, {"summaries": summaries})
     return 0

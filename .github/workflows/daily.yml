@@ -35,18 +35,25 @@ jobs:
           pip install openai python-dotenv
 
       - name: Run daily fetch
-        run: |
-          python scripts/fetch_arxiv_daily.py --config config.yml
+        run: python scripts/fetch_arxiv_daily.py --config config.yml
 
-      - name: Generate Greek summaries
+      - name: Generate detailed Greek analyses
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python scripts/summarize_papers_el.py --db data/papers.json --limit 20
+          # Processes the next unsummarized papers, so the historical backlog
+          # is gradually completed while new papers are always included.
+          python scripts/summarize_papers_el.py --db data/papers.json --limit 40
 
-      - name: Build Greek digest
+      - name: Build daily Greek digest
+        run: python scripts/build_greek_digest.py --min-score 6 --limit 40
+
+      - name: Build Greek library for every topic
         run: |
-          python scripts/build_greek_digest.py --min-score 6 --limit 15
+          python scripts/build_greek_topic_library.py \
+            --db data/papers.json \
+            --summaries data/paper_summaries_el.json \
+            --outdir topics/el
 
       - name: Commit & push if changed
         run: |
@@ -56,6 +63,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Daily arXiv update"
+            git commit -m "Daily arXiv and Greek literature update"
             git push
           fi
