@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2304.00206v3",
+  "title": "MonoPIC -- A Monocular Low-Latency Pedestrian Intention Classification Framework for IoT Edges Using ID3 Modelled Decision Trees",
+  "pdf_url": "https://arxiv.org/pdf/2304.00206v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

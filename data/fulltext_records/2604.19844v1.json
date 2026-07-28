@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2604.19844v1",
+  "title": "If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems",
+  "pdf_url": "https://arxiv.org/pdf/2604.19844v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

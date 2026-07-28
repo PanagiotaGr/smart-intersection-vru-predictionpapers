@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2606.21021v1",
+  "title": "Continuous-Time Probabilistic Correctors for Uncertainty-Aware Physics-Based Spacecraft Trajectory Forecasting",
+  "pdf_url": "https://arxiv.org/pdf/2606.21021v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

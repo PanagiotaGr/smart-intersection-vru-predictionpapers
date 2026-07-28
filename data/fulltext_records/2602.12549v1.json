@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.12549v1",
+  "title": "Eva-Tracker: ESDF-update-free, Visibility-aware Planning with Target Reacquisition for Robust Aerial Tracking",
+  "pdf_url": "https://arxiv.org/pdf/2602.12549v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

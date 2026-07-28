@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2001.11597v1",
+  "title": "Path Planning in Dynamic Environments using Generative RNNs and Monte Carlo Tree Search",
+  "pdf_url": "https://arxiv.org/pdf/2001.11597v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

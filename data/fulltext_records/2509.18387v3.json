@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2509.18387v3",
+  "title": "BlurBall: Joint Ball and Motion Blur Estimation for Table Tennis Ball Tracking",
+  "pdf_url": "https://arxiv.org/pdf/2509.18387v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

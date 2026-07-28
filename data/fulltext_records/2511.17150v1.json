@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2511.17150v1",
+  "title": "DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving",
+  "pdf_url": "https://arxiv.org/pdf/2511.17150v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

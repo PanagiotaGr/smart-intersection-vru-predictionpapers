@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "1706.05904v2",
+  "title": "Pedestrian Prediction by Planning using Deep Neural Networks",
+  "pdf_url": "https://arxiv.org/pdf/1706.05904v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

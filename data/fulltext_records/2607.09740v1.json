@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2607.09740v1",
+  "title": "A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles",
+  "pdf_url": "https://arxiv.org/pdf/2607.09740v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

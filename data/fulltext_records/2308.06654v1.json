@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2308.06654v1",
+  "title": "Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks",
+  "pdf_url": "https://arxiv.org/pdf/2308.06654v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

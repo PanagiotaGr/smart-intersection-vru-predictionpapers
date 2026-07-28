@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2511.20011v2",
+  "title": "Multi-Context Fusion Transformer for Pedestrian Crossing Intention Prediction in Urban Environments",
+  "pdf_url": "https://arxiv.org/pdf/2511.20011v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

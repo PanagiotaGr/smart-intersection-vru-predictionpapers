@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2607.09315v1",
+  "title": "Robot Trajectron V3: A Probabilistic Shared Control Framework for SE(3) Manipulation",
+  "pdf_url": "https://arxiv.org/pdf/2607.09315v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

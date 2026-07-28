@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2406.00968v1",
+  "title": "Evaluating MEDIRL: A Replication and Ablation Study of Maximum Entropy Deep Inverse Reinforcement Learning for Human Social Navigation",
+  "pdf_url": "https://arxiv.org/pdf/2406.00968v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

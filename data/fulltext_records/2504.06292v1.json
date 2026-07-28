@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2504.06292v1",
+  "title": "Temporal-contextual Event Learning for Pedestrian Crossing Intent Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2504.06292v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

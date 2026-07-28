@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2512.17098v2",
+  "title": "Predictive Modeling of Maritime Radar Data Using Transformer Architecture",
+  "pdf_url": "https://arxiv.org/pdf/2512.17098v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

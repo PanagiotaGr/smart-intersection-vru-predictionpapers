@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2509.10080v2",
+  "title": "BEVTraj: Map-Free End-to-End Trajectory Prediction in Bird's-Eye View with Deformable Attention and Sparse Goal Proposals",
+  "pdf_url": "https://arxiv.org/pdf/2509.10080v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

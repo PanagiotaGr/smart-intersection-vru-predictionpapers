@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2605.18074v1",
+  "title": "4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving",
+  "pdf_url": "https://arxiv.org/pdf/2605.18074v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

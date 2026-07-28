@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2502.10585v1",
+  "title": "Prediction uncertainty-aware planning using deep ensembles and trajectory optimisation",
+  "pdf_url": "https://arxiv.org/pdf/2502.10585v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

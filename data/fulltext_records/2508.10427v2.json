@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2508.10427v2",
+  "title": "STRIDE-QA: Visual Question Answering Dataset for Spatiotemporal Reasoning in Urban Driving Scenes",
+  "pdf_url": "https://arxiv.org/pdf/2508.10427v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

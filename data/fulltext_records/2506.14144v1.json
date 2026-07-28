@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2506.14144v1",
+  "title": "SceneAware: Scene-Constrained Pedestrian Trajectory Prediction with LLM-Guided Walkability",
+  "pdf_url": "https://arxiv.org/pdf/2506.14144v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2510.22205v1",
+  "title": "TrajGATFormer: A Graph-Based Transformer Approach for Worker and Obstacle Trajectory Prediction in Off-site Construction Environments",
+  "pdf_url": "https://arxiv.org/pdf/2510.22205v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

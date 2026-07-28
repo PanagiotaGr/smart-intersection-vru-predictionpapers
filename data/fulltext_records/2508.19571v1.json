@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2508.19571v1",
+  "title": "Escaping Stability-Plasticity Dilemma in Online Continual Learning for Motion Forecasting via Synergetic Memory Rehearsal",
+  "pdf_url": "https://arxiv.org/pdf/2508.19571v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

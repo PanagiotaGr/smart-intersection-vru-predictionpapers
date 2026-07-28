@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.22091v2",
+  "title": "Learning to Drive is a Free Gift: Large-Scale Label-Free Autonomy Pretraining from Unposed In-The-Wild Videos",
+  "pdf_url": "https://arxiv.org/pdf/2602.22091v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

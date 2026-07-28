@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2606.14956v1",
+  "title": "A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2606.14956v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

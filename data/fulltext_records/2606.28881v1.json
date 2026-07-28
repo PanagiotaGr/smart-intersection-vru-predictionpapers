@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2606.28881v1",
+  "title": "An Integrated Machine Learning and Hierarchical Variance Decomposition Pipeline for Student Performance Prediction and Metacognitive Calibration on Multi-Signal Telemetry",
+  "pdf_url": "https://arxiv.org/pdf/2606.28881v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

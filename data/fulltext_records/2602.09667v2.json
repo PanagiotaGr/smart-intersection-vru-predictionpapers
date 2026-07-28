@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.09667v2",
+  "title": "Knowledge Integration in Differentiable Models: A Comparative Study of Data-Driven, Soft-Constrained, and Hard-Constrained Paradigms for Identification and Control of the Single Machine Infinite Bus System",
+  "pdf_url": "https://arxiv.org/pdf/2602.09667v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

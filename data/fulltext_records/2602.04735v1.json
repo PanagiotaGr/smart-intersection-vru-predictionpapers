@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.04735v1",
+  "title": "From Data to Behavior: Predicting Unintended Model Behaviors Before Training",
+  "pdf_url": "https://arxiv.org/pdf/2602.04735v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

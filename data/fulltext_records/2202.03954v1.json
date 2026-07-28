@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2202.03954v1",
+  "title": "Social-DualCVAE: Multimodal Trajectory Forecasting Based on Social Interactions Pattern Aware and Dual Conditional Variational Auto-Encoder",
+  "pdf_url": "https://arxiv.org/pdf/2202.03954v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

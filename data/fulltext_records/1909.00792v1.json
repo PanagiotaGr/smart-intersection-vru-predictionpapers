@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "1909.00792v1",
+  "title": "Conditional Vehicle Trajectories Prediction in CARLA Urban Environment",
+  "pdf_url": "https://arxiv.org/pdf/1909.00792v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

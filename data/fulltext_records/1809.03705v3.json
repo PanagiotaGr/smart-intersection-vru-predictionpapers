@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "1809.03705v3",
+  "title": "Bio-LSTM: A Biomechanically Inspired Recurrent Neural Network for 3D Pedestrian Pose and Gait Prediction",
+  "pdf_url": "https://arxiv.org/pdf/1809.03705v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

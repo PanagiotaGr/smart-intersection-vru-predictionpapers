@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.07938v1",
+  "title": "Integrating Specialized and Generic Agent Motion Prediction with Dynamic Occupancy Grid Maps",
+  "pdf_url": "https://arxiv.org/pdf/2602.07938v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

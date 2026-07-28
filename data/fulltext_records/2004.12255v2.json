@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2004.12255v2",
+  "title": "TPNet: Trajectory Proposal Network for Motion Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2004.12255v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

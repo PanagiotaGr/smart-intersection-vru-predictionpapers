@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2607.01281v1",
+  "title": "WaveLander: A Generalizable Hierarchical Control Framework for UAV Landing on Wave-Disturbed Platforms via Reinforcement Learning",
+  "pdf_url": "https://arxiv.org/pdf/2607.01281v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

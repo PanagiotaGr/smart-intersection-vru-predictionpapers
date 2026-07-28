@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2205.01887v1",
+  "title": "Uncertainty estimation of pedestrian future trajectory using Bayesian approximation",
+  "pdf_url": "https://arxiv.org/pdf/2205.01887v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

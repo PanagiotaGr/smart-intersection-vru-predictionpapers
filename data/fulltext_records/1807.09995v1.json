@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "1807.09995v1",
+  "title": "Naturalistic Driver Intention and Path Prediction using Recurrent Neural Networks",
+  "pdf_url": "https://arxiv.org/pdf/1807.09995v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

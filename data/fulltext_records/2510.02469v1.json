@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2510.02469v1",
+  "title": "SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting",
+  "pdf_url": "https://arxiv.org/pdf/2510.02469v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

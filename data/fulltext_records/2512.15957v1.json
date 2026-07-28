@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2512.15957v1",
+  "title": "Seeing is Believing (and Predicting): Context-Aware Multi-Human Behavior Prediction with Vision Language Models",
+  "pdf_url": "https://arxiv.org/pdf/2512.15957v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

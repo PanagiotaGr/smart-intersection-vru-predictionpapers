@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2312.15906v1",
+  "title": "Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation",
+  "pdf_url": "https://arxiv.org/pdf/2312.15906v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

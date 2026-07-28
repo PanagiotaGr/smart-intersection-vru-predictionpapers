@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2509.12151v1",
+  "title": "Learning Contact Dynamics for Control with Action-conditioned Face Interaction Graph Networks",
+  "pdf_url": "https://arxiv.org/pdf/2509.12151v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

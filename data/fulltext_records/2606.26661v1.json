@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2606.26661v1",
+  "title": "LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2606.26661v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

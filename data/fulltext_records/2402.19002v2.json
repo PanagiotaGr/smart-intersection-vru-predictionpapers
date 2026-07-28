@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2402.19002v2",
+  "title": "GoalNet: Goal Areas Oriented Pedestrian Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2402.19002v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

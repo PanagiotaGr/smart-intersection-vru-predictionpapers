@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2410.13039v2",
+  "title": "A low complexity contextual stacked ensemble-learning approach for pedestrian intent prediction",
+  "pdf_url": "https://arxiv.org/pdf/2410.13039v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

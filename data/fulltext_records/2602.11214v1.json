@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2602.11214v1",
+  "title": "DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration",
+  "pdf_url": "https://arxiv.org/pdf/2602.11214v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

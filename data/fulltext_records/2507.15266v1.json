@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2507.15266v1",
+  "title": "VLM-UDMC: VLM-Enhanced Unified Decision-Making and Motion Control for Urban Autonomous Driving",
+  "pdf_url": "https://arxiv.org/pdf/2507.15266v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

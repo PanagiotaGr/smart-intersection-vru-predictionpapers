@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2603.09419v1",
+  "title": "MetaDAT: Generalizable Trajectory Prediction via Meta Pre-training and Data-Adaptive Test-Time Updating",
+  "pdf_url": "https://arxiv.org/pdf/2603.09419v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

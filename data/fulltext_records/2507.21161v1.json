@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2507.21161v1",
+  "title": "Seeing Beyond Frames: Zero-Shot Pedestrian Intention Prediction with Raw Temporal Video and Multimodal Cues",
+  "pdf_url": "https://arxiv.org/pdf/2507.21161v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

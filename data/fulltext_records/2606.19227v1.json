@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2606.19227v1",
+  "title": "Constant Time-Delay Leader Following with Neural Networks and Invariant Extended Kalman Filters for Arbitrary Trajectories",
+  "pdf_url": "https://arxiv.org/pdf/2606.19227v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

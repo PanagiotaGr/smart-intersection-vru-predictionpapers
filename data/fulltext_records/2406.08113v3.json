@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2406.08113v3",
+  "title": "Valeo4Cast: A Modular Approach to End-to-End Forecasting",
+  "pdf_url": "https://arxiv.org/pdf/2406.08113v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

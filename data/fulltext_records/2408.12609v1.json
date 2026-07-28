@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2408.12609v1",
+  "title": "Enhanced Prediction of Multi-Agent Trajectories via Control Inference and State-Space Dynamics",
+  "pdf_url": "https://arxiv.org/pdf/2408.12609v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

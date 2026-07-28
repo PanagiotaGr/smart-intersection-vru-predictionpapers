@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2512.05270v2",
+  "title": "XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control",
+  "pdf_url": "https://arxiv.org/pdf/2512.05270v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

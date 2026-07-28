@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2511.11824v1",
+  "title": "SOTFormer: A Minimal Transformer for Unified Object Tracking and Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2511.11824v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

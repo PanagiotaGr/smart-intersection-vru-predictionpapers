@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2408.15250v1",
+  "title": "Pedestrian Motion Prediction Using Transformer-based Behavior Clustering and Data-Driven Reachability Analysis",
+  "pdf_url": "https://arxiv.org/pdf/2408.15250v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

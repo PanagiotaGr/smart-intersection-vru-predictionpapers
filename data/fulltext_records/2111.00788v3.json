@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2111.00788v3",
+  "title": "Hierarchical Adaptable and Transferable Networks (HATN) for Driving Behavior Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2111.00788v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

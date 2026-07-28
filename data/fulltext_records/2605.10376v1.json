@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2605.10376v1",
+  "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
+  "pdf_url": "https://arxiv.org/pdf/2605.10376v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

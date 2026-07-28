@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2512.11899v2",
+  "title": "Read or Ignore? A Unified Benchmark for Typographic-Attack Robustness and Text Recognition in Vision-Language Models",
+  "pdf_url": "https://arxiv.org/pdf/2512.11899v2",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

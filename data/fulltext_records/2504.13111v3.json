@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2504.13111v3",
+  "title": "Uncertainty-Aware Trajectory Prediction via Rule-Regularized Heteroscedastic Deep Classification",
+  "pdf_url": "https://arxiv.org/pdf/2504.13111v3",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

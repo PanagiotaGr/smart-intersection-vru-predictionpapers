@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2508.17797v1",
+  "title": "Adaptive Output Steps: FlexiSteps Network for Dynamic Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2508.17797v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

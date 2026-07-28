@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2508.05616v1",
+  "title": "TrajEvo: Trajectory Prediction Heuristics Design via LLM-driven Evolution",
+  "pdf_url": "https://arxiv.org/pdf/2508.05616v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2603.16550v1",
+  "title": "ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace",
+  "pdf_url": "https://arxiv.org/pdf/2603.16550v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

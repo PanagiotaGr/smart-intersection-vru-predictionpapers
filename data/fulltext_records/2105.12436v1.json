@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2105.12436v1",
+  "title": "Social-IWSTCNN: A Social Interaction-Weighted Spatio-Temporal Convolutional Neural Network for Pedestrian Trajectory Prediction in Urban Traffic Scenarios",
+  "pdf_url": "https://arxiv.org/pdf/2105.12436v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

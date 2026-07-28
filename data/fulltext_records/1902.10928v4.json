@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "1902.10928v4",
+  "title": "Interaction-aware Kalman Neural Networks for Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/1902.10928v4",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

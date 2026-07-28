@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2510.03776v1",
+  "title": "Trajectory prediction for heterogeneous agents: A performance analysis on small and imbalanced datasets",
+  "pdf_url": "https://arxiv.org/pdf/2510.03776v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}
