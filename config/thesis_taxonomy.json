@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "thesis_focus": "Πρόβλεψη τροχιάς ευάλωτων χρηστών οδού σε έξυπνες διασταυρώσεις με βάση το IMPTC",
+  "model_families": {
+    "classical_motion": ["kalman", "extended kalman", "unscented kalman", "particle filter", "constant velocity", "constant acceleration", "imm"],
+    "rnn": ["rnn", "recurrent neural network"],
+    "lstm": ["lstm", "long short-term memory", "social-lstm", "social lstm"],
+    "gru": ["gru", "gated recurrent unit"],
+    "seq2seq": ["seq2seq", "sequence-to-sequence", "encoder-decoder"],
+    "cnn": ["cnn", "convolutional neural network", "resnet", "densenet"],
+    "gnn": ["gnn", "graph neural network", "gcn", "graph convolution", "gat", "graph attention", "stgcn"],
+    "transformer": ["transformer", "agentformer", "motion transformer", "scene transformer", "spatio-temporal transformer", "attention network"],
+    "gan": ["gan", "generative adversarial", "social gan", "social-gan"],
+    "vae_cvae": ["vae", "variational autoencoder", "cvae", "conditional variational"],
+    "diffusion": ["diffusion", "denoising diffusion", "score-based"],
+    "normalizing_flow": ["normalizing flow", "flow-based"],
+    "gaussian_process": ["gaussian process", "gaussian mixture", "gmm", "mdn", "mixture density"],
+    "bayesian": ["bayesian", "probabilistic graphical model", "bayesian network"],
+    "reinforcement_learning": ["reinforcement learning", "deep reinforcement", "markov decision process"],
+    "hybrid_physics_learning": ["physics-informed", "kinematic", "hybrid model", "model-based learning"]
+  },
+  "prediction_types": {
+    "deterministic": ["deterministic", "single trajectory", "point prediction"],
+    "probabilistic": ["probabilistic", "distribution", "uncertainty", "likelihood", "gaussian", "bayesian"],
+    "multimodal": ["multimodal", "multi-modal", "multiple futures", "multiple trajectories", "best-of-many"],
+    "interaction_aware": ["interaction-aware", "social interaction", "multi-agent", "agent interaction"],
+    "context_aware": ["scene context", "semantic map", "traffic light", "weather", "crosswalk", "road context"],
+    "intention_aware": ["intention", "crossing behavior", "crossing intention", "destination prediction"]
+  },
+  "dataset_registry": [
+    "IMPTC", "ETH", "UCY", "ETH-UCY", "Stanford Drone Dataset", "SDD", "TrajNet++", "PIE", "JAAD", "TITAN", "PedX", "JRDB", "inD", "rounD", "uniD", "exiD", "highD", "INTERACTION", "nuScenes", "Waymo Open Motion Dataset", "WOMD", "Argoverse", "Argoverse 2", "Lyft Level 5", "ApolloScape", "BDD100K", "KITTI", "Cityscapes", "EuroCity Persons", "Caltech Pedestrian", "Daimler Pedestrian", "Tsinghua-Daimler Cyclist", "DADA-2000", "DoTA", "BLVD", "NGSIM", "nuPlan", "nuScenes Prediction", "Waymo Open Dataset", "OpenDD", "ROAD", "A2D2", "H3D", "ONCE", "PandaSet", "SemanticKITTI", "Oxford RobotCar", "BDD-X", "LOKI", "VIRAT", "ActEV", "MOTChallenge", "Crowds by Example", "Grand Central", "Town Centre", "Edinburgh Informatics Forum", "WildTrack", "PETS", "MOTSynth"
+  ],
+  "metrics": ["ADE", "FDE", "minADE", "minFDE", "MR", "miss rate", "NLL", "negative log-likelihood", "RMSE", "MAE", "IoU", "accuracy", "precision", "recall", "F1", "AUC", "TTC", "collision rate"],
+  "imptc_dimensions": [
+    "infrastructure_sensing", "multi_agent_interactions", "trajectory_forecasting", "scene_context", "traffic_light_context", "weather_context", "vru_class_coverage", "smart_intersection_setting", "camera_lidar_fusion", "transferability_to_imptc"
+  ]
+}
