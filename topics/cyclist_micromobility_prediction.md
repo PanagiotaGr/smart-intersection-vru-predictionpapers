@@ -1,8 +1,8 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-07-27` (timezone: `Europe/Athens`)
+Updated: `2026-07-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **47**
+Total papers tracked: **48**
 
 ---
 
@@ -30,6 +30,9 @@ Total papers tracked: **47**
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
+- **From Camera-Based Sensing to Reasoning: A Comprehensive Review Toward Proactive Vulnerable Road User Safety**  
+  *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
+  Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v2) · [pdf](https://arxiv.org/pdf/2510.03314v2) · id: `2510.03314v2`
 - **Vehicle-in-Virtual-Environment (VVE) Method for Developing and Evaluating VRU Safety of Connected and Autonomous Driving with Focus on Bicyclist Safety**  
   *Haochong Chen, Xincheng Cao, Bilin Aksun-Guvenc, Levent Guvenc*  
   Published: `2025-08-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2509.00624v1) · [pdf](https://arxiv.org/pdf/2509.00624v1) · id: `2509.00624v1`

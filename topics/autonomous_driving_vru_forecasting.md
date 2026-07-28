@@ -1,8 +1,8 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-07-27` (timezone: `Europe/Athens`)
+Updated: `2026-07-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **120**
+Total papers tracked: **121**
 
 ---
 
@@ -75,6 +75,9 @@ Total papers tracked: **120**
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
+- **From Camera-Based Sensing to Reasoning: A Comprehensive Review Toward Proactive Vulnerable Road User Safety**  
+  *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
+  Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v2) · [pdf](https://arxiv.org/pdf/2510.03314v2) · id: `2510.03314v2`
 - **Out-of-Sight Embodied Agents: Multimodal Tracking, Sensor Fusion, and Trajectory Forecasting**  
   *Haichao Zhang, Yi Xu, Yun Fu*  
   Published: `2025-09-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.15219v2) · [pdf](https://arxiv.org/pdf/2509.15219v2) · id: `2509.15219v2`

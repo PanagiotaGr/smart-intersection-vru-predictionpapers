@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-07-27` (timezone: `Europe/Athens`)
+Updated: `2026-07-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **152**
 
 ---
 
@@ -141,6 +141,9 @@ Total papers tracked: **151**
 - **A Comprehensive Review on Artificial Intelligence Empowered Solutions for Enhancing Pedestrian and Cyclist Safety**  
   *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
   Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v1) · [pdf](https://arxiv.org/pdf/2510.03314v1) · id: `2510.03314v1`
+- **From Camera-Based Sensing to Reasoning: A Comprehensive Review Toward Proactive Vulnerable Road User Safety**  
+  *Shucheng Zhang, Yan Shi, Bingzhang Wang, Yuang Zhang, Muhammad Monjurul Karim, Kehua Chen, Chenxi Liu, Mehrdad Nasri et al.*  
+  Published: `2025-09-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.03314v2) · [pdf](https://arxiv.org/pdf/2510.03314v2) · id: `2510.03314v2`
 - **Hazy Pedestrian Trajectory Prediction via Physical Priors and Graph-Mamba**  
   *Jian Chen, Zhuoran Zheng, Han Hu, Guijuan Zhang, Dianjie Lu, Liang Li, Chen Lyu*  
   Published: `2025-09-28` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2509.24020v1) · [pdf](https://arxiv.org/pdf/2509.24020v1) · id: `2509.24020v1`

@@ -17343,6 +17343,31 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2606.23706v2",
       "abs_url": "http://arxiv.org/abs/2606.23706v2"
+    },
+    "2510.03314v2": {
+      "arxiv_id": "2510.03314v2",
+      "title": "From Camera-Based Sensing to Reasoning: A Comprehensive Review Toward Proactive Vulnerable Road User Safety",
+      "authors": [
+        "Shucheng Zhang",
+        "Yan Shi",
+        "Bingzhang Wang",
+        "Yuang Zhang",
+        "Muhammad Monjurul Karim",
+        "Kehua Chen",
+        "Chenxi Liu",
+        "Mehrdad Nasri",
+        "Yinhai Wang"
+      ],
+      "summary": "Ensuring the safety of vulnerable road users (VRUs), such as pedestrians and cyclists, remains a critical challenge, as conventional infrastructure-based measures are often insufficient in dynamic urban environments. Recent advances in learning-based visual sensing systems have created new opportunities for more adaptive and context-aware VRU protection. This paper presents a comprehensive review of camera-based methods for proactive VRU safety, with a focus on developments over the past five years. Unlike prior surveys that primarily emphasize detection, we organize the literature into three interconnected components: visual perception (detection and classification), motion modeling (tracking and trajectory prediction), and behavior understanding (intent recognition and reasoning). These components form a unified hierarchical pipeline that enables early risk anticipation and timely intervention. Furthermore, this survey systematically incorporates emerging AI paradigms, including Vision Transformers (ViTs), Large Language Models (LLMs), and diffusion models, highlighting their roles in representation learning, uncertainty modeling, and semantic reasoning. Finally, we identify four key challenges specific to VRU safety, including data scarcity, behavioral uncertainty, edge deployment efficiency, and real-world sensing constraints, and discuss corresponding research directions. This work provides a unified foundation for the development of reliable, scalable, and deployable VRU safety systems.",
+      "published_utc": "2025-09-30T23:50:55Z",
+      "updated_utc": "2026-07-25T05:48:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.03314v2",
+      "abs_url": "http://arxiv.org/abs/2510.03314v2"
     }
   },
   "topics": {
@@ -17499,9 +17524,10 @@
         "2603.10407v2",
         "2607.11939v1",
         "2607.16156v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2510.03314v2"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-28"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -17552,9 +17578,10 @@
         "2606.15251v1",
         "2606.23058v1",
         "2606.20686v1",
-        "2607.16156v1"
+        "2607.16156v1",
+        "2510.03314v2"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-28"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -17927,9 +17954,10 @@
         "2607.12293v1",
         "2606.18824v2",
         "2607.16806v1",
-        "2512.11899v2"
+        "2512.11899v2",
+        "2510.03314v2"
       ],
-      "latest_update": "2026-07-22"
+      "latest_update": "2026-07-28"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -18825,9 +18853,10 @@
         "2606.20336v1",
         "2606.23058v1",
         "2607.08402v1",
-        "2607.16156v1"
+        "2607.16156v1",
+        "2510.03314v2"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-07-28"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
