@@ -1,0 +1,95 @@
+{
+  "generated_at_utc": "2026-07-29T06:48:03.002174+00:00",
+  "schema_version": 3,
+  "total_source_papers": 824,
+  "complete_analyses": 0,
+  "remaining_stale_or_missing": 824,
+  "missing_analyses": 824,
+  "coverage_percent": 0.0,
+  "stale_reason_counts": {
+    "missing_analysis": 824
+  },
+  "errors_this_run": [
+    {
+      "arxiv_id": "1601.00998v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1705.02445v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1706.05904v2",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1803.02242v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1803.03577v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1804.00495v2",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1806.09444v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1806.09453v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1807.09995v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1808.06887v5",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1809.03705v3",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1811.02146v5",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1812.04767v4",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1902.05437v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1902.10928v4",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1903.01860v1",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1906.00486v4",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1906.08469v2",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1907.01577v2",
+      "error": "Connection error."
+    },
+    {
+      "arxiv_id": "1907.03395v2",
+      "error": "Connection error."
+    }
+  ],
+  "policy": "oldest-first; all historical papers are upgraded before repeated refreshes"
+}
