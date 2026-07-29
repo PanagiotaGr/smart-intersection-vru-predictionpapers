@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-07-28` (timezone: `Europe/Athens`)
+Updated: `2026-07-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **149**
+Total papers tracked: **150**
 
 ---
 
@@ -168,6 +168,9 @@ Total papers tracked: **149**
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v2) · [pdf](https://arxiv.org/pdf/2604.07126v2) · id: `2604.07126v2`
 - **Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v1) · [pdf](https://arxiv.org/pdf/2604.07126v1) · id: `2604.07126v1`

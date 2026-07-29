@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-28` (timezone: `Europe/Athens`)
+Updated: `2026-07-29` (timezone: `Europe/Athens`)
 
-Total papers tracked: **171**
+Total papers tracked: **173**
 
 ---
 
@@ -201,6 +201,9 @@ Total papers tracked: **171**
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v2) · [pdf](https://arxiv.org/pdf/2604.07126v2) · id: `2604.07126v2`
 - **Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G**  
   *Hang Zou, Yuzhi Yang, Lina Bariah, Yu Tian, Yuhuan Lu, Bohao Wang, Anis Bara, Brahim Mefgouda et al.*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.06882v1) · [pdf](https://arxiv.org/pdf/2604.06882v1) · id: `2604.06882v1`
@@ -210,6 +213,9 @@ Total papers tracked: **171**
 - **FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching**  
   *Junchao Yi, Rui Zhao, Jiahao Tang, Weixian Lei, Linjie Li, Qisheng Su, Zhengyuan Yang, Lijuan Wang et al.*  
   Published: `2026-04-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.06757v2) · [pdf](https://arxiv.org/pdf/2604.06757v2) · id: `2604.06757v2`
+- **FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching**  
+  *Junchao Yi, Rui Zhao, Jiahao Tang, Weixian Lei, Linjie Li, Qisheng Su, Zhengyuan Yang, Lijuan Wang et al.*  
+  Published: `2026-04-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.06757v3) · [pdf](https://arxiv.org/pdf/2604.06757v3) · id: `2604.06757v3`
 - **ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving**  
   *Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren*  
   Published: `2026-04-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.02714v1) · [pdf](https://arxiv.org/pdf/2604.02714v1) · id: `2604.02714v1`

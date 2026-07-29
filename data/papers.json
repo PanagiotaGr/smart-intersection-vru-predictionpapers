@@ -17368,6 +17368,53 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2510.03314v2",
       "abs_url": "http://arxiv.org/abs/2510.03314v2"
+    },
+    "2604.07126v2": {
+      "arxiv_id": "2604.07126v2",
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "authors": [
+        "Diyi Liu",
+        "Zihan Niu",
+        "Tu Xu",
+        "Xingchen Zhang",
+        "Lishan Sun"
+      ],
+      "summary": "Predicting vehicle trajectories plays an important role in autonomous driving, transportation safety analysis, traffic operations, etc. Although many deep learning algorithms are devised to predict future vehicle trajectories, the vehicle trajectory prediction problem is still challenging due to the complexity of decision-making process, interactions with surrounding vehicles, and the existence of multiple possible intentions for the traveling agents even under similar scenarios. For modeling interactions between vehicles, previous methods are either limited by specific graph structure (e.g., Graph Neural Network) or limited by fixed labeled intentions. In this study, we propose a pure Transformer-based network considering both temporal dependencies and spatial interactions without specific graph structures or labeled samples for intentions. By employing a cross-modal attention module, the model can learn a group of trajectories with ordered intentions. Also, we enhance the spatial encoding module to consider ego-centric velocity and acceleration of neighboring vehicles. Two tracks of decoders are employed to learn the ordered group of trajectories with ordered intentions and their probabilities. The probability decoder also provides by-product of spatial attentions among traveling vehicles. In short, the proposed model provides an efficient and effective way to predict agent trajectories under aerial scenes.",
+      "published_utc": "2026-04-08T14:20:09Z",
+      "updated_utc": "2026-07-28T03:56:00Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.07126v2",
+      "abs_url": "http://arxiv.org/abs/2604.07126v2"
+    },
+    "2604.06757v3": {
+      "arxiv_id": "2604.06757v3",
+      "title": "FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching",
+      "authors": [
+        "Junchao Yi",
+        "Rui Zhao",
+        "Jiahao Tang",
+        "Weixian Lei",
+        "Linjie Li",
+        "Qisheng Su",
+        "Zhengyuan Yang",
+        "Lijuan Wang",
+        "Xiaofeng Zhu",
+        "Alex Jinpeng Wang"
+      ],
+      "summary": "Multimodal generation has long been dominated by text-driven pipelines where language dictates vision but cannot reason or create within it. We challenge this paradigm by asking whether all modalities, including textual descriptions, spatial layouts, and editing instructions, can be unified into a single visual representation. We present FlowInOne, a framework that reformulates multimodal generation as a purely visual flow, converting all inputs into visual prompts and enabling a clean image-in, image-out pipeline governed by a single flow matching model. This vision-centric formulation naturally eliminates cross-modal alignment bottlenecks, noise scheduling, and task-specific architectural branches, unifying text-to-image generation, layout-guided editing, and visual instruction following under one coherent paradigm. To support this, we introduce VisPrompt-5M, a large-scale dataset of 5 million visual prompt pairs spanning diverse tasks including physics-aware force dynamics and trajectory prediction, alongside VP-Bench, a rigorously curated benchmark assessing instruction faithfulness, spatial precision, visual realism, and content consistency. Extensive experiments demonstrate that FlowInOne achieves state-of-the-art performance among open-source models across all unified generation tasks while remaining competitive with leading commercial systems, thereby establishing a new foundation for fully vision-centric generative modeling, in which perception and creation coexist within a unified continuous visual space. Our code and models are released on https://csu-jpg.github.io/FlowInOne.github.io/",
+      "published_utc": "2026-04-08T07:22:08Z",
+      "updated_utc": "2026-07-28T12:33:13Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.06757v3",
+      "abs_url": "http://arxiv.org/abs/2604.06757v3"
     }
   },
   "topics": {
@@ -17827,9 +17874,10 @@
         "2607.17839v1",
         "2607.16619v1",
         "2607.19971v1",
-        "2607.16619v2"
+        "2607.16619v2",
+        "2604.07126v2"
       ],
-      "latest_update": "2026-07-24"
+      "latest_update": "2026-07-29"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18198,9 +18246,10 @@
         "2607.16619v1",
         "2607.19971v1",
         "2607.13626v2",
-        "2607.16619v2"
+        "2607.16619v2",
+        "2604.07126v2"
       ],
-      "latest_update": "2026-07-24"
+      "latest_update": "2026-07-29"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18572,9 +18621,11 @@
         "2607.11939v1",
         "2607.16192v1",
         "2606.18824v2",
-        "2606.23706v2"
+        "2606.23706v2",
+        "2604.07126v2",
+        "2604.06757v3"
       ],
-      "latest_update": "2026-07-24"
+      "latest_update": "2026-07-29"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -18727,9 +18778,10 @@
         "2607.16619v1",
         "2607.16281v1",
         "2607.16619v2",
-        "2606.23706v2"
+        "2606.23706v2",
+        "2604.07126v2"
       ],
-      "latest_update": "2026-07-24"
+      "latest_update": "2026-07-29"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
