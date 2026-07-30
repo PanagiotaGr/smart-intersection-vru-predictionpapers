@@ -7513,6 +7513,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2604.06757v3": {
+      "schema_version": 1,
+      "paper_id": "2604.06757v3",
+      "title": "FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching",
+      "pdf_url": "https://arxiv.org/pdf/2604.06757v3",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2604.06882v1": {
       "schema_version": 1,
       "paper_id": "2604.06882v1",
@@ -7530,6 +7542,18 @@
       "paper_id": "2604.07126v1",
       "title": "Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction",
       "pdf_url": "https://arxiv.org/pdf/2604.07126v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2604.07126v2": {
+      "schema_version": 1,
+      "paper_id": "2604.07126v2",
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2604.07126v2",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],

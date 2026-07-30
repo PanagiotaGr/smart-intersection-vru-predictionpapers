@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "total_papers": 824,
+  "total_papers": 826,
   "papers_with_fulltext_claims": 0,
   "papers_eligible_for_numerical_synthesis": 0,
   "papers": [
@@ -5013,6 +5013,14 @@
       "eligible_for_numerical_synthesis": false
     },
     {
+      "paper_id": "2604.06757v3",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
       "paper_id": "2604.06882v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
@@ -5022,6 +5030,14 @@
     },
     {
       "paper_id": "2604.07126v1",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2604.07126v2",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
       "validation_error_count": 0,
