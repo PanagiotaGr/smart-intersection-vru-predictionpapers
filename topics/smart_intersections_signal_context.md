@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-07-29` (timezone: `Europe/Athens`)
+Updated: `2026-07-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **43**
+Total papers tracked: **44**
 
 ---
 
+- **Learning Dynamic User Personas from Implicit Interaction Streams via Iterative Refinement**  
+  *Haifeng Wu*  
+  Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.26473v1) · [pdf](https://arxiv.org/pdf/2607.26473v1) · id: `2607.26473v1`
 - **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
   *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
   Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`

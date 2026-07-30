@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-07-29**
-- Latest digest: `digests/2026-07-29.md`
+- Updated on: **2026-07-30**
+- Latest digest: `digests/2026-07-30.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -34,7 +34,7 @@ This repository supports:
 | Graph Transformer and Diffusion Models | 2026-07-29 | 150 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 2026-07-28 | 121 | [Autonomous Driving Forecasting for VRUs](topics/autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 2026-07-20 | 65 | [Crossing Decision and Gap Acceptance](topics/crossing_gap_acceptance.md) |
-| Smart Intersections and Traffic Signal Context | 2026-07-23 | 43 | [Smart Intersections and Traffic Signal Context](topics/smart_intersections_signal_context.md) |
+| Smart Intersections and Traffic Signal Context | 2026-07-30 | 44 | [Smart Intersections and Traffic Signal Context](topics/smart_intersections_signal_context.md) |
 | VRU Datasets Benchmarks and Evaluation | 2026-07-20 | 128 | [VRU Datasets Benchmarks and Evaluation](topics/vru_datasets_benchmarks.md) |
 | General VRU Prediction Broad Catch-All | 2026-07-22 | 129 | [General VRU Prediction Broad Catch-All](topics/general_vru_prediction.md) |
 <!-- TOPICS:END -->
