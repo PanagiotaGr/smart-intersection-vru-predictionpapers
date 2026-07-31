@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-07-30` (timezone: `Europe/Athens`)
+Updated: `2026-07-31` (timezone: `Europe/Athens`)
 
-Total papers tracked: **173**
+Total papers tracked: **174**
 
 ---
 
+- **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
+  *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
+  Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`
 - **MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction**  
   *Homanga Bharadhwaj, Yash Jangir*  
   Published: `2026-07-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.16192v1) · [pdf](https://arxiv.org/pdf/2607.16192v1) · id: `2607.16192v1`

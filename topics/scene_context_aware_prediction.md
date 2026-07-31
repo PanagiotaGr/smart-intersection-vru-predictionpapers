@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-07-30` (timezone: `Europe/Athens`)
+Updated: `2026-07-31` (timezone: `Europe/Athens`)
 
-Total papers tracked: **191**
+Total papers tracked: **192**
 
 ---
 
+- **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
+  *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
+  Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`
 - **SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation**  
   *Lan Hu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Yiguang Hong, Xianbin Wang, Zhenzhen Jiao, Seyyedali Hosseinalipour*  
   Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16619v1) · [pdf](https://arxiv.org/pdf/2607.16619v1) · id: `2607.16619v1`
