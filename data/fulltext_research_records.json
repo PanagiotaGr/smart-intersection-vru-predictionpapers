@@ -9924,6 +9924,18 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2607.27418v1": {
+      "schema_version": 1,
+      "paper_id": "2607.27418v1",
+      "title": "Context-Informed Ship Trajectory Prediction via Conditional Attention",
+      "pdf_url": "https://arxiv.org/pdf/2607.27418v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
