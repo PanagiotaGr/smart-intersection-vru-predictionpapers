@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-08-02**
-- Latest digest: `digests/2026-08-02.md`
+- Updated on: **2026-08-03**
+- Latest digest: `digests/2026-08-03.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -28,7 +28,7 @@ This repository supports:
 | Cyclist and Micromobility Prediction | 2026-07-28 | 48 | [Cyclist and Micromobility Prediction](topics/cyclist_micromobility_prediction.md) |
 | Interaction-aware and Social Models | 2026-07-29 | 243 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
 | Intention and Crossing Behavior | 2026-07-28 | 122 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
-| Risk-aware Safety and Collision Prediction | 2026-07-31 | 239 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
+| Risk-aware Safety and Collision Prediction | 2026-08-03 | 240 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
 | Scene and Context-aware Prediction | 2026-07-31 | 192 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
 | Probabilistic and Uncertainty-aware Forecasting | 2026-07-31 | 174 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
 | Graph Transformer and Diffusion Models | 2026-07-31 | 151 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
