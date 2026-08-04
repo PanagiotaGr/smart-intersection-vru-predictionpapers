@@ -1,8 +1,8 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-03` (timezone: `Europe/Athens`)
+Updated: `2026-08-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **240**
+Total papers tracked: **241**
 
 ---
 
@@ -84,6 +84,9 @@ Total papers tracked: **240**
 - **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
   *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
   Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
+- **EnvShip: A Unified Framework for Context-Aware and Cross-Region Vessel Trajectory Forecasting**  
+  *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
+  Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v2) · [pdf](https://arxiv.org/pdf/2606.15240v2) · id: `2606.15240v2`
 - **SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining**  
   *Abdalmalek Aburaddaha, Venkatraman Narayanan, Keval Thaker, Samir A. Rawashdeh*  
   Published: `2026-06-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.11507v1) · [pdf](https://arxiv.org/pdf/2606.11507v1) · id: `2606.11507v1`

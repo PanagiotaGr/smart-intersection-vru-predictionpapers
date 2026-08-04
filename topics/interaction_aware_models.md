@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-03` (timezone: `Europe/Athens`)
+Updated: `2026-08-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **243**
+Total papers tracked: **245**
 
 ---
 
+- **SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction**  
+  *Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, Jintao Cheng, Chi Man Vong, Xieyuanli Chen et al.*  
+  Published: `2026-08-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.00779v1) · [pdf](https://arxiv.org/pdf/2608.00779v1) · id: `2608.00779v1`
 - **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
   *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
   Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v1) · [pdf](https://arxiv.org/pdf/2607.19971v1) · id: `2607.19971v1`
@@ -87,6 +90,9 @@ Total papers tracked: **243**
 - **EnvShip-Bench: An Environment-Enhanced Benchmark for Short-Term Vessel Trajectory Prediction**  
   *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
   Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v1) · [pdf](https://arxiv.org/pdf/2606.15240v1) · id: `2606.15240v1`
+- **EnvShip: A Unified Framework for Context-Aware and Cross-Region Vessel Trajectory Forecasting**  
+  *Kun Ma, Qilong Han, Chengjing Song, Jingzheng Yao, Hao Wang, Changmao Wu*  
+  Published: `2026-06-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.15240v2) · [pdf](https://arxiv.org/pdf/2606.15240v2) · id: `2606.15240v2`
 - **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
   *George Daoud, Mohamed El-Darieby*  
   Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`

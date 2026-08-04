@@ -17469,6 +17469,70 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.17189v3",
       "abs_url": "http://arxiv.org/abs/2604.17189v3"
+    },
+    "2608.00779v1": {
+      "arxiv_id": "2608.00779v1",
+      "title": "SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction",
+      "authors": [
+        "Feifei Liu",
+        "Zejun Wei",
+        "Haozhe Wang",
+        "Yazhi Ye",
+        "Yuying Zhang",
+        "Jintao Cheng",
+        "Chi Man Vong",
+        "Xieyuanli Chen",
+        "Xiaoyu Tang"
+      ],
+      "summary": "Trajectory prediction of surrounding agents is a prerequisite for safe planning and decision making in autonomous driving. Without high-definition (HD) maps, sensor-derived bird's-eye-view (BEV) features provide no explicit lane topology or drivable-area priors, making it inherently difficult to ground each agent in its surrounding scene context. Moreover, physical feasibility remains difficult to capture through data-driven learning alone, as kinematic constraints on agent motion cannot be explicitly encoded without structured supervision. Existing map-free predictors extract scene context in an agent-agnostic manner through a single fusion step and treat physical constraints only as output-level penalties, leaving both challenges unaddressed. We propose SIPTraj, a map-free trajectory prediction framework that jointly addresses scene grounding and physical feasibility. SIPTraj introduces a Hierarchical Agent-Scene Encoder (HASE) progressively grounding each agent in agent-guided scene evidence and refining inter-agent relations within the scene-grounded space. To tackle physical infeasibility in predicted trajectories, we develop a Physics-Guided Iterative Decoder (PGID). It conditions decoding on instantaneous kinematic states, propagating physical supervision into internal representations rather than output trajectories alone. Extensive experiments on nuScenes and Argoverse 2 Sensor show that SIPTraj surpasses prior map-free predictors and strong map-based baselines without any HD map at inference. Our code will be released as open-source.",
+      "published_utc": "2026-08-01T17:23:40Z",
+      "updated_utc": "2026-08-01T17:23:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.00779v1",
+      "abs_url": "http://arxiv.org/abs/2608.00779v1"
+    },
+    "2606.15240v2": {
+      "arxiv_id": "2606.15240v2",
+      "title": "EnvShip: A Unified Framework for Context-Aware and Cross-Region Vessel Trajectory Forecasting",
+      "authors": [
+        "Kun Ma",
+        "Qilong Han",
+        "Chengjing Song",
+        "Jingzheng Yao",
+        "Hao Wang",
+        "Changmao Wu"
+      ],
+      "summary": "Accurate vessel trajectory forecasting is essential for maritime situational awareness, navigation safety, traffic management, and autonomous navigation. Public Automatic Identification System (AIS) archives have enabled extensive research in this area, yet results remain difficult to compare because existing studies use incompatible preprocessing pipelines, forecasting horizons, data splits, coordinate systems, contextual inputs, and evaluation settings. We present EnvShip, a unified multi-region framework for context-aware and cross-region vessel trajectory forecasting. EnvShip applies a fixed and reproducible pipeline to public AIS data from Denmark, the United States, Greece, and Norway, and defines two standardized forecasting tracks spanning short- and long-horizon settings. From large-scale processed data, we curate 330{,}000 short-term and 106{,}857 long-horizon samples through strict motion screening, vessel-category and difficulty stratification, redundancy control, and vessel-disjoint splits. Each sample is aligned with environmental and neighboring-vessel context, together with weather and sea-state variables where available. We evaluate representative methods under in-domain and cross-region protocols, with analyses across prediction difficulty, scene type, and random seeds. Results show that environmental context provides the largest gains in coastline-constrained scenes, whereas neighboring-vessel context primarily benefits interaction-rich cases. Multi-region training improves generalization in most settings but introduces negative transfer for some source combinations. EnvShip provides a common and reproducible testbed for vessel trajectory forecasting. Code and data are publicly available at https://huggingface.co/datasets/mark000071/envship_v2_datasets.",
+      "published_utc": "2026-06-13T10:44:06Z",
+      "updated_utc": "2026-08-02T18:47:16Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15240v2",
+      "abs_url": "http://arxiv.org/abs/2606.15240v2"
+    },
+    "2608.01677v1": {
+      "arxiv_id": "2608.01677v1",
+      "title": "Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis",
+      "authors": [
+        "Rishov Paul",
+        "Frederick H. Epstein",
+        "Miaomiao Zhang"
+      ],
+      "summary": "Myocardial strain analysis of cardiac magnetic resonance (CMR) images provides an important tool for evaluating cardiac function. However, current techniques require either human-adjusted post-processing with suboptimal regional accuracy, or specialized and costly imaging acquisitions. In this paper, we propose to leverage the power of generative models to synthesize high-quality motion-derived strain values from routinely acquired CMR sequences. Specifically, we develop a novel Brownian bridge diffusion model in motion space to learn the probabilistic mapping between standard CMR motion estimated from widely adopted registration methods and highly accurate motion provided by advanced strain imaging techniques. To promote the fidelity of anatomical structure in the generation process, our model is conditioned on the corresponding CMR images. We validate our method on large-scale multi-center CMR datasets including subjects of paired standard cine CMR and advanced strain imaging acquisitions. Experimental results demonstrate that our framework significantly improves the accuracy of motion prediction and strain analysis from standard CMRs compared to existing learning-based approaches. Our research represents a new paradigm for potentially developing cost-effective, clinically deployable AI tools for cardiac function assessment with enhanced strain accuracy in busy clinical workflows. Our code is publicly available at anonymous.4open.science/r/Brownian-Bridge-strain-analysis-1140.",
+      "published_utc": "2026-08-03T04:14:27Z",
+      "updated_utc": "2026-08-03T04:14:27Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.01677v1",
+      "abs_url": "http://arxiv.org/abs/2608.01677v1"
     }
   },
   "topics": {
@@ -17929,9 +17993,11 @@
         "2607.16619v1",
         "2607.19971v1",
         "2607.16619v2",
-        "2604.07126v2"
+        "2604.07126v2",
+        "2608.00779v1",
+        "2606.15240v2"
       ],
-      "latest_update": "2026-07-29"
+      "latest_update": "2026-08-04"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18303,9 +18369,10 @@
         "2607.16619v2",
         "2604.07126v2",
         "2607.27418v1",
-        "2604.17189v3"
+        "2604.17189v3",
+        "2606.15240v2"
       ],
-      "latest_update": "2026-08-03"
+      "latest_update": "2026-08-04"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18501,9 +18568,11 @@
         "2607.16619v1",
         "2607.13626v2",
         "2607.16619v2",
-        "2607.27418v1"
+        "2607.27418v1",
+        "2608.01677v1",
+        "2608.00779v1"
       ],
-      "latest_update": "2026-07-31"
+      "latest_update": "2026-08-04"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
