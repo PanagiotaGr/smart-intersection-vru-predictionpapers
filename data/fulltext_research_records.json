@@ -9061,6 +9061,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2606.15240v2": {
+      "schema_version": 1,
+      "paper_id": "2606.15240v2",
+      "title": "EnvShip: A Unified Framework for Context-Aware and Cross-Region Vessel Trajectory Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2606.15240v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2606.15251v1": {
       "schema_version": 1,
       "paper_id": "2606.15251v1",
@@ -9942,6 +9954,30 @@
       "paper_id": "2607.27418v1",
       "title": "Context-Informed Ship Trajectory Prediction via Conditional Attention",
       "pdf_url": "https://arxiv.org/pdf/2607.27418v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.00779v1": {
+      "schema_version": 1,
+      "paper_id": "2608.00779v1",
+      "title": "SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction",
+      "pdf_url": "https://arxiv.org/pdf/2608.00779v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.01677v1": {
+      "schema_version": 1,
+      "paper_id": "2608.01677v1",
+      "title": "Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis",
+      "pdf_url": "https://arxiv.org/pdf/2608.01677v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
