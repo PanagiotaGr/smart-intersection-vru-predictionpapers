@@ -17533,6 +17533,63 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.01677v1",
       "abs_url": "http://arxiv.org/abs/2608.01677v1"
+    },
+    "2608.03637v1": {
+      "arxiv_id": "2608.03637v1",
+      "title": "Learning Biomechanically Plausible Human Motion from Sparse Radar Point Clouds",
+      "authors": [
+        "Jonas Leo Mueller",
+        "Markus Gambietz",
+        "Alexander Weiss",
+        "Daniel Krauss",
+        "Bjoern M. Eskofier"
+      ],
+      "summary": "Radar-based human pose estimation has focused on improving learning algorithms while representing the body as unconstrained keypoint coordinates. We address the underexplored dimension of anatomical fidelity by integrating a full-body skeletal model into a differentiable, end-to-end trainable radar-based pose estimation framework, in which the pose network is supervised through forward kinematics while subject-specific geometry is fitted beforehand. Subject-specific body segment proportions are predicted from radar point cloud features to scale a biomechanical skeleton. A motion prediction network maps temporal radar sequences to generalized coordinates, and differentiable forward kinematics converts predicted joint angles into 3D positions. A contact classification loss encourages physically plausible foot-ground interaction. Under leave-one-subject-out cross-validation on 11 healthy participants performing rehabilitation exercises, the framework achieves 6.456 +/- 1.759 cm mean per-joint position error (MPJPE), 8.083 +/- 0.884 degrees mean per-joint angle error (MPJAE), 0.935 +/- 0.009 contact classification F1, and 3.4 +/- 1.3 % scaling error. This proof-of-concept study demonstrates the feasibility of recovering interpretable biomechanical descriptors from a single low-cost radar sensor in a controlled laboratory setting, a prerequisite for future clinical motion analysis.",
+      "published_utc": "2026-08-04T13:20:05Z",
+      "updated_utc": "2026-08-04T13:20:05Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03637v1",
+      "abs_url": "http://arxiv.org/abs/2608.03637v1"
+    },
+    "2608.03521v1": {
+      "arxiv_id": "2608.03521v1",
+      "title": "Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance",
+      "authors": [
+        "Xiucong Zhao",
+        "Jindong Tian",
+        "Hao Miao"
+      ],
+      "summary": "Forecasting precise future motion of surrounding agents is essential for reliable autonomous vehicles. However, as the demand for longer prediction horizons increases, existing endpoint-completion or iterative-refine methods increasingly struggle with weak guidance and compounding errors. To tackle the long-horizon prediction challenge, we propose Pivot-Centric Trajectory Prediction (PCTP). By introducing ``pivots'' and focusing on predicting pivot points along extended trajectories, we divide the long-term prediction task into short-term sub-tasks at various scales. Specifically, PCTP decouples the long-term trajectory predicting process into two processes: pivot prediction and pivot-based trajectory refinement. The pivot prediction process aims to utilize global map context and agent-to-agent interactions to identify these ``pivot points'', while the pivot-based trajectory refinement process focuses on local map details and refines the short-term trajectory based on predicted ``pivot points''. Compared with existing methods, PCTP provides more intermediate guidance while reducing compounding errors. Moreover, PCTP is a flexible approach that can be integrated into most state-of-the-art trajectory prediction models. Experimental results show that PCTP improves the prediction accuracy of leading models on both Argoverse I and Argoverse II datasets with minimal impact on model size. Specifically, PCTP combined with QCNet outperforms all published ensemble-free methods on the Argoverse II leaderboard at submission.",
+      "published_utc": "2026-08-04T12:05:15Z",
+      "updated_utc": "2026-08-04T12:05:15Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03521v1",
+      "abs_url": "http://arxiv.org/abs/2608.03521v1"
+    },
+    "2608.03379v1": {
+      "arxiv_id": "2608.03379v1",
+      "title": "Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction",
+      "authors": [
+        "Wei Wei",
+        "Yinyuan Zhao",
+        "Ruixuan Yu"
+      ],
+      "summary": "3D multi-person motion prediction requires modeling both individual kinematics and inter-person interactions. While Flow Matching is effective for multi-hypothesis generation to improve prediction accuracy, directly predicting skeletal sequences from pure noise often compromises structural consistency and introduces unreliable cross-agent interactions during early noise-dominated integration steps. To address this, we propose a Prior-Guided Residual Flow Matching framework. First, a Deterministic Coarse Prior (DCP) establishes a kinematic anchor, formulating the generative process as a conditional flow over motion residuals to simplify the generative objective and preserve structural stability. Second, a Dynamic Cross-Interaction (DCI) mechanism temporally synchronizes inter-agent message-passing with the integration progress, ensuring the extraction of reliable social contexts and improving multi-person motion fidelity. Finally, a decoupled joint-motion architecture with bidirectional fusion effectively preserves fine-grained kinematic coherence. Extensive experiments demonstrate that our approach achieves state-of-the-art prediction accuracy across multiple datasets. Code is available at https://github.com/Wei-Wei-a/Residual-Flow-Matching-with-Dynamic-Cross-Interaction-for-3D-Multi-Person-Motion-Prediction.",
+      "published_utc": "2026-08-04T09:28:27Z",
+      "updated_utc": "2026-08-04T09:28:27Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03379v1",
+      "abs_url": "http://arxiv.org/abs/2608.03379v1"
     }
   },
   "topics": {
@@ -17995,9 +18052,12 @@
         "2607.16619v2",
         "2604.07126v2",
         "2608.00779v1",
-        "2606.15240v2"
+        "2606.15240v2",
+        "2608.03637v1",
+        "2608.03521v1",
+        "2608.03379v1"
       ],
-      "latest_update": "2026-08-04"
+      "latest_update": "2026-08-05"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18570,9 +18630,12 @@
         "2607.16619v2",
         "2607.27418v1",
         "2608.01677v1",
-        "2608.00779v1"
+        "2608.00779v1",
+        "2608.03637v1",
+        "2608.03521v1",
+        "2608.03379v1"
       ],
-      "latest_update": "2026-08-04"
+      "latest_update": "2026-08-05"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",

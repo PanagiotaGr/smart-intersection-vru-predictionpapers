@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-04` (timezone: `Europe/Athens`)
+Updated: `2026-08-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **194**
+Total papers tracked: **197**
 
 ---
 
+- **Learning Biomechanically Plausible Human Motion from Sparse Radar Point Clouds**  
+  *Jonas Leo Mueller, Markus Gambietz, Alexander Weiss, Daniel Krauss, Bjoern M. Eskofier*  
+  Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03637v1) · [pdf](https://arxiv.org/pdf/2608.03637v1) · id: `2608.03637v1`
+- **Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance**  
+  *Xiucong Zhao, Jindong Tian, Hao Miao*  
+  Published: `2026-08-04` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.03521v1) · [pdf](https://arxiv.org/pdf/2608.03521v1) · id: `2608.03521v1`
+- **Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction**  
+  *Wei Wei, Yinyuan Zhao, Ruixuan Yu*  
+  Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03379v1) · [pdf](https://arxiv.org/pdf/2608.03379v1) · id: `2608.03379v1`
 - **Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis**  
   *Rishov Paul, Frederick H. Epstein, Miaomiao Zhang*  
   Published: `2026-08-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.01677v1) · [pdf](https://arxiv.org/pdf/2608.01677v1) · id: `2608.01677v1`
