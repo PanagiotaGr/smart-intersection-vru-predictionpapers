@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-06` (timezone: `Europe/Athens`)
+Updated: `2026-08-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **197**
+Total papers tracked: **198**
 
 ---
 
+- **A Unified Framework for Trajectory Prediction with Explicit Planning and Reaction Decomposition**  
+  *Jiaheng Chen, Jiaxing Li, Tinghe Zhang, Chaopeng Guo*  
+  Published: `2026-08-06` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.05673v1) · [pdf](https://arxiv.org/pdf/2608.05673v1) · id: `2608.05673v1`
 - **Learning Biomechanically Plausible Human Motion from Sparse Radar Point Clouds**  
   *Jonas Leo Mueller, Markus Gambietz, Alexander Weiss, Daniel Krauss, Bjoern M. Eskofier*  
   Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03637v1) · [pdf](https://arxiv.org/pdf/2608.03637v1) · id: `2608.03637v1`

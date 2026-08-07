@@ -7,7 +7,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 |---|---|---|---:|---|
 | ApolloScape | pedestrian; rider; vehicle | trajectory prediction; scene parsing | 3 | candidate |
 | Argoverse 1 | pedestrian; cyclist; vehicle | motion forecasting; tracking | 27 | candidate |
-| Argoverse 2 | pedestrian; cyclist; motorcyclist; vehicle | motion forecasting; 3D perception | 25 | candidate |
+| Argoverse 2 | pedestrian; cyclist; motorcyclist; vehicle | motion forecasting; 3D perception | 26 | candidate |
 | BDD100K | pedestrian; rider; bicycle; motorcycle; vehicle | detection; tracking; segmentation | 0 | candidate |
 | BLVD | pedestrian; cyclist; vehicle | 3D tracking; interaction and intention | 0 | candidate |
 | Caltech Pedestrian | pedestrian | pedestrian detection | 0 | candidate |
@@ -24,11 +24,11 @@ It is a discovery index: every entry must be verified from the full paper and th
 | Lyft Level 5 | pedestrian; cyclist; vehicle | motion forecasting | 0 | candidate |
 | PIE | pedestrian | crossing intention; trajectory prediction | 5 | candidate |
 | PedX | pedestrian | 3D pedestrian detection; tracking | 2 | candidate |
-| Stanford Drone Dataset | pedestrian; cyclist; skateboarder; cart; vehicle | trajectory prediction; interaction modelling | 25 | candidate |
+| Stanford Drone Dataset | pedestrian; cyclist; skateboarder; cart; vehicle | trajectory prediction; interaction modelling | 26 | candidate |
 | TITAN | pedestrian; cyclist; motorcyclist; vehicle | action recognition; trajectory prediction | 0 | candidate |
 | TrajNet++ | pedestrian | trajectory prediction benchmark | 2 | candidate |
 | Tsinghua-Daimler Cyclist | cyclist | cyclist detection | 0 | candidate |
-| UCY | pedestrian | trajectory prediction | 55 | candidate |
+| UCY | pedestrian | trajectory prediction | 56 | candidate |
 | Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 5 | candidate |
 | Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 17 | candidate |
 | inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 8 | candidate |

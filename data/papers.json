@@ -17590,6 +17590,27 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.03379v1",
       "abs_url": "http://arxiv.org/abs/2608.03379v1"
+    },
+    "2608.05673v1": {
+      "arxiv_id": "2608.05673v1",
+      "title": "A Unified Framework for Trajectory Prediction with Explicit Planning and Reaction Decomposition",
+      "authors": [
+        "Jiaheng Chen",
+        "Jiaxing Li",
+        "Tinghe Zhang",
+        "Chaopeng Guo"
+      ],
+      "summary": "Trajectory prediction has shifted toward structured formulations with explicit social modeling. However, existing methods inadequately distinguish the functional roles of social influence in trajectory planning. Observing that agents typically form motion plans by anticipating others' future behaviors before making local reactive adjustments, we identify social interactions as playing staged roles, namely planning precedes reaction. We propose INTraJ, a unified framework that decomposes social influence into two stages: a planning stage constructs reference trajectories using future social information, and a reaction stage recovers local adjustments from the residual between full-context prediction and the reference. INTraJ supports both multi-target and single-target paradigms. Extensive experiments on four standard benchmarks, including Argoverse 2, Argoverse 2-ped, ETH/UCY, and SDD, demonstrate consistent improvements, particularly in FDE and long-horizon consistency, with state-of-the-art performance achieved in several settings. INTraJ reframes trajectory prediction as a planning-driven two-stage process, validating that staged social modeling is critical for stable predictions. The code is publicly available at https://github.com/11isnotavailable/INTraJ.",
+      "published_utc": "2026-08-06T07:13:26Z",
+      "updated_utc": "2026-08-06T07:13:26Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.05673v1",
+      "abs_url": "http://arxiv.org/abs/2608.05673v1"
     }
   },
   "topics": {
@@ -18055,9 +18076,10 @@
         "2606.15240v2",
         "2608.03637v1",
         "2608.03521v1",
-        "2608.03379v1"
+        "2608.03379v1",
+        "2608.05673v1"
       ],
-      "latest_update": "2026-08-05"
+      "latest_update": "2026-08-07"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18633,9 +18655,10 @@
         "2608.00779v1",
         "2608.03637v1",
         "2608.03521v1",
-        "2608.03379v1"
+        "2608.03379v1",
+        "2608.05673v1"
       ],
-      "latest_update": "2026-08-05"
+      "latest_update": "2026-08-07"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
