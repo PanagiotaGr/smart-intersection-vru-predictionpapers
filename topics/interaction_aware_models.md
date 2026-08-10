@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-09` (timezone: `Europe/Athens`)
+Updated: `2026-08-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **249**
+Total papers tracked: **250**
 
 ---
 
+- **Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception**  
+  *Yidong Zhu, Zibo Dai, Tongning Zhang, Leixin Chang, Hua Chen*  
+  Published: `2026-08-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06907v1) · [pdf](https://arxiv.org/pdf/2608.06907v1) · id: `2608.06907v1`
 - **A Unified Framework for Trajectory Prediction with Explicit Planning and Reaction Decomposition**  
   *Jiaheng Chen, Jiaxing Li, Tinghe Zhang, Chaopeng Guo*  
   Published: `2026-08-06` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.05673v1) · [pdf](https://arxiv.org/pdf/2608.05673v1) · id: `2608.05673v1`

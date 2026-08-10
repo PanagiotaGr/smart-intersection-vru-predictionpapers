@@ -17611,6 +17611,45 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.05673v1",
       "abs_url": "http://arxiv.org/abs/2608.05673v1"
+    },
+    "2608.06907v1": {
+      "arxiv_id": "2608.06907v1",
+      "title": "Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception",
+      "authors": [
+        "Yidong Zhu",
+        "Zibo Dai",
+        "Tongning Zhang",
+        "Leixin Chang",
+        "Hua Chen"
+      ],
+      "summary": "Legged robots require robust agility to perceive and interact with complex and dynamic environments within a constrained time. However, most existing quadruped locomotion works rely on velocity-tracking policy, which struggle to reach precise targets within strict temporal constraints. Moreover, integrating real-time perception with agile locomotion for highly dynamic targets remains challenging due to sensor latency and processing delays. To concretely study and benchmark such agility in dynamic settings, we introduce a challenging ball-catching task for legged robots. This paper proposes an integrated framework that combines a vision module for landing point and time prediction with a direct position and time conditioned RL locomotion policy, instead of intermediate velocity commands. Beyond the method design, this work presents a system-level contribution that completes real-time robotic interception system that integrates multi-camera perception, online trajectory prediction, low-latency target communication, and sim-to-real locomotion control into a closed-loop deployment pipeline. By explicitly predicting the future spatial-temporal target, our approach mitigates perception latency during dynamic interception. We conducted extensive ball-catching experiments for the legged robot. Through comparative experiments against a velocity-tracking baseline, our direct target-conditioned approach achieves a higher success rate in catching balls with predicted landing spots within 2 meters and flight times between 0.8 and 1.2 seconds. This shows that the robot has successfully completed the dynamic ball-catching task under our tested setup. Furthermore, our policy exhibits a smaller performance gap after deployment, suggesting improved sim-to-real behavior in these trials.",
+      "published_utc": "2026-08-07T07:42:19Z",
+      "updated_utc": "2026-08-07T07:42:19Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.06907v1",
+      "abs_url": "http://arxiv.org/abs/2608.06907v1"
+    },
+    "2608.06587v1": {
+      "arxiv_id": "2608.06587v1",
+      "title": "SyncSBC: Decentralized Swarm Behavior Prediction for Synchronized Autonomous Control",
+      "authors": [
+        "Varun Raveendra",
+        "Connor Mattson",
+        "Daniel S. Brown"
+      ],
+      "summary": "Robot swarms utilize many independent limited-sensing agents to produce complex emergent behaviors without requiring centralized control. However, little research explores how agents can infer swarm-level behavior from purely local perception, a capability critical for detecting faults and behavior changes. In this paper, we introduce Synchronized Swarm Behavior Classification (SyncSBC), which combines improvements in machine learning and distributed consensus to classify collective swarm behavior and synchronize swarm decision-making in an entirely decentralized manner. We show that SyncSBC achieves high classification accuracy and low synchronization delay, making it suitable for real-world deployment. Finally, we use SyncSBC to demonstrate two promising swarm applications on real robots where we show that swarms utilizing SyncSBC can accurately identify anomalies in robot behavior and autonomously coordinate collective changes in swarm behavior. Videos, code and supplemental experiments are available at https://sites.google.com/view/sync-sbc/home.",
+      "published_utc": "2026-08-06T20:59:04Z",
+      "updated_utc": "2026-08-06T20:59:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.06587v1",
+      "abs_url": "http://arxiv.org/abs/2608.06587v1"
     }
   },
   "topics": {
@@ -18077,9 +18116,10 @@
         "2608.03637v1",
         "2608.03521v1",
         "2608.03379v1",
-        "2608.05673v1"
+        "2608.05673v1",
+        "2608.06907v1"
       ],
-      "latest_update": "2026-08-07"
+      "latest_update": "2026-08-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18836,9 +18876,10 @@
         "2606.23706v2",
         "2604.07126v2",
         "2604.06757v3",
-        "2607.27418v1"
+        "2607.27418v1",
+        "2608.06587v1"
       ],
-      "latest_update": "2026-07-31"
+      "latest_update": "2026-08-10"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

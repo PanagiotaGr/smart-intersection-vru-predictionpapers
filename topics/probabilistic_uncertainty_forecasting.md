@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-09` (timezone: `Europe/Athens`)
+Updated: `2026-08-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **174**
+Total papers tracked: **175**
 
 ---
 
+- **SyncSBC: Decentralized Swarm Behavior Prediction for Synchronized Autonomous Control**  
+  *Varun Raveendra, Connor Mattson, Daniel S. Brown*  
+  Published: `2026-08-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06587v1) · [pdf](https://arxiv.org/pdf/2608.06587v1) · id: `2608.06587v1`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`
