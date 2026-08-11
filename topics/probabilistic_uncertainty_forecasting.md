@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-10` (timezone: `Europe/Athens`)
+Updated: `2026-08-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **175**
+Total papers tracked: **176**
 
 ---
 
+- **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
+  *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
+  Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`
 - **SyncSBC: Decentralized Swarm Behavior Prediction for Synchronized Autonomous Control**  
   *Varun Raveendra, Connor Mattson, Daniel S. Brown*  
   Published: `2026-08-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06587v1) · [pdf](https://arxiv.org/pdf/2608.06587v1) · id: `2608.06587v1`

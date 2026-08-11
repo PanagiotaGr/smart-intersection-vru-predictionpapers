@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-10` (timezone: `Europe/Athens`)
+Updated: `2026-08-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **152**
 
 ---
 
+- **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
+  *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
+  Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`

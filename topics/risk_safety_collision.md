@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-10` (timezone: `Europe/Athens`)
+Updated: `2026-08-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **241**
+Total papers tracked: **243**
 
 ---
 
+- **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
+  *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
+  Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`
+- **Control-Oriented Scenario Tree Construction through Reinforcement Learning**  
+  *Fabio Pavirani, Bert Claessens, Pierre Pinson, Chris Develder*  
+  Published: `2026-08-10` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.09335v1) · [pdf](https://arxiv.org/pdf/2608.09335v1) · id: `2608.09335v1`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`
