@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **152**
+Total papers tracked: **153**
 
 ---
 
@@ -66,6 +66,9 @@ Total papers tracked: **152**
 - **ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction**  
   *Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, Chongfeng Wei*  
   Published: `2026-04-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.23728v2) · [pdf](https://arxiv.org/pdf/2604.23728v2) · id: `2604.23728v2`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
 - **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
   *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
   Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`

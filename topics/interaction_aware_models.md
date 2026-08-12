@@ -1,17 +1,23 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **252**
+Total papers tracked: **254**
 
 ---
 
+- **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
+  *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
+  Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v1) · [pdf](https://arxiv.org/pdf/2608.10162v1) · id: `2608.10162v1`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`
 - **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
   *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v2) · [pdf](https://arxiv.org/pdf/2608.07468v2) · id: `2608.07468v2`
 - **Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception**  
   *Yidong Zhu, Zibo Dai, Tongning Zhang, Leixin Chang, Hua Chen*  
   Published: `2026-08-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06907v1) · [pdf](https://arxiv.org/pdf/2608.06907v1) · id: `2608.06907v1`

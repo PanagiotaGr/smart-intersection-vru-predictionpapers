@@ -17717,6 +17717,93 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.09335v1",
       "abs_url": "http://arxiv.org/abs/2608.09335v1"
+    },
+    "2604.07126v3": {
+      "arxiv_id": "2604.07126v3",
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "authors": [
+        "Diyi Liu",
+        "Zihan Niu",
+        "Tu Xu",
+        "Xingchen Zhang",
+        "Lishan Sun"
+      ],
+      "summary": "Predicting traffic agent trajectories plays an important role in autonomous driving, traffic operations, transportation safety analysis, etc. Although many deep learning algorithms are devised to predict future agent trajectories, the trajectory prediction problem is still challenging due to the complexity of decision-making process, interactions with surrounding vehicles, and the existence of multiple possible intentions for the traveling agents even under similar scenarios. Most existing methods are limited by the requirement of graph structures (e.g., Graph Neural Network) or the requirement of manually labeled intentions. In this study, we propose a pure Transformer-based deep learning model for multi-modal trajectory prediction considering temporal dependencies and agent-agent spatial interactions. After encoding the historical trajectories, two parallel decoders are employed to generate trajectories and probabilities on separate decoder tracks. The model is evaluated on two real-world datasets, one highway dataset and the other pedestrian dataset with solid performance. One important insight is that following a ``propose-then-select'' strategy, the agent-agent spatial interactions are only considered for probability estimation instead of trajectory generation. In summary, the proposed model provides a potential direction to design more robust and effective multi-modal trajectory prediction models.",
+      "published_utc": "2026-04-08T14:20:09Z",
+      "updated_utc": "2026-08-11T03:02:05Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.07126v3",
+      "abs_url": "http://arxiv.org/abs/2604.07126v3"
+    },
+    "2608.10162v1": {
+      "arxiv_id": "2608.10162v1",
+      "title": "MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text",
+      "authors": [
+        "Ananya Bal",
+        "Kartik Sharma",
+        "Ethan Lai",
+        "Samyak Tiwari",
+        "Liza Dahiya",
+        "Chaitanya Chawla",
+        "Laszlo A. Jeni"
+      ],
+      "summary": "Methods for text-based generation of hand-object interaction (HOI) sequences primarily focus on producing smooth, physically plausible trajectories. A truly utilitarian method should additionally support variable-length generation, composite motion sequences, motion completion and infilling, and reliable termination without compromising physical plausibility. Standard diffusion models for HOI generation are typically trained only for text-to-motion generation on atomic motions and require the motion length to be specified a-priori. Autoregressive (AR) methods provide greater sequence-level flexibility, but commonly depend on discrete motion codes, which can lose contact-sensitive motion detail. To address these key limitations, we present a model performing Masked Autoregression with Diffusion for HOI generation (MAD-HOI). Our method starts by encoding hand and object motions in a continuous latent space while keeping them disentangled to maintain stream-wise control. This is followed by a masked autoregressive transformer to predict context features that condition a flow-matching head. MAD-HOI is capable of motion generation for atomic and composite articulated sequences, conditioned motion completion and infilling, as well as EOM (End of Motion) prediction from a single training objective. We provide comprehensive evaluations for these capabilities and benchmark our method on the ARCTIC and GRAB datasets. Our experiments demonstrate that our method generates more diverse and physically plausible interactions compared to other open-sourced baseline methods.",
+      "published_utc": "2026-08-10T19:30:59Z",
+      "updated_utc": "2026-08-10T19:30:59Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.10162v1",
+      "abs_url": "http://arxiv.org/abs/2608.10162v1"
+    },
+    "2608.07468v2": {
+      "arxiv_id": "2608.07468v2",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "authors": [
+        "Zongchuang Zhao",
+        "Xin Zhou",
+        "Tianyang Xu",
+        "Zhengyang Sun",
+        "Kaixuan Zhou",
+        "Honglin Li",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods incur costly test-time future imagination. We present SimWAM, a simple yet effective WAM that leverages future-video prediction as a training-time supervision signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isolated attention mask keeps action prediction independent of future frames, allowing trajectory prediction without explicit future-frame generation at inference. Since the two experts share no parameters and interact only through a unified attention interface, the video backbone could be replaced and the action expert scaled independently without modifying the learning objective or inference pipeline. We further apply reinforcement learning to optimize a compositional driving reward beyond trajectory imitation. Our SimWAM achieves 91.5 PDMS on NAVSIM, surpasses state-of-the-art WAM-based planners with substantially lower latency, and transfers zero-shot to nuScenes. These results position SimWAM as a simple yet solid baseline that could readily benefit from advances in video generation for efficient autonomous driving. The code and model weights are available at https://github.com/H-EmbodVis/SimWAM/.",
+      "published_utc": "2026-08-07T17:59:09Z",
+      "updated_utc": "2026-08-11T08:27:03Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07468v2",
+      "abs_url": "http://arxiv.org/abs/2608.07468v2"
+    },
+    "2608.10256v1": {
+      "arxiv_id": "2608.10256v1",
+      "title": "CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling",
+      "authors": [
+        "Alexander Schiøtz",
+        "Bertram Hage",
+        "Christian Rand",
+        "Felix Thomsen",
+        "Peder Heiselberg"
+      ],
+      "summary": "Accurate vessel trajectory prediction is critical for maritime safety and anomaly detection, yet existing models often struggle with geographic bias and navigational realism. We propose the Continuous Regression Hybrid Transformer (CRHT), a deep learning framework designed to forecast vessel motion using Automatic Identification System (AIS) data. To mitigate spatial data imbalance, we introduce an online K-means cluster sampling strategy that ensures diverse exposure to rare maneuvers during training. Our hybrid architecture integrates 1D convolutional layers for local kinematic feature extraction with a multi-head attention mechanism for global temporal context. CRHT demonstrates superior performance in short-term forecasting, achieving the lowest errors at the 1-hour horizon. The results demonstrate that while discrete models provide high navigational stability over long horizons, CRHT offers an optimal balance of precision and maneuver tracking for real-time maritime surveillance.",
+      "published_utc": "2026-08-10T21:42:40Z",
+      "updated_utc": "2026-08-10T21:42:40Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.10256v1",
+      "abs_url": "http://arxiv.org/abs/2608.10256v1"
     }
   },
   "topics": {
@@ -17874,9 +17961,10 @@
         "2607.11939v1",
         "2607.16156v1",
         "2606.18824v2",
-        "2510.03314v2"
+        "2510.03314v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-07-28"
+      "latest_update": "2026-08-12"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -18186,9 +18274,11 @@
         "2608.05673v1",
         "2608.06907v1",
         "2608.09876v1",
-        "2608.09771v1"
+        "2608.09771v1",
+        "2608.10162v1",
+        "2608.07468v2"
       ],
-      "latest_update": "2026-08-11"
+      "latest_update": "2026-08-12"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18314,9 +18404,10 @@
         "2606.18824v2",
         "2607.16806v1",
         "2512.11899v2",
-        "2510.03314v2"
+        "2510.03314v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-07-28"
+      "latest_update": "2026-08-12"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -18563,9 +18654,11 @@
         "2604.17189v3",
         "2606.15240v2",
         "2608.09876v1",
-        "2608.09335v1"
+        "2608.09335v1",
+        "2608.10256v1",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-08-11"
+      "latest_update": "2026-08-12"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18769,9 +18862,11 @@
         "2608.03379v1",
         "2608.05673v1",
         "2608.09876v1",
-        "2608.09771v1"
+        "2608.09771v1",
+        "2608.10256v1",
+        "2608.10162v1"
       ],
-      "latest_update": "2026-08-11"
+      "latest_update": "2026-08-12"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -18951,9 +19046,10 @@
         "2604.06757v3",
         "2607.27418v1",
         "2608.06587v1",
-        "2608.09771v1"
+        "2608.09771v1",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-08-11"
+      "latest_update": "2026-08-12"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -19109,9 +19205,12 @@
         "2606.23706v2",
         "2604.07126v2",
         "2607.27418v1",
-        "2608.09771v1"
+        "2608.09771v1",
+        "2608.10256v1",
+        "2608.07468v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-08-11"
+      "latest_update": "2026-08-12"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -19236,9 +19335,10 @@
         "2606.23058v1",
         "2607.08402v1",
         "2607.16156v1",
-        "2510.03314v2"
+        "2510.03314v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-07-28"
+      "latest_update": "2026-08-12"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -19357,9 +19457,10 @@
         "2607.15036v1",
         "2607.16156v1",
         "2607.13626v2",
-        "2607.26473v1"
+        "2607.26473v1",
+        "2608.07468v2"
       ],
-      "latest_update": "2026-07-30"
+      "latest_update": "2026-08-12"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -19491,9 +19592,10 @@
         "2603.10407v2",
         "2607.11939v1",
         "2607.16156v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-08-12"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -19626,9 +19728,10 @@
         "2607.16156v1",
         "2606.18824v2",
         "2607.16806v1",
-        "2512.11899v2"
+        "2512.11899v2",
+        "2604.07126v3"
       ],
-      "latest_update": "2026-07-22"
+      "latest_update": "2026-08-12"
     }
   }
 }

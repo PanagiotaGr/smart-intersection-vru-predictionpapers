@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **243**
+Total papers tracked: **245**
 
 ---
 
+- **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
+  *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
+  Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`
@@ -216,6 +219,9 @@ Total papers tracked: **243**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v2) · [pdf](https://arxiv.org/pdf/2604.07126v2) · id: `2604.07126v2`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
 - **SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles**  
   *Bin Rao, Haicheng Liao, Chengyue Wang, Keqiang Li, Zhenning Li, Hai Yang*  
   Published: `2026-04-06` · Category: `cs.ET` · [abs](http://arxiv.org/abs/2604.04573v1) · [pdf](https://arxiv.org/pdf/2604.04573v1) · id: `2604.04573v1`

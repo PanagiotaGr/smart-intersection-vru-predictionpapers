@@ -1,14 +1,20 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **152**
+Total papers tracked: **155**
 
 ---
 
+- **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
+  *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
+  Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`
 - **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
   *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v2) · [pdf](https://arxiv.org/pdf/2608.07468v2) · id: `2608.07468v2`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`
@@ -177,6 +183,9 @@ Total papers tracked: **152**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v2) · [pdf](https://arxiv.org/pdf/2604.07126v2) · id: `2604.07126v2`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
 - **Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v1) · [pdf](https://arxiv.org/pdf/2604.07126v1) · id: `2604.07126v1`

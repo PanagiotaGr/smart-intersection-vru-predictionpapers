@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **176**
+Total papers tracked: **177**
 
 ---
 
@@ -213,6 +213,9 @@ Total papers tracked: **176**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v2) · [pdf](https://arxiv.org/pdf/2604.07126v2) · id: `2604.07126v2`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
 - **Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G**  
   *Hang Zou, Yuzhi Yang, Lina Bariah, Yu Tian, Yuhuan Lu, Bohao Wang, Anis Bara, Brahim Mefgouda et al.*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.06882v1) · [pdf](https://arxiv.org/pdf/2604.06882v1) · id: `2604.06882v1`

@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-11` (timezone: `Europe/Athens`)
+Updated: `2026-08-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **200**
+Total papers tracked: **202**
 
 ---
 
+- **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
+  *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
+  Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`
+- **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
+  *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
+  Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v1) · [pdf](https://arxiv.org/pdf/2608.10162v1) · id: `2608.10162v1`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`
