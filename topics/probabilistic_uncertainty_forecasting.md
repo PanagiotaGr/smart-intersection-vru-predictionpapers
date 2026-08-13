@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-12` (timezone: `Europe/Athens`)
+Updated: `2026-08-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **177**
+Total papers tracked: **178**
 
 ---
 
+- **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
+  *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
+  Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v1) · [pdf](https://arxiv.org/pdf/2608.12037v1) · id: `2608.12037v1`
 - **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
   *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`

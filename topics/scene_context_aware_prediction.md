@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-12` (timezone: `Europe/Athens`)
+Updated: `2026-08-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **202**
+Total papers tracked: **203**
 
 ---
 
+- **Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**  
+  *Lara Pereira, João Ruivo Paulo, Pedro Santos, Paulo Peixoto*  
+  Published: `2026-08-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.12145v1) · [pdf](https://arxiv.org/pdf/2608.12145v1) · id: `2608.12145v1`
 - **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
   *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
   Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`

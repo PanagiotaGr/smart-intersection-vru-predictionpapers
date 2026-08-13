@@ -17804,6 +17804,48 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.10256v1",
       "abs_url": "http://arxiv.org/abs/2608.10256v1"
+    },
+    "2608.12037v1": {
+      "arxiv_id": "2608.12037v1",
+      "title": "Clustered Randomized Smoothing for Stochastic Prediction Functions",
+      "authors": [
+        "Eduardo Figueiredo",
+        "Frederik Mathiesen",
+        "Julian Schumann",
+        "Jens Kober",
+        "Arkady Zgonnikov",
+        "Luca Laurenti"
+      ],
+      "summary": "Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered $α$-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies $α$-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of $α$-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a $27\\%$ lower Wasserstein distance to the ground-truth distribution compared to $α$-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by $81\\%$ relative to the state-of-the-art randomized smoothing.",
+      "published_utc": "2026-08-12T13:20:36Z",
+      "updated_utc": "2026-08-12T13:20:36Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.12037v1",
+      "abs_url": "http://arxiv.org/abs/2608.12037v1"
+    },
+    "2608.12145v1": {
+      "arxiv_id": "2608.12145v1",
+      "title": "Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment",
+      "authors": [
+        "Lara Pereira",
+        "João Ruivo Paulo",
+        "Pedro Santos",
+        "Paulo Peixoto"
+      ],
+      "summary": "Autonomous rehabilitation systems must not only recognize human motion but also provide structured feedback to support users without continuous therapist supervision. This paper presents a telerehabilitation pipeline that integrates skeleton-based exercise quality assessment and short-term motion prediction into a two-module system operating on marker-free RGB video. A self-attentive Bidirectional LSTM performs exercise quality classification using MMD-NCA metric learning, while a graph-based motion prediction module computes per-joint position errors between predicted and observed poses, generating spatially localized deviation signals. Each module is evaluated independently on established benchmarks: the classifier achieves 96.45% mean-class accuracy on squat sequences from the PROZIS dataset, and the adopted STARS predictor achieves a mean MPJPE of 75.8 mm at 560 ms on Human3.6M, outperforming graph and recurrent baselines across all prediction horizons. The framework is designed for eventual deployment in assistive robotics and home-based rehabilitation contexts; end-to-end integration and clinical validation are important directions for future work. By combining motion recognition and prediction in a single system, this work contributes a step toward autonomous, feedback-driven telerehabilitation, for more accessible and scalable rehabilitation solutions.",
+      "published_utc": "2026-08-12T15:06:51Z",
+      "updated_utc": "2026-08-12T15:06:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.12145v1",
+      "abs_url": "http://arxiv.org/abs/2608.12145v1"
     }
   },
   "topics": {
@@ -18656,9 +18698,10 @@
         "2608.09876v1",
         "2608.09335v1",
         "2608.10256v1",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2608.12037v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-13"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -18864,9 +18907,10 @@
         "2608.09876v1",
         "2608.09771v1",
         "2608.10256v1",
-        "2608.10162v1"
+        "2608.10162v1",
+        "2608.12145v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-13"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19047,9 +19091,10 @@
         "2607.27418v1",
         "2608.06587v1",
         "2608.09771v1",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2608.12037v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-13"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -19458,9 +19503,10 @@
         "2607.16156v1",
         "2607.13626v2",
         "2607.26473v1",
-        "2608.07468v2"
+        "2608.07468v2",
+        "2608.12145v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-13"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
