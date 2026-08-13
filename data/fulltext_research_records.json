@@ -7561,6 +7561,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2604.07126v3": {
+      "schema_version": 1,
+      "paper_id": "2604.07126v3",
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2604.07126v3",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2604.07944v1": {
       "schema_version": 1,
       "paper_id": "2604.07944v1",
@@ -10057,6 +10069,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2608.07468v2": {
+      "schema_version": 1,
+      "paper_id": "2608.07468v2",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "pdf_url": "https://arxiv.org/pdf/2608.07468v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2608.09335v1": {
       "schema_version": 1,
       "paper_id": "2608.09335v1",
@@ -10086,6 +10110,30 @@
       "paper_id": "2608.09876v1",
       "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
       "pdf_url": "https://arxiv.org/pdf/2608.09876v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.10162v1": {
+      "schema_version": 1,
+      "paper_id": "2608.10162v1",
+      "title": "MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text",
+      "pdf_url": "https://arxiv.org/pdf/2608.10162v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.10256v1": {
+      "schema_version": 1,
+      "paper_id": "2608.10256v1",
+      "title": "CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling",
+      "pdf_url": "https://arxiv.org/pdf/2608.10256v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
