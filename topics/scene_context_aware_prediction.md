@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-13` (timezone: `Europe/Athens`)
+Updated: `2026-08-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **203**
+Total papers tracked: **205**
 
 ---
 
+- **AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN**  
+  *Yutong Liu, Xiaojie Li, Mingzhu Xu, Jianlong Wu*  
+  Published: `2026-08-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.12835v1) · [pdf](https://arxiv.org/pdf/2608.12835v1) · id: `2608.12835v1`
 - **Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**  
   *Lara Pereira, João Ruivo Paulo, Pedro Santos, Paulo Peixoto*  
   Published: `2026-08-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.12145v1) · [pdf](https://arxiv.org/pdf/2608.12145v1) · id: `2608.12145v1`
@@ -36,6 +39,9 @@ Total papers tracked: **203**
 - **Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis**  
   *Rishov Paul, Frederick H. Epstein, Miaomiao Zhang*  
   Published: `2026-08-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.01677v1) · [pdf](https://arxiv.org/pdf/2608.01677v1) · id: `2608.01677v1`
+- **Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis**  
+  *Rishov Paul, Frederick H. Epstein, Miaomiao Zhang*  
+  Published: `2026-08-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.01677v2) · [pdf](https://arxiv.org/pdf/2608.01677v2) · id: `2608.01677v2`
 - **SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction**  
   *Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, Jintao Cheng, Chi Man Vong, Xieyuanli Chen et al.*  
   Published: `2026-08-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.00779v1) · [pdf](https://arxiv.org/pdf/2608.00779v1) · id: `2608.00779v1`

@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-08-13` (timezone: `Europe/Athens`)
+Updated: `2026-08-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **123**
+Total papers tracked: **124**
 
 ---
 
+- **UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations**  
+  *Peng Li, Qianqian Xu, Shilong Bao, Yangbangyan Jiang, Qingming Huang*  
+  Published: `2026-08-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.13031v1) · [pdf](https://arxiv.org/pdf/2608.13031v1) · id: `2608.13031v1`
 - **Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation**  
   *Tianshuai Hu, Yangyi Zhong, Zeying Gong, Lingdong Kong, Xiaodong Mei, Guoyang Zhao, Xiaolu Liu, Song Wang et al.*  
   Published: `2026-07-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.16806v1) · [pdf](https://arxiv.org/pdf/2607.16806v1) · id: `2607.16806v1`

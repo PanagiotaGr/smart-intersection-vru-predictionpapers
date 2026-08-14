@@ -17846,6 +17846,83 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.12145v1",
       "abs_url": "http://arxiv.org/abs/2608.12145v1"
+    },
+    "2608.13031v1": {
+      "arxiv_id": "2608.13031v1",
+      "title": "UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations",
+      "authors": [
+        "Peng Li",
+        "Qianqian Xu",
+        "Shilong Bao",
+        "Yangbangyan Jiang",
+        "Qingming Huang"
+      ],
+      "summary": "Traffic video understanding has become an important problem in intelligent transportation, as road videos provide direct evidence for accidents, violations, and interactions between vehicles and vulnerable road users. A useful system should explain how a traffic event develops, why it happens, and when the relevant interaction occurs, yet this remains difficult for multimodal large language models (MLLMs) because traffic videos contain sparse events and varied viewpoints. We introduce UniTraffic-Agent, the MR-CAS solution for Track~3 of the 10th AI City Challenge, which includes Traffic Anomaly Reasoning (TAR) and two out-of-domain evaluations: FETV for fisheye traffic events and PSI-VQA for pedestrian intention reasoning. UniTraffic-Agent follows an observe--reason--act--verify workflow that samples timestamped visual evidence, reasons over all questions from the same clip in one request, and converts responses through task-specific action adapters. On the official Public leaderboards, MR-CAS ranks 16th on TAR with a score of 0.5780, 2nd on FETV with 0.4884, and 4th on PSI-VQA with 64.4161. The code is available at https://github.com/Roclp/UniTraffic-Agent.",
+      "published_utc": "2026-08-13T10:00:27Z",
+      "updated_utc": "2026-08-13T10:00:27Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.13031v1",
+      "abs_url": "http://arxiv.org/abs/2608.13031v1"
+    },
+    "2608.12835v1": {
+      "arxiv_id": "2608.12835v1",
+      "title": "AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN",
+      "authors": [
+        "Yutong Liu",
+        "Xiaojie Li",
+        "Mingzhu Xu",
+        "Jianlong Wu"
+      ],
+      "summary": "Unmanned Aerial Vehicle Vision-Language Navigation (UAV-VLN) requires agents to follow language instructions, infer spatial structure from sparse multi-view observations, and execute feasible 3D motion in complex outdoor environments. Despite recent progress with large language models, most existing methods still map vision-language inputs directly to actions, providing limited explicit scene grounding and future-aware spatial reasoning. We propose AirForesight, a current-to-future spatial map imagination framework for UAV-VLN. AirForesight first learns a structured current-map representation from multi-view observations. This representation is jointly supervised by current-map reconstruction and future-trajectory prediction, encouraging it to encode both present scene structure and future motion intent. Under structured causal attention, the current spatial knowledge is propagated to future-map reasoning, and the resulting current and future representations are aggregated to predict the next 3D waypoint. To make spatial imagination more relevant to navigation, we introduce a cross-space planning consistency loss that encourages directional agreement between the predicted map-space trajectory and the expert action direction derived from the ground-truth waypoint displacement. Experiments on OpenUAV and AerialVLN-S, together with extensive ablations, demonstrate strong performance and support the effectiveness and stability of the proposed framework.",
+      "published_utc": "2026-08-13T05:18:23Z",
+      "updated_utc": "2026-08-13T05:18:23Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.12835v1",
+      "abs_url": "http://arxiv.org/abs/2608.12835v1"
+    },
+    "2608.01677v2": {
+      "arxiv_id": "2608.01677v2",
+      "title": "Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis",
+      "authors": [
+        "Rishov Paul",
+        "Frederick H. Epstein",
+        "Miaomiao Zhang"
+      ],
+      "summary": "Myocardial strain analysis of cardiac magnetic resonance (CMR) images provides an important tool for evaluating cardiac function. However, current techniques require either human-adjusted post-processing with suboptimal regional accuracy, or specialized acquisitions with limited availability. In this paper, we propose to leverage the power of generative models to synthesize high-quality motion-derived strain values from routinely acquired CMR sequences. Specifically, we develop a novel Brownian bridge diffusion model in motion space to learn the probabilistic mapping between standard CMR motion estimated from widely adopted registration methods and highly accurate motion provided by advanced strain imaging techniques. To promote the fidelity of anatomical structure in the generation process, our model is conditioned on the corresponding CMR images. We validate our method on large-scale multi-center CMR datasets including subjects of paired standard cine CMR and advanced strain imaging acquisitions. Experimental results demonstrate that our framework significantly improves the accuracy of motion prediction and strain analysis from standard CMRs compared to existing learning-based approaches. Our research represents a new paradigm for potentially developing cost-effective, clinically deployable AI tools for cardiac function assessment with enhanced strain accuracy in busy clinical workflows. Our code is publicly available at https://github.com/Rishov-MIA/Brownian-Bridge-strain-analysis.",
+      "published_utc": "2026-08-03T04:14:27Z",
+      "updated_utc": "2026-08-13T04:05:38Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.01677v2",
+      "abs_url": "http://arxiv.org/abs/2608.01677v2"
+    },
+    "2608.13260v1": {
+      "arxiv_id": "2608.13260v1",
+      "title": "Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations",
+      "authors": [
+        "Berk Hadzhamolla",
+        "Alexander Johannes Stasik",
+        "Signe Riemer-Sørensen"
+      ],
+      "summary": "Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally expensive, require complex mesh generation, and are often impractical for real-time or large-scale applications, particularly when transformer geometries are unknown. Lumped-parameter thermal models are more practical but depend on transformer-specific thermal constants and may fail to capture dynamic responses under varying operating and environmental conditions. Purely data-driven machine learning methods, including artificial neural networks, convolutional neural networks, and long short-term memory (LSTM) networks, have shown success in forecasting transformer temperatures but typically require large volumes of high-quality training data and may produce physically inconsistent or uninterpretable results. This paper develops a physics-aware Neural Ordinary Differential Equation (Neural ODE) framework for forecasting transformer thermal behavior from real-world time-series data. Neural ODEs model system dynamics in continuous time, providing smooth trajectory prediction and a natural representation of continuously evolving thermal dynamics. A key contribution is the integration of simplified heat-transfer equations directly into the Neural ODE formulation. The model is evaluated across datasets from fifteen transformers in different regions of Norway with varying designs and cooling mechanisms. The results demonstrate that the developed Neural ODE framework provides a standardized, physics-aware, and robust forecasting approach for heterogeneous transformer units.",
+      "published_utc": "2026-08-13T13:59:32Z",
+      "updated_utc": "2026-08-13T13:59:32Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.13260v1",
+      "abs_url": "http://arxiv.org/abs/2608.13260v1"
     }
   },
   "topics": {
@@ -18447,9 +18524,10 @@
         "2607.16806v1",
         "2512.11899v2",
         "2510.03314v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2608.13031v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-14"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -18908,9 +18986,11 @@
         "2608.09771v1",
         "2608.10256v1",
         "2608.10162v1",
-        "2608.12145v1"
+        "2608.12145v1",
+        "2608.12835v1",
+        "2608.01677v2"
       ],
-      "latest_update": "2026-08-13"
+      "latest_update": "2026-08-14"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19253,9 +19333,11 @@
         "2608.09771v1",
         "2608.10256v1",
         "2608.07468v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2608.13260v1",
+        "2608.12835v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-14"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -19452,9 +19534,10 @@
         "2606.18824v1",
         "2607.08402v1",
         "2607.12293v1",
-        "2606.18824v2"
+        "2606.18824v2",
+        "2608.13031v1"
       ],
-      "latest_update": "2026-07-20"
+      "latest_update": "2026-08-14"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -19775,9 +19858,10 @@
         "2606.18824v2",
         "2607.16806v1",
         "2512.11899v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2608.13031v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-14"
     }
   }
 }

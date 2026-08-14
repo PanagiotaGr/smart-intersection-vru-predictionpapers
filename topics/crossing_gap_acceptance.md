@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-08-13` (timezone: `Europe/Athens`)
+Updated: `2026-08-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **65**
+Total papers tracked: **66**
 
 ---
 
+- **UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations**  
+  *Peng Li, Qianqian Xu, Shilong Bao, Yangbangyan Jiang, Qingming Huang*  
+  Published: `2026-08-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.13031v1) · [pdf](https://arxiv.org/pdf/2608.13031v1) · id: `2608.13031v1`
 - **Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction**  
   *Md Mahfuzur Rahman, Pengzhan Zhou, A F M Abdun Noor, Md Imam Ahasan, Kah Ong Michael Goh, S. M. Hasan Mahmud, Md Mustafizur Rahman, Kaixin Gao*  
   Published: `2026-07-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2607.12293v1) · [pdf](https://arxiv.org/pdf/2607.12293v1) · id: `2607.12293v1`

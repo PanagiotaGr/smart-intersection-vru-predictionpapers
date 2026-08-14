@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-13` (timezone: `Europe/Athens`)
+Updated: `2026-08-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **155**
+Total papers tracked: **157**
 
 ---
 
+- **Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations**  
+  *Berk Hadzhamolla, Alexander Johannes Stasik, Signe Riemer-Sørensen*  
+  Published: `2026-08-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.13260v1) · [pdf](https://arxiv.org/pdf/2608.13260v1) · id: `2608.13260v1`
+- **AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN**  
+  *Yutong Liu, Xiaojie Li, Mingzhu Xu, Jianlong Wu*  
+  Published: `2026-08-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.12835v1) · [pdf](https://arxiv.org/pdf/2608.12835v1) · id: `2608.12835v1`
 - **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
   *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
   Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`
