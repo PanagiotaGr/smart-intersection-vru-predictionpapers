@@ -9997,6 +9997,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2608.01677v2": {
+      "schema_version": 1,
+      "paper_id": "2608.01677v2",
+      "title": "Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis",
+      "pdf_url": "https://arxiv.org/pdf/2608.01677v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2608.03379v1": {
       "schema_version": 1,
       "paper_id": "2608.03379v1",
@@ -10158,6 +10170,42 @@
       "paper_id": "2608.12145v1",
       "title": "Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment",
       "pdf_url": "https://arxiv.org/pdf/2608.12145v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.12835v1": {
+      "schema_version": 1,
+      "paper_id": "2608.12835v1",
+      "title": "AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN",
+      "pdf_url": "https://arxiv.org/pdf/2608.12835v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.13031v1": {
+      "schema_version": 1,
+      "paper_id": "2608.13031v1",
+      "title": "UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations",
+      "pdf_url": "https://arxiv.org/pdf/2608.13031v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.13260v1": {
+      "schema_version": 1,
+      "paper_id": "2608.13260v1",
+      "title": "Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations",
+      "pdf_url": "https://arxiv.org/pdf/2608.13260v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
