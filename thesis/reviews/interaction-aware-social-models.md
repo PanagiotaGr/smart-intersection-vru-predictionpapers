@@ -1,6 +1,6 @@
 # Systematic Review: Interaction-aware and Social Models
 
-**Τελευταία αναγέννηση:** 2026-08-15  
+**Τελευταία αναγέννηση:** 2026-08-16  
 **Papers που εντοπίστηκαν:** 1  
 **Claims με page/section/table/figure provenance:** 0
 
