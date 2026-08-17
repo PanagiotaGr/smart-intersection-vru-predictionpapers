@@ -17923,6 +17923,26 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.13260v1",
       "abs_url": "http://arxiv.org/abs/2608.13260v1"
+    },
+    "2608.14349v1": {
+      "arxiv_id": "2608.14349v1",
+      "title": "Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling",
+      "authors": [
+        "Michael Fore",
+        "Akshay Jain",
+        "Justin Downes",
+        "Rohan Pradhan",
+        "Duncan Botti"
+      ],
+      "summary": "We present a training-free method for multi-modal trajectory prediction that achieves comparable accuracy to a 57M-parameter transformer while requiring no GPU and zero learned parameters. The method builds a transition table of historical state-to-next-position pairs and retrieves neighbors using a product kernel over spatial proximity, bearing, speed, and temporal context. Two inference modes operate over this shared representation: diversity-penalized sampling produces trajectories covering distinct plausible routes, while beam search finds the highest-likelihood path. On the TrAISformer benchmark (Danish Maritime AIS), our method achieves competitive accuracy at full data availability and dramatically outperforms the transformer in data-scarce regimes---remaining stable down to 10% of training data where TrAISformer degrades catastrophically. This enables deployment in new geographic regions from an order of magnitude less historical data, and with no GPU training.",
+      "published_utc": "2026-08-14T14:42:21Z",
+      "updated_utc": "2026-08-14T14:42:21Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.14349v1",
+      "abs_url": "http://arxiv.org/abs/2608.14349v1"
     }
   },
   "topics": {
@@ -18988,9 +19008,10 @@
         "2608.10162v1",
         "2608.12145v1",
         "2608.12835v1",
-        "2608.01677v2"
+        "2608.01677v2",
+        "2608.14349v1"
       ],
-      "latest_update": "2026-08-14"
+      "latest_update": "2026-08-17"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19335,9 +19356,10 @@
         "2608.07468v2",
         "2604.07126v3",
         "2608.13260v1",
-        "2608.12835v1"
+        "2608.12835v1",
+        "2608.14349v1"
       ],
-      "latest_update": "2026-08-14"
+      "latest_update": "2026-08-17"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

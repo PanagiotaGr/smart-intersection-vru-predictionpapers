@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-16` (timezone: `Europe/Athens`)
+Updated: `2026-08-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **157**
+Total papers tracked: **158**
 
 ---
 
+- **Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling**  
+  *Michael Fore, Akshay Jain, Justin Downes, Rohan Pradhan, Duncan Botti*  
+  Published: `2026-08-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.14349v1) · [pdf](https://arxiv.org/pdf/2608.14349v1) · id: `2608.14349v1`
 - **Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations**  
   *Berk Hadzhamolla, Alexander Johannes Stasik, Signe Riemer-Sørensen*  
   Published: `2026-08-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.13260v1) · [pdf](https://arxiv.org/pdf/2608.13260v1) · id: `2608.13260v1`
