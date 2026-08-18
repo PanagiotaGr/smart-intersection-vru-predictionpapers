@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-17` (timezone: `Europe/Athens`)
+Updated: `2026-08-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **206**
+Total papers tracked: **207**
 
 ---
 
@@ -21,6 +21,9 @@ Total papers tracked: **206**
 - **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
   *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
   Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v1) · [pdf](https://arxiv.org/pdf/2608.10162v1) · id: `2608.10162v1`
+- **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
+  *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
+  Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v2) · [pdf](https://arxiv.org/pdf/2608.10162v2) · id: `2608.10162v2`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`

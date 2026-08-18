@@ -1,8 +1,8 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-08-17` (timezone: `Europe/Athens`)
+Updated: `2026-08-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **46**
+Total papers tracked: **47**
 
 ---
 
@@ -12,6 +12,9 @@ Total papers tracked: **46**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v2) · [pdf](https://arxiv.org/pdf/2608.07468v2) · id: `2608.07468v2`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v3) · [pdf](https://arxiv.org/pdf/2608.07468v3) · id: `2608.07468v3`
 - **Learning Dynamic User Personas from Implicit Interaction Streams via Iterative Refinement**  
   *Haifeng Wu*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.26473v1) · [pdf](https://arxiv.org/pdf/2607.26473v1) · id: `2607.26473v1`

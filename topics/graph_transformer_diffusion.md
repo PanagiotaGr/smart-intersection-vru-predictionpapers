@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-17` (timezone: `Europe/Athens`)
+Updated: `2026-08-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **158**
+Total papers tracked: **160**
 
 ---
 
+- **PersonaDrive: Controllable Trajectory Prediction with Multi-Dimensional Driving Personas**  
+  *Chan Lee, Kimin Yun, Yuseok Bae, Seong Tae Kim, Jung Uk Kim*  
+  Published: `2026-08-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.15230v1) · [pdf](https://arxiv.org/pdf/2608.15230v1) · id: `2608.15230v1`
 - **Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling**  
   *Michael Fore, Akshay Jain, Justin Downes, Rohan Pradhan, Duncan Botti*  
   Published: `2026-08-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.14349v1) · [pdf](https://arxiv.org/pdf/2608.14349v1) · id: `2608.14349v1`
@@ -24,6 +27,9 @@ Total papers tracked: **158**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v2) · [pdf](https://arxiv.org/pdf/2608.07468v2) · id: `2608.07468v2`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v3) · [pdf](https://arxiv.org/pdf/2608.07468v3) · id: `2608.07468v3`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`

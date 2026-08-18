@@ -1,14 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-17` (timezone: `Europe/Athens`)
+Updated: `2026-08-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **254**
+Total papers tracked: **256**
 
 ---
 
 - **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
   *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
   Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v1) · [pdf](https://arxiv.org/pdf/2608.10162v1) · id: `2608.10162v1`
+- **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
+  *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
+  Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v2) · [pdf](https://arxiv.org/pdf/2608.10162v2) · id: `2608.10162v2`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`
@@ -18,6 +21,9 @@ Total papers tracked: **254**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v2) · [pdf](https://arxiv.org/pdf/2608.07468v2) · id: `2608.07468v2`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v3) · [pdf](https://arxiv.org/pdf/2608.07468v3) · id: `2608.07468v3`
 - **Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception**  
   *Yidong Zhu, Zibo Dai, Tongning Zhang, Leixin Chang, Hua Chen*  
   Published: `2026-08-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06907v1) · [pdf](https://arxiv.org/pdf/2608.06907v1) · id: `2608.06907v1`

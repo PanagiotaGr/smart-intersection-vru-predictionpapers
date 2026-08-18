@@ -17943,6 +17943,71 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.14349v1",
       "abs_url": "http://arxiv.org/abs/2608.14349v1"
+    },
+    "2608.10162v2": {
+      "arxiv_id": "2608.10162v2",
+      "title": "MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text",
+      "authors": [
+        "Ananya Bal",
+        "Kartik Sharma",
+        "Ethan Lai",
+        "Samyak Tiwari",
+        "Liza Dahiya",
+        "Chaitanya Chawla",
+        "Laszlo A. Jeni"
+      ],
+      "summary": "Methods for text-based generation of hand-object interaction (HOI) sequences primarily focus on producing smooth, physically plausible trajectories. A truly utilitarian method should additionally support variable-length generation, composite motion sequences, motion completion and infilling, and reliable termination without compromising physical plausibility. Standard diffusion models for HOI generation are typically trained only for text-to-motion generation on atomic motions and require the motion length to be specified a-priori. Autoregressive (AR) methods provide greater sequence-level flexibility, but commonly depend on discrete motion codes, which can lose contact-sensitive motion detail. To address these key limitations, we present a model performing Masked Autoregression with Diffusion for HOI generation (MAD-HOI). Our method starts by encoding hand and object motions in a continuous latent space while keeping them disentangled to maintain stream-wise control. This is followed by a masked autoregressive transformer to predict context features that condition a flow-matching head. MAD-HOI is capable of motion generation for atomic and composite articulated sequences, conditioned motion completion and infilling, as well as EOM (End of Motion) prediction from a single training objective. We provide comprehensive evaluations for these capabilities and benchmark our method on the ARCTIC and GRAB datasets. Our experiments demonstrate that our method generates more diverse and physically plausible interactions compared to other open-sourced baseline methods.",
+      "published_utc": "2026-08-10T19:30:59Z",
+      "updated_utc": "2026-08-15T05:45:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.10162v2",
+      "abs_url": "http://arxiv.org/abs/2608.10162v2"
+    },
+    "2608.07468v3": {
+      "arxiv_id": "2608.07468v3",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "authors": [
+        "Zongchuang Zhao",
+        "Xin Zhou",
+        "Tianyang Xu",
+        "Zhengyang Sun",
+        "Kaixuan Zhou",
+        "Honglin Li",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods incur costly test-time future imagination. We present SimWAM, a simple yet effective WAM that leverages future-video prediction as a training-time supervision signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isolated attention mask keeps action prediction independent of future frames, allowing trajectory prediction without explicit future-frame generation at inference. Since the two experts share no parameters and interact only through a unified attention interface, the video backbone could be replaced and the action expert scaled independently without modifying the learning objective or inference pipeline. We further apply reinforcement learning to optimize a compositional driving reward beyond trajectory imitation. Our SimWAM achieves 91.5 PDMS on NAVSIM, surpasses state-of-the-art WAM-based planners with substantially lower latency, and transfers zero-shot to nuScenes. These results position SimWAM as a simple yet solid baseline that could readily benefit from advances in video generation for efficient autonomous driving. The code and model weights are available at https://github.com/H-EmbodVis/SimWAM/.",
+      "published_utc": "2026-08-07T17:59:09Z",
+      "updated_utc": "2026-08-17T16:14:55Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07468v3",
+      "abs_url": "http://arxiv.org/abs/2608.07468v3"
+    },
+    "2608.15230v1": {
+      "arxiv_id": "2608.15230v1",
+      "title": "PersonaDrive: Controllable Trajectory Prediction with Multi-Dimensional Driving Personas",
+      "authors": [
+        "Chan Lee",
+        "Kimin Yun",
+        "Yuseok Bae",
+        "Seong Tae Kim",
+        "Jung Uk Kim"
+      ],
+      "summary": "Although recent trajectory prediction and end-to-end autonomous driving methods improve robustness in urban environments, they still lack meaningful controllability. Existing benchmarks either provide no persona-conditioned annotations or support only a single urgency spectrum (i.e., emergency, normal, relaxed), which cannot distinguish personas that share the same urgency level but require different driving dynamics. To address this, we propose (i) the Persona-Conditioned Trajectory (PCT) dataset, which decomposes driving personas along two axes, Temporal Urgency and Ride Comfort, and combines three levels of each to form a grid of nine personas, each paired with natural-language descriptions and trajectories, and (ii) PersonaDrive, a framework that can learn driving personas from language and can generate persona-specific trajectories. PersonaDrive incorporates Persona-Conditioned Anchor Transform (PCAT), which hierarchically reshapes anchors along both axes, and Persona-Conditioned Multi-Modal Fusion (PCMF) for BEV-level persona fusion. Training is supervised by a Hierarchical Guide Loss enforcing axis-aligned physical orderings and an Axis-Decomposed Diversity Loss preventing diagonal mode collapse. Experimental results show that PersonaDrive consistently improves over the compared baselines across multi-dimensional scenarios. The code and PCT dataset are available at https://github.com/VisualAIKHU/PersonaDrive",
+      "published_utc": "2026-08-15T13:37:40Z",
+      "updated_utc": "2026-08-15T13:37:40Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.15230v1",
+      "abs_url": "http://arxiv.org/abs/2608.15230v1"
     }
   },
   "topics": {
@@ -18415,9 +18480,11 @@
         "2608.09876v1",
         "2608.09771v1",
         "2608.10162v1",
-        "2608.07468v2"
+        "2608.07468v2",
+        "2608.10162v2",
+        "2608.07468v3"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-08-18"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19009,9 +19076,10 @@
         "2608.12145v1",
         "2608.12835v1",
         "2608.01677v2",
-        "2608.14349v1"
+        "2608.14349v1",
+        "2608.10162v2"
       ],
-      "latest_update": "2026-08-17"
+      "latest_update": "2026-08-18"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19357,9 +19425,11 @@
         "2604.07126v3",
         "2608.13260v1",
         "2608.12835v1",
-        "2608.14349v1"
+        "2608.14349v1",
+        "2608.15230v1",
+        "2608.07468v3"
       ],
-      "latest_update": "2026-08-17"
+      "latest_update": "2026-08-18"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -19609,9 +19679,10 @@
         "2607.13626v2",
         "2607.26473v1",
         "2608.07468v2",
-        "2608.12145v1"
+        "2608.12145v1",
+        "2608.07468v3"
       ],
-      "latest_update": "2026-08-13"
+      "latest_update": "2026-08-18"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
