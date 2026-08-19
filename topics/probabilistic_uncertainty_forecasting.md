@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-18` (timezone: `Europe/Athens`)
+Updated: `2026-08-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **178**
+Total papers tracked: **179**
 
 ---
 
+- **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
+  *Ingrid navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
+  Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v1) · [pdf](https://arxiv.org/pdf/2608.17882v1) · id: `2608.17882v1`
 - **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
   *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
   Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v1) · [pdf](https://arxiv.org/pdf/2608.12037v1) · id: `2608.12037v1`

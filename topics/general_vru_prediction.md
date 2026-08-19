@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-08-18` (timezone: `Europe/Athens`)
+Updated: `2026-08-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **131**
+Total papers tracked: **132**
 
 ---
 
+- **The 10th AI City Challenge**  
+  *Zheng Tang, Shuo Wang, David C. Anastasiu, Ming-Ching Chang, Anuj Sharma, Quan Kong, Munkhjargal Gochoo, Jun-Wei Hsieh et al.*  
+  Published: `2026-08-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.17044v1) · [pdf](https://arxiv.org/pdf/2608.17044v1) · id: `2608.17044v1`
 - **UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations**  
   *Peng Li, Qianqian Xu, Shilong Bao, Yangbangyan Jiang, Qingming Huang*  
   Published: `2026-08-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.13031v1) · [pdf](https://arxiv.org/pdf/2608.13031v1) · id: `2608.13031v1`

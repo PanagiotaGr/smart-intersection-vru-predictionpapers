@@ -18008,6 +18008,79 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.15230v1",
       "abs_url": "http://arxiv.org/abs/2608.15230v1"
+    },
+    "2608.17044v1": {
+      "arxiv_id": "2608.17044v1",
+      "title": "The 10th AI City Challenge",
+      "authors": [
+        "Zheng Tang",
+        "Shuo Wang",
+        "David C. Anastasiu",
+        "Ming-Ching Chang",
+        "Anuj Sharma",
+        "Quan Kong",
+        "Munkhjargal Gochoo",
+        "Jun-Wei Hsieh",
+        "Tomasz Kornuta",
+        "Zhedong Zheng",
+        "Renran Tian",
+        "Judah Goldfeder",
+        "Fulgencio Navarro",
+        "Yuxing Wang",
+        "Yizhou Wang",
+        "Sameer Satish Pusegaonkar",
+        "Anqi Li",
+        "Nalin Dadhich",
+        "Ridham Kachhadiya",
+        "Dhanishtha Patil",
+        "Haoquan Liang",
+        "Jiajun Li",
+        "Han Zhang",
+        "Yilin Zhao",
+        "Zaid Pervaiz Bhat",
+        "Shuyu Yang",
+        "Ashutosh Kumar",
+        "Rong Wang",
+        "Rafael Martin Nieto",
+        "Peter Christiansen",
+        "Ahmed Abduljawad",
+        "Mohanrasu Shanmugam",
+        "Nadeem Shaik",
+        "Sujit Biswas",
+        "Xunlei Wu",
+        "Vidya Murali",
+        "Rama Chellappa"
+      ],
+      "summary": "The 10th AI City Challenge, held with ECCV 2026, marks a decade of community benchmarking for intelligent transportation, smart cities, and physical AI. Since its 2017 start with vehicle detection, classification, and tracking, the challenge has grown into a broad benchmark suite for multi-camera perception, multimodal reasoning, synthetic-to-real learning, generative forecasting, and privacy-preserving evaluation. The 2026 edition continued this growth with 325 registered teams, up from 245 in 2025, and participation from 26 countries and regions, up from 15. Its six primary tracks cover multi-camera 3D perception, transportation safety captioning and VQA, traffic anomaly reasoning, text-based person anomaly search, generative traffic video forecasting, and cross-city object detection. Track 3 further includes two out-of-domain leaderboards, submitted as Tracks 7 and 8, for fisheye traffic-violation understanding and pedestrian situated-intent VQA. This paper summarizes the challenge setup, datasets, evaluation protocols, leaderboard results, and workshop papers. Across tracks, successful systems combine foundation models with geometric grounding, retrieval or reranking, synthetic-data design, domain adaptation, and controlled inference.",
+      "published_utc": "2026-08-17T18:42:49Z",
+      "updated_utc": "2026-08-17T18:42:49Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.17044v1",
+      "abs_url": "http://arxiv.org/abs/2608.17044v1"
+    },
+    "2608.17882v1": {
+      "arxiv_id": "2608.17882v1",
+      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+      "authors": [
+        "Ingrid navarro",
+        "Pablo Ortega-Kral",
+        "Yutong Duan",
+        "Jonathan Francis",
+        "Jean Oh"
+      ],
+      "summary": "Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degradation through data-centric or test-time adaptation approaches; however, they are typically validated along fragmented axes of generalization, leaving the field without a standardized way to compare robustness across shifts a model may encounter. To address this, we introduce ControlledShifts, a framework and benchmark suite that systematically re-splits existing trajectory datasets into in-distribution (seen) and out-of-distribution (unseen) partitions, via a shared characterization-and-splitting formulation, in which a characterization function fixes the axis of variation a benchmark probes and a splitting function fixes how the tail of that axis is withheld. The suite comprises three benchmarks targeting key topological and behavioral distribution shifts. Furthermore, to aggregate multi-dimensional performance metrics across these benchmarks, we propose a unified robustness score that evaluates models along two complementary dimensions: prediction quality (relative performance gain) and prediction stability (performance preservation under shift). We showcase ControlledShifts by benchmarking prominent transformer-based architectures, exposing critical differences in how models of varying capacities handle latent relevance and environmental structure.",
+      "published_utc": "2026-08-18T15:16:52Z",
+      "updated_utc": "2026-08-18T15:16:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.17882v1",
+      "abs_url": "http://arxiv.org/abs/2608.17882v1"
     }
   },
   "topics": {
@@ -18612,9 +18685,10 @@
         "2512.11899v2",
         "2510.03314v2",
         "2604.07126v3",
-        "2608.13031v1"
+        "2608.13031v1",
+        "2608.17044v1"
       ],
-      "latest_update": "2026-08-14"
+      "latest_update": "2026-08-19"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -18864,9 +18938,10 @@
         "2608.09335v1",
         "2608.10256v1",
         "2604.07126v3",
-        "2608.12037v1"
+        "2608.12037v1",
+        "2608.17882v1"
       ],
-      "latest_update": "2026-08-13"
+      "latest_update": "2026-08-19"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19261,9 +19336,10 @@
         "2608.06587v1",
         "2608.09771v1",
         "2604.07126v3",
-        "2608.12037v1"
+        "2608.12037v1",
+        "2608.17882v1"
       ],
-      "latest_update": "2026-08-13"
+      "latest_update": "2026-08-19"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -19427,9 +19503,10 @@
         "2608.12835v1",
         "2608.14349v1",
         "2608.15230v1",
-        "2608.07468v3"
+        "2608.07468v3",
+        "2608.17882v1"
       ],
-      "latest_update": "2026-08-18"
+      "latest_update": "2026-08-19"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -19952,9 +20029,10 @@
         "2607.16806v1",
         "2512.11899v2",
         "2604.07126v3",
-        "2608.13031v1"
+        "2608.13031v1",
+        "2608.17044v1"
       ],
-      "latest_update": "2026-08-14"
+      "latest_update": "2026-08-19"
     }
   }
 }
