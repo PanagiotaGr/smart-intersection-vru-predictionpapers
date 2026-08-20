@@ -18081,6 +18081,28 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.17882v1",
       "abs_url": "http://arxiv.org/abs/2608.17882v1"
+    },
+    "2608.18498v1": {
+      "arxiv_id": "2608.18498v1",
+      "title": "DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer",
+      "authors": [
+        "Yansong Wang",
+        "Zhaobo Qi",
+        "Xinyan Liu",
+        "Beichen Zhang",
+        "Shuhui Wang",
+        "Weigang Zhang",
+        "Qingming Huang"
+      ],
+      "summary": "Modeling object dynamics from limited visual observations is a fundamental problem for enabling accurate motion trajectory prediction in embodied interaction scenarios. Existing dynamics modeling methods first compress reconstructed particle representations into sparse Key Points and model their evolution using locally constrained interactions, thereby discarding fine-grained local details and obscuring discriminative interaction modeling across spatial and temporal scales, leading to drifting trajectories and inaccurate appearance prediction. To tackle these issues, we propose DyG$^2$T, a dynamics modeling framework that infers object motion trajectories by spatially completing and temporally discriminating Key Point representations and modeling multi-scale interaction over particle graphs. Spatially, DyG$^2$T enriches each Key Point by aggregating neighboring raw particle positions to recover fine-grained local details, while explicitly encoding relative offsets among Key Points to enhance geometric structure perception. Temporally, we introduce a Temporal Disentangling Network (TDN) to identify dominant cross-frame variations in latent space and amplify inter-frame differences, yielding temporally discriminative representations that are subsequently aggregated via Temporal Attention to capture frame-wise temporal evolution cues. For comprehensive interaction modeling, a Particle Graph Transformer leverages global attention to preserve discriminative long-range dependencies among Key Points, mitigating representation homogenization induced by locality-constrained modeling and providing a robust basis for accurate trajectory prediction. Experiments on both synthetic and real-world datasets demonstrate that DyG$^2$T achieves accurate dynamics modeling and reasoning, and exhibits strong cross-object and real-world generalization.",
+      "published_utc": "2026-08-19T03:44:28Z",
+      "updated_utc": "2026-08-19T03:44:28Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.18498v1",
+      "abs_url": "http://arxiv.org/abs/2608.18498v1"
     }
   },
   "topics": {
@@ -18555,9 +18577,10 @@
         "2608.10162v1",
         "2608.07468v2",
         "2608.10162v2",
-        "2608.07468v3"
+        "2608.07468v3",
+        "2608.18498v1"
       ],
-      "latest_update": "2026-08-18"
+      "latest_update": "2026-08-20"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19504,9 +19527,10 @@
         "2608.14349v1",
         "2608.15230v1",
         "2608.07468v3",
-        "2608.17882v1"
+        "2608.17882v1",
+        "2608.18498v1"
       ],
-      "latest_update": "2026-08-19"
+      "latest_update": "2026-08-20"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

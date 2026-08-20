@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-19` (timezone: `Europe/Athens`)
+Updated: `2026-08-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **161**
+Total papers tracked: **162**
 
 ---
 
+- **DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer**  
+  *Yansong Wang, Zhaobo Qi, Xinyan Liu, Beichen Zhang, Shuhui Wang, Weigang Zhang, Qingming Huang*  
+  Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.18498v1) · [pdf](https://arxiv.org/pdf/2608.18498v1) · id: `2608.18498v1`
 - **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
   *Ingrid navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
   Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v1) · [pdf](https://arxiv.org/pdf/2608.17882v1) · id: `2608.17882v1`
