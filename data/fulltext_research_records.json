@@ -10260,6 +10260,30 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2608.17044v1": {
+      "schema_version": 1,
+      "paper_id": "2608.17044v1",
+      "title": "The 10th AI City Challenge",
+      "pdf_url": "https://arxiv.org/pdf/2608.17044v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.17882v1": {
+      "schema_version": 1,
+      "paper_id": "2608.17882v1",
+      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+      "pdf_url": "https://arxiv.org/pdf/2608.17882v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
