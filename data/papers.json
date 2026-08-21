@@ -18103,6 +18103,112 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.18498v1",
       "abs_url": "http://arxiv.org/abs/2608.18498v1"
+    },
+    "2608.19964v1": {
+      "arxiv_id": "2608.19964v1",
+      "title": "G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs",
+      "authors": [
+        "Bhavya Gupta",
+        "Onat Gungor",
+        "Tajana Rosing"
+      ],
+      "summary": "Autonomous driving systems must operate under partial observability, where safety-critical objects may be occluded or visible only to neighboring connected vehicles. Vehicle-to-vehicle cooperation can reduce this uncertainty, but existing cooperative driving methods often compress multi-agent evidence into latent features or hidden multimodal states. As a result, they obscure which agent observed each object, whether the object is visible to the ego vehicle, and how conflicting evidence affects downstream decisions. We propose G-MARK, a grounded multi-agent reasoning framework that converts cooperative object-centric observations into explicit provenance-aware knowledge graphs (KGs). The resulting KGs preserve object hypotheses together with their source attribution, ego-versus-partner visibility, uncertainty, conflicts, spatial relations, and planning-relevant context. G-MARK then derives a shared feature representation from these KGs, enabling lightweight task heads to support object reasoning, motion prediction, control selection, and trajectory forecasting. Compared with the state-of-the-art baseline, GMARK improves occlusion reasoning accuracy by 42.2%, reduces control-selection error by 13.1%, and achieves comparable trajectory-planning accuracy with a 25.6x smaller structured communication payload. Our code is available at https://github.com/bhavyagupta98/g-mark.",
+      "published_utc": "2026-08-20T12:35:12Z",
+      "updated_utc": "2026-08-20T12:35:12Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19964v1",
+      "abs_url": "http://arxiv.org/abs/2608.19964v1"
+    },
+    "2605.18010v2": {
+      "arxiv_id": "2605.18010v2",
+      "title": "Functionalization via Structure Completion and Motion Rectification",
+      "authors": [
+        "Mingrui Zhao",
+        "Sai Raj Kishore Perla",
+        "Kai Wang",
+        "Sauradip Nag",
+        "Duc Anh Nguyen",
+        "Jiayi Peng",
+        "Ruiqi Wang",
+        "Angel X. Chang",
+        "Manolis Savva",
+        "Ali Mahdavi-Amiri",
+        "Hao Zhang"
+      ],
+      "summary": "Acquisition and creation of 3D assets have been largely view- or appearance-driven. As a result, existing digital 3D models often lack the requisite structural components to function as intended, such as joints, supports, interiors, or interaction elements. At the same time, even human-annotated motions are frequently error-prone, leading to physically implausible behavior. We introduce object functionalization, a novel task aimed at transforming visually plausible but non-functional 3D models into functional and physically operable ones. We formulate functionalization as a graph completion problem over a new functional graph representation, where labeled nodes represent object parts, labeled edges encode functional and contact relations, and movable nodes carry motion attributes, so that structural functional deficiencies manifest as missing nodes or incorrect edges. We develop a neural Graph Functionalizer (GraFu) to complete an incomplete graph representing a non-functional 3D object. The completed graph then drives a geometry realization stage that instantiates predicted connectors and structural elements in 3D, with the compelling side effect of rectifying erroneous human-annotated and predicted motions. To support training and evaluation, focusing on furniture as a rich and challenging target category, we introduce FurFun-233, a dataset of 233 paired non-functional and functionalized furniture models. On PartNet-Mobility (\"zero-shot\") and HSSD test sets, our method matches state-of-the-art methods in motion prediction accuracy while substantially improving functionality in terms of collision and connectivity. Project page: https://mingrui-zhao.github.io/Functionalization/",
+      "published_utc": "2026-05-18T08:05:07Z",
+      "updated_utc": "2026-08-19T23:39:30Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2605.18010v2",
+      "abs_url": "http://arxiv.org/abs/2605.18010v2"
+    },
+    "2608.19580v1": {
+      "arxiv_id": "2608.19580v1",
+      "title": "Mix&Fix-Net: A Dual-Stage Trajectory Prediction Model for AIS and Vision-Derived Vessel Data",
+      "authors": [
+        "Md Mahmuddun Nabi Murad",
+        "Bora San Turgut",
+        "Yasin Yilmaz"
+      ],
+      "summary": "Vessel trajectory prediction is critical for maritime safety and accident prevention. While most existing trajectory prediction models rely on Automatic Identification System (AIS) data due to its precision and availability, small vessels mostly operate without AIS, resulting in a significant monitoring gap. To address this, we propose Mix&Fix-Net, a dual-stage mixer-based trajectory prediction model designed to handle vessel trajectory time-series data derived from both AIS and (non-AIS) vision data. Our architecture integrates a Primary Trajectory Predictor with a Residual Trajectory Adjuster, enabling more refined trajectory prediction. Additionally, we introduce a new video-based dataset derived from webcam streams, from which vessel trajectories are extracted to represent non-AIS data. Extensive evaluations on both AIS and non-AIS datasets across six metrics (mean squared error, mean absolute error, symmetric mean absolute percentage error, final displacement error, Frechet distance, and average Euclidean distance) demonstrate that Mix&Fix-Net consistently outperforms existing baselines across most metrics and datasets.",
+      "published_utc": "2026-08-20T02:51:40Z",
+      "updated_utc": "2026-08-20T02:51:40Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19580v1",
+      "abs_url": "http://arxiv.org/abs/2608.19580v1"
+    },
+    "2608.19380v1": {
+      "arxiv_id": "2608.19380v1",
+      "title": "CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios",
+      "authors": [
+        "Sparsh Garg",
+        "Yi-Wen Chen",
+        "Vijay Kumar B G",
+        "Abhishek Aich"
+      ],
+      "summary": "While modern autonomous driving systems excel at perception tasks such as object detection and trajectory prediction, they lack the high-level causal reasoning required to interpret traffic accidents. In particular, determining responsibility, such as identifying who is at fault and which traffic rule was violated, remains largely unexplored in current benchmarks. To this end, we introduce CAViAR (Causal Accident Video and Incident Analysis Repository), a human-annotated dashcam benchmark comprising 2,249 real-world accident videos collected from CarCrashDataset (CCD) and Nexar. Each video is annotated with structured labels spanning environmental conditions, accident type, causal explanation, apparent At-Fault Agent, affected agent, and apparent rule-violation category. We benchmark state-of-the-art vision-language models (VLMs), including Cosmos-Reason2, Qwen3-VL, and InternVL3. Once class imbalance is accounted for with majority/random baselines and balanced metrics, perceptual competence is uneven--lighting is nearly solved, whereas weather and road-condition accuracy fall at or below the majority-class baseline---and all models degrade sharply on accident type and responsibility reasoning. Overall, CAViAR exposes a practical Perception--Reasoning Gap: current VLMs may recognize salient context, but do not reliably map visible agent actions to annotated rule-relevant responsibility categories in safety-critical driving scenarios. Code, annotation schema, prompts, and evaluation scripts are available at: https://github.com/nec-labs-ma/CAViAR",
+      "published_utc": "2026-08-19T18:51:21Z",
+      "updated_utc": "2026-08-19T18:51:21Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19380v1",
+      "abs_url": "http://arxiv.org/abs/2608.19380v1"
+    },
+    "2608.20284v1": {
+      "arxiv_id": "2608.20284v1",
+      "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+      "authors": [
+        "Weiliang Huang",
+        "Huanrong Liu",
+        "Bob Zhang",
+        "Qi Dou",
+        "Zhen Chen",
+        "Yun Gu",
+        "Guy Rosman",
+        "Qingbiao Li"
+      ],
+      "summary": "Reliable surgical planning requires models to anticipate not only how instruments will move, but also how the operative visual state will evolve together with such motion. Existing approaches typically treat future scene generation and instrument trajectory prediction as two separate tasks. Scene-only models cannot directly evaluate the accuracy of future instrument motion at the trajectory level, while trajectory-only models fail to capture the visual consequences of instrument movement, leaving the consistency between predicted trajectories and future scene evolution unaddressed. Jointly forecasting both provides a more complete account of surgical action-scene dynamics by enabling explicit trajectory-level evaluation while simultaneously modeling the corresponding visual evolution. To bridge this gap, we present a preliminary joint visual-trajectory world-action model that simultaneously forecasts future visual states and instrument trajectories from historical surgical observations. Specifically, we encode historical video frames and tool trajectories into latent representations, which are processed by a temporal-spatial encoder and subsequently decoded through separate visual-state and trajectory prediction heads. Based on this preliminary architecture, a chunked autoregressive rollout is repeatedly applied to predict fifteen future steps. The chunked strategy consistently outperforms direct one-shot prediction across all evaluated horizons, improving first-segment PSNR from 18.86 to 23.11 dB and reducing ADE from 45.77 to 22.22 pixels. These results demonstrate the initial feasibility of joint visual-motion forecasting. However, we observe progressive visual degradation and accumulated trajectory errors over longer prediction horizons, which remain important challenges for future surgical world-action modeling.",
+      "published_utc": "2026-08-20T17:18:02Z",
+      "updated_utc": "2026-08-20T17:18:02Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20284v1",
+      "abs_url": "http://arxiv.org/abs/2608.20284v1"
     }
   },
   "topics": {
@@ -18578,9 +18684,11 @@
         "2608.07468v2",
         "2608.10162v2",
         "2608.07468v3",
-        "2608.18498v1"
+        "2608.18498v1",
+        "2608.19964v1",
+        "2605.18010v2"
       ],
-      "latest_update": "2026-08-20"
+      "latest_update": "2026-08-21"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18962,9 +19070,13 @@
         "2608.10256v1",
         "2604.07126v3",
         "2608.12037v1",
-        "2608.17882v1"
+        "2608.17882v1",
+        "2608.19964v1",
+        "2608.19580v1",
+        "2608.19380v1",
+        "2605.18010v2"
       ],
-      "latest_update": "2026-08-19"
+      "latest_update": "2026-08-21"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19175,9 +19287,12 @@
         "2608.12835v1",
         "2608.01677v2",
         "2608.14349v1",
-        "2608.10162v2"
+        "2608.10162v2",
+        "2608.20284v1",
+        "2608.19964v1",
+        "2608.19380v1"
       ],
-      "latest_update": "2026-08-18"
+      "latest_update": "2026-08-21"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",

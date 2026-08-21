@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-20` (timezone: `Europe/Athens`)
+Updated: `2026-08-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **207**
+Total papers tracked: **210**
 
 ---
 
+- **Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning**  
+  *Weiliang Huang, Huanrong Liu, Bob Zhang, Qi Dou, Zhen Chen, Yun Gu, Guy Rosman, Qingbiao Li*  
+  Published: `2026-08-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.20284v1) · [pdf](https://arxiv.org/pdf/2608.20284v1) · id: `2608.20284v1`
+- **G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs**  
+  *Bhavya Gupta, Onat Gungor, Tajana Rosing*  
+  Published: `2026-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.19964v1) · [pdf](https://arxiv.org/pdf/2608.19964v1) · id: `2608.19964v1`
+- **CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios**  
+  *Sparsh Garg, Yi-Wen Chen, Vijay Kumar B G, Abhishek Aich*  
+  Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.19380v1) · [pdf](https://arxiv.org/pdf/2608.19380v1) · id: `2608.19380v1`
 - **Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling**  
   *Michael Fore, Akshay Jain, Justin Downes, Rohan Pradhan, Duncan Botti*  
   Published: `2026-08-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.14349v1) · [pdf](https://arxiv.org/pdf/2608.14349v1) · id: `2608.14349v1`

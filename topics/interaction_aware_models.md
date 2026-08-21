@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-20` (timezone: `Europe/Athens`)
+Updated: `2026-08-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **257**
+Total papers tracked: **259**
 
 ---
 
+- **G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs**  
+  *Bhavya Gupta, Onat Gungor, Tajana Rosing*  
+  Published: `2026-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.19964v1) · [pdf](https://arxiv.org/pdf/2608.19964v1) · id: `2608.19964v1`
 - **DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer**  
   *Yansong Wang, Zhaobo Qi, Xinyan Liu, Beichen Zhang, Shuhui Wang, Weigang Zhang, Qingming Huang*  
   Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.18498v1) · [pdf](https://arxiv.org/pdf/2608.18498v1) · id: `2608.18498v1`
@@ -171,6 +174,9 @@ Total papers tracked: **257**
 - **Functionalization via Structure Completion and Motion Rectification**  
   *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
   Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v1) · [pdf](https://arxiv.org/pdf/2605.18010v1) · id: `2605.18010v1`
+- **Functionalization via Structure Completion and Motion Rectification**  
+  *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v2) · [pdf](https://arxiv.org/pdf/2605.18010v2) · id: `2605.18010v2`
 - **Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models**  
   *Po-Chien Luan, Wuyang Li, Yang Gao, Alexandre Alahi*  
   Published: `2026-05-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.15424v1) · [pdf](https://arxiv.org/pdf/2605.15424v1) · id: `2605.15424v1`

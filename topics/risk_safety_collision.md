@@ -1,11 +1,20 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-20` (timezone: `Europe/Athens`)
+Updated: `2026-08-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **247**
+Total papers tracked: **251**
 
 ---
 
+- **G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs**  
+  *Bhavya Gupta, Onat Gungor, Tajana Rosing*  
+  Published: `2026-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.19964v1) · [pdf](https://arxiv.org/pdf/2608.19964v1) · id: `2608.19964v1`
+- **Mix&Fix-Net: A Dual-Stage Trajectory Prediction Model for AIS and Vision-Derived Vessel Data**  
+  *Md Mahmuddun Nabi Murad, Bora San Turgut, Yasin Yilmaz*  
+  Published: `2026-08-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.19580v1) · [pdf](https://arxiv.org/pdf/2608.19580v1) · id: `2608.19580v1`
+- **CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios**  
+  *Sparsh Garg, Yi-Wen Chen, Vijay Kumar B G, Abhishek Aich*  
+  Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.19380v1) · [pdf](https://arxiv.org/pdf/2608.19380v1) · id: `2608.19380v1`
 - **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
   *Ingrid navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
   Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v1) · [pdf](https://arxiv.org/pdf/2608.17882v1) · id: `2608.17882v1`
@@ -150,6 +159,9 @@ Total papers tracked: **247**
 - **Functionalization via Structure Completion and Motion Rectification**  
   *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
   Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v1) · [pdf](https://arxiv.org/pdf/2605.18010v1) · id: `2605.18010v1`
+- **Functionalization via Structure Completion and Motion Rectification**  
+  *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v2) · [pdf](https://arxiv.org/pdf/2605.18010v2) · id: `2605.18010v2`
 - **Hierarchical Two-Stage Framework for Environment-Aware Long-Horizon Vessel Trajectory Prediction**  
   *Ganeshaaraj Gnanavel, Tharindu Fernando, Sridha Sridharan, Clinton Fookes*  
   Published: `2026-05-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2605.16442v1) · [pdf](https://arxiv.org/pdf/2605.16442v1) · id: `2605.16442v1`
