@@ -8509,6 +8509,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2605.18010v2": {
+      "schema_version": 1,
+      "paper_id": "2605.18010v2",
+      "title": "Functionalization via Structure Completion and Motion Rectification",
+      "pdf_url": "https://arxiv.org/pdf/2605.18010v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2605.18074v1": {
       "schema_version": 1,
       "paper_id": "2605.18074v1",
@@ -10290,6 +10302,54 @@
       "paper_id": "2608.18498v1",
       "title": "DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer",
       "pdf_url": "https://arxiv.org/pdf/2608.18498v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.19380v1": {
+      "schema_version": 1,
+      "paper_id": "2608.19380v1",
+      "title": "CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios",
+      "pdf_url": "https://arxiv.org/pdf/2608.19380v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.19580v1": {
+      "schema_version": 1,
+      "paper_id": "2608.19580v1",
+      "title": "Mix&Fix-Net: A Dual-Stage Trajectory Prediction Model for AIS and Vision-Derived Vessel Data",
+      "pdf_url": "https://arxiv.org/pdf/2608.19580v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.19964v1": {
+      "schema_version": 1,
+      "paper_id": "2608.19964v1",
+      "title": "G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs",
+      "pdf_url": "https://arxiv.org/pdf/2608.19964v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.20284v1": {
+      "schema_version": 1,
+      "paper_id": "2608.20284v1",
+      "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+      "pdf_url": "https://arxiv.org/pdf/2608.20284v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
