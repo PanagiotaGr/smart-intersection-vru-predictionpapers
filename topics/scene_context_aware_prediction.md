@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-23` (timezone: `Europe/Athens`)
+Updated: `2026-08-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **210**
+Total papers tracked: **211**
 
 ---
 
+- **Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data**  
+  *Tatsuya Amano, Hirozumi Yamaguchi*  
+  Published: `2026-08-21` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2608.20830v1) · [pdf](https://arxiv.org/pdf/2608.20830v1) · id: `2608.20830v1`
 - **Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning**  
   *Weiliang Huang, Huanrong Liu, Bob Zhang, Qi Dou, Zhen Chen, Yun Gu, Guy Rosman, Qingbiao Li*  
   Published: `2026-08-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.20284v1) · [pdf](https://arxiv.org/pdf/2608.20284v1) · id: `2608.20284v1`

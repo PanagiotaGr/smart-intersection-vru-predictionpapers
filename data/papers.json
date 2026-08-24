@@ -18209,6 +18209,44 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.20284v1",
       "abs_url": "http://arxiv.org/abs/2608.20284v1"
+    },
+    "2608.17882v2": {
+      "arxiv_id": "2608.17882v2",
+      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+      "authors": [
+        "Ingrid Navarro",
+        "Pablo Ortega-Kral",
+        "Yutong Duan",
+        "Jonathan Francis",
+        "Jean Oh"
+      ],
+      "summary": "Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribution shift degradation through data-centric or test-time adaptation approaches; however, they are typically validated along fragmented axes of generalization, leaving the field without a standardized way to compare robustness across shifts a model may encounter. To address this, we introduce ControlledShifts, a framework and benchmark suite that systematically re-splits existing trajectory datasets into in-distribution (seen) and out-of-distribution (unseen) partitions, via a shared characterization-and-splitting formulation, in which a characterization function fixes the axis of variation a benchmark probes and a splitting function fixes how the tail of that axis is withheld. The suite comprises three benchmarks targeting key topological and behavioral distribution shifts. Furthermore, to aggregate multi-dimensional performance metrics across these benchmarks, we propose a unified robustness score that evaluates models along two complementary dimensions: prediction quality (relative performance gain) and prediction stability (performance preservation under shift). We showcase ControlledShifts by benchmarking prominent transformer-based architectures, exposing critical differences in how models of varying capacities handle latent relevance and environmental structure.",
+      "published_utc": "2026-08-18T15:16:52Z",
+      "updated_utc": "2026-08-21T15:04:47Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.17882v2",
+      "abs_url": "http://arxiv.org/abs/2608.17882v2"
+    },
+    "2608.20830v1": {
+      "arxiv_id": "2608.20830v1",
+      "title": "Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data",
+      "authors": [
+        "Tatsuya Amano",
+        "Hirozumi Yamaguchi"
+      ],
+      "summary": "Evaluating mobility interventions at tourist destinations requires predicting visitor behavior under varying conditions. Traditional methods struggle because tourist decisions depend heavily on context like weather and fatigue, yet models cannot generalize to unobserved scenarios. Large Language Models offer a solution by encoding commonsense knowledge about human behavior from pretraining, enabling reasoning about context-dependent decisions, while natural language representation flexibly integrates heterogeneous information. Fine-tuning on local trajectories adapts this general understanding to destination-specific patterns. We validate this approach using 566 trajectories from Wakayama Castle Park, Japan. Our fine-tuned Llama-3.1-8B achieves 49.1% next POI accuracy and maintains strong performance on undersampled scenarios like rainy days, demonstrating effective generalization. This establishes LLMs as high-fidelity behavior models for context-dependent tourist prediction, providing groundwork for counterfactual analysis of mobility interventions.",
+      "published_utc": "2026-08-21T07:49:43Z",
+      "updated_utc": "2026-08-21T07:49:43Z",
+      "primary_category": "cs.CY",
+      "categories": [
+        "cs.CY",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20830v1",
+      "abs_url": "http://arxiv.org/abs/2608.20830v1"
     }
   },
   "topics": {
@@ -19074,9 +19112,10 @@
         "2608.19964v1",
         "2608.19580v1",
         "2608.19380v1",
-        "2605.18010v2"
+        "2605.18010v2",
+        "2608.17882v2"
       ],
-      "latest_update": "2026-08-21"
+      "latest_update": "2026-08-24"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19290,9 +19329,10 @@
         "2608.10162v2",
         "2608.20284v1",
         "2608.19964v1",
-        "2608.19380v1"
+        "2608.19380v1",
+        "2608.20830v1"
       ],
-      "latest_update": "2026-08-21"
+      "latest_update": "2026-08-24"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19475,9 +19515,10 @@
         "2608.09771v1",
         "2604.07126v3",
         "2608.12037v1",
-        "2608.17882v1"
+        "2608.17882v1",
+        "2608.17882v2"
       ],
-      "latest_update": "2026-08-19"
+      "latest_update": "2026-08-24"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -19643,9 +19684,10 @@
         "2608.15230v1",
         "2608.07468v3",
         "2608.17882v1",
-        "2608.18498v1"
+        "2608.18498v1",
+        "2608.17882v2"
       ],
-      "latest_update": "2026-08-20"
+      "latest_update": "2026-08-24"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

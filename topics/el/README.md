@@ -10,10 +10,10 @@
 | Cyclist & Micromobility Prediction | 0 / 48 | [cyclist_micromobility_prediction.md](cyclist_micromobility_prediction.md) |
 | Interaction-aware & Social Models | 0 / 259 | [interaction_aware_models.md](interaction_aware_models.md) |
 | Intention & Crossing Behavior | 0 / 125 | [intention_crossing_behavior.md](intention_crossing_behavior.md) |
-| Risk-aware / Safety / Collision Prediction | 0 / 251 | [risk_safety_collision.md](risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 0 / 210 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
-| Probabilistic and Uncertainty-aware Forecasting | 0 / 179 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 0 / 162 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
+| Risk-aware / Safety / Collision Prediction | 0 / 252 | [risk_safety_collision.md](risk_safety_collision.md) |
+| Scene and Context-aware Prediction | 0 / 211 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
+| Probabilistic and Uncertainty-aware Forecasting | 0 / 180 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
+| Graph Transformer and Diffusion Models | 0 / 163 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 0 / 122 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 0 / 66 | [crossing_gap_acceptance.md](crossing_gap_acceptance.md) |
 | Smart Intersections and Traffic Signal Context | 0 / 47 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |

@@ -1,8 +1,8 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-23` (timezone: `Europe/Athens`)
+Updated: `2026-08-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **162**
+Total papers tracked: **163**
 
 ---
 
@@ -12,6 +12,9 @@ Total papers tracked: **162**
 - **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
   *Ingrid navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
   Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v1) · [pdf](https://arxiv.org/pdf/2608.17882v1) · id: `2608.17882v1`
+- **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
+  *Ingrid Navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
+  Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v2) · [pdf](https://arxiv.org/pdf/2608.17882v2) · id: `2608.17882v2`
 - **PersonaDrive: Controllable Trajectory Prediction with Multi-Dimensional Driving Personas**  
   *Chan Lee, Kimin Yun, Yuseok Bae, Seong Tae Kim, Jung Uk Kim*  
   Published: `2026-08-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.15230v1) · [pdf](https://arxiv.org/pdf/2608.15230v1) · id: `2608.15230v1`
