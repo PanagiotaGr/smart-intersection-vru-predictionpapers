@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **211**
+Total papers tracked: **212**
 
 ---
 
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra, Min Cai et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v1) · [pdf](https://arxiv.org/pdf/2608.23486v1) · id: `2608.23486v1`
 - **Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data**  
   *Tatsuya Amano, Hirozumi Yamaguchi*  
   Published: `2026-08-21` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2608.20830v1) · [pdf](https://arxiv.org/pdf/2608.20830v1) · id: `2608.20830v1`

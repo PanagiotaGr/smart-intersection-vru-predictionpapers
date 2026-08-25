@@ -1,17 +1,23 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **259**
+Total papers tracked: **261**
 
 ---
 
+- **EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting**  
+  *Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen*  
+  Published: `2026-08-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.22449v1) · [pdf](https://arxiv.org/pdf/2608.22449v1) · id: `2608.22449v1`
 - **G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs**  
   *Bhavya Gupta, Onat Gungor, Tajana Rosing*  
   Published: `2026-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.19964v1) · [pdf](https://arxiv.org/pdf/2608.19964v1) · id: `2608.19964v1`
 - **DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer**  
   *Yansong Wang, Zhaobo Qi, Xinyan Liu, Beichen Zhang, Shuhui Wang, Weigang Zhang, Qingming Huang*  
   Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.18498v1) · [pdf](https://arxiv.org/pdf/2608.18498v1) · id: `2608.18498v1`
+- **RiskWorld: Object-Centric Latent World Modeling for Autonomous Driving Risk Identification**  
+  *Jingzheng Li, Yufei Ge, Qianren Mao, Zhijun Chen, Bing Li, Xingyu Peng, Baochang Zhang, Xianglong Liu*  
+  Published: `2026-08-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.21414v1) · [pdf](https://arxiv.org/pdf/2608.21414v1) · id: `2608.21414v1`
 - **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
   *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
   Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v1) · [pdf](https://arxiv.org/pdf/2608.10162v1) · id: `2608.10162v1`

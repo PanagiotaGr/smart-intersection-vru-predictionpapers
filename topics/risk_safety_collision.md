@@ -1,8 +1,8 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **252**
+Total papers tracked: **253**
 
 ---
 
@@ -24,6 +24,9 @@ Total papers tracked: **252**
 - **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
   *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
   Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v1) · [pdf](https://arxiv.org/pdf/2608.12037v1) · id: `2608.12037v1`
+- **RiskWorld: Object-Centric Latent World Modeling for Autonomous Driving Risk Identification**  
+  *Jingzheng Li, Yufei Ge, Qianren Mao, Zhijun Chen, Bing Li, Xingyu Peng, Baochang Zhang, Xianglong Liu*  
+  Published: `2026-08-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.21414v1) · [pdf](https://arxiv.org/pdf/2608.21414v1) · id: `2608.21414v1`
 - **CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling**  
   *Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg*  
   Published: `2026-08-10` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.10256v1) · [pdf](https://arxiv.org/pdf/2608.10256v1) · id: `2608.10256v1`

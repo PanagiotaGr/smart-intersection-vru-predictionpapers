@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **163**
+Total papers tracked: **166**
 
 ---
 
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra, Min Cai et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v1) · [pdf](https://arxiv.org/pdf/2608.23486v1) · id: `2608.23486v1`
+- **Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation**  
+  *Seunghan Lee, Hyunsik Yoo, Jian Kang, Susik Yoon, SeongKu Kang*  
+  Published: `2026-08-24` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.22920v1) · [pdf](https://arxiv.org/pdf/2608.22920v1) · id: `2608.22920v1`
 - **DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer**  
   *Yansong Wang, Zhaobo Qi, Xinyan Liu, Beichen Zhang, Shuhui Wang, Weigang Zhang, Qingming Huang*  
   Published: `2026-08-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.18498v1) · [pdf](https://arxiv.org/pdf/2608.18498v1) · id: `2608.18498v1`
@@ -201,6 +207,9 @@ Total papers tracked: **163**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v4) · [pdf](https://arxiv.org/pdf/2604.10169v4) · id: `2604.10169v4`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **47**
+Total papers tracked: **48**
 
 ---
 
+- **Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation**  
+  *Seunghan Lee, Hyunsik Yoo, Jian Kang, Susik Yoon, SeongKu Kang*  
+  Published: `2026-08-24` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.22920v1) · [pdf](https://arxiv.org/pdf/2608.22920v1) · id: `2608.22920v1`
 - **Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**  
   *Lara Pereira, João Ruivo Paulo, Pedro Santos, Paulo Peixoto*  
   Published: `2026-08-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.12145v1) · [pdf](https://arxiv.org/pdf/2608.12145v1) · id: `2608.12145v1`

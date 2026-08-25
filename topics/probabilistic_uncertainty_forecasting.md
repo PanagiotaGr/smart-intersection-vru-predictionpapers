@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-08-24` (timezone: `Europe/Athens`)
+Updated: `2026-08-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **180**
+Total papers tracked: **182**
 
 ---
 
+- **EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting**  
+  *Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen*  
+  Published: `2026-08-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.22449v1) · [pdf](https://arxiv.org/pdf/2608.22449v1) · id: `2608.22449v1`
 - **ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts**  
   *Ingrid navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh*  
   Published: `2026-08-18` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.17882v1) · [pdf](https://arxiv.org/pdf/2608.17882v1) · id: `2608.17882v1`
@@ -216,6 +219,9 @@ Total papers tracked: **180**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v3) · [pdf](https://arxiv.org/pdf/2604.10169v3) · id: `2604.10169v3`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v4) · [pdf](https://arxiv.org/pdf/2604.10169v4) · id: `2604.10169v4`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

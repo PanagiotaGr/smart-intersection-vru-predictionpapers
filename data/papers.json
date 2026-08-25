@@ -18247,6 +18247,139 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.20830v1",
       "abs_url": "http://arxiv.org/abs/2608.20830v1"
+    },
+    "2608.22449v1": {
+      "arxiv_id": "2608.22449v1",
+      "title": "EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting",
+      "authors": [
+        "Wen Wang",
+        "Ruibing Hou",
+        "Hong Chang",
+        "Shiguang Shan",
+        "Xilin Chen"
+      ],
+      "summary": "Forecasting dexterous hand motions from egocentric observations is fundamental to intelligent interactive systems. Existing VLM-based methods typically map observations directly to future motions, overlooking the underlying manipulation process that governs hand-object interactions. Moreover, end-to-end optimization couples manipulation learning with motion synthesis, causing motion-generation gradients to interfere with the pre-learned manipulation-aware representations. To overcome these limitations, we propose EMPIRE, a two-stage framework that introduces Explicit Manipulation Planning as an Intermediate Representation for Egocentric hand-motion forecasting. Stage I: Learn to Plan. EMPIRE first learns explicit manipulation plans from multimodal context to capture the progression of hand-object interactions. Stage II: Learn to Act. A motion generator synthesizes future bimanual hand motions conditioned on frozen planner representations, preventing motion-generation gradients from affecting manipulation planning. To support our method, we further construct EMPIRE-651K, a bimanual hand-motion forecasting dataset comprising 650,910 training windows across 111 tasks, each paired with an explicit per-hand manipulation plan. Under identical training and evaluation protocols, EMPIRE achieves state-of-the-art forecasting accuracy, with an MPJPE of 84.53 mm and a finger-relative error of 38.97mm. We release the code and dataset at https://github.com/wangwen-banban/EMPIRE.",
+      "published_utc": "2026-08-23T14:58:31Z",
+      "updated_utc": "2026-08-23T14:58:31Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.22449v1",
+      "abs_url": "http://arxiv.org/abs/2608.22449v1"
+    },
+    "2608.21414v1": {
+      "arxiv_id": "2608.21414v1",
+      "title": "RiskWorld: Object-Centric Latent World Modeling for Autonomous Driving Risk Identification",
+      "authors": [
+        "Jingzheng Li",
+        "Yufei Ge",
+        "Qianren Mao",
+        "Zhijun Chen",
+        "Bing Li",
+        "Xingyu Peng",
+        "Baochang Zhang",
+        "Xianglong Liu"
+      ],
+      "summary": "Autonomous driving risk identification aims to determine which observed object is likely to become safety-critical to the ego vehicle. Existing approaches typically predict scene-level accidents, infer risk objects indirectly from ego behavior, or apply geometric checks after trajectory forecasting, without directly using predicted ego--object relations for risk-source localization. We propose RiskWorld, an object-centric latent world model that identifies risk from the imagined evolution of each candidate relative to the ego vehicle. RiskWorld combines pretrained predictive video representations with structured ego--object histories, contextualizes observed interactions, and rolls relation-aware object states into the future using RSSM-style latent dynamics. It decodes the rollout into object-level risk scores, supported by auxiliary future-relation and temporal-risk predictions. Inference uses only observations up to the current time, while logged futures provide training supervision. On RiskBench, RiskWorld achieves the best overall F1 of 63.0\\% and the lowest false-alarm rate of 2.1\\%. Further analyses show that the learned rollout captures the evolution of object-level risk before critical events, while RiskWorld's selections preserve planning-critical information under filtered observation.",
+      "published_utc": "2026-08-12T02:52:04Z",
+      "updated_utc": "2026-08-12T02:52:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.21414v1",
+      "abs_url": "http://arxiv.org/abs/2608.21414v1"
+    },
+    "2511.20011v3": {
+      "arxiv_id": "2511.20011v3",
+      "title": "Multi-Context Fusion Transformer for Pedestrian Crossing Intention Prediction in Urban Environments",
+      "authors": [
+        "Yuanzhe Li",
+        "Hang Zhong",
+        "Steffen Müller"
+      ],
+      "summary": "Pedestrian crossing intention prediction is essential for autonomous vehicles to improve pedestrian safety and reduce traffic accidents. However, accurate pedestrian intention prediction in urban environments remains challenging due to the multitude of factors affecting pedestrian behavior. In this paper, we propose a multi-context fusion Transformer (MFT) that leverages diverse numerical contextual attributes across four key dimensions, encompassing pedestrian behavior context, environmental context, pedestrian localization context and vehicle motion context, to enable accurate pedestrian intention prediction. MFT employs a progressive fusion strategy, where mutual intra-context attention enables reciprocal interactions within each context, thereby facilitating feature sequence fusion and yielding a context token as a context-specific representation. This is followed by mutual cross-context attention, which integrates features across contexts with a global CLS token serving as a compact multi-context representation. Finally, guided intra-context attention refines context tokens within each context through directed interactions, while guided cross-context attention strengthens the global CLS token to promote multi-context fusion via guided information propagation, yielding deeper and more efficient integration. Experimental results validate the superiority of MFT over state-of-the-art methods, achieving accuracy rates of 73%, 93%, and 90% on the JAADbeh, JAADall, and PIE datasets, respectively. Extensive ablation studies are further conducted to investigate the effectiveness of the network architecture and contribution of different input context. Our code is open-source: https://github.com/ZhongHang0307/Multi-Context-Fusion-Transformer.",
+      "published_utc": "2025-11-25T07:24:49Z",
+      "updated_utc": "2026-08-24T09:33:04Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2511.20011v3",
+      "abs_url": "http://arxiv.org/abs/2511.20011v3"
+    },
+    "2608.23486v1": {
+      "arxiv_id": "2608.23486v1",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "authors": [
+        "Yiren Lu",
+        "Xin Ye",
+        "Jiaming Liu",
+        "Jin Yao",
+        "Yi-chung Chen",
+        "Liam Merino",
+        "Dhruva Dixith Kurra",
+        "Min Cai",
+        "Tom Lampo",
+        "Yu Yin",
+        "Danhua Guo",
+        "Burhan Yaman"
+      ],
+      "summary": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forcing the model to infer three-dimensional transformations from two-dimensional observations. We argue that geometry, represented by point clouds, offers a more natural state space for driving because it explicitly captures spatial structure and the rigid and non-rigid transformations that govern scene evolution while directly aligning with the space in which driving actions are executed. Building on this insight, we introduce \\textbf{GeoWAM}, a visual geometry world action model for autonomous driving. Rather than predicting future images, GeoWAM is pretrained to forecast future scene geometry, yielding representations that jointly encode spatial structure and temporal evolution. A geometry-conditioned action head then leverages these learned geometric dynamics to predict future ego trajectories. Extensive open-loop and closed-loop evaluations show that visual geometry world modeling yields substantially stronger driving policies than image-based alternatives, establishing future-geometry prediction as an effective pretraining objective for autonomous driving.",
+      "published_utc": "2026-08-24T16:49:53Z",
+      "updated_utc": "2026-08-24T16:49:53Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23486v1",
+      "abs_url": "http://arxiv.org/abs/2608.23486v1"
+    },
+    "2604.10169v4": {
+      "arxiv_id": "2604.10169v4",
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Wenchang Duan",
+        "Zhenguo Gao",
+        "Jinguo Xian",
+        "Yi Shi"
+      ],
+      "summary": "Trajectory prediction is a key component of autonomous driving systems because future motions directly affect collision checking, behavior planning, and control. The task remains challenging under dense interactions, heterogeneous behaviors, multimodal futures, and limited on-board computation. Existing graph, attention, and generative predictors improve interaction reasoning or uncertainty modeling, but their high-capacity designs are often costly for real-time deployment. Lightweight predictors and conventional distillation reduce inference cost, yet usually rely on static imitation and do not explicitly correct safety-relevant teacher bias. This paper proposes \\textbf{MAVEN-T}, a reinforced heterogeneous distillation framework for real-time multi-agent trajectory prediction. A high-capacity teacher models directed local interactions with a surround-aware graph encoder, combines efficient temporal filtering with shifted-window spatial attention, and decodes maneuver-specific futures through a sparse Mixture-of-Experts head. A compact GRU--Squeeze-and-Excitation student with a Low-Rank Adapted policy head is trained by feature-, attention-, and semantic-level distillation. To align prediction with downstream behavior, the student is further refined by Proximal Policy Optimization rewards for collision avoidance, comfort, and progress, while a complexity-aware curriculum and Elastic Weight Consolidation stabilize stage-wise training. Experiments on NGSIM, HighD, MoCAD, Argoverse~2, and the Waymo Open Motion Dataset evaluate accuracy, efficiency, generalization, robustness, and closed-loop safety. The student achieves 6.2$\\times$ parameter compression, 3.7$\\times$ inference acceleration, and 14.6,ms latency on an NVIDIA Jetson AGX Orin while maintaining competitive accuracy.",
+      "published_utc": "2026-04-11T11:34:13Z",
+      "updated_utc": "2026-08-24T09:09:20Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.10169v4",
+      "abs_url": "http://arxiv.org/abs/2604.10169v4"
+    },
+    "2608.22920v1": {
+      "arxiv_id": "2608.22920v1",
+      "title": "Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation",
+      "authors": [
+        "Seunghan Lee",
+        "Hyunsik Yoo",
+        "Jian Kang",
+        "Susik Yoon",
+        "SeongKu Kang"
+      ],
+      "summary": "Multi-behavior recommendation (MBR) leverages auxiliary behavioral signals, such as clicks and add-to-cart, to enhance target behavior prediction like purchases. While recent graph neural network-based approaches have achieved strong performance by systematically propagating auxiliary behavior signals, they still suffer from two fundamental challenges inherent to auxiliary behaviors: (1) missing auxiliary signals, which hinder generalization to items without auxiliary observations, and (2) unreliable auxiliary signals, which amplify noise misaligned with the target behavior. To address these challenges in a unified manner, we propose BOAR, an environment-conditioned MBR framework that addresses missing and unreliable auxiliary signals through two complementary modules conditioned on auxiliary observability. Extensive experiments demonstrate that BOAR consistently outperforms state-of-the-art baselines, achieving up to 7.82% gains in HR@10 overall and up to 44.2% gains for target items without auxiliary observations, highlighting its ability to capture hidden preferences beyond observed auxiliary relations. Our code is available at: https://github.com/LSH0411/BOAR.",
+      "published_utc": "2026-08-24T07:56:56Z",
+      "updated_utc": "2026-08-24T07:56:56Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.22920v1",
+      "abs_url": "http://arxiv.org/abs/2608.22920v1"
     }
   },
   "topics": {
@@ -18724,9 +18857,11 @@
         "2608.07468v3",
         "2608.18498v1",
         "2608.19964v1",
-        "2605.18010v2"
+        "2605.18010v2",
+        "2608.22449v1",
+        "2608.21414v1"
       ],
-      "latest_update": "2026-08-21"
+      "latest_update": "2026-08-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -18855,9 +18990,10 @@
         "2510.03314v2",
         "2604.07126v3",
         "2608.13031v1",
-        "2608.17044v1"
+        "2608.17044v1",
+        "2511.20011v3"
       ],
-      "latest_update": "2026-08-19"
+      "latest_update": "2026-08-25"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -19113,9 +19249,10 @@
         "2608.19580v1",
         "2608.19380v1",
         "2605.18010v2",
-        "2608.17882v2"
+        "2608.17882v2",
+        "2608.21414v1"
       ],
-      "latest_update": "2026-08-24"
+      "latest_update": "2026-08-25"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19330,9 +19467,10 @@
         "2608.20284v1",
         "2608.19964v1",
         "2608.19380v1",
-        "2608.20830v1"
+        "2608.20830v1",
+        "2608.23486v1"
       ],
-      "latest_update": "2026-08-24"
+      "latest_update": "2026-08-25"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19516,9 +19654,11 @@
         "2604.07126v3",
         "2608.12037v1",
         "2608.17882v1",
-        "2608.17882v2"
+        "2608.17882v2",
+        "2608.22449v1",
+        "2604.10169v4"
       ],
-      "latest_update": "2026-08-24"
+      "latest_update": "2026-08-25"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -19685,9 +19825,12 @@
         "2608.07468v3",
         "2608.17882v1",
         "2608.18498v1",
-        "2608.17882v2"
+        "2608.17882v2",
+        "2608.23486v1",
+        "2608.22920v1",
+        "2604.10169v4"
       ],
-      "latest_update": "2026-08-24"
+      "latest_update": "2026-08-25"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -19885,9 +20028,10 @@
         "2607.08402v1",
         "2607.12293v1",
         "2606.18824v2",
-        "2608.13031v1"
+        "2608.13031v1",
+        "2511.20011v3"
       ],
-      "latest_update": "2026-08-14"
+      "latest_update": "2026-08-25"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -19938,9 +20082,10 @@
         "2607.26473v1",
         "2608.07468v2",
         "2608.12145v1",
-        "2608.07468v3"
+        "2608.07468v3",
+        "2608.22920v1"
       ],
-      "latest_update": "2026-08-18"
+      "latest_update": "2026-08-25"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -20211,9 +20356,10 @@
         "2512.11899v2",
         "2604.07126v3",
         "2608.13031v1",
-        "2608.17044v1"
+        "2608.17044v1",
+        "2511.20011v3"
       ],
-      "latest_update": "2026-08-19"
+      "latest_update": "2026-08-25"
     }
   }
 }
