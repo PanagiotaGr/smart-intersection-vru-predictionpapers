@@ -10297,6 +10297,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2608.17882v2": {
+      "schema_version": 1,
+      "paper_id": "2608.17882v2",
+      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
+      "pdf_url": "https://arxiv.org/pdf/2608.17882v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2608.18498v1": {
       "schema_version": 1,
       "paper_id": "2608.18498v1",
@@ -10350,6 +10362,18 @@
       "paper_id": "2608.20284v1",
       "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
       "pdf_url": "https://arxiv.org/pdf/2608.20284v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.20830v1": {
+      "schema_version": 1,
+      "paper_id": "2608.20830v1",
+      "title": "Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data",
+      "pdf_url": "https://arxiv.org/pdf/2608.20830v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
