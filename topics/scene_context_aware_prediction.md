@@ -1,14 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-25` (timezone: `Europe/Athens`)
+Updated: `2026-08-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **212**
+Total papers tracked: **215**
 
 ---
 
+- **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
+  *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
+  Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
+- **Disentangled Skill Representations for Predictive Human Modeling**  
+  *Mariah Schrum, Deepak Gopinath, Srijan Srivatsa, Guy Rosman, Tiffany Chen*  
+  Published: `2026-08-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.23776v1) · [pdf](https://arxiv.org/pdf/2608.23776v1) · id: `2608.23776v1`
 - **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
   *Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra, Min Cai et al.*  
   Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v1) · [pdf](https://arxiv.org/pdf/2608.23486v1) · id: `2608.23486v1`
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v2) · [pdf](https://arxiv.org/pdf/2608.23486v2) · id: `2608.23486v2`
 - **Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data**  
   *Tatsuya Amano, Hirozumi Yamaguchi*  
   Published: `2026-08-21` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2608.20830v1) · [pdf](https://arxiv.org/pdf/2608.20830v1) · id: `2608.20830v1`

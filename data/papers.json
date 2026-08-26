@@ -18380,6 +18380,77 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.22920v1",
       "abs_url": "http://arxiv.org/abs/2608.22920v1"
+    },
+    "2608.24094v1": {
+      "arxiv_id": "2608.24094v1",
+      "title": "SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions",
+      "authors": [
+        "Yicheng Zhu",
+        "Tianmu Zhao",
+        "Haoxin Leng",
+        "Fan Zuo",
+        "Tao Li",
+        "Zilin Bian"
+      ],
+      "summary": "Emergency vehicles (EMVs) can reorganize surrounding traffic as civilian vehicles brake, change lanes, or form rescue corridors in response to their passage. Evaluating these safety-critical interactions requires behavior-level control over both EMV privileges and civilian responses, together with consistent sensing and ground truth. Existing datasets and simulation benchmarks do not directly provide this combination. We present \\textbf{SIREN}, a behavior-driven SUMO--CARLA co-simulation platform for generating EMV--civilian interactions. SIREN couples SUMO's network-level traffic evolution and behavior logic with CARLA's continuous vehicle control and synchronized onboard sensing; depending on the active behavior, the interaction is controlled by SUMO, CARLA, or jointly. We instantiate the platform as \\textbf{SIREN-Bench-v1}, comprising seven parameterized interaction templates across emergency levels L1--L3 and three behavior families, with synchronized sensor observations and simulator-native annotations. We demonstrate the benchmark through three representative tasks: 3D object detection, trajectory prediction, and vision-language risk understanding. Evaluations of nine trajectory predictors, four LiDAR-based detectors, and five vision-language models reveal behavior-dependent failure modes. Traffic-clearance interactions are hardest for detection, privileged intersection traversal is hardest for prediction, and no learned predictor outperforms the constant-velocity reference on average. Vision-language models perform substantially better on normal traffic than on near-miss and collision events. These results demonstrate the value of behavior-centered benchmarking and establish SIREN as an extensible data-generation and evaluation platform for autonomous-driving and transportation safety research.",
+      "published_utc": "2026-08-25T05:41:34Z",
+      "updated_utc": "2026-08-25T05:41:34Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.24094v1",
+      "abs_url": "http://arxiv.org/abs/2608.24094v1"
+    },
+    "2608.23776v1": {
+      "arxiv_id": "2608.23776v1",
+      "title": "Disentangled Skill Representations for Predictive Human Modeling",
+      "authors": [
+        "Mariah Schrum",
+        "Deepak Gopinath",
+        "Srijan Srivatsa",
+        "Guy Rosman",
+        "Tiffany Chen"
+      ],
+      "summary": "Understanding human skill is important for AI systems that collaborate with, coach, or assist people. Unlike typical latent variable estimation problems which rely on single observations, skill is a persistent, compositional, and behaviorally grounded construct that must be inferred from patterns over time. We introduce Skill Abstraction with Interpretable Latents (SAIL), a method for modeling human skill as an interpretable, multi-dimensional construct inferred from naturalistic behavior. Our approach produces a skill embedding that is robust to transient performance fluctuations and learns a transferable representation of human subskills. Furthermore, SAIL supports skill-informed behavior prediction that generalizes across a variety of in-domain contexts. We represent each individual with a persistent skill embedding that controls a blend between expert and novice bases and is trained using counterfactual subskill swaps for disentanglement. This design encourages representations that are both robust to performance variation and structured for interpretability. We demonstrate across racing and baseball that SAIL achieves strong predictive performance and consistently improves behaviorally grounded disentanglement over the evaluated baselines, while also improving downstream AI coaching performance.",
+      "published_utc": "2026-08-24T19:13:47Z",
+      "updated_utc": "2026-08-24T19:13:47Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23776v1",
+      "abs_url": "http://arxiv.org/abs/2608.23776v1"
+    },
+    "2608.23486v2": {
+      "arxiv_id": "2608.23486v2",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "authors": [
+        "Yiren Lu",
+        "Xin Ye",
+        "Jiaming Liu",
+        "Philip Jacobson",
+        "Jin Yao",
+        "Yi-chung Chen",
+        "Liam Merino",
+        "Dhruva Dixith Kurra",
+        "Min Cai",
+        "Tom Lampo",
+        "Yu Yin",
+        "Danhua Guo",
+        "Burhan Yaman"
+      ],
+      "summary": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forcing the model to infer three-dimensional transformations from two-dimensional observations. We argue that geometry, represented by point clouds, offers a more natural state space for driving because it explicitly captures spatial structure and the rigid and non-rigid transformations that govern scene evolution while directly aligning with the space in which driving actions are executed. Building on this insight, we introduce \\textbf{GeoWAM}, a visual geometry world action model for autonomous driving. Rather than predicting future images, GeoWAM is pretrained to forecast future scene geometry, yielding representations that jointly encode spatial structure and temporal evolution. A geometry-conditioned action head then leverages these learned geometric dynamics to predict future ego trajectories. Extensive open-loop and closed-loop evaluations show that visual geometry world modeling yields substantially stronger driving policies than image-based alternatives, establishing future-geometry prediction as an effective pretraining objective for autonomous driving.",
+      "published_utc": "2026-08-24T16:49:53Z",
+      "updated_utc": "2026-08-25T05:05:45Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23486v2",
+      "abs_url": "http://arxiv.org/abs/2608.23486v2"
     }
   },
   "topics": {
@@ -18859,9 +18930,10 @@
         "2608.19964v1",
         "2605.18010v2",
         "2608.22449v1",
-        "2608.21414v1"
+        "2608.21414v1",
+        "2608.24094v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-08-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19250,9 +19322,10 @@
         "2608.19380v1",
         "2605.18010v2",
         "2608.17882v2",
-        "2608.21414v1"
+        "2608.21414v1",
+        "2608.24094v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-08-26"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19468,9 +19541,12 @@
         "2608.19964v1",
         "2608.19380v1",
         "2608.20830v1",
-        "2608.23486v1"
+        "2608.23486v1",
+        "2608.24094v1",
+        "2608.23776v1",
+        "2608.23486v2"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-08-26"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19828,9 +19904,10 @@
         "2608.17882v2",
         "2608.23486v1",
         "2608.22920v1",
-        "2604.10169v4"
+        "2604.10169v4",
+        "2608.23486v2"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-08-26"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20083,9 +20160,10 @@
         "2608.07468v2",
         "2608.12145v1",
         "2608.07468v3",
-        "2608.22920v1"
+        "2608.22920v1",
+        "2608.24094v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-08-26"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

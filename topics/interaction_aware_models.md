@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-25` (timezone: `Europe/Athens`)
+Updated: `2026-08-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **261**
+Total papers tracked: **262**
 
 ---
 
+- **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
+  *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
+  Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
 - **EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting**  
   *Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen*  
   Published: `2026-08-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.22449v1) · [pdf](https://arxiv.org/pdf/2608.22449v1) · id: `2608.22449v1`
