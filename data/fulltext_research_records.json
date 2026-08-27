@@ -10452,6 +10452,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2608.23486v2": {
+      "schema_version": 1,
+      "paper_id": "2608.23486v2",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "pdf_url": "https://arxiv.org/pdf/2608.23486v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.23776v1": {
+      "schema_version": 1,
+      "paper_id": "2608.23776v1",
+      "title": "Disentangled Skill Representations for Predictive Human Modeling",
+      "pdf_url": "https://arxiv.org/pdf/2608.23776v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2608.24094v1": {
+      "schema_version": 1,
+      "paper_id": "2608.24094v1",
+      "title": "SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions",
+      "pdf_url": "https://arxiv.org/pdf/2608.24094v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
