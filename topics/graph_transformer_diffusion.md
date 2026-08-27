@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-26` (timezone: `Europe/Athens`)
+Updated: `2026-08-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **167**
+Total papers tracked: **168**
 
 ---
 
+- **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
 - **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
   *Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra, Min Cai et al.*  
   Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v1) · [pdf](https://arxiv.org/pdf/2608.23486v1) · id: `2608.23486v1`

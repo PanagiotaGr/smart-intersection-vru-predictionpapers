@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-26` (timezone: `Europe/Athens`)
+Updated: `2026-08-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **254**
+Total papers tracked: **255**
 
 ---
 
+- **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`

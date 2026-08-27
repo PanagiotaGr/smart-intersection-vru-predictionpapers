@@ -18451,6 +18451,45 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.23486v2",
       "abs_url": "http://arxiv.org/abs/2608.23486v2"
+    },
+    "2608.26002v1": {
+      "arxiv_id": "2608.26002v1",
+      "title": "DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction",
+      "authors": [
+        "Alexander Prutsch",
+        "David Schinagl",
+        "Horst Possegger"
+      ],
+      "summary": "Advanced automation is a key technology for enhancing the safety of ground operations amidst the increasing density of commercial air traffic. While motion forecasting is a well-studied task in autonomous driving, its application to airport surface movements remains underexplored. To enable efficient and accurate prediction in this domain, we propose DESCENT, a transformer-based architecture designed to handle heterogeneous dynamics and strict topological constraints. Our approach features a Potential Reachable Set (PRS) context sampling mechanism that adaptively collects airfield environment context across diverse operational phases. Combined with a detection transformer-based decoder, DESCENT generates accurate trajectory forecasts. Extensive evaluations on the Amelia-10 benchmark demonstrate significant performance improvements over state-of-the-art baselines. These gains are especially pronounced in safety-critical scenarios, where our domain-aware sampling provides critical long-horizon context necessary for safe navigation.",
+      "published_utc": "2026-08-26T16:49:50Z",
+      "updated_utc": "2026-08-26T16:49:50Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.26002v1",
+      "abs_url": "http://arxiv.org/abs/2608.26002v1"
+    },
+    "2608.25284v1": {
+      "arxiv_id": "2608.25284v1",
+      "title": "Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration",
+      "authors": [
+        "Aoi Otake",
+        "Ferdinand Hartmann",
+        "Ko Igari",
+        "Shingo Murata"
+      ],
+      "summary": "Physical human-robot collaboration requires a robot to provide assistance when human intention is clear while remaining compliant when several future motions are plausible. We present an adaptive stiffness framework based on generative action-chunk sampling. Conditioned on an RGB image and external joint-torque estimates, the policy samples multiple future action chunks from an observation-conditioned prior. Variation among the sampled action chunks is used to continuously adapt joint stiffness and damping. Greater variation makes the robot more compliant to facilitate human guidance, whereas lower variation provides firmer assistance. In a real-world collaborative transport task with four possible directions, the proposed method achieved an average success rate of 0.95, compared with 0.83 for a fixed-stiffness ablation and 0.69 for a deterministic baseline. Near direction determination, variation among the sampled action chunks increased and the controller accordingly reduced stiffness. These results suggest that variation among actions sampled by a generative policy can serve as an online control signal for balancing assistance and compliance in physical human-robot interaction.",
+      "published_utc": "2026-08-26T01:44:11Z",
+      "updated_utc": "2026-08-26T01:44:11Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.25284v1",
+      "abs_url": "http://arxiv.org/abs/2608.25284v1"
     }
   },
   "topics": {
@@ -19323,9 +19362,10 @@
         "2605.18010v2",
         "2608.17882v2",
         "2608.21414v1",
-        "2608.24094v1"
+        "2608.24094v1",
+        "2608.26002v1"
       ],
-      "latest_update": "2026-08-26"
+      "latest_update": "2026-08-27"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19905,9 +19945,10 @@
         "2608.23486v1",
         "2608.22920v1",
         "2604.10169v4",
-        "2608.23486v2"
+        "2608.23486v2",
+        "2608.26002v1"
       ],
-      "latest_update": "2026-08-26"
+      "latest_update": "2026-08-27"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20161,9 +20202,10 @@
         "2608.12145v1",
         "2608.07468v3",
         "2608.22920v1",
-        "2608.24094v1"
+        "2608.24094v1",
+        "2608.25284v1"
       ],
-      "latest_update": "2026-08-26"
+      "latest_update": "2026-08-27"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
