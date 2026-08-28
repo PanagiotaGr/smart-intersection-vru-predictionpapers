@@ -1,14 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-08-27` (timezone: `Europe/Athens`)
+Updated: `2026-08-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **255**
+Total papers tracked: **257**
 
 ---
 
 - **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
+- **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v2) · [pdf](https://arxiv.org/pdf/2608.26002v2) · id: `2608.26002v2`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
@@ -48,6 +51,9 @@ Total papers tracked: **255**
 - **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
   *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
   Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v1) · [pdf](https://arxiv.org/pdf/2607.19971v1) · id: `2607.19971v1`
+- **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
+  *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
+  Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v2) · [pdf](https://arxiv.org/pdf/2607.19971v2) · id: `2607.19971v2`
 - **Receiver-Centered Robot-to-Human Handover with Grasp-Aware Object Orientation**  
   *Federico Biagi, Dario Onfiani, Simone Silenzi, Luigi Biagiotti*  
   Published: `2026-07-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.17839v1) · [pdf](https://arxiv.org/pdf/2607.17839v1) · id: `2607.17839v1`

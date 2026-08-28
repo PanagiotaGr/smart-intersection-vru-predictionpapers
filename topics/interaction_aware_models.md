@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-08-27` (timezone: `Europe/Athens`)
+Updated: `2026-08-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **262**
+Total papers tracked: **266**
 
 ---
 
+- **Multi-Person Human Motion Forecasting in Complex Scenes**  
+  *Serdar Ozsoy, Lars Doorenbos, Juergen Gall*  
+  Published: `2026-08-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.27039v1) · [pdf](https://arxiv.org/pdf/2608.27039v1) · id: `2608.27039v1`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
@@ -39,6 +42,9 @@ Total papers tracked: **262**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v3) · [pdf](https://arxiv.org/pdf/2608.07468v3) · id: `2608.07468v3`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Yu Wu, Honglin Li, Dingkang Liang et al.*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v4) · [pdf](https://arxiv.org/pdf/2608.07468v4) · id: `2608.07468v4`
 - **Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception**  
   *Yidong Zhu, Zibo Dai, Tongning Zhang, Leixin Chang, Hua Chen*  
   Published: `2026-08-07` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06907v1) · [pdf](https://arxiv.org/pdf/2608.06907v1) · id: `2608.06907v1`
@@ -54,12 +60,18 @@ Total papers tracked: **262**
 - **Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction**  
   *Wei Wei, Yinyuan Zhao, Ruixuan Yu*  
   Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03379v1) · [pdf](https://arxiv.org/pdf/2608.03379v1) · id: `2608.03379v1`
+- **Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction**  
+  *Wei Wei, Yinyuan Zhao, Ruixuan Yu*  
+  Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03379v2) · [pdf](https://arxiv.org/pdf/2608.03379v2) · id: `2608.03379v2`
 - **SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction**  
   *Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, Jintao Cheng, Chi Man Vong, Xieyuanli Chen et al.*  
   Published: `2026-08-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.00779v1) · [pdf](https://arxiv.org/pdf/2608.00779v1) · id: `2608.00779v1`
 - **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
   *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
   Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v1) · [pdf](https://arxiv.org/pdf/2607.19971v1) · id: `2607.19971v1`
+- **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training**  
+  *Taewon Seo, Seonae Jeon, Giwon Lee, Kuk-Jin Yoon, Daehee Park*  
+  Published: `2026-07-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.19971v2) · [pdf](https://arxiv.org/pdf/2607.19971v2) · id: `2607.19971v2`
 - **Receiver-Centered Robot-to-Human Handover with Grasp-Aware Object Orientation**  
   *Federico Biagi, Dario Onfiani, Simone Silenzi, Luigi Biagiotti*  
   Published: `2026-07-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2607.17839v1) · [pdf](https://arxiv.org/pdf/2607.17839v1) · id: `2607.17839v1`

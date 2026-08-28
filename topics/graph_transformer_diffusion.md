@@ -1,14 +1,20 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-08-27` (timezone: `Europe/Athens`)
+Updated: `2026-08-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **168**
+Total papers tracked: **171**
 
 ---
 
+- **Multi-Person Human Motion Forecasting in Complex Scenes**  
+  *Serdar Ozsoy, Lars Doorenbos, Juergen Gall*  
+  Published: `2026-08-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.27039v1) · [pdf](https://arxiv.org/pdf/2608.27039v1) · id: `2608.27039v1`
 - **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
+- **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
+  *Alexander Prutsch, David Schinagl, Horst Possegger*  
+  Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v2) · [pdf](https://arxiv.org/pdf/2608.26002v2) · id: `2608.26002v2`
 - **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
   *Yiren Lu, Xin Ye, Jiaming Liu, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra, Min Cai et al.*  
   Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v1) · [pdf](https://arxiv.org/pdf/2608.23486v1) · id: `2608.23486v1`
@@ -51,6 +57,9 @@ Total papers tracked: **168**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Honglin Li, Dingkang Liang, Xiang Bai*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v3) · [pdf](https://arxiv.org/pdf/2608.07468v3) · id: `2608.07468v3`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Yu Wu, Honglin Li, Dingkang Liang et al.*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v4) · [pdf](https://arxiv.org/pdf/2608.07468v4) · id: `2608.07468v4`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`

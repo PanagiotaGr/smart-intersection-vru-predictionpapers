@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-08-27` (timezone: `Europe/Athens`)
+Updated: `2026-08-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **215**
+Total papers tracked: **216**
 
 ---
 
@@ -66,6 +66,9 @@ Total papers tracked: **215**
 - **Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction**  
   *Wei Wei, Yinyuan Zhao, Ruixuan Yu*  
   Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03379v1) · [pdf](https://arxiv.org/pdf/2608.03379v1) · id: `2608.03379v1`
+- **Residual Flow Matching with Dynamic Cross-Interaction for 3D Multi-Person Motion Prediction**  
+  *Wei Wei, Yinyuan Zhao, Ruixuan Yu*  
+  Published: `2026-08-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.03379v2) · [pdf](https://arxiv.org/pdf/2608.03379v2) · id: `2608.03379v2`
 - **Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis**  
   *Rishov Paul, Frederick H. Epstein, Miaomiao Zhang*  
   Published: `2026-08-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.01677v1) · [pdf](https://arxiv.org/pdf/2608.01677v1) · id: `2608.01677v1`
