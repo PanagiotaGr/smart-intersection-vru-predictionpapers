@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "total_papers": 876,
+  "total_papers": 881,
   "papers_with_fulltext_claims": 0,
   "papers_eligible_for_numerical_synthesis": 0,
   "papers": [
@@ -6661,6 +6661,14 @@
       "eligible_for_numerical_synthesis": false
     },
     {
+      "paper_id": "2607.19971v2",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
       "paper_id": "2607.26473v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
@@ -6702,6 +6710,14 @@
     },
     {
       "paper_id": "2608.03379v1",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2608.03379v2",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
       "validation_error_count": 0,
@@ -6758,6 +6774,14 @@
     },
     {
       "paper_id": "2608.07468v3",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2608.07468v4",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
       "validation_error_count": 0,
@@ -7006,6 +7030,22 @@
     },
     {
       "paper_id": "2608.26002v1",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2608.26002v2",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2608.27039v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
       "validation_error_count": 0,
