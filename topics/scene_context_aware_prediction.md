@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-01` (timezone: `Europe/Athens`)
+Updated: `2026-09-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **216**
+Total papers tracked: **217**
 
 ---
 
@@ -33,6 +33,9 @@ Total papers tracked: **216**
 - **Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling**  
   *Michael Fore, Akshay Jain, Justin Downes, Rohan Pradhan, Duncan Botti*  
   Published: `2026-08-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.14349v1) · [pdf](https://arxiv.org/pdf/2608.14349v1) · id: `2608.14349v1`
+- **Non-Parametric Spatiotemporal Trajectory Prediction via State-Conditioned Transition Sampling**  
+  *Michael Fore, Akshay Jain, Justin Downes, Rohan Pradhan, Duncan Botti*  
+  Published: `2026-08-14` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.14349v2) · [pdf](https://arxiv.org/pdf/2608.14349v2) · id: `2608.14349v2`
 - **AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN**  
   *Yutong Liu, Xiaojie Li, Mingzhu Xu, Jianlong Wu*  
   Published: `2026-08-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.12835v1) · [pdf](https://arxiv.org/pdf/2608.12835v1) · id: `2608.12835v1`
