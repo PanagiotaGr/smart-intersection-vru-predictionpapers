@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-02` (timezone: `Europe/Athens`)
+Updated: `2026-09-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **217**
+Total papers tracked: **219**
 
 ---
 
+- **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
+  *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
+  Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
+- **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
+  *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
+  Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`

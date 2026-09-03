@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-02` (timezone: `Europe/Athens`)
+Updated: `2026-09-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **172**
+Total papers tracked: **173**
 
 ---
 
+- **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
+  *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
+  Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
 - **Multi-Person Human Motion Forecasting in Complex Scenes**  
   *Serdar Ozsoy, Lars Doorenbos, Juergen Gall*  
   Published: `2026-08-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.27039v1) · [pdf](https://arxiv.org/pdf/2608.27039v1) · id: `2608.27039v1`

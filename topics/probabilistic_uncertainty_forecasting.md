@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-02` (timezone: `Europe/Athens`)
+Updated: `2026-09-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **182**
+Total papers tracked: **183**
 
 ---
 
+- **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
+  *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
+  Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
 - **EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting**  
   *Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen*  
   Published: `2026-08-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.22449v1) · [pdf](https://arxiv.org/pdf/2608.22449v1) · id: `2608.22449v1`

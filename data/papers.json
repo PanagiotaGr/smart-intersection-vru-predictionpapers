@@ -18610,6 +18610,52 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.14349v2",
       "abs_url": "http://arxiv.org/abs/2608.14349v2"
+    },
+    "2609.02252v1": {
+      "arxiv_id": "2609.02252v1",
+      "title": "DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space",
+      "authors": [
+        "Steffen Hagedorn",
+        "Aron Distelzweig",
+        "Alexandru P. Condurache"
+      ],
+      "summary": "In trajectory planning for autonomous driving, hybrid planning architectures are often realized as a collection of disparate modules, each with its own objectives. This lack of a unifying principle can lead to inconsistencies between the initial and refined trajectory, resulting in suboptimal behavior. We address this by introducing DiffuSearch, a novel hybrid planner that uses a unified set of objectives across generation and refinement. Our model encourages all components to follow the same shared driving goals: collision avoidance, drivable area compliance, comfort, and progress. DiffuSearch employs a two-stage architecture. First, a guided diffusion model generates a scene-consistent, joint trajectory prediction, using our driving objectives as differentiable guidance functions to implicitly steer the denoising process. Second, a Monte Carlo Tree Search (MCTS) in a discretized action space performs an explicit, local refinement of this proposal, leveraging the same driving objectives as its reward function. This synergistic design leverages the diffusion model's strength in finding scene-consistent solutions combined with the explainable, constraint-aware refinement of MCTS. Experiments on nuPlan and interPlan reactive closed-loop benchmarks demonstrate that DiffuSearch achieves strong and often state-of-the-art performance, substantially reducing collisions and improving comfort, particularly in complex, interactive scenarios. Our ablation studies indicate that MCTS refinement is the main mechanism behind the gains, while sharing objectives between implicit guidance and explicit search provides further consistent improvements.",
+      "published_utc": "2026-09-02T08:00:17Z",
+      "updated_utc": "2026-09-02T08:00:17Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.02252v1",
+      "abs_url": "http://arxiv.org/abs/2609.02252v1"
+    },
+    "2609.01899v1": {
+      "arxiv_id": "2609.01899v1",
+      "title": "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views",
+      "authors": [
+        "Skanda Koppula",
+        "Frano Rajic",
+        "Abdullah Faiz Ur Rahman",
+        "Yi Yang",
+        "Ignacio Rocco",
+        "Jeet Thakwani",
+        "Rishabh Kabra",
+        "Andrew Zisserman",
+        "Joao Carreira",
+        "Siyu Tang",
+        "Carl Doersch",
+        "Gabriel Brostow"
+      ],
+      "summary": "Multi-camera systems are increasingly practical for robotics, AR/VR, and autonomous driving because complementary views reduce depth ambiguity and preserve visibility under occlusion. Existing point-tracking benchmarks, however, focus on a single video or static multi-camera rigs. None test long-term 3D point tracking across several synchronized views under camera motion. We introduce TAPVid-MV (Tracking Any Point in Video across Multiple Views), the first benchmark for this setting. It contains a curated set of 284 sequences, 1,142 calibrated camera streams, and 109,769 point tracks across seven subsets spanning indoor and outdoor domains, from robotics and human activity to driving and synthetic procedural scenes. We obtain these trajectories using dataset-specific auxiliary modalities: sensor depth, LiDAR, SLAM and SfM points, human meshes, posed object meshes, and simulation. Every sequence and trajectory is visually verified by human annotators. Across more than 30 baselines, no method comes close to solving the task. Surprisingly, existing multi-view point trackers do not consistently outperform monocular point trackers. By evaluating reconstruction and point tracking on the same datasets, TAPVid-MV helps distinguish errors in recovered geometry from errors in point correspondence. Through this joint analysis, we identify geometry recovery as a major bottleneck for accurate 3D point tracking. Beyond multi-view 3D point tracking, our released annotations support monocular 2D and 3D point tracking, future-trajectory prediction, and 4D reconstruction.",
+      "published_utc": "2026-09-01T21:58:51Z",
+      "updated_utc": "2026-09-01T21:58:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.01899v1",
+      "abs_url": "http://arxiv.org/abs/2609.01899v1"
     }
   },
   "topics": {
@@ -19094,9 +19140,10 @@
         "2608.27039v1",
         "2608.07468v4",
         "2608.03379v2",
-        "2607.19971v2"
+        "2607.19971v2",
+        "2609.02252v1"
       ],
-      "latest_update": "2026-08-28"
+      "latest_update": "2026-09-03"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19489,9 +19536,10 @@
         "2608.24094v1",
         "2608.26002v1",
         "2608.26002v2",
-        "2607.19971v2"
+        "2607.19971v2",
+        "2609.02252v1"
       ],
-      "latest_update": "2026-08-28"
+      "latest_update": "2026-09-03"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19712,9 +19760,11 @@
         "2608.23776v1",
         "2608.23486v2",
         "2608.03379v2",
-        "2608.14349v2"
+        "2608.14349v2",
+        "2609.02252v1",
+        "2609.01899v1"
       ],
-      "latest_update": "2026-09-02"
+      "latest_update": "2026-09-03"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19900,9 +19950,10 @@
         "2608.17882v1",
         "2608.17882v2",
         "2608.22449v1",
-        "2604.10169v4"
+        "2604.10169v4",
+        "2609.01899v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-09-03"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20078,9 +20129,10 @@
         "2608.27039v1",
         "2608.26002v2",
         "2608.07468v4",
-        "2608.14349v2"
+        "2608.14349v2",
+        "2609.02252v1"
       ],
-      "latest_update": "2026-09-02"
+      "latest_update": "2026-09-03"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",

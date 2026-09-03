@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-02` (timezone: `Europe/Athens`)
+Updated: `2026-09-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **257**
+Total papers tracked: **258**
 
 ---
 
+- **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
+  *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
+  Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
 - **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
