@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-03` (timezone: `Europe/Athens`)
+Updated: `2026-09-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **183**
+Total papers tracked: **184**
 
 ---
 
+- **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations**  
+  *Duncan Eddy, Isaac R. Ward, Grace Ra Kim, Mykel J. Kochenderfer*  
+  Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.03067v1) · [pdf](https://arxiv.org/pdf/2609.03067v1) · id: `2609.03067v1`
 - **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
   *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
   Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`

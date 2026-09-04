@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-03` (timezone: `Europe/Athens`)
+Updated: `2026-09-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **173**
+Total papers tracked: **174**
 
 ---
 
+- **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations**  
+  *Duncan Eddy, Isaac R. Ward, Grace Ra Kim, Mykel J. Kochenderfer*  
+  Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.03067v1) · [pdf](https://arxiv.org/pdf/2609.03067v1) · id: `2609.03067v1`
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
