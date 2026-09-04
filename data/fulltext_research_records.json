@@ -10584,6 +10584,30 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2609.01899v1": {
+      "schema_version": 1,
+      "paper_id": "2609.01899v1",
+      "title": "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views",
+      "pdf_url": "https://arxiv.org/pdf/2609.01899v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.02252v1": {
+      "schema_version": 1,
+      "paper_id": "2609.02252v1",
+      "title": "DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space",
+      "pdf_url": "https://arxiv.org/pdf/2609.02252v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
