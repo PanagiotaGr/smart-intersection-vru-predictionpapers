@@ -18676,6 +18676,154 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.03067v1",
       "abs_url": "http://arxiv.org/abs/2609.03067v1"
+    },
+    "2609.08041v1": {
+      "arxiv_id": "2609.08041v1",
+      "title": "MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States",
+      "authors": [
+        "Juncen Long",
+        "Xiaofeng Jin",
+        "Gianluca Bardaro",
+        "Simone Mentasti",
+        "Matteo Matteucci"
+      ],
+      "summary": "Many pedestrian trajectory prediction algorithms have been proposed to improve the safety of navigation for mobile robots working in human-robot coexistence environments. Some pedestrian trajectory prediction algorithms extract information about obstacles near pedestrians from top-down view images to improve the accuracy of trajectory prediction. However, mobile robots typically create local occupancy maps using LiDAR, rather than top-down view images. Meanwhile, the vision sensors on board robots provide egocentric view images, which contain fine-grained behavioral information about the pedestrians near the robot. To better use the information collected by LiDAR and on-board vision sensors, we propose MamMA, a Mamba-based pedestrian trajectory prediction algorithm considering occupancy maps and pedestrian awareness states. MamMA divides the occupancy map by patches and extracts obstacle features from each patch to create map features. Pedestrian awareness states are divided and considered, as some studies show that awareness states affect the perception and speed of pedestrians. Furthermore, a Mamba-based model is proposed to predict the future trajectories of pedestrians based on different types of features. Experiments on the STCrowd, SiT, JRDB, ETH, and UCY datasets show that MamMA achieves better average displacement error and final displacement error than the state-of-the-art algorithms.",
+      "published_utc": "2026-09-07T22:56:48Z",
+      "updated_utc": "2026-09-07T22:56:48Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.08041v1",
+      "abs_url": "http://arxiv.org/abs/2609.08041v1"
+    },
+    "2609.07685v1": {
+      "arxiv_id": "2609.07685v1",
+      "title": "CrowdTraj: A Benchmark for Dense Crowd Trajectory Prediction in Realistic Crowded Environments",
+      "authors": [
+        "Antonius Bima Murti Wijaya",
+        "Paul Henderson",
+        "Marwa Mahmoud"
+      ],
+      "summary": "In real-world applications, pedestrian trajectory prediction models rely on inputs from detection and tracking systems. Prior trajectory prediction benchmarks either contain relatively sparse pedestrian interactions, assume perfect tracking inputs, or rely on overhead viewpoints that minimize occlusion and perspective distortion, limiting evaluation in realistic dense-crowd scenarios. We present CrowdTraj, a benchmark for pedestrian trajectory prediction in natural dense crowd scenes. Unlike previous datasets, CrowdTraj supports end-to-end evaluation from detection through tracking to trajectory prediction under severe occlusion in CCTV views. It also captures diverse, natural pedestrian behaviours, including abrupt directional changes rarely observed in existing benchmarks. CrowdTraj includes five diverse scenes, with an average of 1,146 unique pedestrians per scene, maximum frame-level densities ranging from 114 to 372 pedestrians, and over 3.2 million annotated head bounding boxes. CrowdTraj provides pixel and real-world coordinates via per-scene homography matrices for physically meaningful analysis. Our experimental results show that tracking accuracy (IDF1) drops to 0.68 to 0.70 in the densest scenes, compared with approximately 0.90 in less crowded scenes. Trajectory prediction training also becomes substantially more computationally expensive in dense scenes, with training times increasing by up to 8 times. These findings show that CrowdTraj exposes limitations in current trajectory prediction pipelines that remain hidden on existing sparse-crowd benchmarks, particularly in robustness to tracking noise and computational scalability.",
+      "published_utc": "2026-09-07T16:06:24Z",
+      "updated_utc": "2026-09-07T16:06:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.07685v1",
+      "abs_url": "http://arxiv.org/abs/2609.07685v1"
+    },
+    "2609.06195v1": {
+      "arxiv_id": "2609.06195v1",
+      "title": "EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan",
+      "authors": [
+        "Azusa Sawada",
+        "Allan Wang",
+        "Hideo Saito",
+        "Aaron Steinfeld"
+      ],
+      "summary": "This paper proposes a transferable Map of Dynamics (MoD) framework that generalizes to unknown environments using only egocentric 3D LiDAR point clouds to overcome the long-standing limitation of traditional MoD methods. While MoDs are essential for encoding human motion characteristics to enable accurate pedestrian trajectory prediction or safe robot navigation, traditional approaches suffer from site-specificity, requiring exhaustive trajectory accumulation at every new location. Extending recent advances in neural implicit modeling, our framework trains a continuous, LiDAR-based MoD estimator across diverse environments. To mitigate the inherent sparsity and temporal bias of real-world trajectory data, we introduce a position-balanced sampling strategy and a multi-task learning architecture that jointly predicts motion distributions and a spatial frequency score map. The latter is further augmented by visibility-aware losses to compensate for incomplete observation data. Comprehensive experiments demonstrate that our method effectively reconstructs underlying motion maps even in unknown locations from a single instantaneous LiDAR scan, despite highly sparse training data. Finally, we show that our improvements enhance the reliability of downstream trajectory prediction.",
+      "published_utc": "2026-09-05T17:35:21Z",
+      "updated_utc": "2026-09-05T17:35:21Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.06195v1",
+      "abs_url": "http://arxiv.org/abs/2609.06195v1"
+    },
+    "2609.08636v1": {
+      "arxiv_id": "2609.08636v1",
+      "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
+      "authors": [
+        "Qiaohui Chu",
+        "Haoyu Zhang",
+        "Meng Liu",
+        "Haoxiang Shi",
+        "Dongmei Jiang",
+        "Liqiang Nie"
+      ],
+      "summary": "Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and human-computer interaction. Existing methods struggle to translate semantic understanding into precise continuous 3D localization and to balance motion diversity with structural consistency in pose forecasting. More fundamentally, these tasks are often modeled separately, leaving the continuous geometric and temporal correspondence between interaction locations and body motion insufficiently captured. To address these challenges, we introduce Coherent4D, a large-scale egocentric dataset for continuous 4D interaction forecasting, comprising approximately 233K samples across three domains. Each sample pairs a sequence of future 3D interaction locations with corresponding full-body poses, aligned in time and expressed in a shared coordinate system. We also provide evaluation metrics in continuous space. Building on this formulation, we propose HIGFlow, a Hand Interaction Guided Residual Flow framework that models forecasting as a cascaded where-to-how process. HIGFlow first forecasts continuous future interaction locations by combining semantic grounding with short-horizon visual dynamics, and then uses the predicted location sequence to condition a deterministic motion anchor and residual Flow Matching for diverse yet structurally consistent full-body motion forecasting. Extensive experiments across all three domains demonstrate consistent improvements over representative baselines on both location and pose forecasting, while ablations validate the contributions of the proposed components. The project page is available at https://corrineqiu.github.io/from-where-to-how/.",
+      "published_utc": "2026-09-08T12:06:23Z",
+      "updated_utc": "2026-09-08T12:06:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.08636v1",
+      "abs_url": "http://arxiv.org/abs/2609.08636v1"
+    },
+    "2609.05892v1": {
+      "arxiv_id": "2609.05892v1",
+      "title": "A4A: Cross-Embodiment Transfer of Action-Oriented 4D Affordances from Human Demonstrations",
+      "authors": [
+        "Yifan Han",
+        "Litao Liu",
+        "Yuqi Gu",
+        "Ye Lu",
+        "Hanqing Wang",
+        "Sidney Wai",
+        "Ishaan Myrie",
+        "Qi Zhang",
+        "Jingjin Yu",
+        "Gen Li"
+      ],
+      "summary": "Human demonstrations contain rich manipulation knowledge, but it remains unclear what information can be transferred effectively to robot control. Existing affordance representations are typically formulated as 2D masks, 3D regions, contact points, or actionability scores, and therefore primarily identify where interaction may occur. However, effective manipulation also requires modeling how interaction-relevant geometry evolves during task execution. To bridge this gap, we introduce action-oriented 4D affordances, which represent the language-conditioned future trajectories of interaction-relevant 3D points. These trajectories capture task-conditioned geometric evolution rather than embodiment-specific actions, enabling transferable interaction priors across humans and robots. Based on this representation, we construct a large-scale action-oriented 4D affordance dataset from existing human--object interaction video data and complementary RGB-D demonstrations, and introduce A4A, an affordance-to-action framework that uses 4D affordance trajectory prediction to pretrain robot policies before manipulation fine-tuning. Experiments in both simulation and the real world validate the effectiveness of A4A, showing that pretraining with action-oriented 4D affordance data consistently improves the manipulation performance of diverse VLA policies. These results establish action-oriented 4D affordances as an effective cross-embodiment representation for transferring manipulation knowledge from human demonstrations to robot control.",
+      "published_utc": "2026-09-05T05:23:29Z",
+      "updated_utc": "2026-09-05T05:23:29Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.05892v1",
+      "abs_url": "http://arxiv.org/abs/2609.05892v1"
+    },
+    "2609.08117v1": {
+      "arxiv_id": "2609.08117v1",
+      "title": "DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting",
+      "authors": [
+        "Yuhang Wang",
+        "Chuheng Wei",
+        "Jingxin Yang",
+        "Xishun Liao",
+        "Hao Zhou"
+      ],
+      "summary": "Driver motion can provide cues to ongoing behavior, attention, and near-term driving intent. However, most existing driver-centric datasets focus on recognizing predefined driver behaviors from short video clips, while human motion forecasting benchmarks largely target motion outside the vehicle. We introduce DriveMotion, a multi-source benchmark for continuous driver motion forecasting. DriveMotion contains 393 hours of 133-keypoint motion sequences at 10 Hz from 360 drivers, integrating naturalistic driving data, curated public in-cabin videos, and the AIDE dataset into a unified representation with per-joint validity masks and synchronized driving context. Naturalistic driving contains long periods of limited body movement, making uniformly sampled evaluation dominated by persistence and less sensitive to brief but behaviorally meaningful motion. To address this, we use dynamics-anchored evaluation, placing forecasting windows around vehicle maneuvers identified offline from CAN signals without providing CAN to the model at inference. Arm motion in pre-maneuver windows is 3.4x greater than in route-matched stable-driving controls. On these anchored windows, learned models reduce forecasting error over persistence by up to 15%, while maneuver-enriched training improves forecast-derived Part-State F1 by 44% over the zero-motion reference. Training on the full multi-source corpus further reduces forecasting error on held-out web drivers by 38% compared with BATON-only training. DriveMotion provides identity-disjoint splits, fixed evaluation subsets, and reference implementations for reproducible evaluation of continuous driver motion forecasting. The dataset and benchmark are available at https://huggingface.co/datasets/HenryYHW/DriveMotion",
+      "published_utc": "2026-09-08T01:49:18Z",
+      "updated_utc": "2026-09-08T01:49:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.08117v1",
+      "abs_url": "http://arxiv.org/abs/2609.08117v1"
+    },
+    "2608.25284v2": {
+      "arxiv_id": "2608.25284v2",
+      "title": "Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration",
+      "authors": [
+        "Aoi Otake",
+        "Ferdinand Hartmann",
+        "Ko Igari",
+        "Shingo Murata"
+      ],
+      "summary": "Physical human-robot collaboration requires a robot to provide assistance when human intention is clear while remaining compliant when several future motions are plausible. We present an adaptive stiffness framework based on generative action-chunk sampling. Conditioned on an RGB image and external joint-torque estimates, the policy samples multiple latent variables from an observation-conditioned prior and decodes them into future action chunks. Variation among the sampled action chunks is used to continuously adapt joint stiffness and damping. Greater variation makes the robot more compliant to facilitate human guidance, whereas lower variation provides firmer assistance. In a real-world collaborative transport task with four possible directions, the proposed method achieved an average success rate of 0.95, compared with 0.83 for a fixed-stiffness ablation and 0.69 for a deterministic baseline. Near direction determination, variation among the sampled action chunks increased, and the controller reduced stiffness accordingly. These results suggest that variation among actions sampled by a generative policy can serve as an online control signal for balancing assistance and compliance in physical human-robot interaction.",
+      "published_utc": "2026-08-26T01:44:11Z",
+      "updated_utc": "2026-09-07T09:35:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.25284v2",
+      "abs_url": "http://arxiv.org/abs/2608.25284v2"
     }
   },
   "topics": {
@@ -18834,9 +18982,12 @@
         "2607.16156v1",
         "2606.18824v2",
         "2510.03314v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2609.08041v1",
+        "2609.07685v1",
+        "2609.06195v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-09-09"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -19161,9 +19312,12 @@
         "2608.07468v4",
         "2608.03379v2",
         "2607.19971v2",
-        "2609.02252v1"
+        "2609.02252v1",
+        "2609.08636v1",
+        "2609.07685v1",
+        "2609.05892v1"
       ],
-      "latest_update": "2026-09-03"
+      "latest_update": "2026-09-09"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19557,9 +19711,10 @@
         "2608.26002v1",
         "2608.26002v2",
         "2607.19971v2",
-        "2609.02252v1"
+        "2609.02252v1",
+        "2609.08041v1"
       ],
-      "latest_update": "2026-09-03"
+      "latest_update": "2026-09-09"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19782,9 +19937,12 @@
         "2608.03379v2",
         "2608.14349v2",
         "2609.02252v1",
-        "2609.01899v1"
+        "2609.01899v1",
+        "2609.08041v1",
+        "2609.07685v1",
+        "2609.06195v1"
       ],
-      "latest_update": "2026-09-03"
+      "latest_update": "2026-09-09"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -19972,9 +20130,10 @@
         "2608.22449v1",
         "2604.10169v4",
         "2609.01899v1",
-        "2609.03067v1"
+        "2609.03067v1",
+        "2609.06195v1"
       ],
-      "latest_update": "2026-09-04"
+      "latest_update": "2026-09-09"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20152,9 +20311,10 @@
         "2608.07468v4",
         "2608.14349v2",
         "2609.02252v1",
-        "2609.03067v1"
+        "2609.03067v1",
+        "2609.08117v1"
       ],
-      "latest_update": "2026-09-04"
+      "latest_update": "2026-09-09"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20410,9 +20570,11 @@
         "2608.22920v1",
         "2608.24094v1",
         "2608.25284v1",
-        "2608.07468v4"
+        "2608.07468v4",
+        "2609.08117v1",
+        "2608.25284v2"
       ],
-      "latest_update": "2026-08-28"
+      "latest_update": "2026-09-09"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -20545,9 +20707,11 @@
         "2607.11939v1",
         "2607.16156v1",
         "2606.18824v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2609.08041v1",
+        "2609.07685v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-09-09"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -20684,9 +20848,12 @@
         "2604.07126v3",
         "2608.13031v1",
         "2608.17044v1",
-        "2511.20011v3"
+        "2511.20011v3",
+        "2609.08041v1",
+        "2609.07685v1",
+        "2609.06195v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-09-09"
     }
   }
 }

@@ -1,11 +1,20 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **267**
+Total papers tracked: **270**
 
 ---
 
+- **From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video**  
+  *Qiaohui Chu, Haoyu Zhang, Meng Liu, Haoxiang Shi, Dongmei Jiang, Liqiang Nie*  
+  Published: `2026-09-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08636v1) · [pdf](https://arxiv.org/pdf/2609.08636v1) · id: `2609.08636v1`
+- **CrowdTraj: A Benchmark for Dense Crowd Trajectory Prediction in Realistic Crowded Environments**  
+  *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.07685v1) · [pdf](https://arxiv.org/pdf/2609.07685v1) · id: `2609.07685v1`
+- **A4A: Cross-Embodiment Transfer of Action-Oriented 4D Affordances from Human Demonstrations**  
+  *Yifan Han, Litao Liu, Yuqi Gu, Ye Lu, Hanqing Wang, Sidney Wai, Ishaan Myrie, Qi Zhang et al.*  
+  Published: `2026-09-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.05892v1) · [pdf](https://arxiv.org/pdf/2609.05892v1) · id: `2609.05892v1`
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`

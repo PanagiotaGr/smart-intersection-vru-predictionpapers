@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **258**
+Total papers tracked: **259**
 
 ---
 
+- **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
+  *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`

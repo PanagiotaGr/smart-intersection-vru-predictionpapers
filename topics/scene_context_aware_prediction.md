@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **219**
+Total papers tracked: **222**
 
 ---
 
+- **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
+  *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`
+- **CrowdTraj: A Benchmark for Dense Crowd Trajectory Prediction in Realistic Crowded Environments**  
+  *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.07685v1) · [pdf](https://arxiv.org/pdf/2609.07685v1) · id: `2609.07685v1`
+- **EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan**  
+  *Azusa Sawada, Allan Wang, Hideo Saito, Aaron Steinfeld*  
+  Published: `2026-09-05` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.06195v1) · [pdf](https://arxiv.org/pdf/2609.06195v1) · id: `2609.06195v1`
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`

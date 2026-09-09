@@ -1,14 +1,20 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **51**
+Total papers tracked: **53**
 
 ---
 
+- **DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**  
+  *Yuhang Wang, Chuheng Wei, Jingxin Yang, Xishun Liao, Hao Zhou*  
+  Published: `2026-09-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08117v1) · [pdf](https://arxiv.org/pdf/2609.08117v1) · id: `2609.08117v1`
 - **Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration**  
   *Aoi Otake, Ferdinand Hartmann, Ko Igari, Shingo Murata*  
   Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.25284v1) · [pdf](https://arxiv.org/pdf/2608.25284v1) · id: `2608.25284v1`
+- **Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration**  
+  *Aoi Otake, Ferdinand Hartmann, Ko Igari, Shingo Murata*  
+  Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.25284v2) · [pdf](https://arxiv.org/pdf/2608.25284v2) · id: `2608.25284v2`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`

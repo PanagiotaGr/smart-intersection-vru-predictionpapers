@@ -1,11 +1,17 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **129**
+Total papers tracked: **131**
 
 ---
 
+- **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
+  *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`
+- **CrowdTraj: A Benchmark for Dense Crowd Trajectory Prediction in Realistic Crowded Environments**  
+  *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
+  Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.07685v1) · [pdf](https://arxiv.org/pdf/2609.07685v1) · id: `2609.07685v1`
 - **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
   *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
   Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`

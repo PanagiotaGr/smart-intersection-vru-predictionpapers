@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-08` (timezone: `Europe/Athens`)
+Updated: `2026-09-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **174**
+Total papers tracked: **175**
 
 ---
 
+- **DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**  
+  *Yuhang Wang, Chuheng Wei, Jingxin Yang, Xishun Liao, Hao Zhou*  
+  Published: `2026-09-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08117v1) · [pdf](https://arxiv.org/pdf/2609.08117v1) · id: `2609.08117v1`
 - **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations**  
   *Duncan Eddy, Isaac R. Ward, Grace Ra Kim, Mykel J. Kochenderfer*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.03067v1) · [pdf](https://arxiv.org/pdf/2609.03067v1) · id: `2609.03067v1`
