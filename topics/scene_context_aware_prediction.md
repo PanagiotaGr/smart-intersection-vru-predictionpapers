@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-09` (timezone: `Europe/Athens`)
+Updated: `2026-09-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **222**
+Total papers tracked: **223**
 
 ---
 
+- **Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation**  
+  *Henry Ascencio Trejo, Roel Pieters, Gokhan Alcan*  
+  Published: `2026-09-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.10215v1) · [pdf](https://arxiv.org/pdf/2609.10215v1) · id: `2609.10215v1`
 - **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
   *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
   Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`

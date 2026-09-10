@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-09` (timezone: `Europe/Athens`)
+Updated: `2026-09-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **175**
+Total papers tracked: **177**
 
 ---
 
+- **TempTPI: Informer-Based trajectory prediction for maritime vessels**  
+  *Kevin Ferneding, Veronika Lietavcova, Aleksandra M. Blachowiak, Peder Heiselberg*  
+  Published: `2026-09-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.09840v1) · [pdf](https://arxiv.org/pdf/2609.09840v1) · id: `2609.09840v1`
 - **DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**  
   *Yuhang Wang, Chuheng Wei, Jingxin Yang, Xishun Liao, Hao Zhou*  
   Published: `2026-09-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08117v1) · [pdf](https://arxiv.org/pdf/2609.08117v1) · id: `2609.08117v1`
@@ -237,6 +240,9 @@ Total papers tracked: **175**
 - **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
   *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
   Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v4) · [pdf](https://arxiv.org/pdf/2604.10169v4) · id: `2604.10169v4`
+- **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction**  
+  *Wenchang Duan, Zhenguo Gao, Jinguo Xian, Yi Shi*  
+  Published: `2026-04-11` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2604.10169v5) · [pdf](https://arxiv.org/pdf/2604.10169v5) · id: `2604.10169v5`
 - **Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories**  
   *Wonbong Jang, Shikun Liu, Soubhik Sanyal, Juan Camilo Perez, Kam Woh Ng, Sanskar Agrawal, Juan-Manuel Perez-Rua, Yiannis Douratsos et al.*  
   Published: `2026-04-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.09429v1) · [pdf](https://arxiv.org/pdf/2604.09429v1) · id: `2604.09429v1`

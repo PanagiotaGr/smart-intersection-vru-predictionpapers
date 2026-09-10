@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-09` (timezone: `Europe/Athens`)
+Updated: `2026-09-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **185**
+Total papers tracked: **186**
 
 ---
 
+- **Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation**  
+  *Henry Ascencio Trejo, Roel Pieters, Gokhan Alcan*  
+  Published: `2026-09-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.10215v1) · [pdf](https://arxiv.org/pdf/2609.10215v1) · id: `2609.10215v1`
 - **EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan**  
   *Azusa Sawada, Allan Wang, Hideo Saito, Aaron Steinfeld*  
   Published: `2026-09-05` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.06195v1) · [pdf](https://arxiv.org/pdf/2609.06195v1) · id: `2609.06195v1`

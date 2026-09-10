@@ -6,7 +6,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | Dataset | VRU types | Main tasks | Paper mentions | Status |
 |---|---|---|---:|---|
 | ApolloScape | pedestrian; rider; vehicle | trajectory prediction; scene parsing | 3 | candidate |
-| Argoverse 1 | pedestrian; cyclist; vehicle | motion forecasting; tracking | 28 | candidate |
+| Argoverse 1 | pedestrian; cyclist; vehicle | motion forecasting; tracking | 29 | candidate |
 | Argoverse 2 | pedestrian; cyclist; motorcyclist; vehicle | motion forecasting; 3D perception | 26 | candidate |
 | BDD100K | pedestrian; rider; bicycle; motorcycle; vehicle | detection; tracking; segmentation | 0 | candidate |
 | BLVD | pedestrian; cyclist; vehicle | 3D tracking; interaction and intention | 0 | candidate |
@@ -30,7 +30,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | Tsinghua-Daimler Cyclist | cyclist | cyclist detection | 0 | candidate |
 | UCY | pedestrian | trajectory prediction | 57 | candidate |
 | Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 5 | candidate |
-| Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 18 | candidate |
+| Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 19 | candidate |
 | inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 8 | candidate |
 | nuScenes | pedestrian; bicycle; motorcycle; vehicle | 3D detection; tracking; prediction | 67 | candidate |
 | rounD | pedestrian; cyclist; vehicle | roundabout trajectories; interaction analysis | 5 | candidate |

@@ -18824,6 +18824,64 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2608.25284v2",
       "abs_url": "http://arxiv.org/abs/2608.25284v2"
+    },
+    "2609.10215v1": {
+      "arxiv_id": "2609.10215v1",
+      "title": "Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation",
+      "authors": [
+        "Henry Ascencio Trejo",
+        "Roel Pieters",
+        "Gokhan Alcan"
+      ],
+      "summary": "This work considers adaptive shared human-robot control for nonlinear control-affine systems, where the assumption of a fully rational human is relaxed and the robot adapts its assistance to observed boundedly rational human behavior. We use a level-k bounded-rationality model of the two-player game to construct a finite bank of candidate human and robot policies through alternating best-response computations, with the associated value functions and policies approximated using adaptive dynamic programming. During the shared-control interaction, state-transition residuals compare the measured system evolution with the trajectories predicted by the candidate human policies. The residuals are accumulated using a forgetting factor and mapped to a probabilistic human-behavior model over the finite candidate bank. Rather than selecting a single candidate or averaging stored robot policies, the robot computes a distribution-aware one-step best response by minimizing an expected cooperative cost over the complete estimated human behavior distribution. For a quadratic terminal-value approximation and Euler state propagation, this response admits a closed-form solution expressed in terms of the expected human input. The proposed methods are evaluated in simulations of a benchmark nonlinear system stabilization task, and of a planar manipulator shared control setup. The reported results show decreasing Kullback-Leibler divergence between the estimated and simulated human behavior distributions, and a lower accumulated running cost for the robot agent over the shared control interaction period, than the maximum-probability and probability-weighted alternative policies baseline.",
+      "published_utc": "2026-09-09T14:15:11Z",
+      "updated_utc": "2026-09-09T14:15:11Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.10215v1",
+      "abs_url": "http://arxiv.org/abs/2609.10215v1"
+    },
+    "2609.09840v1": {
+      "arxiv_id": "2609.09840v1",
+      "title": "TempTPI: Informer-Based trajectory prediction for maritime vessels",
+      "authors": [
+        "Kevin Ferneding",
+        "Veronika Lietavcova",
+        "Aleksandra M. Blachowiak",
+        "Peder Heiselberg"
+      ],
+      "summary": "Accurate long-term trajectory prediction for maritime vessels is essential for safety and logistical efficiency. While deep learning models, particularly Transformers, have shown promise in processing Automatic Identification System (AIS) data, they often struggle with the quadratic computational complexity of self-attention and the loss of accuracy over extended forecasting horizons. This study proposes TempTPI, a novel prediction framework that integrates an Informer-based encoder with a multi-channel temporal encoding mechanism. The Informer architecture leverages a ProbSparse self-attention mechanism to reduce computational overhead and focus on the most significant dependencies, while the temporal encoder utilizes Fourier-like frequency expansions to capture cyclic patterns (hourly, daily, and seasonal) in vessel behavior. We evaluate our model against the state-of-the-art TPTrans architecture using AIS data from Danish waters. Experimental results demonstrate that TempTPI consistently outperforms existing methods across prediction windows of 1 to 5 hours. Notably, at a 5-hour horizon, the proposed model achieves a 55% improvement in Mean Squared Error (MSE), offering a robust solution for long-range maritime situational awareness.",
+      "published_utc": "2026-09-09T07:46:26Z",
+      "updated_utc": "2026-09-09T07:46:26Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.09840v1",
+      "abs_url": "http://arxiv.org/abs/2609.09840v1"
+    },
+    "2604.10169v5": {
+      "arxiv_id": "2604.10169v5",
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "authors": [
+        "Wenchang Duan",
+        "Zhenguo Gao",
+        "Jinguo Xian",
+        "Yi Shi"
+      ],
+      "summary": "Trajectory prediction is a key component of autonomous driving systems because future motions directly affect collision checking, behavior planning, and control. The task remains challenging under dense interactions, heterogeneous behaviors, multimodal futures, and limited on-board computation. Existing graph, attention, and generative predictors improve interaction reasoning or uncertainty modeling, but their high-capacity designs are often costly for real-time deployment. Lightweight predictors and conventional distillation reduce inference cost, yet usually rely on static imitation and do not explicitly correct safety-relevant teacher bias. This paper proposes \\textbf{MAVEN-T}, a reinforced heterogeneous distillation framework for real-time multi-agent trajectory prediction. A high-capacity teacher models directed local interactions with a surround-aware graph encoder, combines efficient temporal filtering with shifted-window spatial attention, and decodes maneuver-specific futures through a sparse Mixture-of-Experts head. A compact GRU--Squeeze-and-Excitation student with a Low-Rank Adapted policy head is trained by feature-, attention-, and semantic-level distillation. To align prediction with downstream behavior, the student is further refined by Proximal Policy Optimization rewards for collision avoidance, comfort, and progress, while a complexity-aware curriculum and Elastic Weight Consolidation stabilize stage-wise training. Experiments on NGSIM, HighD, MoCAD, Argoverse~2, and the Waymo Open Motion Dataset evaluate accuracy, efficiency, generalization, robustness, and closed-loop safety. The student achieves 6.2$\\times$ parameter compression, 3.7$\\times$ inference acceleration, and 14.6,ms latency on an NVIDIA Jetson AGX Orin while maintaining competitive accuracy.",
+      "published_utc": "2026-04-11T11:34:13Z",
+      "updated_utc": "2026-09-09T01:20:20Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.10169v5",
+      "abs_url": "http://arxiv.org/abs/2604.10169v5"
     }
   },
   "topics": {
@@ -19315,9 +19373,10 @@
         "2609.02252v1",
         "2609.08636v1",
         "2609.07685v1",
-        "2609.05892v1"
+        "2609.05892v1",
+        "2609.10215v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19712,9 +19771,10 @@
         "2608.26002v2",
         "2607.19971v2",
         "2609.02252v1",
-        "2609.08041v1"
+        "2609.08041v1",
+        "2609.09840v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-10"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -19940,9 +20000,10 @@
         "2609.01899v1",
         "2609.08041v1",
         "2609.07685v1",
-        "2609.06195v1"
+        "2609.06195v1",
+        "2609.10215v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-10"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20131,9 +20192,10 @@
         "2604.10169v4",
         "2609.01899v1",
         "2609.03067v1",
-        "2609.06195v1"
+        "2609.06195v1",
+        "2609.10215v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-10"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20312,9 +20374,11 @@
         "2608.14349v2",
         "2609.02252v1",
         "2609.03067v1",
-        "2609.08117v1"
+        "2609.08117v1",
+        "2609.09840v1",
+        "2604.10169v5"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-10"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
