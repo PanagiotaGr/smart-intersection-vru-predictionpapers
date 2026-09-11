@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **126**
+Total papers tracked: **127**
 
 ---
 
+- **TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs**  
+  *François G. Landry, Moulay A. Akhloufi*  
+  Published: `2026-09-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.10806v1) · [pdf](https://arxiv.org/pdf/2609.10806v1) · id: `2609.10806v1`
 - **The 10th AI City Challenge**  
   *Zheng Tang, Shuo Wang, David C. Anastasiu, Ming-Ching Chang, Anuj Sharma, Quan Kong, Munkhjargal Gochoo, Jun-Wei Hsieh et al.*  
   Published: `2026-08-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.17044v1) · [pdf](https://arxiv.org/pdf/2608.17044v1) · id: `2608.17044v1`

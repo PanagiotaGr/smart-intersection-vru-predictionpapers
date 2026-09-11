@@ -18882,6 +18882,59 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2604.10169v5",
       "abs_url": "http://arxiv.org/abs/2604.10169v5"
+    },
+    "2609.11717v1": {
+      "arxiv_id": "2609.11717v1",
+      "title": "MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images",
+      "authors": [
+        "Vladislav Diuzhev",
+        "Dmitry Yudin"
+      ],
+      "summary": "Unified models for object detection and trajectory forecasting aim to merge perception and prediction for autonomous driving, refining actor trajectories directly over shared bird's-eye-view (BEV) images rasterized from LiDAR and high-definition maps. Their accuracy on dynamic, moving actors, however, remains the hardest part of the task, and the strongest such model, DeTra, has no public implementation. We contribute an openly released DeTra reimplementation with documented approximations, and on top of it MC-DeTra: a family of motion-consistency mechanisms that add supervision through two annotation-derived auxiliary signals -- each actor's observed past motion and the occupancy of the surrounding traffic that forms its social context -- and one inter-output consistency constraint that aligns an actor's predicted heading with its predicted direction of motion. Every proposed loss is train-only and inference-safe: it shapes the shared BEV representation during training and is removed at test time, adding no inference latency. On the Waymo Open Dataset, evaluated under a strict, detection-conditioned forecasting protocol, MC-DeTra improves dynamic, socially-situated trajectory forecasting while preserving or improving detection accuracy; a gradient-based loss-calibration analysis exposes how the auxiliary objectives compete at the shared backbone, and our ablation identifies which signals contribute most. We release code, configurations, and evaluation tooling at https://github.com/diuzhevVlad/MC-DeTra.",
+      "published_utc": "2026-09-10T15:34:09Z",
+      "updated_utc": "2026-09-10T15:34:09Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.11717v1",
+      "abs_url": "http://arxiv.org/abs/2609.11717v1"
+    },
+    "2609.10806v1": {
+      "arxiv_id": "2609.10806v1",
+      "title": "TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs",
+      "authors": [
+        "François G. Landry",
+        "Moulay A. Akhloufi"
+      ],
+      "summary": "The pedestrian crossing intention task involves predicting whether pedestrians are likely to cross the road from the point of view of an autonomous vehicle. We introduce TrajFusionNet+, a novel transformer-based model for pedestrian crossing intention prediction. TrajFusionNet+ combines sequential and visual representations of pedestrian trajectory with a graph-based representation of the scene context in order to predict pedestrian crossing intention. The proposed architecture builds upon our previous model, TrajFusionNet, and comprises three branches: a Sequence Attention Module (SAM), which processes a sequential representation of past and predicted pedestrian trajectories; a Visual Attention Module (VAM), which utilizes a visual representation of the pedestrian trajectories by overlaying observed and predicted bounding boxes onto scene images; and a Graph Attention Module (GAM), which extracts pedestrian-centric graphs from segmented scene images and captures the relational dependencies between pedestrians and traffic elements. TrajFusionNet+ achieves improved state-of-the-art performance on the two most widely used pedestrian crossing intention datasets, PIE and JAAD. Furthermore, we introduce a new evaluation protocol in which models are trained jointly on the PIE and JAAD datasets but evaluated separately on each. Under this setting, TrajFusionNet+ demonstrates superior generalization compared to existing approaches.",
+      "published_utc": "2026-09-09T20:17:32Z",
+      "updated_utc": "2026-09-09T20:17:32Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.10806v1",
+      "abs_url": "http://arxiv.org/abs/2609.10806v1"
+    },
+    "2609.10559v1": {
+      "arxiv_id": "2609.10559v1",
+      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+      "authors": [
+        "Wenzhe Jin",
+        "Haina Tang"
+      ],
+      "summary": "To address the challenges of behavioral multimodality, limited semantic utilization, and long-term error accumulation in vessel trajectory prediction, this paper proposes M3-Former, a multimodal trajectory prediction framework enhanced by large language models (LLMs). The proposed framework incorporates vessel static attributes and navigational intent as semantic priors for long-term trajectory modeling. Specifically, a unified multimodal representation space is constructed, in which static semantic information is encoded by a pre-trained LLM and aligned with dynamic trajectory features through self-attention. To jointly capture global route planning and local motion variations, a dual-granularity Mixture-of-Experts (MoE) architecture is introduced, where sequence-level experts model global navigation trends and token-level experts refine fine-grained maneuvering behaviors. In addition, a Steering-Weighted Cross-Entropy loss is designed to alleviate the long-tail distribution of sparse turning samples and improve prediction accuracy in critical maneuvering scenarios. Experiments on a real-world Danish AIS dataset demonstrate that M\\textsuperscript{3}-Former consistently outperforms state-of-the-art baselines across prediction horizons from 1 to 4 hours. In the 4-hour prediction task, the proposed method reduces Average Displacement Error (ADE) and Final Displacement Error (FDE) by 4.4\\% and 5.1\\%, respectively, compared with the strongest baseline. Qualitative and ablation analyses further verify that semantic fusion effectively reduces long-term trajectory drift, while the dual-granularity MoE improves robustness in complex waterways and route-branching scenarios. The proposed framework establishes a semantic-guided hierarchical prediction paradigm, in which high-level navigational intent and local motion dynamics are jointly modeled for robust long-term vessel trajectory forecasting.",
+      "published_utc": "2026-08-02T16:25:53Z",
+      "updated_utc": "2026-08-02T16:25:53Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.10559v1",
+      "abs_url": "http://arxiv.org/abs/2609.10559v1"
     }
   },
   "topics": {
@@ -19374,9 +19427,10 @@
         "2609.08636v1",
         "2609.07685v1",
         "2609.05892v1",
-        "2609.10215v1"
+        "2609.10215v1",
+        "2609.11717v1"
       ],
-      "latest_update": "2026-09-10"
+      "latest_update": "2026-09-11"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19506,9 +19560,10 @@
         "2604.07126v3",
         "2608.13031v1",
         "2608.17044v1",
-        "2511.20011v3"
+        "2511.20011v3",
+        "2609.10806v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-09-11"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -20001,9 +20056,10 @@
         "2609.08041v1",
         "2609.07685v1",
         "2609.06195v1",
-        "2609.10215v1"
+        "2609.10215v1",
+        "2609.10559v1"
       ],
-      "latest_update": "2026-09-10"
+      "latest_update": "2026-09-11"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20193,9 +20249,10 @@
         "2609.01899v1",
         "2609.03067v1",
         "2609.06195v1",
-        "2609.10215v1"
+        "2609.10215v1",
+        "2609.10559v1"
       ],
-      "latest_update": "2026-09-10"
+      "latest_update": "2026-09-11"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20376,9 +20433,10 @@
         "2609.03067v1",
         "2609.08117v1",
         "2609.09840v1",
-        "2604.10169v5"
+        "2604.10169v5",
+        "2609.10559v1"
       ],
-      "latest_update": "2026-09-10"
+      "latest_update": "2026-09-11"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20577,9 +20635,10 @@
         "2607.12293v1",
         "2606.18824v2",
         "2608.13031v1",
-        "2511.20011v3"
+        "2511.20011v3",
+        "2609.10806v1"
       ],
-      "latest_update": "2026-08-25"
+      "latest_update": "2026-09-11"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -20915,9 +20974,10 @@
         "2511.20011v3",
         "2609.08041v1",
         "2609.07685v1",
-        "2609.06195v1"
+        "2609.06195v1",
+        "2609.10806v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-11"
     }
   }
 }

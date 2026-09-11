@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **223**
+Total papers tracked: **224**
 
 ---
 
@@ -96,6 +96,9 @@ Total papers tracked: **223**
 - **Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis**  
   *Rishov Paul, Frederick H. Epstein, Miaomiao Zhang*  
   Published: `2026-08-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.01677v2) · [pdf](https://arxiv.org/pdf/2608.01677v2) · id: `2608.01677v2`
+- **M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction**  
+  *Wenzhe Jin, Haina Tang*  
+  Published: `2026-08-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.10559v1) · [pdf](https://arxiv.org/pdf/2609.10559v1) · id: `2609.10559v1`
 - **SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction**  
   *Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, Jintao Cheng, Chi Man Vong, Xieyuanli Chen et al.*  
   Published: `2026-08-01` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.00779v1) · [pdf](https://arxiv.org/pdf/2608.00779v1) · id: `2608.00779v1`

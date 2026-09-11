@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
+- **TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs**  
+  *François G. Landry, Moulay A. Akhloufi*  
+  Published: `2026-09-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.10806v1) · [pdf](https://arxiv.org/pdf/2609.10806v1) · id: `2609.10806v1`
 - **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
   *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
   Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`

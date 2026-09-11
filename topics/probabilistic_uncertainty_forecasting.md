@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **186**
+Total papers tracked: **187**
 
 ---
 
@@ -36,6 +36,9 @@ Total papers tracked: **186**
 - **SyncSBC: Decentralized Swarm Behavior Prediction for Synchronized Autonomous Control**  
   *Varun Raveendra, Connor Mattson, Daniel S. Brown*  
   Published: `2026-08-06` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.06587v1) · [pdf](https://arxiv.org/pdf/2608.06587v1) · id: `2608.06587v1`
+- **M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction**  
+  *Wenzhe Jin, Haina Tang*  
+  Published: `2026-08-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.10559v1) · [pdf](https://arxiv.org/pdf/2609.10559v1) · id: `2609.10559v1`
 - **Context-Informed Ship Trajectory Prediction via Conditional Attention**  
   *Yuan Guan, Chandler Squires, Timothy Hu, Pradeep Ravikumar*  
   Published: `2026-07-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.27418v1) · [pdf](https://arxiv.org/pdf/2607.27418v1) · id: `2607.27418v1`

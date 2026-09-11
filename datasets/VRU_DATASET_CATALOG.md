@@ -18,7 +18,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | ETH | pedestrian | trajectory prediction | 0 | candidate |
 | EuroCity Persons | pedestrian; rider | pedestrian detection | 0 | candidate |
 | INTERACTION | pedestrian; cyclist; vehicle | motion forecasting; interaction modelling | 4 | candidate |
-| JAAD | pedestrian | crossing intention; behaviour understanding | 30 | candidate |
+| JAAD | pedestrian | crossing intention; behaviour understanding | 31 | candidate |
 | JRDB | pedestrian | detection; tracking; social navigation | 15 | candidate |
 | KITTI | pedestrian; cyclist; vehicle | detection; tracking; odometry | 4 | candidate |
 | Lyft Level 5 | pedestrian; cyclist; vehicle | motion forecasting | 0 | candidate |
@@ -29,7 +29,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | TrajNet++ | pedestrian | trajectory prediction benchmark | 2 | candidate |
 | Tsinghua-Daimler Cyclist | cyclist | cyclist detection | 0 | candidate |
 | UCY | pedestrian | trajectory prediction | 57 | candidate |
-| Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 5 | candidate |
+| Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 6 | candidate |
 | Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 19 | candidate |
 | inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 8 | candidate |
 | nuScenes | pedestrian; bicycle; motorcycle; vehicle | 3D detection; tracking; prediction | 67 | candidate |

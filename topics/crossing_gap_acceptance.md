@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **67**
+Total papers tracked: **68**
 
 ---
 
+- **TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs**  
+  *François G. Landry, Moulay A. Akhloufi*  
+  Published: `2026-09-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.10806v1) · [pdf](https://arxiv.org/pdf/2609.10806v1) · id: `2609.10806v1`
 - **UniTraffic-Agent: Unified Traffic Video Reasoning for AI City Challenge 2026 Track 3 with Two Out-of-Domain Evaluations**  
   *Peng Li, Qianqian Xu, Shilong Bao, Yangbangyan Jiang, Qingming Huang*  
   Published: `2026-08-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.13031v1) · [pdf](https://arxiv.org/pdf/2608.13031v1) · id: `2608.13031v1`

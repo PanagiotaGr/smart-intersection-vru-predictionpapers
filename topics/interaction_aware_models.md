@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-10` (timezone: `Europe/Athens`)
+Updated: `2026-09-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **271**
+Total papers tracked: **272**
 
 ---
 
+- **MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images**  
+  *Vladislav Diuzhev, Dmitry Yudin*  
+  Published: `2026-09-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.11717v1) · [pdf](https://arxiv.org/pdf/2609.11717v1) · id: `2609.11717v1`
 - **Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation**  
   *Henry Ascencio Trejo, Roel Pieters, Gokhan Alcan*  
   Published: `2026-09-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.10215v1) · [pdf](https://arxiv.org/pdf/2609.10215v1) · id: `2609.10215v1`
