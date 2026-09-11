@@ -7693,6 +7693,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2604.10169v5": {
+      "schema_version": 1,
+      "paper_id": "2604.10169v5",
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2604.10169v5",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2604.10358v1": {
       "schema_version": 1,
       "paper_id": "2604.10358v1",
@@ -10698,6 +10710,30 @@
       "paper_id": "2609.08636v1",
       "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
       "pdf_url": "https://arxiv.org/pdf/2609.08636v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.09840v1": {
+      "schema_version": 1,
+      "paper_id": "2609.09840v1",
+      "title": "TempTPI: Informer-Based trajectory prediction for maritime vessels",
+      "pdf_url": "https://arxiv.org/pdf/2609.09840v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.10215v1": {
+      "schema_version": 1,
+      "paper_id": "2609.10215v1",
+      "title": "Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation",
+      "pdf_url": "https://arxiv.org/pdf/2609.10215v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
