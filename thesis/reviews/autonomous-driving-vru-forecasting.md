@@ -1,6 +1,6 @@
 # Systematic Review: Autonomous Driving Forecasting for VRUs
 
-**Τελευταία αναγέννηση:** 2026-09-11  
+**Τελευταία αναγέννηση:** 2026-09-12  
 **Papers που εντοπίστηκαν:** 1  
 **Claims με page/section/table/figure provenance:** 0
 

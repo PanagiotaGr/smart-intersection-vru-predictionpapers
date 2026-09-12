@@ -10740,6 +10740,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2609.10559v1": {
+      "schema_version": 1,
+      "paper_id": "2609.10559v1",
+      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2609.10559v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.10806v1": {
+      "schema_version": 1,
+      "paper_id": "2609.10806v1",
+      "title": "TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs",
+      "pdf_url": "https://arxiv.org/pdf/2609.10806v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.11717v1": {
+      "schema_version": 1,
+      "paper_id": "2609.11717v1",
+      "title": "MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images",
+      "pdf_url": "https://arxiv.org/pdf/2609.11717v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
