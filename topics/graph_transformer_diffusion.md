@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-13` (timezone: `Europe/Athens`)
+Updated: `2026-09-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **178**
+Total papers tracked: **179**
 
 ---
 
+- **Uncertainty-Aware Conflict Detection Against Operator-Conditioned Weather Hazards**  
+  *Balram Kandoria, Seulki Kim, Aryaman Singh Samyal*  
+  Published: `2026-09-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.12095v1) · [pdf](https://arxiv.org/pdf/2609.12095v1) · id: `2609.12095v1`
 - **TempTPI: Informer-Based trajectory prediction for maritime vessels**  
   *Kevin Ferneding, Veronika Lietavcova, Aleksandra M. Blachowiak, Peder Heiselberg*  
   Published: `2026-09-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.09840v1) · [pdf](https://arxiv.org/pdf/2609.09840v1) · id: `2609.09840v1`
