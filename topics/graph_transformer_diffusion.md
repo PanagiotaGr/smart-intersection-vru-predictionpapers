@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-14` (timezone: `Europe/Athens`)
+Updated: `2026-09-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **179**
+Total papers tracked: **180**
 
 ---
 
+- **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
+  *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
+  Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`
 - **Uncertainty-Aware Conflict Detection Against Operator-Conditioned Weather Hazards**  
   *Balram Kandoria, Seulki Kim, Aryaman Singh Samyal*  
   Published: `2026-09-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.12095v1) · [pdf](https://arxiv.org/pdf/2609.12095v1) · id: `2609.12095v1`

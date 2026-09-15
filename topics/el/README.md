@@ -13,7 +13,7 @@
 | Risk-aware / Safety / Collision Prediction | 0 / 260 | [risk_safety_collision.md](risk_safety_collision.md) |
 | Scene and Context-aware Prediction | 0 / 224 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
 | Probabilistic and Uncertainty-aware Forecasting | 0 / 187 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 0 / 179 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
+| Graph Transformer and Diffusion Models | 0 / 180 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 0 / 122 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 0 / 68 | [crossing_gap_acceptance.md](crossing_gap_acceptance.md) |
 | Smart Intersections and Traffic Signal Context | 0 / 53 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
