@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **137**
+Total papers tracked: **138**
 
 ---
 
+- **Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation**  
+  *Henok Teklu, Mustafa Sakhai, Maciej Wielgosz, Matej Mertik*  
+  Published: `2026-09-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13328v1) · [pdf](https://arxiv.org/pdf/2609.13328v1) · id: `2609.13328v1`
 - **TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs**  
   *François G. Landry, Moulay A. Akhloufi*  
   Published: `2026-09-09` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.10806v1) · [pdf](https://arxiv.org/pdf/2609.10806v1) · id: `2609.10806v1`

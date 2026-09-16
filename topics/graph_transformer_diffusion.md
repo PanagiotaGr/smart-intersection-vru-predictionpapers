@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **180**
+Total papers tracked: **181**
 
 ---
 
+- **FlowATC: Aircraft Trajectory Prediction via Flow Matching**  
+  *Mathurin Petit, Emir Torun, Louis Brusset, Jordan Kam, Alexandre M. Bayen*  
+  Published: `2026-09-15` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.16528v1) · [pdf](https://arxiv.org/pdf/2609.16528v1) · id: `2609.16528v1`
 - **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
   *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
   Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`

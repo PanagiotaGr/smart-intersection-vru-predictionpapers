@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **53**
+Total papers tracked: **55**
 
 ---
 
+- **UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner**  
+  *Ghazal Farhani, Shabnam Shabani*  
+  Published: `2026-09-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.16368v1) · [pdf](https://arxiv.org/pdf/2609.16368v1) · id: `2609.16368v1`
+- **Uncertainty-Aware Conflict Detection Against Operator-Conditioned Weather Hazards**  
+  *Balram Kandoria, Seulki Kim, Aryaman Singh Samyal*  
+  Published: `2026-09-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.12095v1) · [pdf](https://arxiv.org/pdf/2609.12095v1) · id: `2609.12095v1`
 - **DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**  
   *Yuhang Wang, Chuheng Wei, Jingxin Yang, Xishun Liao, Hao Zhou*  
   Published: `2026-09-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08117v1) · [pdf](https://arxiv.org/pdf/2609.08117v1) · id: `2609.08117v1`

@@ -1,11 +1,29 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **187**
+Total papers tracked: **193**
 
 ---
 
+- **Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing**  
+  *Hojin Lee, Youngim Nam, Sanghun Lee, Cheolhyeon Kwon*  
+  Published: `2026-09-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.17147v1) · [pdf](https://arxiv.org/pdf/2609.17147v1) · id: `2609.17147v1`
+- **FlowATC: Aircraft Trajectory Prediction via Flow Matching**  
+  *Mathurin Petit, Emir Torun, Louis Brusset, Jordan Kam, Alexandre M. Bayen*  
+  Published: `2026-09-15` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.16528v1) · [pdf](https://arxiv.org/pdf/2609.16528v1) · id: `2609.16528v1`
+- **UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner**  
+  *Ghazal Farhani, Shabnam Shabani*  
+  Published: `2026-09-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.16368v1) · [pdf](https://arxiv.org/pdf/2609.16368v1) · id: `2609.16368v1`
+- **TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**  
+  *Rohit Patel, Susil Kumar Mohanty, Jeenal Chaudhary*  
+  Published: `2026-09-13` · Category: `cs.DC` · [abs](http://arxiv.org/abs/2609.14762v1) · [pdf](https://arxiv.org/pdf/2609.14762v1) · id: `2609.14762v1`
+- **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
+  *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
+  Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`
+- **Uncertainty-Aware Conflict Detection Against Operator-Conditioned Weather Hazards**  
+  *Balram Kandoria, Seulki Kim, Aryaman Singh Samyal*  
+  Published: `2026-09-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.12095v1) · [pdf](https://arxiv.org/pdf/2609.12095v1) · id: `2609.12095v1`
 - **Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation**  
   *Henry Ascencio Trejo, Roel Pieters, Gokhan Alcan*  
   Published: `2026-09-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.10215v1) · [pdf](https://arxiv.org/pdf/2609.10215v1) · id: `2609.10215v1`

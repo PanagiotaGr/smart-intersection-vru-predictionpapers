@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **272**
+Total papers tracked: **274**
 
 ---
 
+- **Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing**  
+  *Hojin Lee, Youngim Nam, Sanghun Lee, Cheolhyeon Kwon*  
+  Published: `2026-09-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.17147v1) · [pdf](https://arxiv.org/pdf/2609.17147v1) · id: `2609.17147v1`
+- **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
+  *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
+  Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`
 - **MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images**  
   *Vladislav Diuzhev, Dmitry Yudin*  
   Published: `2026-09-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.11717v1) · [pdf](https://arxiv.org/pdf/2609.11717v1) · id: `2609.11717v1`

@@ -1,11 +1,20 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-15` (timezone: `Europe/Athens`)
+Updated: `2026-09-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **260**
+Total papers tracked: **263**
 
 ---
 
+- **FlowATC: Aircraft Trajectory Prediction via Flow Matching**  
+  *Mathurin Petit, Emir Torun, Louis Brusset, Jordan Kam, Alexandre M. Bayen*  
+  Published: `2026-09-15` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.16528v1) · [pdf](https://arxiv.org/pdf/2609.16528v1) · id: `2609.16528v1`
+- **TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**  
+  *Rohit Patel, Susil Kumar Mohanty, Jeenal Chaudhary*  
+  Published: `2026-09-13` · Category: `cs.DC` · [abs](http://arxiv.org/abs/2609.14762v1) · [pdf](https://arxiv.org/pdf/2609.14762v1) · id: `2609.14762v1`
+- **Uncertainty-Aware Conflict Detection Against Operator-Conditioned Weather Hazards**  
+  *Balram Kandoria, Seulki Kim, Aryaman Singh Samyal*  
+  Published: `2026-09-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.12095v1) · [pdf](https://arxiv.org/pdf/2609.12095v1) · id: `2609.12095v1`
 - **TempTPI: Informer-Based trajectory prediction for maritime vessels**  
   *Kevin Ferneding, Veronika Lietavcova, Aleksandra M. Blachowiak, Peder Heiselberg*  
   Published: `2026-09-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.09840v1) · [pdf](https://arxiv.org/pdf/2609.09840v1) · id: `2609.09840v1`

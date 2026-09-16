@@ -18974,6 +18974,126 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.13778v1",
       "abs_url": "http://arxiv.org/abs/2609.13778v1"
+    },
+    "2609.17147v1": {
+      "arxiv_id": "2609.17147v1",
+      "title": "Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing",
+      "authors": [
+        "Hojin Lee",
+        "Youngim Nam",
+        "Sanghun Lee",
+        "Cheolhyeon Kwon"
+      ],
+      "summary": "Autonomous racing confronts significant challenges in safely overtaking Opponent Vehicles (OVs) that exhibit uncertain trajectories, stemming from unknown driving policies. To address these challenges, this study proposes heterogeneous kernel metrics for Deep Kernel Learning (DKL), designed to robustly capture the diverse driving policies of OVs, and carry out precise trajectory predictions along with the associated uncertainties. A key virtue of the proposed kernel metrics lies in their ability to align similar driving policies and disjoin dissimilar ones in an unsupervised manner, given the observed interactions between the Ego Vehicle (EV) and OVs. The efficacy of the proposed method is substantiated through experimental studies on a 1/10th scale racecar platform, demonstrating improved prediction accuracy and thereby safely overtaking against OVs. Furthermore, our method is computationally efficient for onboard computing units, affirming its viability in fast-paced racing environments. The video and source code can be found at https://github.com/HMCL-UNIST/OpponentPredictionWithKMDKL.git.",
+      "published_utc": "2026-09-15T13:13:23Z",
+      "updated_utc": "2026-09-15T13:13:23Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.17147v1",
+      "abs_url": "http://arxiv.org/abs/2609.17147v1"
+    },
+    "2609.13328v1": {
+      "arxiv_id": "2609.13328v1",
+      "title": "Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation",
+      "authors": [
+        "Henok Teklu",
+        "Mustafa Sakhai",
+        "Maciej Wielgosz",
+        "Matej Mertik"
+      ],
+      "summary": "Anticipating whether a pedestrian will cross the road is safety-critical for autonomous vehicles, requiring real-time inference under challenging conditions including motion blur, high dynamic range, and class imbalance. Conventional frame-based deep networks process redundant RGB data at fixed frame rates, limiting their temporal resolution and energy efficiency. In this work we present an end-to-end pipeline that (i) converts real-world driving footage from the Joint Attention in Autonomous Driving (JAAD) dataset into synthetic dynamic vision sensor (DVS) event streams using the v2e simulator, (ii) augments training with the CARLA-simulated DVS sequences of the DVS-PedX dataset under both normal and adverse weather conditions, and (iii) trains a novel convolutional spiking neural network (Conv-SNN) with clip-consistent DVS augmentation to classify pedestrian crossing intent as binary: crossing or non-crossing. We detail all architectural decisions, the exact leaky-integrate-and-fire neuron dynamics with surrogate-gradient learning, the class-balanced loss formulation, JAAD oversampling at 6x, and a 70/15/15 stratified splitting protocol. The trained model achieves 95.83% accuracy and F1 = 0.9695 on the JAAD DVS test set, 97.79% accuracy and F1 = 0.9478 on normal CARLA DVS, and 94.78% accuracy and F1 = 0.8369 on adverse-weather CARLA DVS, all from a 1.07M-parameter architecture trained on CPU. Compared to prior frame-based approaches on JAAD, our method closes or surpasses the reported accuracy while operating natively on sparse temporal representations. We include a thorough analysis of the convergence behaviour across all 15 training epochs, domain transfer characteristics, and a quantitative comparison with representative related work.",
+      "published_utc": "2026-09-11T02:34:24Z",
+      "updated_utc": "2026-09-11T02:34:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.13328v1",
+      "abs_url": "http://arxiv.org/abs/2609.13328v1"
+    },
+    "2609.16528v1": {
+      "arxiv_id": "2609.16528v1",
+      "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
+      "authors": [
+        "Mathurin Petit",
+        "Emir Torun",
+        "Louis Brusset",
+        "Jordan Kam",
+        "Alexandre M. Bayen"
+      ],
+      "summary": "Building accurate decision-support tools for next-generation air traffic control requires robust trajectory prediction models. We present a flow-matching architecture trained exclusively on historical aircraft trajectories, with no route labels or chart supervision. Trained on 1.15 million Automatic Dependent Surveillance-Broadcast trajectory windows collected over the San Francisco Bay Area, the model generates aircraft trajectory distributions that closely match historical traffic, reproducing known airspace structure around San Francisco Airport such as the shape of SFO's published NIITE FOUR departure procedure. Our model is trained directly on the native, irregular ADS-B sampling interval. Trajectory prediction is cast as sequence inpainting using a block-causal Transformer that denoises future state tokens conditioned on the observed history using Conditional Flow Matching or Denoising Diffusion Probabilistic Models. We compare our architecture against constant-velocity, deterministic-Long Short Term Memory, and Conditional Variational Autoencoders baselines. At matched parameter count, CFM outperforms DDPM by 11-26% in minADE@20, and both generative objectives surpass the CVAE baseline by 31-41%. We further show that the error degrades gracefully with prediction horizon, and the architecture remains effective when retrained on temporally decimated feeds. Lastly, we sample $K$ independent completions, yielding spatial probabilistic occupancy estimates that can serve as input to downstream conflict-risk estimation.",
+      "published_utc": "2026-09-15T02:21:06Z",
+      "updated_utc": "2026-09-15T02:21:06Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.16528v1",
+      "abs_url": "http://arxiv.org/abs/2609.16528v1"
+    },
+    "2609.14762v1": {
+      "arxiv_id": "2609.14762v1",
+      "title": "TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps",
+      "authors": [
+        "Rohit Patel",
+        "Susil Kumar Mohanty",
+        "Jeenal Chaudhary"
+      ],
+      "summary": "Cloud-hosted large language models (LLMs) are increasingly used for root cause analysis (RCA) in AIOps pipelines, but they introduce data privacy risk, network latency, and per-query cost that scale poorly with production log volumes. We present TriCalRAG, a benchmark evaluating open-weight LLMs served locally via vLLM on a single high-memory workstation GPU (NVIDIA RTX PRO 6000, 96GB) against a classical LSTM-based log anomaly detector (DeepLog), across four real, publicly available log datasets (BGL, HDFS, Thunderbird, OpenStack). We evaluate two open-weight models (Qwen2.5-14B, Mistral-Small) under three prompting strategies: zero-shot, few-shot, and retrieval-augmented generation (RAG) over a labeled incident history, reporting accuracy, precision/recall, and F1 with bootstrap 95% confidence intervals across 3 random seeds, alongside throughput and VRAM footprint. Our results show that RAG not only improves mean F1 by 0.10-0.27 over zero-shot prompting but, more importantly, substantially stabilizes model calibration: zero-shot prompting drives both models toward near-degenerate behavior (predicting \"anomaly\" on up to 100% of incidents on some datasets), while RAG keeps predicted-positive rates close to the true class balance in the majority of configurations. Mistral-Small achieves higher macro-averaged F1 than Qwen2.5-14B (0.644 vs. 0.560) but exhibits calibration failures in more configurations (7 vs. 5 of 12), while running at roughly half the throughput - indicating the better model choice depends on whether a deployment prioritizes peak accuracy or predictable behavior across prompting conditions. Ablations show batching scales throughput 41 times on a single card and that 4-bit quantization reduces latency 20% with no measurable accuracy loss. We release our benchmark harness, dataset splits, and evaluation code to support reproducible on-premise AIOps research.",
+      "published_utc": "2026-09-13T19:52:46Z",
+      "updated_utc": "2026-09-13T19:52:46Z",
+      "primary_category": "cs.DC",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.CR",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.14762v1",
+      "abs_url": "http://arxiv.org/abs/2609.14762v1"
+    },
+    "2609.13812v1": {
+      "arxiv_id": "2609.13812v1",
+      "title": "GeomVLA: Unifying Scene, Motion, and Action in 3D",
+      "authors": [
+        "Ziyin Xiong",
+        "Nikos Gkanatsios",
+        "Moritz Reuss",
+        "Katerina Fragkiadaki"
+      ],
+      "summary": "We present GeomVLA, a Vision-Language-Action (VLA) model that unifies perception, latent scene motion prediction, and action generation within a shared robot-centric 3D coordinate frame. Our approach lifts pretrained VLM features into spatially grounded 3D scene tokens using depth and camera calibration, while retaining the semantic representations learned during VLM pretraining. We further introduce a 3D Scene Trajectory Denoiser, a task-conditioned module that learns a latent representation of how scene points are expected to move in 3D. Rather than executing the predicted trajectory as an open-loop plan, GeomVLA extracts intermediate motion tokens from the trajectory denoiser and uses them to condition a 3D flow-based action denoiser through geometry-aware attention. GeomVLA achieves state-of-the-art performance on CALVIN, competitive performance on LIBERO and RoboTwin2.0, and outperforms strong baselines in real-world manipulation settings without robot-action pretraining. Extensive ablations show that future-motion reasoning alone is insufficient: the primary gains are associated with maintaining geometric consistency among scene representation, motion prediction, and robot actions throughout the perception-to-action pipeline.",
+      "published_utc": "2026-09-12T08:51:52Z",
+      "updated_utc": "2026-09-12T08:51:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.13812v1",
+      "abs_url": "http://arxiv.org/abs/2609.13812v1"
+    },
+    "2609.16368v1": {
+      "arxiv_id": "2609.16368v1",
+      "title": "UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner",
+      "authors": [
+        "Ghazal Farhani",
+        "Shabnam Shabani"
+      ],
+      "summary": "Vision-language models (VLMs) can generate routes directly from aerial imagery for off-road navigation, but their predictions provide no indication of reliability. We present UDAV, an Uncertainty-Driven Adaptive VLM Waypoint Planner for UAV-guided UGV navigation. UDAV draws multiple stochastic trajectory predictions, selects their medoid as a self-consistent nominal route, and estimates predictive uncertainty from their spatial dispersion. When the maximum uncertainty across interior waypoints exceeds a threshold, UDAV invokes a reconsideration stage; otherwise, it returns the medoid directly. We evaluate UDAV on 400 held-out trajectory queries from two UAV flights. Stochastic medoid selection reduces the mean average displacement error (ADE) from 147.4 pixels for a deterministic prediction to 115.9 pixels. The complete planner achieves a mean ADE of 110.4 pixels, a 25.1% reduction relative to deterministic planning, while producing valid trajectories for all queries. UDAV also yields the lowest 90th- and 95th-percentile errors among all evaluated configurations, including a higher-budget K=10 consensus baseline. Relative to the K=5 medoid, UDAV reduces these errors from 225.3 and 326.0 pixels to 199.0 and 290.8 pixels, respectively. These results demonstrate that stochastic VLM predictions provide both a stronger nominal route and an actionable uncertainty signal for selectively mitigating large planning errors.",
+      "published_utc": "2026-09-14T21:30:49Z",
+      "updated_utc": "2026-09-14T21:30:49Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.16368v1",
+      "abs_url": "http://arxiv.org/abs/2609.16368v1"
     }
   },
   "topics": {
@@ -19467,9 +19587,11 @@
         "2609.07685v1",
         "2609.05892v1",
         "2609.10215v1",
-        "2609.11717v1"
+        "2609.11717v1",
+        "2609.17147v1",
+        "2609.13778v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19600,9 +19722,10 @@
         "2608.13031v1",
         "2608.17044v1",
         "2511.20011v3",
-        "2609.10806v1"
+        "2609.10806v1",
+        "2609.13328v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -19866,9 +19989,12 @@
         "2607.19971v2",
         "2609.02252v1",
         "2609.08041v1",
-        "2609.09840v1"
+        "2609.09840v1",
+        "2609.16528v1",
+        "2609.14762v1",
+        "2609.12095v1"
       ],
-      "latest_update": "2026-09-10"
+      "latest_update": "2026-09-16"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -20096,9 +20222,12 @@
         "2609.07685v1",
         "2609.06195v1",
         "2609.10215v1",
-        "2609.10559v1"
+        "2609.10559v1",
+        "2609.13812v1",
+        "2609.13778v1",
+        "2609.12095v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20289,9 +20418,15 @@
         "2609.03067v1",
         "2609.06195v1",
         "2609.10215v1",
-        "2609.10559v1"
+        "2609.10559v1",
+        "2609.17147v1",
+        "2609.16528v1",
+        "2609.16368v1",
+        "2609.14762v1",
+        "2609.13778v1",
+        "2609.12095v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20475,9 +20610,10 @@
         "2604.10169v5",
         "2609.10559v1",
         "2609.12095v1",
-        "2609.13778v1"
+        "2609.13778v1",
+        "2609.16528v1"
       ],
-      "latest_update": "2026-09-15"
+      "latest_update": "2026-09-16"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20677,9 +20813,10 @@
         "2606.18824v2",
         "2608.13031v1",
         "2511.20011v3",
-        "2609.10806v1"
+        "2609.10806v1",
+        "2609.13328v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -20736,9 +20873,11 @@
         "2608.25284v1",
         "2608.07468v4",
         "2609.08117v1",
-        "2608.25284v2"
+        "2608.25284v2",
+        "2609.16368v1",
+        "2609.12095v1"
       ],
-      "latest_update": "2026-09-09"
+      "latest_update": "2026-09-16"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -21016,9 +21155,10 @@
         "2609.08041v1",
         "2609.07685v1",
         "2609.06195v1",
-        "2609.10806v1"
+        "2609.10806v1",
+        "2609.13328v1"
       ],
-      "latest_update": "2026-09-11"
+      "latest_update": "2026-09-16"
     }
   }
 }
