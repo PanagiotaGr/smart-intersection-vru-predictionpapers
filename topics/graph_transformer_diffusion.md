@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-16` (timezone: `Europe/Athens`)
+Updated: `2026-09-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **181**
+Total papers tracked: **182**
 
 ---
 
+- **HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction**  
+  *Yunji Feng, Junyi Ma, Guanzhong Sun, Chenyang Xu, Hesheng Wang*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18548v1) · [pdf](https://arxiv.org/pdf/2609.18548v1) · id: `2609.18548v1`
 - **FlowATC: Aircraft Trajectory Prediction via Flow Matching**  
   *Mathurin Petit, Emir Torun, Louis Brusset, Jordan Kam, Alexandre M. Bayen*  
   Published: `2026-09-15` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.16528v1) · [pdf](https://arxiv.org/pdf/2609.16528v1) · id: `2609.16528v1`

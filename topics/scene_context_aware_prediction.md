@@ -1,14 +1,26 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-16` (timezone: `Europe/Athens`)
+Updated: `2026-09-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **227**
+Total papers tracked: **231**
 
 ---
 
+- **FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory**  
+  *Kemal Oksuz, Alexandru Buburuzan, Yuhan Yao, Puneet K. Dokania*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18623v1) · [pdf](https://arxiv.org/pdf/2609.18623v1) · id: `2609.18623v1`
+- **HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction**  
+  *Yunji Feng, Junyi Ma, Guanzhong Sun, Chenyang Xu, Hesheng Wang*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18548v1) · [pdf](https://arxiv.org/pdf/2609.18548v1) · id: `2609.18548v1`
+- **WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors**  
+  *Bowei Zhang, Qiyao Zhang, Shuanghao Bai, Xinhua Wang, Meng Li, Yilei Wang, Leiwang Zhang, Jian Tang et al.*  
+  Published: `2026-09-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.18197v1) · [pdf](https://arxiv.org/pdf/2609.18197v1) · id: `2609.18197v1`
 - **GeomVLA: Unifying Scene, Motion, and Action in 3D**  
   *Ziyin Xiong, Nikos Gkanatsios, Moritz Reuss, Katerina Fragkiadaki*  
   Published: `2026-09-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.13812v1) · [pdf](https://arxiv.org/pdf/2609.13812v1) · id: `2609.13812v1`
+- **GeomVLA: Unifying Scene, Motion, and Action in 3D**  
+  *Ziyin Xiong, Nikolaos Gkanatsios, Moritz Reuss, Katerina Fragkiadaki*  
+  Published: `2026-09-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.13812v2) · [pdf](https://arxiv.org/pdf/2609.13812v2) · id: `2609.13812v2`
 - **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
   *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
   Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`
