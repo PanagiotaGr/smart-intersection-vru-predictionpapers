@@ -10825,6 +10825,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2609.13812v2": {
+      "schema_version": 1,
+      "paper_id": "2609.13812v2",
+      "title": "GeomVLA: Unifying Scene, Motion, and Action in 3D",
+      "pdf_url": "https://arxiv.org/pdf/2609.13812v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2609.14762v1": {
       "schema_version": 1,
       "paper_id": "2609.14762v1",
@@ -10866,6 +10878,42 @@
       "paper_id": "2609.17147v1",
       "title": "Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing",
       "pdf_url": "https://arxiv.org/pdf/2609.17147v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.18197v1": {
+      "schema_version": 1,
+      "paper_id": "2609.18197v1",
+      "title": "WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors",
+      "pdf_url": "https://arxiv.org/pdf/2609.18197v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.18548v1": {
+      "schema_version": 1,
+      "paper_id": "2609.18548v1",
+      "title": "HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2609.18548v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.18623v1": {
+      "schema_version": 1,
+      "paper_id": "2609.18623v1",
+      "title": "FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory",
+      "pdf_url": "https://arxiv.org/pdf/2609.18623v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
