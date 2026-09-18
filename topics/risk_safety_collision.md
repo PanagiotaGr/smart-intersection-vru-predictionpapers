@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-17` (timezone: `Europe/Athens`)
+Updated: `2026-09-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **264**
+Total papers tracked: **266**
 
 ---
 
+- **Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates**  
+  *Seong-Jun Kim, Seung-Hyun Kong*  
+  Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.19813v1) · [pdf](https://arxiv.org/pdf/2609.19813v1) · id: `2609.19813v1`
+- **Chain-of-Thought Entropy as a Reliability Signal: A Preregistered Reproduction**  
+  *Theodore O. Cochran*  
+  Published: `2026-09-17` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2609.19606v1) · [pdf](https://arxiv.org/pdf/2609.19606v1) · id: `2609.19606v1`
 - **FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory**  
   *Kemal Oksuz, Alexandru Buburuzan, Yuhan Yao, Puneet K. Dokania*  
   Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18623v1) · [pdf](https://arxiv.org/pdf/2609.18623v1) · id: `2609.18623v1`

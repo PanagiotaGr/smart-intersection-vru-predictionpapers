@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-17` (timezone: `Europe/Athens`)
+Updated: `2026-09-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **231**
+Total papers tracked: **235**
 
 ---
 
+- **MoWAM: Explicit Future Motion Prediction for Efficient World Action Models**  
+  *Jiayu Wang, Bin Zhu, Yue Yu, Jingjing Chen*  
+  Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.20709v1) · [pdf](https://arxiv.org/pdf/2609.20709v1) · id: `2609.20709v1`
+- **Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates**  
+  *Seong-Jun Kim, Seung-Hyun Kong*  
+  Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.19813v1) · [pdf](https://arxiv.org/pdf/2609.19813v1) · id: `2609.19813v1`
+- **Chain-of-Thought Entropy as a Reliability Signal: A Preregistered Reproduction**  
+  *Theodore O. Cochran*  
+  Published: `2026-09-17` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2609.19606v1) · [pdf](https://arxiv.org/pdf/2609.19606v1) · id: `2609.19606v1`
+- **WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones**  
+  *Nishad Sahu, Changzhong Qian, Guangzhou Cai, Shounak Sural, Ragunathan, Rajkumar*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.19393v1) · [pdf](https://arxiv.org/pdf/2609.19393v1) · id: `2609.19393v1`
 - **FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory**  
   *Kemal Oksuz, Alexandru Buburuzan, Yuhan Yao, Puneet K. Dokania*  
   Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18623v1) · [pdf](https://arxiv.org/pdf/2609.18623v1) · id: `2609.18623v1`

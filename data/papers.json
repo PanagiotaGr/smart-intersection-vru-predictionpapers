@@ -19180,6 +19180,101 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.13812v2",
       "abs_url": "http://arxiv.org/abs/2609.13812v2"
+    },
+    "2609.20709v1": {
+      "arxiv_id": "2609.20709v1",
+      "title": "MoWAM: Explicit Future Motion Prediction for Efficient World Action Models",
+      "authors": [
+        "Jiayu Wang",
+        "Bin Zhu",
+        "Yue Yu",
+        "Jingjing Chen"
+      ],
+      "summary": "World Action Models (WAMs) improve robot policy learning by incorporating future dynamics, yet explicitly generating future videos at inference introduces substantial computational overhead. Removing future generation improves efficiency, but leaves future dynamics only implicitly encoded in observation features, which can limit robustness under distribution shifts. We propose MoWAM, an efficient WAM that replaces future video generation with explicit future motion prediction. Instead of reconstructing the complete future scene, MoWAM models structured robot motion as a compact abstraction of the future, capturing how the robot is expected to evolve under the current scene and interaction constraints. A Mixture-of-Transformer architecture learns future visual dynamics during training while jointly predicting motion and action, allowing video generation to be removed entirely at inference while retaining an explicit representation of the future. The compact motion representation further enables efficient inference-time scaling by sampling multiple candidates of motion and action pairs and selecting among them with a motion-aware task-progress verifier. Experiments on LIBERO, LIBERO-Plus, and real-world manipulation tasks demonstrate that MoWAM achieves strong in-distribution performance, improved out-of-distribution robustness, and higher average real-world success than representative WAM baselines. In addition, performance improves as more candidates are explored, demonstrating that explicit future motion provides an effective and efficient basis for inference-time scaling.",
+      "published_utc": "2026-09-17T17:07:00Z",
+      "updated_utc": "2026-09-17T17:07:00Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.20709v1",
+      "abs_url": "http://arxiv.org/abs/2609.20709v1"
+    },
+    "2609.20178v1": {
+      "arxiv_id": "2609.20178v1",
+      "title": "MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction",
+      "authors": [
+        "Md Mahfuzur Rahman",
+        "Pengzhan Zhou",
+        "A. F. M. Abdun Noor",
+        "Md Imam Ahasan",
+        "Md Mustafizur Rahman",
+        "Fang Qu"
+      ],
+      "summary": "Accurately predicting pedestrian intentions is crucial for ensuring safe and proactive interaction between autonomous vehicles and pedestrians. However, existing approaches often depend on architectures that either model temporal dependencies within individual modalities or fuse modalities only at coarse semantic levels. To address these limitations, we propose MTF-Net, a novel Multi-Modal Temporal Feature Fusion Network that jointly models kinematic, appearance, and contextual cues for pedestrian intention prediction. MTF-Net integrates four complementary modalities-bounding-box dynamics, human pose keypoints, local context, and scene-level semantics within a recurrent fusion framework enhanced by gated linear units (GLUs). These GLU-based modules adaptively regulate cross-modal information flow, enabling interpretable and efficient feature interaction across temporal scales. Through three dedicated temporal encoding branches and an attention-guided fusion head, the proposed model robustly anticipates pedestrian crossing intentions several frames before they occur. Extensive evaluations on the PIE and JAAD benchmarks demonstrate that MTF-Net surpasses recent transformer- and graph-based models, achieving up to 0.95 AUC on PIE and 0.94 AUC on JAAD, while maintaining real-time performance. The results highlight that reliable pedestrian intention prediction arises from principled multi-modal fusion rather than excessive architectural complexity.",
+      "published_utc": "2026-07-24T08:38:19Z",
+      "updated_utc": "2026-07-24T08:38:19Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.20178v1",
+      "abs_url": "http://arxiv.org/abs/2609.20178v1"
+    },
+    "2609.19813v1": {
+      "arxiv_id": "2609.19813v1",
+      "title": "Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates",
+      "authors": [
+        "Seong-Jun Kim",
+        "Seung-Hyun Kong"
+      ],
+      "summary": "Predicting the future trajectories of surrounding vehicles in autonomous driving is important for collision risk assessment and safe ego-vehicle path planning. Conventional neural network-based trajectory predictors typically achieve strong prediction performance by exploiting agent history, dynamic scene graphs, and semantic maps. However, in specific motion regimes such as acceleration, deceleration, and turning, these predictors may fail to reflect physically feasible trajectories. To address this issue, this study proposes a framework that fuses the output of Trajectron++, a neural network-based trajectory predictor, with extended Kalman filter (EKF)-based multiple trajectory candidates at a late stage. On the nuScenes dataset, the proposed method reduces the average displacement error and final displacement error of the Trajectron++ robot baseline by 13.7% and 14.6%, respectively, without modifying the baseline architecture. These results indicate that EKF-based trajectory candidates can effectively complement neural trajectory prediction through learned fusion.",
+      "published_utc": "2026-09-17T07:24:42Z",
+      "updated_utc": "2026-09-17T07:24:42Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.19813v1",
+      "abs_url": "http://arxiv.org/abs/2609.19813v1"
+    },
+    "2609.19606v1": {
+      "arxiv_id": "2609.19606v1",
+      "title": "Chain-of-Thought Entropy as a Reliability Signal: A Preregistered Reproduction",
+      "authors": [
+        "Theodore O. Cochran"
+      ],
+      "summary": "This empirical study is an independent reproduction of the dissociation Zhao reported in 2026. The shape of a large language model's chain-of-thought entropy trajectory predicts whether the final answer is correct, while the magnitude of its total entropy drop does not. The dissociation merits reproduction because the magnitude half rests on a single 300-problem run with one model at one seed, while the shape half was reported at full scale on both benchmarks and on a second model family. Registered at OSF before any confirmatory run, the reproduction crosses the complete GSM8K and MATH-500 benchmark test sets with four open-weight models including one reasoning-distilled model of a kind the original did not test. The shape signal replicates. The magnitude signal divides by setting. On the anchor model the accuracy gap between monotone and non-monotone chains is +9.6 percentage points on GSM8K and +27.5 on MATH-500, while the rank correlation of the total entropy drop with correctness is -0.018 on GSM8K and +0.414 on MATH-500. On the reasoning-distilled model the binary form of the shape signal fires on about one chain in a hundred, too few to estimate the registered contrast, while the graded violation count remains predictive there. In an exploratory comparison the final-step entropy alone outperforms the binary shape flag in all eight model-by-benchmark cells by ROC area, and in six or seven by the risk-coverage area the original reports, depending on an integration range the original does not state. The study contributes a reproduction of the shape signal at full test-set scale under seven documented protocol differences, a map of the settings where the magnitude signal holds and fails, and measurements of four protocol dependencies the original does not report.",
+      "published_utc": "2026-09-17T02:40:31Z",
+      "updated_utc": "2026-09-17T02:40:31Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.19606v1",
+      "abs_url": "http://arxiv.org/abs/2609.19606v1"
+    },
+    "2609.19393v1": {
+      "arxiv_id": "2609.19393v1",
+      "title": "WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones",
+      "authors": [
+        "Nishad Sahu",
+        "Changzhong Qian",
+        "Guangzhou Cai",
+        "Shounak Sural",
+        "Ragunathan",
+        "Rajkumar"
+      ],
+      "summary": "Work zones alter lane geometry through temporary traffic controls and closures that may be absent from on-board maps, challenging autonomous vehicle (AV) perception and planning. Generalization is also limited by scarce public datasets with structured geometric supervision. We present WorkZonePlan, a dataset comprising 149K+ synthetic and 5K+ real-world multimodal samples with 3D annotations for lane boundaries, work zone boundaries, and driving trajectory options. It also provides 76 closed-loop CARLA scenarios replayed under three weather conditions, yielding 228 Bench2Drive-format evaluation routes. We introduce WAVE (Work-zone-focused AV data generation in Virtual and rEal Environments), a semi-automated pipeline for creating the dataset, and BoundaryFormer (BF), a transformer-based model that jointly predicts lane and work zone boundary polynomials and driving trajectories. BF uses slot attention for boundary prediction. Ablations show that a separate trajectory decoder using boundary slot features substantially improves trajectory prediction over a slot-attention-only approach. Building on this finding, BF++ offers Camera and Camera+LiDAR variants with metric ground-plane encoding, typed boundary/trajectory queries, long-range point anchors, image-space curve refinement, and conservative gated LiDAR fusion. On the 211 routes common to all four models at the evaluation freeze, BF++-Camera and BF++-Camera+LiDAR achieve Driving Scores of 63.0 and 64.4, respectively, compared with 59.3 for SimLingo and 26.1 for TransFuser++ (TF++). BF++ is 40 times smaller than SimLingo and more than 10 times smaller than TF++, while achieving higher Driving Scores. These results support jointly predicting lane boundaries, work zone boundaries, and driving trajectories as a promising direction toward safer AV operation in work zones. Code and dataset: https://github.com/Nishad-Sahu/WZPlanner.",
+      "published_utc": "2026-09-16T20:22:51Z",
+      "updated_utc": "2026-09-16T20:22:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.19393v1",
+      "abs_url": "http://arxiv.org/abs/2609.19393v1"
     }
   },
   "topics": {
@@ -19675,9 +19770,10 @@
         "2609.10215v1",
         "2609.11717v1",
         "2609.17147v1",
-        "2609.13778v1"
+        "2609.13778v1",
+        "2609.20709v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-09-18"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19809,9 +19905,10 @@
         "2608.17044v1",
         "2511.20011v3",
         "2609.10806v1",
-        "2609.13328v1"
+        "2609.13328v1",
+        "2609.20178v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-09-18"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -20079,9 +20176,11 @@
         "2609.16528v1",
         "2609.14762v1",
         "2609.12095v1",
-        "2609.18623v1"
+        "2609.18623v1",
+        "2609.19813v1",
+        "2609.19606v1"
       ],
-      "latest_update": "2026-09-17"
+      "latest_update": "2026-09-18"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -20316,9 +20415,13 @@
         "2609.18623v1",
         "2609.18548v1",
         "2609.18197v1",
-        "2609.13812v2"
+        "2609.13812v2",
+        "2609.20709v1",
+        "2609.19813v1",
+        "2609.19606v1",
+        "2609.19393v1"
       ],
-      "latest_update": "2026-09-17"
+      "latest_update": "2026-09-18"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20515,9 +20618,10 @@
         "2609.16368v1",
         "2609.14762v1",
         "2609.13778v1",
-        "2609.12095v1"
+        "2609.12095v1",
+        "2609.19393v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-09-18"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20703,9 +20807,11 @@
         "2609.12095v1",
         "2609.13778v1",
         "2609.16528v1",
-        "2609.18548v1"
+        "2609.18548v1",
+        "2609.19813v1",
+        "2609.19393v1"
       ],
-      "latest_update": "2026-09-17"
+      "latest_update": "2026-09-18"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -20906,9 +21012,10 @@
         "2608.13031v1",
         "2511.20011v3",
         "2609.10806v1",
-        "2609.13328v1"
+        "2609.13328v1",
+        "2609.20178v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-09-18"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -21248,9 +21355,10 @@
         "2609.07685v1",
         "2609.06195v1",
         "2609.10806v1",
-        "2609.13328v1"
+        "2609.13328v1",
+        "2609.20178v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-09-18"
     }
   }
 }

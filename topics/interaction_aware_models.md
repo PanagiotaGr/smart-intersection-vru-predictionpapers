@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-17` (timezone: `Europe/Athens`)
+Updated: `2026-09-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **274**
+Total papers tracked: **275**
 
 ---
 
+- **MoWAM: Explicit Future Motion Prediction for Efficient World Action Models**  
+  *Jiayu Wang, Bin Zhu, Yue Yu, Jingjing Chen*  
+  Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.20709v1) · [pdf](https://arxiv.org/pdf/2609.20709v1) · id: `2609.20709v1`
 - **Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing**  
   *Hojin Lee, Youngim Nam, Sanghun Lee, Cheolhyeon Kwon*  
   Published: `2026-09-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.17147v1) · [pdf](https://arxiv.org/pdf/2609.17147v1) · id: `2609.17147v1`

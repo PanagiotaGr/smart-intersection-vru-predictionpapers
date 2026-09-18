@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-17` (timezone: `Europe/Athens`)
+Updated: `2026-09-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **193**
+Total papers tracked: **194**
 
 ---
 
+- **WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones**  
+  *Nishad Sahu, Changzhong Qian, Guangzhou Cai, Shounak Sural, Ragunathan, Rajkumar*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.19393v1) · [pdf](https://arxiv.org/pdf/2609.19393v1) · id: `2609.19393v1`
 - **Kernel-Based Metrics Learning for Uncertain Opponent Vehicle Trajectory Prediction in Autonomous Racing**  
   *Hojin Lee, Youngim Nam, Sanghun Lee, Cheolhyeon Kwon*  
   Published: `2026-09-15` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.17147v1) · [pdf](https://arxiv.org/pdf/2609.17147v1) · id: `2609.17147v1`

@@ -1,11 +1,17 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-17` (timezone: `Europe/Athens`)
+Updated: `2026-09-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **182**
+Total papers tracked: **184**
 
 ---
 
+- **Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates**  
+  *Seong-Jun Kim, Seung-Hyun Kong*  
+  Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.19813v1) · [pdf](https://arxiv.org/pdf/2609.19813v1) · id: `2609.19813v1`
+- **WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones**  
+  *Nishad Sahu, Changzhong Qian, Guangzhou Cai, Shounak Sural, Ragunathan, Rajkumar*  
+  Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.19393v1) · [pdf](https://arxiv.org/pdf/2609.19393v1) · id: `2609.19393v1`
 - **HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction**  
   *Yunji Feng, Junyi Ma, Guanzhong Sun, Chenyang Xu, Hesheng Wang*  
   Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.18548v1) · [pdf](https://arxiv.org/pdf/2609.18548v1) · id: `2609.18548v1`
