@@ -10920,6 +10920,66 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2609.19393v1": {
+      "schema_version": 1,
+      "paper_id": "2609.19393v1",
+      "title": "WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones",
+      "pdf_url": "https://arxiv.org/pdf/2609.19393v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.19606v1": {
+      "schema_version": 1,
+      "paper_id": "2609.19606v1",
+      "title": "Chain-of-Thought Entropy as a Reliability Signal: A Preregistered Reproduction",
+      "pdf_url": "https://arxiv.org/pdf/2609.19606v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.19813v1": {
+      "schema_version": 1,
+      "paper_id": "2609.19813v1",
+      "title": "Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates",
+      "pdf_url": "https://arxiv.org/pdf/2609.19813v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.20178v1": {
+      "schema_version": 1,
+      "paper_id": "2609.20178v1",
+      "title": "MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2609.20178v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.20709v1": {
+      "schema_version": 1,
+      "paper_id": "2609.20709v1",
+      "title": "MoWAM: Explicit Future Motion Prediction for Efficient World Action Models",
+      "pdf_url": "https://arxiv.org/pdf/2609.20709v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }

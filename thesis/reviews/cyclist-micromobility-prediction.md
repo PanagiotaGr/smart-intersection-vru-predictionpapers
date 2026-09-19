@@ -1,6 +1,6 @@
 # Systematic Review: Cyclist and Micromobility Prediction
 
-**Τελευταία αναγέννηση:** 2026-09-18  
+**Τελευταία αναγέννηση:** 2026-09-19  
 **Papers που εντοπίστηκαν:** 0  
 **Claims με page/section/table/figure provenance:** 0
 

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2609.19813v1",
+  "title": "Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates",
+  "pdf_url": "https://arxiv.org/pdf/2609.19813v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}
