@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-21` (timezone: `Europe/Athens`)
+Updated: `2026-09-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **266**
+Total papers tracked: **268**
 
 ---
 
+- **PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems**  
+  *Chenfeng Huang, George Michailidis*  
+  Published: `2026-09-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.24117v1) · [pdf](https://arxiv.org/pdf/2609.24117v1) · id: `2609.24117v1`
+- **Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving**  
+  *Jaeha Song, Soonmin Hwang*  
+  Published: `2026-09-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.22868v1) · [pdf](https://arxiv.org/pdf/2609.22868v1) · id: `2609.22868v1`
 - **Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates**  
   *Seong-Jun Kim, Seung-Hyun Kong*  
   Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.19813v1) · [pdf](https://arxiv.org/pdf/2609.19813v1) · id: `2609.19813v1`

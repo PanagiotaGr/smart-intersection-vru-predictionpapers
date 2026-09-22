@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-21` (timezone: `Europe/Athens`)
+Updated: `2026-09-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **235**
+Total papers tracked: **236**
 
 ---
 
+- **Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving**  
+  *Jaeha Song, Soonmin Hwang*  
+  Published: `2026-09-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.22868v1) · [pdf](https://arxiv.org/pdf/2609.22868v1) · id: `2609.22868v1`
 - **MoWAM: Explicit Future Motion Prediction for Efficient World Action Models**  
   *Jiayu Wang, Bin Zhu, Yue Yu, Jingjing Chen*  
   Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.20709v1) · [pdf](https://arxiv.org/pdf/2609.20709v1) · id: `2609.20709v1`

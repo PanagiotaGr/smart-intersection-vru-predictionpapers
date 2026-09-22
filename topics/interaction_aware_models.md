@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-21` (timezone: `Europe/Athens`)
+Updated: `2026-09-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **275**
+Total papers tracked: **276**
 
 ---
 
+- **The Ups and Downs of Backprop Weights**  
+  *Giuseppe Chindemi, Benjamin F. Grewe*  
+  Published: `2026-09-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.22554v1) · [pdf](https://arxiv.org/pdf/2609.22554v1) · id: `2609.22554v1`
 - **MoWAM: Explicit Future Motion Prediction for Efficient World Action Models**  
   *Jiayu Wang, Bin Zhu, Yue Yu, Jingjing Chen*  
   Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.20709v1) · [pdf](https://arxiv.org/pdf/2609.20709v1) · id: `2609.20709v1`

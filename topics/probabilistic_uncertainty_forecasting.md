@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-21` (timezone: `Europe/Athens`)
+Updated: `2026-09-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **194**
+Total papers tracked: **195**
 
 ---
 
+- **PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems**  
+  *Chenfeng Huang, George Michailidis*  
+  Published: `2026-09-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.24117v1) · [pdf](https://arxiv.org/pdf/2609.24117v1) · id: `2609.24117v1`
 - **WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones**  
   *Nishad Sahu, Changzhong Qian, Guangzhou Cai, Shounak Sural, Ragunathan, Rajkumar*  
   Published: `2026-09-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.19393v1) · [pdf](https://arxiv.org/pdf/2609.19393v1) · id: `2609.19393v1`

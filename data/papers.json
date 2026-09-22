@@ -19275,6 +19275,78 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.19393v1",
       "abs_url": "http://arxiv.org/abs/2609.19393v1"
+    },
+    "2609.22554v1": {
+      "arxiv_id": "2609.22554v1",
+      "title": "The Ups and Downs of Backprop Weights",
+      "authors": [
+        "Giuseppe Chindemi",
+        "Benjamin F. Grewe"
+      ],
+      "summary": "Backpropagation (BP) has driven the remarkable success of modern deep learning by enabling large hierarchical networks to learn complex functions end-to-end. Yet it does not by itself determine how parameters should be organized so that functional components can be reused and adapted selectively. For example, object recognition and motion prediction may depend on overlapping parameter sets, making them difficult to isolate or modify independently. We call this condition weight entanglement. Modern architectures dynamically select which parts of a network process each sample: nonlinearities gate units, attention selects interactions, and Mixture-of-Experts architectures route inputs to modules. Yet such selection does not ensure that the same functional component remains linked to an identifiable parameter set across samples. We propose weight operators: parameterized modules that implement reusable functional components and can be composed at inference to form the function required by each sample. Learning proceeds in two stages: the model first infers the required operator composition, then updates only the selected operators' parameter sets. Vector Networks (VNs) provide one implementation. They couple operator selection to local error-driven updates within each layer and show that learned operators can be reused in combinations absent from training while updates remain restricted to the selected parameter sets. This provides a basis for testing functional parameter identifiability: whether an operator remains linked to the same functional component during learning. We argue that functional parameter identifiability may provide an organizing principle for models that systematically reuse and recombine learned functions while adapting only the components that need to change.",
+      "published_utc": "2026-09-18T20:10:34Z",
+      "updated_utc": "2026-09-18T20:10:34Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.22554v1",
+      "abs_url": "http://arxiv.org/abs/2609.22554v1"
+    },
+    "2609.24193v1": {
+      "arxiv_id": "2609.24193v1",
+      "title": "Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction",
+      "authors": [
+        "Yuanzhe Li",
+        "Yidi Huang",
+        "Xiaotong Chang",
+        "Hounian Liu"
+      ],
+      "summary": "Pedestrian head orientation recognition plays an important role in autonomous driving by providing valuable cues for understanding pedestrian attention and anticipating potential crossing behavior. However, reliable recognition in real-world traffic scenes remains challenging because pedestrian head regions are often captured at low resolution. To address this challenge, we propose a lightweight Low-Resolution Head Orientation Convolutional Neural Network (LRHO-CNN) for pedestrian head orientation recognition. We construct a new dataset by extracting pedestrian head images from multiple public datasets and manually annotating them into eight orientation categories. The collected images are systematically preprocessed and augmented to increase data diversity and better represent variations in illumination and image quality. The experimental analysis compares LRHO-CNN with three fine-tuned baseline models, namely ResNet-18, ResNet-34, and VGG-16. The results demonstrate that LRHO-CNN achieves the highest classification accuracy among the evaluated models. LRHO-CNN is further evaluated on the JAAD and PIE datasets, demonstrating its effectiveness in recognizing pedestrian head orientation in real-world traffic scenes and providing informative head-orientation cues that can support downstream pedestrian behavior and intention prediction.",
+      "published_utc": "2026-09-21T07:06:21Z",
+      "updated_utc": "2026-09-21T07:06:21Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.24193v1",
+      "abs_url": "http://arxiv.org/abs/2609.24193v1"
+    },
+    "2609.24117v1": {
+      "arxiv_id": "2609.24117v1",
+      "title": "PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems",
+      "authors": [
+        "Chenfeng Huang",
+        "George Michailidis"
+      ],
+      "summary": "Identifying linear time-invariant (LTI) dynamical systems is challenging when trajectories are short, noisy, or high-dimensional. Traditional system identification typically treats each system independently and cannot exploit shared structure across related systems. We propose PBML-LTI, a PAC-Bayesian meta-learning framework for few-shot LTI system identification that learns a transferable prior over task-specific dynamics while preserving task heterogeneity. Each task corresponds to an unknown LTI system, and the meta-learner uses training trajectories to learn a data-dependent prior over transition matrices. For a new system with limited data, PBML-LTI performs Bayesian adaptation under this prior to obtain a task-specific posterior, providing accurate estimates and principled uncertainty quantification. A key challenge is temporal dependence, since LTI trajectories violate the i.i.d. assumptions underlying most PAC-Bayes meta-learning analyses. We address this with a martingale PAC-Bayes analysis for dependent trajectory losses and derive a support-query predictive-risk bound that motivates a fit-KL meta-training objective. The bound clarifies the roles of empirical fit, posterior complexity, and prior quality in few-shot adaptation under sequential dependence. We further derive corollaries for transition-matrix recovery and multi-step trajectory prediction, connecting uncertainty-aware meta-identification with finite-sample guarantees for dependent dynamical data.",
+      "published_utc": "2026-09-21T05:12:58Z",
+      "updated_utc": "2026-09-21T05:12:58Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.24117v1",
+      "abs_url": "http://arxiv.org/abs/2609.24117v1"
+    },
+    "2609.22868v1": {
+      "arxiv_id": "2609.22868v1",
+      "title": "Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving",
+      "authors": [
+        "Jaeha Song",
+        "Soonmin Hwang"
+      ],
+      "summary": "End-to-end driving requires planning-relevant bird's-eye-view (BEV) representations, but existing pretraining approaches often rely on task annotations or dense scene reconstruction. We introduce PAVER, Planning-Aligned BEV Encoder Pretraining. From a single LiDAR sweep, PAVER constructs sparse risk and unknown targets describing occupied and unobserved evidence along rule-based ego motions. A 10K-parameter head predicts these targets from masked BEV features conditioned on the action state, directing supervision toward geometric constraints on candidate motions. Pretraining requires no driving-task annotations or dense reconstruction. Only the BEV encoder is transferred, preserving the downstream architecture and camera-only inference. On nuScenes, PAVER reduces VAD-Tiny's average collision rate from 0.51% to 0.19%, while improving planning L2, motion prediction, detection, and mapping. The selected VAD-Tiny and VAD-Base schedules use about 36% less estimated total training time than scratch training, including pretraining. On Bench2Drive Town05 Long, PAVER improves UniAD-Tiny's closed-loop Driving Score from 48.45 to 58.79. The project page is available at https://archiiive99.github.io/PAVER.",
+      "published_utc": "2026-09-19T08:13:03Z",
+      "updated_utc": "2026-09-19T08:13:03Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.22868v1",
+      "abs_url": "http://arxiv.org/abs/2609.22868v1"
     }
   },
   "topics": {
@@ -19771,9 +19843,10 @@
         "2609.11717v1",
         "2609.17147v1",
         "2609.13778v1",
-        "2609.20709v1"
+        "2609.20709v1",
+        "2609.22554v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -19906,9 +19979,10 @@
         "2511.20011v3",
         "2609.10806v1",
         "2609.13328v1",
-        "2609.20178v1"
+        "2609.20178v1",
+        "2609.24193v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -20178,9 +20252,11 @@
         "2609.12095v1",
         "2609.18623v1",
         "2609.19813v1",
-        "2609.19606v1"
+        "2609.19606v1",
+        "2609.24117v1",
+        "2609.22868v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -20419,9 +20495,10 @@
         "2609.20709v1",
         "2609.19813v1",
         "2609.19606v1",
-        "2609.19393v1"
+        "2609.19393v1",
+        "2609.22868v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20619,9 +20696,10 @@
         "2609.14762v1",
         "2609.13778v1",
         "2609.12095v1",
-        "2609.19393v1"
+        "2609.19393v1",
+        "2609.24117v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -21013,9 +21091,10 @@
         "2511.20011v3",
         "2609.10806v1",
         "2609.13328v1",
-        "2609.20178v1"
+        "2609.20178v1",
+        "2609.24193v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -21356,9 +21435,10 @@
         "2609.06195v1",
         "2609.10806v1",
         "2609.13328v1",
-        "2609.20178v1"
+        "2609.20178v1",
+        "2609.24193v1"
       ],
-      "latest_update": "2026-09-18"
+      "latest_update": "2026-09-22"
     }
   }
 }

@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-09-21` (timezone: `Europe/Athens`)
+Updated: `2026-09-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **129**
+Total papers tracked: **130**
 
 ---
 
+- **Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction**  
+  *Yuanzhe Li, Yidi Huang, Xiaotong Chang, Hounian Liu*  
+  Published: `2026-09-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.24193v1) · [pdf](https://arxiv.org/pdf/2609.24193v1) · id: `2609.24193v1`
 - **Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation**  
   *Henok Teklu, Mustafa Sakhai, Maciej Wielgosz, Matej Mertik*  
   Published: `2026-09-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13328v1) · [pdf](https://arxiv.org/pdf/2609.13328v1) · id: `2609.13328v1`
