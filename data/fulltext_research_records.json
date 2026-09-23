@@ -10980,6 +10980,54 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2609.22554v1": {
+      "schema_version": 1,
+      "paper_id": "2609.22554v1",
+      "title": "The Ups and Downs of Backprop Weights",
+      "pdf_url": "https://arxiv.org/pdf/2609.22554v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.22868v1": {
+      "schema_version": 1,
+      "paper_id": "2609.22868v1",
+      "title": "Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving",
+      "pdf_url": "https://arxiv.org/pdf/2609.22868v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.24117v1": {
+      "schema_version": 1,
+      "paper_id": "2609.24117v1",
+      "title": "PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems",
+      "pdf_url": "https://arxiv.org/pdf/2609.24117v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2609.24193v1": {
+      "schema_version": 1,
+      "paper_id": "2609.24193v1",
+      "title": "Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction",
+      "pdf_url": "https://arxiv.org/pdf/2609.24193v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
