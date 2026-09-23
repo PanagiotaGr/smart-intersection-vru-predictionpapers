@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **236**
+Total papers tracked: **238**
 
 ---
 
+- **Protocol before progress: leakage-aware evaluation of AIS trajectory prediction**  
+  *Zobeir Raisi, Vali Mohammad Nazarzehi Had*  
+  Published: `2026-09-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.25827v1) · [pdf](https://arxiv.org/pdf/2609.25827v1) · id: `2609.25827v1`
+- **MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions**  
+  *Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li, Xianwen Zeng, Jianan Wang, Yu Li*  
+  Published: `2026-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.24547v2) · [pdf](https://arxiv.org/pdf/2609.24547v2) · id: `2609.24547v2`
 - **Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving**  
   *Jaeha Song, Soonmin Hwang*  
   Published: `2026-09-19` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.22868v1) · [pdf](https://arxiv.org/pdf/2609.22868v1) · id: `2609.22868v1`

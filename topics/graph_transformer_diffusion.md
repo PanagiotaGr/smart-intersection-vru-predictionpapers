@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **184**
+Total papers tracked: **185**
 
 ---
 
+- **Protocol before progress: leakage-aware evaluation of AIS trajectory prediction**  
+  *Zobeir Raisi, Vali Mohammad Nazarzehi Had*  
+  Published: `2026-09-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.25827v1) · [pdf](https://arxiv.org/pdf/2609.25827v1) · id: `2609.25827v1`
 - **Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates**  
   *Seong-Jun Kim, Seung-Hyun Kong*  
   Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.19813v1) · [pdf](https://arxiv.org/pdf/2609.19813v1) · id: `2609.19813v1`

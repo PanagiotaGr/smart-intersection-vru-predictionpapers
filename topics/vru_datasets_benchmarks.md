@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **131**
+Total papers tracked: **132**
 
 ---
 
+- **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
+  *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
+  Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
 - **MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States**  
   *Juncen Long, Xiaofeng Jin, Gianluca Bardaro, Simone Mentasti, Matteo Matteucci*  
   Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.08041v1) · [pdf](https://arxiv.org/pdf/2609.08041v1) · id: `2609.08041v1`

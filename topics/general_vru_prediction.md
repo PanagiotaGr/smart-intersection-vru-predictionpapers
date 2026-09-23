@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
+- **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
+  *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
+  Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
 - **Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction**  
   *Yuanzhe Li, Yidi Huang, Xiaotong Chang, Hounian Liu*  
   Published: `2026-09-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.24193v1) · [pdf](https://arxiv.org/pdf/2609.24193v1) · id: `2609.24193v1`

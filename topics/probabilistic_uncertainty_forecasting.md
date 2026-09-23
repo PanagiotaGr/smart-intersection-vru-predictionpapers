@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **195**
+Total papers tracked: **196**
 
 ---
 
+- **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
+  *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
+  Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
 - **PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems**  
   *Chenfeng Huang, George Michailidis*  
   Published: `2026-09-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.24117v1) · [pdf](https://arxiv.org/pdf/2609.24117v1) · id: `2609.24117v1`

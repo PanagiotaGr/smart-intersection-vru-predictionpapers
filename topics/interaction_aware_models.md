@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **276**
+Total papers tracked: **279**
 
 ---
 
+- **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
+  *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
+  Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
+- **MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions**  
+  *Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li, Xianwen Zeng, Jianan Wang, Yu Li*  
+  Published: `2026-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.24547v2) · [pdf](https://arxiv.org/pdf/2609.24547v2) · id: `2609.24547v2`
 - **The Ups and Downs of Backprop Weights**  
   *Giuseppe Chindemi, Benjamin F. Grewe*  
   Published: `2026-09-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.22554v1) · [pdf](https://arxiv.org/pdf/2609.22554v1) · id: `2609.22554v1`
@@ -228,6 +234,9 @@ Total papers tracked: **276**
 - **Functionalization via Structure Completion and Motion Rectification**  
   *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
   Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v2) · [pdf](https://arxiv.org/pdf/2605.18010v2) · id: `2605.18010v2`
+- **Functionalization via Structure Completion and Motion Rectification**  
+  *Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang et al.*  
+  Published: `2026-05-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.18010v3) · [pdf](https://arxiv.org/pdf/2605.18010v3) · id: `2605.18010v3`
 - **Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models**  
   *Po-Chien Luan, Wuyang Li, Yang Gao, Alexandre Alahi*  
   Published: `2026-05-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2605.15424v1) · [pdf](https://arxiv.org/pdf/2605.15424v1) · id: `2605.15424v1`

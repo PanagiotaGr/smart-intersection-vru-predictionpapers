@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-22` (timezone: `Europe/Athens`)
+Updated: `2026-09-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **268**
+Total papers tracked: **269**
 
 ---
 
+- **MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions**  
+  *Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li, Xianwen Zeng, Jianan Wang, Yu Li*  
+  Published: `2026-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.24547v2) · [pdf](https://arxiv.org/pdf/2609.24547v2) · id: `2609.24547v2`
 - **PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems**  
   *Chenfeng Huang, George Michailidis*  
   Published: `2026-09-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.24117v1) · [pdf](https://arxiv.org/pdf/2609.24117v1) · id: `2609.24117v1`
