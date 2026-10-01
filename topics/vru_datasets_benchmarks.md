@@ -1,8 +1,8 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **132**
+Total papers tracked: **134**
 
 ---
 
@@ -15,6 +15,9 @@ Total papers tracked: **132**
 - **CrowdTraj: A Benchmark for Dense Crowd Trajectory Prediction in Realistic Crowded Environments**  
   *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
   Published: `2026-09-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.07685v1) · [pdf](https://arxiv.org/pdf/2609.07685v1) · id: `2609.07685v1`
+- **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
+  *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
+  Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
 - **PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment**  
   *Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal, Truc Phuong Nguyen, Austin Harris, Toru Hirano, Mina Sartipi, Yunfei Xu et al.*  
   Published: `2026-07-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2607.16156v1) · [pdf](https://arxiv.org/pdf/2607.16156v1) · id: `2607.16156v1`
@@ -93,6 +96,9 @@ Total papers tracked: **132**
 - **Reverberation: Learning the Latencies Before Forecasting Trajectories**  
   *Conghao Wong, Ziqian Zou, Beihao Xia, Xinge You*  
   Published: `2025-11-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.11164v2) · [pdf](https://arxiv.org/pdf/2511.11164v2) · id: `2511.11164v2`
+- **Reverberation: Learning the Latencies Before Forecasting Trajectories**  
+  *Conghao Wong, Ziqian Zou, Beihao Xia, Xinge You*  
+  Published: `2025-11-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.11164v3) · [pdf](https://arxiv.org/pdf/2511.11164v3) · id: `2511.11164v3`
 - **Social LSTM with Dynamic Occupancy Modeling for Realistic Pedestrian Trajectory Prediction**  
   *Ahmed Alia, Mohcine Chraibi, Armin Seyfried*  
   Published: `2025-11-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.09735v1) · [pdf](https://arxiv.org/pdf/2511.09735v1) · id: `2511.09735v1`

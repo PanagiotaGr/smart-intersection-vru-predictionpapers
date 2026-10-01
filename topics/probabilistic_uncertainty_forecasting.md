@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **196**
+Total papers tracked: **199**
 
 ---
 
+- **Socialality Anchors: Towards Group-bounded Trajectory Prediction**  
+  *Ziqian Zou, Conghao Wong, Qinmu Peng, Xinge You*  
+  Published: `2026-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.36852v1) · [pdf](https://arxiv.org/pdf/2609.36852v1) · id: `2609.36852v1`
 - **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
   *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
   Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
@@ -27,6 +30,9 @@ Total papers tracked: **196**
 - **TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps**  
   *Rohit Patel, Susil Kumar Mohanty, Jeenal Chaudhary*  
   Published: `2026-09-13` · Category: `cs.DC` · [abs](http://arxiv.org/abs/2609.14762v1) · [pdf](https://arxiv.org/pdf/2609.14762v1) · id: `2609.14762v1`
+- **Energy Vision--Language--Action: A Controlled Multimodal Benchmark for Intent-Conditioned Residential Energy Management**  
+  *Lyes Saad Saoud, Oualid Doukhi, Ehsan Reihani, Saeed Sepasi, Deok Jin Lee, Moussa Ayyash, Reza Ghorbani*  
+  Published: `2026-09-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.31648v1) · [pdf](https://arxiv.org/pdf/2609.31648v1) · id: `2609.31648v1`
 - **GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction**  
   *Jiaheng Chen, Jiaxing Li, Leixia Wang, Jianan Ju, Tinghe Zhang*  
   Published: `2026-09-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13778v1) · [pdf](https://arxiv.org/pdf/2609.13778v1) · id: `2609.13778v1`
@@ -45,6 +51,9 @@ Total papers tracked: **196**
 - **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
   *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
   Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
+- **Active Client Selection in Federated Trajectory Prediction with Uncertainty-Awareness and Heterogeneous Complexity**  
+  *Yiming Xie, Muzi Peng, Fei Miao, Ningfang Mi, Lili Su*  
+  Published: `2026-08-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29600v1) · [pdf](https://arxiv.org/pdf/2609.29600v1) · id: `2609.29600v1`
 - **EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting**  
   *Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen*  
   Published: `2026-08-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.22449v1) · [pdf](https://arxiv.org/pdf/2608.22449v1) · id: `2608.22449v1`

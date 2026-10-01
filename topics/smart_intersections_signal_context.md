@@ -1,11 +1,23 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **55**
+Total papers tracked: **59**
 
 ---
 
+- **Efficient Multi-Modal Planning with Reward-Guided Preference Optimization for Autonomous Driving**  
+  *Chenglin Chen, Lujia Wang, Xinhu Zheng, Jun Ma, Haoang Li*  
+  Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38862v1) · [pdf](https://arxiv.org/pdf/2609.38862v1) · id: `2609.38862v1`
+- **One Perception, All Maneuvers: Directional Traffic Signal Understanding for Maneuver-Level Signal Intent Prediction**  
+  *Ang Zou, Runzhe Zheng, Zhigang li, Zhen Yang, Han Xia, Xuewei Li, Zequn Qin, Xi Li*  
+  Published: `2026-09-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.32316v1) · [pdf](https://arxiv.org/pdf/2609.32316v1) · id: `2609.32316v1`
+- **From Weak Data to Strong Policy: Q-Targets Enable Provable In-Context Reinforcement Learning**  
+  *Yichen Lin, Xuyuan Xiong, Xue Wang, Xiangfu Meng, Mike Mingcheng Wei, Tao Yao*  
+  Published: `2026-09-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.30391v1) · [pdf](https://arxiv.org/pdf/2609.30391v1) · id: `2609.30391v1`
+- **Less Language, More Latents: Annotation-Efficient VLAs for Driving**  
+  *Alexey Zakharov, Kemal Oksuz, Puneet K. Dokania*  
+  Published: `2026-09-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.27747v1) · [pdf](https://arxiv.org/pdf/2609.27747v1) · id: `2609.27747v1`
 - **UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner**  
   *Ghazal Farhani, Shabnam Shabani*  
   Published: `2026-09-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.16368v1) · [pdf](https://arxiv.org/pdf/2609.16368v1) · id: `2609.16368v1`

@@ -1,11 +1,23 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **279**
+Total papers tracked: **285**
 
 ---
 
+- **Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**  
+  *Arshia Akhavan, Ermanno Bartoli, Afnan Algharbi, Alireza Hoseinpur, Iolanda Leite, Bryan Donyanavard*  
+  Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38640v1) · [pdf](https://arxiv.org/pdf/2609.38640v1) · id: `2609.38640v1`
+- **Socialality Anchors: Towards Group-bounded Trajectory Prediction**  
+  *Ziqian Zou, Conghao Wong, Qinmu Peng, Xinge You*  
+  Published: `2026-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.36852v1) · [pdf](https://arxiv.org/pdf/2609.36852v1) · id: `2609.36852v1`
+- **Proactive Motion Planning for Human-Robot Cooperation**  
+  *Elena Basei, Edoardo Lamon, Matteo Saveriano, Daniele Fontanelli, Luigi Palopoli*  
+  Published: `2026-09-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.32354v1) · [pdf](https://arxiv.org/pdf/2609.32354v1) · id: `2609.32354v1`
+- **Skeletons in Flow: Graph Structured Flow Matching for Human Motion Prediction**  
+  *Yixuan Wang, Brandon C. Fallin, Warren E. Dixon*  
+  Published: `2026-09-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.32231v1) · [pdf](https://arxiv.org/pdf/2609.32231v1) · id: `2609.32231v1`
 - **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
   *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
   Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
@@ -42,6 +54,9 @@ Total papers tracked: **279**
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
+- **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
+  *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
+  Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
 - **Multi-Person Human Motion Forecasting in Complex Scenes**  
   *Serdar Ozsoy, Lars Doorenbos, Juergen Gall*  
   Published: `2026-08-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.27039v1) · [pdf](https://arxiv.org/pdf/2608.27039v1) · id: `2608.27039v1`
@@ -192,6 +207,9 @@ Total papers tracked: **279**
 - **A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction**  
   *George Daoud, Mohamed El-Darieby*  
   Published: `2026-06-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.14956v1) · [pdf](https://arxiv.org/pdf/2606.14956v1) · id: `2606.14956v1`
+- **AugRelNet: Relation-Augmented Dynamics for Structure Discovery and Forecasting from Limited Data**  
+  *Xingji Cui*  
+  Published: `2026-06-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.11251v2) · [pdf](https://arxiv.org/pdf/2606.11251v2) · id: `2606.11251v2`
 - **Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift**  
   *Doyeong Lim, Seungyoon Lee, In Cheol Bang*  
   Published: `2026-06-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2606.03321v1) · [pdf](https://arxiv.org/pdf/2606.03321v1) · id: `2606.03321v1`

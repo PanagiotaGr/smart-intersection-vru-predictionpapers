@@ -19434,6 +19434,445 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.25827v1",
       "abs_url": "http://arxiv.org/abs/2609.25827v1"
+    },
+    "2609.29706v1": {
+      "arxiv_id": "2609.29706v1",
+      "title": "Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context",
+      "authors": [
+        "Erel Avineri",
+        "Yftach Gil",
+        "Yehudit Aperstein"
+      ],
+      "summary": "Accurate pedestrian trajectory prediction is important for proactive road-safety applications, particularly at urban intersections where pedestrian motion is shaped by both vehicle interactions and crossing context. This study presents a safety-oriented trajectory-prediction framework that combines pedestrian motion history with Time-to-Collision (TTC) information and crossing-zone indicators. Using naturalistic trajectories from one urban intersection in the inD (Intersection Drone) dataset, several neural architectures were evaluated with 1.6 s observation and 2.4 s prediction horizons. A pooled Long Short-Term Memory (LSTM) separately encodes TTC histories and crossing-zone context before integrating them with pedestrian positions. In addition to conventional Average Displacement Error (ADE) and Final Displacement Error (FDE), prediction performance was assessed using the frequency and magnitude of errors exceeding a study-defined 1 m tolerance. A weighted loss was also introduced to place greater training emphasis on large coordinate-wise errors. Applying this loss to the position-only LSTM reduced ADE from 0.210 to 0.190 m and FDE from 0.550 to 0.503 m, while reducing ADE and FDE exceedance counts by 34.8% and 19.8%, respectively. The final pooled configuration incorporating TTC and crossing-zone information achieved an ADE of 0.184 m and FDE of 0.491 m, with further reductions of 33.5% and 6.3% in ADE and FDE exceedance counts relative to the safety-oriented position-only LSTM. The results indicate that safety-oriented training and structured integration of interaction and contextual information can reduce large trajectory-prediction errors, although broader validation across pedestrians, sites, and datasets is required.",
+      "published_utc": "2026-08-31T11:09:05Z",
+      "updated_utc": "2026-08-31T11:09:05Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.29706v1",
+      "abs_url": "http://arxiv.org/abs/2609.29706v1"
+    },
+    "2511.11164v3": {
+      "arxiv_id": "2511.11164v3",
+      "title": "Reverberation: Learning the Latencies Before Forecasting Trajectories",
+      "authors": [
+        "Conghao Wong",
+        "Ziqian Zou",
+        "Beihao Xia",
+        "Xinge You"
+      ],
+      "summary": "Bridging the past to the future, connecting agents both spatially and temporally, lies at the core of the trajectory prediction task. Despite great efforts, it remains challenging to explicitly learn and predict latencies, i.e., response intervals or temporal delays with which agents respond to various trajectory-changing events and adjust their future paths, whether on their own or interactively. Different agents may exhibit distinct latency preferences for noticing, processing, and reacting to a specific trajectory-changing event. The lack of consideration of such latencies may undermine the temporal continuity of forecasting systems, leading to implausible or unintended trajectories. Inspired by reverberation in acoustics, we propose a new reverberation transform and the corresponding Reverberation (Rev for short) trajectory prediction model, which predicts both individual latency preferences and their stochastic variations accordingly, by using two explicit and learnable reverberation kernels, enabling latency-conditioned and controllable trajectory prediction under both non-interactive and social latencies. Experiments on multiple datasets, whether of pedestrians or vehicles, demonstrate that Rev achieves competitive accuracy while revealing interpretable latency dynamics across agents and scenarios. Qualitative analyses further verify the properties of the reverberation transform, highlighting its potential as a general latency modeling approach.",
+      "published_utc": "2025-11-14T10:59:24Z",
+      "updated_utc": "2026-09-29T07:21:43Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2511.11164v3",
+      "abs_url": "http://arxiv.org/abs/2511.11164v3"
+    },
+    "2609.27077v1": {
+      "arxiv_id": "2609.27077v1",
+      "title": "Fast Direction-Conditioned Reachability for Motion Prediction Under Model Uncertainty",
+      "authors": [
+        "Hrishav Das",
+        "Melkior Ornik"
+      ],
+      "summary": "To avoid collisions, a robot must repeatedly predict where nearby agents may move, usually with an imperfect model of their dynamics. Reachable sets provide such predictions, but computing them when the system matrices themselves are uncertain can become computationally expensive and conservative for frequent replanning. Moreover, a planner often needs to know only how far an agent can move in one particular direction, for example toward the robot, rather than the complete reachable set. We propose a direction-conditioned reachability method for linear systems with uncertain state and input matrices. Given a query direction $d$, the method selects one admissible model $(A^\\star,B^\\star)$ whose reachable set extends nearly as far along $d$ as the reachable set of the entire uncertain model family, and then computes the reachable set of only this model with a standard reachability solver. On an uncertain linearized bicycle model, the complete selection-and-computation pipeline is about three times faster than computing the reachable set of the full uncertain family in the CORA toolbox, while its extent along $d$ is within $5\\%$ of the full family's in the reported directions. We also use the method in a closed-loop multi-vehicle simulation in which the robot queries, at each replanning step, how far each nearby vehicle can move toward it, and replans to avoid the resulting sets.",
+      "published_utc": "2026-09-22T21:18:05Z",
+      "updated_utc": "2026-09-22T21:18:05Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.27077v1",
+      "abs_url": "http://arxiv.org/abs/2609.27077v1"
+    },
+    "2609.38640v1": {
+      "arxiv_id": "2609.38640v1",
+      "title": "Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying",
+      "authors": [
+        "Arshia Akhavan",
+        "Ermanno Bartoli",
+        "Afnan Algharbi",
+        "Alireza Hoseinpur",
+        "Iolanda Leite",
+        "Bryan Donyanavard"
+      ],
+      "summary": "Robotic agents use 3D scene graphs (3DSG) to perform tasks ranging from scene understanding to scene interaction. Although an extensive body of work addresses scene graph generation, little attention has been paid to optimizing the graph for consumption, which leaves state-of-the-art perception pipelines to work around their own scene graph and to pay a latency cost that does not fit the real-time budget a perception loop runs on. We present Yggdrasil, the first 3D scene graph designed to be efficient for both generation and consumption: a layer-first hierarchical graph built from generic nodes, edges, and layers, which expresses the representations existing pipelines already produce, indoor or outdoor, flat or hierarchical, while natively answering the positional and semantic queries downstream tasks issue. Against a published DSG baseline, Yggdrasil answers queries up to $121\\times$ faster, and every query we measure falls between 2 and 127 microseconds, three to five orders of magnitude inside the 200 microsecond keyframe budget a 3DSG consumer lives in, on both a workstation and embedded class device. We integrate Yggdrasil into three published pipelines spanning human trajectory prediction, object-goal navigation, and human-aware motion planning, where it removes up to 99% of the time each spends on its scene graph. The implementation, benchmark harness, and all three integrations are available online.",
+      "published_utc": "2026-09-29T22:59:38Z",
+      "updated_utc": "2026-09-29T22:59:38Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38640v1",
+      "abs_url": "http://arxiv.org/abs/2609.38640v1"
+    },
+    "2609.36852v1": {
+      "arxiv_id": "2609.36852v1",
+      "title": "Socialality Anchors: Towards Group-bounded Trajectory Prediction",
+      "authors": [
+        "Ziqian Zou",
+        "Conghao Wong",
+        "Qinmu Peng",
+        "Xinge You"
+      ],
+      "summary": "Trajectory prediction is a key component for understanding human behavior patterns in dynamic scenes. Researchers have devoted substantial efforts to modeling social interactions, especially group-wise interactions, since group membership often reflects shared intention, coordinated motion, and stable mutual adaptation, thus providing a persistent and semantically meaningful social prior for forecasting. However, existing group modeling methods may rely on a fixed threshold and infer groups mainly from agents' relative positions within the observation window, overlooking the fact that grouping rules should be agent-specific, temporally coherent, and context-adaptive across diverse personalities, culturalities, and evolving interaction contexts. Inspired by human social perception that alternates between interpersonal distance in boundary-sensitive situations and relative speed consistency in dynamic interactions, we propose Socialality, a human-inspired trajectory prediction framework with interpretable Socialality anchors and an extended grouping window for stable, context-aware grouping inference. Concretely, Socialality introduces a duo-scalar-controlled grouping kernel Socialality that jointly leverages historical observations and short-term future trajectory previews to learn agent-specific grouping rules, and employs a group-wise perception mechanism to model in-group and out-of-group interactions in an intuitive and explainable manner. Furthermore, we conduct extensive experiments on standard benchmarks to demonstrate the performance gains of Socialality, and provide qualitative analyses and statistical studies of anchor distributions to verify the interpretability and stability of the proposed Socialality anchors.",
+      "published_utc": "2026-09-29T07:00:34Z",
+      "updated_utc": "2026-09-29T07:00:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36852v1",
+      "abs_url": "http://arxiv.org/abs/2609.36852v1"
+    },
+    "2609.32354v1": {
+      "arxiv_id": "2609.32354v1",
+      "title": "Proactive Motion Planning for Human-Robot Cooperation",
+      "authors": [
+        "Elena Basei",
+        "Edoardo Lamon",
+        "Matteo Saveriano",
+        "Daniele Fontanelli",
+        "Luigi Palopoli"
+      ],
+      "summary": "This abstract addresses the incorporation of human motion prediction into proactive and dynamic human-aware motion planning, with the goal of enabling safe collaboration between humans and robots. A deep learning, graph-based model is used to forecast human motion and is integrated into a planning framework. This framework employs a static roadmap along with a time-variant A* algorithm to modify the trajectory of a UR5e manipulator. This method greatly improves human-robot interaction and enables proactive collision avoidance by combining precise motion forecasts with adaptive trajectory planning.",
+      "published_utc": "2026-09-26T08:17:11Z",
+      "updated_utc": "2026-09-26T08:17:11Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32354v1",
+      "abs_url": "http://arxiv.org/abs/2609.32354v1"
+    },
+    "2609.32231v1": {
+      "arxiv_id": "2609.32231v1",
+      "title": "Skeletons in Flow: Graph Structured Flow Matching for Human Motion Prediction",
+      "authors": [
+        "Yixuan Wang",
+        "Brandon C. Fallin",
+        "Warren E. Dixon"
+      ],
+      "summary": "Human motion prediction requires diverse future trajectories that remain consistent with observed motion and the articulated physical structure of the body. Skeletal constraints restrict individual poses, while coordinated motion depends on spatial interactions (between connected joints) and temporal interactions (between time instants). To facilitate human motion prediction in light of these constraints and interactions, we introduce Graph Structured Flow Matching (GSFM), which transports the complete future skeletal trajectory through a single conditional velocity field. The trajectory produces a spatiotemporal skeleton graph, and spatial and temporal attention couple its evolution according to skeletal relations and physical time offsets. Bone directions lie on unit spheres relative to a root joint, and tangent evolution preserves input bone lengths throughout generation. We train a learned velocity field through conditional flow matching along geodesic paths connecting random trajectories centered on the last-observed pose to recorded future trajectories. Experiments on the Archive of Motion capture As Surface Shapes (AMASS) dataset evaluate prediction accuracy, diversity calibration, and motion statistics. We demonstrate the contributions of spatial and temporal message passing in the developed architecture through an ablation study. GSFM models trained on AMASS also perform competitively on the Human3.6M skeleton without parameter updates or retraining, demonstrating applicability to an unseen skeletal structure.",
+      "published_utc": "2026-09-26T04:45:53Z",
+      "updated_utc": "2026-09-26T04:45:53Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32231v1",
+      "abs_url": "http://arxiv.org/abs/2609.32231v1"
+    },
+    "2606.11251v2": {
+      "arxiv_id": "2606.11251v2",
+      "title": "AugRelNet: Relation-Augmented Dynamics for Structure Discovery and Forecasting from Limited Data",
+      "authors": [
+        "Xingji Cui"
+      ],
+      "summary": "Complex dynamics often arise from persistent interactions whose effects vary with the system state. We introduce AugRelNet for short- and medium-horizon trajectory forecasting from limited data. A shared learnable relation matrix explicitly routes source signals to targets, while evolving local features \\(u\\) and a persistent response state \\(η\\) transform them into nonlinear, history-dependent responses. Feeding these responses back into the dynamics separates shared relational organization from its changing realization. The learned relations reflect dense coupling in Lotka--Volterra systems and develop structured, neighbour-preferential organization in locally interacting systems. On 40-dimensional Lorenz--96, AugRelNet uses about 4,000 training states, roughly an order of magnitude fewer than representative prior Lorenz--96 forecasting studies. Across five seeds, every true interaction ranks above every nonedge, with a mean absolute-weight contrast of approximately \\(146{:}1\\). Under the same data budget, eight-step RMSE is about \\(23\\)--\\(59\\times\\) lower than MNO, DySLIM, DeepSkip, and AL-RNN, \\(14\\)--\\(55\\times\\) lower than NRI and dense GraphODE, and 37\\% lower than PySINDy with a matched quadratic dictionary. The same relational representation extends to grids by treating sites as variables and sharing relations across spatial offsets: in discrete (Game of Life), continuous (FitzHugh--Nagumo), and stochastic (Ising) dynamics, learned weights rank physical neighbours above other candidate offsets while supporting multi-step prediction. AugRelNet learns these relations through prediction losses and regularization, without structural labels or system-specific physical losses.",
+      "published_utc": "2026-06-08T15:23:16Z",
+      "updated_utc": "2026-09-26T11:11:05Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.11251v2",
+      "abs_url": "http://arxiv.org/abs/2606.11251v2"
+    },
+    "2609.40158v1": {
+      "arxiv_id": "2609.40158v1",
+      "title": "Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction",
+      "authors": [
+        "Pranav Goyal",
+        "Andrew Stratton",
+        "Christoforos Mavrogiannis"
+      ],
+      "summary": "We focus on legible robot motion generation in social navigation settings. Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently infer the robot's intent. While mature frameworks exist for generating legible motion in front of static observers, social robot navigation presents a new challenge: the robot must clearly convey its intent while ensuring human safety in dynamic pedestrian environments where human attention is often divided. With the goal of enabling robots to generate legible motion in dynamic and constrained spaces, we investigate how the choice of representation and the level of human attention shape navigation performance and human impressions. Focusing on the ubiquitous and demanding scenario of hallway navigation, we conduct two controlled user studies involving alternative legibility formulations implemented within a shared model predictive control framework. Study 1 (N = 45) investigates the role of intent representation, showing that passing-side legibility, particularly when adaptively updated, leads to smoother human motion and is perceived as more competent and less mentally and physically demanding than destination-based and non-legible baselines. Study 2 (N = 45) examines the effect of pedestrian attention, demonstrating that legible motion allows for smooth human motion even under distraction, even if this is not consistently reflected in subjective ratings. Together, these findings suggest that effective legible motion in social robot navigation benefits from interaction-level intent representations that support coordination, with some effects persisting even when human attention is divided. Code is available at https://github.com/fluentrobotics/Legible_MPPI.",
+      "published_utc": "2026-09-30T16:56:06Z",
+      "updated_utc": "2026-09-30T16:56:06Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.40158v1",
+      "abs_url": "http://arxiv.org/abs/2609.40158v1"
+    },
+    "2609.24193v3": {
+      "arxiv_id": "2609.24193v3",
+      "title": "Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction",
+      "authors": [
+        "Yuanzhe Li",
+        "Yidi Huang",
+        "Xiaotong Chang",
+        "Hounian Liu"
+      ],
+      "summary": "Pedestrian head orientation recognition plays an important role in autonomous driving by providing valuable cues for understanding pedestrian attention and anticipating potential crossing behavior. However, reliable recognition in real-world traffic scenes remains challenging because pedestrian head regions are often captured at low resolution. To address this challenge, we propose a lightweight Low-Resolution Head Orientation Convolutional Neural Network (LRHO-CNN) for pedestrian head orientation recognition. We construct a new dataset by extracting pedestrian head images from multiple public datasets and manually annotating them into eight orientation categories. The collected images are systematically preprocessed and augmented to increase data diversity and better represent variations in illumination and image quality. The experimental analysis compares LRHO-CNN with three fine-tuned baseline models, namely ResNet-18, ResNet-34, and VGG-16. The results demonstrate that LRHO-CNN achieves the highest classification accuracy among the evaluated models. LRHO-CNN is further evaluated on the JAAD and PIE datasets, demonstrating its effectiveness in recognizing pedestrian head orientation in real-world traffic scenes and providing informative head-orientation cues that can support downstream pedestrian behavior and intention prediction.",
+      "published_utc": "2026-09-21T07:06:21Z",
+      "updated_utc": "2026-09-30T05:44:55Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.24193v3",
+      "abs_url": "http://arxiv.org/abs/2609.24193v3"
+    },
+    "2609.38862v1": {
+      "arxiv_id": "2609.38862v1",
+      "title": "Efficient Multi-Modal Planning with Reward-Guided Preference Optimization for Autonomous Driving",
+      "authors": [
+        "Chenglin Chen",
+        "Lujia Wang",
+        "Xinhu Zheng",
+        "Jun Ma",
+        "Haoang Li"
+      ],
+      "summary": "Safe and efficient trajectory planning is essential in autonomous driving. However, existing end-to-end approaches often fall short in both computational efficiency and safety guarantees. Methods based on imitation learning suffer from causal confusion, while rule-based scoring approaches often incur heavy computational overhead and suffer from objective misalignment. Additionally, preference-based methods rely on strict pairwise annotations, limiting data utilization. To overcome these limitations, we propose EMPlan, an efficient multi-modal trajectory planning method powered by reward-guided fine-tuning. We design a hybrid architecture that combines sparse anchors with an offset refinement module for efficient multi-modal trajectory prediction. Sparse anchors provide coarse trajectory candidates with low latency, which are subsequently refined by the offset module for higher prediction accuracy. To enhance safety without incurring additional inference costs, we adopt a two-stage training paradigm consisting of pretraining and reward-guided fine-tuning. During fine-tuning, we leverage rule-based reward signals and unpaired preference supervision to refine the pretrained policy toward safer trajectory selection. We evaluate EMPlan on the non-reactive NAVSIM benchmark, where it strikes a favorable balance between planning accuracy and efficiency, demonstrating superior performance under real-time constraints.",
+      "published_utc": "2026-09-30T03:17:37Z",
+      "updated_utc": "2026-09-30T03:17:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38862v1",
+      "abs_url": "http://arxiv.org/abs/2609.38862v1"
+    },
+    "2609.32346v1": {
+      "arxiv_id": "2609.32346v1",
+      "title": "Human Motion Prediction for Human-Robot Collaboration",
+      "authors": [
+        "Placido Falqueto",
+        "Elena Basei",
+        "Edoardo Lamon",
+        "Giovanni Perantoni",
+        "Matteo Saveriano",
+        "Daniele Fontanelli",
+        "Luigi Palopoli"
+      ],
+      "summary": "This paper compares three human motion prediction methods - GMM-based clustering, TransFusion, and Graph-Mixer - evaluating their effectiveness in human-robot collaboration. These predictions are valuable for improving robot motion planning by anticipating human movements and enhancing safety and efficiency in dynamic environments.",
+      "published_utc": "2026-09-26T08:09:44Z",
+      "updated_utc": "2026-09-26T08:09:44Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32346v1",
+      "abs_url": "http://arxiv.org/abs/2609.32346v1"
+    },
+    "2608.23486v3": {
+      "arxiv_id": "2608.23486v3",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "authors": [
+        "Yiren Lu",
+        "Xin Ye",
+        "Jiaming Liu",
+        "Philip Jacobson",
+        "Jin Yao",
+        "Yi-chung Chen",
+        "Liam Merino",
+        "Dhruva Dixith Kurra",
+        "Min Cai",
+        "Tom Lampo",
+        "Yu Yin",
+        "Danhua Guo",
+        "Burhan Yaman"
+      ],
+      "summary": "World action models (WAMs) have recently gained increasing attention as a framework for jointly modeling scene evolution and ego actions in autonomous driving. Most existing WAMs learn scene dynamics in pixel space by combining a video-generation backbone for future-observation prediction with an action head for ego-trajectory prediction. Pixels, however, provide only an indirect representation of these dynamics: they entangle geometry and motion with appearance, texture, and illumination, forcing the model to infer three-dimensional transformations from two-dimensional observations. We argue that point-based geometry provides a more natural state space for driving. It explicitly captures spatial structure and both rigid and non-rigid scene dynamics while remaining aligned with the 3D space of driving actions. Building on this insight, we introduce GeoWAM, a visual geometry world action model for autonomous driving. Rather than predicting future images, GeoWAM is pretrained to forecast future scene geometry, yielding representations that jointly encode spatial structure and temporal evolution. A geometry-conditioned action head then leverages these learned geometric dynamics to predict future ego-trajectories. Extensive experiments show that GeoWAM outperforms image-based alternatives, achieving a combined EPDMS of 36.6 on navhard without PDMS supervision and strong zero-shot generalization to nuScenes, with a collision rate of 0.24%. Scaling geometry pretraining with unlabeled data further improves performance, increasing the navhard score by 8.2% to 39.6 and strengthening zero-shot transfer to nuScenes, where the collision rate is reduced by 50% to 0.12%. Together, these results establish geometry as an effective state representation for autonomous driving and geometry pretraining as a general, scalable strategy for downstream planning.",
+      "published_utc": "2026-08-24T16:49:53Z",
+      "updated_utc": "2026-09-29T18:05:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23486v3",
+      "abs_url": "http://arxiv.org/abs/2608.23486v3"
+    },
+    "2609.37971v1": {
+      "arxiv_id": "2609.37971v1",
+      "title": "Comparing Utility of Inertial, Occupancy, Semantic, and Intent Information in Human Motion Prediction During Daily Tasks",
+      "authors": [
+        "Max Burns",
+        "Maisha Khanum",
+        "Monroe Kennedy",
+        "Steven H. Collins"
+      ],
+      "summary": "Accurate human motion prediction is crucial for robotic systems operating around people, particularly in complex indoor spaces. In this study, we assess the relative importance of different sources of information in indoor motion prediction with a human motion diffusion model. We collected a dataset of nine naive human subjects conducting simulated indoor daily activities while wearing a pair of Meta Aria glasses. This dataset includes ten buildings from a university campus, and encompasses 238 minutes of navigation between daily tasks. Overall, we demonstrate a 42% improvement beyond a constant velocity baseline. Including body motion, scene representation, and eye gaze fixation data significantly reduced prediction error. Semantic information was found to be useful for indoor motion prediction, but to a lesser degree than in outdoor navigation. Providing explicit intent information reduced error beyond any other addition, suggesting that incorporating explicit intent estimation or user input are fundamental for finer prediction of indoor motion. One of the few indicators of intent, eye gaze fixation, was found to be especially useful in predicting deceleration, and provided basic spatial information to the model in the absence of an occupancy map. These results are a first step towards predicting human motion in highly ambiguous indoor scenarios. Code will be made public upon acceptance. Project page: https://human-motion-diffusion.github.io/",
+      "published_utc": "2026-09-29T16:38:13Z",
+      "updated_utc": "2026-09-29T16:38:13Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.37971v1",
+      "abs_url": "http://arxiv.org/abs/2609.37971v1"
+    },
+    "2609.32157v1": {
+      "arxiv_id": "2609.32157v1",
+      "title": "CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving",
+      "authors": [
+        "Narendiran Chembu",
+        "Navvrat Rao",
+        "Shreedhar Shreeshail Kodate",
+        "Gayatri Srujana Banda",
+        "Arko Sarkar",
+        "Abhinav Khanna",
+        "Rajarshee Das",
+        "Umesh Kanala",
+        "Siddarth Khandelwal",
+        "Kumar Aman",
+        "Aish Dubey",
+        "Kaustubh Beedkar",
+        "Arjun Jain"
+      ],
+      "summary": "Vision-Language-Action (VLA) models for autonomous driving produce natural-language reasoning alongside predicted trajectories, but whether this reasoning reflects the causal structure of the scene remains untested. We introduce CausalDriveBench, an evaluation framework grounded in Pearl's Causal Hierarchy (PCH) that tests causal reasoning in driving-specific VLAs through structured visual question answering (QA) and alternative-trajectory prediction. To this end, we construct causal scene graphs over nuScenes that distinguish causally active, dormant, and distractor entities, separating perceptual salience from causal relevance. The benchmark spans all four rungs of PCH (association, intervention, and counterfactual along with causal discovery) for QA generation. For the higher rungs, we additionally provide reference trajectories under specified scene modifications, enabling action-level verification that complements reasoning-level evaluation. In total, the benchmark contains 7,285 verified causal QA pairs and 1,000 counterfactual trajectories derived from nuScenes. We evaluate 10 driving-specific VLAs and 3 general-purpose VLMs, and report three findings. First, the best model reaches only 70.6% QA accuracy, and 4 of 13 models score below random chance. Second, comparing each driving VLA to the general-purpose VLM that shares its language backbone, the cost of driving fine-tuning ranges from 2 to 34 percentage points on causal QA, with post-training design explaining the spread. Third, causal QA and trajectory accuracy are statistically uncorrelated across models: under counterfactual prompts, predicted trajectories either over-react or collapse onto the observed-scene baseline. Taken together, these results show that neither fluent rationales nor accurate observed-scene trajectories constitute evidence of causal understanding.",
+      "published_utc": "2026-09-26T02:21:05Z",
+      "updated_utc": "2026-09-26T02:21:05Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32157v1",
+      "abs_url": "http://arxiv.org/abs/2609.32157v1"
+    },
+    "2609.30391v1": {
+      "arxiv_id": "2609.30391v1",
+      "title": "From Weak Data to Strong Policy: Q-Targets Enable Provable In-Context Reinforcement Learning",
+      "authors": [
+        "Yichen Lin",
+        "Xuyuan Xiong",
+        "Xue Wang",
+        "Xiangfu Meng",
+        "Mike Mingcheng Wei",
+        "Tao Yao"
+      ],
+      "summary": "Existing in-context reinforcement learning methods mainly pretrain Transformers with supervised behavior-prediction objectives. This enables task inference from context, but makes the learned policy strongly depend on the quality of offline actions: when trajectories are weak or suboptimal, imitation itself becomes a biased learning signal. We propose Q-Target Pretrained Transformers (QTPT), which keeps the context-conditioned Transformer architecture but replaces behavior cloning with a Bellman-style Q-target objective. QTPT therefore learns to use rewards and transitions in the context to estimate action values, rather than simply imitating the behavior policy. We theoretically analyze QTPT in stochastic linear bandits and finite-horizon MDPs, showing stronger robustness to data quality than supervised pretraining. Empirically, QTPT improves over supervised behavior prediction on controlled RL benchmarks with random or suboptimal data, and we examine extensions to D4RL Kitchen and AntMaze. Supplementary experiments evaluate backbone robustness, meta-RL comparisons, task-coherent context, and unsupported-action value overestimation. These comparisons distinguish the benefits of Q-target pretraining from the remaining limitations of offline coverage.",
+      "published_utc": "2026-09-24T18:01:42Z",
+      "updated_utc": "2026-09-24T18:01:42Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.30391v1",
+      "abs_url": "http://arxiv.org/abs/2609.30391v1"
+    },
+    "2609.31648v1": {
+      "arxiv_id": "2609.31648v1",
+      "title": "Energy Vision--Language--Action: A Controlled Multimodal Benchmark for Intent-Conditioned Residential Energy Management",
+      "authors": [
+        "Lyes Saad Saoud",
+        "Oualid Doukhi",
+        "Ehsan Reihani",
+        "Saeed Sepasi",
+        "Deok Jin Lee",
+        "Moussa Ayyash",
+        "Reza Ghorbani"
+      ],
+      "summary": "Vision-Language-Action (VLA) models are studied mainly in robotics, where visual observations and language instructions are mapped to physical actions. This paper introduces Energy Vision-Language-Action (EVLA), a controlled multimodal benchmark for intent-conditioned residential energy management. EVLA frames battery scheduling as a multimodal trajectory-prediction problem in which an RGB energy-field representation, a numerical operating state, and a natural-language objective are mapped to a 16-step battery-action trajectory generated by a finite-horizon sampling-based reference generator. Source windows are derived from public residential electrical-load data, while electricity price, battery state of charge, indoor temperature, and time of day are generated benchmark metadata. A hidden operating regime is encoded only through energy-field texture, enabling paired visual changes while the explicit numerical state is fixed. Crossing 439,203 retained base windows with three hidden regimes and five language objectives yields 6,588,045 multimodal instances. An initial study evaluates 36 configurations over three training seeds using fixed subsets of 5,000 training, 500 validation, and 500 test instances. In the MobileNet-family comparison, removing processed language increases trajectory mean-squared error from 0.3856 +/- 0.0039 to 0.8628 +/- 0.0001, whereas removing vision yields 0.3843 +/- 0.0013, comparable to the full model. The results show strong asymmetry in modality use: the processed-language pathway is strongly associated with prediction quality, while the current RGB pathway provides no aggregate error advantage. These results characterize the fixed pilot subset and executed protocol rather than full-benchmark training. EVLA provides a controlled setting for studying how semantic intent and latent context influence residential energy-action prediction.",
+      "published_utc": "2026-09-13T03:39:57Z",
+      "updated_utc": "2026-09-13T03:39:57Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.31648v1",
+      "abs_url": "http://arxiv.org/abs/2609.31648v1"
+    },
+    "2609.29600v1": {
+      "arxiv_id": "2609.29600v1",
+      "title": "Active Client Selection in Federated Trajectory Prediction with Uncertainty-Awareness and Heterogeneous Complexity",
+      "authors": [
+        "Yiming Xie",
+        "Muzi Peng",
+        "Fei Miao",
+        "Ningfang Mi",
+        "Lili Su"
+      ],
+      "summary": "Training sequence models such as transformers is now standard for autonomous vehicle trajectory prediction, yet assembling high-quality centralized datasets remains challenging because real-world trajectories are fragmented across regions and vehicles. Federated Learning (FL) offers a natural alternative, but faces two distinctive challenges: high scene uncertainty arising from trajectory or map ambiguity, and cross-scene complexity heterogeneity caused by diverse map topology, traffic density, agent composition, and driving behaviors. We propose a family of active client selection methods that progressively incorporate awareness of scene uncertainty and complexity to prioritize informative clients. Our uncertainty-aware selectors use per-client negative log-likelihood under an uncertainty-aware global objective and estimated aleatoric uncertainty. We further develop a selector that jointly considers scene complexity and uncertainty, motivated by the intuition that knowledge from complex scenes can transfer to easier ones. Experiments on Argoverse show that federated trajectory prediction outperforms locally trained models. Uncertainty-aware selection accelerates convergence and improves minADE, minFDE, and MR. Under strong scene-complexity heterogeneity, our joint complexity- and uncertainty-aware selector achieves the best generalization and further accelerates convergence, demonstrating the benefit of prioritizing complex and informative scenes.",
+      "published_utc": "2026-08-27T21:36:36Z",
+      "updated_utc": "2026-08-27T21:36:36Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.29600v1",
+      "abs_url": "http://arxiv.org/abs/2609.29600v1"
+    },
+    "2608.07468v5": {
+      "arxiv_id": "2608.07468v5",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "authors": [
+        "Zongchuang Zhao",
+        "Xin Zhou",
+        "Tianyang Xu",
+        "Zhengyang Sun",
+        "Kaixuan Zhou",
+        "Yu Wu",
+        "Honglin Li",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "summary": "In autonomous driving, World-Action Models (WAMs) have improved end-to-end planning by transferring video dynamics priors to action prediction, but many still couple planning with future-video generation at inference, incurring substantial computational overhead. We present SimWAM, a simple yet effective WAM that leverages future-video prediction solely as a training-time supervision signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isolated attention mask keeps action prediction independent of future frames, allowing trajectory prediction without future-frame generation at inference. This design supports multiple pretrained video backbones and independent action-expert scaling within a shared attention interface, while preserving the joint learning objective. Moreover, we apply reinforcement learning to optimize a compositional driving reward beyond trajectory imitation. Experiments show that SimWAM achieves $91.9$ PDMS on NAVSIM with a favorable trade-off between accuracy and latency among world-model-based planners, while transferring zero-shot to nuScenes. It also achieves competitive planning accuracy on WOD-E2E and PhysicalAI-Autonomous-Vehicles. These results position SimWAM as a plain yet solid baseline for efficient autonomous driving. The code and model weights are available at https://github.com/H-EmbodVis/SimWAM/.",
+      "published_utc": "2026-08-07T17:59:09Z",
+      "updated_utc": "2026-09-29T13:51:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07468v5",
+      "abs_url": "http://arxiv.org/abs/2608.07468v5"
+    },
+    "2609.32316v1": {
+      "arxiv_id": "2609.32316v1",
+      "title": "One Perception, All Maneuvers: Directional Traffic Signal Understanding for Maneuver-Level Signal Intent Prediction",
+      "authors": [
+        "Ang Zou",
+        "Runzhe Zheng",
+        "Zhigang li",
+        "Zhen Yang",
+        "Han Xia",
+        "Xuewei Li",
+        "Zequn Qin",
+        "Xi Li"
+      ],
+      "summary": "Traffic lights are a key regulatory signal for autonomous driving at urban intersections, yet existing traffic signal perception is still predominantly formulated as instance-level detection or color recognition. Such formulations identify where traffic lights are and what colors they display, but leave a critical semantic gap before downstream planning: which ego maneuver is controlled by each visible signal and what dynamic permission the signal expresses for that maneuver. In this paper, we formulate Directional Traffic Signal Understanding, a decision-oriented task that predicts structured signal states for straight, left-turn, right-turn, and U-turn maneuvers from a front-view image. Each state contains the associated signal color and signal-implied passability. Based on OpenLane-V2, we provide a direction-level benchmark with maneuver-level supervision and metrics for color recognition, passability, full-frame consistency, and safety-critical errors. A direction-aware baseline combines global context, localized traffic-light evidence, and maneuver-specific representations. Experiments show that direction-level modeling improves passability prediction over image-level classifiers and detection-oriented pipelines, particularly at complex multi-signal intersections. The resulting representation provides a direct and interpretable traffic-signal interface for downstream planning together with topology, route, and surrounding-agent information.",
+      "published_utc": "2026-09-26T07:19:01Z",
+      "updated_utc": "2026-09-26T07:19:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32316v1",
+      "abs_url": "http://arxiv.org/abs/2609.32316v1"
+    },
+    "2609.27747v1": {
+      "arxiv_id": "2609.27747v1",
+      "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
+      "authors": [
+        "Alexey Zakharov",
+        "Kemal Oksuz",
+        "Puneet K. Dokania"
+      ],
+      "summary": "Vision-language-action models (VLA) promise human-steerable autonomous driving, but their training is bottlenecked by the scarcity of frames paired with natural-language instructions: while camera streams and expert trajectories are logged at scale, language annotations (e.g., turn left at the intersection) remain scarce and expensive to acquire. To address this challenge, we introduce Latent Action Driving Annotations (LADA), a three-stage pipeline that transforms abundant unlabelled observation-trajectory pairs into a substrate for language-conditioned control. First, we train a latent action model with a vector-quantised bottleneck, producing a compact codebook of high-level vehicle intents. Second, a small language-annotated subset is used to train a vision-language translator to map observations and language instructions into this codebook. Third, we train a driving VLA on observation-latent-action pairs over the full unlabelled corpus. Using fewer than 5% of language annotations and without leveraging any auxiliary chain-of-thought reasoning or visual question answering streams, LADA achieves a Driving Score of 87.98 and a Success Rate of 70.46% on the closed-loop Bench2Drive benchmark, matching or surpassing fully supervised baselines.",
+      "published_utc": "2026-09-23T12:00:04Z",
+      "updated_utc": "2026-09-23T12:00:04Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.27747v1",
+      "abs_url": "http://arxiv.org/abs/2609.27747v1"
     }
   },
   "topics": {
@@ -19596,9 +20035,11 @@
         "2609.08041v1",
         "2609.07685v1",
         "2609.06195v1",
-        "2609.25942v1"
+        "2609.25942v1",
+        "2609.29706v1",
+        "2511.11164v3"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -19650,9 +20091,10 @@
         "2606.23058v1",
         "2606.20686v1",
         "2607.16156v1",
-        "2510.03314v2"
+        "2510.03314v2",
+        "2609.27077v1"
       ],
-      "latest_update": "2026-07-28"
+      "latest_update": "2026-10-01"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -19935,9 +20377,15 @@
         "2609.22554v1",
         "2609.25942v1",
         "2609.24547v2",
-        "2605.18010v3"
+        "2605.18010v3",
+        "2609.38640v1",
+        "2609.36852v1",
+        "2609.32354v1",
+        "2609.32231v1",
+        "2609.29706v1",
+        "2606.11251v2"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -20071,9 +20519,11 @@
         "2609.10806v1",
         "2609.13328v1",
         "2609.20178v1",
-        "2609.24193v1"
+        "2609.24193v1",
+        "2609.40158v1",
+        "2609.24193v3"
       ],
-      "latest_update": "2026-09-22"
+      "latest_update": "2026-10-01"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -20346,9 +20796,15 @@
         "2609.19606v1",
         "2609.24117v1",
         "2609.22868v1",
-        "2609.24547v2"
+        "2609.24547v2",
+        "2609.38862v1",
+        "2609.32354v1",
+        "2609.32346v1",
+        "2609.27077v1",
+        "2609.29706v1",
+        "2608.23486v3"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -20590,9 +21046,18 @@
         "2609.19393v1",
         "2609.22868v1",
         "2609.25827v1",
-        "2609.24547v2"
+        "2609.24547v2",
+        "2609.38640v1",
+        "2609.37971v1",
+        "2609.36852v1",
+        "2609.32157v1",
+        "2609.30391v1",
+        "2609.31648v1",
+        "2609.29706v1",
+        "2609.29600v1",
+        "2608.23486v3"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -20792,9 +21257,12 @@
         "2609.12095v1",
         "2609.19393v1",
         "2609.24117v1",
-        "2609.25942v1"
+        "2609.25942v1",
+        "2609.36852v1",
+        "2609.31648v1",
+        "2609.29600v1"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -20983,9 +21451,16 @@
         "2609.18548v1",
         "2609.19813v1",
         "2609.19393v1",
-        "2609.25827v1"
+        "2609.25827v1",
+        "2609.38640v1",
+        "2609.32354v1",
+        "2609.32157v1",
+        "2609.30391v1",
+        "2609.29600v1",
+        "2608.23486v3",
+        "2608.07468v5"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -21111,9 +21586,10 @@
         "2607.08402v1",
         "2607.16156v1",
         "2510.03314v2",
-        "2604.07126v3"
+        "2604.07126v3",
+        "2609.29706v1"
       ],
-      "latest_update": "2026-08-12"
+      "latest_update": "2026-10-01"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -21188,9 +21664,10 @@
         "2609.10806v1",
         "2609.13328v1",
         "2609.20178v1",
-        "2609.24193v1"
+        "2609.24193v1",
+        "2609.24193v3"
       ],
-      "latest_update": "2026-09-22"
+      "latest_update": "2026-10-01"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -21249,9 +21726,13 @@
         "2609.08117v1",
         "2608.25284v2",
         "2609.16368v1",
-        "2609.12095v1"
+        "2609.12095v1",
+        "2609.38862v1",
+        "2609.32316v1",
+        "2609.30391v1",
+        "2609.27747v1"
       ],
-      "latest_update": "2026-09-16"
+      "latest_update": "2026-10-01"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -21387,9 +21868,11 @@
         "2604.07126v3",
         "2609.08041v1",
         "2609.07685v1",
-        "2609.25942v1"
+        "2609.25942v1",
+        "2609.29706v1",
+        "2511.11164v3"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -21534,9 +22017,12 @@
         "2609.13328v1",
         "2609.20178v1",
         "2609.24193v1",
-        "2609.25942v1"
+        "2609.25942v1",
+        "2609.40158v1",
+        "2609.24193v3",
+        "2609.29706v1"
       ],
-      "latest_update": "2026-09-23"
+      "latest_update": "2026-10-01"
     }
   }
 }

@@ -1,11 +1,23 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **269**
+Total papers tracked: **275**
 
 ---
 
+- **Efficient Multi-Modal Planning with Reward-Guided Preference Optimization for Autonomous Driving**  
+  *Chenglin Chen, Lujia Wang, Xinhu Zheng, Jun Ma, Haoang Li*  
+  Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38862v1) · [pdf](https://arxiv.org/pdf/2609.38862v1) · id: `2609.38862v1`
+- **Proactive Motion Planning for Human-Robot Cooperation**  
+  *Elena Basei, Edoardo Lamon, Matteo Saveriano, Daniele Fontanelli, Luigi Palopoli*  
+  Published: `2026-09-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.32354v1) · [pdf](https://arxiv.org/pdf/2609.32354v1) · id: `2609.32354v1`
+- **Human Motion Prediction for Human-Robot Collaboration**  
+  *Placido Falqueto, Elena Basei, Edoardo Lamon, Giovanni Perantoni, Matteo Saveriano, Daniele Fontanelli, Luigi Palopoli*  
+  Published: `2026-09-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.32346v1) · [pdf](https://arxiv.org/pdf/2609.32346v1) · id: `2609.32346v1`
+- **Fast Direction-Conditioned Reachability for Motion Prediction Under Model Uncertainty**  
+  *Hrishav Das, Melkior Ornik*  
+  Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.27077v1) · [pdf](https://arxiv.org/pdf/2609.27077v1) · id: `2609.27077v1`
 - **MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions**  
   *Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li, Xianwen Zeng, Jianan Wang, Yu Li*  
   Published: `2026-09-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.24547v2) · [pdf](https://arxiv.org/pdf/2609.24547v2) · id: `2609.24547v2`
@@ -42,6 +54,9 @@ Total papers tracked: **269**
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
+- **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
+  *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
+  Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
 - **DESCENT: Directed Edge Scene Encoding for Airport Surface Movement Prediction**  
   *Alexander Prutsch, David Schinagl, Horst Possegger*  
   Published: `2026-08-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.26002v1) · [pdf](https://arxiv.org/pdf/2608.26002v1) · id: `2608.26002v1`
@@ -51,6 +66,9 @@ Total papers tracked: **269**
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v3) · [pdf](https://arxiv.org/pdf/2608.23486v3) · id: `2608.23486v3`
 - **G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs**  
   *Bhavya Gupta, Onat Gungor, Tajana Rosing*  
   Published: `2026-08-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.19964v1) · [pdf](https://arxiv.org/pdf/2608.19964v1) · id: `2608.19964v1`

@@ -1,11 +1,23 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **185**
+Total papers tracked: **192**
 
 ---
 
+- **Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**  
+  *Arshia Akhavan, Ermanno Bartoli, Afnan Algharbi, Alireza Hoseinpur, Iolanda Leite, Bryan Donyanavard*  
+  Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38640v1) · [pdf](https://arxiv.org/pdf/2609.38640v1) · id: `2609.38640v1`
+- **Proactive Motion Planning for Human-Robot Cooperation**  
+  *Elena Basei, Edoardo Lamon, Matteo Saveriano, Daniele Fontanelli, Luigi Palopoli*  
+  Published: `2026-09-26` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.32354v1) · [pdf](https://arxiv.org/pdf/2609.32354v1) · id: `2609.32354v1`
+- **CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving**  
+  *Narendiran Chembu, Navvrat Rao, Shreedhar Shreeshail Kodate, Gayatri Srujana Banda, Arko Sarkar, Abhinav Khanna, Rajarshee Das, Umesh Kanala et al.*  
+  Published: `2026-09-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.32157v1) · [pdf](https://arxiv.org/pdf/2609.32157v1) · id: `2609.32157v1`
+- **From Weak Data to Strong Policy: Q-Targets Enable Provable In-Context Reinforcement Learning**  
+  *Yichen Lin, Xuyuan Xiong, Xue Wang, Xiangfu Meng, Mike Mingcheng Wei, Tao Yao*  
+  Published: `2026-09-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.30391v1) · [pdf](https://arxiv.org/pdf/2609.30391v1) · id: `2609.30391v1`
 - **Protocol before progress: leakage-aware evaluation of AIS trajectory prediction**  
   *Zobeir Raisi, Vali Mohammad Nazarzehi Had*  
   Published: `2026-09-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.25827v1) · [pdf](https://arxiv.org/pdf/2609.25827v1) · id: `2609.25827v1`
@@ -39,6 +51,9 @@ Total papers tracked: **185**
 - **DiffuSearch: How Hybrid Trajectory Planning Benefits from Aligned Objectives in Diffusion and Action Space**  
   *Steffen Hagedorn, Aron Distelzweig, Alexandru P. Condurache*  
   Published: `2026-09-02` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.02252v1) · [pdf](https://arxiv.org/pdf/2609.02252v1) · id: `2609.02252v1`
+- **Active Client Selection in Federated Trajectory Prediction with Uncertainty-Awareness and Heterogeneous Complexity**  
+  *Yiming Xie, Muzi Peng, Fei Miao, Ningfang Mi, Lili Su*  
+  Published: `2026-08-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29600v1) · [pdf](https://arxiv.org/pdf/2609.29600v1) · id: `2609.29600v1`
 - **Multi-Person Human Motion Forecasting in Complex Scenes**  
   *Serdar Ozsoy, Lars Doorenbos, Juergen Gall*  
   Published: `2026-08-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.27039v1) · [pdf](https://arxiv.org/pdf/2608.27039v1) · id: `2608.27039v1`
@@ -54,6 +69,9 @@ Total papers tracked: **185**
 - **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
   *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
   Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v2) · [pdf](https://arxiv.org/pdf/2608.23486v2) · id: `2608.23486v2`
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v3) · [pdf](https://arxiv.org/pdf/2608.23486v3) · id: `2608.23486v3`
 - **Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation**  
   *Seunghan Lee, Hyunsik Yoo, Jian Kang, Susik Yoon, SeongKu Kang*  
   Published: `2026-08-24` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2608.22920v1) · [pdf](https://arxiv.org/pdf/2608.22920v1) · id: `2608.22920v1`
@@ -96,6 +114,9 @@ Total papers tracked: **185**
 - **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
   *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Yu Wu, Honglin Li, Dingkang Liang et al.*  
   Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v4) · [pdf](https://arxiv.org/pdf/2608.07468v4) · id: `2608.07468v4`
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**  
+  *Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, Yu Wu, Honglin Li, Dingkang Liang et al.*  
+  Published: `2026-08-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.07468v5) · [pdf](https://arxiv.org/pdf/2608.07468v5) · id: `2608.07468v5`
 - **M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction**  
   *Wenzhe Jin, Haina Tang*  
   Published: `2026-08-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.10559v1) · [pdf](https://arxiv.org/pdf/2609.10559v1) · id: `2609.10559v1`

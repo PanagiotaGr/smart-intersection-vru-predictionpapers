@@ -1,11 +1,26 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **238**
+Total papers tracked: **247**
 
 ---
 
+- **Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**  
+  *Arshia Akhavan, Ermanno Bartoli, Afnan Algharbi, Alireza Hoseinpur, Iolanda Leite, Bryan Donyanavard*  
+  Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38640v1) · [pdf](https://arxiv.org/pdf/2609.38640v1) · id: `2609.38640v1`
+- **Comparing Utility of Inertial, Occupancy, Semantic, and Intent Information in Human Motion Prediction During Daily Tasks**  
+  *Max Burns, Maisha Khanum, Monroe Kennedy, Steven H. Collins*  
+  Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.37971v1) · [pdf](https://arxiv.org/pdf/2609.37971v1) · id: `2609.37971v1`
+- **Socialality Anchors: Towards Group-bounded Trajectory Prediction**  
+  *Ziqian Zou, Conghao Wong, Qinmu Peng, Xinge You*  
+  Published: `2026-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.36852v1) · [pdf](https://arxiv.org/pdf/2609.36852v1) · id: `2609.36852v1`
+- **CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving**  
+  *Narendiran Chembu, Navvrat Rao, Shreedhar Shreeshail Kodate, Gayatri Srujana Banda, Arko Sarkar, Abhinav Khanna, Rajarshee Das, Umesh Kanala et al.*  
+  Published: `2026-09-26` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.32157v1) · [pdf](https://arxiv.org/pdf/2609.32157v1) · id: `2609.32157v1`
+- **From Weak Data to Strong Policy: Q-Targets Enable Provable In-Context Reinforcement Learning**  
+  *Yichen Lin, Xuyuan Xiong, Xue Wang, Xiangfu Meng, Mike Mingcheng Wei, Tao Yao*  
+  Published: `2026-09-24` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.30391v1) · [pdf](https://arxiv.org/pdf/2609.30391v1) · id: `2609.30391v1`
 - **Protocol before progress: leakage-aware evaluation of AIS trajectory prediction**  
   *Zobeir Raisi, Vali Mohammad Nazarzehi Had*  
   Published: `2026-09-22` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.25827v1) · [pdf](https://arxiv.org/pdf/2609.25827v1) · id: `2609.25827v1`
@@ -36,6 +51,9 @@ Total papers tracked: **238**
 - **WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors**  
   *Bowei Zhang, Qiyao Zhang, Shuanghao Bai, Xinhua Wang, Meng Li, Yilei Wang, Leiwang Zhang, Jian Tang et al.*  
   Published: `2026-09-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.18197v1) · [pdf](https://arxiv.org/pdf/2609.18197v1) · id: `2609.18197v1`
+- **Energy Vision--Language--Action: A Controlled Multimodal Benchmark for Intent-Conditioned Residential Energy Management**  
+  *Lyes Saad Saoud, Oualid Doukhi, Ehsan Reihani, Saeed Sepasi, Deok Jin Lee, Moussa Ayyash, Reza Ghorbani*  
+  Published: `2026-09-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.31648v1) · [pdf](https://arxiv.org/pdf/2609.31648v1) · id: `2609.31648v1`
 - **GeomVLA: Unifying Scene, Motion, and Action in 3D**  
   *Ziyin Xiong, Nikos Gkanatsios, Moritz Reuss, Katerina Fragkiadaki*  
   Published: `2026-09-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.13812v1) · [pdf](https://arxiv.org/pdf/2609.13812v1) · id: `2609.13812v1`
@@ -66,6 +84,12 @@ Total papers tracked: **238**
 - **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
   *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
   Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
+- **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
+  *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
+  Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
+- **Active Client Selection in Federated Trajectory Prediction with Uncertainty-Awareness and Heterogeneous Complexity**  
+  *Yiming Xie, Muzi Peng, Fei Miao, Ningfang Mi, Lili Su*  
+  Published: `2026-08-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29600v1) · [pdf](https://arxiv.org/pdf/2609.29600v1) · id: `2609.29600v1`
 - **SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions**  
   *Yicheng Zhu, Tianmu Zhao, Haoxin Leng, Fan Zuo, Tao Li, Zilin Bian*  
   Published: `2026-08-25` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.24094v1) · [pdf](https://arxiv.org/pdf/2608.24094v1) · id: `2608.24094v1`
@@ -78,6 +102,9 @@ Total papers tracked: **238**
 - **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
   *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
   Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v2) · [pdf](https://arxiv.org/pdf/2608.23486v2) · id: `2608.23486v2`
+- **GeoWAM: Visual Geometry World Action Models for Autonomous Driving**  
+  *Yiren Lu, Xin Ye, Jiaming Liu, Philip Jacobson, Jin Yao, Yi-chung Chen, Liam Merino, Dhruva Dixith Kurra et al.*  
+  Published: `2026-08-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.23486v3) · [pdf](https://arxiv.org/pdf/2608.23486v3) · id: `2608.23486v3`
 - **Fine-tuning LLMs for Tourist Trajectory Prediction using Field Experiment Data**  
   *Tatsuya Amano, Hirozumi Yamaguchi*  
   Published: `2026-08-21` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2608.20830v1) · [pdf](https://arxiv.org/pdf/2608.20830v1) · id: `2608.20830v1`

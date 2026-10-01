@@ -1,17 +1,23 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-09-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-01` (timezone: `Europe/Athens`)
 
-Total papers tracked: **141**
+Total papers tracked: **144**
 
 ---
 
+- **Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction**  
+  *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
+  Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v1) · [pdf](https://arxiv.org/pdf/2609.40158v1) · id: `2609.40158v1`
 - **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
   *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
   Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
 - **Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction**  
   *Yuanzhe Li, Yidi Huang, Xiaotong Chang, Hounian Liu*  
   Published: `2026-09-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.24193v1) · [pdf](https://arxiv.org/pdf/2609.24193v1) · id: `2609.24193v1`
+- **Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction**  
+  *Yuanzhe Li, Yidi Huang, Xiaotong Chang, Hounian Liu*  
+  Published: `2026-09-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.24193v3) · [pdf](https://arxiv.org/pdf/2609.24193v3) · id: `2609.24193v3`
 - **Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation**  
   *Henok Teklu, Mustafa Sakhai, Maciej Wielgosz, Matej Mertik*  
   Published: `2026-09-11` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.13328v1) · [pdf](https://arxiv.org/pdf/2609.13328v1) · id: `2609.13328v1`
@@ -27,6 +33,9 @@ Total papers tracked: **141**
 - **EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan**  
   *Azusa Sawada, Allan Wang, Hideo Saito, Aaron Steinfeld*  
   Published: `2026-09-05` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.06195v1) · [pdf](https://arxiv.org/pdf/2609.06195v1) · id: `2609.06195v1`
+- **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
+  *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
+  Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
 - **The 10th AI City Challenge**  
   *Zheng Tang, Shuo Wang, David C. Anastasiu, Ming-Ching Chang, Anuj Sharma, Quan Kong, Munkhjargal Gochoo, Jun-Wei Hsieh et al.*  
   Published: `2026-08-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.17044v1) · [pdf](https://arxiv.org/pdf/2608.17044v1) · id: `2608.17044v1`
