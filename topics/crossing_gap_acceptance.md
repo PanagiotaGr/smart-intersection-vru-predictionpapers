@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-10-01` (timezone: `Europe/Athens`)
+Updated: `2026-10-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **72**
+Total papers tracked: **73**
 
 ---
 
+- **Evidence-Gated Research: Statistically Controlled Model Adoption in Adaptive Search**  
+  *Yifan Guo*  
+  Published: `2026-10-01` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.01751v1) · [pdf](https://arxiv.org/pdf/2610.01751v1) · id: `2610.01751v1`
 - **Lightweight Pedestrian Head-Orientation Recognition Network for Safe Pedestrian-Vehicle Interaction**  
   *Yuanzhe Li, Yidi Huang, Xiaotong Chang, Hounian Liu*  
   Published: `2026-09-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.24193v1) · [pdf](https://arxiv.org/pdf/2609.24193v1) · id: `2609.24193v1`

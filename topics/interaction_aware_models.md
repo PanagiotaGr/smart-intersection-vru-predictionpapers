@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-01` (timezone: `Europe/Athens`)
+Updated: `2026-10-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **285**
+Total papers tracked: **286**
 
 ---
 
+- **MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens**  
+  *Shen Zheng, Anurag Ghosh, Mani Ramanagopal, Srinivasa Narasimhan*  
+  Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01905v1) · [pdf](https://arxiv.org/pdf/2610.01905v1) · id: `2610.01905v1`
 - **Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**  
   *Arshia Akhavan, Ermanno Bartoli, Afnan Algharbi, Alireza Hoseinpur, Iolanda Leite, Bryan Donyanavard*  
   Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38640v1) · [pdf](https://arxiv.org/pdf/2609.38640v1) · id: `2609.38640v1`

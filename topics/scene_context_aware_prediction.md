@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-01` (timezone: `Europe/Athens`)
+Updated: `2026-10-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **247**
+Total papers tracked: **250**
 
 ---
 
+- **MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens**  
+  *Shen Zheng, Anurag Ghosh, Mani Ramanagopal, Srinivasa Narasimhan*  
+  Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01905v1) · [pdf](https://arxiv.org/pdf/2610.01905v1) · id: `2610.01905v1`
+- **FutureWorlds: Learning Robotic World Models from Alternative Futures**  
+  *Hao Wu, Shengju Qian, Weiyan Wang, Fan Xu, Fan Zhang, Yuanpeng He, Qingsong Wen, Yuxuan Liang*  
+  Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01019v1) · [pdf](https://arxiv.org/pdf/2610.01019v1) · id: `2610.01019v1`
 - **Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**  
   *Arshia Akhavan, Ermanno Bartoli, Afnan Algharbi, Alireza Hoseinpur, Iolanda Leite, Bryan Donyanavard*  
   Published: `2026-09-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38640v1) · [pdf](https://arxiv.org/pdf/2609.38640v1) · id: `2609.38640v1`
@@ -51,6 +57,9 @@ Total papers tracked: **247**
 - **WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors**  
   *Bowei Zhang, Qiyao Zhang, Shuanghao Bai, Xinhua Wang, Meng Li, Yilei Wang, Leiwang Zhang, Jian Tang et al.*  
   Published: `2026-09-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.18197v1) · [pdf](https://arxiv.org/pdf/2609.18197v1) · id: `2609.18197v1`
+- **WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors**  
+  *Bowei Zhang, Qiyao Zhang, Shuanghao Bai, Xinhua Wang, Meng Li, Yilei Wang, Leiwang Zhang, Jian Tang et al.*  
+  Published: `2026-09-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.18197v2) · [pdf](https://arxiv.org/pdf/2609.18197v2) · id: `2609.18197v2`
 - **Energy Vision--Language--Action: A Controlled Multimodal Benchmark for Intent-Conditioned Residential Energy Management**  
   *Lyes Saad Saoud, Oualid Doukhi, Ehsan Reihani, Saeed Sepasi, Deok Jin Lee, Moussa Ayyash, Reza Ghorbani*  
   Published: `2026-09-13` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.31648v1) · [pdf](https://arxiv.org/pdf/2609.31648v1) · id: `2609.31648v1`

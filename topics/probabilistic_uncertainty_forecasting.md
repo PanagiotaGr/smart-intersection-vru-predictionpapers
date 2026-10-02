@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-01` (timezone: `Europe/Athens`)
+Updated: `2026-10-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **199**
+Total papers tracked: **200**
 
 ---
 
+- **MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens**  
+  *Shen Zheng, Anurag Ghosh, Mani Ramanagopal, Srinivasa Narasimhan*  
+  Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01905v1) · [pdf](https://arxiv.org/pdf/2610.01905v1) · id: `2610.01905v1`
 - **Socialality Anchors: Towards Group-bounded Trajectory Prediction**  
   *Ziqian Zou, Conghao Wong, Qinmu Peng, Xinge You*  
   Published: `2026-09-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.36852v1) · [pdf](https://arxiv.org/pdf/2609.36852v1) · id: `2609.36852v1`

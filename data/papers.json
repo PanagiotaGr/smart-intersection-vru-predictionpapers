@@ -19873,6 +19873,91 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2609.27747v1",
       "abs_url": "http://arxiv.org/abs/2609.27747v1"
+    },
+    "2610.01905v1": {
+      "arxiv_id": "2610.01905v1",
+      "title": "MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens",
+      "authors": [
+        "Shen Zheng",
+        "Anurag Ghosh",
+        "Mani Ramanagopal",
+        "Srinivasa Narasimhan"
+      ],
+      "summary": "Online vectorized HD map construction is essential for scaling safe autonomous driving and requires accurate, real-time inference. Prior methods typically rely on dense bird's-eye-view (BEV) grids as the intermediate representation. We propose \\textit{MapLightning}, which replaces the dense BEV grid with a compact set of 1D learnable map tokens. To construct map tokens from image features, we choose self-attention over vanilla cross-attention because it enables joint interactions and contextual aggregation among image and map tokens. Our transformer-based mapper concatenates map and image tokens, applies full self-attention, discards the image tokens, and retains the updated map tokens for decoding. This design offers three advantages. First, our representation is efficient, using fewer tokens, consuming less memory, and running faster. Second, the lightweight design allows the map decoder to use full rather than deformable cross-attention for better global context. Third, unlike BEV-based methods, our network does not use camera projection parameters, making it robust to camera-extrinsic perturbations. MapLightning uses up to 16.7$\\times$ fewer intermediate tokens than dense BEV-based methods and achieves state-of-the-art accuracy and efficiency on nuScenes and Argoverse~2. Its lightweight variant surpasses MapTRv2 by +10.1 mAP on nuScenes and +16.2 mAP on Argoverse~2, while delivering 1.73$\\times$ faster inference (40+ FPS) with 53\\% less memory. We further show improvements on uncertainty-aware map construction and downstream trajectory prediction. Code and models will be released.",
+      "published_utc": "2026-10-01T15:50:17Z",
+      "updated_utc": "2026-10-01T15:50:17Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.01905v1",
+      "abs_url": "http://arxiv.org/abs/2610.01905v1"
+    },
+    "2610.01019v1": {
+      "arxiv_id": "2610.01019v1",
+      "title": "FutureWorlds: Learning Robotic World Models from Alternative Futures",
+      "authors": [
+        "Hao Wu",
+        "Shengju Qian",
+        "Weiyan Wang",
+        "Fan Xu",
+        "Fan Zhang",
+        "Yuanpeng He",
+        "Qingsong Wen",
+        "Yuxuan Liang"
+      ],
+      "summary": "Robotic world models predict action-conditioned future scenes, providing a foundation for understanding action outcomes. However, turning alternative predictions into useful learning signals remains challenging: similar candidates limit informative quality comparisons, while diverging trajectories require persistent maintenance of their individual histories. We introduce FutureWorlds, a framework that unifies candidate construction, history maintenance, and learning from relative quality. Built on a multimodal discrete autoregressive model, FutureWorlds uses diverse beam search during reinforcement learning to construct candidate futures that balance confidence and diversity. Candidate-specific bounded memory preserves scene states and ensures that generation and policy scoring use matching histories. We further propose MemSPO (Memory-Conditioned Search-Guided Policy Optimization), which converts video trajectory rewards into group-relative advantages to optimize the world model. On RT-1, BridgeV2, and RoboCasa, FutureWorlds reduces LPIPS for 32-frame predictions by 14.78%, 20.84%, and 9.12%, respectively, relative to the strongest baseline on each dataset. Under fixed evaluation configurations, only 200 MemSPO updates further improve generation quality and support continued prediction beyond the training horizon. Memory ablations, decoding sensitivity analysis, and optical-flow evaluation show that these gains extend beyond visual quality to more accurate motion prediction and more consistent object states. Project page and code: https://github.com/Alexander-wu/FutureWorlds.",
+      "published_utc": "2026-10-01T04:04:31Z",
+      "updated_utc": "2026-10-01T04:04:31Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.01019v1",
+      "abs_url": "http://arxiv.org/abs/2610.01019v1"
+    },
+    "2609.18197v2": {
+      "arxiv_id": "2609.18197v2",
+      "title": "WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors",
+      "authors": [
+        "Bowei Zhang",
+        "Qiyao Zhang",
+        "Shuanghao Bai",
+        "Xinhua Wang",
+        "Meng Li",
+        "Yilei Wang",
+        "Leiwang Zhang",
+        "Jian Tang",
+        "Lu Zhou",
+        "Lei Sun",
+        "Zhengping Che"
+      ],
+      "summary": "Humanoid whole-body manipulation requires coordinated whole-body dynamics, yet large-scale trajectories from a target robot are expensive to collect and difficult to scale. In contrast, whole-body motion from human and humanoid sources is abundantly available, although such data cannot be directly used as embodiment-specific robot actions. This work asks whether these scalable motion resources can instead provide a transferable predictive prior for humanoid world-action modeling. We introduce WholeBodyWAM, a humanoid world-action model that learns whole-body dynamics from large-scale heterogeneous motion before target-robot training. We curate UniMotion-4K, a motion corpus spanning more than 4K hours from human videos, native 3D motion datasets, and heterogeneous humanoid platforms, and canonicalize these diverse sources into a unified motion space. A language-conditioned Motion Expert is then pretrained to predict future whole-body motion without target-robot action supervision. During robot post-training, the pretrained Motion Expert is integrated with Video and Action Experts through asymmetric Mixture-of-Transformers (MoT) attention, enabling predictive scene dynamics and whole-body motion to jointly inform embodiment-specific action generation. Experiments show that WholeBodyWAM consistently benefits from increased motion-pretraining scale, improves future-motion prediction and downstream task performance, and transfers effectively to real-world humanoid manipulation. Moreover, the pretrained motion prior substantially improves data efficiency under limited target-robot demonstrations.",
+      "published_utc": "2026-09-16T06:32:21Z",
+      "updated_utc": "2026-10-01T05:54:01Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.18197v2",
+      "abs_url": "http://arxiv.org/abs/2609.18197v2"
+    },
+    "2610.01751v1": {
+      "arxiv_id": "2610.01751v1",
+      "title": "Evidence-Gated Research: Statistically Controlled Model Adoption in Adaptive Search",
+      "authors": [
+        "Yifan Guo"
+      ],
+      "summary": "Adaptive model search is path dependent: once a challenger is adopted, it becomes the reference from which later candidates are generated. A statistically unsupported replacement can therefore alter hypotheses that have not yet been proposed. We introduce Evidence-Gated Research (EGR), a statistical adoption layer for moving-incumbent search. EGR freezes each challenger before decision evidence is revealed, builds anytime-valid evidence across a predeclared set of environments, routes evidence predictably toward unresolved components, composes a persistent candidate e-value, and passes that e-value to an online controller. Under explicit conditional-validity and predictability conditions, the resulting procedure controls false discovery rate for the declared all-environment adoption target even though earlier adoptions change later challengers. In a 5,000-trajectory closed-loop benchmark, development-only e-LOND attains persistent FDR 0.621, whereas no persistent false-adoption path is observed for the audited EGR variants in that finite run. In matched replay over 600 challenger--incumbent pairs, Stagewise EGR preserves fixed-anytime alternative crossing decisions while using 56.1% less decision evidence at the representative threshold. A three-environment public-data study and a 40,000-sample controlled neural benchmark reproduce the evidence-efficiency pattern. These results identify model replacement as a distinct statistical control point in adaptive model development.",
+      "published_utc": "2026-10-01T14:17:55Z",
+      "updated_utc": "2026-10-01T14:17:55Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.01751v1",
+      "abs_url": "http://arxiv.org/abs/2610.01751v1"
     }
   },
   "topics": {
@@ -20383,9 +20468,10 @@
         "2609.32354v1",
         "2609.32231v1",
         "2609.29706v1",
-        "2606.11251v2"
+        "2606.11251v2",
+        "2610.01905v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21055,9 +21141,12 @@
         "2609.31648v1",
         "2609.29706v1",
         "2609.29600v1",
-        "2608.23486v3"
+        "2608.23486v3",
+        "2610.01905v1",
+        "2610.01019v1",
+        "2609.18197v2"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -21260,9 +21349,10 @@
         "2609.25942v1",
         "2609.36852v1",
         "2609.31648v1",
-        "2609.29600v1"
+        "2609.29600v1",
+        "2610.01905v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -21458,9 +21548,10 @@
         "2609.30391v1",
         "2609.29600v1",
         "2608.23486v3",
-        "2608.07468v5"
+        "2608.07468v5",
+        "2610.01905v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -21665,9 +21756,10 @@
         "2609.13328v1",
         "2609.20178v1",
         "2609.24193v1",
-        "2609.24193v3"
+        "2609.24193v3",
+        "2610.01751v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -21730,9 +21822,10 @@
         "2609.38862v1",
         "2609.32316v1",
         "2609.30391v1",
-        "2609.27747v1"
+        "2609.27747v1",
+        "2610.01019v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-02"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

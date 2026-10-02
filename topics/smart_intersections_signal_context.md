@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-10-01` (timezone: `Europe/Athens`)
+Updated: `2026-10-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **59**
+Total papers tracked: **60**
 
 ---
 
+- **FutureWorlds: Learning Robotic World Models from Alternative Futures**  
+  *Hao Wu, Shengju Qian, Weiyan Wang, Fan Xu, Fan Zhang, Yuanpeng He, Qingsong Wen, Yuxuan Liang*  
+  Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01019v1) · [pdf](https://arxiv.org/pdf/2610.01019v1) · id: `2610.01019v1`
 - **Efficient Multi-Modal Planning with Reward-Guided Preference Optimization for Autonomous Driving**  
   *Chenglin Chen, Lujia Wang, Xinhu Zheng, Jun Ma, Haoang Li*  
   Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38862v1) · [pdf](https://arxiv.org/pdf/2609.38862v1) · id: `2609.38862v1`
