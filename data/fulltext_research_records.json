@@ -10957,6 +10957,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2609.18197v2": {
+      "schema_version": 1,
+      "paper_id": "2609.18197v2",
+      "title": "WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors",
+      "pdf_url": "https://arxiv.org/pdf/2609.18197v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2609.18548v1": {
       "schema_version": 1,
       "paper_id": "2609.18548v1",
@@ -11322,6 +11334,42 @@
       "paper_id": "2609.40158v1",
       "title": "Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction",
       "pdf_url": "https://arxiv.org/pdf/2609.40158v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.01019v1": {
+      "schema_version": 1,
+      "paper_id": "2610.01019v1",
+      "title": "FutureWorlds: Learning Robotic World Models from Alternative Futures",
+      "pdf_url": "https://arxiv.org/pdf/2610.01019v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.01751v1": {
+      "schema_version": 1,
+      "paper_id": "2610.01751v1",
+      "title": "Evidence-Gated Research: Statistically Controlled Model Adoption in Adaptive Search",
+      "pdf_url": "https://arxiv.org/pdf/2610.01751v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.01905v1": {
+      "schema_version": 1,
+      "paper_id": "2610.01905v1",
+      "title": "MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens",
+      "pdf_url": "https://arxiv.org/pdf/2610.01905v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
