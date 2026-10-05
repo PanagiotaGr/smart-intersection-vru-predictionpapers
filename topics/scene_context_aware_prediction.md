@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-04` (timezone: `Europe/Athens`)
+Updated: `2026-10-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **250**
+Total papers tracked: **251**
 
 ---
 
+- **OpenGameEval: Benchmarking Agentic Programming and Exploration in a Stateful Game Engine**  
+  *Eray Turkel, Mengsha Sun, Kartik Ayyar, Sean Dunigan, Jack Lu, Vlad Shcherban, Hsiang-Shun Shih, Xin Wang et al.*  
+  Published: `2026-10-01` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.02563v1) · [pdf](https://arxiv.org/pdf/2610.02563v1) · id: `2610.02563v1`
 - **MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens**  
   *Shen Zheng, Anurag Ghosh, Mani Ramanagopal, Srinivasa Narasimhan*  
   Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01905v1) · [pdf](https://arxiv.org/pdf/2610.01905v1) · id: `2610.01905v1`

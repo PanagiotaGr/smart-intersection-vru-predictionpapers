@@ -16,8 +16,8 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-10-04**
-- Latest digest: `digests/2026-10-04.md`
+- Updated on: **2026-10-05**
+- Latest digest: `digests/2026-10-05.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
@@ -29,7 +29,7 @@ This repository supports:
 | Interaction-aware and Social Models | 2026-10-02 | 286 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
 | Intention and Crossing Behavior | 2026-10-01 | 132 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
 | Risk-aware Safety and Collision Prediction | 2026-10-01 | 275 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 2026-10-02 | 250 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
+| Scene and Context-aware Prediction | 2026-10-05 | 251 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
 | Probabilistic and Uncertainty-aware Forecasting | 2026-10-02 | 200 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
 | Graph Transformer and Diffusion Models | 2026-10-02 | 193 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 2026-10-01 | 123 | [Autonomous Driving Forecasting for VRUs](topics/autonomous_driving_vru_forecasting.md) |
