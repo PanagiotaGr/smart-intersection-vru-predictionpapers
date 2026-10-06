@@ -19983,6 +19983,24 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.02563v1",
       "abs_url": "http://arxiv.org/abs/2610.02563v1"
+    },
+    "2610.06210v1": {
+      "arxiv_id": "2610.06210v1",
+      "title": "MoCAR: Motion-code Coordinate-aware AutoRegression for Continuous Trajectory Forecasting",
+      "authors": [
+        "Yiming Xu",
+        "Hao Cheng",
+        "Monika Sester"
+      ],
+      "summary": "Autoregressive generation is natural for language, where predicted tokens can be directly reused as the next prediction state, but trajectory forecasting lacks such a clean token: motion is continuous, multimodal, and expressed in local coordinate frames that evolve with the predicted trajectory. We present MoCAR (Motion-code Coordinate-aware AutoRegression), a decoder-only framework that casts trajectory forecasting as next-code prediction in a coordinate-aware continuous latent space. MoCAR learns a continuous motion-code space from endpoint-normalized trajectory segments, where each code jointly captures local trajectory geometry and the reference-frame transition induced by that segment. Historical motion codes are used as a teacher-forced prefix, future codes are generated autoregressively under temporal, map, agent, and mode interactions, and predicted codes persist in latent memory while decoded endpoints update the local scene context. This enables rollout without trajectory-space re-tokenization, trajectory queries, goal candidates, or proposal-and-refinement pipelines. On Argoverse (AV) benchmarks, MoCAR achieves top-tier performance with a simple single-stage architecture, transfers strongly from AV2 to AV1 in zero-shot evaluation, and improves on turn-heavy scenarios. Ablations confirm that the learned continuous motion-code space, latent alignment, weak KL regularization, and joint tokenizer-predictor optimization are essential for stable latent autoregression.",
+      "published_utc": "2026-10-05T12:22:04Z",
+      "updated_utc": "2026-10-05T12:22:04Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.06210v1",
+      "abs_url": "http://arxiv.org/abs/2610.06210v1"
     }
   },
   "topics": {
@@ -20494,9 +20512,10 @@
         "2609.32231v1",
         "2609.29706v1",
         "2606.11251v2",
-        "2610.01905v1"
+        "2610.01905v1",
+        "2610.06210v1"
       ],
-      "latest_update": "2026-10-02"
+      "latest_update": "2026-10-06"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

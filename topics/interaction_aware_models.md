@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-05` (timezone: `Europe/Athens`)
+Updated: `2026-10-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **286**
+Total papers tracked: **287**
 
 ---
 
+- **MoCAR: Motion-code Coordinate-aware AutoRegression for Continuous Trajectory Forecasting**  
+  *Yiming Xu, Hao Cheng, Monika Sester*  
+  Published: `2026-10-05` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.06210v1) · [pdf](https://arxiv.org/pdf/2610.06210v1) · id: `2610.06210v1`
 - **MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens**  
   *Shen Zheng, Anurag Ghosh, Mani Ramanagopal, Srinivasa Narasimhan*  
   Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01905v1) · [pdf](https://arxiv.org/pdf/2610.01905v1) · id: `2610.01905v1`
