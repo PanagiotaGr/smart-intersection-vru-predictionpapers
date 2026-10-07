@@ -20001,6 +20001,81 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.06210v1",
       "abs_url": "http://arxiv.org/abs/2610.06210v1"
+    },
+    "2610.07954v1": {
+      "arxiv_id": "2610.07954v1",
+      "title": "Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction",
+      "authors": [
+        "JunGyu Lee",
+        "Inhwan Bae",
+        "Hae-Gon Jeon"
+      ],
+      "summary": "Language-based trajectory predictors represent coordinates as discrete tokens and learn auxiliary tasks such as destination and group reasoning. This formulation enables the model to capture behavioral intent and social context beyond coordinate dynamics alone. However, token-level objectives provide only indirect guidance for continuous coordinate-space dynamics. To address this limitation, we introduce MoRE (Mixture of Reward Experts), a refinement framework that transfers numerical forecasting priors into a pretrained language-based predictor through reinforcement learning. Five frozen numerical predictors provide complementary coordinate-level knowledge of motion and interactions. Their predictions are converted into expert rewards and combined through an uncertainty-weighted consensus that penalizes disagreement. A ground-truth reward anchors the prediction to the target trajectory. To focus refinement on difficult cases, MoRE refines the policy using the top 1% of training samples ranked by predictive entropy. Expert predictions are computed once and cached before PPO training, so the experts are not run during policy updates or inference. In this way, MoRE combines the contextual modeling of the language-based predictor with coordinate-level feedback from numerical experts. On ETH-UCY, MoRE reduces ADE from 0.22 to 0.20 m and FDE from 0.32 to 0.29 m. Relative to the base policy, ADE decreases by 17.9% on SDD and 12.7% on NBA. On ETH-UCY, MoRE also reduces collision rates and better matches ground-truth pedestrian spacing, without increasing measured inference memory or latency. The project page is available at https://jungyu0413.github.io/MoRE/.",
+      "published_utc": "2026-10-06T08:28:52Z",
+      "updated_utc": "2026-10-06T08:28:52Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07954v1",
+      "abs_url": "http://arxiv.org/abs/2610.07954v1"
+    },
+    "2610.07474v1": {
+      "arxiv_id": "2610.07474v1",
+      "title": "Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction",
+      "authors": [
+        "Ruihan A. Li",
+        "Ziyao Guo",
+        "Yingying Li"
+      ],
+      "summary": "Safe crowd navigation under distribution shift requires uncertainty representations that capture structured human-motion prediction errors and safety objectives that account for rare but consequential failures. Existing uncertainty-aware methods typically represent prediction errors using isotropic regions, which can be either overly conservative or poorly aligned with directional motion uncertainty. We introduce a risk-aware navigation framework that uses anisotropic conformal ellipsoids to translate structured prediction uncertainty into an episode-level conditional value-at-risk (CVaR) signal that regulates the Lagrangian safety penalty. In particular, adaptive ellipsoidal conformal prediction (AECP) captures directional prediction errors and adaptively calibrates uncertainty regions under distribution shift, while the resulting CVaR-regulated navigation policy is optimized using Lagrangian proximal policy optimization. We evaluate our proposed method under both in-distribution settings and out-of-distribution (OOD) settings involving shifts in pedestrian motion patterns. Compared with state-of-the-art baselines, our method maintains competitive in-distribution performance while improving success rates by 5.68-7.44 percentage points and reducing collision rates by 5.44-6.64 percentage points across OOD settings. We further deploy the trained policy without fine-tuning on a physical robot with onboard perception and CPU-only inference, showing that the full pipeline is feasible in physical crowd navigation.",
+      "published_utc": "2026-10-05T22:40:35Z",
+      "updated_utc": "2026-10-05T22:40:35Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07474v1",
+      "abs_url": "http://arxiv.org/abs/2610.07474v1"
+    },
+    "2610.07116v1": {
+      "arxiv_id": "2610.07116v1",
+      "title": "AIM: Adaptive Interaction Modeling Networks for Real-to-Sim Soft-Body Simulation",
+      "authors": [
+        "Tiancheng Yang",
+        "Dingshuo Chen",
+        "Tianle Chen",
+        "Zhaocheng Liu",
+        "Qiang Liu"
+      ],
+      "summary": "Deformable-object manipulation is essential for robotic tasks such as folding laundry and handling food, where robots must control shape changes as well as object motion. Predictive soft-body simulation supports these tasks by anticipating deformation under external interactions. However, spatial neighborhoods can misrepresent deformation dependencies, introducing local errors that accumulate over successive predictions. Models fitted to individual scenes must also accommodate changes in object geometry and manipulation conditions. In this work, we propose AIM, an Adaptive Interaction Modeling framework that treats real-to-sim soft-body simulation as a local-global interaction modeling problem. AIM uses motion history and geometry to adapt particle relations over current spatial neighbors and retained connections, while geometry-conditioned global communication coordinates object-wide responses. A unified kinematic control-point interface represents different manipulation configurations, and multi-step autoregressive supervision trains the model on its own predicted trajectories. Experiments on PhysTwin and PGND demonstrate improved motion accuracy and visual fidelity, with a 20.0% reduction in future-prediction tracking error relative to PhysTwin and a 22.8% reduction in mean long-horizon particle error across six object categories relative to PGND. The framework further supports transfer across actions, object instances, and scenes, including zero-shot transfer from robot interactions to human manipulation without target-domain dynamics fitting.",
+      "published_utc": "2026-10-05T16:52:23Z",
+      "updated_utc": "2026-10-05T16:52:23Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07116v1",
+      "abs_url": "http://arxiv.org/abs/2610.07116v1"
+    },
+    "2610.07277v1": {
+      "arxiv_id": "2610.07277v1",
+      "title": "Distribution-Transfer Safe-Horizon MPC under Mode Uncertainty",
+      "authors": [
+        "Stephen Crawford",
+        "Nora Ayanian"
+      ],
+      "summary": "Scenario-based MPC is an attractive strategy for chance-constrained motion planning that approximates uncertainty via a finite set of sampled scenarios. As a sampling-based method, scenario-based MPC is sensitive to distribution mismatch. We address this problem in the context of Safe-Horizon Model Predictive Control (SH-MPC) with obstacles governed by switching dynamic modes. From finite mode observations, we construct a confidence set for the unknown categorical mode law and derive a multiplicative domination bound that transfers a Safe-Horizon collision-risk certificate from a selected scenario-sampling distribution to every law in the confidence set. Wasserstein geometry is used to regularize probability reallocation among modes according to the similarity of their induced trajectory predictions, while a collision-risk surrogate biases sampling toward dangerous modes. The resulting certificate explicitly quantifies the additional tightening required under distribution mismatch and exposes the multiplicative conservatism that arises when several obstacle-wise transfer factors are combined",
+      "published_utc": "2026-10-05T19:16:37Z",
+      "updated_utc": "2026-10-05T19:16:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07277v1",
+      "abs_url": "http://arxiv.org/abs/2610.07277v1"
     }
   },
   "topics": {
@@ -20165,9 +20240,11 @@
         "2609.06195v1",
         "2609.25942v1",
         "2609.29706v1",
-        "2511.11164v3"
+        "2511.11164v3",
+        "2610.07954v1",
+        "2610.07474v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-07"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -20513,9 +20590,11 @@
         "2609.29706v1",
         "2606.11251v2",
         "2610.01905v1",
-        "2610.06210v1"
+        "2610.06210v1",
+        "2610.07954v1",
+        "2610.07116v1"
       ],
-      "latest_update": "2026-10-06"
+      "latest_update": "2026-10-07"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -20651,9 +20730,10 @@
         "2609.20178v1",
         "2609.24193v1",
         "2609.40158v1",
-        "2609.24193v3"
+        "2609.24193v3",
+        "2610.07954v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-07"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -20932,9 +21012,12 @@
         "2609.32346v1",
         "2609.27077v1",
         "2609.29706v1",
-        "2608.23486v3"
+        "2608.23486v3",
+        "2610.07954v1",
+        "2610.07474v1",
+        "2610.07277v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-07"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -21189,9 +21272,12 @@
         "2610.01905v1",
         "2610.01019v1",
         "2609.18197v2",
-        "2610.02563v1"
+        "2610.02563v1",
+        "2610.07954v1",
+        "2610.07277v1",
+        "2610.07116v1"
       ],
-      "latest_update": "2026-10-05"
+      "latest_update": "2026-10-07"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -21395,9 +21481,11 @@
         "2609.36852v1",
         "2609.31648v1",
         "2609.29600v1",
-        "2610.01905v1"
+        "2610.01905v1",
+        "2610.07954v1",
+        "2610.07277v1"
       ],
-      "latest_update": "2026-10-02"
+      "latest_update": "2026-10-07"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -21868,9 +21956,10 @@
         "2609.32316v1",
         "2609.30391v1",
         "2609.27747v1",
-        "2610.01019v1"
+        "2610.01019v1",
+        "2610.07474v1"
       ],
-      "latest_update": "2026-10-02"
+      "latest_update": "2026-10-07"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -22158,9 +22247,11 @@
         "2609.25942v1",
         "2609.40158v1",
         "2609.24193v3",
-        "2609.29706v1"
+        "2609.29706v1",
+        "2610.07954v1",
+        "2610.07474v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-07"
     }
   }
 }

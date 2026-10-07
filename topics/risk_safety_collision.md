@@ -1,11 +1,20 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-10-06` (timezone: `Europe/Athens`)
+Updated: `2026-10-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **275**
+Total papers tracked: **278**
 
 ---
 
+- **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
+  *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
+  Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`
+- **Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction**  
+  *Ruihan A. Li, Ziyao Guo, Yingying Li*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07474v1) · [pdf](https://arxiv.org/pdf/2610.07474v1) · id: `2610.07474v1`
+- **Distribution-Transfer Safe-Horizon MPC under Mode Uncertainty**  
+  *Stephen Crawford, Nora Ayanian*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07277v1) · [pdf](https://arxiv.org/pdf/2610.07277v1) · id: `2610.07277v1`
 - **Efficient Multi-Modal Planning with Reward-Guided Preference Optimization for Autonomous Driving**  
   *Chenglin Chen, Lujia Wang, Xinhu Zheng, Jun Ma, Haoang Li*  
   Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.38862v1) · [pdf](https://arxiv.org/pdf/2609.38862v1) · id: `2609.38862v1`

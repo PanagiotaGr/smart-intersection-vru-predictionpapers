@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-06` (timezone: `Europe/Athens`)
+Updated: `2026-10-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **251**
+Total papers tracked: **254**
 
 ---
 
+- **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
+  *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
+  Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`
+- **Distribution-Transfer Safe-Horizon MPC under Mode Uncertainty**  
+  *Stephen Crawford, Nora Ayanian*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07277v1) · [pdf](https://arxiv.org/pdf/2610.07277v1) · id: `2610.07277v1`
+- **AIM: Adaptive Interaction Modeling Networks for Real-to-Sim Soft-Body Simulation**  
+  *Tiancheng Yang, Dingshuo Chen, Tianle Chen, Zhaocheng Liu, Qiang Liu*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07116v1) · [pdf](https://arxiv.org/pdf/2610.07116v1) · id: `2610.07116v1`
 - **OpenGameEval: Benchmarking Agentic Programming and Exploration in a Stateful Game Engine**  
   *Eray Turkel, Mengsha Sun, Kartik Ayyar, Sean Dunigan, Jack Lu, Vlad Shcherban, Hsiang-Shun Shih, Xin Wang et al.*  
   Published: `2026-10-01` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.02563v1) · [pdf](https://arxiv.org/pdf/2610.02563v1) · id: `2610.02563v1`

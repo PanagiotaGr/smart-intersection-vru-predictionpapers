@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-10-06` (timezone: `Europe/Athens`)
+Updated: `2026-10-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **60**
+Total papers tracked: **61**
 
 ---
 
+- **Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction**  
+  *Ruihan A. Li, Ziyao Guo, Yingying Li*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07474v1) · [pdf](https://arxiv.org/pdf/2610.07474v1) · id: `2610.07474v1`
 - **FutureWorlds: Learning Robotic World Models from Alternative Futures**  
   *Hao Wu, Shengju Qian, Weiyan Wang, Fan Xu, Fan Zhang, Yuanpeng He, Qingsong Wen, Yuxuan Liang*  
   Published: `2026-10-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.01019v1) · [pdf](https://arxiv.org/pdf/2610.01019v1) · id: `2610.01019v1`

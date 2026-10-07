@@ -1,11 +1,17 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-10-06` (timezone: `Europe/Athens`)
+Updated: `2026-10-07` (timezone: `Europe/Athens`)
 
-Total papers tracked: **144**
+Total papers tracked: **146**
 
 ---
 
+- **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
+  *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
+  Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`
+- **Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction**  
+  *Ruihan A. Li, Ziyao Guo, Yingying Li*  
+  Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07474v1) · [pdf](https://arxiv.org/pdf/2610.07474v1) · id: `2610.07474v1`
 - **Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction**  
   *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
   Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v1) · [pdf](https://arxiv.org/pdf/2609.40158v1) · id: `2609.40158v1`
