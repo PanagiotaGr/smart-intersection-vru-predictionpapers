@@ -1,6 +1,6 @@
 # Systematic Review: General VRU Prediction Broad Catch-All
 
-**Τελευταία αναγέννηση:** 2026-10-06  
+**Τελευταία αναγέννηση:** 2026-10-07  
 **Papers που εντοπίστηκαν:** 1  
 **Claims με page/section/table/figure provenance:** 0
 
