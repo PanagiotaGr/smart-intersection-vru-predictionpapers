@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-07T11:08:01.087325+00:00",
+  "generated_at_utc": "2026-10-08T11:25:56.198061+00:00",
   "schema_version": 3,
-  "total_source_papers": 950,
+  "total_source_papers": 954,
   "complete_analyses": 0,
-  "remaining_stale_or_missing": 950,
-  "missing_analyses": 950,
+  "remaining_stale_or_missing": 954,
+  "missing_analyses": 954,
   "coverage_percent": 0.0,
   "stale_reason_counts": {
-    "missing_analysis": 950
+    "missing_analysis": 954
   },
   "errors_this_run": [
     {
