@@ -20076,6 +20076,106 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.07277v1",
       "abs_url": "http://arxiv.org/abs/2610.07277v1"
+    },
+    "2610.09438v1": {
+      "arxiv_id": "2610.09438v1",
+      "title": "Controllable Crowd Generation through World-Model Planning",
+      "authors": [
+        "JunGyu Lee",
+        "Jisu Shin",
+        "Seunghyun Shin",
+        "Hae-Gon Jeon"
+      ],
+      "summary": "Crowd simulation plays a central role in robot navigation, autonomous driving, and urban planning. For these applications, realistic simulation requires crowds to adapt their behavior to environmental changes and user objectives. However, existing methods that rely on predefined control settings have limited flexibility in accommodating new user-specified objectives. To address this limitation, we propose Ctrl-CWM, a multi-agent Controllable Crowd World Model that integrates crowd generation and run-time control. Our key idea is to adapt the world-model principle of planning using imagined futures to crowd simulation. To this end, Ctrl-CWM consists of an encoder that learns a representation of human motion dynamics, an actor that proposes pedestrian displacements, a critic that evaluates imagined crowd trajectories, and a planner that selects actions. We first learn human motion dynamics through trajectory prediction on real-world pedestrian videos and then freeze the encoder to preserve them. Using this representation, the actor generates imagined crowd trajectories through repeated state updates, and the planner combines the critic's scores with user costs to select actions. Repeated planning advances the simulated crowd, while additional user costs introduce new control objectives without retraining. We extensively evaluate crowd generation under varied agent arrival conditions and run-time control across avoidance and attraction scenarios. Ctrl-CWM outperforms the state-of-the-art method on most crowd realism and collision metrics, and adapts crowd behaviors to user-specified objectives introduced during simulation. The project page is available at https://jungyu0413.github.io/Ctrl-CWM",
+      "published_utc": "2026-10-07T04:50:22Z",
+      "updated_utc": "2026-10-07T04:50:22Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.09438v1",
+      "abs_url": "http://arxiv.org/abs/2610.09438v1"
+    },
+    "2603.18166v1": {
+      "arxiv_id": "2603.18166v1",
+      "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
+      "authors": [
+        "Antonius Bima Murti Wijaya",
+        "Paul Henderson",
+        "Marwa Mahmoud"
+      ],
+      "summary": "Crowd trajectory prediction plays a crucial role in public safety and management, where it can help prevent disasters such as stampedes. Recent works address the problem by predicting individual trajectories and considering surrounding objects based on manually annotated data. However, these approaches tend to overlook dense crowd scenarios, where the challenges of automation become more pronounced due to the massiveness, noisiness, and inaccuracy of the tracking outputs, resulting in high computational costs. To address these challenges, we propose and extensively evaluate a novel cluster-based approach that groups individuals based on similar attributes over time, enabling faster execution through accurate group summarisation. Our plug-and-play method can be combined with existing trajectory predictors by using our output centroid in place of their pedestrian input. We evaluate our proposed method on several challenging dense crowd scenes. We demonstrated that our approach leads to faster processing and lower memory usage when compared with state-of-the-art methods, while maintaining the accuracy",
+      "published_utc": "2026-03-18T18:04:54Z",
+      "updated_utc": "2026-03-18T18:04:54Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.18166v1",
+      "abs_url": "http://arxiv.org/abs/2603.18166v1"
+    },
+    "2610.09174v1": {
+      "arxiv_id": "2610.09174v1",
+      "title": "Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction",
+      "authors": [
+        "Arash Raftari",
+        "Babak Ebrahimi Soorchaei",
+        "Yaser P. Fallah"
+      ],
+      "summary": "Reliable and interpretable trajectory prediction is critical for cooperative and autonomous driving in complex and uncertain environments. This paper introduces a Context-Aware Attention-based Gaussian Mixture Model (CAA-GMM) for multimodal, uncertainty-aware motion forecasting. The proposed approach models future motion as a probabilistic mixture conditioned on both scene context and agent dynamics, capturing diverse behavioral modes with interpretable Gaussian components. A lightweight attention mechanism adaptively encodes inter-agent interactions and contextual salience, enabling efficient fusion of rasterized environment cues and motion history in dense traffic scenes. Comprehensive evaluations on the nuScenes and Argoverse 2 datasets demonstrate that CAA-GMM achieves competitive or superior accuracy compared with state-of-the-art raster-based baselines, while maintaining low computational complexity. Ablation analyses confirm the importance of the attention module for robust contextual reasoning and predictive precision. Furthermore, evaluations under imperfect communication and perception conditions highlight the framework's resilience to uncertainty, establishing CAA-GMM as an efficient and scalable solution for cooperative trajectory prediction in intelligent transportation systems.",
+      "published_utc": "2026-10-06T22:18:44Z",
+      "updated_utc": "2026-10-06T22:18:44Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.09174v1",
+      "abs_url": "http://arxiv.org/abs/2610.09174v1"
+    },
+    "2606.24162v2": {
+      "arxiv_id": "2606.24162v2",
+      "title": "BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks",
+      "authors": [
+        "Jin Huang",
+        "Yutong Xie",
+        "Wanli Song",
+        "Xingjian Zhang",
+        "Walter Yuan",
+        "Matthew O. Jackson",
+        "Qiaozhu Mei"
+      ],
+      "summary": "Foundation models have been increasingly applied to behavioral science domains such as psychology, sociology, and economics. While these models show promise in tasks such as survey response prediction and human-subject experiment simulation, there remains no systematic understanding of how well they perform across diverse behavioral science tasks. We introduce BehaviorBench, a comprehensive benchmark that evaluates foundation models along four core capabilities: (1) behavior prediction and simulation, (2) strategic decision-making, (3) subject-trait inference, and (4) behavioral knowledge application. Crucially, BehaviorBench evaluates model outputs at both the individual and distributional levels, capturing not only per-subject accuracy but also population-level alignment, an essential requirement for behavioral validity. Our evaluation shows that BehaviorBench remains challenging for leading general-purpose LLMs and behavior foundation models that are specifically trained with behavioral data. We find that individual-level and distributional performance do not always align. General-purpose LLMs tend to underestimate the diversity of human responses, whereas behavior foundation models often lag behind at individual-level prediction. Our investigation further demonstrates how fine-tuning on diverse behavioral data can improve both individual-level prediction and distributional alignment, balancing these two objectives. Our results highlight the importance of evaluation at both individual and distributional levels, establishing BehaviorBench as a foundation for developing and assessing behaviorally aligned AI systems. Our BehaviorBench and models can be accessed via https://umich-foreseer.github.io/behaviorbench/",
+      "published_utc": "2026-06-23T05:30:54Z",
+      "updated_utc": "2026-10-07T17:05:41Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.24162v2",
+      "abs_url": "http://arxiv.org/abs/2606.24162v2"
+    },
+    "2610.09417v1": {
+      "arxiv_id": "2610.09417v1",
+      "title": "trACT: temporal revelation Airborne Camera Trap",
+      "authors": [
+        "Oliver Bimber",
+        "Rakesh John Amala Arokia Nathan",
+        "Mohamed Youssef",
+        "Vinayak Lal Bhatnagar",
+        "Ralf Berger",
+        "Klaus Hackländer"
+      ],
+      "summary": "Effective remote monitoring and surveillance using drones are frequently impeded by severe environmental and thermal clutter, dynamic vegetation, target camouflage, and system latency. Drawing inspiration from the hunting strategies of birds of prey that hover and stabilize their vision to isolate subtle ground motion, we introduce trACT (temporal revelation Airborne Camera Trap), a lightweight, real-time aerial robotics framework designed for autonomous consumer drones. The system integrates Temporal Max Pooling (TMP), a low-level signal processing method that transforms imperceptible movement across a rolling integration window into robust value and time encodings, with self-supervised motion anomaly detection to isolate target motion from background environmental motion caused by wind gusts and drone drift. To overcome mechanical and processing delays, trACT combines motion prediction with automated gimbal-stabilized optical zoom verification and equitable multi-target verification balancing. Extensive real-world field experiments in densely forested wildlife habitats and surveillance scenarios demonstrate that trACT successfully bridges the gap between wide-area aerial monitoring and precise, autonomous target verification under challenging operational conditions.",
+      "published_utc": "2026-10-07T04:20:47Z",
+      "updated_utc": "2026-10-07T04:20:47Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.09417v1",
+      "abs_url": "http://arxiv.org/abs/2610.09417v1"
     }
   },
   "topics": {
@@ -20242,9 +20342,11 @@
         "2609.29706v1",
         "2511.11164v3",
         "2610.07954v1",
-        "2610.07474v1"
+        "2610.07474v1",
+        "2610.09438v1",
+        "2603.18166v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -20592,9 +20694,11 @@
         "2610.01905v1",
         "2610.06210v1",
         "2610.07954v1",
-        "2610.07116v1"
+        "2610.07116v1",
+        "2610.09438v1",
+        "2610.09174v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21015,9 +21119,10 @@
         "2608.23486v3",
         "2610.07954v1",
         "2610.07474v1",
-        "2610.07277v1"
+        "2610.07277v1",
+        "2610.09438v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -21275,9 +21380,10 @@
         "2610.02563v1",
         "2610.07954v1",
         "2610.07277v1",
-        "2610.07116v1"
+        "2610.07116v1",
+        "2610.09174v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -21483,9 +21589,11 @@
         "2609.29600v1",
         "2610.01905v1",
         "2610.07954v1",
-        "2610.07277v1"
+        "2610.07277v1",
+        "2610.09174v1",
+        "2606.24162v2"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -21682,9 +21790,10 @@
         "2609.29600v1",
         "2608.23486v3",
         "2608.07468v5",
-        "2610.01905v1"
+        "2610.01905v1",
+        "2610.09174v1"
       ],
-      "latest_update": "2026-10-02"
+      "latest_update": "2026-10-08"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -21811,9 +21920,10 @@
         "2607.16156v1",
         "2510.03314v2",
         "2604.07126v3",
-        "2609.29706v1"
+        "2609.29706v1",
+        "2610.09438v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-08"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -21957,9 +22067,10 @@
         "2609.30391v1",
         "2609.27747v1",
         "2610.01019v1",
-        "2610.07474v1"
+        "2610.07474v1",
+        "2610.09417v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -22097,9 +22208,11 @@
         "2609.07685v1",
         "2609.25942v1",
         "2609.29706v1",
-        "2511.11164v3"
+        "2511.11164v3",
+        "2610.09438v1",
+        "2603.18166v1"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-08"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -22249,9 +22362,11 @@
         "2609.24193v3",
         "2609.29706v1",
         "2610.07954v1",
-        "2610.07474v1"
+        "2610.07474v1",
+        "2610.09438v1",
+        "2603.18166v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-08"
     }
   }
 }

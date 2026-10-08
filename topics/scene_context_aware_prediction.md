@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **254**
+Total papers tracked: **255**
 
 ---
 
+- **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction**  
+  *Arash Raftari, Babak Ebrahimi Soorchaei, Yaser P. Fallah*  
+  Published: `2026-10-06` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.09174v1) · [pdf](https://arxiv.org/pdf/2610.09174v1) · id: `2610.09174v1`
 - **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
   *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
   Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`

@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **278**
+Total papers tracked: **279**
 
 ---
 
+- **Controllable Crowd Generation through World-Model Planning**  
+  *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
+  Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`
 - **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
   *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
   Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`

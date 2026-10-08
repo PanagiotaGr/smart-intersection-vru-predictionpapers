@@ -1,11 +1,14 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **123**
+Total papers tracked: **124**
 
 ---
 
+- **Controllable Crowd Generation through World-Model Planning**  
+  *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
+  Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`
 - **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
   *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
   Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`

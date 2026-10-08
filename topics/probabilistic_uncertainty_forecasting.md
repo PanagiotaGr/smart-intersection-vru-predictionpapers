@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **202**
+Total papers tracked: **204**
 
 ---
 
+- **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction**  
+  *Arash Raftari, Babak Ebrahimi Soorchaei, Yaser P. Fallah*  
+  Published: `2026-10-06` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.09174v1) · [pdf](https://arxiv.org/pdf/2610.09174v1) · id: `2610.09174v1`
 - **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
   *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
   Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`
@@ -132,6 +135,9 @@ Total papers tracked: **202**
 - **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
   *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
   Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v1) · [pdf](https://arxiv.org/pdf/2606.24162v1) · id: `2606.24162v1`
+- **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
+  *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
+  Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v2) · [pdf](https://arxiv.org/pdf/2606.24162v2) · id: `2606.24162v2`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

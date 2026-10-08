@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **134**
+Total papers tracked: **136**
 
 ---
 
+- **Controllable Crowd Generation through World-Model Planning**  
+  *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
+  Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`
 - **Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction**  
   *Fengrui Liu, Jiajun Peng, Duo Peng, Feng Liu*  
   Published: `2026-09-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.25942v1) · [pdf](https://arxiv.org/pdf/2609.25942v1) · id: `2609.25942v1`
@@ -78,6 +81,9 @@ Total papers tracked: **134**
 - **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
   *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
   Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`
+- **Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering**  
+  *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
+  Published: `2026-03-18` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2603.18166v1) · [pdf](https://arxiv.org/pdf/2603.18166v1) · id: `2603.18166v1`
 - **TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective**  
   *Yusheng Peng, Gaofeng Zhang, Liping Zheng*  
   Published: `2026-03-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.14739v1) · [pdf](https://arxiv.org/pdf/2603.14739v1) · id: `2603.14739v1`

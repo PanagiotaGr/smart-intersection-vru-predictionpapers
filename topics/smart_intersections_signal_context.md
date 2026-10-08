@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-10-07` (timezone: `Europe/Athens`)
+Updated: `2026-10-08` (timezone: `Europe/Athens`)
 
-Total papers tracked: **61**
+Total papers tracked: **62**
 
 ---
 
+- **trACT: temporal revelation Airborne Camera Trap**  
+  *Oliver Bimber, Rakesh John Amala Arokia Nathan, Mohamed Youssef, Vinayak Lal Bhatnagar, Ralf Berger, Klaus Hackländer*  
+  Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09417v1) · [pdf](https://arxiv.org/pdf/2610.09417v1) · id: `2610.09417v1`
 - **Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction**  
   *Ruihan A. Li, Ziyao Guo, Yingying Li*  
   Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07474v1) · [pdf](https://arxiv.org/pdf/2610.07474v1) · id: `2610.07474v1`
