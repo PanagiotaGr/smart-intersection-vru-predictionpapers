@@ -20176,6 +20176,42 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.09417v1",
       "abs_url": "http://arxiv.org/abs/2610.09417v1"
+    },
+    "2603.18166v2": {
+      "arxiv_id": "2603.18166v2",
+      "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
+      "authors": [
+        "Antonius Bima Murti Wijaya",
+        "Paul Henderson",
+        "Marwa Mahmoud"
+      ],
+      "summary": "Crowd trajectory prediction plays a crucial role in public safety and management, where it can help prevent disasters such as stampedes. Recent works address the problem by predicting individual trajectories and considering surrounding objects based on manually annotated data. However, these approaches tend to overlook dense crowd scenarios, where the challenges of automation become more pronounced due to the massiveness, noisiness, and inaccuracy of the tracking outputs, resulting in high computational costs. To address these challenges, we propose and extensively evaluate a novel cluster-based approach that groups individuals based on similar attributes over time, enabling faster execution through accurate group summarisation. Our plug-and-play method can be combined with existing trajectory predictors by using our output centroid in place of their pedestrian input. We evaluate our proposed method on several challenging dense crowd scenes. We demonstrated that our approach leads to faster processing and lower memory usage when compared with state-of-the-art methods, while maintaining the accuracy",
+      "published_utc": "2026-03-18T18:04:54Z",
+      "updated_utc": "2026-10-08T11:21:49Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.18166v2",
+      "abs_url": "http://arxiv.org/abs/2603.18166v2"
+    },
+    "2610.11580v1": {
+      "arxiv_id": "2610.11580v1",
+      "title": "Uncertainty-Aware Optimization for Physics-Aware Highway Trajectory Prediction",
+      "authors": [
+        "Aanchal Rajesh Chugh",
+        "Sebastian Dorn"
+      ],
+      "summary": "Accurate trajectory forecasting and well-defined predictive uncertainty are crucial for reliable, safety-critical applications such as autonomous driving. Most trajectory prediction approaches provide point estimates only, while uncertainty-aware approaches typically quantify uncertainty only in the trajectory space. In physics-aware approaches, uncertainty in the predicted motion variables should be explicitly modeled and propagated through the vehicle dynamics. Otherwise, the resulting trajectory-space uncertainty may not fully reflect the variability introduced by the underlying motion prediction. Therefore, in this work, uncertainty-aware extensions of X-TRACK (X-TRACK-DE and X-TRACK-MCD), a physics-aware trajectory prediction framework, are proposed. The proposed framework predicts future vehicle motion variables and models both aleatoric and epistemic uncertainties by propagating motion space uncertainty to trajectory space. Additionally, conformal prediction is applied to the trajectory space predictive covariance to construct uncertainty regions targeting a desired marginal coverage level. Evaluation on the highD dataset shows that X-TRACK-DE improves trajectory prediction accuracy over the deterministic baseline, while both uncertainty-aware variants provide predictive uncertainty that can be conformally calibrated to the desired marginal coverage level.",
+      "published_utc": "2026-10-08T09:31:44Z",
+      "updated_utc": "2026-10-08T09:31:44Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.11580v1",
+      "abs_url": "http://arxiv.org/abs/2610.11580v1"
     }
   },
   "topics": {
@@ -20344,9 +20380,10 @@
         "2610.07954v1",
         "2610.07474v1",
         "2610.09438v1",
-        "2603.18166v1"
+        "2603.18166v1",
+        "2603.18166v2"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-09"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -21120,9 +21157,10 @@
         "2610.07954v1",
         "2610.07474v1",
         "2610.07277v1",
-        "2610.09438v1"
+        "2610.09438v1",
+        "2610.11580v1"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-09"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -21591,9 +21629,10 @@
         "2610.07954v1",
         "2610.07277v1",
         "2610.09174v1",
-        "2606.24162v2"
+        "2606.24162v2",
+        "2610.11580v1"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-09"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -22210,9 +22249,10 @@
         "2609.29706v1",
         "2511.11164v3",
         "2610.09438v1",
-        "2603.18166v1"
+        "2603.18166v1",
+        "2603.18166v2"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-09"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -22364,9 +22404,10 @@
         "2610.07954v1",
         "2610.07474v1",
         "2610.09438v1",
-        "2603.18166v1"
+        "2603.18166v1",
+        "2603.18166v2"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-09"
     }
   }
 }

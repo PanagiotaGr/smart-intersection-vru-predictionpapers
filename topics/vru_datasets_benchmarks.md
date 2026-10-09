@@ -1,8 +1,8 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-10-08` (timezone: `Europe/Athens`)
+Updated: `2026-10-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
@@ -84,6 +84,9 @@ Total papers tracked: **136**
 - **Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering**  
   *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
   Published: `2026-03-18` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2603.18166v1) · [pdf](https://arxiv.org/pdf/2603.18166v1) · id: `2603.18166v1`
+- **Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering**  
+  *Antonius Bima Murti Wijaya, Paul Henderson, Marwa Mahmoud*  
+  Published: `2026-03-18` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2603.18166v2) · [pdf](https://arxiv.org/pdf/2603.18166v2) · id: `2603.18166v2`
 - **TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective**  
   *Yusheng Peng, Gaofeng Zhang, Liping Zheng*  
   Published: `2026-03-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.14739v1) · [pdf](https://arxiv.org/pdf/2603.14739v1) · id: `2603.14739v1`

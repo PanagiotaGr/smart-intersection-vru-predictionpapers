@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-10-08` (timezone: `Europe/Athens`)
+Updated: `2026-10-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **279**
+Total papers tracked: **280**
 
 ---
 
+- **Uncertainty-Aware Optimization for Physics-Aware Highway Trajectory Prediction**  
+  *Aanchal Rajesh Chugh, Sebastian Dorn*  
+  Published: `2026-10-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.11580v1) · [pdf](https://arxiv.org/pdf/2610.11580v1) · id: `2610.11580v1`
 - **Controllable Crowd Generation through World-Model Planning**  
   *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
   Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`
