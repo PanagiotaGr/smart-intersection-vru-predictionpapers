@@ -6949,6 +6949,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2603.18166v1": {
+      "schema_version": 1,
+      "paper_id": "2603.18166v1",
+      "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
+      "pdf_url": "https://arxiv.org/pdf/2603.18166v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2603.18856v1": {
       "schema_version": 1,
       "paper_id": "2603.18856v1",
@@ -9397,6 +9409,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2606.24162v2": {
+      "schema_version": 1,
+      "paper_id": "2606.24162v2",
+      "title": "BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks",
+      "pdf_url": "https://arxiv.org/pdf/2606.24162v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2606.25122v1": {
       "schema_version": 1,
       "paper_id": "2606.25122v1",
@@ -11442,6 +11466,42 @@
       "paper_id": "2610.07954v1",
       "title": "Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction",
       "pdf_url": "https://arxiv.org/pdf/2610.07954v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.09174v1": {
+      "schema_version": 1,
+      "paper_id": "2610.09174v1",
+      "title": "Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2610.09174v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.09417v1": {
+      "schema_version": 1,
+      "paper_id": "2610.09417v1",
+      "title": "trACT: temporal revelation Airborne Camera Trap",
+      "pdf_url": "https://arxiv.org/pdf/2610.09417v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.09438v1": {
+      "schema_version": 1,
+      "paper_id": "2610.09438v1",
+      "title": "Controllable Crowd Generation through World-Model Planning",
+      "pdf_url": "https://arxiv.org/pdf/2610.09438v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
