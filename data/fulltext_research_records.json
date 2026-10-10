@@ -6961,6 +6961,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2603.18166v2": {
+      "schema_version": 1,
+      "paper_id": "2603.18166v2",
+      "title": "Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering",
+      "pdf_url": "https://arxiv.org/pdf/2603.18166v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2603.18856v1": {
       "schema_version": 1,
       "paper_id": "2603.18856v1",
@@ -11502,6 +11514,18 @@
       "paper_id": "2610.09438v1",
       "title": "Controllable Crowd Generation through World-Model Planning",
       "pdf_url": "https://arxiv.org/pdf/2610.09438v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.11580v1": {
+      "schema_version": 1,
+      "paper_id": "2610.11580v1",
+      "title": "Uncertainty-Aware Optimization for Physics-Aware Highway Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2610.11580v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
