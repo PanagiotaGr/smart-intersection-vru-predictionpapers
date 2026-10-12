@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-11` (timezone: `Europe/Athens`)
+Updated: `2026-10-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **291**
+Total papers tracked: **292**
 
 ---
 
+- **Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data**  
+  *Shuo Zhang, Aman Sunesh, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12747v1) · [pdf](https://arxiv.org/pdf/2610.12747v1) · id: `2610.12747v1`
 - **Controllable Crowd Generation through World-Model Planning**  
   *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
   Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`

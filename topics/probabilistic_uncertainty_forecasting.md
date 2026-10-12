@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-11` (timezone: `Europe/Athens`)
+Updated: `2026-10-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **205**
+Total papers tracked: **207**
 
 ---
 
+- **Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data**  
+  *Frederik E. T. Schöller*  
+  Published: `2026-10-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.13557v1) · [pdf](https://arxiv.org/pdf/2610.13557v1) · id: `2610.13557v1`
+- **Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data**  
+  *Shuo Zhang, Aman Sunesh, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12747v1) · [pdf](https://arxiv.org/pdf/2610.12747v1) · id: `2610.12747v1`
 - **Uncertainty-Aware Optimization for Physics-Aware Highway Trajectory Prediction**  
   *Aanchal Rajesh Chugh, Sebastian Dorn*  
   Published: `2026-10-08` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.11580v1) · [pdf](https://arxiv.org/pdf/2610.11580v1) · id: `2610.11580v1`

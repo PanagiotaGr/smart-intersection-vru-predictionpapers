@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-11` (timezone: `Europe/Athens`)
+Updated: `2026-10-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **255**
+Total papers tracked: **258**
 
 ---
 
+- **Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data**  
+  *Frederik E. T. Schöller*  
+  Published: `2026-10-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.13557v1) · [pdf](https://arxiv.org/pdf/2610.13557v1) · id: `2610.13557v1`
+- **Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision**  
+  *Zile Zhong, Yuxin Du, Tao Lin, Haoxiao Wang, Wei Dai, Binhua Zuo, Bo Zhao*  
+  Published: `2026-10-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12936v1) · [pdf](https://arxiv.org/pdf/2610.12936v1) · id: `2610.12936v1`
+- **Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data**  
+  *Shuo Zhang, Aman Sunesh, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12747v1) · [pdf](https://arxiv.org/pdf/2610.12747v1) · id: `2610.12747v1`
 - **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction**  
   *Arash Raftari, Babak Ebrahimi Soorchaei, Yaser P. Fallah*  
   Published: `2026-10-06` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.09174v1) · [pdf](https://arxiv.org/pdf/2610.09174v1) · id: `2610.09174v1`

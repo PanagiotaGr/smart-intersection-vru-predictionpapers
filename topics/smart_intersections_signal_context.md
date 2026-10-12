@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-10-11` (timezone: `Europe/Athens`)
+Updated: `2026-10-12` (timezone: `Europe/Athens`)
 
-Total papers tracked: **62**
+Total papers tracked: **64**
 
 ---
 
+- **Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision**  
+  *Zile Zhong, Yuxin Du, Tao Lin, Haoxiao Wang, Wei Dai, Binhua Zuo, Bo Zhao*  
+  Published: `2026-10-09` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12936v1) · [pdf](https://arxiv.org/pdf/2610.12936v1) · id: `2610.12936v1`
+- **Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data**  
+  *Shuo Zhang, Aman Sunesh, Semiha Ergan, Kaan Ozbay*  
+  Published: `2026-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12747v1) · [pdf](https://arxiv.org/pdf/2610.12747v1) · id: `2610.12747v1`
 - **trACT: temporal revelation Airborne Camera Trap**  
   *Oliver Bimber, Rakesh John Amala Arokia Nathan, Mohamed Youssef, Vinayak Lal Bhatnagar, Ralf Berger, Klaus Hackländer*  
   Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09417v1) · [pdf](https://arxiv.org/pdf/2610.09417v1) · id: `2610.09417v1`
