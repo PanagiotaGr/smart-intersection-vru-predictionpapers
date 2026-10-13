@@ -11532,6 +11532,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2610.12747v1": {
+      "schema_version": 1,
+      "paper_id": "2610.12747v1",
+      "title": "Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data",
+      "pdf_url": "https://arxiv.org/pdf/2610.12747v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.12936v1": {
+      "schema_version": 1,
+      "paper_id": "2610.12936v1",
+      "title": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision",
+      "pdf_url": "https://arxiv.org/pdf/2610.12936v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.13557v1": {
+      "schema_version": 1,
+      "paper_id": "2610.13557v1",
+      "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
+      "pdf_url": "https://arxiv.org/pdf/2610.13557v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
