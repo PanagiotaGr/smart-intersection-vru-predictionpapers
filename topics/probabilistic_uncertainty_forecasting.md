@@ -1,8 +1,8 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-13` (timezone: `Europe/Athens`)
+Updated: `2026-10-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **207**
+Total papers tracked: **209**
 
 ---
 
@@ -72,6 +72,9 @@ Total papers tracked: **207**
 - **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
   *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
   Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
+- **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
+  *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
+  Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v2) · [pdf](https://arxiv.org/pdf/2609.01899v2) · id: `2609.01899v2`
 - **Active Client Selection in Federated Trajectory Prediction with Uncertainty-Awareness and Heterogeneous Complexity**  
   *Yiming Xie, Muzi Peng, Fei Miao, Ningfang Mi, Lili Su*  
   Published: `2026-08-27` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29600v1) · [pdf](https://arxiv.org/pdf/2609.29600v1) · id: `2609.29600v1`
@@ -147,6 +150,9 @@ Total papers tracked: **207**
 - **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
   *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
   Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v2) · [pdf](https://arxiv.org/pdf/2606.24162v2) · id: `2606.24162v2`
+- **BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks**  
+  *Jin Huang, Yutong Xie, Wanli Song, Xingjian Zhang, Owen Yang, Walter Yuan, Matthew O. Jackson, Qiaozhu Mei*  
+  Published: `2026-06-23` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2606.24162v3) · [pdf](https://arxiv.org/pdf/2606.24162v3) · id: `2606.24162v3`
 - **Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction**  
   *Raphaël Delécluse, Hazem Wannous, Laurent Grisoni, Laurent Guimas*  
   Published: `2026-06-22` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.23058v1) · [pdf](https://arxiv.org/pdf/2606.23058v1) · id: `2606.23058v1`

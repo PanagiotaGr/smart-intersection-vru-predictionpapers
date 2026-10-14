@@ -20272,6 +20272,206 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.12936v1",
       "abs_url": "http://arxiv.org/abs/2610.12936v1"
+    },
+    "2610.18093v1": {
+      "arxiv_id": "2610.18093v1",
+      "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction",
+      "authors": [
+        "Jun Tian",
+        "Hao Wu",
+        "Ruo Chen",
+        "Yili Liao",
+        "Hongyi Lin",
+        "Jincheng Yu",
+        "Chao Li",
+        "Yingjie Niu"
+      ],
+      "summary": "Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction. However, existing datasets typically support these capabilities in isolation and rarely provide dense spatial and behavior-level supervision on real wheel-legged platforms. We introduce LynxScenes, a large-scale real-world dataset and benchmark collected with a LYNX M20 wheel-legged robot. It contains approximately 100K 30-s navigation clips spanning 833.6 h and 3,294.7 km, with 3.0M annotated frames. The synchronized recordings include four fisheye cameras, dual LiDARs, IMU, odometry, and robot states. Annotations comprise 20.82M oriented 3D boxes across 27 categories, 13.89M road-structure annotations, and 20 navigation instructions organized into three layers and aligned with continuous future trajectories. LynxScenes supports four complementary tasks: instruction-conditioned trajectory prediction, BEV-based perception of 3D objects and road structures, future scene prediction, and multi-view scene reconstruction. For trajectory prediction, we further introduce a log-replay-based pseudo-closed-loop evaluator that measures safety, progress, and instruction compliance beyond trajectory imitation. Extensive evaluations across representative navigation, perception, world-model, and reconstruction methods reveal substantial remaining challenges in close-range outdoor robot navigation. The dataset and evaluation toolkit are planned for public release.",
+      "published_utc": "2026-10-13T10:12:55Z",
+      "updated_utc": "2026-10-13T10:12:55Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.18093v1",
+      "abs_url": "http://arxiv.org/abs/2610.18093v1"
+    },
+    "2610.16624v1": {
+      "arxiv_id": "2610.16624v1",
+      "title": "Adaptive Interaction Network for Human Motion Prediction During Human-Robot Collaboration",
+      "authors": [
+        "Mengyuan Liu",
+        "Yangting Lin",
+        "Qiongjie Cui"
+      ],
+      "summary": "Human motion prediction during human-robot collaboration is critical for achieving safe and efficient interactions in shared environments. Unlike previous studies that have primarily focused on humans and objects, we focus on the robot-aware human motion prediction task, which explicitly models the influence of robots on human motion. This task presents new challenges, such as capturing human-robot heterogeneity and modeling complex spatial interactions. To address these issues, we develop an adaptive interaction network (AINet) model that consists of two branches: a primary branch that predicts future human motion and an auxiliary branch that estimates robot trajectories. The two branches are jointly optimized and coupled via a Local-Global Spatial Interaction (LGSI) Module, which effectively captures fine-grained and global contextual dependencies between human and robot motion sequences. Then, we introduce an Adaptive Weighted Aggregation (AWA) Module to dynamically fuse motion features using context-dependent weights, thereby increasing adaptability across diverse scenarios. Furthermore, we adopt a coarse-to-fine prediction strategy, in which a coarse pseudo-trajectory is first predicted, followed by the refinement of detailed human poses based on that trajectory. Extensive experiments on three challenging datasets reveal that our proposed method achieves superior performance, validating its effectiveness in human-robot collaboration scenarios. Our code is available at: https://github.com/LyTingHub/AINet.",
+      "published_utc": "2026-10-12T11:43:15Z",
+      "updated_utc": "2026-10-12T11:43:15Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.16624v1",
+      "abs_url": "http://arxiv.org/abs/2610.16624v1"
+    },
+    "2608.10162v3": {
+      "arxiv_id": "2608.10162v3",
+      "title": "MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text",
+      "authors": [
+        "Ananya Bal",
+        "Kartik Sharma",
+        "Ethan Lai",
+        "Samyak Tiwari",
+        "Liza Dahiya",
+        "Chaitanya Chawla",
+        "Laszlo A. Jeni"
+      ],
+      "summary": "Methods for text-based generation of hand-object interaction (HOI) sequences primarily focus on producing smooth, physically plausible trajectories. A truly utilitarian method should additionally support variable-length generation, composite motion sequences, motion completion and infilling, and reliable termination without compromising physical plausibility. Standard diffusion models for HOI generation are typically trained only for text-to-motion generation on atomic motions and require the motion length to be specified a priori. Autoregressive (AR) methods provide greater sequence-level flexibility, but commonly depend on discrete motion codes, which can lose contact-sensitive motion detail. To address these key limitations, we present a model performing Masked Autoregression with Diffusion for HOI generation (MAD-HOI). Our method starts by encoding hand and object motions in a continuous latent space while keeping them disentangled to maintain stream-wise control. This is followed by a masked autoregressive transformer to predict context features that condition a flow-matching head. MAD-HOI is capable of motion generation for atomic and composite articulated sequences, conditioned motion completion and infilling, as well as EOM (End of Motion) prediction from a single training objective. We provide comprehensive evaluations for these capabilities and benchmark our method on the ARCTIC and GRAB datasets. Our experiments show that MAD-HOI achieves the strongest text-motion alignment and distributional generation quality against baselines on both ARCTIC and GRAB, while maintaining competitive geometric accuracy and physical plausibility.",
+      "published_utc": "2026-08-10T19:30:59Z",
+      "updated_utc": "2026-10-11T01:35:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.10162v3",
+      "abs_url": "http://arxiv.org/abs/2608.10162v3"
+    },
+    "2610.16558v1": {
+      "arxiv_id": "2610.16558v1",
+      "title": "G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation",
+      "authors": [
+        "Ke Gui",
+        "Chenghao Shi",
+        "Ziyue Wang",
+        "Longwen Chen",
+        "Xieyuanli Chen",
+        "Huimin Lu"
+      ],
+      "summary": "World models capture environment dynamics and support counterfactual reasoning for planning. In image-goal navigation, where the target often lies beyond the current field of view, the agent must not only model environmental dynamics but also maintain a persistent spatial memory of the scene. Existing approaches either introduce spatial context by fine-tuning pretrained models on the target task, which underexploits their spatial priors, or rely on external 3D reconstruction, which is computationally expensive for real-world deployment. In this paper, we propose the Geometry Grounded World Action Model (G$^2$WAM) for image-goal navigation. G$^2$WAM encodes spatial cues through a learned scene-coordinate localization module that anchors the current, goal, and history frames in a common reference frame, yielding a stable and consistent spatial context that enables efficient navigation without explicit 3D reconstruction. Following the world-action-model paradigm, G$^2$WAM jointly predicts future states and actions, eliminating the need for costly cross-entropy method (CEM) style planning. In addition, G$^2$WAM operates entirely in latent space, avoiding the computational burden of pixel-level reconstruction and substantially reducing inference cost. Across four trajectory prediction benchmarks, G$^2$WAM reduces average ATE and RPE by 40.1% and 35.2%, respectively. In closed-loop navigation experiments, it improves the success rate from 54.0% to 63.0% and the success weighted by path length (SPL) from 36.4% to 59.2%, while maintaining high efficiency.",
+      "published_utc": "2026-10-12T10:36:40Z",
+      "updated_utc": "2026-10-12T10:36:40Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.16558v1",
+      "abs_url": "http://arxiv.org/abs/2610.16558v1"
+    },
+    "2610.16143v1": {
+      "arxiv_id": "2610.16143v1",
+      "title": "All-St3R SLAM: Real-time RGB Dynamic SLAM with Pixel-wise Motion Masking",
+      "authors": [
+        "Yewon Kim",
+        "Paul Hongsuck Seo",
+        "Sang Chul Ahn"
+      ],
+      "summary": "SLAM (Simultaneous Localization and Mapping) is a core technology in autonomous systems that enables them to estimate their own position and build a map of unknown environments simultaneously. SLAM systems in dynamic environments are of great practical importance. However, existing dynamic SLAM approaches still have several limitations like over-removal and high computational costs. To address these limitations, we propose a real-time RGB Dynamic SLAM framework that precisely removes moving objects at the pixel level without relying on predefined labels or segmentation models. Our system combines pixel motion predicted by ego-motion using DUSt3R with point tracking from All-Tracker, removing only actually moving pixels by analyzing discrepancies between the two motion sources. Unlike object-level masking methods, our approach eliminates only currently moving regions, allowing temporarily static parts to be utilized for tracking. Operating at approximately 10 FPS, the system achieves real-time performance on standard 30 FPS video streams by subsampling every 3 frames. Relying solely on RGB inputs, this significantly improves upon state-of-the-art dense dynamic SLAM approaches (0.5-3 FPS), presenting a highly practical solution.",
+      "published_utc": "2026-10-12T04:04:33Z",
+      "updated_utc": "2026-10-12T04:04:33Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.16143v1",
+      "abs_url": "http://arxiv.org/abs/2610.16143v1"
+    },
+    "2609.01899v2": {
+      "arxiv_id": "2609.01899v2",
+      "title": "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views",
+      "authors": [
+        "Skanda Koppula",
+        "Frano Rajic",
+        "Abdullah Faiz Ur Rahman",
+        "Yi Yang",
+        "Ignacio Rocco",
+        "Jeet Thakwani",
+        "Rishabh Kabra",
+        "Andrew Zisserman",
+        "Joao Carreira",
+        "Siyu Tang",
+        "Carl Doersch",
+        "Gabriel Brostow"
+      ],
+      "summary": "Multi-camera systems are increasingly practical for robotics, AR/VR, and autonomous driving because complementary views reduce depth ambiguity and preserve visibility under occlusion. Existing point-tracking benchmarks, however, focus on a single video or static multi-camera rigs. None test long-term 3D point tracking across several synchronized views under camera motion. We introduce TAPVid-MV (Tracking Any Point in Video across Multiple Views), the first benchmark for this setting. It contains a curated set of 238 sequences, 1,004 calibrated camera streams, and 74,147 point tracks across seven subsets spanning indoor and outdoor domains, from robotics and human activity to driving and synthetic procedural scenes. We obtain these trajectories using dataset-specific auxiliary modalities: sensor depth, LiDAR, SLAM and SfM points, human meshes, posed object meshes, and simulation. Every sequence and trajectory is visually verified by human annotators. Across more than 30 baselines, no method comes close to solving the task. Surprisingly, existing multi-view point trackers do not consistently outperform monocular point trackers. By evaluating reconstruction and point tracking on the same datasets, TAPVid-MV helps distinguish errors in recovered geometry from errors in point correspondence. Through this joint analysis, we identify geometry recovery as a major bottleneck for accurate 3D point tracking. Beyond multi-view 3D point tracking, our released annotations support monocular 2D and 3D point tracking, future-trajectory prediction, and 4D reconstruction. Project page: https://tapvidmv.github.io/",
+      "published_utc": "2026-09-01T21:58:51Z",
+      "updated_utc": "2026-10-09T18:50:15Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.01899v2",
+      "abs_url": "http://arxiv.org/abs/2609.01899v2"
+    },
+    "2606.24162v3": {
+      "arxiv_id": "2606.24162v3",
+      "title": "BehaviorBench: Benchmarking Foundation Models for Behavioral Science Tasks",
+      "authors": [
+        "Jin Huang",
+        "Yutong Xie",
+        "Wanli Song",
+        "Xingjian Zhang",
+        "Owen Yang",
+        "Walter Yuan",
+        "Matthew O. Jackson",
+        "Qiaozhu Mei"
+      ],
+      "summary": "Foundation models have been increasingly applied to behavioral science domains such as psychology, sociology, and economics. While these models show promise in tasks such as survey response prediction and human-subject experiment simulation, there remains no systematic understanding of how well they perform across diverse behavioral science tasks. We introduce BehaviorBench, a comprehensive benchmark that evaluates foundation models along four core capabilities: (1) behavior prediction and simulation, (2) strategic decision-making, (3) subject-trait inference, and (4) behavioral knowledge application. Crucially, BehaviorBench evaluates model outputs at both the individual and distributional levels, capturing not only per-subject accuracy but also population-level alignment, an essential requirement for behavioral validity. Our evaluation shows that BehaviorBench remains challenging for leading general-purpose LLMs and behavior foundation models that are specifically trained with behavioral data. We find that individual-level and distributional performance do not always align. General-purpose LLMs tend to underestimate the diversity of human responses, whereas behavior foundation models often lag behind at individual-level prediction. Our investigation further demonstrates how fine-tuning on diverse behavioral data can improve both individual-level prediction and distributional alignment, balancing these two objectives. Our results highlight the importance of evaluation at both individual and distributional levels, establishing BehaviorBench as a foundation for developing and assessing behaviorally aligned AI systems. Our BehaviorBench and models can be accessed via https://umich-foreseer.github.io/behaviorbench/",
+      "published_utc": "2026-06-23T05:30:54Z",
+      "updated_utc": "2026-10-11T04:12:53Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.24162v3",
+      "abs_url": "http://arxiv.org/abs/2606.24162v3"
+    },
+    "2606.30097v3": {
+      "arxiv_id": "2606.30097v3",
+      "title": "CylindTrack: Depth-Aware Cylindrical Motion Modeling for Panoramic Multi-Object Tracking",
+      "authors": [
+        "Buyin Deng",
+        "Kai Luo",
+        "Lingxin Huang",
+        "Xinqi Liu",
+        "Fei Cheng",
+        "Hang Zheng",
+        "Liming Yin",
+        "Kailun Yang"
+      ],
+      "summary": "Multi-Object Tracking (MOT) is essential for embodied perception, where panoramic cameras provide a 360° field of view to reduce blind spots and keep surrounding targets observable for longer durations. However, panoramic MOT requires motion estimates and association cues consistent with its imaging geometry. In videos represented in equirectangular projection (ERP), horizontal coordinates wrap at the image seam, while frame-wise relative-depth estimates may fluctuate over time. These inconsistencies can disrupt trajectory prediction and identity association. To address these challenges, we propose CylindTrack, a depth-aware cylindrical tracking-by-detection framework that integrates continuous angular motion modeling with temporally filtered relative-depth cues. Specifically, Depth-Temporal Trajectory Modeling (DTM) promotes instance depth from an isolated frame-wise cue into temporally filtered trajectory-level states. Spherical Spatio-Temporal Consistency Learning (SSTC) combines a Temporal Mixer and Spherical Geometry-aware Attention to enhance temporal coherence and panoramic geometric alignment in depth-aware representations. Furthermore, a Topology-Aware Cylindrical Motion Model (TCMM) lifts horizontal motion into a continuous angular state space, enabling seam-consistent motion prediction and association. By jointly modeling trajectory-level depth consistency and panoramic topology, CylindTrack improves identity preservation and trajectory continuity in challenging panoramic scenes. Experiments on QuadTrack and JRDB demonstrate improvements in identity-oriented metrics with practical efficiency, achieving HOTA scores of 33.67 and 31.12, IDF1 scores of 40.45 and 34.33, and tracking speeds of 28.56 and 21.34 FPS, respectively. The source code will be released at https://github.com/warriordby/CylindTrack.",
+      "published_utc": "2026-06-29T10:32:08Z",
+      "updated_utc": "2026-10-12T08:39:50Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.30097v3",
+      "abs_url": "http://arxiv.org/abs/2606.30097v3"
+    },
+    "2610.15577v1": {
+      "arxiv_id": "2610.15577v1",
+      "title": "SIGN-MAPPO: State-Intent-Aware Graph Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X",
+      "authors": [
+        "Zide Fan",
+        "Jiahui Yuan",
+        "Kaixin Zhang",
+        "Junhao Fan",
+        "Xiaohe Li",
+        "Yiru Wang"
+      ],
+      "summary": "Cooperative driving at mixed-traffic unsignalized intersections is challenged by imperfect vehicle-to-everything (V2X) communication, human-driven vehicle (HV) intentions that cannot be directly communicated, and the potential incompatibility of independently generated crossing decisions. This paper proposes State-Intent-Aware Graph Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X (SIGN-MAPPO) to address these challenges through three coordinated mechanisms. Each decision-eligible connected and automated vehicle (CAV) first reconstructs a receiver-specific traffic graph from its ego state and the peer-state records available to it, from which a shared graph-attention policy generates a raw Stop/Go intention augmented with predicted HV-intent features. CAV intentions are then exchanged through timestamped vehicle-to-vehicle (V2V) messages, and a local conflict-aware arbitration layer converts each CAV's intention into a safe executable action despite potentially inconsistent peer information. In the principal Simulation of Urban MObility (SUMO) evaluation, SIGN-MAPPO achieves a 97.53% completion rate, a 0.10% collision rate, and a mean intersection traversal time of 35.28 s. Ablation studies further confirm the complementary contributions of HV-intent prediction and CAV-intent exchange to this performance. The trained policy also remains robust under the evaluated communication-delay and packet-loss ranges, and cross-scenario tests show complete traffic clearance across the tested settings, though safety margins narrow under compound unpredictable HV behavior.",
+      "published_utc": "2026-10-11T12:43:25Z",
+      "updated_utc": "2026-10-11T12:43:25Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.15577v1",
+      "abs_url": "http://arxiv.org/abs/2610.15577v1"
     }
   },
   "topics": {
@@ -20794,9 +20994,12 @@
         "2610.07116v1",
         "2610.09438v1",
         "2610.09174v1",
-        "2610.12747v1"
+        "2610.12747v1",
+        "2610.18093v1",
+        "2610.16624v1",
+        "2608.10162v3"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21220,9 +21423,10 @@
         "2610.07277v1",
         "2610.09438v1",
         "2610.11580v1",
-        "2610.13557v1"
+        "2610.13557v1",
+        "2610.18093v1"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -21484,9 +21688,15 @@
         "2610.09174v1",
         "2610.13557v1",
         "2610.12936v1",
-        "2610.12747v1"
+        "2610.12747v1",
+        "2610.18093v1",
+        "2610.16624v1",
+        "2610.16558v1",
+        "2610.16143v1",
+        "2609.01899v2",
+        "2608.10162v3"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -21697,9 +21907,11 @@
         "2606.24162v2",
         "2610.11580v1",
         "2610.13557v1",
-        "2610.12747v1"
+        "2610.12747v1",
+        "2609.01899v2",
+        "2606.24162v3"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -21898,9 +22110,10 @@
         "2608.07468v5",
         "2610.01905v1",
         "2610.09174v1",
-        "2610.13557v1"
+        "2610.13557v1",
+        "2606.30097v3"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -22107,9 +22320,10 @@
         "2609.20178v1",
         "2609.24193v1",
         "2609.24193v3",
-        "2610.01751v1"
+        "2610.01751v1",
+        "2610.15577v1"
       ],
-      "latest_update": "2026-10-02"
+      "latest_update": "2026-10-14"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -22177,9 +22391,10 @@
         "2610.07474v1",
         "2610.09417v1",
         "2610.12936v1",
-        "2610.12747v1"
+        "2610.12747v1",
+        "2610.15577v1"
       ],
-      "latest_update": "2026-10-12"
+      "latest_update": "2026-10-14"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

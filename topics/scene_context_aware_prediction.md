@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-13` (timezone: `Europe/Athens`)
+Updated: `2026-10-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **258**
+Total papers tracked: **264**
 
 ---
 
+- **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
+  *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
+  Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v1) · [pdf](https://arxiv.org/pdf/2610.18093v1) · id: `2610.18093v1`
+- **Adaptive Interaction Network for Human Motion Prediction During Human-Robot Collaboration**  
+  *Mengyuan Liu, Yangting Lin, Qiongjie Cui*  
+  Published: `2026-10-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.16624v1) · [pdf](https://arxiv.org/pdf/2610.16624v1) · id: `2610.16624v1`
+- **G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation**  
+  *Ke Gui, Chenghao Shi, Ziyue Wang, Longwen Chen, Xieyuanli Chen, Huimin Lu*  
+  Published: `2026-10-12` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2610.16558v1) · [pdf](https://arxiv.org/pdf/2610.16558v1) · id: `2610.16558v1`
+- **All-St3R SLAM: Real-time RGB Dynamic SLAM with Pixel-wise Motion Masking**  
+  *Yewon Kim, Paul Hongsuck Seo, Sang Chul Ahn*  
+  Published: `2026-10-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.16143v1) · [pdf](https://arxiv.org/pdf/2610.16143v1) · id: `2610.16143v1`
 - **Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data**  
   *Frederik E. T. Schöller*  
   Published: `2026-10-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.13557v1) · [pdf](https://arxiv.org/pdf/2610.13557v1) · id: `2610.13557v1`
@@ -117,6 +129,9 @@ Total papers tracked: **258**
 - **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
   *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
   Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v1) · [pdf](https://arxiv.org/pdf/2609.01899v1) · id: `2609.01899v1`
+- **TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**  
+  *Skanda Koppula, Frano Rajic, Abdullah Faiz Ur Rahman, Yi Yang, Ignacio Rocco, Jeet Thakwani, Rishabh Kabra, Andrew Zisserman et al.*  
+  Published: `2026-09-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2609.01899v2) · [pdf](https://arxiv.org/pdf/2609.01899v2) · id: `2609.01899v2`
 - **Safety-oriented pedestrian trajectory prediction at urban intersections using time-to-collision and crossing-zone context**  
   *Erel Avineri, Yftach Gil, Yehudit Aperstein*  
   Published: `2026-08-31` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.29706v1) · [pdf](https://arxiv.org/pdf/2609.29706v1) · id: `2609.29706v1`
@@ -171,6 +186,9 @@ Total papers tracked: **258**
 - **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
   *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
   Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v2) · [pdf](https://arxiv.org/pdf/2608.10162v2) · id: `2608.10162v2`
+- **MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**  
+  *Ananya Bal, Kartik Sharma, Ethan Lai, Samyak Tiwari, Liza Dahiya, Chaitanya Chawla, Laszlo A. Jeni*  
+  Published: `2026-08-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2608.10162v3) · [pdf](https://arxiv.org/pdf/2608.10162v3) · id: `2608.10162v3`
 - **Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning**  
   *Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09876v1) · [pdf](https://arxiv.org/pdf/2608.09876v1) · id: `2608.09876v1`

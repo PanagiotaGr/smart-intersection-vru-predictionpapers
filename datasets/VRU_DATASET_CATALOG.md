@@ -19,7 +19,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | EuroCity Persons | pedestrian; rider | pedestrian detection | 0 | candidate |
 | INTERACTION | pedestrian; cyclist; vehicle | motion forecasting; interaction modelling | 4 | candidate |
 | JAAD | pedestrian | crossing intention; behaviour understanding | 35 | candidate |
-| JRDB | pedestrian | detection; tracking; social navigation | 15 | candidate |
+| JRDB | pedestrian | detection; tracking; social navigation | 16 | candidate |
 | KITTI | pedestrian; cyclist; vehicle | detection; tracking; odometry | 4 | candidate |
 | Lyft Level 5 | pedestrian; cyclist; vehicle | motion forecasting | 0 | candidate |
 | PIE | pedestrian | crossing intention; trajectory prediction | 5 | candidate |

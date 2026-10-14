@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-10-13` (timezone: `Europe/Athens`)
+Updated: `2026-10-14` (timezone: `Europe/Athens`)
 
-Total papers tracked: **73**
+Total papers tracked: **74**
 
 ---
 
+- **SIGN-MAPPO: State-Intent-Aware Graph Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X**  
+  *Zide Fan, Jiahui Yuan, Kaixin Zhang, Junhao Fan, Xiaohe Li, Yiru Wang*  
+  Published: `2026-10-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.15577v1) · [pdf](https://arxiv.org/pdf/2610.15577v1) · id: `2610.15577v1`
 - **Evidence-Gated Research: Statistically Controlled Model Adoption in Adaptive Search**  
   *Yifan Guo*  
   Published: `2026-10-01` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.01751v1) · [pdf](https://arxiv.org/pdf/2610.01751v1) · id: `2610.01751v1`
