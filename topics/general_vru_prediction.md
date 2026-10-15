@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-10-14` (timezone: `Europe/Athens`)
+Updated: `2026-10-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **149**
+Total papers tracked: **150**
 
 ---
 
@@ -96,6 +96,9 @@ Total papers tracked: **149**
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v2) · [pdf](https://arxiv.org/pdf/2606.15251v2) · id: `2606.15251v2`
 - **Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent**  
   *Ashutosh Kumar*  
   Published: `2026-06-13` · Category: `cs.GT` · [abs](http://arxiv.org/abs/2606.15139v1) · [pdf](https://arxiv.org/pdf/2606.15139v1) · id: `2606.15139v1`

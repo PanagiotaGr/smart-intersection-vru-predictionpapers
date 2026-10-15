@@ -7,7 +7,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 |---|---|---|---:|---|
 | ApolloScape | pedestrian; rider; vehicle | trajectory prediction; scene parsing | 3 | candidate |
 | Argoverse 1 | pedestrian; cyclist; vehicle | motion forecasting; tracking | 32 | candidate |
-| Argoverse 2 | pedestrian; cyclist; motorcyclist; vehicle | motion forecasting; 3D perception | 28 | candidate |
+| Argoverse 2 | pedestrian; cyclist; motorcyclist; vehicle | motion forecasting; 3D perception | 29 | candidate |
 | BDD100K | pedestrian; rider; bicycle; motorcycle; vehicle | detection; tracking; segmentation | 0 | candidate |
 | BLVD | pedestrian; cyclist; vehicle | 3D tracking; interaction and intention | 0 | candidate |
 | Caltech Pedestrian | pedestrian | pedestrian detection | 0 | candidate |

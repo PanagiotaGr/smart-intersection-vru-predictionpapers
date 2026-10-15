@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-14` (timezone: `Europe/Athens`)
+Updated: `2026-10-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **264**
+Total papers tracked: **265**
 
 ---
 
+- **Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models**  
+  *Shijun Shi, Zhe Liu, Zhi Hou, Yinan Chen, Tao Zhang, Kai Hu, Yong Liu, Jiangning Zhang*  
+  Published: `2026-10-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.20157v1) · [pdf](https://arxiv.org/pdf/2610.20157v1) · id: `2610.20157v1`
 - **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
   *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
   Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v1) · [pdf](https://arxiv.org/pdf/2610.18093v1) · id: `2610.18093v1`

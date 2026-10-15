@@ -20472,6 +20472,53 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.15577v1",
       "abs_url": "http://arxiv.org/abs/2610.15577v1"
+    },
+    "2606.15251v2": {
+      "arxiv_id": "2606.15251v2",
+      "title": "Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility",
+      "authors": [
+        "Simon Kohaut",
+        "Felix Divo",
+        "Julius Hahnewald",
+        "Benedict Flade",
+        "Julian Eggert",
+        "Kristian Kersting",
+        "Devendra Singh Dhami"
+      ],
+      "summary": "Accurate and interpretable motion prediction for heterogeneous traffic spaces, including pedestrians, bicycles, cars, and trucks, is essential for safe autonomous navigation. Nevertheless, state-of-the-art approaches remain predominantly black-box, lacking explicit encoding of the regulatory and behavioral constraints of real-world mobility. We propose Trajectory Compliance-Shaping (TraCS), a neuro-symbolic framework that augments existing black-box motion prediction backbones with interpretable and probabilistic first-order logic. To do so, TraCS employs an agentic code-generation pipeline to bridge the gap between natural-language descriptions of traffic regulations and probabilistic motion prediction. Furthermore, TraCS employs a reactive data-streaming inference engine that maintains and efficiently updates compliance landscapes as scenes evolve. To prevent TraCS from overconfidently steering the backbone's predictions in the wrong direction, we propose a neural confidence rating learned as a context-aware attenuation of the compliance signal. We demonstrate on the Argoverse 2 benchmark how TraCS consistently improves state-of-the-art prediction backbones, showing that probabilistic and symbolic compliance reasoning is a broadly applicable and computationally efficient complement to purely neural motion predictors.",
+      "published_utc": "2026-06-13T11:15:04Z",
+      "updated_utc": "2026-10-14T15:04:59Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15251v2",
+      "abs_url": "http://arxiv.org/abs/2606.15251v2"
+    },
+    "2610.20157v1": {
+      "arxiv_id": "2610.20157v1",
+      "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models",
+      "authors": [
+        "Shijun Shi",
+        "Zhe Liu",
+        "Zhi Hou",
+        "Yinan Chen",
+        "Tao Zhang",
+        "Kai Hu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "summary": "World Action Models (WAMs) typically adapt video foundation models to robotic control through joint video and action prediction. However, task-level instructions may leave the next physical interaction underspecified, requiring semantic grounding and state-dependent motion selection. To this end, we introduce Atomic-WAM, an understand-then-execute framework that connects task reasoning to action generation through atomic-motion descriptions. Specifically, a vision-language reasoner describes the next local motion from the task instruction and visual context, guiding a WAM to predict future video and an action chunk. Furthermore, an automatic annotation pipeline curates temporally aligned, contact-enriched supervision from multi-view DROID demonstrations. To make atomic-motion predictions executable by the WAM, we post-train the reasoner with Execution-Grounded GRPO (EG-GRPO). With the WAM fixed, EG-GRPO adapts the reasoner through rewards for motion appropriateness and execution success. Finally, Atomic-WAM achieves 39.6% task success under default instructions and 31.6% under vague instructions in a real-to-sim evaluation on RoboLab. Project page: https://ssj9596.github.io/Atomic-WAM-project",
+      "published_utc": "2026-10-14T13:13:35Z",
+      "updated_utc": "2026-10-14T13:13:35Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20157v1",
+      "abs_url": "http://arxiv.org/abs/2610.20157v1"
     }
   },
   "topics": {
@@ -20641,9 +20688,10 @@
         "2610.07474v1",
         "2610.09438v1",
         "2603.18166v1",
-        "2603.18166v2"
+        "2603.18166v2",
+        "2606.15251v2"
       ],
-      "latest_update": "2026-10-09"
+      "latest_update": "2026-10-15"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -20696,9 +20744,10 @@
         "2606.20686v1",
         "2607.16156v1",
         "2510.03314v2",
-        "2609.27077v1"
+        "2609.27077v1",
+        "2606.15251v2"
       ],
-      "latest_update": "2026-10-01"
+      "latest_update": "2026-10-15"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -20997,9 +21046,10 @@
         "2610.12747v1",
         "2610.18093v1",
         "2610.16624v1",
-        "2608.10162v3"
+        "2608.10162v3",
+        "2610.20157v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-15"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21694,9 +21744,10 @@
         "2610.16558v1",
         "2610.16143v1",
         "2609.01899v2",
-        "2608.10162v3"
+        "2608.10162v3",
+        "2610.20157v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-15"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22690,9 +22741,10 @@
         "2610.07474v1",
         "2610.09438v1",
         "2603.18166v1",
-        "2603.18166v2"
+        "2603.18166v2",
+        "2606.15251v2"
       ],
-      "latest_update": "2026-10-09"
+      "latest_update": "2026-10-15"
     }
   }
 }

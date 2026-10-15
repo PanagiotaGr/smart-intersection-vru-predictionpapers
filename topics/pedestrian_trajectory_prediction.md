@@ -1,8 +1,8 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-10-14` (timezone: `Europe/Athens`)
+Updated: `2026-10-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **164**
+Total papers tracked: **165**
 
 ---
 
@@ -60,6 +60,9 @@ Total papers tracked: **164**
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v2) · [pdf](https://arxiv.org/pdf/2606.15251v2) · id: `2606.15251v2`
 - **MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting**  
   *Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, He Kong*  
   Published: `2026-05-30` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2606.00471v1) · [pdf](https://arxiv.org/pdf/2606.00471v1) · id: `2606.00471v1`

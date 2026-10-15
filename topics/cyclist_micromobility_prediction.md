@@ -1,8 +1,8 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-10-14` (timezone: `Europe/Athens`)
+Updated: `2026-10-15` (timezone: `Europe/Athens`)
 
-Total papers tracked: **49**
+Total papers tracked: **50**
 
 ---
 
@@ -21,6 +21,9 @@ Total papers tracked: **49**
 - **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
   *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
   Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v1) · [pdf](https://arxiv.org/pdf/2606.15251v1) · id: `2606.15251v1`
+- **Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility**  
+  *Simon Kohaut, Felix Divo, Julius Hahnewald, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami*  
+  Published: `2026-06-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2606.15251v2) · [pdf](https://arxiv.org/pdf/2606.15251v2) · id: `2606.15251v2`
 - **GHOST: Ground-projected Hypotheses from Observed Structure-from-Motion Trajectories**  
   *Tomasz Frelek, Rohan Patil, Akshar Tumu, Henrik I. Christensen*  
   Published: `2026-03-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2603.20583v2) · [pdf](https://arxiv.org/pdf/2603.20583v2) · id: `2603.20583v2`
