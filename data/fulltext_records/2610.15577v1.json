@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2610.15577v1",
+  "title": "SIGN-MAPPO: State-Intent-Aware Graph Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X",
+  "pdf_url": "https://arxiv.org/pdf/2610.15577v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}
