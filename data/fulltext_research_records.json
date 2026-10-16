@@ -9205,6 +9205,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2606.15251v2": {
+      "schema_version": 1,
+      "paper_id": "2606.15251v2",
+      "title": "Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility",
+      "pdf_url": "https://arxiv.org/pdf/2606.15251v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2606.16876v1": {
       "schema_version": 1,
       "paper_id": "2606.16876v1",
@@ -11670,6 +11682,18 @@
       "paper_id": "2610.18093v1",
       "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction",
       "pdf_url": "https://arxiv.org/pdf/2610.18093v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.20157v1": {
+      "schema_version": 1,
+      "paper_id": "2610.20157v1",
+      "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models",
+      "pdf_url": "https://arxiv.org/pdf/2610.20157v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
