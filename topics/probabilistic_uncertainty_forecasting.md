@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-15` (timezone: `Europe/Athens`)
+Updated: `2026-10-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **209**
+Total papers tracked: **211**
 
 ---
 
+- **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
+  *Daniel Grimm, J. Marius Zöllner*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`
+- **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
+  *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`
 - **Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data**  
   *Frederik E. T. Schöller*  
   Published: `2026-10-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.13557v1) · [pdf](https://arxiv.org/pdf/2610.13557v1) · id: `2610.13557v1`

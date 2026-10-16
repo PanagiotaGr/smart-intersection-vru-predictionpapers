@@ -6,16 +6,16 @@
 
 | Κατηγορία | Αναλυμένα papers | Αρχείο |
 |---|---:|---|
-| Pedestrian Trajectory Prediction | 0 / 165 | [pedestrian_trajectory_prediction.md](pedestrian_trajectory_prediction.md) |
+| Pedestrian Trajectory Prediction | 0 / 166 | [pedestrian_trajectory_prediction.md](pedestrian_trajectory_prediction.md) |
 | Cyclist & Micromobility Prediction | 0 / 50 | [cyclist_micromobility_prediction.md](cyclist_micromobility_prediction.md) |
-| Interaction-aware & Social Models | 0 / 296 | [interaction_aware_models.md](interaction_aware_models.md) |
+| Interaction-aware & Social Models | 0 / 297 | [interaction_aware_models.md](interaction_aware_models.md) |
 | Intention & Crossing Behavior | 0 / 133 | [intention_crossing_behavior.md](intention_crossing_behavior.md) |
 | Risk-aware / Safety / Collision Prediction | 0 / 282 | [risk_safety_collision.md](risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 0 / 265 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
-| Probabilistic and Uncertainty-aware Forecasting | 0 / 209 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 0 / 196 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
-| Autonomous Driving Forecasting for VRUs | 0 / 124 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
+| Scene and Context-aware Prediction | 0 / 267 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
+| Probabilistic and Uncertainty-aware Forecasting | 0 / 211 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
+| Graph Transformer and Diffusion Models | 0 / 198 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
+| Autonomous Driving Forecasting for VRUs | 0 / 125 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 0 / 74 | [crossing_gap_acceptance.md](crossing_gap_acceptance.md) |
 | Smart Intersections and Traffic Signal Context | 0 / 65 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
-| VRU Datasets Benchmarks and Evaluation | 0 / 137 | [vru_datasets_benchmarks.md](vru_datasets_benchmarks.md) |
-| General VRU Prediction Broad Catch-All | 0 / 150 | [general_vru_prediction.md](general_vru_prediction.md) |
+| VRU Datasets Benchmarks and Evaluation | 0 / 138 | [vru_datasets_benchmarks.md](vru_datasets_benchmarks.md) |
+| General VRU Prediction Broad Catch-All | 0 / 151 | [general_vru_prediction.md](general_vru_prediction.md) |

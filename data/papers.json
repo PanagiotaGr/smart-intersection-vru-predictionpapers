@@ -20519,6 +20519,46 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.20157v1",
       "abs_url": "http://arxiv.org/abs/2610.20157v1"
+    },
+    "2610.21132v1": {
+      "arxiv_id": "2610.21132v1",
+      "title": "Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation",
+      "authors": [
+        "Wenqian Jiang",
+        "Qifeng Sun",
+        "Xiaosong Gao",
+        "Xin Zou",
+        "Xingrui Ni",
+        "Yuan Hu",
+        "Yongming Li"
+      ],
+      "summary": "Pedestrian trajectory prediction holds significant applications across autonomous driving, intelligent surveillance, and smart cities. However, the complexity and unpredictability of pedestrian interactions make this task a persistent challenge. Current models face two common limitations: 1) Consider only a single type of social coupling. This introduces redundant interactions. More critically, it fails to account for the varying nature of trajectory coupled across different scenarios and between different pedestrians. Consequently, models cannot deeply adapt to diverse scenes. 2) Inadequate domain shift handling. Although very few methods address domain shift, they rely on statistical criterion-based domain distribution alignment. Such approaches exhibit strong dependency on predefined statistical metrics. This leads to significant limitations in complex and dynamic environments. To address these problems, a Hierarchical Envelope Adversarial Domain Adaptation with Loosely-Tightly coupled model (HEADA-LTCTPM) is proposed. First, an envelope sample construction mechanism was proposed. It constructs envelope samples and extends them into graph structures. Secondly, an adversarial domain adaptation module was proposed. This integrates both local and global domain adaptation strategies. It dynamically adapts to diverse coupled relationships across scenarios. These innovations collectively enhance prediction accuracy and robustness. In the experimental section, two representative public datasets were employed for validation and comprehensive comparisons with six relevant baseline algorithms were conducted. Results demonstrate that our model achieves significantly higher accuracy compared to existing methods, with the ADE and FDE metrics reduced by 17.6% and 19.1% respectively. The time overhead meets practical requirements, which verifies the effectiveness of our key innovations.",
+      "published_utc": "2026-10-15T02:40:43Z",
+      "updated_utc": "2026-10-15T02:40:43Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.21132v1",
+      "abs_url": "http://arxiv.org/abs/2610.21132v1"
+    },
+    "2610.22215v1": {
+      "arxiv_id": "2610.22215v1",
+      "title": "FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting",
+      "authors": [
+        "Daniel Grimm",
+        "J. Marius Zöllner"
+      ],
+      "summary": "Accurate motion prediction is critical for safe autonomous driving, yet even strong forecasters leave residual errors in their multimodal proposals. Existing refiners compress complete proposals or update their segments sequentially, preventing the full proposed future from serving as explicit relational context for correction. We introduce FutureLift, a backbone-agnostic refiner that represents each multimodal proposal as a heterogeneous future graph, with spatially grounded temporal nodes connected to agent histories, map elements, alternative modes, and, for joint prediction, other agents future trajectories. Bidirectional temporal edges allow later evidence to revise earlier segments in a single pass, and the updated nodes predict residual coordinate and confidence corrections. Requiring only proposals, scores, and scene context, FutureLift provides a common refinement interface for structurally different forecasting backbones. On Argoverse2 and the Waymo Open Motion Dataset, it consistently improves frozen proposals and outperforms native and specialized refiners across marginal and joint forecasting. On the WOMD motion-prediction leaderboard, FutureLift ranks first in minADE (0.5049m) and minFDE (0.9942m) among the compared standard-input methods, without LiDAR or ensembling, while achieving a competitive 0.4874 Soft mAP.",
+      "published_utc": "2026-10-15T17:00:40Z",
+      "updated_utc": "2026-10-15T17:00:40Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.22215v1",
+      "abs_url": "http://arxiv.org/abs/2610.22215v1"
     }
   },
   "topics": {
@@ -20689,9 +20729,10 @@
         "2610.09438v1",
         "2603.18166v1",
         "2603.18166v2",
-        "2606.15251v2"
+        "2606.15251v2",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-15"
+      "latest_update": "2026-10-16"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -21047,9 +21088,10 @@
         "2610.18093v1",
         "2610.16624v1",
         "2608.10162v3",
-        "2610.20157v1"
+        "2610.20157v1",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-15"
+      "latest_update": "2026-10-16"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21745,9 +21787,11 @@
         "2610.16143v1",
         "2609.01899v2",
         "2608.10162v3",
-        "2610.20157v1"
+        "2610.20157v1",
+        "2610.22215v1",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-15"
+      "latest_update": "2026-10-16"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -21960,9 +22004,11 @@
         "2610.13557v1",
         "2610.12747v1",
         "2609.01899v2",
-        "2606.24162v3"
+        "2606.24162v3",
+        "2610.22215v1",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-16"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -22162,9 +22208,11 @@
         "2610.01905v1",
         "2610.09174v1",
         "2610.13557v1",
-        "2606.30097v3"
+        "2606.30097v3",
+        "2610.22215v1",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-16"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -22292,9 +22340,10 @@
         "2510.03314v2",
         "2604.07126v3",
         "2609.29706v1",
-        "2610.09438v1"
+        "2610.09438v1",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-08"
+      "latest_update": "2026-10-16"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -22586,9 +22635,10 @@
         "2511.11164v3",
         "2610.09438v1",
         "2603.18166v1",
-        "2603.18166v2"
+        "2603.18166v2",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-09"
+      "latest_update": "2026-10-16"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -22742,9 +22792,10 @@
         "2610.09438v1",
         "2603.18166v1",
         "2603.18166v2",
-        "2606.15251v2"
+        "2606.15251v2",
+        "2610.21132v1"
       ],
-      "latest_update": "2026-10-15"
+      "latest_update": "2026-10-16"
     }
   }
 }

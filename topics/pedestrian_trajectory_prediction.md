@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-10-15` (timezone: `Europe/Athens`)
+Updated: `2026-10-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **165**
+Total papers tracked: **166**
 
 ---
 
+- **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
+  *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`
 - **Controllable Crowd Generation through World-Model Planning**  
   *JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon*  
   Published: `2026-10-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.09438v1) · [pdf](https://arxiv.org/pdf/2610.09438v1) · id: `2610.09438v1`

@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-15` (timezone: `Europe/Athens`)
+Updated: `2026-10-16` (timezone: `Europe/Athens`)
 
-Total papers tracked: **296**
+Total papers tracked: **297**
 
 ---
 
+- **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
+  *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`
 - **Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models**  
   *Shijun Shi, Zhe Liu, Zhi Hou, Yinan Chen, Tao Zhang, Kai Hu, Yong Liu, Jiangning Zhang*  
   Published: `2026-10-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.20157v1) · [pdf](https://arxiv.org/pdf/2610.20157v1) · id: `2610.20157v1`
