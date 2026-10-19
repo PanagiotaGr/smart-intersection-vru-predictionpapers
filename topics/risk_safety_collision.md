@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-10-18` (timezone: `Europe/Athens`)
+Updated: `2026-10-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **282**
+Total papers tracked: **283**
 
 ---
 
+- **STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases**  
+  *Lieqi Liu, Rui gao, Jia-Chen Gu, Wenbo Hu, Zhaobin Mo, Ahmadreza Moradipari, Nejib Ammar, Wei Wang et al.*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22795v1) · [pdf](https://arxiv.org/pdf/2610.22795v1) · id: `2610.22795v1`
 - **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
   *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
   Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v1) · [pdf](https://arxiv.org/pdf/2610.18093v1) · id: `2610.18093v1`

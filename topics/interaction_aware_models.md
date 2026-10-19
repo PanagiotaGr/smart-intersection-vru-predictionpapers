@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-18` (timezone: `Europe/Athens`)
+Updated: `2026-10-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **297**
+Total papers tracked: **298**
 
 ---
 
+- **STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases**  
+  *Lieqi Liu, Rui gao, Jia-Chen Gu, Wenbo Hu, Zhaobin Mo, Ahmadreza Moradipari, Nejib Ammar, Wei Wang et al.*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22795v1) · [pdf](https://arxiv.org/pdf/2610.22795v1) · id: `2610.22795v1`
 - **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
   *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`

@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-10-18` (timezone: `Europe/Athens`)
+Updated: `2026-10-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **151**
+Total papers tracked: **152**
 
 ---
 
+- **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
+  *Yuanzhe Li, Meng Wang*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v1) · [pdf](https://arxiv.org/pdf/2610.23356v1) · id: `2610.23356v1`
 - **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
   *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`

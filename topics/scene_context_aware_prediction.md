@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-10-18` (timezone: `Europe/Athens`)
+Updated: `2026-10-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **267**
+Total papers tracked: **268**
 
 ---
 
+- **STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases**  
+  *Lieqi Liu, Rui gao, Jia-Chen Gu, Wenbo Hu, Zhaobin Mo, Ahmadreza Moradipari, Nejib Ammar, Wei Wang et al.*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22795v1) · [pdf](https://arxiv.org/pdf/2610.22795v1) · id: `2610.22795v1`
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`

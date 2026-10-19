@@ -20559,6 +20559,48 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.22215v1",
       "abs_url": "http://arxiv.org/abs/2610.22215v1"
+    },
+    "2610.22795v1": {
+      "arxiv_id": "2610.22795v1",
+      "title": "STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases",
+      "authors": [
+        "Lieqi Liu",
+        "Rui gao",
+        "Jia-Chen Gu",
+        "Wenbo Hu",
+        "Zhaobin Mo",
+        "Ahmadreza Moradipari",
+        "Nejib Ammar",
+        "Wei Wang",
+        "Nanyun Peng"
+      ],
+      "summary": "In autonomous driving, perceiving surrounding objects is not enough: failing to understand how they move and interact over time can lead to dangerous decisions. Evaluating vision-language models (VLMs) therefore requires testing whether they connect past spatial observations to future consequences. Yet existing benchmarks often assess edge cases through basic perception questions or test temporal understanding in simple scenarios, leaving complex spatiotemporal reasoning underexplored. We introduce STRIDE (SpatioTemporal Reasoning In Driving Edge Cases), an object-centric benchmark for long-tail, safety-critical driving scenarios. STRIDE covers six task families: spatial perception, spatial understanding, temporal memory, temporal extrapolation, trajectory prediction, and scene-context awareness. It pairs multiple-choice questions probing individual spatiotemporal judgments with related free-form visual question answering (VQA) requiring detailed scene explanations and justifications of driving decisions. We prioritize scenes with unusual object behaviors and complex traffic interactions, generate reference answers from structured dataset annotations through automated procedures, and use limited language-model assistance and human verification to ensure annotation quality. Across 12 proprietary, open-weight, and driving-specialized models, even the best performer, GPT-6-Astra, achieves only 43.4% average multiple-choice accuracy, versus an approximately 20% random-choice baseline. Further analysis reveals that strong performance in describing driving scenes does not necessarily translate to accurate safety-critical judgments, and that models struggle more with reconstructing object motion than recalling past positions. STRIDE thus exposes spatiotemporal driving limitations that aggregate VQA scores can conceal.",
+      "published_utc": "2026-10-16T01:13:23Z",
+      "updated_utc": "2026-10-16T01:13:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.22795v1",
+      "abs_url": "http://arxiv.org/abs/2610.22795v1"
+    },
+    "2610.23356v1": {
+      "arxiv_id": "2610.23356v1",
+      "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "authors": [
+        "Yuanzhe Li",
+        "Meng Wang"
+      ],
+      "summary": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction. STC-MGNet introduces a spatial-temporal-channel (STC) attention-enhanced pose graph encoder to learn discriminative representations from pedestrian pose sequences. Three parallel attention branches selectively emphasize informative skeletal joints, observation frames, and feature channels, with their outputs integrated through learnable fusion weights. To leverage complementary visual and ego-vehicle motion information, a multi-stage cross-modal channel modulation mechanism is introduced to adaptively refine pose representations through modality-specific channel gating at successive graph encoding stages. Experimental results demonstrate that STC-MGNet achieves accuracy rates of 70%, 87%, and 88% on the JAADbeh, JAADall, and PIE datasets, respectively, outperforming several representative baseline methods. Ablation experiments further highlight the complementary contributions of visual and ego-vehicle motion information to prediction performance.",
+      "published_utc": "2026-10-16T12:01:05Z",
+      "updated_utc": "2026-10-16T12:01:05Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.23356v1",
+      "abs_url": "http://arxiv.org/abs/2610.23356v1"
     }
   },
   "topics": {
@@ -21089,9 +21131,10 @@
         "2610.16624v1",
         "2608.10162v3",
         "2610.20157v1",
-        "2610.21132v1"
+        "2610.21132v1",
+        "2610.22795v1"
       ],
-      "latest_update": "2026-10-16"
+      "latest_update": "2026-10-19"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21228,9 +21271,10 @@
         "2609.24193v1",
         "2609.40158v1",
         "2609.24193v3",
-        "2610.07954v1"
+        "2610.07954v1",
+        "2610.23356v1"
       ],
-      "latest_update": "2026-10-07"
+      "latest_update": "2026-10-19"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -21516,9 +21560,10 @@
         "2610.09438v1",
         "2610.11580v1",
         "2610.13557v1",
-        "2610.18093v1"
+        "2610.18093v1",
+        "2610.22795v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-19"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -21789,9 +21834,10 @@
         "2608.10162v3",
         "2610.20157v1",
         "2610.22215v1",
-        "2610.21132v1"
+        "2610.21132v1",
+        "2610.22795v1"
       ],
-      "latest_update": "2026-10-16"
+      "latest_update": "2026-10-19"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22421,9 +22467,10 @@
         "2609.24193v1",
         "2609.24193v3",
         "2610.01751v1",
-        "2610.15577v1"
+        "2610.15577v1",
+        "2610.23356v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-19"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -22793,9 +22840,10 @@
         "2603.18166v1",
         "2603.18166v2",
         "2606.15251v2",
-        "2610.21132v1"
+        "2610.21132v1",
+        "2610.23356v1"
       ],
-      "latest_update": "2026-10-16"
+      "latest_update": "2026-10-19"
     }
   }
 }
