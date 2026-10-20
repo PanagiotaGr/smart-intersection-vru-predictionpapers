@@ -1,8 +1,8 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-10-19` (timezone: `Europe/Athens`)
+Updated: `2026-10-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **138**
+Total papers tracked: **139**
 
 ---
 
@@ -111,6 +111,9 @@ Total papers tracked: **138**
 - **Reverberation: Learning the Latencies Before Forecasting Trajectories**  
   *Conghao Wong, Ziqian Zou, Beihao Xia, Xinge You*  
   Published: `2025-11-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.11164v3) · [pdf](https://arxiv.org/pdf/2511.11164v3) · id: `2511.11164v3`
+- **Reverberation: Learning the Latencies Before Forecasting Trajectories**  
+  *Conghao Wong, Ziqian Zou, Beihao Xia, Xinge You*  
+  Published: `2025-11-14` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.11164v4) · [pdf](https://arxiv.org/pdf/2511.11164v4) · id: `2511.11164v4`
 - **Social LSTM with Dynamic Occupancy Modeling for Realistic Pedestrian Trajectory Prediction**  
   *Ahmed Alia, Mohcine Chraibi, Armin Seyfried*  
   Published: `2025-11-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2511.09735v1) · [pdf](https://arxiv.org/pdf/2511.09735v1) · id: `2511.09735v1`

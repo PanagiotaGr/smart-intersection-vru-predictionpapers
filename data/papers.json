@@ -20601,6 +20601,46 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.23356v1",
       "abs_url": "http://arxiv.org/abs/2610.23356v1"
+    },
+    "2610.25482v1": {
+      "arxiv_id": "2610.25482v1",
+      "title": "PRIMA: Pose Refined Inductive Motion Adapter for Zero Shot Social Bodily Behavior Recognition",
+      "authors": [
+        "Mingcong Ding",
+        "Babette Bühler",
+        "Tim Fütterer",
+        "Ulrich Trautwein",
+        "Enkelejda Kasneci"
+      ],
+      "summary": "Recognizing fine-grained bodily behaviors, such as self-grooming, postural shifts, and backchanneling, is a useful intermediate step for computational social signal analysis. But the behaviors that matter vary across social contexts, and retraining a model for each new taxonomy is expensive. Vision-language models (VLMs) can adapt to new categories through text prompts, yet they lack sensitivity to body structure and often confuse subtle postural distinctions. We propose PRIMA (Pose Refined Inductive Motion Adapter), a lightweight module that injects a body-structure prior into frozen VLMs using human pose as a training-time supervisory signal, requiring no pose input at inference. PRIMA separates a model-specific projection head from a shared core that encodes transferable body-configuration knowledge; adapting to a new VLM requires retraining only the head. We train PRIMA on a micro-action dataset and evaluate entirely through zero-shot prompting. The adapter improves recognition on its training domain, transfers to additional VLM backbones at different scales with the core frozen, and generalizes to two unseen target datasets from social psychology and daily activity recognition. In a supporting downstream study, the improved behavior predictions also yield higher correlations with human ratings of rapport and dominance in a collaboration context. Within the scope of the tested models and indoor datasets, the results indicate that pose-guided training can produce body-structure priors that generalize across unseen behavior vocabularies and can be partially reused across VLM backbones while preserving RGB-only inference.",
+      "published_utc": "2026-10-18T19:10:49Z",
+      "updated_utc": "2026-10-18T19:10:49Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.25482v1",
+      "abs_url": "http://arxiv.org/abs/2610.25482v1"
+    },
+    "2511.11164v4": {
+      "arxiv_id": "2511.11164v4",
+      "title": "Reverberation: Learning the Latencies Before Forecasting Trajectories",
+      "authors": [
+        "Conghao Wong",
+        "Ziqian Zou",
+        "Beihao Xia",
+        "Xinge You"
+      ],
+      "summary": "Bridging the past to the future, connecting agents both spatially and temporally, lies at the core of the trajectory prediction task. Despite great efforts, it remains challenging to explicitly learn and predict latencies, i.e., response intervals or temporal delays with which agents respond to various trajectory-changing events and adjust their future paths, whether on their own or interactively. Different agents may exhibit distinct latency preferences for noticing, processing, and reacting to a specific trajectory-changing event. The lack of consideration of such latencies may undermine the temporal continuity of forecasting systems, leading to implausible or unintended trajectories. Inspired by reverberation in acoustics, we propose a new reverberation transform and the corresponding Reverberation (Rev for short) trajectory prediction model, which predicts both individual latency preferences and their stochastic variations accordingly, by using two explicit and learnable reverberation kernels, enabling latency-conditioned and controllable trajectory prediction under both non-interactive and social latencies. Experiments on multiple datasets, whether of pedestrians or vehicles, demonstrate that Rev achieves competitive accuracy while revealing interpretable latency dynamics across agents and scenarios. Qualitative analyses further verify the properties of the reverberation transform, highlighting its potential as a general latency modeling approach.",
+      "published_utc": "2025-11-14T10:59:24Z",
+      "updated_utc": "2026-10-19T02:31:32Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2511.11164v4",
+      "abs_url": "http://arxiv.org/abs/2511.11164v4"
     }
   },
   "topics": {
@@ -22539,9 +22579,10 @@
         "2610.09417v1",
         "2610.12936v1",
         "2610.12747v1",
-        "2610.15577v1"
+        "2610.15577v1",
+        "2610.25482v1"
       ],
-      "latest_update": "2026-10-14"
+      "latest_update": "2026-10-20"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -22683,9 +22724,10 @@
         "2610.09438v1",
         "2603.18166v1",
         "2603.18166v2",
-        "2610.21132v1"
+        "2610.21132v1",
+        "2511.11164v4"
       ],
-      "latest_update": "2026-10-16"
+      "latest_update": "2026-10-20"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
