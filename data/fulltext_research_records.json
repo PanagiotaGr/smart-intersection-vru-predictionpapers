@@ -4957,6 +4957,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2511.11164v4": {
+      "schema_version": 1,
+      "paper_id": "2511.11164v4",
+      "title": "Reverberation: Learning the Latencies Before Forecasting Trajectories",
+      "pdf_url": "https://arxiv.org/pdf/2511.11164v4",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2511.11218v2": {
       "schema_version": 1,
       "paper_id": "2511.11218v2",
@@ -11742,6 +11754,18 @@
       "paper_id": "2610.23356v1",
       "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
       "pdf_url": "https://arxiv.org/pdf/2610.23356v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.25482v1": {
+      "schema_version": 1,
+      "paper_id": "2610.25482v1",
+      "title": "PRIMA: Pose Refined Inductive Motion Adapter for Zero Shot Social Bodily Behavior Recognition",
+      "pdf_url": "https://arxiv.org/pdf/2610.25482v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
