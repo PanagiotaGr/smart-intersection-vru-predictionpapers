@@ -16,22 +16,22 @@ This repository supports:
 
 ## Latest
 <!-- LATEST:START -->
-- Updated on: **2026-10-20**
-- Latest digest: `digests/2026-10-20.md`
+- Updated on: **2026-10-21**
+- Latest digest: `digests/2026-10-21.md`
 <!-- LATEST:END -->
 
 ## Topic Navigator
 <!-- TOPICS:START -->
 | Topic | Latest Update | Papers | Link |
 |------|--------------:|------:|------|
-| Pedestrian Trajectory Prediction | 2026-10-16 | 166 | [Pedestrian Trajectory Prediction](topics/pedestrian_trajectory_prediction.md) |
+| Pedestrian Trajectory Prediction | 2026-10-21 | 167 | [Pedestrian Trajectory Prediction](topics/pedestrian_trajectory_prediction.md) |
 | Cyclist and Micromobility Prediction | 2026-10-15 | 50 | [Cyclist and Micromobility Prediction](topics/cyclist_micromobility_prediction.md) |
-| Interaction-aware and Social Models | 2026-10-19 | 298 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
+| Interaction-aware and Social Models | 2026-10-21 | 302 | [Interaction-aware and Social Models](topics/interaction_aware_models.md) |
 | Intention and Crossing Behavior | 2026-10-19 | 134 | [Intention and Crossing Behavior](topics/intention_crossing_behavior.md) |
-| Risk-aware Safety and Collision Prediction | 2026-10-19 | 283 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 2026-10-19 | 268 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
+| Risk-aware Safety and Collision Prediction | 2026-10-21 | 285 | [Risk-aware Safety and Collision Prediction](topics/risk_safety_collision.md) |
+| Scene and Context-aware Prediction | 2026-10-21 | 271 | [Scene and Context-aware Prediction](topics/scene_context_aware_prediction.md) |
 | Probabilistic and Uncertainty-aware Forecasting | 2026-10-16 | 211 | [Probabilistic and Uncertainty-aware Forecasting](topics/probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 2026-10-16 | 198 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
+| Graph Transformer and Diffusion Models | 2026-10-21 | 199 | [Graph Transformer and Diffusion Models](topics/graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 2026-10-16 | 125 | [Autonomous Driving Forecasting for VRUs](topics/autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 2026-10-19 | 75 | [Crossing Decision and Gap Acceptance](topics/crossing_gap_acceptance.md) |
 | Smart Intersections and Traffic Signal Context | 2026-10-20 | 66 | [Smart Intersections and Traffic Signal Context](topics/smart_intersections_signal_context.md) |

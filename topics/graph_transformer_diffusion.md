@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-10-20` (timezone: `Europe/Athens`)
+Updated: `2026-10-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **198**
+Total papers tracked: **199**
 
 ---
 
+- **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
+  *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
+  Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`

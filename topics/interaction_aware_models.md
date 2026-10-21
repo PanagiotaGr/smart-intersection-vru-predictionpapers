@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-20` (timezone: `Europe/Athens`)
+Updated: `2026-10-21` (timezone: `Europe/Athens`)
 
-Total papers tracked: **298**
+Total papers tracked: **302**
 
 ---
 
+- **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
+  *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
+  Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`
 - **STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases**  
   *Lieqi Liu, Rui gao, Jia-Chen Gu, Wenbo Hu, Zhaobin Mo, Ahmadreza Moradipari, Nejib Ammar, Wei Wang et al.*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22795v1) · [pdf](https://arxiv.org/pdf/2610.22795v1) · id: `2610.22795v1`
@@ -15,9 +18,15 @@ Total papers tracked: **298**
 - **Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models**  
   *Shijun Shi, Zhe Liu, Zhi Hou, Yinan Chen, Tao Zhang, Kai Hu, Yong Liu, Jiangning Zhang*  
   Published: `2026-10-14` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.20157v1) · [pdf](https://arxiv.org/pdf/2610.20157v1) · id: `2610.20157v1`
+- **SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction**  
+  *Qifan Wang, Qihang Fang, Boao Shi, Yushi Du, Pei Zhou, Siyan Dong, Yanchao Yang*  
+  Published: `2026-10-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23980v1) · [pdf](https://arxiv.org/pdf/2610.23980v1) · id: `2610.23980v1`
 - **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
   *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
   Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v1) · [pdf](https://arxiv.org/pdf/2610.18093v1) · id: `2610.18093v1`
+- **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
+  *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
+  Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v2) · [pdf](https://arxiv.org/pdf/2610.18093v2) · id: `2610.18093v2`
 - **Adaptive Interaction Network for Human Motion Prediction During Human-Robot Collaboration**  
   *Mengyuan Liu, Yangting Lin, Qiongjie Cui*  
   Published: `2026-10-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.16624v1) · [pdf](https://arxiv.org/pdf/2610.16624v1) · id: `2610.16624v1`
@@ -63,6 +72,9 @@ Total papers tracked: **298**
 - **The Ups and Downs of Backprop Weights**  
   *Giuseppe Chindemi, Benjamin F. Grewe*  
   Published: `2026-09-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.22554v1) · [pdf](https://arxiv.org/pdf/2609.22554v1) · id: `2609.22554v1`
+- **The Ups and Downs of Backprop Weights**  
+  *Giuseppe Chindemi, Benjamin F. Grewe*  
+  Published: `2026-09-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2609.22554v2) · [pdf](https://arxiv.org/pdf/2609.22554v2) · id: `2609.22554v2`
 - **MoWAM: Explicit Future Motion Prediction for Efficient World Action Models**  
   *Jiayu Wang, Bin Zhu, Yue Yu, Jingjing Chen*  
   Published: `2026-09-17` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.20709v1) · [pdf](https://arxiv.org/pdf/2609.20709v1) · id: `2609.20709v1`
