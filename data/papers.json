@@ -20748,6 +20748,38 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.26528v1",
       "abs_url": "http://arxiv.org/abs/2610.26528v1"
+    },
+    "2610.28814v1": {
+      "arxiv_id": "2610.28814v1",
+      "title": "T-WLA: Bridging Slow Vision and Fast Touch",
+      "authors": [
+        "Kaichen Zhou",
+        "Yuzhen Chen",
+        "Hannah Yao",
+        "Chonghe Jiang",
+        "Rao Fu",
+        "Xihang Yu",
+        "Wei Dai",
+        "Bashar Kabbarah",
+        "Haoyu Chen",
+        "Ishita Goluguri",
+        "Zhiyang Dou",
+        "Haonan Chen",
+        "Fangneng Zhan",
+        "Mengyu Wang",
+        "Wojciech Matusik",
+        "Antonio Torralba",
+        "Paul Pu Liang"
+      ],
+      "summary": "In contact-rich manipulation, contact conditions can change before a visual policy updates its action plan. Recomputing the plan through the visual policy adds latency, while tactile feedback alone does not specify how the ongoing motion should be revised for the task. We introduce T-WLA, a world-language-action architecture that uses shared visual memory to guide both action generation and tactile correction. At each visual update, the visual branch integrates the current image, task instruction, and retrieved history into a visual memory that conditions base-action generation. The same memory is cached for a lightweight tactile editor, which combines it with the active action chunk and incoming touch to predict residual corrections to unexecuted actions without rerunning the visual branch. Future-image and future-pressure prediction provide training-only supervision, encouraging the visual memory and tactile features to capture interaction dynamics relevant to action generation and correction. We evaluate T-WLA on tactile-conditioned hand-motion prediction using EgoTouch and Tachin, and on four real-world dexterous manipulation tasks. T-WLA reduces finger-joint MPJPE by 30% relative to the strongest reported baseline and achieves an average success rate of approximately 50.0% across real-robot manipulation tasks. Videos and code are available at https://anonymous-submission-20.github.io/T-WLA.github.io/.",
+      "published_utc": "2026-10-20T18:36:13Z",
+      "updated_utc": "2026-10-20T18:36:13Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.28814v1",
+      "abs_url": "http://arxiv.org/abs/2610.28814v1"
     }
   },
   "topics": {
@@ -21284,9 +21316,10 @@
         "2610.27877v1",
         "2610.23980v1",
         "2610.18093v2",
-        "2609.22554v2"
+        "2609.22554v2",
+        "2610.28814v1"
       ],
-      "latest_update": "2026-10-21"
+      "latest_update": "2026-10-22"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",

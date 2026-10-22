@@ -1,6 +1,6 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-10-21` (timezone: `Europe/Athens`)
+Updated: `2026-10-22` (timezone: `Europe/Athens`)
 
 Total papers tracked: **75**
 

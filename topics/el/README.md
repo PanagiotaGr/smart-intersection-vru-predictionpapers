@@ -8,7 +8,7 @@
 |---|---:|---|
 | Pedestrian Trajectory Prediction | 0 / 167 | [pedestrian_trajectory_prediction.md](pedestrian_trajectory_prediction.md) |
 | Cyclist & Micromobility Prediction | 0 / 50 | [cyclist_micromobility_prediction.md](cyclist_micromobility_prediction.md) |
-| Interaction-aware & Social Models | 0 / 302 | [interaction_aware_models.md](interaction_aware_models.md) |
+| Interaction-aware & Social Models | 0 / 303 | [interaction_aware_models.md](interaction_aware_models.md) |
 | Intention & Crossing Behavior | 0 / 134 | [intention_crossing_behavior.md](intention_crossing_behavior.md) |
 | Risk-aware / Safety / Collision Prediction | 0 / 285 | [risk_safety_collision.md](risk_safety_collision.md) |
 | Scene and Context-aware Prediction | 0 / 271 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |

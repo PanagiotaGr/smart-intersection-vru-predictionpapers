@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-21` (timezone: `Europe/Athens`)
+Updated: `2026-10-22` (timezone: `Europe/Athens`)
 
-Total papers tracked: **302**
+Total papers tracked: **303**
 
 ---
 
+- **T-WLA: Bridging Slow Vision and Fast Touch**  
+  *Kaichen Zhou, Yuzhen Chen, Hannah Yao, Chonghe Jiang, Rao Fu, Xihang Yu, Wei Dai, Bashar Kabbarah et al.*  
+  Published: `2026-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.28814v1) · [pdf](https://arxiv.org/pdf/2610.28814v1) · id: `2610.28814v1`
 - **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
   *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
   Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`
