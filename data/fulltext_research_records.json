@@ -11173,6 +11173,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2609.22554v2": {
+      "schema_version": 1,
+      "paper_id": "2609.22554v2",
+      "title": "The Ups and Downs of Backprop Weights",
+      "pdf_url": "https://arxiv.org/pdf/2609.22554v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2609.22868v1": {
       "schema_version": 1,
       "paper_id": "2609.22868v1",
@@ -11701,6 +11713,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.18093v2": {
+      "schema_version": 1,
+      "paper_id": "2610.18093v2",
+      "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction",
+      "pdf_url": "https://arxiv.org/pdf/2610.18093v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.20157v1": {
       "schema_version": 1,
       "paper_id": "2610.20157v1",
@@ -11761,11 +11785,47 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.23980v1": {
+      "schema_version": 1,
+      "paper_id": "2610.23980v1",
+      "title": "SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction",
+      "pdf_url": "https://arxiv.org/pdf/2610.23980v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.25482v1": {
       "schema_version": 1,
       "paper_id": "2610.25482v1",
       "title": "PRIMA: Pose Refined Inductive Motion Adapter for Zero Shot Social Bodily Behavior Recognition",
       "pdf_url": "https://arxiv.org/pdf/2610.25482v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.26528v1": {
+      "schema_version": 1,
+      "paper_id": "2610.26528v1",
+      "title": "A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes",
+      "pdf_url": "https://arxiv.org/pdf/2610.26528v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.27877v1": {
+      "schema_version": 1,
+      "paper_id": "2610.27877v1",
+      "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2610.27877v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
