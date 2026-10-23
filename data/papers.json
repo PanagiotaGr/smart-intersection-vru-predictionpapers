@@ -20780,6 +20780,50 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.28814v1",
       "abs_url": "http://arxiv.org/abs/2610.28814v1"
+    },
+    "2604.03463v2": {
+      "arxiv_id": "2604.03463v2",
+      "title": "Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction",
+      "authors": [
+        "Daniel Jost",
+        "Luca Paparusso",
+        "Martin Stoll",
+        "Jörg Wagner",
+        "Raghu Rajan",
+        "Joschka Bödecker"
+      ],
+      "summary": "In highly interactive driving scenes, trajectory prediction is conditioned on information from surrounding traffic participants such as cars and pedestrians. Our main contribution is a comprehensive analysis of state-of-the-art trajectory predictors, which reveals a surprising and critical flaw: many surrounding agents degrade prediction accuracy rather than improve it. Using Shapley-based attribution, we rigorously demonstrate that models learn unstable and non-causal decision-making schemes that vary significantly across training runs. Building on these insights, we propose to integrate a Conditional Information Bottleneck (CIB), which does not require additional supervision and is trained to effectively compress agent features as well as ignore those that are not beneficial for the prediction task. Comprehensive experiments using multiple datasets and model architectures demonstrate that this simple yet effective approach not only improves overall trajectory prediction performance in many cases but also increases robustness to different perturbations. Our results highlight the importance of selectively integrating contextual information, which can often contain spurious or misleading signals, in trajectory prediction. Moreover, we provide interpretable metrics for identifying non-robust behavior and present a promising avenue towards a solution.",
+      "published_utc": "2026-04-03T21:15:06Z",
+      "updated_utc": "2026-10-22T12:59:27Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.03463v2",
+      "abs_url": "http://arxiv.org/abs/2604.03463v2"
+    },
+    "2610.30519v1": {
+      "arxiv_id": "2610.30519v1",
+      "title": "Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis",
+      "authors": [
+        "Marc Peral",
+        "Guillem Capellera",
+        "Luis Ferraz",
+        "Antonio Rubio",
+        "Stella Graßhof",
+        "Dan Witzner Hansen",
+        "Antonio Agudo"
+      ],
+      "summary": "Forecasting future human motion requires jointly reasoning about an agent's global trajectory and 3D body pose, which are tightly coupled, particularly in team sports where multiple interacting players introduce complex social dynamics. We exploit a socio-temporal encoder that fuses trajectory and pose at the input level and models them jointly through shared factorized attention. The model is further enhanced by a per-joint loss reweighting scheme that emphasizes dynamic joints and prevents degenerate solutions, and a frequency-domain trajectory smoothing term that improves trajectory prediction while indirectly benefiting pose forecasting. To ensure fair comparison with prior joint forecasting methods, we identify and correct evaluation biases arising from overlapping sequence construction, adopting instead a non-overlapping protocol and a deterministic, oracle-free strategy for multi-future prediction. Our approach improves over prior joint forecasting methods on both WorldPose and 3DPW, with the largest gains on pose accuracy, demonstrating that the proposed joint formulation generalizes beyond the densely interactive scenarios that motivate it.",
+      "published_utc": "2026-10-21T22:57:56Z",
+      "updated_utc": "2026-10-21T22:57:56Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.30519v1",
+      "abs_url": "http://arxiv.org/abs/2610.30519v1"
     }
   },
   "topics": {
@@ -20952,9 +20996,10 @@
         "2603.18166v2",
         "2606.15251v2",
         "2610.21132v1",
-        "2511.11164v4"
+        "2511.11164v4",
+        "2604.03463v2"
       ],
-      "latest_update": "2026-10-21"
+      "latest_update": "2026-10-23"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -21317,9 +21362,10 @@
         "2610.23980v1",
         "2610.18093v2",
         "2609.22554v2",
-        "2610.28814v1"
+        "2610.28814v1",
+        "2610.30519v1"
       ],
-      "latest_update": "2026-10-22"
+      "latest_update": "2026-10-23"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22447,9 +22493,10 @@
         "2606.30097v3",
         "2610.22215v1",
         "2610.21132v1",
-        "2610.27877v1"
+        "2610.27877v1",
+        "2610.30519v1"
       ],
-      "latest_update": "2026-10-21"
+      "latest_update": "2026-10-23"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -22578,9 +22625,10 @@
         "2604.07126v3",
         "2609.29706v1",
         "2610.09438v1",
-        "2610.21132v1"
+        "2610.21132v1",
+        "2604.03463v2"
       ],
-      "latest_update": "2026-10-16"
+      "latest_update": "2026-10-23"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -22876,9 +22924,10 @@
         "2603.18166v1",
         "2603.18166v2",
         "2610.21132v1",
-        "2511.11164v4"
+        "2511.11164v4",
+        "2604.03463v2"
       ],
-      "latest_update": "2026-10-20"
+      "latest_update": "2026-10-23"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -23034,9 +23083,10 @@
         "2603.18166v2",
         "2606.15251v2",
         "2610.21132v1",
-        "2610.23356v1"
+        "2610.23356v1",
+        "2604.03463v2"
       ],
-      "latest_update": "2026-10-19"
+      "latest_update": "2026-10-23"
     }
   }
 }

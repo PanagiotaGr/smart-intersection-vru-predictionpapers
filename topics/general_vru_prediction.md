@@ -1,8 +1,8 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-10-22` (timezone: `Europe/Athens`)
+Updated: `2026-10-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **152**
+Total papers tracked: **153**
 
 ---
 
@@ -168,6 +168,9 @@ Total papers tracked: **152**
 - **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
   *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`
+- **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
+  *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
+  Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v2) · [pdf](https://arxiv.org/pdf/2604.03463v2) · id: `2604.03463v2`
 - **Uncertainty-Aware Trajectory Prediction: A Unified Framework Harnessing Positional and Semantic Uncertainties**  
   *Jintao Sun, Hu Zhang, Gangyi Ding, Zhedong Zheng*  
   Published: `2026-03-31` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.29362v1) · [pdf](https://arxiv.org/pdf/2603.29362v1) · id: `2603.29362v1`

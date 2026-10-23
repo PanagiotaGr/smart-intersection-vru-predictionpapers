@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-22` (timezone: `Europe/Athens`)
+Updated: `2026-10-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **303**
+Total papers tracked: **304**
 
 ---
 
+- **Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis**  
+  *Marc Peral, Guillem Capellera, Luis Ferraz, Antonio Rubio, Stella Graßhof, Dan Witzner Hansen, Antonio Agudo*  
+  Published: `2026-10-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.30519v1) · [pdf](https://arxiv.org/pdf/2610.30519v1) · id: `2610.30519v1`
 - **T-WLA: Bridging Slow Vision and Fast Touch**  
   *Kaichen Zhou, Yuzhen Chen, Hannah Yao, Chonghe Jiang, Rao Fu, Xihang Yu, Wei Dai, Bashar Kabbarah et al.*  
   Published: `2026-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.28814v1) · [pdf](https://arxiv.org/pdf/2610.28814v1) · id: `2610.28814v1`
