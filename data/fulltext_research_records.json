@@ -7525,6 +7525,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2604.03463v2": {
+      "schema_version": 1,
+      "paper_id": "2604.03463v2",
+      "title": "Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction",
+      "pdf_url": "https://arxiv.org/pdf/2604.03463v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2604.03649v1": {
       "schema_version": 1,
       "paper_id": "2604.03649v1",
@@ -11838,6 +11850,18 @@
       "paper_id": "2610.28814v1",
       "title": "T-WLA: Bridging Slow Vision and Fast Touch",
       "pdf_url": "https://arxiv.org/pdf/2610.28814v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.30519v1": {
+      "schema_version": 1,
+      "paper_id": "2610.30519v1",
+      "title": "Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis",
+      "pdf_url": "https://arxiv.org/pdf/2610.30519v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
