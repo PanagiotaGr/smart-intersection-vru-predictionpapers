@@ -1,6 +1,6 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-10-23` (timezone: `Europe/Athens`)
+Updated: `2026-10-24` (timezone: `Europe/Athens`)
 
 Total papers tracked: **140**
 
