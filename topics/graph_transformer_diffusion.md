@@ -1,6 +1,6 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-10-25` (timezone: `Europe/Athens`)
+Updated: `2026-10-26` (timezone: `Europe/Athens`)
 
 Total papers tracked: **200**
 
