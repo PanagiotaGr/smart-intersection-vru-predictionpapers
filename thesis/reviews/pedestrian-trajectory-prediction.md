@@ -1,6 +1,6 @@
 # Systematic Review: Pedestrian Trajectory Prediction
 
-**Τελευταία αναγέννηση:** 2026-10-26  
+**Τελευταία αναγέννηση:** 2026-10-27  
 **Papers που εντοπίστηκαν:** 1  
 **Claims με page/section/table/figure provenance:** 0
 
