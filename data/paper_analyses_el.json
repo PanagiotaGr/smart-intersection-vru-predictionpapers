@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 2,
   "imptc_profile": {
     "name": "IMPTC — Infrastructural Multi-Person Trajectory and Context Dataset",
     "scene": "δημόσια, σηματοδοτούμενη αστική διασταύρωση στη Γερμανία",

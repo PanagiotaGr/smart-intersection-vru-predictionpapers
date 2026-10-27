@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-10-26` (timezone: `Europe/Athens`)
+Updated: `2026-10-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **211**
+Total papers tracked: **212**
 
 ---
 
+- **Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba**  
+  *Basheer Al-Tawil, Magnus Jung, Ayoub Al-Hamadi*  
+  Published: `2026-10-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.33916v1) · [pdf](https://arxiv.org/pdf/2610.33916v1) · id: `2610.33916v1`
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`

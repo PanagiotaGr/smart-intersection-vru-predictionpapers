@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-26` (timezone: `Europe/Athens`)
+Updated: `2026-10-27` (timezone: `Europe/Athens`)
 
-Total papers tracked: **304**
+Total papers tracked: **305**
 
 ---
 
+- **Traffic-Context-Aware Driver Emotion Recognition with Expectation-Deviation-Driven Inference**  
+  *Longhao Yan, Jinhao Liang, Kaidi Yang*  
+  Published: `2026-10-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.33713v1) · [pdf](https://arxiv.org/pdf/2610.33713v1) · id: `2610.33713v1`
 - **Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis**  
   *Marc Peral, Guillem Capellera, Luis Ferraz, Antonio Rubio, Stella Graßhof, Dan Witzner Hansen, Antonio Agudo*  
   Published: `2026-10-21` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.30519v1) · [pdf](https://arxiv.org/pdf/2610.30519v1) · id: `2610.30519v1`
