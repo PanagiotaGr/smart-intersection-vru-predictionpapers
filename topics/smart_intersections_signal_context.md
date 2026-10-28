@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-10-27` (timezone: `Europe/Athens`)
+Updated: `2026-10-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **67**
+Total papers tracked: **68**
 
 ---
 
+- **HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour**  
+  *Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang, Mingsheng Ling, Xinjue Wang et al.*  
+  Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36825v1) · [pdf](https://arxiv.org/pdf/2610.36825v1) · id: `2610.36825v1`
 - **Traffic-Context-Aware Driver Emotion Recognition with Expectation-Deviation-Driven Inference**  
   *Longhao Yan, Jinhao Liang, Kaidi Yang*  
   Published: `2026-10-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.33713v1) · [pdf](https://arxiv.org/pdf/2610.33713v1) · id: `2610.33713v1`

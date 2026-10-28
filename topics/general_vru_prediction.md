@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-10-27` (timezone: `Europe/Athens`)
+Updated: `2026-10-28` (timezone: `Europe/Athens`)
 
-Total papers tracked: **153**
+Total papers tracked: **154**
 
 ---
 
+- **GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search**  
+  *Zhiheng Fu, Zixu Li, Zhiwei Chen, Jiale Huang, Fangxu Liu, Jinhe Bi, Yupeng Hu*  
+  Published: `2026-10-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.37267v1) · [pdf](https://arxiv.org/pdf/2610.37267v1) · id: `2610.37267v1`
 - **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
   *Yuanzhe Li, Meng Wang*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v1) · [pdf](https://arxiv.org/pdf/2610.23356v1) · id: `2610.23356v1`

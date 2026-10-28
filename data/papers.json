@@ -20861,6 +20861,79 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.33916v1",
       "abs_url": "http://arxiv.org/abs/2610.33916v1"
+    },
+    "2610.36840v1": {
+      "arxiv_id": "2610.36840v1",
+      "title": "Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models",
+      "authors": [
+        "Xu Hu",
+        "Changjie Wu",
+        "Linzhe Shi",
+        "Hang Zhang",
+        "Chen Yang",
+        "Lingjun Zhang",
+        "Guowen Zhang",
+        "Mu Xu",
+        "Junran Peng",
+        "Qing Li",
+        "Zhaoxiang Zhang"
+      ],
+      "summary": "World Action Models (WAMs) learn representations for robot control by coupling future visual prediction with action generation. Successful manipulation depends primarily on how the robot and task-relevant objects evolve, whereas future-video prediction must also reconstruct the appearance and background of the entire scene. We therefore propose Trace-WAM, which augments video-action learning with future 3D motion prediction as an auxiliary objective. This objective supervises temporal point correspondence together with image-plane displacement and depth change, directly describing the interaction dynamics and spatial changes involved in manipulation. To this end, we adopt a three-branch Mixture-of-Transformer (Tri-MoT) architecture to jointly learn video prediction, motion prediction, and action generation. The motion expert predicts future trajectories from current visual features, allowing motion supervision to shape the representations used for action generation. Because the action expert does not consume predicted trajectories, inference retains the current-observation policy path: a single visual forward pass followed by action denoising. Experiments on RoboCasa-GR1, LIBERO, and LIBERO-Plus demonstrate strong in-distribution performance and out-of-distribution generalization, with particularly clear gains over Fast-WAM under limited demonstrations and distribution shifts.",
+      "published_utc": "2026-10-27T08:38:18Z",
+      "updated_utc": "2026-10-27T08:38:18Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.36840v1",
+      "abs_url": "http://arxiv.org/abs/2610.36840v1"
+    },
+    "2610.37267v1": {
+      "arxiv_id": "2610.37267v1",
+      "title": "GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search",
+      "authors": [
+        "Zhiheng Fu",
+        "Zixu Li",
+        "Zhiwei Chen",
+        "Jiale Huang",
+        "Fangxu Liu",
+        "Jinhe Bi",
+        "Yupeng Hu"
+      ],
+      "summary": "Text-based Person Anomaly Search (TPAS) retrieves a target pedestrian using natural-language descriptions of appearance and normal or anomalous behavior. Unlike conventional text-based person retrieval, TPAS must preserve identity cues while distinguishing fine-grained behaviors. It presents two challenges: same-identity, different-behavior hard negatives cause gradient conflict during granular alignment, while strong appearance cues can obscure weak behavioral evidence during aggregation. We propose GradCO (behavior-aware Gradient-Conflict Offloading), comprising three complementary components. Behavior-Aware Mixture-of-Experts (B-MoE) forms appearance, normal-behavior, and anomalous-behavior streams whose roles are learned from retrieval objectives without expert-specific semantic labels. Conflict Offload Learning (COL) uses pair-conditioned offload anchors in similarity computation to reduce the conflicting-gradient burden on the main text representations. Hierarchical Intent Alignment (HIA) aggregates expert similarities and features using query-conditioned weights. Experiments on five TPAS/TIPR benchmarks show GradCO significantly surpasses SOTA methods and validate our design.",
+      "published_utc": "2026-10-27T14:00:46Z",
+      "updated_utc": "2026-10-27T14:00:46Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.IR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.37267v1",
+      "abs_url": "http://arxiv.org/abs/2610.37267v1"
+    },
+    "2610.36825v1": {
+      "arxiv_id": "2610.36825v1",
+      "title": "HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour",
+      "authors": [
+        "Wenhao Xu",
+        "Yanheng Mai",
+        "Yifei Fu",
+        "Nan Zheng",
+        "Yanbo Zhou",
+        "Zirui Huang",
+        "Mingsheng Ling",
+        "Xinjue Wang",
+        "Renjing Xu"
+      ],
+      "summary": "Humanoid parkour requires robots to reason about future footholds and whole-body motions over highly discontinuous terrain. We revisit the information asymmetry in asymmetric actor-critic learning for perceptive humanoid locomotion: the critic exploits privileged simulator signals during training, whereas the deployable actor operates solely from onboard perception. We argue that the key is not exposing privileged information to the actor, but learning a deployable approximation of it to narrow the information gap between training and deployment. We present HC2Robot, a deployable perceptive humanoid parkour framework consisting of a Predicted Foresight Module (PFM) and a Hyper-Connection (HC) Transformer. PFM predicts from deployable observations the policy-conditioned timing, location, and support quality of each foot's next touchdown event, converting privileged supervision into a deployable latent representation that provides the actor with predicted touchdown information without privileged runtime sensing. The HC Transformer further enhances temporal reasoning through learnable multi-stream routing, while a future motion prediction head provides short-horizon motion priors for regularization. Across stairs, gaps, high platforms, and slopes, HC2Robot achieves a mean simulated traversal success rate of 97.60% and consistently higher safe foothold rates than strong perceptive locomotion baselines, supporting improved traversal performance and geometric foothold support under deployable sensing.",
+      "published_utc": "2026-10-27T08:24:36Z",
+      "updated_utc": "2026-10-27T08:24:36Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.36825v1",
+      "abs_url": "http://arxiv.org/abs/2610.36825v1"
     }
   },
   "topics": {
@@ -21401,9 +21474,10 @@
         "2609.22554v2",
         "2610.28814v1",
         "2610.30519v1",
-        "2610.33713v1"
+        "2610.33713v1",
+        "2610.36840v1"
       ],
-      "latest_update": "2026-10-27"
+      "latest_update": "2026-10-28"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21541,9 +21615,10 @@
         "2609.40158v1",
         "2609.24193v3",
         "2610.07954v1",
-        "2610.23356v1"
+        "2610.23356v1",
+        "2610.37267v1"
       ],
-      "latest_update": "2026-10-19"
+      "latest_update": "2026-10-28"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22110,9 +22185,10 @@
         "2610.25482v1",
         "2610.23980v1",
         "2610.18093v2",
-        "2610.33713v1"
+        "2610.33713v1",
+        "2610.36840v1"
       ],
-      "latest_update": "2026-10-27"
+      "latest_update": "2026-10-28"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22822,9 +22898,10 @@
         "2610.12747v1",
         "2610.15577v1",
         "2610.25482v1",
-        "2610.33713v1"
+        "2610.33713v1",
+        "2610.36825v1"
       ],
-      "latest_update": "2026-10-27"
+      "latest_update": "2026-10-28"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -23127,9 +23204,10 @@
         "2606.15251v2",
         "2610.21132v1",
         "2610.23356v1",
-        "2604.03463v2"
+        "2604.03463v2",
+        "2610.37267v1"
       ],
-      "latest_update": "2026-10-23"
+      "latest_update": "2026-10-28"
     }
   }
 }
