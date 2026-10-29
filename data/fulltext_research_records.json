@@ -11892,6 +11892,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2610.36825v1": {
+      "schema_version": 1,
+      "paper_id": "2610.36825v1",
+      "title": "HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour",
+      "pdf_url": "https://arxiv.org/pdf/2610.36825v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.36840v1": {
+      "schema_version": 1,
+      "paper_id": "2610.36840v1",
+      "title": "Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models",
+      "pdf_url": "https://arxiv.org/pdf/2610.36840v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.37267v1": {
+      "schema_version": 1,
+      "paper_id": "2610.37267v1",
+      "title": "GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search",
+      "pdf_url": "https://arxiv.org/pdf/2610.37267v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
