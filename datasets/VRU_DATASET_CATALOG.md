@@ -31,8 +31,8 @@ It is a discovery index: every entry must be verified from the full paper and th
 | UCY | pedestrian | trajectory prediction | 60 | candidate |
 | Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 6 | candidate |
 | Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 20 | candidate |
-| inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 9 | candidate |
-| nuScenes | pedestrian; bicycle; motorcycle; vehicle | 3D detection; tracking; prediction | 75 | candidate |
+| inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 10 | candidate |
+| nuScenes | pedestrian; bicycle; motorcycle; vehicle | 3D detection; tracking; prediction | 76 | candidate |
 | rounD | pedestrian; cyclist; vehicle | roundabout trajectories; interaction analysis | 5 | candidate |
 | uniD | pedestrian; cyclist; vehicle | shared-space trajectories | 0 | candidate |
 

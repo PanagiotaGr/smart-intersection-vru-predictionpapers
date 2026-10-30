@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-10-29` (timezone: `Europe/Athens`)
+Updated: `2026-10-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **202**
+Total papers tracked: **203**
 
 ---
 
+- **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
+  *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
+  Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v1) · [pdf](https://arxiv.org/pdf/2610.39416v1) · id: `2610.39416v1`
 - **Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba**  
   *Basheer Al-Tawil, Magnus Jung, Ayoub Al-Hamadi*  
   Published: `2026-10-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.33916v1) · [pdf](https://arxiv.org/pdf/2610.33916v1) · id: `2610.33916v1`

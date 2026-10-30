@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-10-29` (timezone: `Europe/Athens`)
+Updated: `2026-10-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **135**
+Total papers tracked: **136**
 
 ---
 
+- **Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction**  
+  *Shang Gao, Franz Götz-Hahn, Konrad Doll, Bernhard Sick*  
+  Published: `2026-10-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.39958v1) · [pdf](https://arxiv.org/pdf/2610.39958v1) · id: `2610.39958v1`
 - **GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search**  
   *Zhiheng Fu, Zixu Li, Zhiwei Chen, Jiale Huang, Fangxu Liu, Jinhe Bi, Yupeng Hu*  
   Published: `2026-10-27` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.37267v1) · [pdf](https://arxiv.org/pdf/2610.37267v1) · id: `2610.37267v1`

@@ -20934,6 +20934,118 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.36825v1",
       "abs_url": "http://arxiv.org/abs/2610.36825v1"
+    },
+    "2610.39958v1": {
+      "arxiv_id": "2610.39958v1",
+      "title": "Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction",
+      "authors": [
+        "Shang Gao",
+        "Franz Götz-Hahn",
+        "Konrad Doll",
+        "Bernhard Sick"
+      ],
+      "summary": "Vulnerable road user (VRU) prediction must operate under partial observability and distribution shift, so reliable uncertainty matters alongside accuracy. Masked pretraining is attractive in this setting because it naturally exposes the model to missing content during self-supervision, but existing time-series masked autoencoding methods are typically deterministic and do not constrain how confidence should change with observability. We introduce eCoMAE, an evidential masked pretraining method for multivariate time series that explicitly aligns predictive evidence with what is observed. eCoMAE combines block-wise time-step masking with a Normal-Inverse-Gamma decoder and three observability-aware mechanisms: uncertainty-weighted mean consistency on positions visible in both a masked view and a reference pass, evidence suppression on masked positions, and representation consistency across stochastic masks. On IMPTC benchmark for VRU intention prediction under leave-one-environment-out weather shift, eCoMAE improves the strongest baseline from 0.7971 to 0.8068 in OOD accuracy and from 0.0718 to 0.0648 in OOD AURC. Additional evaluation on pedestrian trajectory forecasting across IMPTC, Waymo, nuScenes, and inD further yields the best fine-tuning MSE on all four datasets. These results show that observability-aligned evidential pretraining improves reliability under shift and remains effective beyond the primary benchmark.",
+      "published_utc": "2026-10-29T12:54:01Z",
+      "updated_utc": "2026-10-29T12:54:01Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39958v1",
+      "abs_url": "http://arxiv.org/abs/2610.39958v1"
+    },
+    "2610.39278v1": {
+      "arxiv_id": "2610.39278v1",
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "authors": [
+        "Yuhao Lu",
+        "Jiongxu Chen",
+        "Hexiang Wei",
+        "Jiajin Wu",
+        "Juelin Li",
+        "Mingjian Liang",
+        "Fan Yang",
+        "Zhuowei Liang",
+        "Zihao Liu",
+        "Zhennan Wang",
+        "Sheng Wang",
+        "Lin Shao"
+      ],
+      "summary": "Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models leave 3D dynamics implicit, action-based formulations remain tied to specific robot configurations, and 3D motion prediction models use flow-only supervision, providing a limited learning signal for physical dynamics. To circumvent these limitations, we introduce \\method{}, a generative world model that jointly predicts future video and query-based 3D trajectories. By parameterizing 3D motion as continuous displacement tokens aligned with the video grid, a unified Mixture-of-Transformers (MoT) backbone jointly denoises both modalities under a rectified-flow objective. This formulation couples explicit geometric dynamics with visual evolution, effectively unlocking the physical commonsense embedded within pretrained video models. To empirically scale and validate this unified architecture, we train \\method{} on a heterogeneous mixture of 1.44 million object-level samples spanning simulated and real-world domains. We further introduce WorldFlowBench, comprising 1,678 evaluation samples from 11 data sources across simulated and real-world interactions, including spatial reasoning tasks. Across all three evaluation sets, WorldFlow achieves the lowest average displacement error (ADE) and final displacement error (FDE) among the evaluated learning-based methods. Notably, on the challenging SpatialCog set, WorldFlow achieves an ADE of 0.060 m, a 54.2\\% reduction compared with the strongest external baseline. It also reduces ADE and FDE by 55.9\\% and 68.5\\%, respectively, compared with its flow-only variant. Project page: https://worldflow-rbs.github.io/.",
+      "published_utc": "2026-10-29T03:30:27Z",
+      "updated_utc": "2026-10-29T03:30:27Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39278v1",
+      "abs_url": "http://arxiv.org/abs/2610.39278v1"
+    },
+    "2610.23980v2": {
+      "arxiv_id": "2610.23980v2",
+      "title": "SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction",
+      "authors": [
+        "Qifan Wang",
+        "Qihang Fang",
+        "Boao Shi",
+        "Yushi Du",
+        "Pei Zhou",
+        "Siyan Dong",
+        "Yanchao Yang"
+      ],
+      "summary": "Modeling human-object interaction (HOI) in real environments requires jointly representing whole-body motion, manipulated objects, and scene geometry, yet existing datasets trade off scalable capture against structured, scene-aligned supervision. We introduce SituHOI, a large-scale RGB-D dataset containing 18,429 annotated clips across 16 indoor rooms and approximately 86 hours of quality-screened activity. It pairs recordings from a single moving RGB-D camera with static scene scans, object geometry, language descriptions, and estimated human and object trajectories. Using the scans as persistent references, our pipeline combines camera localization and depth-based metric alignment with human mesh recovery, object tracking, and temporal refinement to register all geometric annotations in a shared floor-aligned frame. These data support FlexHOI-Bench, a goal-conditioned joint motion prediction benchmark with variable observation and prediction durations. Given observed histories, scene and object geometry, and a terminal object pose, models predict future human and object motion. We provide SharedHOI as a reference predictor and evaluate world-space accuracy and human-object coordination. On a MoCap subset, our pipeline reduces human G-MPJPE from 195.4 to 68.3 mm and object translation error from 43.0 to 28.7 mm. SharedHOI leads four adapted baselines on all three aggregate FlexHOI-Bench metrics. Data will be released upon acceptance. An anonymized code repository is available at https://anonymous.4open.science/r/iclr2027-anonymous-code-1DFB.",
+      "published_utc": "2026-10-13T17:39:10Z",
+      "updated_utc": "2026-10-29T11:03:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.23980v2",
+      "abs_url": "http://arxiv.org/abs/2610.23980v2"
+    },
+    "2610.39728v1": {
+      "arxiv_id": "2610.39728v1",
+      "title": "Grounding Predictive Reliability through Masked Observability",
+      "authors": [
+        "Shang Gao",
+        "Bernhard Sick",
+        "Franz Götz-Hahn"
+      ],
+      "summary": "An uncertainty estimate is meaningful only if its semantics can be tied to observable predictive behavior. Normal-Inverse-Gamma (NIG) evidential regression provides a structured decomposition of predictive variability into data-scale and predictive-mean components, but marginal likelihood does not identify their allocation. We address this semantic ambiguity in masked representation learning. MORSE (Masked Observability for Reliable Structured Encoding) predicts the same hidden target under controlled changes in visible context and uses normalized cross-context variation to ground predictive-mean uncertainty, while a Gaussian objective learns the conditional mean and data scale. The normalized variation plays the role of the NIG factor $1/ν$, which the marginal leaves unidentified; this yields a policy-relative observability variance that measures dependence on visible evidence, distinct from variation induced by resampling the training set. On a Gaussian-process benchmark with a contextual reference built from analytic Bayes conditional means, MORSE has the lowest log-variance error among compared evidential, ensemble, and dropout estimators in all nine tested settings, while the estimator closest to training-set variation perturbs the model rather than its context in every setting, so the two references separate the estimators empirically. MORSE amortizes observability estimation into one forward pass per observation state. On a heteroscedastic pulse benchmark, its predictor's cross-context variance approaches a large-sample reference as training data increase. MORSE also improves low-label transfer on PTB-XL and in-distribution trajectory prediction on IMPTC.",
+      "published_utc": "2026-10-29T09:57:28Z",
+      "updated_utc": "2026-10-29T09:57:28Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39728v1",
+      "abs_url": "http://arxiv.org/abs/2610.39728v1"
+    },
+    "2610.39416v1": {
+      "arxiv_id": "2610.39416v1",
+      "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction",
+      "authors": [
+        "Akila Ayanthi",
+        "Darshana Priyasad",
+        "Tharindu Fernando",
+        "Dimity Miller",
+        "Sridha Sridharan",
+        "Clinton Fookes",
+        "Peyman Moghadam"
+      ],
+      "summary": "Predicting where to grasp and how to move is fundamentally a geometry problem. Vision-language models treat it as language generation instead. They tokenize spatial coordinates into text and decode them autoregressively. This mechanism ignores spatial structure and truncates continuous precision. Errors compound across coordinate tokens during decoding. In this paper, we show that compact off-the-shelf VLMs with 0.5-2B parameters already encode rich spatial information in their intermediate hidden states. Autoregressive decoding is the dominant bottleneck for trajectory prediction, while affordance prediction depends additionally on feature depth and decoder architecture. We expose the latent spatial information with a lightweight, geometry-compatible prediction head that attaches to a frozen backbone. It reads features from an intermediate hidden layer, conditions a learned query on the task instruction and refines it via cross-attention over the visual tokens to regress affordance boxes and trajectory waypoints directly as continuous values, without modifying the backbone. We evaluate on ShareRobot-Bench and AGD20K. Our 2B variant reduces trajectory error by over 60% and improves ShareRobot-Bench affordance mAP by 85% relative to the autoregressive baseline. It approaches RoboBrain on trajectory prediction (0.251 vs 0.191 DFD) at 3.8x higher throughput. These results demonstrate a favorable accuracy-efficiency trade-off for instruction-conditioned 2D geometric prediction.",
+      "published_utc": "2026-10-29T05:56:52Z",
+      "updated_utc": "2026-10-29T05:56:52Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39416v1",
+      "abs_url": "http://arxiv.org/abs/2610.39416v1"
     }
   },
   "topics": {
@@ -21107,9 +21219,10 @@
         "2606.15251v2",
         "2610.21132v1",
         "2511.11164v4",
-        "2604.03463v2"
+        "2604.03463v2",
+        "2610.39958v1"
       ],
-      "latest_update": "2026-10-23"
+      "latest_update": "2026-10-30"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -21475,9 +21588,11 @@
         "2610.28814v1",
         "2610.30519v1",
         "2610.33713v1",
-        "2610.36840v1"
+        "2610.36840v1",
+        "2610.39278v1",
+        "2610.23980v2"
       ],
-      "latest_update": "2026-10-28"
+      "latest_update": "2026-10-30"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -21616,9 +21731,10 @@
         "2609.24193v3",
         "2610.07954v1",
         "2610.23356v1",
-        "2610.37267v1"
+        "2610.37267v1",
+        "2610.39958v1"
       ],
-      "latest_update": "2026-10-28"
+      "latest_update": "2026-10-30"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22186,9 +22302,12 @@
         "2610.23980v1",
         "2610.18093v2",
         "2610.33713v1",
-        "2610.36840v1"
+        "2610.36840v1",
+        "2610.39728v1",
+        "2610.39416v1",
+        "2610.23980v2"
       ],
-      "latest_update": "2026-10-28"
+      "latest_update": "2026-10-30"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22404,9 +22523,10 @@
         "2606.24162v3",
         "2610.22215v1",
         "2610.21132v1",
-        "2610.33916v1"
+        "2610.33916v1",
+        "2610.39728v1"
       ],
-      "latest_update": "2026-10-27"
+      "latest_update": "2026-10-30"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -22612,9 +22732,10 @@
         "2610.27877v1",
         "2610.30519v1",
         "2610.33916v1",
-        "2610.33713v1"
+        "2610.33713v1",
+        "2610.39416v1"
       ],
-      "latest_update": "2026-10-27"
+      "latest_update": "2026-10-30"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -22899,9 +23020,10 @@
         "2610.15577v1",
         "2610.25482v1",
         "2610.33713v1",
-        "2610.36825v1"
+        "2610.36825v1",
+        "2610.39278v1"
       ],
-      "latest_update": "2026-10-28"
+      "latest_update": "2026-10-30"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -23205,9 +23327,10 @@
         "2610.21132v1",
         "2610.23356v1",
         "2604.03463v2",
-        "2610.37267v1"
+        "2610.37267v1",
+        "2610.39958v1"
       ],
-      "latest_update": "2026-10-28"
+      "latest_update": "2026-10-30"
     }
   }
 }

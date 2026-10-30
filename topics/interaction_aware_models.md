@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-10-29` (timezone: `Europe/Athens`)
+Updated: `2026-10-30` (timezone: `Europe/Athens`)
 
-Total papers tracked: **306**
+Total papers tracked: **308**
 
 ---
 
+- **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
+  *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
+  Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v1) · [pdf](https://arxiv.org/pdf/2610.39278v1) · id: `2610.39278v1`
 - **Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models**  
   *Xu Hu, Changjie Wu, Linzhe Shi, Hang Zhang, Chen Yang, Lingjun Zhang, Guowen Zhang, Mu Xu et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36840v1) · [pdf](https://arxiv.org/pdf/2610.36840v1) · id: `2610.36840v1`
@@ -33,6 +36,9 @@ Total papers tracked: **306**
 - **SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction**  
   *Qifan Wang, Qihang Fang, Boao Shi, Yushi Du, Pei Zhou, Siyan Dong, Yanchao Yang*  
   Published: `2026-10-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23980v1) · [pdf](https://arxiv.org/pdf/2610.23980v1) · id: `2610.23980v1`
+- **SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction**  
+  *Qifan Wang, Qihang Fang, Boao Shi, Yushi Du, Pei Zhou, Siyan Dong, Yanchao Yang*  
+  Published: `2026-10-13` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23980v2) · [pdf](https://arxiv.org/pdf/2610.23980v2) · id: `2610.23980v2`
 - **LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction**  
   *Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu, Chao Li, Yingjie Niu*  
   Published: `2026-10-13` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.18093v1) · [pdf](https://arxiv.org/pdf/2610.18093v1) · id: `2610.18093v1`
