@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2610.39416v1",
+  "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction",
+  "pdf_url": "https://arxiv.org/pdf/2610.39416v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

@@ -11809,6 +11809,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.23980v2": {
+      "schema_version": 1,
+      "paper_id": "2610.23980v2",
+      "title": "SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction",
+      "pdf_url": "https://arxiv.org/pdf/2610.23980v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.25482v1": {
       "schema_version": 1,
       "paper_id": "2610.25482v1",
@@ -11922,6 +11934,54 @@
       "paper_id": "2610.37267v1",
       "title": "GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search",
       "pdf_url": "https://arxiv.org/pdf/2610.37267v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.39278v1": {
+      "schema_version": 1,
+      "paper_id": "2610.39278v1",
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "pdf_url": "https://arxiv.org/pdf/2610.39278v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.39416v1": {
+      "schema_version": 1,
+      "paper_id": "2610.39416v1",
+      "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2610.39416v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.39728v1": {
+      "schema_version": 1,
+      "paper_id": "2610.39728v1",
+      "title": "Grounding Predictive Reliability through Masked Observability",
+      "pdf_url": "https://arxiv.org/pdf/2610.39728v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2610.39958v1": {
+      "schema_version": 1,
+      "paper_id": "2610.39958v1",
+      "title": "Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2610.39958v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
