@@ -1,6 +1,6 @@
 # Systematic Review: Graph Transformer and Diffusion Models
 
-**Τελευταία αναγέννηση:** 2026-10-31  
+**Τελευταία αναγέννηση:** 2026-11-01  
 **Papers που εντοπίστηκαν:** 0  
 **Claims με page/section/table/figure provenance:** 0
 
