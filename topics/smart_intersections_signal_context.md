@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-01` (timezone: `Europe/Athens`)
+Updated: `2026-11-02` (timezone: `Europe/Athens`)
 
-Total papers tracked: **69**
+Total papers tracked: **70**
 
 ---
 
+- **Mechanistic Interpretability for End-to-End Self-Driving**  
+  *Manav Gagvani, Benjamin Namikas, Sivamurugan Velmurugan, Nysa Kumar, Shrey Sharma, Thomas Peterson, Pratyush Mathur, Hyunseo Chang et al.*  
+  Published: `2026-10-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.41185v1) · [pdf](https://arxiv.org/pdf/2610.41185v1) · id: `2610.41185v1`
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v1) · [pdf](https://arxiv.org/pdf/2610.39278v1) · id: `2610.39278v1`

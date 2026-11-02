@@ -16,6 +16,6 @@
 | Graph Transformer and Diffusion Models | 0 / 203 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 0 / 126 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 0 / 75 | [crossing_gap_acceptance.md](crossing_gap_acceptance.md) |
-| Smart Intersections and Traffic Signal Context | 0 / 69 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
+| Smart Intersections and Traffic Signal Context | 0 / 70 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
 | VRU Datasets Benchmarks and Evaluation | 0 / 140 | [vru_datasets_benchmarks.md](vru_datasets_benchmarks.md) |
 | General VRU Prediction Broad Catch-All | 0 / 155 | [general_vru_prediction.md](general_vru_prediction.md) |
