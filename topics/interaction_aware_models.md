@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-02` (timezone: `Europe/Athens`)
+Updated: `2026-11-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **308**
+Total papers tracked: **309**
 
 ---
 
+- **MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context**  
+  *Yasamin Borhani, Javad Khoramdel, Yang Gao, Po-Chien Luan, Alexandre Alahi*  
+  Published: `2026-11-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.03189v1) · [pdf](https://arxiv.org/pdf/2611.03189v1) · id: `2611.03189v1`
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v1) · [pdf](https://arxiv.org/pdf/2610.39278v1) · id: `2610.39278v1`

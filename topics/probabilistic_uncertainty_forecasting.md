@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-02` (timezone: `Europe/Athens`)
+Updated: `2026-11-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **213**
+Total papers tracked: **214**
 
 ---
 
+- **Spectral and Conformal: Neural Network Methods for Calibrated Trajectory Prediction and Control-Point Intervals**  
+  *Jasmine Ratchford, Raffaele Romagnoli*  
+  Published: `2026-10-30` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2611.00231v1) · [pdf](https://arxiv.org/pdf/2611.00231v1) · id: `2611.00231v1`
 - **Grounding Predictive Reliability through Masked Observability**  
   *Shang Gao, Bernhard Sick, Franz Götz-Hahn*  
   Published: `2026-10-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.39728v1) · [pdf](https://arxiv.org/pdf/2610.39728v1) · id: `2610.39728v1`

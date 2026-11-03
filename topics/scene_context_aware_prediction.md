@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-02` (timezone: `Europe/Athens`)
+Updated: `2026-11-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **276**
+Total papers tracked: **279**
 
 ---
 
+- **MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context**  
+  *Yasamin Borhani, Javad Khoramdel, Yang Gao, Po-Chien Luan, Alexandre Alahi*  
+  Published: `2026-11-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.03189v1) · [pdf](https://arxiv.org/pdf/2611.03189v1) · id: `2611.03189v1`
+- **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
+  *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
+  Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v1) · [pdf](https://arxiv.org/pdf/2611.02076v1) · id: `2611.02076v1`
+- **IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation**  
+  *Shiwei Yang, Yunlong Yu, Zhao Wang, Jungong Han*  
+  Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.01372v1) · [pdf](https://arxiv.org/pdf/2611.01372v1) · id: `2611.01372v1`
 - **Grounding Predictive Reliability through Masked Observability**  
   *Shang Gao, Bernhard Sick, Franz Götz-Hahn*  
   Published: `2026-10-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.39728v1) · [pdf](https://arxiv.org/pdf/2610.39728v1) · id: `2610.39728v1`

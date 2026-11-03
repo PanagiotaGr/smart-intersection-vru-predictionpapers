@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-02` (timezone: `Europe/Athens`)
+Updated: `2026-11-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **285**
+Total papers tracked: **287**
 
 ---
 
+- **IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation**  
+  *Shiwei Yang, Yunlong Yu, Zhao Wang, Jungong Han*  
+  Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.01372v1) · [pdf](https://arxiv.org/pdf/2611.01372v1) · id: `2611.01372v1`
+- **Spectral and Conformal: Neural Network Methods for Calibrated Trajectory Prediction and Control-Point Intervals**  
+  *Jasmine Ratchford, Raffaele Romagnoli*  
+  Published: `2026-10-30` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2611.00231v1) · [pdf](https://arxiv.org/pdf/2611.00231v1) · id: `2611.00231v1`
 - **A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes**  
   *Khaled Nowara, Mohamed Manzour, Catherine Elias*  
   Published: `2026-10-19` · Category: `cs.AI` · [abs](http://arxiv.org/abs/2610.26528v1) · [pdf](https://arxiv.org/pdf/2610.26528v1) · id: `2610.26528v1`

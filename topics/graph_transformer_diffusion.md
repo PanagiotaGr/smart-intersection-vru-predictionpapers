@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-02` (timezone: `Europe/Athens`)
+Updated: `2026-11-03` (timezone: `Europe/Athens`)
 
-Total papers tracked: **203**
+Total papers tracked: **204**
 
 ---
 
+- **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
+  *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
+  Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v1) · [pdf](https://arxiv.org/pdf/2611.02076v1) · id: `2611.02076v1`
 - **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
   *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
   Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v1) · [pdf](https://arxiv.org/pdf/2610.39416v1) · id: `2610.39416v1`

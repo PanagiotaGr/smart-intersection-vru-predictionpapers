@@ -21072,6 +21072,89 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.41185v1",
       "abs_url": "http://arxiv.org/abs/2610.41185v1"
+    },
+    "2611.03189v1": {
+      "arxiv_id": "2611.03189v1",
+      "title": "MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context",
+      "authors": [
+        "Yasamin Borhani",
+        "Javad Khoramdel",
+        "Yang Gao",
+        "Po-Chien Luan",
+        "Alexandre Alahi"
+      ],
+      "summary": "Estimating the metric 3D position of people from a monocular camera is important for robot navigation and motion prediction. Lightweight pose-based localizers are attractive for robotic hardware with limited computational resources because they operate on compact 2D keypoints. However, they typically discard the richer visual representations computed by the pose estimator. We introduce MoSoLoco, a per-frame monocular 3D human localizer that combines the pose detector's internal visual features with the detected 2D skeleton, without requiring an additional RGB or depth encoder. MoSoLoco can further incorporate sparse same-frame multi-person context to refine individual position estimates. Experiments on JRDB and NuScenes show that reusing pose-detector representations improves localization, reducing the best JRDB error by approximately 23 percent relative to the strongest evaluated keypoint-based baseline. A sparse social-interaction module incorporates nearby detections from the same image for further refinement. Controlled trajectory-forecasting experiments show downstream benefits, while the complete pipeline remains suitable for efficient Jetson AGX Xavier inference.",
+      "published_utc": "2026-11-02T14:20:20Z",
+      "updated_utc": "2026-11-02T14:20:20Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.03189v1",
+      "abs_url": "http://arxiv.org/abs/2611.03189v1"
+    },
+    "2611.01372v1": {
+      "arxiv_id": "2611.01372v1",
+      "title": "IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation",
+      "authors": [
+        "Shiwei Yang",
+        "Yunlong Yu",
+        "Zhao Wang",
+        "Jungong Han"
+      ],
+      "summary": "Visually realistic video generation does not guarantee physically consistent motion. Generated objects may exhibit implausible collision responses or rebounds without energy dissipation, while even physically valid motion predictions may not be faithfully realized during synthesis. We propose \\textbf{IMPACT}, a physics-state-driven image-to-video framework that addresses these challenges by coupling explicit dynamics prediction with complementary sparse--dense physical guidance. A learnably calibrated Physics State Generator unifies continuous free-flight dynamics with discrete collision responses, linking impact timing, post-impact velocity, rebound attenuation, and eventual settling within a coherent physical-state sequence. To translate this evolution into effective generative constraints, IMPACT derives sparse trajectories and dense region-level motion priors from the same physical rollout. Sparse trajectories constrain global object displacement, while dense priors guide diffusion sampling to encourage coherent object-region motion and suppress unwanted background changes. Their shared physical basis coordinates global and local motion guidance to reduce prediction--generation mismatch. Experiments on 100 controlled sphere--plane collision scenes spanning different material combinations and visual environments demonstrate improved physical plausibility over representative general-purpose, physics-grounded, and motion-controllable baselines. The project repository is available at https://weiweiwiewei.github.io/impact",
+      "published_utc": "2026-11-01T00:14:03Z",
+      "updated_utc": "2026-11-01T00:14:03Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.01372v1",
+      "abs_url": "http://arxiv.org/abs/2611.01372v1"
+    },
+    "2611.00231v1": {
+      "arxiv_id": "2611.00231v1",
+      "title": "Spectral and Conformal: Neural Network Methods for Calibrated Trajectory Prediction and Control-Point Intervals",
+      "authors": [
+        "Jasmine Ratchford",
+        "Raffaele Romagnoli"
+      ],
+      "summary": "Autonomous systems that navigate their environment need methods to quickly assess the feasibility and safety of desired trajectories. Traditional solutions that rely on numerical integration can be computationally heavy, while fast data-driven surrogates lack the formal guarantees that numerical approaches provide. This work demonstrates a framework that uses (1) a neural network with a spectral backbone to learn trajectories and quantile bands with built-in constraints (initial conditions and stability); (2) a modified conformal quantile regression to provide calibrated, joint trajectory-level coverage; and (3) interval arithmetic to extend noise-free coverage guarantees to control points. After refactoring the network for inference, the trajectory inference time for a quadrotor under a closed-loop linear quadratic regulator is 3.45~ms on a Raspberry Pi Zero 2 W. The total pipeline time, including trajectory inference time, is 9.81~ms, or approximately 100~Hz, consistent with typical control rates.",
+      "published_utc": "2026-10-30T18:12:26Z",
+      "updated_utc": "2026-10-30T18:12:26Z",
+      "primary_category": "eess.SY",
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.00231v1",
+      "abs_url": "http://arxiv.org/abs/2611.00231v1"
+    },
+    "2611.02076v1": {
+      "arxiv_id": "2611.02076v1",
+      "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+      "authors": [
+        "Seungjun Yu",
+        "Jiho Choi",
+        "Inha Kang",
+        "Hojun Choi",
+        "Seungwook Kim",
+        "Hyunjung Shim"
+      ],
+      "summary": "Diffusion driving vision-language-action models repeatedly execute the backbone at every denoising stage, incurring substantial inference cost, while it remains unclear whether all scenes require the same decoding computation. To distinguish when a trajectory becomes readable from how much further refinement it requires, we analyze trajectory readout across network depth and decoding progress. We identify a depth-decoding dissociation in which late-layer representations already support useful trajectory readout after the first forward sweep, whereas early-layer representations benefit more from continued decoding. We further find that both the preferred readout layer and decoding depth vary across scenes. Based on these observations, we propose a scene-adaptive readout and decoding framework. A scene-conditioned readout MoE adaptively weights and combines trajectory predictions from layer-specific late-layer representations after a single backbone sweep, while an adaptive decoding policy applies additional native refinement only when required by the scene. We evaluate our framework on two diffusion driving VLAs across the Waymo E2E and nuScenes benchmarks. Our method improves validation RFS by up to 0.56 while also improving test performance, and achieves an end-to-end speedup of up to $6.0\\times$ on Waymo E2E, while consistently reducing trajectory error on nuScenes. These results demonstrate that scene-level readout and decoding allocation improves planning quality while avoiding unnecessary decoding. Our code is available at https://github.com/sjyu001/SARD",
+      "published_utc": "2026-11-01T17:30:51Z",
+      "updated_utc": "2026-11-01T17:30:51Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.02076v1",
+      "abs_url": "http://arxiv.org/abs/2611.02076v1"
     }
   },
   "topics": {
@@ -21616,9 +21699,10 @@
         "2610.33713v1",
         "2610.36840v1",
         "2610.39278v1",
-        "2610.23980v2"
+        "2610.23980v2",
+        "2611.03189v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-03"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22049,9 +22133,11 @@
         "2610.18093v1",
         "2610.22795v1",
         "2610.26528v1",
-        "2610.18093v2"
+        "2610.18093v2",
+        "2611.01372v1",
+        "2611.00231v1"
       ],
-      "latest_update": "2026-10-21"
+      "latest_update": "2026-11-03"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -22331,9 +22417,12 @@
         "2610.36840v1",
         "2610.39728v1",
         "2610.39416v1",
-        "2610.23980v2"
+        "2610.23980v2",
+        "2611.03189v1",
+        "2611.02076v1",
+        "2611.01372v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-03"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22550,9 +22639,10 @@
         "2610.22215v1",
         "2610.21132v1",
         "2610.33916v1",
-        "2610.39728v1"
+        "2610.39728v1",
+        "2611.00231v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-03"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -22759,9 +22849,10 @@
         "2610.30519v1",
         "2610.33916v1",
         "2610.33713v1",
-        "2610.39416v1"
+        "2610.39416v1",
+        "2611.02076v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-03"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
