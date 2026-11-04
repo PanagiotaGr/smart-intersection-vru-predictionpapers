@@ -1,14 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-03` (timezone: `Europe/Athens`)
+Updated: `2026-11-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **279**
+Total papers tracked: **282**
 
 ---
 
+- **FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video**  
+  *Jeremy Collins, Namra Patel, Ayush Agarwal, Shitij Govil, Animesh Garg*  
+  Published: `2026-11-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.05062v1) · [pdf](https://arxiv.org/pdf/2611.05062v1) · id: `2611.05062v1`
 - **MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context**  
   *Yasamin Borhani, Javad Khoramdel, Yang Gao, Po-Chien Luan, Alexandre Alahi*  
   Published: `2026-11-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.03189v1) · [pdf](https://arxiv.org/pdf/2611.03189v1) · id: `2611.03189v1`
+- **CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing**  
+  *Mehrnoush Mohammadi, Kamal Berahmand, Mohammad Morsali, Shazia Sadiq, Wojtek Tomaszewski, Hassan Khosravi*  
+  Published: `2026-11-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.03744v1) · [pdf](https://arxiv.org/pdf/2611.03744v1) · id: `2611.03744v1`
 - **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
   *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
   Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v1) · [pdf](https://arxiv.org/pdf/2611.02076v1) · id: `2611.02076v1`
@@ -21,6 +27,9 @@ Total papers tracked: **279**
 - **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
   *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
   Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v1) · [pdf](https://arxiv.org/pdf/2610.39416v1) · id: `2610.39416v1`
+- **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
+  *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
+  Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v2) · [pdf](https://arxiv.org/pdf/2610.39416v2) · id: `2610.39416v2`
 - **Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models**  
   *Xu Hu, Changjie Wu, Linzhe Shi, Hang Zhang, Chen Yang, Lingjun Zhang, Guowen Zhang, Mu Xu et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36840v1) · [pdf](https://arxiv.org/pdf/2610.36840v1) · id: `2610.36840v1`

@@ -1,14 +1,20 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-03` (timezone: `Europe/Athens`)
+Updated: `2026-11-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **309**
+Total papers tracked: **312**
 
 ---
 
+- **What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting**  
+  *Zirui Li, Yunlong Lin, Haohan Yang, Xiaocong Zhao, Chen Lv*  
+  Published: `2026-11-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.04309v1) · [pdf](https://arxiv.org/pdf/2611.04309v1) · id: `2611.04309v1`
 - **MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context**  
   *Yasamin Borhani, Javad Khoramdel, Yang Gao, Po-Chien Luan, Alexandre Alahi*  
   Published: `2026-11-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.03189v1) · [pdf](https://arxiv.org/pdf/2611.03189v1) · id: `2611.03189v1`
+- **CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing**  
+  *Mehrnoush Mohammadi, Kamal Berahmand, Mohammad Morsali, Shazia Sadiq, Wojtek Tomaszewski, Hassan Khosravi*  
+  Published: `2026-11-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.03744v1) · [pdf](https://arxiv.org/pdf/2611.03744v1) · id: `2611.03744v1`
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v1) · [pdf](https://arxiv.org/pdf/2610.39278v1) · id: `2610.39278v1`
@@ -27,6 +33,9 @@ Total papers tracked: **309**
 - **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
   *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
   Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`
+- **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
+  *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Man Zhang, Xingqun Qi, Muyi Sun, Caifeng Shan et al.*  
+  Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v2) · [pdf](https://arxiv.org/pdf/2610.27877v2) · id: `2610.27877v2`
 - **STRIDE: Evaluating Spatiotemporal Reasoning in Driving Edge Cases**  
   *Lieqi Liu, Rui gao, Jia-Chen Gu, Wenbo Hu, Zhaobin Mo, Ahmadreza Moradipari, Nejib Ammar, Wei Wang et al.*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22795v1) · [pdf](https://arxiv.org/pdf/2610.22795v1) · id: `2610.22795v1`

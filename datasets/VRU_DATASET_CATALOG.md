@@ -17,7 +17,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | DoTA | pedestrian; cyclist; motorcyclist; vehicle | traffic anomaly detection | 0 | candidate |
 | ETH | pedestrian | trajectory prediction | 0 | candidate |
 | EuroCity Persons | pedestrian; rider | pedestrian detection | 0 | candidate |
-| INTERACTION | pedestrian; cyclist; vehicle | motion forecasting; interaction modelling | 4 | candidate |
+| INTERACTION | pedestrian; cyclist; vehicle | motion forecasting; interaction modelling | 5 | candidate |
 | JAAD | pedestrian | crossing intention; behaviour understanding | 35 | candidate |
 | JRDB | pedestrian | detection; tracking; social navigation | 17 | candidate |
 | KITTI | pedestrian; cyclist; vehicle | detection; tracking; odometry | 4 | candidate |

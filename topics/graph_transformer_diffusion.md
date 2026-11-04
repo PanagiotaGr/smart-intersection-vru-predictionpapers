@@ -1,17 +1,26 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-03` (timezone: `Europe/Athens`)
+Updated: `2026-11-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **204**
+Total papers tracked: **208**
 
 ---
 
+- **Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs**  
+  *Asher James Hancock, Boyi Li, Yuxiao Chen, Shuhan Tan, Wenhao Ding, Thomas Tian, Yan Wang, Boris Ivanovic et al.*  
+  Published: `2026-11-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.05249v1) · [pdf](https://arxiv.org/pdf/2611.05249v1) · id: `2611.05249v1`
+- **CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing**  
+  *Mehrnoush Mohammadi, Kamal Berahmand, Mohammad Morsali, Shazia Sadiq, Wojtek Tomaszewski, Hassan Khosravi*  
+  Published: `2026-11-02` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.03744v1) · [pdf](https://arxiv.org/pdf/2611.03744v1) · id: `2611.03744v1`
 - **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
   *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
   Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v1) · [pdf](https://arxiv.org/pdf/2611.02076v1) · id: `2611.02076v1`
 - **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
   *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
   Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v1) · [pdf](https://arxiv.org/pdf/2610.39416v1) · id: `2610.39416v1`
+- **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
+  *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
+  Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v2) · [pdf](https://arxiv.org/pdf/2610.39416v2) · id: `2610.39416v2`
 - **Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba**  
   *Basheer Al-Tawil, Magnus Jung, Ayoub Al-Hamadi*  
   Published: `2026-10-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.33916v1) · [pdf](https://arxiv.org/pdf/2610.33916v1) · id: `2610.33916v1`
@@ -24,6 +33,9 @@ Total papers tracked: **204**
 - **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
   *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
   Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`
+- **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
+  *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Man Zhang, Xingqun Qi, Muyi Sun, Caifeng Shan et al.*  
+  Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v2) · [pdf](https://arxiv.org/pdf/2610.27877v2) · id: `2610.27877v2`
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`

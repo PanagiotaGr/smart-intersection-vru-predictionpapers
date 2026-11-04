@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-03` (timezone: `Europe/Athens`)
+Updated: `2026-11-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **287**
+Total papers tracked: **288**
 
 ---
 
+- **Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios**  
+  *Rainer Engert, Patrick Zaumseil, Thomas Brandmeier*  
+  Published: `2026-11-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.04871v1) · [pdf](https://arxiv.org/pdf/2611.04871v1) · id: `2611.04871v1`
 - **IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation**  
   *Shiwei Yang, Yunlong Yu, Zhao Wang, Jungong Han*  
   Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.01372v1) · [pdf](https://arxiv.org/pdf/2611.01372v1) · id: `2611.01372v1`

@@ -1,11 +1,17 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-03` (timezone: `Europe/Athens`)
+Updated: `2026-11-04` (timezone: `Europe/Athens`)
 
-Total papers tracked: **214**
+Total papers tracked: **216**
 
 ---
 
+- **Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios**  
+  *Rainer Engert, Patrick Zaumseil, Thomas Brandmeier*  
+  Published: `2026-11-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.04871v1) · [pdf](https://arxiv.org/pdf/2611.04871v1) · id: `2611.04871v1`
+- **What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting**  
+  *Zirui Li, Yunlong Lin, Haohan Yang, Xiaocong Zhao, Chen Lv*  
+  Published: `2026-11-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.04309v1) · [pdf](https://arxiv.org/pdf/2611.04309v1) · id: `2611.04309v1`
 - **Spectral and Conformal: Neural Network Methods for Calibrated Trajectory Prediction and Control-Point Intervals**  
   *Jasmine Ratchford, Raffaele Romagnoli*  
   Published: `2026-10-30` · Category: `eess.SY` · [abs](http://arxiv.org/abs/2611.00231v1) · [pdf](https://arxiv.org/pdf/2611.00231v1) · id: `2611.00231v1`

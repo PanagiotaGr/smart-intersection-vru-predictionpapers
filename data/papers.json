@@ -21155,6 +21155,158 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.02076v1",
       "abs_url": "http://arxiv.org/abs/2611.02076v1"
+    },
+    "2611.04309v1": {
+      "arxiv_id": "2611.04309v1",
+      "title": "What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting",
+      "authors": [
+        "Zirui Li",
+        "Yunlong Lin",
+        "Haohan Yang",
+        "Xiaocong Zhao",
+        "Chen Lv"
+      ],
+      "summary": "Aggregate scores for continual learning algorithms rest on a distribution over task orders that is rarely stated. We formulate algorithm comparison as an expectation over a declared order distribution, which separates training variation from order variation, and apply it to motion forecasting with four road-layout tasks from the INTERACTION dataset, all 24 task orders, four algorithms, and three training replicates (288 runs). Task order accounts for 65\\% to 91\\% of the variation in current-task error and backward transfer, and 90\\% to 99\\% of this order effect comes from the identity of the starting task: the smallest task cannot be learned from a cold start. Beyond the first stage, the order effect is comparable to training variability. In most orders, the leading algorithm in current-task error and backward transfer is within one replicate standard deviation of the runner-up. Backward transfer depends on the order mainly through its reference term, which weights the first task most heavily, so relative improvement and final error identify different leading algorithms for displacement error. A transition-direction descriptor computed from task statistics tracks the position of the smallest task, and weighting orders by it leaves the algorithm ranking unchanged. These results call for benchmarks that declare their order distribution and report order-resolved, starting-task-resolved, warm-start, and final errors alongside aggregate scores. The code and data are available \\href{https://anonymous.4open.science/r/task-order-cl-4f7b/}{here}.",
+      "published_utc": "2026-11-03T04:39:10Z",
+      "updated_utc": "2026-11-03T04:39:10Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.04309v1",
+      "abs_url": "http://arxiv.org/abs/2611.04309v1"
+    },
+    "2611.03744v1": {
+      "arxiv_id": "2611.03744v1",
+      "title": "CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing",
+      "authors": [
+        "Mehrnoush Mohammadi",
+        "Kamal Berahmand",
+        "Mohammad Morsali",
+        "Shazia Sadiq",
+        "Wojtek Tomaszewski",
+        "Hassan Khosravi"
+      ],
+      "summary": "Knowledge tracing (KT) estimates learners' evolving knowledge states from interaction histories to support adaptive learning. Retrieval-augmented KT improves these estimates using cross-learner behavioral evidence, but existing approaches typically separate evidence retrieval from downstream prediction. This creates a retrieval-inference alignment gap because evidence relevance varies with the learner's evolving state and prediction context. We propose CaRe-KT, a query-adaptive framework that maintains relevance continuity between evidence acquisition and inference without equating retrieval relevance with predictive utility. CaRe-KT introduces an Evidence-Graph Cache (EGC) that combines persistent question-level relational compatibility with interaction-level temporal validity to construct query-specific evidence subgraphs. Historical learning trajectories retrieved through these subgraphs are encoded alongside the target learner's history in a shared representation space using outcome-supervised contrastive learning. An attention mechanism combines acquisition relevance with learned query-evidence compatibility, allowing relevance to inform, rather than determine, each trajectory's predictive influence. Experiments across five benchmarks show that CaRe-KT outperforms strong KT baselines and remains robust under sparse-history and cold-start conditions. These findings support relevance continuity as a design principle for retrieval-augmented knowledge tracing.",
+      "published_utc": "2026-11-02T03:25:09Z",
+      "updated_utc": "2026-11-02T03:25:09Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.03744v1",
+      "abs_url": "http://arxiv.org/abs/2611.03744v1"
+    },
+    "2610.27877v2": {
+      "arxiv_id": "2610.27877v2",
+      "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+      "authors": [
+        "Chuanyang Ma",
+        "Chenye Wang",
+        "Yixuan Wang",
+        "Huiling Zhou",
+        "Man Zhang",
+        "Xingqun Qi",
+        "Muyi Sun",
+        "Caifeng Shan",
+        "Zhenan Sun"
+      ],
+      "summary": "Anticipating how users will interact with their surroundings is essential for proactive systems that provide timely assistance in extended reality and embodied applications. Prior work typically forecasts hand-object interactions directly from historical observations, leaving intention and contact geometry implicit. However, similar observation histories can precede semantically or geometrically distinct futures. Inspired by behavioral evidence that gaze can provide early cues for underlying intention, we propose Gaze2HOI, a gaze-aware framework that formulates hand-object interaction forecasting as a hierarchical problem comprising intention inference, contact grounding, and coupled hand-object motion generation. Specifically, Gaze2HOI first weights gaze cues by fixation strength and recency, and uses them to modulate the visual representations of a vision-language model (VLM) through Temporal Gaze Saliency Modulation (TGSM), thereby reducing semantic ambiguity in intention inference. Subsequently, an Anticipatory Contact Grounding (ACG) module maps these structured intentions into explicit contact, support, and placement fields, effectively mitigating geometric ambiguity. Driven by these explicit conditions, a diffusion-based model jointly generates the six-degree-of-freedom (6-DoF) object trajectories and future articulated motion of both hands. To evaluate Gaze2HOI, we further introduce EgoAIM, a phase-aware benchmark that organizes egocentric hand-object interactions into four phases defined by evolving hand-object relations and provides fine-grained intention annotations. Extensive experiments demonstrate that Gaze2HOI achieves state-of-the-art performance in both intention inference and motion forecasting, even approaching oracle-level end-to-end performance in specific interaction phases. Project page: https://gaze2hoi.github.io/.",
+      "published_utc": "2026-10-20T08:59:54Z",
+      "updated_utc": "2026-11-03T14:06:23Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.27877v2",
+      "abs_url": "http://arxiv.org/abs/2610.27877v2"
+    },
+    "2611.04871v1": {
+      "arxiv_id": "2611.04871v1",
+      "title": "Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios",
+      "authors": [
+        "Rainer Engert",
+        "Patrick Zaumseil",
+        "Thomas Brandmeier"
+      ],
+      "summary": "Automotive radar is a key sensing modality for safety-critical vehicle functions due to its robustness under adverse weather and lighting conditions. Recent advances in AI-based radar perception enable the direct estimation of object parameters from a single radar measurement cycle. However, the internal decision process of data-driven models is typically not explicitly linked to the underlying radar sensing physics. Consequently, object estimates may achieve high statistical accuracy while remaining physically inconsistent with the measured radar signature, particularly in previously unseen scenarios. Such inconsistencies are especially critical for heading estimation, as they directly affect trajectory prediction and collision assessment in pre-crash scenarios. This paper presents a physics-based consistency assessment framework for validating AI-derived vehicle hypotheses in automotive radar perception. The proposed approach generates an expected radar signature from AI-estimated object parameters using a physics-based reference model that incorporates occlusion-dependent edge visibility, aspect- and angle-dependent RCS modeling, and characteristic wheel-induced MD signatures. The expected signature is compared with the observed radar point cloud using a Wasserstein-distance-based consistency metric computed from three complementary features: the spatial distribution of detections along object edges, the local detection count, and the radar reflection intensity. In this way, physically implausible object hypotheses can be identified and corrected independently of the underlying neural network architecture and without model retraining or architectural modifications. The proposed consistency module is integrated as a cascaded post-processing stage for vehicle heading estimation.",
+      "published_utc": "2026-11-03T13:26:46Z",
+      "updated_utc": "2026-11-03T13:26:46Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.04871v1",
+      "abs_url": "http://arxiv.org/abs/2611.04871v1"
+    },
+    "2611.05062v1": {
+      "arxiv_id": "2611.05062v1",
+      "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+      "authors": [
+        "Jeremy Collins",
+        "Namra Patel",
+        "Ayush Agarwal",
+        "Shitij Govil",
+        "Animesh Garg"
+      ],
+      "summary": "Pretrained video generation models distill internet-scale motion priors into robot policies, but full video is a redundant signal for action prediction. We argue that dense 3D motion is the medium through which video pretraining best transfers to robot actions, and that predicting motion rather than video affords better sample-efficiency for action prediction. FloMo is a 5B video-generation model fine-tuned to predict 3D scene-flow and action tokens. Rendering scene flow as RGB and encoding it into the same latent space as video enables a pretrained video generation backbone to efficiently adapt to predict 3D scene flow. Co-trained on action-free human video and action-labeled robot teleoperation data, our model benefits from human-video pretraining and generalizes to unseen objects, motion primitives, and tasks. Replacing motion prediction with a video prediction objective degrades out-of-distribution generalization, while adding a video prediction target alongside motion lowers policy success rather than improving it. When motion, video, and action are predicted jointly, action tokens attend far more to motion than to video, suggesting that predicting video wastes model capacity. Together, these results indicate that motion effectively mediates the transfer from video pretraining to action. More information can be found at flomo-wam.github.io.",
+      "published_utc": "2026-11-03T15:25:35Z",
+      "updated_utc": "2026-11-03T15:25:35Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.05062v1",
+      "abs_url": "http://arxiv.org/abs/2611.05062v1"
+    },
+    "2610.39416v2": {
+      "arxiv_id": "2610.39416v2",
+      "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction",
+      "authors": [
+        "Akila Ayanthi",
+        "Darshana Priyasad",
+        "Tharindu Fernando",
+        "Dimity Miller",
+        "Sridha Sridharan",
+        "Clinton Fookes",
+        "Peyman Moghadam"
+      ],
+      "summary": "Predicting where to grasp and how to move is fundamentally a geometry problem. Vision-language models treat it as language generation instead. They tokenize spatial coordinates into text and decode them autoregressively. This mechanism ignores spatial structure and truncates continuous precision. Errors compound across coordinate tokens during decoding. In this paper, we show that compact off-the-shelf VLMs with 0.5-2B parameters already encode rich spatial information in their intermediate hidden states. Autoregressive decoding is the dominant bottleneck for trajectory prediction, while affordance prediction depends additionally on feature depth and decoder architecture. We expose the latent spatial information with a lightweight, geometry-compatible prediction head that attaches to a frozen backbone. It reads features from an intermediate hidden layer, conditions a learned query on the task instruction and refines it via cross-attention over the visual tokens to regress affordance boxes and trajectory waypoints directly as continuous values, without modifying the backbone. We evaluate on ShareRobot-Bench and AGD20K. Our 2B variant reduces trajectory error by over 60% and improves ShareRobot-Bench affordance mAP by 85% relative to the autoregressive baseline. It approaches RoboBrain on trajectory prediction (0.251 vs 0.191 DFD) at 3.8x higher throughput. These results demonstrate a favorable accuracy-efficiency trade-off for instruction-conditioned 2D geometric prediction.",
+      "published_utc": "2026-10-29T05:56:52Z",
+      "updated_utc": "2026-11-03T02:40:44Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39416v2",
+      "abs_url": "http://arxiv.org/abs/2610.39416v2"
+    },
+    "2611.05249v1": {
+      "arxiv_id": "2611.05249v1",
+      "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
+      "authors": [
+        "Asher James Hancock",
+        "Boyi Li",
+        "Yuxiao Chen",
+        "Shuhan Tan",
+        "Wenhao Ding",
+        "Thomas Tian",
+        "Yan Wang",
+        "Boris Ivanovic",
+        "Marco Pavone"
+      ],
+      "summary": "Vision-language-action (VLA) models increasingly pair a pre-trained vision-language model (VLM) with a flow-matching expert that conditions its action predictions on the VLM's key-value representations. Those representations must carry information useful for control, yet the VLM was never trained for the action expert's flow-matching objective. Two signals can address this: gradients backpropagated from the expert's loss (coupling), or VLM supervision to predict discrete tokens encoding the same target actions. Prominent training recipes forgo the first, blocking expert-to-VLM gradients (insulation) to protect the VLM's existing capabilities, while also supervising it on vision-language data and action tokens. Because vision-language co-training also aims to preserve those capabilities, the additional protection provided by insulation is unclear. At the same time, insulation removes a direct signal about which features continuous action prediction requires. On the other hand, action-token supervision offers an alternative way to learn action-relevant representations, which may explain why insulation succeeds in practice. We disentangle these factors in autonomous driving and manipulation by independently varying action-token supervision and whether the expert's loss updates the VLM. In open-loop driving, insulation is competitive with coupling when action tokens are supervised; without them, coupling reduces trajectory-prediction error by roughly 25%. When both components are trained jointly from the outset, coupling increases closed-loop driving route progress by approximately 17% with action-token supervision and 40% without it, and similarly improves robot manipulation performance under both settings. These findings show that the value of gradient insulation depends on the VLM's action supervision and the evaluation setting, challenging insulation as a default VLA training recipe.",
+      "published_utc": "2026-11-03T17:35:27Z",
+      "updated_utc": "2026-11-03T17:35:27Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.05249v1",
+      "abs_url": "http://arxiv.org/abs/2611.05249v1"
     }
   },
   "topics": {
@@ -21700,9 +21852,12 @@
         "2610.36840v1",
         "2610.39278v1",
         "2610.23980v2",
-        "2611.03189v1"
+        "2611.03189v1",
+        "2611.04309v1",
+        "2611.03744v1",
+        "2610.27877v2"
       ],
-      "latest_update": "2026-11-03"
+      "latest_update": "2026-11-04"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22135,9 +22290,10 @@
         "2610.26528v1",
         "2610.18093v2",
         "2611.01372v1",
-        "2611.00231v1"
+        "2611.00231v1",
+        "2611.04871v1"
       ],
-      "latest_update": "2026-11-03"
+      "latest_update": "2026-11-04"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -22420,9 +22576,12 @@
         "2610.23980v2",
         "2611.03189v1",
         "2611.02076v1",
-        "2611.01372v1"
+        "2611.01372v1",
+        "2611.05062v1",
+        "2611.03744v1",
+        "2610.39416v2"
       ],
-      "latest_update": "2026-11-03"
+      "latest_update": "2026-11-04"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22640,9 +22799,11 @@
         "2610.21132v1",
         "2610.33916v1",
         "2610.39728v1",
-        "2611.00231v1"
+        "2611.00231v1",
+        "2611.04871v1",
+        "2611.04309v1"
       ],
-      "latest_update": "2026-11-03"
+      "latest_update": "2026-11-04"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -22850,9 +23011,13 @@
         "2610.33916v1",
         "2610.33713v1",
         "2610.39416v1",
-        "2611.02076v1"
+        "2611.02076v1",
+        "2611.05249v1",
+        "2611.03744v1",
+        "2610.39416v2",
+        "2610.27877v2"
       ],
-      "latest_update": "2026-11-03"
+      "latest_update": "2026-11-04"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -23139,9 +23304,10 @@
         "2610.33713v1",
         "2610.36825v1",
         "2610.39278v1",
-        "2610.41185v1"
+        "2610.41185v1",
+        "2611.05062v1"
       ],
-      "latest_update": "2026-11-02"
+      "latest_update": "2026-11-04"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

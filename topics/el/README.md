@@ -8,14 +8,14 @@
 |---|---:|---|
 | Pedestrian Trajectory Prediction | 0 / 169 | [pedestrian_trajectory_prediction.md](pedestrian_trajectory_prediction.md) |
 | Cyclist & Micromobility Prediction | 0 / 50 | [cyclist_micromobility_prediction.md](cyclist_micromobility_prediction.md) |
-| Interaction-aware & Social Models | 0 / 309 | [interaction_aware_models.md](interaction_aware_models.md) |
+| Interaction-aware & Social Models | 0 / 312 | [interaction_aware_models.md](interaction_aware_models.md) |
 | Intention & Crossing Behavior | 0 / 136 | [intention_crossing_behavior.md](intention_crossing_behavior.md) |
-| Risk-aware / Safety / Collision Prediction | 0 / 287 | [risk_safety_collision.md](risk_safety_collision.md) |
-| Scene and Context-aware Prediction | 0 / 279 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
-| Probabilistic and Uncertainty-aware Forecasting | 0 / 214 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
-| Graph Transformer and Diffusion Models | 0 / 204 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
+| Risk-aware / Safety / Collision Prediction | 0 / 288 | [risk_safety_collision.md](risk_safety_collision.md) |
+| Scene and Context-aware Prediction | 0 / 282 | [scene_context_aware_prediction.md](scene_context_aware_prediction.md) |
+| Probabilistic and Uncertainty-aware Forecasting | 0 / 216 | [probabilistic_uncertainty_forecasting.md](probabilistic_uncertainty_forecasting.md) |
+| Graph Transformer and Diffusion Models | 0 / 208 | [graph_transformer_diffusion.md](graph_transformer_diffusion.md) |
 | Autonomous Driving Forecasting for VRUs | 0 / 126 | [autonomous_driving_vru_forecasting.md](autonomous_driving_vru_forecasting.md) |
 | Crossing Decision and Gap Acceptance | 0 / 75 | [crossing_gap_acceptance.md](crossing_gap_acceptance.md) |
-| Smart Intersections and Traffic Signal Context | 0 / 70 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
+| Smart Intersections and Traffic Signal Context | 0 / 71 | [smart_intersections_signal_context.md](smart_intersections_signal_context.md) |
 | VRU Datasets Benchmarks and Evaluation | 0 / 140 | [vru_datasets_benchmarks.md](vru_datasets_benchmarks.md) |
 | General VRU Prediction Broad Catch-All | 0 / 155 | [general_vru_prediction.md](general_vru_prediction.md) |
