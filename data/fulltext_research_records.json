@@ -12000,6 +12000,54 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2611.00231v1": {
+      "schema_version": 1,
+      "paper_id": "2611.00231v1",
+      "title": "Spectral and Conformal: Neural Network Methods for Calibrated Trajectory Prediction and Control-Point Intervals",
+      "pdf_url": "https://arxiv.org/pdf/2611.00231v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.01372v1": {
+      "schema_version": 1,
+      "paper_id": "2611.01372v1",
+      "title": "IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation",
+      "pdf_url": "https://arxiv.org/pdf/2611.01372v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.02076v1": {
+      "schema_version": 1,
+      "paper_id": "2611.02076v1",
+      "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+      "pdf_url": "https://arxiv.org/pdf/2611.02076v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.03189v1": {
+      "schema_version": 1,
+      "paper_id": "2611.03189v1",
+      "title": "MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context",
+      "pdf_url": "https://arxiv.org/pdf/2611.03189v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }

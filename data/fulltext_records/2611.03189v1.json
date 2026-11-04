@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2611.03189v1",
+  "title": "MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context",
+  "pdf_url": "https://arxiv.org/pdf/2611.03189v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}
