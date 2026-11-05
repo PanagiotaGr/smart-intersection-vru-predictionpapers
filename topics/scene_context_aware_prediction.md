@@ -1,14 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-04` (timezone: `Europe/Athens`)
+Updated: `2026-11-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **282**
+Total papers tracked: **286**
 
 ---
 
+- **Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token**  
+  *Tommy He, Thomas Jiralerspong*  
+  Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.06837v1) · [pdf](https://arxiv.org/pdf/2611.06837v1) · id: `2611.06837v1`
+- **Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception**  
+  *Jiuwu Hao, Yuting Wan, Liguo Sun, Zao Zhang, Yueyang Wu, Pin Lv*  
+  Published: `2026-11-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.06635v1) · [pdf](https://arxiv.org/pdf/2611.06635v1) · id: `2611.06635v1`
 - **FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video**  
   *Jeremy Collins, Namra Patel, Ayush Agarwal, Shitij Govil, Animesh Garg*  
   Published: `2026-11-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.05062v1) · [pdf](https://arxiv.org/pdf/2611.05062v1) · id: `2611.05062v1`
+- **FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video**  
+  *Jeremy Collins, Namra Patel, Ayush Agarwal, Shitij Govil, Animesh Garg*  
+  Published: `2026-11-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.05062v2) · [pdf](https://arxiv.org/pdf/2611.05062v2) · id: `2611.05062v2`
 - **MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context**  
   *Yasamin Borhani, Javad Khoramdel, Yang Gao, Po-Chien Luan, Alexandre Alahi*  
   Published: `2026-11-02` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.03189v1) · [pdf](https://arxiv.org/pdf/2611.03189v1) · id: `2611.03189v1`
@@ -45,6 +54,9 @@ Total papers tracked: **282**
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`
+- **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
+  *Daniel Grimm, J. Marius Zöllner*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v2) · [pdf](https://arxiv.org/pdf/2610.22215v2) · id: `2610.22215v2`
 - **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
   *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`

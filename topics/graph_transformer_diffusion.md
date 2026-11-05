@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-04` (timezone: `Europe/Athens`)
+Updated: `2026-11-05` (timezone: `Europe/Athens`)
 
-Total papers tracked: **208**
+Total papers tracked: **210**
 
 ---
 
+- **Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception**  
+  *Jiuwu Hao, Yuting Wan, Liguo Sun, Zao Zhang, Yueyang Wu, Pin Lv*  
+  Published: `2026-11-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.06635v1) · [pdf](https://arxiv.org/pdf/2611.06635v1) · id: `2611.06635v1`
 - **Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs**  
   *Asher James Hancock, Boyi Li, Yuxiao Chen, Shuhan Tan, Wenhao Ding, Thomas Tian, Yan Wang, Boris Ivanovic et al.*  
   Published: `2026-11-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.05249v1) · [pdf](https://arxiv.org/pdf/2611.05249v1) · id: `2611.05249v1`
@@ -39,6 +42,9 @@ Total papers tracked: **208**
 - **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
   *Daniel Grimm, J. Marius Zöllner*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v1) · [pdf](https://arxiv.org/pdf/2610.22215v1) · id: `2610.22215v1`
+- **FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting**  
+  *Daniel Grimm, J. Marius Zöllner*  
+  Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.22215v2) · [pdf](https://arxiv.org/pdf/2610.22215v2) · id: `2610.22215v2`
 - **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
   *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`

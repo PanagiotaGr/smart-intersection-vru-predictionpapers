@@ -21307,6 +21307,84 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.05249v1",
       "abs_url": "http://arxiv.org/abs/2611.05249v1"
+    },
+    "2611.06837v1": {
+      "arxiv_id": "2611.06837v1",
+      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+      "authors": [
+        "Tommy He",
+        "Thomas Jiralerspong"
+      ],
+      "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast the model's rollout activations. We train context--answer metamodels that map a context activation sequence to point or distribution forecasts of mean-pooled answer activations. We find that (i) the four metamodel families we study forecast mean-pooled answer activations with high fidelity, and the distribution metamodels also capture rollout variability; (ii) performance improves as the training set grows to 500,000 prompts, and the metamodels generalize zero-shot to out-of-domain datasets; (iii) their forecasts retain behavior-predictive signal; and (iv) context activations from Qwen2.5 predict mean-pooled answer activations from Qwen3.5 and Gemma 4, suggesting that activation forecasts can transfer across models. Together, these results suggest that context activation traces can support scalable forecasts of behaviors in LLM answers before the first answer token is generated.",
+      "published_utc": "2026-11-04T17:53:52Z",
+      "updated_utc": "2026-11-04T17:53:52Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.06837v1",
+      "abs_url": "http://arxiv.org/abs/2611.06837v1"
+    },
+    "2611.06635v1": {
+      "arxiv_id": "2611.06635v1",
+      "title": "Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception",
+      "authors": [
+        "Jiuwu Hao",
+        "Yuting Wan",
+        "Liguo Sun",
+        "Zao Zhang",
+        "Yueyang Wu",
+        "Pin Lv"
+      ],
+      "summary": "Unmanned aerial vehicle (UAV)-based collaborative perception enables multiple agents to share complementary perceptual information, overcoming limitations such as occlusion and limited sensing range. Communication efficiency is a critical bottleneck, as UAVs operate under stringent bandwidth and computational constraints. However, existing spatial selection methods focus predominantly on foreground regions to reduce missed detections, neglecting perceptually ambiguous regions and leaving false detections unresolved. We propose UCP, an uncertainty-driven framework that characterizes collaborative value through observational uncertainty, identifying sensor-limited regions, and discriminative uncertainty, capturing model-level ambiguity near the decision boundary. These estimates drive spatial request and supply maps for efficient inter-agent communication, and the received messages are aggregated via U-Fusion, an uncertainty-guided cross-attention module. Experiments on three benchmarks across 3D object detection and trajectory prediction demonstrate a superior performance-bandwidth trade-off with high interpretability and strong generalizability.",
+      "published_utc": "2026-11-04T15:16:57Z",
+      "updated_utc": "2026-11-04T15:16:57Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.06635v1",
+      "abs_url": "http://arxiv.org/abs/2611.06635v1"
+    },
+    "2611.05062v2": {
+      "arxiv_id": "2611.05062v2",
+      "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+      "authors": [
+        "Jeremy Collins",
+        "Namra Patel",
+        "Ayush Agarwal",
+        "Shitij Govil",
+        "Animesh Garg"
+      ],
+      "summary": "Pretrained video generation models distill internet-scale motion priors into robot policies, but full video is a redundant signal for action prediction. We argue that dense 3D motion is the medium through which video pretraining best transfers to robot actions, and that predicting motion rather than video affords better sample-efficiency for action prediction. FloMo is a 5B video-generation model fine-tuned to predict 3D scene-flow and action tokens. Rendering scene flow as RGB and encoding it into the same latent space as video enables a pretrained video generation backbone to efficiently adapt to predict 3D scene flow. Co-trained on action-free human video and action-labeled robot teleoperation data, our model benefits from human-video pretraining and generalizes to unseen objects, motion primitives, and tasks. Replacing motion prediction with a video prediction objective degrades out-of-distribution generalization, while adding a video prediction target alongside motion lowers policy success rather than improving it. When motion, video, and action are predicted jointly, action tokens attend far more to motion than to video, suggesting that predicting video wastes model capacity. Together, these results indicate that motion effectively mediates the transfer from video pretraining to action. More information can be found at flomo-wam.github.io.",
+      "published_utc": "2026-11-03T15:25:35Z",
+      "updated_utc": "2026-11-04T03:57:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.05062v2",
+      "abs_url": "http://arxiv.org/abs/2611.05062v2"
+    },
+    "2610.22215v2": {
+      "arxiv_id": "2610.22215v2",
+      "title": "FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting",
+      "authors": [
+        "Daniel Grimm",
+        "J. Marius Zöllner"
+      ],
+      "summary": "Accurate motion prediction is critical for safe autonomous driving, yet even strong forecasters leave residual errors in their multimodal proposals. Existing refiners compress complete proposals or update their segments sequentially, preventing the full proposed future from serving as explicit relational context for correction. We introduce FutureLift, a backbone-agnostic refiner that represents each multimodal proposal as a heterogeneous future graph, with spatially grounded temporal nodes connected to agent histories, map elements, alternative modes, and, for joint prediction, other agents future trajectories. Bidirectional temporal edges allow later evidence to revise earlier segments in a single pass, and the updated nodes predict residual coordinate and confidence corrections. Requiring only proposals, scores, and scene context, FutureLift provides a common refinement interface for structurally different forecasting backbones. On Argoverse2 and the Waymo Open Motion Dataset, it consistently improves frozen proposals and outperforms native and specialized refiners across marginal and joint forecasting. On the WOMD motion-prediction leaderboard, FutureLift ranks first in minADE (0.5049m) and minFDE (0.9942m) among the compared standard-input methods, without LiDAR or ensembling, while achieving a competitive 0.4874 Soft mAP.",
+      "published_utc": "2026-10-15T17:00:40Z",
+      "updated_utc": "2026-11-04T08:41:48Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.22215v2",
+      "abs_url": "http://arxiv.org/abs/2610.22215v2"
     }
   },
   "topics": {
@@ -22579,9 +22657,13 @@
         "2611.01372v1",
         "2611.05062v1",
         "2611.03744v1",
-        "2610.39416v2"
+        "2610.39416v2",
+        "2611.06837v1",
+        "2611.06635v1",
+        "2611.05062v2",
+        "2610.22215v2"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-05"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22801,9 +22883,12 @@
         "2610.39728v1",
         "2611.00231v1",
         "2611.04871v1",
-        "2611.04309v1"
+        "2611.04309v1",
+        "2611.06837v1",
+        "2611.06635v1",
+        "2610.22215v2"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-05"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -23015,9 +23100,11 @@
         "2611.05249v1",
         "2611.03744v1",
         "2610.39416v2",
-        "2610.27877v2"
+        "2610.27877v2",
+        "2611.06635v1",
+        "2610.22215v2"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-05"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -23305,9 +23392,10 @@
         "2610.36825v1",
         "2610.39278v1",
         "2610.41185v1",
-        "2611.05062v1"
+        "2611.05062v1",
+        "2611.05062v2"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-05"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
