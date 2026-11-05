@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2611.04309v1",
+  "title": "What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting",
+  "pdf_url": "https://arxiv.org/pdf/2611.04309v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

@@ -11857,6 +11857,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.27877v2": {
+      "schema_version": 1,
+      "paper_id": "2610.27877v2",
+      "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2610.27877v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.28814v1": {
       "schema_version": 1,
       "paper_id": "2610.28814v1",
@@ -11965,6 +11977,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.39416v2": {
+      "schema_version": 1,
+      "paper_id": "2610.39416v2",
+      "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2610.39416v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.39728v1": {
       "schema_version": 1,
       "paper_id": "2610.39728v1",
@@ -12042,6 +12066,66 @@
       "paper_id": "2611.03189v1",
       "title": "MoSoLoco: Monocular 3D Human Localization through Visual Latent Features and Social Context",
       "pdf_url": "https://arxiv.org/pdf/2611.03189v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.03744v1": {
+      "schema_version": 1,
+      "paper_id": "2611.03744v1",
+      "title": "CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing",
+      "pdf_url": "https://arxiv.org/pdf/2611.03744v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.04309v1": {
+      "schema_version": 1,
+      "paper_id": "2611.04309v1",
+      "title": "What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2611.04309v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.04871v1": {
+      "schema_version": 1,
+      "paper_id": "2611.04871v1",
+      "title": "Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios",
+      "pdf_url": "https://arxiv.org/pdf/2611.04871v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.05062v1": {
+      "schema_version": 1,
+      "paper_id": "2611.05062v1",
+      "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+      "pdf_url": "https://arxiv.org/pdf/2611.05062v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.05249v1": {
+      "schema_version": 1,
+      "paper_id": "2611.05249v1",
+      "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
+      "pdf_url": "https://arxiv.org/pdf/2611.05249v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
