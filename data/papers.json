@@ -21385,6 +21385,49 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.22215v2",
       "abs_url": "http://arxiv.org/abs/2610.22215v2"
+    },
+    "2611.08295v1": {
+      "arxiv_id": "2611.08295v1",
+      "title": "Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation",
+      "authors": [
+        "Gabriel Parra",
+        "Kimia Khoshnami",
+        "Daniel S. Brown",
+        "Laura A. Hallock"
+      ],
+      "summary": "Robot-mediated rehabilitation has the potential to deliver high-intensity, individualized therapy, but existing systems (which have not consistently improved outcomes) typically prescribe kinematic trajectories rather than explicitly targeting the neuromotor activations thought to support recovery. To address this gap, and ultimately enable activation-optimizing rehabilitation robot behavior, we present a personalizable transformer-based model mapping individuals' muscle activations (as measured via surface electromyography) to prescribed contact force trajectories when interacting with an end-effector rehabilitation robot. The model uses a transformer encoder-decoder leveraging rotary positional embeddings (RoPE) to generate a latent representation of trajectory-relevant and user-specific neuromotor factors, and augments trajectory prediction with flow matching to produce a distribution over plausible prescriptions biased toward the training distribution. Using data from 16 healthy participants completing 15 isometric trajectory tracking tasks, we evaluate generalization across held-out tasks and users, as well as the feasibility of user-specific fine-tuning within a therapy-session timescale. The model achieves mean trajectory prediction errors of <8% on held out tasks and users, with effectively instantaneous deterministic inference and sub-second sampling of trajectory distributions. An initial test using the model during live rehabilitation tasks demonstrates that, on average, participants reach the target neuromotor activations with just 15% error accumulated throughout the task. These results provide a proof of concept for data-driven, activation-targeted trajectory prescription in robot-mediated rehabilitation and establish a foundation for future validation in clinical populations. Data and code have been open-sourced as part of the OpenRobotRehab project on SimTK.",
+      "published_utc": "2026-11-05T16:55:55Z",
+      "updated_utc": "2026-11-05T16:55:55Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.08295v1",
+      "abs_url": "http://arxiv.org/abs/2611.08295v1"
+    },
+    "2611.07208v1": {
+      "arxiv_id": "2611.07208v1",
+      "title": "Structured Machine Theory of Mind from Agent Trajectories",
+      "authors": [
+        "Nigel F. Doering",
+        "Rahath Malladi",
+        "Arshia Sangwan",
+        "M Tanjid Hasan Tonmoy",
+        "Jacob Doan",
+        "David Danks",
+        "Tauhidur Rahman"
+      ],
+      "summary": "Predictive models of human behavior trained on large-scale trajectory data optimize for statistical accuracy without representing the mental states that causally generate behavior. Such models support prediction but not principled intervention: they cannot answer how an agent's behavior would change if its beliefs or preferences were different. We introduce Structured Machine Theory of Mind (SMToM), a framework that attributes explicit, independently supervised belief and desire representations from observed trajectories within a Belief-Desire-Intention (BDI) causal structure. The central architectural element is a goal head that consumes only the predicted mental-state channels and a current-trajectory embedding; counterfactual intervention on beliefs and desires is a direct operation. We instantiate SMToM on a controlled pedestrian navigation domain where ground-truth mental states are known by construction, enabling evaluation of attribution accuracy, local channel interventions, and trajectory-level counterfactual diagnostics. The resulting model, BDIBottleneck, improves over trajectory-only and unsupervised-context neural baselines. It is also competitive with a matched auxiliary-supervised context baseline while providing an editable mental-state interface that the unbottlenecked baseline lacks. Counterfactual experiments on desires confirm that substituting an agent's inferred preferences with a different activity type coherently shifts predicted destinations toward relevant locations. Counterfactual experiments on beliefs confirm that marking a location as unavailable in the agent's belief state reduces its predicted probability as a destination, though in a complex way. These results demonstrate, in a controlled navigation setting, that explicit BDI-structured supervision is a viable foundation for interpretable and counterfactual analysis of longitudinal trajectory data.",
+      "published_utc": "2026-11-04T22:56:30Z",
+      "updated_utc": "2026-11-04T22:56:30Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.07208v1",
+      "abs_url": "http://arxiv.org/abs/2611.07208v1"
     }
   },
   "topics": {
@@ -21933,9 +21976,10 @@
         "2611.03189v1",
         "2611.04309v1",
         "2611.03744v1",
-        "2610.27877v2"
+        "2610.27877v2",
+        "2611.08295v1"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-06"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22075,9 +22119,10 @@
         "2610.07954v1",
         "2610.23356v1",
         "2610.37267v1",
-        "2610.39958v1"
+        "2610.39958v1",
+        "2611.07208v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-06"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22661,9 +22706,10 @@
         "2611.06837v1",
         "2611.06635v1",
         "2611.05062v2",
-        "2610.22215v2"
+        "2610.22215v2",
+        "2611.08295v1"
       ],
-      "latest_update": "2026-11-05"
+      "latest_update": "2026-11-06"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -22886,9 +22932,10 @@
         "2611.04309v1",
         "2611.06837v1",
         "2611.06635v1",
-        "2610.22215v2"
+        "2610.22215v2",
+        "2611.08295v1"
       ],
-      "latest_update": "2026-11-05"
+      "latest_update": "2026-11-06"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -23102,9 +23149,10 @@
         "2610.39416v2",
         "2610.27877v2",
         "2611.06635v1",
-        "2610.22215v2"
+        "2610.22215v2",
+        "2611.08295v1"
       ],
-      "latest_update": "2026-11-05"
+      "latest_update": "2026-11-06"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -23700,9 +23748,10 @@
         "2610.23356v1",
         "2604.03463v2",
         "2610.37267v1",
-        "2610.39958v1"
+        "2610.39958v1",
+        "2611.07208v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-06"
     }
   }
 }

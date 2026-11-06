@@ -1,11 +1,14 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-11-05` (timezone: `Europe/Athens`)
+Updated: `2026-11-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **136**
+Total papers tracked: **137**
 
 ---
 
+- **Structured Machine Theory of Mind from Agent Trajectories**  
+  *Nigel F. Doering, Rahath Malladi, Arshia Sangwan, M Tanjid Hasan Tonmoy, Jacob Doan, David Danks, Tauhidur Rahman*  
+  Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.07208v1) · [pdf](https://arxiv.org/pdf/2611.07208v1) · id: `2611.07208v1`
 - **Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction**  
   *Shang Gao, Franz Götz-Hahn, Konrad Doll, Bernhard Sick*  
   Published: `2026-10-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.39958v1) · [pdf](https://arxiv.org/pdf/2610.39958v1) · id: `2610.39958v1`

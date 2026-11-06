@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-05` (timezone: `Europe/Athens`)
+Updated: `2026-11-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **312**
+Total papers tracked: **313**
 
 ---
 
+- **Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation**  
+  *Gabriel Parra, Kimia Khoshnami, Daniel S. Brown, Laura A. Hallock*  
+  Published: `2026-11-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.08295v1) · [pdf](https://arxiv.org/pdf/2611.08295v1) · id: `2611.08295v1`
 - **What Is the Influence of Task Order in Continual Learning? An Empirical Study and Order-Aware Evaluation for Motion Forecasting**  
   *Zirui Li, Yunlong Lin, Haohan Yang, Xiaocong Zhao, Chen Lv*  
   Published: `2026-11-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.04309v1) · [pdf](https://arxiv.org/pdf/2611.04309v1) · id: `2611.04309v1`

@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-05` (timezone: `Europe/Athens`)
+Updated: `2026-11-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **210**
+Total papers tracked: **211**
 
 ---
 
+- **Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation**  
+  *Gabriel Parra, Kimia Khoshnami, Daniel S. Brown, Laura A. Hallock*  
+  Published: `2026-11-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.08295v1) · [pdf](https://arxiv.org/pdf/2611.08295v1) · id: `2611.08295v1`
 - **Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception**  
   *Jiuwu Hao, Yuting Wan, Liguo Sun, Zao Zhang, Yueyang Wu, Pin Lv*  
   Published: `2026-11-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.06635v1) · [pdf](https://arxiv.org/pdf/2611.06635v1) · id: `2611.06635v1`

@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-05` (timezone: `Europe/Athens`)
+Updated: `2026-11-06` (timezone: `Europe/Athens`)
 
-Total papers tracked: **219**
+Total papers tracked: **220**
 
 ---
 
+- **Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation**  
+  *Gabriel Parra, Kimia Khoshnami, Daniel S. Brown, Laura A. Hallock*  
+  Published: `2026-11-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.08295v1) · [pdf](https://arxiv.org/pdf/2611.08295v1) · id: `2611.08295v1`
 - **Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token**  
   *Tommy He, Thomas Jiralerspong*  
   Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.06837v1) · [pdf](https://arxiv.org/pdf/2611.06837v1) · id: `2611.06837v1`
