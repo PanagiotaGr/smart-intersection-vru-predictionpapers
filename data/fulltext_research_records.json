@@ -11773,6 +11773,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.22215v2": {
+      "schema_version": 1,
+      "paper_id": "2610.22215v2",
+      "title": "FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2610.22215v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.22795v1": {
       "schema_version": 1,
       "paper_id": "2610.22795v1",
@@ -12121,11 +12133,47 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2611.05062v2": {
+      "schema_version": 1,
+      "paper_id": "2611.05062v2",
+      "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+      "pdf_url": "https://arxiv.org/pdf/2611.05062v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2611.05249v1": {
       "schema_version": 1,
       "paper_id": "2611.05249v1",
       "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
       "pdf_url": "https://arxiv.org/pdf/2611.05249v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.06635v1": {
+      "schema_version": 1,
+      "paper_id": "2611.06635v1",
+      "title": "Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception",
+      "pdf_url": "https://arxiv.org/pdf/2611.06635v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.06837v1": {
+      "schema_version": 1,
+      "paper_id": "2611.06837v1",
+      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+      "pdf_url": "https://arxiv.org/pdf/2611.06837v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
