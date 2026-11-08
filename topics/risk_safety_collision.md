@@ -1,6 +1,6 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-07` (timezone: `Europe/Athens`)
+Updated: `2026-11-08` (timezone: `Europe/Athens`)
 
 Total papers tracked: **288**
 
