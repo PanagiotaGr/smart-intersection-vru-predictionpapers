@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-08` (timezone: `Europe/Athens`)
+Updated: `2026-11-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **288**
+Total papers tracked: **289**
 
 ---
 
+- **Personalized health coaching via coachable health age and counterfactual wearable trajectories**  
+  *Simon A. Lee, Zeinab Esmaeilpour, Menglian Zhou, Marius Guerard, Sohrab Sidhu, Alexandru Solot, Hamid Palangi, Pramod Rudrapatna et al.*  
+  Published: `2026-11-05` · Category: `q-bio.QM` · [abs](http://arxiv.org/abs/2611.08568v1) · [pdf](https://arxiv.org/pdf/2611.08568v1) · id: `2611.08568v1`
 - **Physics-Based Plausibility Assessment of AI-Predicted Vehicle Parameters for Automotive Radar in Pre-Crash Scenarios**  
   *Rainer Engert, Patrick Zaumseil, Thomas Brandmeier*  
   Published: `2026-11-03` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.04871v1) · [pdf](https://arxiv.org/pdf/2611.04871v1) · id: `2611.04871v1`

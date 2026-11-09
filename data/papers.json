@@ -21428,6 +21428,80 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.07208v1",
       "abs_url": "http://arxiv.org/abs/2611.07208v1"
+    },
+    "2611.09882v1": {
+      "arxiv_id": "2611.09882v1",
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "authors": [
+        "Aadya Agrawal",
+        "Ho Kei Cheng",
+        "Alexander Schwing"
+      ],
+      "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching framework that jointly generates diverse future motions for multiple agents, modeling both global trajectories and root-relative poses. A B-spline reparameterization compresses the generative state space while enforcing temporal smoothness, and a dual-stream transformer conditions each agent's predictions on observed neighbor motion for interaction-aware forecasting. Our method achieves state-of-the-art performance on CMU-Mocap (UMPM) and 3DPW, outperforming deterministic baselines on joint position error, pose error, and final displacement error despite producing a full predictive distribution. We additionally establish the first motion prediction baseline on WorldPose, a large-scale professional soccer dataset, where social conditioning demonstrably concentrates predictive uncertainty along interaction-constrained directions.",
+      "published_utc": "2026-11-06T18:56:41Z",
+      "updated_utc": "2026-11-06T18:56:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09882v1",
+      "abs_url": "http://arxiv.org/abs/2611.09882v1"
+    },
+    "2611.08568v1": {
+      "arxiv_id": "2611.08568v1",
+      "title": "Personalized health coaching via coachable health age and counterfactual wearable trajectories",
+      "authors": [
+        "Simon A. Lee",
+        "Zeinab Esmaeilpour",
+        "Menglian Zhou",
+        "Marius Guerard",
+        "Sohrab Sidhu",
+        "Alexandru Solot",
+        "Hamid Palangi",
+        "Pramod Rudrapatna",
+        "Ming-Zher Poh",
+        "Max A. Xu",
+        "Daniel McDuff",
+        "Dimitrios Antos",
+        "Yuzhe Yang",
+        "Jeffrey N. Chiang",
+        "Anthony Z. Faranesh",
+        "Lindsey Sunden",
+        "Mark Malhotra",
+        "Shwetak Patel",
+        "A. Ali Heydari",
+        "Ahmed A. Metwally"
+      ],
+      "summary": "Personalized health coaching requires moving beyond retrospective wearable summaries toward quantitative, actionable behavioral prescriptions. We introduce Coachable Health Age (CHA), an interpretable health-age metric built from modifiable physiological and behavioral signals passively captured by consumer wearables. Across the WEAR-ME (N=2,780), All of Us (N=22,748), and longitudinal Fitbit (N=1,464) cohorts, CHA aligns with established cardiometabolic health constructs and improves prognostic discrimination for incident cardiovascular and metabolic disease beyond age, sex, and body mass index. To enable prospective behavioral optimization, we developed Sensor World Model (SensorWM), an action-conditioned wearable world model pretrained on over 2.2 million person-weeks of longitudinal sensor data from approximately 100,000 participants. SensorWM accurately forecasts multi-week physiological responses to candidate lifestyle changes ($R^2=0.664$), outperforming generic time-series foundation models while preserving downstream clinical signal for diabetes, hypertension, and other health outcomes. Finally, we integrate CHA and SensorWM into an agentic counterfactual coaching system to synthesize personalized 12-week coaching plans. In blinded paired reviews, certified lifestyle coaches preferred counterfactual-grounded plans over plans grounded in wearable history alone for overall quality (71.4%, P < 0.001) and anticipated adherence (71.0%, P < 0.001), and board-certified clinicians judged 99.2% of counterfactual-grounded plans to meet clinical safety criteria (vs. 97.6% of comparison plans). Automated evaluations across the full cohort (N=2,780) also favored counterfactual-grounded plans. By closing the loop between longitudinal tracking, trajectory prediction, and counterfactual coaching, our framework provides a scalable path to systematically improve cardiometabolic health.",
+      "published_utc": "2026-11-05T17:52:57Z",
+      "updated_utc": "2026-11-05T17:52:57Z",
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.08568v1",
+      "abs_url": "http://arxiv.org/abs/2611.08568v1"
+    },
+    "2611.09118v1": {
+      "arxiv_id": "2611.09118v1",
+      "title": "Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage",
+      "authors": [
+        "Haoran Yang",
+        "Shan Lu",
+        "Takaya Yamazato"
+      ],
+      "summary": "This paper proposes a transmitter-side semantic extraction framework for goal-oriented Vehicle-to-Everything (V2X) communication supporting safe intersection passage. Instead of transmitting raw sensory data, roadside infrastructure extracts task-relevant semantic information from video and traffic-signal sequences and organizes them into compact semantic packets for low-latency driving-decision assistance. The intersection-passing problem is formulated as a set of traffic tasks under Japanese traffic regulations, and the proposed pipeline generates perception and intent semantics through object detection, object tracking, region-of-interest (ROI)-based semantic extraction, and recommended-action generation. The framework is implemented and evaluated on a self-constructed, CARLA-based single-vehicle dataset collected under clear weather conditions. Experimental results show high recommended-action accuracy within the tested task set, while the mean processing latency remains below the frame interval of the 15~fps input video.",
+      "published_utc": "2026-11-06T07:56:31Z",
+      "updated_utc": "2026-11-06T07:56:31Z",
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09118v1",
+      "abs_url": "http://arxiv.org/abs/2611.09118v1"
     }
   },
   "topics": {
@@ -21977,9 +22051,10 @@
         "2611.04309v1",
         "2611.03744v1",
         "2610.27877v2",
-        "2611.08295v1"
+        "2611.08295v1",
+        "2611.09882v1"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-09"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22414,9 +22489,10 @@
         "2610.18093v2",
         "2611.01372v1",
         "2611.00231v1",
-        "2611.04871v1"
+        "2611.04871v1",
+        "2611.08568v1"
       ],
-      "latest_update": "2026-11-04"
+      "latest_update": "2026-11-09"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -22707,9 +22783,10 @@
         "2611.06635v1",
         "2611.05062v2",
         "2610.22215v2",
-        "2611.08295v1"
+        "2611.08295v1",
+        "2611.09882v1"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-09"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23441,9 +23518,11 @@
         "2610.39278v1",
         "2610.41185v1",
         "2611.05062v1",
-        "2611.05062v2"
+        "2611.05062v2",
+        "2611.09118v1",
+        "2611.08568v1"
       ],
-      "latest_update": "2026-11-05"
+      "latest_update": "2026-11-09"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-08` (timezone: `Europe/Athens`)
+Updated: `2026-11-09` (timezone: `Europe/Athens`)
 
-Total papers tracked: **72**
+Total papers tracked: **74**
 
 ---
 
+- **Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage**  
+  *Haoran Yang, Shan Lu, Takaya Yamazato*  
+  Published: `2026-11-06` · Category: `eess.IV` · [abs](http://arxiv.org/abs/2611.09118v1) · [pdf](https://arxiv.org/pdf/2611.09118v1) · id: `2611.09118v1`
+- **Personalized health coaching via coachable health age and counterfactual wearable trajectories**  
+  *Simon A. Lee, Zeinab Esmaeilpour, Menglian Zhou, Marius Guerard, Sohrab Sidhu, Alexandru Solot, Hamid Palangi, Pramod Rudrapatna et al.*  
+  Published: `2026-11-05` · Category: `q-bio.QM` · [abs](http://arxiv.org/abs/2611.08568v1) · [pdf](https://arxiv.org/pdf/2611.08568v1) · id: `2611.08568v1`
 - **FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video**  
   *Jeremy Collins, Namra Patel, Ayush Agarwal, Shitij Govil, Animesh Garg*  
   Published: `2026-11-03` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.05062v1) · [pdf](https://arxiv.org/pdf/2611.05062v1) · id: `2611.05062v1`
