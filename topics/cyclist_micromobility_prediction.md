@@ -1,8 +1,8 @@
 # Cyclist and Micromobility Prediction
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **50**
+Total papers tracked: **51**
 
 ---
 
@@ -30,6 +30,9 @@ Total papers tracked: **50**
 - **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
   *Hongyan Wei, Wael AbdAlmageed*  
   Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v1) · [pdf](https://arxiv.org/pdf/2603.12421v1) · id: `2603.12421v1`
+- **A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning**  
+  *Hongyan Wei, Wael AbdAlmageed*  
+  Published: `2026-03-12` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2603.12421v2) · [pdf](https://arxiv.org/pdf/2603.12421v2) · id: `2603.12421v2`
 - **Monocular Visual 8D Pose Estimation for Articulated Bicycles and Cyclists**  
   *Eduardo R. Corral-Soto, Yang Liu, Yuan Ren, Bai Dongfeng, Liu Bingbing*  
   Published: `2025-10-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2510.20158v1) · [pdf](https://arxiv.org/pdf/2510.20158v1) · id: `2510.20158v1`

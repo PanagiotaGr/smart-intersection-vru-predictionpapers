@@ -1,8 +1,8 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **289**
+Total papers tracked: **290**
 
 ---
 
@@ -129,6 +129,9 @@ Total papers tracked: **289**
 - **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
   *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
   Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v1) · [pdf](https://arxiv.org/pdf/2608.12037v1) · id: `2608.12037v1`
+- **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
+  *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
+  Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v2) · [pdf](https://arxiv.org/pdf/2608.12037v2) · id: `2608.12037v2`
 - **RiskWorld: Object-Centric Latent World Modeling for Autonomous Driving Risk Identification**  
   *Jingzheng Li, Yufei Ge, Qianren Mao, Zhijun Chen, Bing Li, Xingyu Peng, Baochang Zhang, Xianglong Liu*  
   Published: `2026-08-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.21414v1) · [pdf](https://arxiv.org/pdf/2608.21414v1) · id: `2608.21414v1`

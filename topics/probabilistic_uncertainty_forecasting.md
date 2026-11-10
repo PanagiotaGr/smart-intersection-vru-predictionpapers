@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **220**
+Total papers tracked: **222**
 
 ---
 
+- **SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction**  
+  *Jaewoo Jeong, Seonkyu Song, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon*  
+  Published: `2026-11-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.10506v1) · [pdf](https://arxiv.org/pdf/2611.10506v1) · id: `2611.10506v1`
 - **Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation**  
   *Gabriel Parra, Kimia Khoshnami, Daniel S. Brown, Laura A. Hallock*  
   Published: `2026-11-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.08295v1) · [pdf](https://arxiv.org/pdf/2611.08295v1) · id: `2611.08295v1`
@@ -123,6 +126,9 @@ Total papers tracked: **220**
 - **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
   *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
   Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v1) · [pdf](https://arxiv.org/pdf/2608.12037v1) · id: `2608.12037v1`
+- **Clustered Randomized Smoothing for Stochastic Prediction Functions**  
+  *Eduardo Figueiredo, Frederik Mathiesen, Julian Schumann, Jens Kober, Arkady Zgonnikov, Luca Laurenti*  
+  Published: `2026-08-12` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2608.12037v2) · [pdf](https://arxiv.org/pdf/2608.12037v2) · id: `2608.12037v2`
 - **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation**  
   *Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao, Xiansheng Chen, Pengwei Wang et al.*  
   Published: `2026-08-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2608.09771v1) · [pdf](https://arxiv.org/pdf/2608.09771v1) · id: `2608.09771v1`

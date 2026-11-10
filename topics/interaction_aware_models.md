@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **314**
+Total papers tracked: **315**
 
 ---
 
+- **SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction**  
+  *Jaewoo Jeong, Seonkyu Song, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon*  
+  Published: `2026-11-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.10506v1) · [pdf](https://arxiv.org/pdf/2611.10506v1) · id: `2611.10506v1`
 - **FlowMoP: Stochastic Multi-Person Motion Prediction**  
   *Aadya Agrawal, Ho Kei Cheng, Alexander Schwing*  
   Published: `2026-11-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.09882v1) · [pdf](https://arxiv.org/pdf/2611.09882v1) · id: `2611.09882v1`

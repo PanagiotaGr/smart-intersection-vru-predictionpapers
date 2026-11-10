@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **156**
+Total papers tracked: **157**
 
 ---
 
+- **NightSteps: A Night-Time Dataset and Benchmark for Pedestrian Crossing Intention Prediction**  
+  *Sjoerd Takken, Shaodi You*  
+  Published: `2026-11-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.11583v1) · [pdf](https://arxiv.org/pdf/2611.11583v1) · id: `2611.11583v1`
 - **Structured Machine Theory of Mind from Agent Trajectories**  
   *Nigel F. Doering, Rahath Malladi, Arshia Sangwan, M Tanjid Hasan Tonmoy, Jacob Doan, David Danks, Tauhidur Rahman*  
   Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.07208v1) · [pdf](https://arxiv.org/pdf/2611.07208v1) · id: `2611.07208v1`

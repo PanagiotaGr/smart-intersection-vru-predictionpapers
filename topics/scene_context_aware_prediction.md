@@ -1,8 +1,8 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **288**
+Total papers tracked: **289**
 
 ---
 
@@ -33,6 +33,9 @@ Total papers tracked: **288**
 - **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
   *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
   Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v1) · [pdf](https://arxiv.org/pdf/2611.02076v1) · id: `2611.02076v1`
+- **Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs**  
+  *Seungjun Yu, Jiho Choi, Inha Kang, Hojun Choi, Seungwook Kim, Hyunjung Shim*  
+  Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.02076v2) · [pdf](https://arxiv.org/pdf/2611.02076v2) · id: `2611.02076v2`
 - **IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation**  
   *Shiwei Yang, Yunlong Yu, Zhao Wang, Jungong Han*  
   Published: `2026-11-01` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.01372v1) · [pdf](https://arxiv.org/pdf/2611.01372v1) · id: `2611.01372v1`

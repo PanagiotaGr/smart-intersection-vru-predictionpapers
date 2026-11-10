@@ -1,11 +1,14 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-11-09` (timezone: `Europe/Athens`)
+Updated: `2026-11-10` (timezone: `Europe/Athens`)
 
-Total papers tracked: **75**
+Total papers tracked: **76**
 
 ---
 
+- **NightSteps: A Night-Time Dataset and Benchmark for Pedestrian Crossing Intention Prediction**  
+  *Sjoerd Takken, Shaodi You*  
+  Published: `2026-11-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.11583v1) · [pdf](https://arxiv.org/pdf/2611.11583v1) · id: `2611.11583v1`
 - **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
   *Yuanzhe Li, Meng Wang*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v1) · [pdf](https://arxiv.org/pdf/2610.23356v1) · id: `2610.23356v1`

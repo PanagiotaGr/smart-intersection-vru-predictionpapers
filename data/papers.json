@@ -21502,6 +21502,108 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.09118v1",
       "abs_url": "http://arxiv.org/abs/2611.09118v1"
+    },
+    "2603.12421v2": {
+      "arxiv_id": "2603.12421v2",
+      "title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "authors": [
+        "Hongyan Wei",
+        "Wael AbdAlmageed"
+      ],
+      "summary": "Existing end-to-end autonomous driving models rely heavily on purely data-driven inductive reasoning. This \"black-box\" nature limits interpretability and makes safety-critical planning challenging in complex, long-tail scenarios. To overcome this bottleneck, we propose a novel neuro-symbolic trajectory planning (NS-Plan) framework, which integrates rigorous deductive reasoning into end-to-end neural networks. Specifically, our framework utilizes a Large Language Model (LLM) to dynamically extract scene rules and employs an Answer Set Programming (ASP) solver for deterministic logical arbitration, generating logically consistent and traceable discrete driving decisions. To bridge the gap between discrete symbols and continuous trajectories, we introduce a decision-conditioned decoding mechanism that transforms high-level logical decisions into learnable embedding vectors, simultaneously constraining the planning query and the physical initial velocity of a differentiable Kinematic Bicycle Model (KBM). By combining KBM-generated baseline trajectories with neural residual corrections, our approach uses the KBM to guide trajectory generation while keeping the decision-making process traceable. On the nuScenes benchmark, our method (NS-Plan) comprehensively outperforms state-of-the-art baselines, reducing the average $L_2$ error by 18.3% (to 0.49 m), the collision rate by 22.2% (to 0.07%), and improving the trajectory prediction consistency (TPC) by 13% (to 0.47 m) compared to MomAD. More importantly, in the complex Turning-nuScenes subset, our method reduces the collision rate by 78.1% (to 0.07%) over the baseline.",
+      "published_utc": "2026-03-12T20:09:18Z",
+      "updated_utc": "2026-11-08T17:13:30Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.12421v2",
+      "abs_url": "http://arxiv.org/abs/2603.12421v2"
+    },
+    "2611.10506v1": {
+      "arxiv_id": "2611.10506v1",
+      "title": "SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction",
+      "authors": [
+        "Jaewoo Jeong",
+        "Seonkyu Song",
+        "Hyeonwoo Park",
+        "Jegyeong Cho",
+        "Yujin Bae",
+        "Giwon Lee",
+        "Daehee Park",
+        "Kuk-Jin Yoon"
+      ],
+      "summary": "Predicting where multiple agents will move next is fundamental to autonomous driving, robotics, and any system that must share space with people safely. Modern stochastic predictors read off inter-agent interactions once from the observed past and keep that view fixed throughout the generative rollout, so the reciprocal geometric constraints that emerge as the joint future sharpens are not re-examined. We address this gap with SRA (Spatial Reasoning Adapter), a modular graph denoiser that is integrated into existing diffusion and flow-matching predictors without redesigning their generative cores. At every reverse step, SRA reads the host's current future estimate, builds a sparse Euclidean interaction graph on the predicted trajectories, and returns a residual correction to the host's decoding path. Our adapter consists of three core components: a sparse neighborhood retrieved with a learned query-key score and a geometric bias, a future-conditioned relational feature recomputed on the evolving prediction, and uncertainty-weighted message passing where confident agents act as anchors for uncertain ones. We instantiate SRA on three structurally different hosts (LED, MID, and MoFlow) across four multi-agent benchmarks: SDD, NBA, Soccer, and Football. SRA improves ADE for every host on every dataset, with average gains of 5.8% in ADE and 7.0% in FDE. A cumulative ablation shows that the three components act as one mechanism: only together do they improve every host on every sports dataset, indicating that spatial reasoning over the model's own evolving future, weighted by how far that future can be trusted, is broadly useful across denoising architectures. Code is available at https://github.com/Jaewoo97/SRA.",
+      "published_utc": "2026-11-07T06:16:58Z",
+      "updated_utc": "2026-11-07T06:16:58Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.10506v1",
+      "abs_url": "http://arxiv.org/abs/2611.10506v1"
+    },
+    "2611.11583v1": {
+      "arxiv_id": "2611.11583v1",
+      "title": "NightSteps: A Night-Time Dataset and Benchmark for Pedestrian Crossing Intention Prediction",
+      "authors": [
+        "Sjoerd Takken",
+        "Shaodi You"
+      ],
+      "summary": "Autonomous vehicles use pedestrian crossing intention prediction (PCIP) to participate safely in traffic. Existing models are largely trained under favourable daytime conditions with sufficient daylight. Little is known about the robustness of these models under night-time and low-light conditions, due to the lack of datasets containing night-time footage. This paper investigates how a dataset, named NightSteps, can be constructed and evaluated as a baseline benchmark. The dataset is based on nighttime dashcam footage collected from six different cities around the world, capturing a wide variety of road conditions. The dataset consists of dashcam-recorded point-of-view footage, raw data of pedestrians' locations with corresponding 'track ids' and ground-truth labels containing accurate information about pedestrian crossing behaviour, resulting in a diverse dataset. Gemini, ChatGPT, and human assessment are used to demonstrate the usability of the dataset by predicting crossings in clips from the dataset and comparing the results with the initial ground-truth labels. These results show that human input achieves an accuracy of 88.17% and an F1-score of 80.21%. Predictions from Gemini and ChatGPT perform lower, with accuracies of 60% and 79.13% respectively, and F1-scores of 42.50% and 63.64%. The evaluation demonstrates that the NightSteps dataset can be used for future model evaluation to test the performance of PCIP, with the aim of improving road safety at night.",
+      "published_utc": "2026-11-08T19:56:54Z",
+      "updated_utc": "2026-11-08T19:56:54Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.11583v1",
+      "abs_url": "http://arxiv.org/abs/2611.11583v1"
+    },
+    "2608.12037v2": {
+      "arxiv_id": "2608.12037v2",
+      "title": "Clustered Randomized Smoothing for Stochastic Prediction Functions",
+      "authors": [
+        "Eduardo Figueiredo",
+        "Frederik Mathiesen",
+        "Julian Schumann",
+        "Jens Kober",
+        "Arkady Zgonnikov",
+        "Luca Laurenti"
+      ],
+      "summary": "Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered $α$-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies $α$-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of $α$-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a $27\\%$ lower Wasserstein distance to the ground-truth distribution compared to $α$-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by $90\\%$ relative to the state-of-the-art randomized smoothing.",
+      "published_utc": "2026-08-12T13:20:36Z",
+      "updated_utc": "2026-11-07T18:53:04Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.12037v2",
+      "abs_url": "http://arxiv.org/abs/2608.12037v2"
+    },
+    "2611.02076v2": {
+      "arxiv_id": "2611.02076v2",
+      "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+      "authors": [
+        "Seungjun Yu",
+        "Jiho Choi",
+        "Inha Kang",
+        "Hojun Choi",
+        "Seungwook Kim",
+        "Hyunjung Shim"
+      ],
+      "summary": "Diffusion driving vision-language-action models repeatedly execute the backbone at every denoising stage, incurring substantial inference cost, while it remains unclear whether all scenes require the same decoding computation. To distinguish when a trajectory becomes readable from how much further refinement it requires, we analyze trajectory readout across network depth and decoding progress. We identify a depth-decoding dissociation in which late-layer representations already support useful trajectory readout after the first forward sweep, whereas early-layer representations benefit more from continued decoding. We further find that both the preferred readout layer and decoding depth vary across scenes. Based on these observations, we propose a scene-adaptive readout and decoding framework. A scene-conditioned readout MoE adaptively weights and combines trajectory predictions from layer-specific late-layer representations after a single backbone sweep, while an adaptive decoding policy applies additional native refinement only when required by the scene. We evaluate our framework on two diffusion driving VLAs across the Waymo E2E and nuScenes benchmarks. Our method improves validation RFS by up to 0.56 while also improving test performance, and achieves an end-to-end speedup of up to $6.0\\times$ on Waymo E2E, while consistently reducing trajectory error on nuScenes. These results demonstrate that scene-level readout and decoding allocation improves planning quality while avoiding unnecessary decoding. Our code is available at https://github.com/sjyu001/SARD",
+      "published_utc": "2026-11-01T17:30:51Z",
+      "updated_utc": "2026-11-09T07:54:12Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.02076v2",
+      "abs_url": "http://arxiv.org/abs/2611.02076v2"
     }
   },
   "topics": {
@@ -21732,9 +21834,10 @@
         "2607.16156v1",
         "2510.03314v2",
         "2609.27077v1",
-        "2606.15251v2"
+        "2606.15251v2",
+        "2603.12421v2"
       ],
-      "latest_update": "2026-10-15"
+      "latest_update": "2026-11-10"
     },
     "interaction_aware_models": {
       "name": "Interaction-aware & Social Models",
@@ -22052,9 +22155,10 @@
         "2611.03744v1",
         "2610.27877v2",
         "2611.08295v1",
-        "2611.09882v1"
+        "2611.09882v1",
+        "2611.10506v1"
       ],
-      "latest_update": "2026-11-09"
+      "latest_update": "2026-11-10"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22195,9 +22299,10 @@
         "2610.23356v1",
         "2610.37267v1",
         "2610.39958v1",
-        "2611.07208v1"
+        "2611.07208v1",
+        "2611.11583v1"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-10"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22490,9 +22595,10 @@
         "2611.01372v1",
         "2611.00231v1",
         "2611.04871v1",
-        "2611.08568v1"
+        "2611.08568v1",
+        "2608.12037v2"
       ],
-      "latest_update": "2026-11-09"
+      "latest_update": "2026-11-10"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -22784,9 +22890,10 @@
         "2611.05062v2",
         "2610.22215v2",
         "2611.08295v1",
-        "2611.09882v1"
+        "2611.09882v1",
+        "2611.02076v2"
       ],
-      "latest_update": "2026-11-09"
+      "latest_update": "2026-11-10"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23010,9 +23117,11 @@
         "2611.06837v1",
         "2611.06635v1",
         "2610.22215v2",
-        "2611.08295v1"
+        "2611.08295v1",
+        "2611.10506v1",
+        "2608.12037v2"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-10"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -23227,9 +23336,11 @@
         "2610.27877v2",
         "2611.06635v1",
         "2610.22215v2",
-        "2611.08295v1"
+        "2611.08295v1",
+        "2611.10506v1",
+        "2611.02076v2"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-10"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -23440,9 +23551,10 @@
         "2609.24193v3",
         "2610.01751v1",
         "2610.15577v1",
-        "2610.23356v1"
+        "2610.23356v1",
+        "2611.11583v1"
       ],
-      "latest_update": "2026-10-19"
+      "latest_update": "2026-11-10"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -23828,9 +23940,10 @@
         "2604.03463v2",
         "2610.37267v1",
         "2610.39958v1",
-        "2611.07208v1"
+        "2611.07208v1",
+        "2611.11583v1"
       ],
-      "latest_update": "2026-11-06"
+      "latest_update": "2026-11-10"
     }
   }
 }
