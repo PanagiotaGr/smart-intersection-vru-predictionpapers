@@ -12204,6 +12204,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2611.08568v1": {
+      "schema_version": 1,
+      "paper_id": "2611.08568v1",
+      "title": "Personalized health coaching via coachable health age and counterfactual wearable trajectories",
+      "pdf_url": "https://arxiv.org/pdf/2611.08568v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.09118v1": {
+      "schema_version": 1,
+      "paper_id": "2611.09118v1",
+      "title": "Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage",
+      "pdf_url": "https://arxiv.org/pdf/2611.09118v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.09882v1": {
+      "schema_version": 1,
+      "paper_id": "2611.09882v1",
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.09882v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
