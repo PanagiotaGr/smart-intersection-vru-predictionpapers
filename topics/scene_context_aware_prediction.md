@@ -1,11 +1,17 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-10` (timezone: `Europe/Athens`)
+Updated: `2026-11-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **289**
+Total papers tracked: **292**
 
 ---
 
+- **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning**  
+  *Avinash Singh, Manish Saroya, Fatemeh Cheraghi Pouria, Faizan Tariq, Jovin D'sa, David Isele, Yosuke Sakamoto, Sangjae Bae*  
+  Published: `2026-11-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.14414v1) · [pdf](https://arxiv.org/pdf/2611.14414v1) · id: `2611.14414v1`
+- **EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues**  
+  *Xin Zhao, Pengzhan Zhou, Ziyi Li, Riheng Jia, Zhida Qin, Yu Liu*  
+  Published: `2026-11-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.13654v1) · [pdf](https://arxiv.org/pdf/2611.13654v1) · id: `2611.13654v1`
 - **FlowMoP: Stochastic Multi-Person Motion Prediction**  
   *Aadya Agrawal, Ho Kei Cheng, Alexander Schwing*  
   Published: `2026-11-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.09882v1) · [pdf](https://arxiv.org/pdf/2611.09882v1) · id: `2611.09882v1`
@@ -48,6 +54,9 @@ Total papers tracked: **289**
 - **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction**  
   *Akila Ayanthi, Darshana Priyasad, Tharindu Fernando, Dimity Miller, Sridha Sridharan, Clinton Fookes, Peyman Moghadam*  
   Published: `2026-10-29` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.39416v2) · [pdf](https://arxiv.org/pdf/2610.39416v2) · id: `2610.39416v2`
+- **IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction**  
+  *Miaobo Hu, Shuhao Hu, Xiaobo Guo, Xin Wang, Bokun Wang, Daren Zha*  
+  Published: `2026-10-27` · Category: `cs.CL` · [abs](http://arxiv.org/abs/2611.12918v1) · [pdf](https://arxiv.org/pdf/2611.12918v1) · id: `2611.12918v1`
 - **Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models**  
   *Xu Hu, Changjie Wu, Linzhe Shi, Hang Zhang, Chen Yang, Lingjun Zhang, Guowen Zhang, Mu Xu et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36840v1) · [pdf](https://arxiv.org/pdf/2610.36840v1) · id: `2610.36840v1`

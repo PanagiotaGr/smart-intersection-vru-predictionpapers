@@ -1,11 +1,17 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-10` (timezone: `Europe/Athens`)
+Updated: `2026-11-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **74**
+Total papers tracked: **76**
 
 ---
 
+- **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning**  
+  *Avinash Singh, Manish Saroya, Fatemeh Cheraghi Pouria, Faizan Tariq, Jovin D'sa, David Isele, Yosuke Sakamoto, Sangjae Bae*  
+  Published: `2026-11-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.14414v1) · [pdf](https://arxiv.org/pdf/2611.14414v1) · id: `2611.14414v1`
+- **EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues**  
+  *Xin Zhao, Pengzhan Zhou, Ziyi Li, Riheng Jia, Zhida Qin, Yu Liu*  
+  Published: `2026-11-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.13654v1) · [pdf](https://arxiv.org/pdf/2611.13654v1) · id: `2611.13654v1`
 - **Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage**  
   *Haoran Yang, Shan Lu, Takaya Yamazato*  
   Published: `2026-11-06` · Category: `eess.IV` · [abs](http://arxiv.org/abs/2611.09118v1) · [pdf](https://arxiv.org/pdf/2611.09118v1) · id: `2611.09118v1`

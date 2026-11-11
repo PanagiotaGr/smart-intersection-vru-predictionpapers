@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-10` (timezone: `Europe/Athens`)
+Updated: `2026-11-11` (timezone: `Europe/Athens`)
 
-Total papers tracked: **315**
+Total papers tracked: **317**
 
 ---
 
+- **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning**  
+  *Avinash Singh, Manish Saroya, Fatemeh Cheraghi Pouria, Faizan Tariq, Jovin D'sa, David Isele, Yosuke Sakamoto, Sangjae Bae*  
+  Published: `2026-11-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.14414v1) · [pdf](https://arxiv.org/pdf/2611.14414v1) · id: `2611.14414v1`
+- **EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues**  
+  *Xin Zhao, Pengzhan Zhou, Ziyi Li, Riheng Jia, Zhida Qin, Yu Liu*  
+  Published: `2026-11-10` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.13654v1) · [pdf](https://arxiv.org/pdf/2611.13654v1) · id: `2611.13654v1`
 - **SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction**  
   *Jaewoo Jeong, Seonkyu Song, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon*  
   Published: `2026-11-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.10506v1) · [pdf](https://arxiv.org/pdf/2611.10506v1) · id: `2611.10506v1`

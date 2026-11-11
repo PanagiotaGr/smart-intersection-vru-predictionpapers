@@ -21604,6 +21604,73 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.02076v2",
       "abs_url": "http://arxiv.org/abs/2611.02076v2"
+    },
+    "2611.14414v1": {
+      "arxiv_id": "2611.14414v1",
+      "title": "SIGMO: Sigmoid Gated Interaction-Aware Motion Planning",
+      "authors": [
+        "Avinash Singh",
+        "Manish Saroya",
+        "Fatemeh Cheraghi Pouria",
+        "Faizan Tariq",
+        "Jovin D'sa",
+        "David Isele",
+        "Yosuke Sakamoto",
+        "Sangjae Bae"
+      ],
+      "summary": "Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections. These scenarios often require highly proactive strategies, simultaneously demanding interpretability and quick adaptability, which challenge end-to-end and data-driven methods. An effective strategy requires: scalability to multiple agents, adaptability to changes in other agents' behavior, and harmony with surrounding traffic without freezing or becoming overly conservative. To meet these requirements, we present SIGMO, a sigmoid-gated interaction-aware motion planner, with two main contributions. First, we formulate polynomial sigmoid functions that analytically estimate yield scores of surrounding agents using physics-grounded interaction features that capture driving intuitions. Second, we integrate the polynomial sigmoid functions into a receding-horizon planner, which facilitates interaction-aware planning with arbitrary trajectory predictions. We validate SIGMO in interaction-intensive simulations and hardware experiments. The results show that SIGMO balances proactive and defensive behavior while remaining computationally lightweight, serving as a strong baseline in a mobility stack. The simulation and hardware experiment videos are available here: https://sites.google.com/view/sigmoid-polygate.",
+      "published_utc": "2026-11-10T17:53:57Z",
+      "updated_utc": "2026-11-10T17:53:57Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.14414v1",
+      "abs_url": "http://arxiv.org/abs/2611.14414v1"
+    },
+    "2611.13654v1": {
+      "arxiv_id": "2611.13654v1",
+      "title": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+      "authors": [
+        "Xin Zhao",
+        "Pengzhan Zhou",
+        "Ziyi Li",
+        "Riheng Jia",
+        "Zhida Qin",
+        "Yu Liu"
+      ],
+      "summary": "The complex interactive dependencies between human behavior and 3D scenes make accurately predicting human intent a major challenge for human motion prediction (HMP). While recent studies use human gaze to infer intent, gaze signals suffer from ambiguity, drift, and a reliance on eye-tracking hardware. Research in cognitive science indicates that egocentric views inherently encode potential interactions, while head motion serves as a crucial precursor in motion planning. Motivated by this, we propose EgoHMP, a novel framework that uses egocentric views and head motions as robust carriers of interaction intent. By translating this intent into an envisioning of future interactions, EgoHMP achieves precise HMP in 3D scenes. EgoHMP first employs a vision-motion alignment encoder to align the visual and motion feature spaces. Based on these aligned features, an egocentric intent predictor with a modality-aware modulation mechanism adaptively suppresses invalid interaction cues to predict an accurate interaction probability map. Furthermore, to enhance the stability and realism of the generated motions, we propose a contact-aware motion decoder. Specifically, inspired by the human cognitive process of planning trajectories prior to action execution, we first predict a global trajectory to serve as a self-prompt, effectively mitigating the optimization conflict in diffusion models. Subsequently, we introduce a multi-stage denoiser, which relieves motion artifacts by incorporating human contact modeling through a multi-stage optimization strategy. Finally, a GCN-based motion decoder is employed to synthesize physically plausible and semantically consistent motions. Extensive experiments demonstrate that EgoHMP achieves state-of-the-art performance.",
+      "published_utc": "2026-11-10T06:54:06Z",
+      "updated_utc": "2026-11-10T06:54:06Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.13654v1",
+      "abs_url": "http://arxiv.org/abs/2611.13654v1"
+    },
+    "2611.12918v1": {
+      "arxiv_id": "2611.12918v1",
+      "title": "IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction",
+      "authors": [
+        "Miaobo Hu",
+        "Shuhao Hu",
+        "Xiaobo Guo",
+        "Xin Wang",
+        "Bokun Wang",
+        "Daren Zha"
+      ],
+      "summary": "Offline web-behavior benchmarks frequently insert the demonstrated action into a finite candidate set and then measure reranking. We show that this protocol can create a candidate-support confound: when the target is outside training support while all distractors are sampled from that support, support membership identifies the gold action without modeling behavior. We formalize this effect with support-identifiability rate (SIR), construct support-balanced candidate sets, and evaluate a target-free dual-path proposer that combines support retrieval with open-vocabulary DOM/LM proposals. On filtered OPeRA (4,282/469/992 train/dev/test steps), the original protocol has SIR 1.0000 on target-OOV rows and a support-only rule reaches 1.0000 OOV Exact@1. Support balancing reduces SIR to 0.0000; the strongest conditional reranker obtains 0.7214 overall Exact@1, 0.7988 on IV rows, and 0.5668 on OOV rows. The target-free dual-path system reaches Proposal Recall@16 0.6915 and end-to-end Exact@1 0.5212, compared with oracle conditional Exact@1 0.7450. On Mind2Web, the same audit yields SIR 0.2380 and an oracle-to-proposal gap of 0.2125. A 200-row semantic audit labels 0.7150 of exact-key OOV targets as semantically novel, 0.2450 as locator/string variation, and 0.0400 as ambiguous (Cohen's $κ=0.8173$). These measurements show why support composition must be controlled alongside candidate accuracy when offline results are used to reason about deployment.",
+      "published_utc": "2026-10-27T18:39:23Z",
+      "updated_utc": "2026-10-27T18:39:23Z",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.12918v1",
+      "abs_url": "http://arxiv.org/abs/2611.12918v1"
     }
   },
   "topics": {
@@ -22156,9 +22223,11 @@
         "2610.27877v2",
         "2611.08295v1",
         "2611.09882v1",
-        "2611.10506v1"
+        "2611.10506v1",
+        "2611.14414v1",
+        "2611.13654v1"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-11"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22891,9 +22960,12 @@
         "2610.22215v2",
         "2611.08295v1",
         "2611.09882v1",
-        "2611.02076v2"
+        "2611.02076v2",
+        "2611.14414v1",
+        "2611.13654v1",
+        "2611.12918v1"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-11"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23632,9 +23704,11 @@
         "2611.05062v1",
         "2611.05062v2",
         "2611.09118v1",
-        "2611.08568v1"
+        "2611.08568v1",
+        "2611.14414v1",
+        "2611.13654v1"
       ],
-      "latest_update": "2026-11-09"
+      "latest_update": "2026-11-11"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
