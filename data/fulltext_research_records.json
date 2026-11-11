@@ -6841,6 +6841,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2603.12421v2": {
+      "schema_version": 1,
+      "paper_id": "2603.12421v2",
+      "title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "pdf_url": "https://arxiv.org/pdf/2603.12421v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2603.13698v1": {
       "schema_version": 1,
       "paper_id": "2603.13698v1",
@@ -10429,6 +10441,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2608.12037v2": {
+      "schema_version": 1,
+      "paper_id": "2608.12037v2",
+      "title": "Clustered Randomized Smoothing for Stochastic Prediction Functions",
+      "pdf_url": "https://arxiv.org/pdf/2608.12037v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2608.12145v1": {
       "schema_version": 1,
       "paper_id": "2608.12145v1",
@@ -12073,6 +12097,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2611.02076v2": {
+      "schema_version": 1,
+      "paper_id": "2611.02076v2",
+      "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+      "pdf_url": "https://arxiv.org/pdf/2611.02076v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2611.03189v1": {
       "schema_version": 1,
       "paper_id": "2611.03189v1",
@@ -12234,6 +12270,30 @@
       "paper_id": "2611.09882v1",
       "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
       "pdf_url": "https://arxiv.org/pdf/2611.09882v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.10506v1": {
+      "schema_version": 1,
+      "paper_id": "2611.10506v1",
+      "title": "SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.10506v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.11583v1": {
+      "schema_version": 1,
+      "paper_id": "2611.11583v1",
+      "title": "NightSteps: A Night-Time Dataset and Benchmark for Pedestrian Crossing Intention Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.11583v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],

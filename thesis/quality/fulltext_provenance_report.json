@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "total_papers": 1020,
+  "total_papers": 1025,
   "papers_with_fulltext_claims": 0,
   "papers_eligible_for_numerical_synthesis": 0,
   "papers": [
@@ -4565,6 +4565,14 @@
       "eligible_for_numerical_synthesis": false
     },
     {
+      "paper_id": "2603.12421v2",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
       "paper_id": "2603.13698v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
@@ -6957,6 +6965,14 @@
       "eligible_for_numerical_synthesis": false
     },
     {
+      "paper_id": "2608.12037v2",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
       "paper_id": "2608.12145v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
@@ -8053,6 +8069,14 @@
       "eligible_for_numerical_synthesis": false
     },
     {
+      "paper_id": "2611.02076v2",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
       "paper_id": "2611.03189v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
@@ -8158,6 +8182,22 @@
     },
     {
       "paper_id": "2611.09882v1",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2611.10506v1",
+      "evidence_level": "title_and_abstract",
+      "claim_count": 0,
+      "validation_error_count": 0,
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    {
+      "paper_id": "2611.11583v1",
       "evidence_level": "title_and_abstract",
       "claim_count": 0,
       "validation_error_count": 0,
