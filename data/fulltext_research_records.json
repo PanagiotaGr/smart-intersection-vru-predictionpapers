@@ -12300,6 +12300,42 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2611.12918v1": {
+      "schema_version": 1,
+      "paper_id": "2611.12918v1",
+      "title": "IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.12918v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.13654v1": {
+      "schema_version": 1,
+      "paper_id": "2611.13654v1",
+      "title": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+      "pdf_url": "https://arxiv.org/pdf/2611.13654v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.14414v1": {
+      "schema_version": 1,
+      "paper_id": "2611.14414v1",
+      "title": "SIGMO: Sigmoid Gated Interaction-Aware Motion Planning",
+      "pdf_url": "https://arxiv.org/pdf/2611.14414v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
