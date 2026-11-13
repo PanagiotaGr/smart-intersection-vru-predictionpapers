@@ -1,11 +1,14 @@
 # Pedestrian Trajectory Prediction
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **169**
+Total papers tracked: **170**
 
 ---
 
+- **Prediction-Error-Tightened MPC for Socially Compliant Crowd Navigation**  
+  *Alessandro Febbraro, Federico Rollo, Marcello Farina, Luca Bascetta, Navvab Kashiri*  
+  Published: `2026-11-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.15781v1) · [pdf](https://arxiv.org/pdf/2611.15781v1) · id: `2611.15781v1`
 - **Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction**  
   *Shang Gao, Franz Götz-Hahn, Konrad Doll, Bernhard Sick*  
   Published: `2026-10-29` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.39958v1) · [pdf](https://arxiv.org/pdf/2610.39958v1) · id: `2610.39958v1`

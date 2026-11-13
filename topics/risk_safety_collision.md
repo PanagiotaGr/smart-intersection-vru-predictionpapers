@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **290**
+Total papers tracked: **292**
 
 ---
 
+- **ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation**  
+  *Guangyuan Sui, Yunzhong Hou, Chi Harold Liu*  
+  Published: `2026-11-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.17330v1) · [pdf](https://arxiv.org/pdf/2611.17330v1) · id: `2611.17330v1`
+- **Prediction-Error-Tightened MPC for Socially Compliant Crowd Navigation**  
+  *Alessandro Febbraro, Federico Rollo, Marcello Farina, Luca Bascetta, Navvab Kashiri*  
+  Published: `2026-11-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.15781v1) · [pdf](https://arxiv.org/pdf/2611.15781v1) · id: `2611.15781v1`
 - **Personalized health coaching via coachable health age and counterfactual wearable trajectories**  
   *Simon A. Lee, Zeinab Esmaeilpour, Menglian Zhou, Marius Guerard, Sohrab Sidhu, Alexandru Solot, Hamid Palangi, Pramod Rudrapatna et al.*  
   Published: `2026-11-05` · Category: `q-bio.QM` · [abs](http://arxiv.org/abs/2611.08568v1) · [pdf](https://arxiv.org/pdf/2611.08568v1) · id: `2611.08568v1`

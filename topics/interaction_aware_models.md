@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **317**
+Total papers tracked: **319**
 
 ---
 
+- **From State of THE ART to Human Prediction Algorithms**  
+  *Conghao Wong, Ziqian Zou*  
+  Published: `2026-11-12` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2611.16464v1) · [pdf](https://arxiv.org/pdf/2611.16464v1) · id: `2611.16464v1`
+- **Prediction-Error-Tightened MPC for Socially Compliant Crowd Navigation**  
+  *Alessandro Febbraro, Federico Rollo, Marcello Farina, Luca Bascetta, Navvab Kashiri*  
+  Published: `2026-11-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.15781v1) · [pdf](https://arxiv.org/pdf/2611.15781v1) · id: `2611.15781v1`
 - **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning**  
   *Avinash Singh, Manish Saroya, Fatemeh Cheraghi Pouria, Faizan Tariq, Jovin D'sa, David Isele, Yosuke Sakamoto, Sangjae Bae*  
   Published: `2026-11-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.14414v1) · [pdf](https://arxiv.org/pdf/2611.14414v1) · id: `2611.14414v1`

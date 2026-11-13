@@ -21671,6 +21671,82 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.12918v1",
       "abs_url": "http://arxiv.org/abs/2611.12918v1"
+    },
+    "2611.15781v1": {
+      "arxiv_id": "2611.15781v1",
+      "title": "Prediction-Error-Tightened MPC for Socially Compliant Crowd Navigation",
+      "authors": [
+        "Alessandro Febbraro",
+        "Federico Rollo",
+        "Marcello Farina",
+        "Luca Bascetta",
+        "Navvab Kashiri"
+      ],
+      "summary": "Autonomous navigation of mobile robots in crowded environments, while preserving pedestrians' psychological comfort, requires distinguishing pedestrians from other obstacles, predicting their future motion, and accounting for uncertainty in the predicted trajectories of both pedestrians and the robot. This work extends a previous MPC framework by integrating obstacle and pedestrian detection, Koopman-based motion prediction, and online prediction-error estimation directly within the collision-avoidance mechanism. To reduce collision-avoidance complexity in crowded scenarios, nearby obstacles are aggregated, thereby reducing the number of collision-avoidance constraints. Simulation studies evaluate the prediction-error margins and the computational benefits of semantics-aware aggregation. In a paired 300-seed closed-loop comparison with a moving generic obstacle, Markov residual tightening reduces the fraction of runs with physical contact from $10.0\\%$ to $1.33\\%$, at a mean travel-time cost of $0.68$ s. In a separate crowd-navigation semantic ablation, the offline robot-footprint/personal-space overlap occupies $2.11\\%$ of observed time with pedestrian-aware handling versus $22.84\\%$ with generic-obstacle handling.",
+      "published_utc": "2026-11-11T17:56:03Z",
+      "updated_utc": "2026-11-11T17:56:03Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.15781v1",
+      "abs_url": "http://arxiv.org/abs/2611.15781v1"
+    },
+    "2611.16464v1": {
+      "arxiv_id": "2611.16464v1",
+      "title": "From State of THE ART to Human Prediction Algorithms",
+      "authors": [
+        "Conghao Wong",
+        "Ziqian Zou"
+      ],
+      "summary": "Human curiosity and longing for the future have driven human progress from ancient times to the present. With the advancement of AI technology, human prediction algorithms have also drawn increasing attention from researchers. However, as AI technology continues to advance, we observe a counterintuitive phenomenon. Take human trajectory prediction algorithms as an example. Although models' quantitative prediction performance has improved, yielding one state-of-the-art model after another, the consideration of human behaviors, future thoughts, and social interactions themselves presents a gradually diminishing trend in the construction of these prediction algorithms, buried beneath numbers and metrics. In this manuscript, taking interactive art and human trajectory prediction algorithms as examples, we attempt to adopt a different analytical perspective to analyze the structural and developmental commonalities between these two fields. By examining specific interactive artworks and prediction algorithms, we aim to explore how human intuitions and art are associated with AI algorithms through three aspects, including perception, interaction, and timing, thereby providing new insights for the understanding and further research in this domain. We also observe an interesting phenomenon that certain art-inspired prediction algorithms can actually deduce intriguing patterns of human behaviors from the data, offering new potential avenues for understanding the relationship between human activities, state of The Art, and AI algorithms.",
+      "published_utc": "2026-11-12T08:20:24Z",
+      "updated_utc": "2026-11-12T08:20:24Z",
+      "primary_category": "cs.CY",
+      "categories": [
+        "cs.CY",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.16464v1",
+      "abs_url": "http://arxiv.org/abs/2611.16464v1"
+    },
+    "2609.40158v2": {
+      "arxiv_id": "2609.40158v2",
+      "title": "Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation",
+      "authors": [
+        "Pranav Goyal",
+        "Andrew Stratton",
+        "Christoforos Mavrogiannis"
+      ],
+      "summary": "Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently and quickly infer the robot's intent. Mature frameworks exist for generating legible motion in front of static observers, typically by making the robot's destination apparent as early as possible. Social robot navigation in public spaces, however, presents a different challenge: pedestrians are themselves in motion, often with divided attention, and must coordinate with the robot in real time. In such encounters, where the robot is ultimately headed may matter less to a pedestrian than how it intends to pass them. This raises two questions: which aspect of intent should legible motion convey, and does legibility remain beneficial when pedestrians are not fully attentive to the robot? We address these questions in the ubiquitous and demanding scenario of hallway navigation, through two controlled user studies comparing multiple legibility formulations implemented within a shared model predictive control framework. Study 1 (N = 45) compares destination-based and passing-side intent representations, showing that the latter, particularly when adaptively updated, allows for smoother human motion and is perceived as more competent and less mentally and physically demanding than the former. Study 2 (N = 45) examines the effect of pedestrian attention, demonstrating that legible motion supports smooth human motion even under distraction, although this benefit is not consistently reflected in subjective ratings. Together, these findings suggest that effective legible motion in social robot navigation benefits from interaction-level intent representations that support coordination, with some effects persisting even when human attention is divided.",
+      "published_utc": "2026-09-30T16:56:06Z",
+      "updated_utc": "2026-11-11T17:35:30Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.40158v2",
+      "abs_url": "http://arxiv.org/abs/2609.40158v2"
+    },
+    "2611.17330v1": {
+      "arxiv_id": "2611.17330v1",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "authors": [
+        "Guangyuan Sui",
+        "Yunzhong Hou",
+        "Chi Harold Liu"
+      ],
+      "summary": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation waypoints from language instructions. To solve this, we introduce the Prototypical Visual Imagination framework, shortened as ProtoVis-Nav, which forces the model to imagine an outcome-associated local visual representation for the intended next UAV movement. Specifically, we predict feature prototypes and use their linear combination to estimate the visual feature of the target region. In this manner, the VLN model first imagines the local visual representation of the next intended location, and then uses predicted prototypes as context for generating the final action, promoting alignment between visual context and waypoint outputs. Extensive experiments demonstrate the effectiveness of the ProtoVis-Nav framework and show substantial improvements over existing baselines.",
+      "published_utc": "2026-11-12T18:59:49Z",
+      "updated_utc": "2026-11-12T18:59:49Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.17330v1",
+      "abs_url": "http://arxiv.org/abs/2611.17330v1"
     }
   },
   "topics": {
@@ -21845,9 +21921,10 @@
         "2610.21132v1",
         "2511.11164v4",
         "2604.03463v2",
-        "2610.39958v1"
+        "2610.39958v1",
+        "2611.15781v1"
       ],
-      "latest_update": "2026-10-30"
+      "latest_update": "2026-11-13"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -22225,9 +22302,11 @@
         "2611.09882v1",
         "2611.10506v1",
         "2611.14414v1",
-        "2611.13654v1"
+        "2611.13654v1",
+        "2611.16464v1",
+        "2611.15781v1"
       ],
-      "latest_update": "2026-11-11"
+      "latest_update": "2026-11-13"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22369,9 +22448,10 @@
         "2610.37267v1",
         "2610.39958v1",
         "2611.07208v1",
-        "2611.11583v1"
+        "2611.11583v1",
+        "2609.40158v2"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-13"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22665,9 +22745,11 @@
         "2611.00231v1",
         "2611.04871v1",
         "2611.08568v1",
-        "2608.12037v2"
+        "2608.12037v2",
+        "2611.17330v1",
+        "2611.15781v1"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-13"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -22963,9 +23045,11 @@
         "2611.02076v2",
         "2611.14414v1",
         "2611.13654v1",
-        "2611.12918v1"
+        "2611.12918v1",
+        "2611.17330v1",
+        "2611.15781v1"
       ],
-      "latest_update": "2026-11-11"
+      "latest_update": "2026-11-13"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23410,9 +23494,10 @@
         "2610.22215v2",
         "2611.08295v1",
         "2611.10506v1",
-        "2611.02076v2"
+        "2611.02076v2",
+        "2611.16464v1"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-13"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -24015,9 +24100,11 @@
         "2610.37267v1",
         "2610.39958v1",
         "2611.07208v1",
-        "2611.11583v1"
+        "2611.11583v1",
+        "2611.15781v1",
+        "2609.40158v2"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-13"
     }
   }
 }

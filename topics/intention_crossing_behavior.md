@@ -1,8 +1,8 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **138**
+Total papers tracked: **139**
 
 ---
 
@@ -24,6 +24,9 @@ Total papers tracked: **138**
 - **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
   *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
   Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`
+- **Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation**  
+  *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
+  Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v2) · [pdf](https://arxiv.org/pdf/2609.40158v2) · id: `2609.40158v2`
 - **Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction**  
   *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
   Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v1) · [pdf](https://arxiv.org/pdf/2609.40158v1) · id: `2609.40158v1`

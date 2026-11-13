@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **213**
+Total papers tracked: **214**
 
 ---
 
+- **From State of THE ART to Human Prediction Algorithms**  
+  *Conghao Wong, Ziqian Zou*  
+  Published: `2026-11-12` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2611.16464v1) · [pdf](https://arxiv.org/pdf/2611.16464v1) · id: `2611.16464v1`
 - **SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction**  
   *Jaewoo Jeong, Seonkyu Song, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon*  
   Published: `2026-11-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.10506v1) · [pdf](https://arxiv.org/pdf/2611.10506v1) · id: `2611.10506v1`

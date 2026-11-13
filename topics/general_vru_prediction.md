@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-12` (timezone: `Europe/Athens`)
+Updated: `2026-11-13` (timezone: `Europe/Athens`)
 
-Total papers tracked: **157**
+Total papers tracked: **159**
 
 ---
 
+- **Prediction-Error-Tightened MPC for Socially Compliant Crowd Navigation**  
+  *Alessandro Febbraro, Federico Rollo, Marcello Farina, Luca Bascetta, Navvab Kashiri*  
+  Published: `2026-11-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.15781v1) · [pdf](https://arxiv.org/pdf/2611.15781v1) · id: `2611.15781v1`
 - **NightSteps: A Night-Time Dataset and Benchmark for Pedestrian Crossing Intention Prediction**  
   *Sjoerd Takken, Shaodi You*  
   Published: `2026-11-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.11583v1) · [pdf](https://arxiv.org/pdf/2611.11583v1) · id: `2611.11583v1`
@@ -33,6 +36,9 @@ Total papers tracked: **157**
 - **Risk-Sensitive Crowd Navigation with Adaptive Ellipsoidal Conformal Prediction**  
   *Ruihan A. Li, Ziyao Guo, Yingying Li*  
   Published: `2026-10-05` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.07474v1) · [pdf](https://arxiv.org/pdf/2610.07474v1) · id: `2610.07474v1`
+- **Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation**  
+  *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
+  Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v2) · [pdf](https://arxiv.org/pdf/2609.40158v2) · id: `2609.40158v2`
 - **Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction**  
   *Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis*  
   Published: `2026-09-30` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2609.40158v1) · [pdf](https://arxiv.org/pdf/2609.40158v1) · id: `2609.40158v1`
