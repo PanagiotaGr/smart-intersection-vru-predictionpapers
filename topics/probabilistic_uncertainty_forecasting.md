@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **222**
+Total papers tracked: **223**
 
 ---
 
+- **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
+  *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
+  Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`
 - **SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction**  
   *Jaewoo Jeong, Seonkyu Song, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon*  
   Published: `2026-11-07` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.10506v1) · [pdf](https://arxiv.org/pdf/2611.10506v1) · id: `2611.10506v1`

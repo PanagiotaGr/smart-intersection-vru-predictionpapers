@@ -1,8 +1,8 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **139**
+Total papers tracked: **140**
 
 ---
 
@@ -21,6 +21,9 @@ Total papers tracked: **139**
 - **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
   *Yuanzhe Li, Meng Wang*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v1) · [pdf](https://arxiv.org/pdf/2610.23356v1) · id: `2610.23356v1`
+- **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
+  *Yuanzhe Li, Meng Wang*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v2) · [pdf](https://arxiv.org/pdf/2610.23356v2) · id: `2610.23356v2`
 - **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction**  
   *JunGyu Lee, Inhwan Bae, Hae-Gon Jeon*  
   Published: `2026-10-06` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.07954v1) · [pdf](https://arxiv.org/pdf/2610.07954v1) · id: `2610.07954v1`

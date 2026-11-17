@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **214**
+Total papers tracked: **215**
 
 ---
 
+- **In-Context Estimation and Prediction for Parametric ODEs**  
+  *Abdullah Ahmed, Yun Yang*  
+  Published: `2026-11-16` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.21268v1) · [pdf](https://arxiv.org/pdf/2611.21268v1) · id: `2611.21268v1`
 - **From State of THE ART to Human Prediction Algorithms**  
   *Conghao Wong, Ziqian Zou*  
   Published: `2026-11-12` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2611.16464v1) · [pdf](https://arxiv.org/pdf/2611.16464v1) · id: `2611.16464v1`

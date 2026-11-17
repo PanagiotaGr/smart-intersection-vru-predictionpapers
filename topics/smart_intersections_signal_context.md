@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **76**
+Total papers tracked: **77**
 
 ---
 
+- **SGIP: Learning Scene-Grounded Interaction Priors for Scene-Aware Human Motion Prediction**  
+  *Donghyeon Soon, Jiil Yoon, Hyeondong Kim, Daehee Park*  
+  Published: `2026-11-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.20076v1) · [pdf](https://arxiv.org/pdf/2611.20076v1) · id: `2611.20076v1`
 - **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning**  
   *Avinash Singh, Manish Saroya, Fatemeh Cheraghi Pouria, Faizan Tariq, Jovin D'sa, David Isele, Yosuke Sakamoto, Sangjae Bae*  
   Published: `2026-11-10` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.14414v1) · [pdf](https://arxiv.org/pdf/2611.14414v1) · id: `2611.14414v1`

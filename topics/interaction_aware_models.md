@@ -1,11 +1,17 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **319**
+Total papers tracked: **321**
 
 ---
 
+- **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
+  *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
+  Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`
+- **SGIP: Learning Scene-Grounded Interaction Priors for Scene-Aware Human Motion Prediction**  
+  *Donghyeon Soon, Jiil Yoon, Hyeondong Kim, Daehee Park*  
+  Published: `2026-11-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.20076v1) · [pdf](https://arxiv.org/pdf/2611.20076v1) · id: `2611.20076v1`
 - **From State of THE ART to Human Prediction Algorithms**  
   *Conghao Wong, Ziqian Zou*  
   Published: `2026-11-12` · Category: `cs.CY` · [abs](http://arxiv.org/abs/2611.16464v1) · [pdf](https://arxiv.org/pdf/2611.16464v1) · id: `2611.16464v1`

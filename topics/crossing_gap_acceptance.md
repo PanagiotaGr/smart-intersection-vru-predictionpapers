@@ -1,8 +1,8 @@
 # Crossing Decision and Gap Acceptance
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **76**
+Total papers tracked: **77**
 
 ---
 
@@ -12,6 +12,9 @@ Total papers tracked: **76**
 - **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
   *Yuanzhe Li, Meng Wang*  
   Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v1) · [pdf](https://arxiv.org/pdf/2610.23356v1) · id: `2610.23356v1`
+- **STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction**  
+  *Yuanzhe Li, Meng Wang*  
+  Published: `2026-10-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.23356v2) · [pdf](https://arxiv.org/pdf/2610.23356v2) · id: `2610.23356v2`
 - **SIGN-MAPPO: State-Intent-Aware Graph Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X**  
   *Zide Fan, Jiahui Yuan, Kaixin Zhang, Junhao Fan, Xiaohe Li, Yiru Wang*  
   Published: `2026-10-11` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.15577v1) · [pdf](https://arxiv.org/pdf/2610.15577v1) · id: `2610.15577v1`

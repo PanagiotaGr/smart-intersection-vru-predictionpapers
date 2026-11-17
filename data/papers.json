@@ -21747,6 +21747,89 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.17330v1",
       "abs_url": "http://arxiv.org/abs/2611.17330v1"
+    },
+    "2611.20574v1": {
+      "arxiv_id": "2611.20574v1",
+      "title": "ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving",
+      "authors": [
+        "Xinhan Li",
+        "Yuhong Jiang",
+        "Shiyue Zhao",
+        "Junzhi Zhang",
+        "Chengkun He",
+        "Ruihai Ma",
+        "Shijie Zhao",
+        "Wenxuan Cheng",
+        "Jinbo Lv",
+        "Tao Liu"
+      ],
+      "summary": "Existing autonomous driving datasets and benchmarks provide extensive resources for routine driving, yet real-world data covering safety-critical scenarios and extreme environmental conditions remain limited. To address this gap, we present ExtremeDrive, a real-world dataset and benchmark covering emergency maneuvers, complex traffic interactions, and adverse conditions such as slippery or snow-covered roads, alongside routine driving. The dataset comprises 589 driving scenes curated from a larger pool of real-world driving recordings, with calibrated and aligned multisensor data and reviewed annotations of road structure and traffic participants. We further establish a benchmark to evaluate planned trajectories through simulated vehicle execution, measuring safety-related metrics and driving performance. Experiments at equal training set sizes show that incorporating critical driving data reduces trajectory prediction errors and improves mean critical-success rates in critical scenarios. ExtremeDrive provides a unified resource for learning and evaluating autonomous driving in safety-critical scenarios and extreme environmental conditions.",
+      "published_utc": "2026-11-16T05:58:20Z",
+      "updated_utc": "2026-11-16T05:58:20Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.20574v1",
+      "abs_url": "http://arxiv.org/abs/2611.20574v1"
+    },
+    "2611.20076v1": {
+      "arxiv_id": "2611.20076v1",
+      "title": "SGIP: Learning Scene-Grounded Interaction Priors for Scene-Aware Human Motion Prediction",
+      "authors": [
+        "Donghyeon Soon",
+        "Jiil Yoon",
+        "Hyeondong Kim",
+        "Daehee Park"
+      ],
+      "summary": "Human motion prediction (HMP) aims to forecast future movement from an observed motion sequence, and recent methods have incorporated 3D scene geometry and object semantics to improve long-term plausibility. However, the destination of future motion remains ambiguous in cluttered scenes: the same observed motion can lead to different interaction targets or navigation modes. Existing methods either handle this ambiguity implicitly or rely on auxiliary signals like gaze that are hard to obtain in practice. To address this, we propose SGIP, which explicitly predicts where in the scene future motion will be grounded across both objects and open navigation regions, and uses it to condition future trajectory and full-body pose prediction. This scene-grounded interaction prior is learned via intent distillation: at training time only, a teacher model scores candidate scene regions by combining an LLM prompted with a textual description of the person's intent with geometric motion-scene features. A student model learns to reproduce these scores from only the observed motion and 3D scene, making intent and LLM unnecessary at test time. Across multiple benchmark datasets, SGIP outperforms prior scene-aware baselines on both trajectory and pose accuracy in a realistic deployment setting where neither gaze nor intent is available at inference, demonstrating the effectiveness of the proposed framework. The project page is available at https://sgip2026.github.io.",
+      "published_utc": "2026-11-15T15:33:39Z",
+      "updated_utc": "2026-11-15T15:33:39Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.20076v1",
+      "abs_url": "http://arxiv.org/abs/2611.20076v1"
+    },
+    "2610.23356v2": {
+      "arxiv_id": "2610.23356v2",
+      "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "authors": [
+        "Yuanzhe Li",
+        "Meng Wang"
+      ],
+      "summary": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction. STC-MGNet introduces a spatial-temporal-channel (STC) attention-enhanced pose graph encoder to learn discriminative representations from pedestrian pose sequences. Three parallel attention branches selectively emphasize informative skeletal joints, observation frames, and feature channels, with their outputs integrated through learnable fusion weights. To leverage complementary visual and ego-vehicle motion information, a multi-stage cross-modal channel modulation mechanism is introduced to adaptively refine pose representations through modality-specific channel gating at successive graph encoding stages. Experimental results demonstrate that STC-MGNet achieves accuracy rates of 70%, 87%, and 88% on the JAADbeh, JAADall, and PIE datasets, respectively, outperforming several representative baseline methods. Ablation experiments further highlight the complementary contributions of visual and ego-vehicle motion information to prediction performance.",
+      "published_utc": "2026-10-16T12:01:05Z",
+      "updated_utc": "2026-11-16T13:40:24Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.23356v2",
+      "abs_url": "http://arxiv.org/abs/2610.23356v2"
+    },
+    "2611.21268v1": {
+      "arxiv_id": "2611.21268v1",
+      "title": "In-Context Estimation and Prediction for Parametric ODEs",
+      "authors": [
+        "Abdullah Ahmed",
+        "Yun Yang"
+      ],
+      "summary": "Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex statistical problems or establishing general function approximation guarantees without exploiting the underlying statistical structure. We study in-context parameter estimation and trajectory prediction for parametric ordinary differential equations (ODEs), where estimation is generally nonconvex. Under suitable identifiability and regularity conditions, we construct a transformer that estimates unknown system parameters from noisy trajectory observations through a two-stage approximate maximum likelihood procedure: a coarse search provides an initialization within a locally strongly convex region, followed by gradient descent with local linear contraction. For prediction, we compose this estimator with a neural approximation of the ODE solution map. We further show that, through parameter sharing, a single transformer can perform both parameter estimation and trajectory prediction simultaneously. For these constructions, we establish nonasymptotic guarantees and finite-pretraining oracle inequalities that separate errors due to finite pretraining data, finite context length, and finite-sized transformer approximation. Numerical experiments on linear and nonlinear ODEs further show that pretrained transformers can benefit from longer inference contexts without updating their weights.",
+      "published_utc": "2026-11-16T15:38:21Z",
+      "updated_utc": "2026-11-16T15:38:21Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.NA",
+        "math.ST",
+        "stat.ML"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.21268v1",
+      "abs_url": "http://arxiv.org/abs/2611.21268v1"
     }
   },
   "topics": {
@@ -22304,9 +22387,11 @@
         "2611.14414v1",
         "2611.13654v1",
         "2611.16464v1",
-        "2611.15781v1"
+        "2611.15781v1",
+        "2611.20574v1",
+        "2611.20076v1"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22449,9 +22534,10 @@
         "2610.39958v1",
         "2611.07208v1",
         "2611.11583v1",
-        "2609.40158v2"
+        "2609.40158v2",
+        "2610.23356v2"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -22747,9 +22833,10 @@
         "2611.08568v1",
         "2608.12037v2",
         "2611.17330v1",
-        "2611.15781v1"
+        "2611.15781v1",
+        "2611.20574v1"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -23047,9 +23134,12 @@
         "2611.13654v1",
         "2611.12918v1",
         "2611.17330v1",
-        "2611.15781v1"
+        "2611.15781v1",
+        "2611.21268v1",
+        "2611.20574v1",
+        "2611.20076v1"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23275,9 +23365,10 @@
         "2610.22215v2",
         "2611.08295v1",
         "2611.10506v1",
-        "2608.12037v2"
+        "2608.12037v2",
+        "2611.20574v1"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-17"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -23495,9 +23586,10 @@
         "2611.08295v1",
         "2611.10506v1",
         "2611.02076v2",
-        "2611.16464v1"
+        "2611.16464v1",
+        "2611.21268v1"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -23709,9 +23801,10 @@
         "2610.01751v1",
         "2610.15577v1",
         "2610.23356v1",
-        "2611.11583v1"
+        "2611.11583v1",
+        "2610.23356v2"
       ],
-      "latest_update": "2026-11-10"
+      "latest_update": "2026-11-17"
     },
     "smart_intersections_signal_context": {
       "name": "Smart Intersections and Traffic Signal Context",
@@ -23791,9 +23884,10 @@
         "2611.09118v1",
         "2611.08568v1",
         "2611.14414v1",
-        "2611.13654v1"
+        "2611.13654v1",
+        "2611.20076v1"
       ],
-      "latest_update": "2026-11-11"
+      "latest_update": "2026-11-17"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -24102,9 +24196,10 @@
         "2611.07208v1",
         "2611.11583v1",
         "2611.15781v1",
-        "2609.40158v2"
+        "2609.40158v2",
+        "2610.23356v2"
       ],
-      "latest_update": "2026-11-13"
+      "latest_update": "2026-11-17"
     }
   }
 }

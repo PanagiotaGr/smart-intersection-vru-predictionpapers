@@ -1,11 +1,20 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **294**
+Total papers tracked: **297**
 
 ---
 
+- **In-Context Estimation and Prediction for Parametric ODEs**  
+  *Abdullah Ahmed, Yun Yang*  
+  Published: `2026-11-16` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.21268v1) · [pdf](https://arxiv.org/pdf/2611.21268v1) · id: `2611.21268v1`
+- **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
+  *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
+  Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`
+- **SGIP: Learning Scene-Grounded Interaction Priors for Scene-Aware Human Motion Prediction**  
+  *Donghyeon Soon, Jiil Yoon, Hyeondong Kim, Daehee Park*  
+  Published: `2026-11-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.20076v1) · [pdf](https://arxiv.org/pdf/2611.20076v1) · id: `2611.20076v1`
 - **ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation**  
   *Guangyuan Sui, Yunzhong Hou, Chi Harold Liu*  
   Published: `2026-11-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.17330v1) · [pdf](https://arxiv.org/pdf/2611.17330v1) · id: `2611.17330v1`

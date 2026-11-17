@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-16` (timezone: `Europe/Athens`)
+Updated: `2026-11-17` (timezone: `Europe/Athens`)
 
-Total papers tracked: **292**
+Total papers tracked: **293**
 
 ---
 
+- **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
+  *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
+  Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`
 - **ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation**  
   *Guangyuan Sui, Yunzhong Hou, Chi Harold Liu*  
   Published: `2026-11-12` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.17330v1) · [pdf](https://arxiv.org/pdf/2611.17330v1) · id: `2611.17330v1`
