@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-11-17` (timezone: `Europe/Athens`)
+Updated: `2026-11-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
+- **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency**  
+  *Nukhbala Gadzhiev, Alexander Morochko*  
+  Published: `2026-11-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.23198v1) · [pdf](https://arxiv.org/pdf/2611.23198v1) · id: `2611.23198v1`
 - **Trajectory Prediction Method for person under WSN with Hierarchical Envelope Adversarial Domain Adaptation**  
   *Wenqian Jiang, Qifeng Sun, Xiaosong Gao, Xin Zou, Xingrui Ni, Yuan Hu, Yongming Li*  
   Published: `2026-10-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.21132v1) · [pdf](https://arxiv.org/pdf/2610.21132v1) · id: `2610.21132v1`

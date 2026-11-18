@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-17` (timezone: `Europe/Athens`)
+Updated: `2026-11-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **297**
+Total papers tracked: **301**
 
 ---
 
+- **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency**  
+  *Nukhbala Gadzhiev, Alexander Morochko*  
+  Published: `2026-11-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.23198v1) · [pdf](https://arxiv.org/pdf/2611.23198v1) · id: `2611.23198v1`
+- **Inertial Video World Models**  
+  *Yuan Gao, Fan Xu, Yu Guo, Yuxu Lu, Zhengru Fang, Hao Wu, Xiaomeng Huang*  
+  Published: `2026-11-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.22314v1) · [pdf](https://arxiv.org/pdf/2611.22314v1) · id: `2611.22314v1`
+- **EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling**  
+  *Kailin Wang, Haoxiang Jie, Yaoyuan Yan, Zhiyou Heng, Zhaosong Li*  
+  Published: `2026-11-17` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.22151v1) · [pdf](https://arxiv.org/pdf/2611.22151v1) · id: `2611.22151v1`
+- **GridDriver: On-Board BEV-Based Language Planning and Reasoning**  
+  *Katharina Winter, William Engel, Zain A. Alishammat, Fabian B. Flohr*  
+  Published: `2026-11-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.21924v1) · [pdf](https://arxiv.org/pdf/2611.21924v1) · id: `2611.21924v1`
 - **In-Context Estimation and Prediction for Parametric ODEs**  
   *Abdullah Ahmed, Yun Yang*  
   Published: `2026-11-16` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.21268v1) · [pdf](https://arxiv.org/pdf/2611.21268v1) · id: `2611.21268v1`

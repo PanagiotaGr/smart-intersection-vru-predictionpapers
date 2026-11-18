@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-17` (timezone: `Europe/Athens`)
+Updated: `2026-11-18` (timezone: `Europe/Athens`)
 
-Total papers tracked: **321**
+Total papers tracked: **323**
 
 ---
 
+- **GridDriver: On-Board BEV-Based Language Planning and Reasoning**  
+  *Katharina Winter, William Engel, Zain A. Alishammat, Fabian B. Flohr*  
+  Published: `2026-11-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.21924v1) · [pdf](https://arxiv.org/pdf/2611.21924v1) · id: `2611.21924v1`
 - **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
   *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
   Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`
@@ -45,6 +48,9 @@ Total papers tracked: **321**
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v1) · [pdf](https://arxiv.org/pdf/2610.39278v1) · id: `2610.39278v1`
+- **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
+  *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
+  Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v2) · [pdf](https://arxiv.org/pdf/2610.39278v2) · id: `2610.39278v2`
 - **Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models**  
   *Xu Hu, Changjie Wu, Linzhe Shi, Hang Zhang, Chen Yang, Lingjun Zhang, Guowen Zhang, Mu Xu et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36840v1) · [pdf](https://arxiv.org/pdf/2610.36840v1) · id: `2610.36840v1`
