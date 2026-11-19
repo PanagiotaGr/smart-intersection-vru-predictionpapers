@@ -12025,6 +12025,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.39278v2": {
+      "schema_version": 1,
+      "paper_id": "2610.39278v2",
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "pdf_url": "https://arxiv.org/pdf/2610.39278v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.39416v1": {
       "schema_version": 1,
       "paper_id": "2610.39416v1",
@@ -12426,6 +12438,54 @@
       "paper_id": "2611.21268v1",
       "title": "In-Context Estimation and Prediction for Parametric ODEs",
       "pdf_url": "https://arxiv.org/pdf/2611.21268v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.21924v1": {
+      "schema_version": 1,
+      "paper_id": "2611.21924v1",
+      "title": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
+      "pdf_url": "https://arxiv.org/pdf/2611.21924v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.22151v1": {
+      "schema_version": 1,
+      "paper_id": "2611.22151v1",
+      "title": "EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling",
+      "pdf_url": "https://arxiv.org/pdf/2611.22151v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.22314v1": {
+      "schema_version": 1,
+      "paper_id": "2611.22314v1",
+      "title": "Inertial Video World Models",
+      "pdf_url": "https://arxiv.org/pdf/2611.22314v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.23198v1": {
+      "schema_version": 1,
+      "paper_id": "2611.23198v1",
+      "title": "Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency",
+      "pdf_url": "https://arxiv.org/pdf/2611.23198v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
