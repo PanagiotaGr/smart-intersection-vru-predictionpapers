@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-18` (timezone: `Europe/Athens`)
+Updated: `2026-11-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **323**
+Total papers tracked: **325**
 
 ---
 
+- **TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting**  
+  *Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu, Yanzi Miao, Hesheng Wang*  
+  Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.23970v1) · [pdf](https://arxiv.org/pdf/2611.23970v1) · id: `2611.23970v1`
 - **GridDriver: On-Board BEV-Based Language Planning and Reasoning**  
   *Katharina Winter, William Engel, Zain A. Alishammat, Fabian B. Flohr*  
   Published: `2026-11-16` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.21924v1) · [pdf](https://arxiv.org/pdf/2611.21924v1) · id: `2611.21924v1`
@@ -63,6 +66,9 @@ Total papers tracked: **323**
 - **T-WLA: Bridging Slow Vision and Fast Touch**  
   *Kaichen Zhou, Yuzhen Chen, Hannah Yao, Chonghe Jiang, Rao Fu, Xihang Yu, Wei Dai, Bashar Kabbarah et al.*  
   Published: `2026-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.28814v1) · [pdf](https://arxiv.org/pdf/2610.28814v1) · id: `2610.28814v1`
+- **T-WLA: Bridging Slow Vision and Fast Touch with a World-Language-Action Model**  
+  *Kaichen Zhou, Yuzhen Chen, Hannah Yao, Chonghe Jiang, Rao Fu, Xihang Yu, Wei Dai, Bashar Kabbarah et al.*  
+  Published: `2026-10-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.28814v2) · [pdf](https://arxiv.org/pdf/2610.28814v2) · id: `2610.28814v2`
 - **Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting**  
   *Chuanyang Ma, Chenye Wang, Yixuan Wang, Huiling Zhou, Xingqun Qi, Muyi Sun, Man Zhang, Caifeng Shan et al.*  
   Published: `2026-10-20` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.27877v1) · [pdf](https://arxiv.org/pdf/2610.27877v1) · id: `2610.27877v1`

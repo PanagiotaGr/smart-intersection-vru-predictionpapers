@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-18` (timezone: `Europe/Athens`)
+Updated: `2026-11-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **223**
+Total papers tracked: **224**
 
 ---
 
+- **ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model**  
+  *Zhiqiang Yan, Guangfa Wang, Yuan Wu, Jian Yang, Gim Hee Lee*  
+  Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.24457v1) · [pdf](https://arxiv.org/pdf/2611.24457v1) · id: `2611.24457v1`
 - **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
   *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
   Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`

@@ -21939,6 +21939,84 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.22151v1",
       "abs_url": "http://arxiv.org/abs/2611.22151v1"
+    },
+    "2611.23970v1": {
+      "arxiv_id": "2611.23970v1",
+      "title": "TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting",
+      "authors": [
+        "Guanzhong Sun",
+        "Junyi Ma",
+        "Yuxuan Wu",
+        "Erhang Zhang",
+        "Chenyang Xu",
+        "Yanzi Miao",
+        "Hesheng Wang"
+      ],
+      "summary": "Forecasting future hand movements from egocentric videos plays an important role in understanding human intentions and hand-object interactions. However, different manipulation intentions can lead to substantially different hand trajectories even when interacting with the same object. Existing methods have not sufficiently explored the intrinsic relationships between articulated hand movements and object semantics to capture such operation-dependent motion patterns. Therefore, we propose TOMAS, a topology-aware operation modeling and adaptive staging framework for egocentric hand forecasting. Specifically, we develop a topology-aware hand-object reasoning mechanism that associates hand skeletal structures and articulation dynamics with object semantics and spatial relationships to jointly infer potential interaction targets and latent manipulation operations. The resulting object-operation representations provide interaction conditions for future hand trajectory prediction, with supervision adapted to the annotations available in each dataset. Furthermore, we introduce an adaptive staging mechanism that organizes future hand movements into ordered latent stages with learnable temporal boundaries. Stage-specific geometric subgoals are then incorporated to guide trajectory refinement according to the underlying manipulation patterns. Experimental results on multiple publicly available benchmarks demonstrate that TOMAS achieves state-of-the-art performance in multi-dimensional and multi-target hand motion forecasting.",
+      "published_utc": "2026-11-18T07:10:44Z",
+      "updated_utc": "2026-11-18T07:10:44Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.23970v1",
+      "abs_url": "http://arxiv.org/abs/2611.23970v1"
+    },
+    "2610.28814v2": {
+      "arxiv_id": "2610.28814v2",
+      "title": "T-WLA: Bridging Slow Vision and Fast Touch with a World-Language-Action Model",
+      "authors": [
+        "Kaichen Zhou",
+        "Yuzhen Chen",
+        "Hannah Yao",
+        "Chonghe Jiang",
+        "Rao Fu",
+        "Xihang Yu",
+        "Wei Dai",
+        "Bashar Kabbarah",
+        "Haoyu Chen",
+        "Ishita Goluguri",
+        "Zhiyang Dou",
+        "Yue Ma",
+        "Haonan Chen",
+        "Enze Xie",
+        "Fangneng Zhan",
+        "Yilun Du",
+        "Mengyu Wang",
+        "Wojciech Matusik",
+        "Antonio Torralba",
+        "Paul Pu Liang"
+      ],
+      "summary": "In contact-rich manipulation, contact conditions can change before a visual policy updates its action plan. Recomputing the plan through the visual policy adds latency, while tactile feedback alone does not specify how the ongoing motion should be revised for the task. We introduce T-WLA, a world-language-action architecture that uses shared visual memory to guide both action generation and tactile correction. At each visual update, the visual branch integrates the current image, task instruction, and retrieved history into a visual memory that conditions base-action generation. The same memory is cached for a lightweight tactile editor, which combines it with the active action chunk and incoming touch to predict residual corrections to unexecuted actions without rerunning the visual branch. Future-image and future-pressure prediction provide training-only supervision, encouraging the visual memory and tactile features to capture interaction dynamics relevant to action generation and correction. We evaluate T-WLA on tactile-conditioned hand-motion prediction using EgoTouch and Tachin, and on four real-world dexterous manipulation tasks. On EgoTouch, T-WLA reduces finger-joint MPJPE by 30% relative to the strongest evaluated baseline. Across four real-robot tasks, T-WLA achieves 51.0% mean success versus 23.0% for the baseline, a gain of 28.0 percentage points. Videos and code are available at https://t-wla.github.io/.",
+      "published_utc": "2026-10-20T18:36:13Z",
+      "updated_utc": "2026-11-17T23:34:59Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.28814v2",
+      "abs_url": "http://arxiv.org/abs/2610.28814v2"
+    },
+    "2611.24457v1": {
+      "arxiv_id": "2611.24457v1",
+      "title": "ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model",
+      "authors": [
+        "Zhiqiang Yan",
+        "Guangfa Wang",
+        "Yuan Wu",
+        "Jian Yang",
+        "Gim Hee Lee"
+      ],
+      "summary": "Occupancy world models struggle to forecast moving objects due to motion uncertainty and shape distortion. A single trajectory can average plausible futures into an implausible path, and repeated re-voxelization can erode or inflate object shape even under correct motion. We introduce ShoWorld to address these challenges through separate motion and shape representations. The motion forecaster predicts probabilistic trajectories conditioned on scene layout, nearby agents and the future ego trajectory. Each hypothesis is rendered into occupancy and fused according to its probability to retain alternative futures. The shape component predicts sub-voxel points with occupancy probabilities and offsets from local geometry. These points move rigidly with the object, and voxel occupancy follows the probability that at least one occupied point falls within it. This representation reduces shape distortion under motion. ShoWorld achieves state-of-the-art results on Occ3D-nuScenes. With ground-truth occupancy and ego trajectory, it improves mIoU and IoU by 6.56 and 9.16 points overall and by 6.06 and 5.53 points on dynamic classes.",
+      "published_utc": "2026-11-18T14:02:31Z",
+      "updated_utc": "2026-11-18T14:02:31Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.24457v1",
+      "abs_url": "http://arxiv.org/abs/2611.24457v1"
     }
   },
   "topics": {
@@ -22501,9 +22579,11 @@
         "2611.20574v1",
         "2611.20076v1",
         "2611.21924v1",
-        "2610.39278v2"
+        "2610.39278v2",
+        "2611.23970v1",
+        "2610.28814v2"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-19"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -23253,9 +23333,10 @@
         "2611.23198v1",
         "2611.22314v1",
         "2611.22151v1",
-        "2611.21924v1"
+        "2611.21924v1",
+        "2611.23970v1"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-19"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23482,9 +23563,10 @@
         "2611.08295v1",
         "2611.10506v1",
         "2608.12037v2",
-        "2611.20574v1"
+        "2611.20574v1",
+        "2611.24457v1"
       ],
-      "latest_update": "2026-11-17"
+      "latest_update": "2026-11-19"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",

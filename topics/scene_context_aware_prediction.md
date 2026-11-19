@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-18` (timezone: `Europe/Athens`)
+Updated: `2026-11-19` (timezone: `Europe/Athens`)
 
-Total papers tracked: **301**
+Total papers tracked: **302**
 
 ---
 
+- **TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting**  
+  *Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu, Yanzi Miao, Hesheng Wang*  
+  Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.23970v1) · [pdf](https://arxiv.org/pdf/2611.23970v1) · id: `2611.23970v1`
 - **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency**  
   *Nukhbala Gadzhiev, Alexander Morochko*  
   Published: `2026-11-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.23198v1) · [pdf](https://arxiv.org/pdf/2611.23198v1) · id: `2611.23198v1`
