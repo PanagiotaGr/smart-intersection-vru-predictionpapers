@@ -22017,6 +22017,62 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.24457v1",
       "abs_url": "http://arxiv.org/abs/2611.24457v1"
+    },
+    "2611.26390v1": {
+      "arxiv_id": "2611.26390v1",
+      "title": "SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting",
+      "authors": [
+        "Ziyang Xu",
+        "Peng Han",
+        "Hai Zhou"
+      ],
+      "summary": "Multimodal trajectory forecasting must cover diverse future behaviors without sacrificing dynamical coherence. Most generative forecasters evolve frame-wise positions directly, leaving the relationships among position, velocity, and acceleration implicit. We present SpecFlow, a conditional flow-matching framework that treats the Discrete Cosine Transform (DCT) coefficients of future accelerations as its generative state. SpecFlow learns a transport from Gaussian noise to acceleration spectra and reconstructs velocity and position through fixed analytical integration initialized by the last observed state. A joint phase-space objective supervises all three kinematic levels. To represent destination uncertainty without future information, an endpoint predictor produces candidate destinations and confidence scores solely from observed context, and the highest-confidence candidate conditions the spectral denoiser. Alternating attention over trajectory hypotheses and agents captures multimodality and interaction. Under best-of-20 evaluation, SpecFlow achieves average minADE/minFDE of 0.15/0.22 on ETH/UCY, 0.69/0.86 at four seconds on NBA, and 7.38/11.57 on SDD. It establishes state-of-the-art results across all five ETH/UCY scenes and achieves the lowest four-second ADE on NBA with a tied-best FDE, while remaining competitive on SDD. Together, these results demonstrate that acceleration-spectrum flow matching provides an effective structured generative state across smooth pedestrian motion, coordinated multi-agent sports dynamics, and heterogeneous outdoor trajectories. Code will be made publicly available.",
+      "published_utc": "2026-11-19T16:44:10Z",
+      "updated_utc": "2026-11-19T16:44:10Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.26390v1",
+      "abs_url": "http://arxiv.org/abs/2611.26390v1"
+    },
+    "2611.24999v1": {
+      "arxiv_id": "2611.24999v1",
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+      "authors": [
+        "Ziyuan Qin",
+        "Yang Qiao",
+        "Summer B. Frandsen",
+        "Michael T. Treadway",
+        "Liang Zhao"
+      ],
+      "summary": "Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition-informed representations for behavioral prediction. During training, a posterior encoder quantizes realized transitions, while a prior predicts the resulting codes from the psychometric profile and pre-transition context. The prior code and predicted next state then condition macro-level behavior and simulator-grounded execution. Thus, the world model provides structured transition supervision instead of treating personality as a direct action descriptor. We evaluate the framework in VEET, a controlled behavioral simulator with human trajectories, and in AgentSociety as a structurally different synthetic environment. A participant-disjoint split of 240 training, 25 validation, and 48 test participants evaluates generalization to unseen people. On VEET, the model reaches 0.904 Top-1 accuracy (95\\% CI: [0.895, 0.913]) and 0.0033 Macro KL. Ablations associate continuous next-state modeling with most of the Top-1 gain, while discrete codes and prior alignment mainly improve Top-3 and distributional alignment. These results establish transition-informed world-model supervision as useful for subject-generalized behavior prediction, without implying causal psychological mechanisms or calibrated long-horizon state dynamics.",
+      "published_utc": "2026-11-18T16:54:30Z",
+      "updated_utc": "2026-11-18T16:54:30Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.24999v1",
+      "abs_url": "http://arxiv.org/abs/2611.24999v1"
+    },
+    "2611.06837v2": {
+      "arxiv_id": "2611.06837v2",
+      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+      "authors": [
+        "Tommy He",
+        "Thomas Jiralerspong"
+      ],
+      "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast the model's rollout activations. We train context--answer metamodels that map a context activation sequence to point or distribution forecasts of mean-pooled answer activations. We find that (i) the four metamodel families we study forecast mean-pooled answer activations with high fidelity, and the distribution metamodels also capture rollout variability; (ii) performance improves as the training set grows to 500,000 prompts, and the metamodels generalize zero-shot to out-of-domain datasets; (iii) their forecasts retain behavior-predictive signal; and (iv) context activations from Qwen2.5 predict mean-pooled answer activations from Qwen3.5 and Gemma 4, suggesting that activation forecasts can transfer across models. Together, these results suggest that context activation traces can support scalable forecasts of behaviors in LLM answers before the first answer token is generated.",
+      "published_utc": "2026-11-04T17:53:52Z",
+      "updated_utc": "2026-11-19T14:26:49Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.06837v2",
+      "abs_url": "http://arxiv.org/abs/2611.06837v2"
     }
   },
   "topics": {
@@ -22193,9 +22249,10 @@
         "2604.03463v2",
         "2610.39958v1",
         "2611.15781v1",
-        "2611.23198v1"
+        "2611.23198v1",
+        "2611.26390v1"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-20"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -22581,9 +22638,10 @@
         "2611.21924v1",
         "2610.39278v2",
         "2611.23970v1",
-        "2610.28814v2"
+        "2610.28814v2",
+        "2611.26390v1"
       ],
-      "latest_update": "2026-11-19"
+      "latest_update": "2026-11-20"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -23334,9 +23392,11 @@
         "2611.22314v1",
         "2611.22151v1",
         "2611.21924v1",
-        "2611.23970v1"
+        "2611.23970v1",
+        "2611.24999v1",
+        "2611.06837v2"
       ],
-      "latest_update": "2026-11-19"
+      "latest_update": "2026-11-20"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23564,9 +23624,11 @@
         "2611.10506v1",
         "2608.12037v2",
         "2611.20574v1",
-        "2611.24457v1"
+        "2611.24457v1",
+        "2611.24999v1",
+        "2611.06837v2"
       ],
-      "latest_update": "2026-11-19"
+      "latest_update": "2026-11-20"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -24399,9 +24461,10 @@
         "2611.15781v1",
         "2609.40158v2",
         "2610.23356v2",
-        "2611.23198v1"
+        "2611.23198v1",
+        "2611.26390v1"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-20"
     }
   }
 }

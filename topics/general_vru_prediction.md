@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-19` (timezone: `Europe/Athens`)
+Updated: `2026-11-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **161**
+Total papers tracked: **162**
 
 ---
 
+- **SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting**  
+  *Ziyang Xu, Peng Han, Hai Zhou*  
+  Published: `2026-11-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.26390v1) · [pdf](https://arxiv.org/pdf/2611.26390v1) · id: `2611.26390v1`
 - **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency**  
   *Nukhbala Gadzhiev, Alexander Morochko*  
   Published: `2026-11-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.23198v1) · [pdf](https://arxiv.org/pdf/2611.23198v1) · id: `2611.23198v1`

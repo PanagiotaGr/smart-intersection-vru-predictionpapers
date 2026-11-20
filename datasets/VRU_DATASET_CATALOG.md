@@ -24,11 +24,11 @@ It is a discovery index: every entry must be verified from the full paper and th
 | Lyft Level 5 | pedestrian; cyclist; vehicle | motion forecasting | 0 | candidate |
 | PIE | pedestrian | crossing intention; trajectory prediction | 5 | candidate |
 | PedX | pedestrian | 3D pedestrian detection; tracking | 3 | candidate |
-| Stanford Drone Dataset | pedestrian; cyclist; skateboarder; cart; vehicle | trajectory prediction; interaction modelling | 29 | candidate |
+| Stanford Drone Dataset | pedestrian; cyclist; skateboarder; cart; vehicle | trajectory prediction; interaction modelling | 30 | candidate |
 | TITAN | pedestrian; cyclist; motorcyclist; vehicle | action recognition; trajectory prediction | 0 | candidate |
 | TrajNet++ | pedestrian | trajectory prediction benchmark | 2 | candidate |
 | Tsinghua-Daimler Cyclist | cyclist | cyclist detection | 0 | candidate |
-| UCY | pedestrian | trajectory prediction | 60 | candidate |
+| UCY | pedestrian | trajectory prediction | 61 | candidate |
 | Waymo Open Dataset | pedestrian; cyclist; vehicle | 3D perception; tracking | 6 | candidate |
 | Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 21 | candidate |
 | inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 10 | candidate |

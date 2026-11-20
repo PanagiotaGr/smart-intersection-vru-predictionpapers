@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-19` (timezone: `Europe/Athens`)
+Updated: `2026-11-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **325**
+Total papers tracked: **326**
 
 ---
 
+- **SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting**  
+  *Ziyang Xu, Peng Han, Hai Zhou*  
+  Published: `2026-11-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.26390v1) · [pdf](https://arxiv.org/pdf/2611.26390v1) · id: `2611.26390v1`
 - **TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting**  
   *Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu, Yanzi Miao, Hesheng Wang*  
   Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.23970v1) · [pdf](https://arxiv.org/pdf/2611.23970v1) · id: `2611.23970v1`

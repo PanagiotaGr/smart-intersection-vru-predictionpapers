@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-19` (timezone: `Europe/Athens`)
+Updated: `2026-11-20` (timezone: `Europe/Athens`)
 
-Total papers tracked: **302**
+Total papers tracked: **304**
 
 ---
 
+- **PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction**  
+  *Ziyuan Qin, Yang Qiao, Summer B. Frandsen, Michael T. Treadway, Liang Zhao*  
+  Published: `2026-11-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.24999v1) · [pdf](https://arxiv.org/pdf/2611.24999v1) · id: `2611.24999v1`
 - **TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting**  
   *Guanzhong Sun, Junyi Ma, Yuxuan Wu, Erhang Zhang, Chenyang Xu, Yanzi Miao, Hesheng Wang*  
   Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.23970v1) · [pdf](https://arxiv.org/pdf/2611.23970v1) · id: `2611.23970v1`
@@ -51,6 +54,9 @@ Total papers tracked: **302**
 - **Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token**  
   *Tommy He, Thomas Jiralerspong*  
   Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.06837v1) · [pdf](https://arxiv.org/pdf/2611.06837v1) · id: `2611.06837v1`
+- **Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token**  
+  *Tommy He, Thomas Jiralerspong*  
+  Published: `2026-11-04` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.06837v2) · [pdf](https://arxiv.org/pdf/2611.06837v2) · id: `2611.06837v2`
 - **Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception**  
   *Jiuwu Hao, Yuting Wan, Liguo Sun, Zao Zhang, Yueyang Wu, Pin Lv*  
   Published: `2026-11-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.06635v1) · [pdf](https://arxiv.org/pdf/2611.06635v1) · id: `2611.06635v1`
