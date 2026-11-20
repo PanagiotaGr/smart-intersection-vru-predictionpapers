@@ -11941,6 +11941,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.28814v2": {
+      "schema_version": 1,
+      "paper_id": "2610.28814v2",
+      "title": "T-WLA: Bridging Slow Vision and Fast Touch with a World-Language-Action Model",
+      "pdf_url": "https://arxiv.org/pdf/2610.28814v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.30519v1": {
       "schema_version": 1,
       "paper_id": "2610.30519v1",
@@ -12486,6 +12498,30 @@
       "paper_id": "2611.23198v1",
       "title": "Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency",
       "pdf_url": "https://arxiv.org/pdf/2611.23198v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.23970v1": {
+      "schema_version": 1,
+      "paper_id": "2611.23970v1",
+      "title": "TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2611.23970v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.24457v1": {
+      "schema_version": 1,
+      "paper_id": "2611.24457v1",
+      "title": "ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model",
+      "pdf_url": "https://arxiv.org/pdf/2611.24457v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
