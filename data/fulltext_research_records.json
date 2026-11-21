@@ -12265,6 +12265,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2611.06837v2": {
+      "schema_version": 1,
+      "paper_id": "2611.06837v2",
+      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+      "pdf_url": "https://arxiv.org/pdf/2611.06837v2",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2611.07208v1": {
       "schema_version": 1,
       "paper_id": "2611.07208v1",
@@ -12522,6 +12534,30 @@
       "paper_id": "2611.24457v1",
       "title": "ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model",
       "pdf_url": "https://arxiv.org/pdf/2611.24457v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.24999v1": {
+      "schema_version": 1,
+      "paper_id": "2611.24999v1",
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.24999v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.26390v1": {
+      "schema_version": 1,
+      "paper_id": "2611.26390v1",
+      "title": "SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting",
+      "pdf_url": "https://arxiv.org/pdf/2611.26390v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
