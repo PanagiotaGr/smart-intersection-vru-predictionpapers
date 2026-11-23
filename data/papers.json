@@ -22073,6 +22073,55 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.06837v2",
       "abs_url": "http://arxiv.org/abs/2611.06837v2"
+    },
+    "2611.27344v1": {
+      "arxiv_id": "2611.27344v1",
+      "title": "Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models",
+      "authors": [
+        "Yongkang He",
+        "Xiaofen Xing",
+        "Xiangmin Xu"
+      ],
+      "summary": "Action-conditioned video world models imagine future observations under candidate robot actions, providing a promising visual tool for robot policy evaluation and interaction simulation. However, existing video world models often optimize global reconstruction errors instead of emphasizing interaction-relevant regions. As a result, they may preserve overall scene appearance but overlook local interaction details, leading to physically implausible outcomes such as hallucinated contact effects and inconsistent robot-object interactions. We introduce MoReWorld, a unified motion-region-guided framework that uses a shared motion region, the part of the environment that moves in response to the robot's actions, to focus dynamics learning and video generation on interaction-relevant regions. The same motion region guides local motion prediction, region-aware supervision, and motion-gated future-feature conditioning. At inference time, the motion region is predicted as a motion probability map from visual history and robot actions, without requiring future observations or ground-truth motion labels. On WorldSimProbe, MoReWorld achieves the highest overall simulator-faithfulness score, with the strongest performance on local consistency, global consistency, and interaction dynamics. These results indicate that motion-region guidance helps the model preserve scene-level consistency while more faithfully predicting action-conditioned interaction dynamics.",
+      "published_utc": "2026-11-20T09:20:22Z",
+      "updated_utc": "2026-11-20T09:20:22Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.27344v1",
+      "abs_url": "http://arxiv.org/abs/2611.27344v1"
+    },
+    "2610.39278v3": {
+      "arxiv_id": "2610.39278v3",
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "authors": [
+        "Yuhao Lu",
+        "Jiongxu Chen",
+        "Hexiang Wei",
+        "Jiajin Wu",
+        "Juelin Li",
+        "Mingjian Liang",
+        "Fan Yang",
+        "Zhuowei Liang",
+        "Zihao Liu",
+        "Zhennan Wang",
+        "Sheng Wang",
+        "Lin Shao"
+      ],
+      "summary": "Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models leave 3D dynamics implicit, action-based formulations remain tied to specific robot configurations, and 3D motion prediction models use flow-only supervision, providing a limited learning signal for physical dynamics. To circumvent these limitations, we introduce \\method{}, a generative world model that jointly predicts future video and query-based 3D trajectories. By parameterizing 3D motion as continuous displacement tokens aligned with the video grid, a unified Mixture-of-Transformers (MoT) backbone jointly denoises both modalities under a rectified-flow objective. This formulation couples explicit geometric dynamics with visual evolution, effectively unlocking the physical commonsense embedded within pretrained video models. To empirically scale and validate this unified architecture, we train \\method{} on a heterogeneous mixture of 1.44 million object-level samples spanning simulated and real-world domains. We further introduce WorldFlowBench, comprising 1,678 evaluation samples from 11 data sources across simulated and real-world interactions, including spatial reasoning tasks. Across all three evaluation sets, WorldFlow achieves the lowest average displacement error (ADE) and final displacement error (FDE) among the evaluated learning-based methods. Notably, on the challenging SpatialCog set, WorldFlow achieves an ADE of 0.060 m, a 54.2\\% reduction compared with the strongest external baseline. It also reduces ADE and FDE by 55.9\\% and 68.5\\%, respectively, compared with its flow-only variant. Project page: https://roboscience-ai.github.io/worldflow-page/.",
+      "published_utc": "2026-10-29T03:30:27Z",
+      "updated_utc": "2026-11-20T03:12:40Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39278v3",
+      "abs_url": "http://arxiv.org/abs/2610.39278v3"
     }
   },
   "topics": {
@@ -22639,9 +22688,11 @@
         "2610.39278v2",
         "2611.23970v1",
         "2610.28814v2",
-        "2611.26390v1"
+        "2611.26390v1",
+        "2611.27344v1",
+        "2610.39278v3"
       ],
-      "latest_update": "2026-11-20"
+      "latest_update": "2026-11-23"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -23394,9 +23445,10 @@
         "2611.21924v1",
         "2611.23970v1",
         "2611.24999v1",
-        "2611.06837v2"
+        "2611.06837v2",
+        "2611.27344v1"
       ],
-      "latest_update": "2026-11-20"
+      "latest_update": "2026-11-23"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -24147,9 +24199,10 @@
         "2611.14414v1",
         "2611.13654v1",
         "2611.20076v1",
-        "2610.39278v2"
+        "2610.39278v2",
+        "2610.39278v3"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-23"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",

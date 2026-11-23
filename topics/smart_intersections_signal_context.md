@@ -1,8 +1,8 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-22` (timezone: `Europe/Athens`)
+Updated: `2026-11-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **78**
+Total papers tracked: **79**
 
 ---
 
@@ -36,6 +36,9 @@ Total papers tracked: **78**
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v2) · [pdf](https://arxiv.org/pdf/2610.39278v2) · id: `2610.39278v2`
+- **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
+  *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
+  Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v3) · [pdf](https://arxiv.org/pdf/2610.39278v3) · id: `2610.39278v3`
 - **HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour**  
   *Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang, Mingsheng Ling, Xinjue Wang et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36825v1) · [pdf](https://arxiv.org/pdf/2610.36825v1) · id: `2610.36825v1`

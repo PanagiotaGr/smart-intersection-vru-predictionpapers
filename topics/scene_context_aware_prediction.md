@@ -1,11 +1,14 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-22` (timezone: `Europe/Athens`)
+Updated: `2026-11-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **304**
+Total papers tracked: **305**
 
 ---
 
+- **Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models**  
+  *Yongkang He, Xiaofen Xing, Xiangmin Xu*  
+  Published: `2026-11-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.27344v1) · [pdf](https://arxiv.org/pdf/2611.27344v1) · id: `2611.27344v1`
 - **PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction**  
   *Ziyuan Qin, Yang Qiao, Summer B. Frandsen, Michael T. Treadway, Liang Zhao*  
   Published: `2026-11-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.24999v1) · [pdf](https://arxiv.org/pdf/2611.24999v1) · id: `2611.24999v1`

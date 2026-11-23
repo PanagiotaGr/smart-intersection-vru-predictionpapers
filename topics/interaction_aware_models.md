@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-22` (timezone: `Europe/Athens`)
+Updated: `2026-11-23` (timezone: `Europe/Athens`)
 
-Total papers tracked: **326**
+Total papers tracked: **328**
 
 ---
 
+- **Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models**  
+  *Yongkang He, Xiaofen Xing, Xiangmin Xu*  
+  Published: `2026-11-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.27344v1) · [pdf](https://arxiv.org/pdf/2611.27344v1) · id: `2611.27344v1`
 - **SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting**  
   *Ziyang Xu, Peng Han, Hai Zhou*  
   Published: `2026-11-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.26390v1) · [pdf](https://arxiv.org/pdf/2611.26390v1) · id: `2611.26390v1`
@@ -57,6 +60,9 @@ Total papers tracked: **326**
 - **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
   *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
   Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v2) · [pdf](https://arxiv.org/pdf/2610.39278v2) · id: `2610.39278v2`
+- **WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining**  
+  *Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang, Fan Yang, Zhuowei Liang et al.*  
+  Published: `2026-10-29` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.39278v3) · [pdf](https://arxiv.org/pdf/2610.39278v3) · id: `2610.39278v3`
 - **Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models**  
   *Xu Hu, Changjie Wu, Linzhe Shi, Hang Zhang, Chen Yang, Lingjun Zhang, Guowen Zhang, Mu Xu et al.*  
   Published: `2026-10-27` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.36840v1) · [pdf](https://arxiv.org/pdf/2610.36840v1) · id: `2610.36840v1`
