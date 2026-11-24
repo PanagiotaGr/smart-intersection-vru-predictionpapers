@@ -12049,6 +12049,18 @@
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
     },
+    "2610.39278v3": {
+      "schema_version": 1,
+      "paper_id": "2610.39278v3",
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "pdf_url": "https://arxiv.org/pdf/2610.39278v3",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
     "2610.39416v1": {
       "schema_version": 1,
       "paper_id": "2610.39416v1",
@@ -12558,6 +12570,18 @@
       "paper_id": "2611.26390v1",
       "title": "SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting",
       "pdf_url": "https://arxiv.org/pdf/2611.26390v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.27344v1": {
+      "schema_version": 1,
+      "paper_id": "2611.27344v1",
+      "title": "Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models",
+      "pdf_url": "https://arxiv.org/pdf/2611.27344v1",
       "evidence_level": "title_and_abstract",
       "source_file": null,
       "claims": [],
