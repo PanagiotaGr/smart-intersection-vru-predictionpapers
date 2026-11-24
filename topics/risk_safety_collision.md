@@ -1,11 +1,17 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **293**
+Total papers tracked: **295**
 
 ---
 
+- **JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding**  
+  *Taekyung Kim, Ege Yuceel, Steven Hong, Georgios Fainekos, Dimitra Panagou, Bardh Hoxha*  
+  Published: `2026-11-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.29609v1) · [pdf](https://arxiv.org/pdf/2611.29609v1) · id: `2611.29609v1`
+- **A world model for longitudinal health-trajectory prediction in older adults across multinational cohorts**  
+  *Jingyi Wu, Chenghua Guo, Qianlin Zuo, Pengfei Li, Luxia Zhang*  
+  Published: `2026-11-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.28175v1) · [pdf](https://arxiv.org/pdf/2611.28175v1) · id: `2611.28175v1`
 - **ExtremeDrive: A Real-World Dataset and Benchmark for Critical Driving**  
   *Xinhan Li, Yuhong Jiang, Shiyue Zhao, Junzhi Zhang, Chengkun He, Ruihai Ma, Shijie Zhao, Wenxuan Cheng et al.*  
   Published: `2026-11-16` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.20574v1) · [pdf](https://arxiv.org/pdf/2611.20574v1) · id: `2611.20574v1`

@@ -1,8 +1,8 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **141**
+Total papers tracked: **142**
 
 ---
 
@@ -78,6 +78,9 @@ Total papers tracked: **141**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v4) · [pdf](https://arxiv.org/pdf/2604.07126v4) · id: `2604.07126v4`
 - **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
   *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
   Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`

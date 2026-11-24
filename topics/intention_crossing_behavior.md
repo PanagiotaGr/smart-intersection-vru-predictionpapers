@@ -1,8 +1,8 @@
 # Intention and Crossing Behavior
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **140**
+Total papers tracked: **141**
 
 ---
 
@@ -117,6 +117,9 @@ Total papers tracked: **140**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v4) · [pdf](https://arxiv.org/pdf/2604.07126v4) · id: `2604.07126v4`
 - **MRReP: Mixed Reality-based Hand-drawn Reference Path Editing Interface for Mobile Robot Navigation**  
   *Takumi Taki, Masato Kobayashi, Yuki Uranishi*  
   Published: `2026-03-31` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.00059v1) · [pdf](https://arxiv.org/pdf/2604.00059v1) · id: `2604.00059v1`

@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **162**
+Total papers tracked: **164**
 
 ---
 
+- **Mirrored Min-of-K Training**  
+  *Jiaru Zhang, Zeyun Deng, Hyunsoo Yun, Yupeng Zhou, Bingyao Du, Juntong Peng, Zichong Yang, Can Cui et al.*  
+  Published: `2026-11-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.29008v1) · [pdf](https://arxiv.org/pdf/2611.29008v1) · id: `2611.29008v1`
 - **SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting**  
   *Ziyang Xu, Peng Han, Hai Zhou*  
   Published: `2026-11-19` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.26390v1) · [pdf](https://arxiv.org/pdf/2611.26390v1) · id: `2611.26390v1`
@@ -189,6 +192,9 @@ Total papers tracked: **162**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v4) · [pdf](https://arxiv.org/pdf/2604.07126v4) · id: `2604.07126v4`
 - **ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations**  
   *Ruochen Li, Ziyi Chang, Junyan Hu, Jiannan Li, Amir Atapour-Abarghouei, Hubert P. H. Shum*  
   Published: `2026-04-04` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2604.03649v1) · [pdf](https://arxiv.org/pdf/2604.03649v1) · id: `2604.03649v1`

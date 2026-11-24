@@ -1,11 +1,14 @@
 # Smart Intersections and Traffic Signal Context
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **79**
+Total papers tracked: **80**
 
 ---
 
+- **Data-Driven Trajectory Prediction via Probabilistic Modes and Constrained Optimization**  
+  *Danyang Li, Ana Theodora Balaci, Matthew Cleaveland, Roberto Tron*  
+  Published: `2026-11-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.28720v1) · [pdf](https://arxiv.org/pdf/2611.28720v1) · id: `2611.28720v1`
 - **SGIP: Learning Scene-Grounded Interaction Priors for Scene-Aware Human Motion Prediction**  
   *Donghyeon Soon, Jiil Yoon, Hyeondong Kim, Daehee Park*  
   Published: `2026-11-15` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.20076v1) · [pdf](https://arxiv.org/pdf/2611.20076v1) · id: `2611.20076v1`

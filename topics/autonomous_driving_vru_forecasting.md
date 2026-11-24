@@ -1,8 +1,8 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **127**
+Total papers tracked: **128**
 
 ---
 
@@ -54,6 +54,9 @@ Total papers tracked: **127**
 - **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
   *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
   Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v3) · [pdf](https://arxiv.org/pdf/2604.07126v3) · id: `2604.07126v3`
+- **RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction**  
+  *Diyi Liu, Zihan Niu, Tu Xu, Xingchen Zhang, Lishan Sun*  
+  Published: `2026-04-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2604.07126v4) · [pdf](https://arxiv.org/pdf/2604.07126v4) · id: `2604.07126v4`
 - **Super Agents and Confounders: Influence of surrounding agents on vehicle trajectory prediction**  
   *Daniel Jost, Luca Paparusso, Martin Stoll, Jörg Wagner, Raghu Rajan, Joschka Bödecker*  
   Published: `2026-04-03` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2604.03463v1) · [pdf](https://arxiv.org/pdf/2604.03463v1) · id: `2604.03463v1`

@@ -1,14 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **305**
+Total papers tracked: **309**
 
 ---
 
+- **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**  
+  *Seongchan Kim, Soowon Son, Sangoh Kim, Hyunah Ko, Eunbeen Hong, Hyunkoo Lee, Sanghyun Lee, WonJun Moon et al.*  
+  Published: `2026-11-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.31240v1) · [pdf](https://arxiv.org/pdf/2611.31240v1) · id: `2611.31240v1`
+- **LeadVLA: Learning Follower-Aware Route Execution for Robot Leading**  
+  *Tianle Zeng, Hanjing Ye, Bingyi Xia, Yuchen Zhou, Zibo Zhang, Yufei Huang, Yonggen Ling, Hong Zhang*  
+  Published: `2026-11-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.30149v1) · [pdf](https://arxiv.org/pdf/2611.30149v1) · id: `2611.30149v1`
 - **Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models**  
   *Yongkang He, Xiaofen Xing, Xiangmin Xu*  
   Published: `2026-11-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.27344v1) · [pdf](https://arxiv.org/pdf/2611.27344v1) · id: `2611.27344v1`
+- **A world model for longitudinal health-trajectory prediction in older adults across multinational cohorts**  
+  *Jingyi Wu, Chenghua Guo, Qianlin Zuo, Pengfei Li, Luxia Zhang*  
+  Published: `2026-11-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.28175v1) · [pdf](https://arxiv.org/pdf/2611.28175v1) · id: `2611.28175v1`
 - **PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction**  
   *Ziyuan Qin, Yang Qiao, Summer B. Frandsen, Michael T. Treadway, Liang Zhao*  
   Published: `2026-11-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.24999v1) · [pdf](https://arxiv.org/pdf/2611.24999v1) · id: `2611.24999v1`
@@ -150,6 +159,9 @@ Total papers tracked: **305**
 - **Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data**  
   *Shuo Zhang, Aman Sunesh, Semiha Ergan, Kaan Ozbay*  
   Published: `2026-10-08` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2610.12747v1) · [pdf](https://arxiv.org/pdf/2610.12747v1) · id: `2610.12747v1`
+- **Refine Connections, Close the Gap: A Reliable Enhancement Framework for Driving Scene Topology**  
+  *Xiaoqi Wang, Dingyi Zhuang, David Paz, Wenbin He, Yucai Bai, Peng Zhou, Rui Zhang, Jinhua Zhao et al.*  
+  Published: `2026-10-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.11058v3) · [pdf](https://arxiv.org/pdf/2610.11058v3) · id: `2610.11058v3`
 - **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction**  
   *Arash Raftari, Babak Ebrahimi Soorchaei, Yaser P. Fallah*  
   Published: `2026-10-06` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.09174v1) · [pdf](https://arxiv.org/pdf/2610.09174v1) · id: `2610.09174v1`

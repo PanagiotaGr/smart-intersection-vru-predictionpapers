@@ -1,11 +1,14 @@
 # Graph Transformer and Diffusion Models
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **215**
+Total papers tracked: **217**
 
 ---
 
+- **Robust Trajectory Prediction Under Sensing and V2X Noise: Evaluation and Mitigation Strategies**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.28128v1) · [pdf](https://arxiv.org/pdf/2611.28128v1) · id: `2611.28128v1`
 - **In-Context Estimation and Prediction for Parametric ODEs**  
   *Abdullah Ahmed, Yun Yang*  
   Published: `2026-11-16` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.21268v1) · [pdf](https://arxiv.org/pdf/2611.21268v1) · id: `2611.21268v1`
@@ -66,6 +69,9 @@ Total papers tracked: **215**
 - **Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data**  
   *Frederik E. T. Schöller*  
   Published: `2026-10-09` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.13557v1) · [pdf](https://arxiv.org/pdf/2610.13557v1) · id: `2610.13557v1`
+- **Refine Connections, Close the Gap: A Reliable Enhancement Framework for Driving Scene Topology**  
+  *Xiaoqi Wang, Dingyi Zhuang, David Paz, Wenbin He, Yucai Bai, Peng Zhou, Rui Zhang, Jinhua Zhao et al.*  
+  Published: `2026-10-08` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2610.11058v3) · [pdf](https://arxiv.org/pdf/2610.11058v3) · id: `2610.11058v3`
 - **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction**  
   *Arash Raftari, Babak Ebrahimi Soorchaei, Yaser P. Fallah*  
   Published: `2026-10-06` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2610.09174v1) · [pdf](https://arxiv.org/pdf/2610.09174v1) · id: `2610.09174v1`

@@ -22122,6 +22122,215 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2610.39278v3",
       "abs_url": "http://arxiv.org/abs/2610.39278v3"
+    },
+    "2611.29008v1": {
+      "arxiv_id": "2611.29008v1",
+      "title": "Mirrored Min-of-K Training",
+      "authors": [
+        "Jiaru Zhang",
+        "Zeyun Deng",
+        "Hyunsoo Yun",
+        "Yupeng Zhou",
+        "Bingyao Du",
+        "Juntong Peng",
+        "Zichong Yang",
+        "Can Cui",
+        "Chuheng Wei",
+        "Ruqi Zhang",
+        "Ziran Wang"
+      ],
+      "summary": "Min-of-K (MoK) training is widely used to train models that produce diverse outputs from random noise. For each target, it draws K outputs from the model and backpropagates only through the one closest to the target. However, MoK generally does not make the generated distribution match the data distribution. In this paper, we analyze the MoK bias across all values of K and show that tuning K shifts between failure modes, from mode dropping at small K to distribution flattening at large K. We further prove that every nontrivial loss based only on target-candidate distances fails to recover some data distribution, since these distances do not reveal how the candidates are placed relative to each other. Based on these analyses, we propose mirrored MoK (MMoK), a drop-in modification of MoK training that draws one extra sample from the model, applies the closest-candidate selection rule against it, and subtracts the resulting distance. Since this distance is measured between samples of the model, it provides additional information about how the candidates are placed relative to each other. We prove that MMoK can in principle recover data distributions that MoK cannot. We empirically validate MMoK on five scenarios, namely synthetic mixtures, pedestrian and vehicle trajectory prediction, tropical cyclone forecasting, robotic policy learning, and ambiguous medical image segmentation. The results confirm the effectiveness and generality of MMoK in both distribution learning and task performance.",
+      "published_utc": "2026-11-21T19:36:37Z",
+      "updated_utc": "2026-11-21T19:36:37Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.29008v1",
+      "abs_url": "http://arxiv.org/abs/2611.29008v1"
+    },
+    "2604.07126v4": {
+      "arxiv_id": "2604.07126v4",
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "authors": [
+        "Diyi Liu",
+        "Zihan Niu",
+        "Tu Xu",
+        "Xingchen Zhang",
+        "Lishan Sun"
+      ],
+      "summary": "Predicting traffic agent trajectories plays an important role in autonomous driving, traffic operations, transportation safety analysis, etc. Although many deep learning algorithms are devised to predict future agent trajectories, the trajectory prediction problem is still challenging due to the complexity of decision-making process, interactions with surrounding vehicles, and the existence of multiple possible intentions for the traveling agents even under similar scenarios. Most existing methods are limited by the requirement of graph structures (e.g., Graph Neural Network) or the requirement of manually labeled intentions. In this study, we propose a pure Transformer-based deep learning model for multi-modal trajectory prediction considering temporal dependencies and agent-agent spatial interactions. After encoding the historical trajectories, two parallel decoders are employed to generate trajectories and probabilities on separate decoder tracks. The model is evaluated on two real-world datasets, one highway dataset and the other pedestrian dataset with solid performance. One important insight is that following a ``propose-then-select'' strategy, the agent-agent spatial interactions are only considered for probability estimation instead of trajectory generation. In summary, the proposed model provides a potential direction to design more robust and effective multi-modal trajectory prediction models.",
+      "published_utc": "2026-04-08T14:20:09Z",
+      "updated_utc": "2026-11-23T08:19:08Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2604.07126v4",
+      "abs_url": "http://arxiv.org/abs/2604.07126v4"
+    },
+    "2611.28128v1": {
+      "arxiv_id": "2611.28128v1",
+      "title": "Robust Trajectory Prediction Under Sensing and V2X Noise: Evaluation and Mitigation Strategies",
+      "authors": [
+        "Shahab Salehi",
+        "Luca Lusvarghi",
+        "Miguel Sepulcre",
+        "Javier Gozalvez"
+      ],
+      "summary": "Anticipating the future behavior of surrounding objects is key for the safe and efficient navigation of autonomous vehicles. State-of-the-art Transformer-based interaction-aware trajectory prediction models are typically trained and evaluated on large-scale, highly curated datasets obtained by filtering any object detection and tracking noise through extensive offline post-processing. However, in real-world deployments, the detected objects' state (position, heading, and speed) estimates are inherently affected by sensing and localization uncertainties. These uncertainties can be even higher for connected and automated vehicles receiving information from other road users through Vehicle-to-Everything (V2X) communications. In this paper, we first investigate the sensitivity of five state-of-the-art Transformer-based interaction-aware trajectory prediction models to realistic noisy object state estimates. Numerical results show that prediction accuracy degrades by up to a 6x factor as the noise level increases, highlighting the models' sensitivity to the mismatch between the noise conditions encountered during training and those experienced at deployment. We then show that retraining models on a more realistic noise-augmented dataset is a more effective strategy to mitigate the impact of noisy object state estimates on trajectory prediction accuracy than using denoising modules at the input. Retrained models limit the prediction accuracy degradation below a 1.5x factor. The noise-augmented dataset is openly released to support further research.",
+      "published_utc": "2026-11-18T14:54:25Z",
+      "updated_utc": "2026-11-18T14:54:25Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.NI",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.28128v1",
+      "abs_url": "http://arxiv.org/abs/2611.28128v1"
+    },
+    "2611.29609v1": {
+      "arxiv_id": "2611.29609v1",
+      "title": "JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding",
+      "authors": [
+        "Taekyung Kim",
+        "Ege Yuceel",
+        "Steven Hong",
+        "Georgios Fainekos",
+        "Dimitra Panagou",
+        "Bardh Hoxha"
+      ],
+      "summary": "Latent world models enable planning from images, but their predictions do not directly establish whether a robot will satisfy physical constraints. We present JEPA-Shield, which connects a frozen action-conditioned Joint-Embedding Predictive Architecture (JEPA) world model to task-space safety enforcement. Two downstream models predict relative motion from imagined latent rollouts and decode unsafe geometry from the current image. Split conformal prediction turns end-to-end motion-prediction errors into multi-horizon uncertainty tubes. A backup-based shield checks these tubes against physical constraints and screens both candidate trajectories and final proposals in diffusion-inspired sampling-based model predictive control. Under the stated exchangeability and initial-backup assumptions, we establish probabilistic constraint satisfaction at action-block boundaries for a returned plan executed without replanning. We also introduce VParkBench, with geometric car and tractor-trailer parking tasks and a editable photorealistic Gaussian-splatting environment. In closed-loop evaluation, JEPA-Shield achieves success rates of 84.4%, 82.3%, and 99.0%, respectively, with no observed constraint violations. Ablations show complementary benefits from shielding and uncertainty calibration. The results demonstrate the importance of grounding latent world-model predictions in task-space quantities and explicitly accounting for prediction uncertainty in safety-critical planning.",
+      "published_utc": "2026-11-22T17:00:07Z",
+      "updated_utc": "2026-11-22T17:00:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.29609v1",
+      "abs_url": "http://arxiv.org/abs/2611.29609v1"
+    },
+    "2611.28175v1": {
+      "arxiv_id": "2611.28175v1",
+      "title": "A world model for longitudinal health-trajectory prediction in older adults across multinational cohorts",
+      "authors": [
+        "Jingyi Wu",
+        "Chenghua Guo",
+        "Qianlin Zuo",
+        "Pengfei Li",
+        "Luxia Zhang"
+      ],
+      "summary": "Aging is characterized by continuously evolving health states, yet most existing prediction models focus on static health risk at isolated time points rather than explicitly modelling how health trajectories unfold over time. We developed a health world model based on the Joint-Embedding Predictive Architecture to represent evolving health states and simulate future trajectories under specified actions. The model combines a state encoder, an action- and context-conditioned predictor, a stop-gradient target encoder, and clinical outcome heads. We trained the model on the US Health and Retirement Study (HRS) and evaluated it without refitting in the English Longitudinal Study of Ageing (ELSA) and the China Health and Retirement Longitudinal Study (CHARLS). Open-loop evaluation assessed discrimination and calibration for mortality and worsening of activities of daily living (ADL) and instrumental activities of daily living (IADL). In the held-out HRS test set, the areas under the receiver operating characteristic curve (AUROCs) for mortality, ADL worsening, and IADL worsening were 0.89, 0.93, and 0.93 at the first horizon and 0.84, 0.84, and 0.85 at the fifth horizon, respectively. Predicted risks stratified subsequent outcomes across horizons. Across the evaluated horizons, mortality AUROC ranged from 0.867 to 0.881 in ELSA and from 0.796 to 0.801 in CHARLS. Simulated trajectories preserved the expected risk ordering across predefined action regimes. In counterfactual simulations, changes in lifestyle actions shifted predicted risks in directions consistent with observed associations. The model provides a framework for longitudinal risk prediction and action-conditioned simulation in older adults.",
+      "published_utc": "2026-11-20T06:16:26Z",
+      "updated_utc": "2026-11-20T06:16:26Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.28175v1",
+      "abs_url": "http://arxiv.org/abs/2611.28175v1"
+    },
+    "2611.31240v1": {
+      "arxiv_id": "2611.31240v1",
+      "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+      "authors": [
+        "Seongchan Kim",
+        "Soowon Son",
+        "Sangoh Kim",
+        "Hyunah Ko",
+        "Eunbeen Hong",
+        "Hyunkoo Lee",
+        "Sanghyun Lee",
+        "WonJun Moon",
+        "Kihong Kim",
+        "Dongyeon Son",
+        "Woongchan Nam",
+        "Seungryong Kim"
+      ],
+      "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor importance in Alpamayo-1.5-10B shows that reasoning and trajectory objectives assign different importance to the same vision-language model (VLM) structures. In the action expert, MLP channels exhibit more stable importance rankings across denoising steps than query heads, and a small fraction of channels accounts for most of the measured importance. Based on these findings, we propose MoOP, which combines importance ranks from both objectives for VLM pruning and aggregates stepwise importance to select a fixed subset of expert MLP channels. At 24.0% total parameter reduction, VLM-only pruning with MoOP performs comparably to or slightly better than the strongest baselines in driving, while retaining 94.0% of the dense model's LingoQA score, far above all other methods. At a higher reduction of 30.0%, MoOP degrades much less than every other method, as it is the only one whose reasoning does not collapse. Removing 93.75% of expert MLP channels increases total parameter reduction to 39.4%, with nearly unchanged open-loop errors relative to VLM-only pruning and competitive closed-loop performance. The resulting model achieves a 1.37x end-to-end inference speedup and 36.6% lower peak memory than the dense model, without post-pruning fine-tuning.",
+      "published_utc": "2026-11-23T18:59:52Z",
+      "updated_utc": "2026-11-23T18:59:52Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.31240v1",
+      "abs_url": "http://arxiv.org/abs/2611.31240v1"
+    },
+    "2611.30149v1": {
+      "arxiv_id": "2611.30149v1",
+      "title": "LeadVLA: Learning Follower-Aware Route Execution for Robot Leading",
+      "authors": [
+        "Tianle Zeng",
+        "Hanjing Ye",
+        "Bingyi Xia",
+        "Yuchen Zhou",
+        "Zibo Zhang",
+        "Yufei Huang",
+        "Yonggen Ling",
+        "Hong Zhang"
+      ],
+      "summary": "Robot leading requires executing a route while continuously adapting to a designated follower. Existing robot-leading systems often mediate follower understanding and physical route execution through explicit states, planners, or modular interfaces; directly learning this coupling through end-to-end trajectory prediction can instead entangle route execution with follower response. We introduce LeadVLA, a structured multimodal policy that preserves the route as an explicit Path reference while learning a Pace for route progress and a Residual for local follower- and scene-conditioned adaptation. To make this problem trainable and measurable, we develop LeadInfra, a configurable Unreal Engine-based closed-loop data-generation infrastructure from which we instantiate an approximately 4M-sample training corpus, and LeadBench, a standardized benchmark with 108 fully held-out closed-loop episodes. LeadVLA achieves the highest task success (39.6%) among evaluated robot policies on LeadBench while maintaining strong route fidelity and follower responsiveness, and transfers to unseen real-world environments without real-world policy fine-tuning. Project Page: https://louiszengCN.github.io/LeadVLA_PAGE/",
+      "published_utc": "2026-11-23T06:57:07Z",
+      "updated_utc": "2026-11-23T06:57:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.30149v1",
+      "abs_url": "http://arxiv.org/abs/2611.30149v1"
+    },
+    "2610.11058v3": {
+      "arxiv_id": "2610.11058v3",
+      "title": "Refine Connections, Close the Gap: A Reliable Enhancement Framework for Driving Scene Topology",
+      "authors": [
+        "Xiaoqi Wang",
+        "Dingyi Zhuang",
+        "David Paz",
+        "Wenbin He",
+        "Yucai Bai",
+        "Peng Zhou",
+        "Rui Zhang",
+        "Jinhua Zhao",
+        "Liu Ren"
+      ],
+      "summary": "In autonomous driving, understanding scene topology -- the connectivity between lanes and traffic elements -- is critical for safe path planning and motion control. While current methods excel at detecting individual map elements, their connectivity reasoning often falls short of its theoretical potential, leaving a significant performance gap relative to the theoretical upper-bound (Oracle) achievable given the underlying detections. To bridge this gap, we propose TopoEnhance, a novel topology enhancement framework designed to unlock the latent potential of existing methods by refining their connectivity predictions. We formulate topology enhancement as a denoising-based reconstruction process, where the model learns to recover structural consistency from stochastically corrupted ground-truth graphs. This training strategy does not require predictions from upstream topology models. Experiments on OpenLane-V2 show that TopoEnhance consistently improves $TOP_{ll}$ and $TOP_{lt}$ across diverse prediction sources, narrowing the gap to the detection-conditioned Upper-Bound without source-specific retraining. Further evaluations demonstrate improvements in ego-route recoverability, downstream trajectory prediction, and temporal consistency.",
+      "published_utc": "2026-10-08T01:15:14Z",
+      "updated_utc": "2026-11-22T07:30:35Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.11058v3",
+      "abs_url": "http://arxiv.org/abs/2610.11058v3"
+    },
+    "2611.28720v1": {
+      "arxiv_id": "2611.28720v1",
+      "title": "Data-Driven Trajectory Prediction via Probabilistic Modes and Constrained Optimization",
+      "authors": [
+        "Danyang Li",
+        "Ana Theodora Balaci",
+        "Matthew Cleaveland",
+        "Roberto Tron"
+      ],
+      "summary": "Predicting the future trajectories of surrounding agents is a fundamental requirement for safe autonomous driving. Since agent intent is inherently uncertain, multimodal prediction is essential to account for the full range of plausible future behaviors. We introduce Probabilistic Modes and Constrained Optimization trajectory prediction (ProMo-CoOp), a two-stage data-driven framework. At design time, trajectories are clustered into behavioral modes and a Gaussian Mixture Model (GMM) provides probabilistic mode assignments. At prediction time, a candidate trajectory is generated for each mode by solving a convex optimization problem that enforces consistency with the observed trajectory and uses the precomputed mode assignments to guide prediction toward the selected behavioral mode. The framework also supports Signal Temporal Logic (STL)-derived behavioral constraints, with predicate satisfaction probabilities estimated using Conditional Flow Matching (CFM). Experiments show that ProMo-CoOp outperforms state-of-the-art baselines, and that STL-based constraints can further improve performance when the predicted predicate satisfactions are reliable.",
+      "published_utc": "2026-11-21T10:25:49Z",
+      "updated_utc": "2026-11-21T10:25:49Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.28720v1",
+      "abs_url": "http://arxiv.org/abs/2611.28720v1"
     }
   },
   "topics": {
@@ -22299,9 +22508,11 @@
         "2610.39958v1",
         "2611.15781v1",
         "2611.23198v1",
-        "2611.26390v1"
+        "2611.26390v1",
+        "2611.29008v1",
+        "2604.07126v4"
       ],
-      "latest_update": "2026-11-20"
+      "latest_update": "2026-11-24"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -22690,9 +22901,10 @@
         "2610.28814v2",
         "2611.26390v1",
         "2611.27344v1",
-        "2610.39278v3"
+        "2610.39278v3",
+        "2611.28128v1"
       ],
-      "latest_update": "2026-11-23"
+      "latest_update": "2026-11-24"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -22836,9 +23048,10 @@
         "2611.07208v1",
         "2611.11583v1",
         "2609.40158v2",
-        "2610.23356v2"
+        "2610.23356v2",
+        "2604.07126v4"
       ],
-      "latest_update": "2026-11-17"
+      "latest_update": "2026-11-24"
     },
     "risk_safety_collision": {
       "name": "Risk-aware / Safety / Collision Prediction",
@@ -23135,9 +23348,11 @@
         "2608.12037v2",
         "2611.17330v1",
         "2611.15781v1",
-        "2611.20574v1"
+        "2611.20574v1",
+        "2611.29609v1",
+        "2611.28175v1"
       ],
-      "latest_update": "2026-11-17"
+      "latest_update": "2026-11-24"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -23446,9 +23661,13 @@
         "2611.23970v1",
         "2611.24999v1",
         "2611.06837v2",
-        "2611.27344v1"
+        "2611.27344v1",
+        "2611.31240v1",
+        "2611.30149v1",
+        "2611.28175v1",
+        "2610.11058v3"
       ],
-      "latest_update": "2026-11-23"
+      "latest_update": "2026-11-24"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23678,9 +23897,14 @@
         "2611.20574v1",
         "2611.24457v1",
         "2611.24999v1",
-        "2611.06837v2"
+        "2611.06837v2",
+        "2611.30149v1",
+        "2611.29008v1",
+        "2611.28720v1",
+        "2611.28175v1",
+        "2611.28128v1"
       ],
-      "latest_update": "2026-11-20"
+      "latest_update": "2026-11-24"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -23899,9 +24123,11 @@
         "2611.10506v1",
         "2611.02076v2",
         "2611.16464v1",
-        "2611.21268v1"
+        "2611.21268v1",
+        "2611.28128v1",
+        "2610.11058v3"
       ],
-      "latest_update": "2026-11-17"
+      "latest_update": "2026-11-24"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -24032,9 +24258,10 @@
         "2610.09438v1",
         "2610.21132v1",
         "2604.03463v2",
-        "2611.23198v1"
+        "2611.23198v1",
+        "2604.07126v4"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-24"
     },
     "crossing_gap_acceptance": {
       "name": "Crossing Decision and Gap Acceptance",
@@ -24200,9 +24427,10 @@
         "2611.13654v1",
         "2611.20076v1",
         "2610.39278v2",
-        "2610.39278v3"
+        "2610.39278v3",
+        "2611.28720v1"
       ],
-      "latest_update": "2026-11-23"
+      "latest_update": "2026-11-24"
     },
     "vru_datasets_benchmarks": {
       "name": "VRU Datasets Benchmarks and Evaluation",
@@ -24347,9 +24575,10 @@
         "2610.21132v1",
         "2511.11164v4",
         "2604.03463v2",
-        "2611.23198v1"
+        "2611.23198v1",
+        "2604.07126v4"
       ],
-      "latest_update": "2026-11-18"
+      "latest_update": "2026-11-24"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -24515,9 +24744,11 @@
         "2609.40158v2",
         "2610.23356v2",
         "2611.23198v1",
-        "2611.26390v1"
+        "2611.26390v1",
+        "2611.29008v1",
+        "2604.07126v4"
       ],
-      "latest_update": "2026-11-20"
+      "latest_update": "2026-11-24"
     }
   }
 }

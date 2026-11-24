@@ -1,14 +1,29 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-23` (timezone: `Europe/Athens`)
+Updated: `2026-11-24` (timezone: `Europe/Athens`)
 
-Total papers tracked: **226**
+Total papers tracked: **231**
 
 ---
 
+- **LeadVLA: Learning Follower-Aware Route Execution for Robot Leading**  
+  *Tianle Zeng, Hanjing Ye, Bingyi Xia, Yuchen Zhou, Zibo Zhang, Yufei Huang, Yonggen Ling, Hong Zhang*  
+  Published: `2026-11-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.30149v1) · [pdf](https://arxiv.org/pdf/2611.30149v1) · id: `2611.30149v1`
+- **Mirrored Min-of-K Training**  
+  *Jiaru Zhang, Zeyun Deng, Hyunsoo Yun, Yupeng Zhou, Bingyao Du, Juntong Peng, Zichong Yang, Can Cui et al.*  
+  Published: `2026-11-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.29008v1) · [pdf](https://arxiv.org/pdf/2611.29008v1) · id: `2611.29008v1`
+- **Data-Driven Trajectory Prediction via Probabilistic Modes and Constrained Optimization**  
+  *Danyang Li, Ana Theodora Balaci, Matthew Cleaveland, Roberto Tron*  
+  Published: `2026-11-21` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.28720v1) · [pdf](https://arxiv.org/pdf/2611.28720v1) · id: `2611.28720v1`
+- **A world model for longitudinal health-trajectory prediction in older adults across multinational cohorts**  
+  *Jingyi Wu, Chenghua Guo, Qianlin Zuo, Pengfei Li, Luxia Zhang*  
+  Published: `2026-11-20` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.28175v1) · [pdf](https://arxiv.org/pdf/2611.28175v1) · id: `2611.28175v1`
 - **PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction**  
   *Ziyuan Qin, Yang Qiao, Summer B. Frandsen, Michael T. Treadway, Liang Zhao*  
   Published: `2026-11-18` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.24999v1) · [pdf](https://arxiv.org/pdf/2611.24999v1) · id: `2611.24999v1`
+- **Robust Trajectory Prediction Under Sensing and V2X Noise: Evaluation and Mitigation Strategies**  
+  *Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez*  
+  Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.28128v1) · [pdf](https://arxiv.org/pdf/2611.28128v1) · id: `2611.28128v1`
 - **ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model**  
   *Zhiqiang Yan, Guangfa Wang, Yuan Wu, Jian Yang, Gim Hee Lee*  
   Published: `2026-11-18` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.24457v1) · [pdf](https://arxiv.org/pdf/2611.24457v1) · id: `2611.24457v1`
