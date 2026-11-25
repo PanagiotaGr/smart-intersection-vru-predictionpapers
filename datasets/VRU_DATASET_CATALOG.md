@@ -33,7 +33,7 @@ It is a discovery index: every entry must be verified from the full paper and th
 | Waymo Open Motion Dataset | pedestrian; cyclist; vehicle | motion forecasting | 21 | candidate |
 | inD | pedestrian; cyclist; vehicle | intersection trajectories; interaction analysis | 10 | candidate |
 | nuScenes | pedestrian; bicycle; motorcycle; vehicle | 3D detection; tracking; prediction | 82 | candidate |
-| rounD | pedestrian; cyclist; vehicle | roundabout trajectories; interaction analysis | 5 | candidate |
+| rounD | pedestrian; cyclist; vehicle | roundabout trajectories; interaction analysis | 6 | candidate |
 | uniD | pedestrian; cyclist; vehicle | shared-space trajectories | 0 | candidate |
 
 ## Interpretation rules

@@ -1,6 +1,6 @@
 # Autonomous Driving Forecasting for VRUs
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
 Total papers tracked: **128**
 

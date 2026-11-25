@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **295**
+Total papers tracked: **296**
 
 ---
 
+- **VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation**  
+  *Jiajie Zhang, Yankai Xiang, Changhao Chen*  
+  Published: `2026-11-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.32245v1) · [pdf](https://arxiv.org/pdf/2611.32245v1) · id: `2611.32245v1`
 - **JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding**  
   *Taekyung Kim, Ege Yuceel, Steven Hong, Georgios Fainekos, Dimitra Panagou, Bardh Hoxha*  
   Published: `2026-11-22` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.29609v1) · [pdf](https://arxiv.org/pdf/2611.29609v1) · id: `2611.29609v1`

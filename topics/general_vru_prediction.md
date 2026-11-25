@@ -1,11 +1,14 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **164**
+Total papers tracked: **165**
 
 ---
 
+- **ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction**  
+  *Zhenhao Wang, Shaofeng Liang, Jiemin Wu, Sijia Chen, Keni Shi, Nan Li, Wenshuo Chen, Bowen Tian et al.*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32447v1) · [pdf](https://arxiv.org/pdf/2611.32447v1) · id: `2611.32447v1`
 - **Mirrored Min-of-K Training**  
   *Jiaru Zhang, Zeyun Deng, Hyunsoo Yun, Yupeng Zhou, Bingyao Du, Juntong Peng, Zichong Yang, Can Cui et al.*  
   Published: `2026-11-21` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.29008v1) · [pdf](https://arxiv.org/pdf/2611.29008v1) · id: `2611.29008v1`

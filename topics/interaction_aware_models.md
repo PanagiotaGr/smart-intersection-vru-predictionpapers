@@ -1,11 +1,14 @@
 # Interaction-aware and Social Models
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **329**
+Total papers tracked: **330**
 
 ---
 
+- **ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction**  
+  *Zhenhao Wang, Shaofeng Liang, Jiemin Wu, Sijia Chen, Keni Shi, Nan Li, Wenshuo Chen, Bowen Tian et al.*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32447v1) · [pdf](https://arxiv.org/pdf/2611.32447v1) · id: `2611.32447v1`
 - **Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models**  
   *Yongkang He, Xiaofen Xing, Xiangmin Xu*  
   Published: `2026-11-20` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.27344v1) · [pdf](https://arxiv.org/pdf/2611.27344v1) · id: `2611.27344v1`

@@ -1,11 +1,14 @@
 # VRU Datasets Benchmarks and Evaluation
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **142**
+Total papers tracked: **143**
 
 ---
 
+- **ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction**  
+  *Zhenhao Wang, Shaofeng Liang, Jiemin Wu, Sijia Chen, Keni Shi, Nan Li, Wenshuo Chen, Bowen Tian et al.*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32447v1) · [pdf](https://arxiv.org/pdf/2611.32447v1) · id: `2611.32447v1`
 - **Learned versus Kinematic Trajectory Prediction under Reduced Observation Frequency**  
   *Nukhbala Gadzhiev, Alexander Morochko*  
   Published: `2026-11-17` · Category: `cs.LG` · [abs](http://arxiv.org/abs/2611.23198v1) · [pdf](https://arxiv.org/pdf/2611.23198v1) · id: `2611.23198v1`

@@ -1,11 +1,23 @@
 # Scene and Context-aware Prediction
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **309**
+Total papers tracked: **313**
 
 ---
 
+- **ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction**  
+  *Zhenhao Wang, Shaofeng Liang, Jiemin Wu, Sijia Chen, Keni Shi, Nan Li, Wenshuo Chen, Bowen Tian et al.*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32447v1) · [pdf](https://arxiv.org/pdf/2611.32447v1) · id: `2611.32447v1`
+- **Get the Next Moment Right: Short-Term Event Planning for Physically Plausible Video Generation**  
+  *Hao Liu, Xiang Tang, Ruotong Li, Xiaopeng Fan, Yujiu Yang*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32337v1) · [pdf](https://arxiv.org/pdf/2611.32337v1) · id: `2611.32337v1`
+- **VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation**  
+  *Jiajie Zhang, Yankai Xiang, Changhao Chen*  
+  Published: `2026-11-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.32245v1) · [pdf](https://arxiv.org/pdf/2611.32245v1) · id: `2611.32245v1`
+- **MoGe-4D: Efficient, Flexible, and Unified Dense 4D Reconstruction and Tracking**  
+  *Ruicheng Wang, Linlin Xin, Sicheng Xu, Jianfeng Xiang, Zelong Lv, Yu Deng, Yue Dong, Guangzhong Sun et al.*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.32198v1) · [pdf](https://arxiv.org/pdf/2611.32198v1) · id: `2611.32198v1`
 - **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**  
   *Seongchan Kim, Soowon Son, Sangoh Kim, Hyunah Ko, Eunbeen Hong, Hyunkoo Lee, Sanghyun Lee, WonJun Moon et al.*  
   Published: `2026-11-23` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.31240v1) · [pdf](https://arxiv.org/pdf/2611.31240v1) · id: `2611.31240v1`

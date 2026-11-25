@@ -1,11 +1,14 @@
 # Probabilistic and Uncertainty-aware Forecasting
 
-Updated: `2026-11-24` (timezone: `Europe/Athens`)
+Updated: `2026-11-25` (timezone: `Europe/Athens`)
 
-Total papers tracked: **231**
+Total papers tracked: **232**
 
 ---
 
+- **VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation**  
+  *Jiajie Zhang, Yankai Xiang, Changhao Chen*  
+  Published: `2026-11-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.32245v1) · [pdf](https://arxiv.org/pdf/2611.32245v1) · id: `2611.32245v1`
 - **LeadVLA: Learning Follower-Aware Route Execution for Robot Leading**  
   *Tianle Zeng, Hanjing Ye, Bingyi Xia, Yuchen Zhou, Zibo Zhang, Yufei Huang, Yonggen Ling, Hong Zhang*  
   Published: `2026-11-23` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.30149v1) · [pdf](https://arxiv.org/pdf/2611.30149v1) · id: `2611.30149v1`

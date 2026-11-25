@@ -22331,6 +22331,94 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.28720v1",
       "abs_url": "http://arxiv.org/abs/2611.28720v1"
+    },
+    "2611.32447v1": {
+      "arxiv_id": "2611.32447v1",
+      "title": "ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction",
+      "authors": [
+        "Zhenhao Wang",
+        "Shaofeng Liang",
+        "Jiemin Wu",
+        "Sijia Chen",
+        "Keni Shi",
+        "Nan Li",
+        "Wenshuo Chen",
+        "Bowen Tian",
+        "Runwei Guan",
+        "Yutao Yue"
+      ],
+      "summary": "Pedestrian forecasting from ego-view observations is challenging because occlusion, limited visibility, and tracking errors corrupt observed motion histories. Such errors are particularly consequential for autonomous robot navigation. Existing paradigms typically either impute noisy history positions before forecasting or jointly train an auxiliary history reconstruction branch. However, predictors trained on clean histories may be sensitive to residual errors in recovered histories at deployment. Meanwhile, auxiliary reconstruction still computes inter-agent interactions over raw, corrupted coordinates. We investigate conditioning future prediction on both recovered historical states and raw observation evidence, with progressive training to accommodate imperfect recovery. Building on this insight, we propose ObsBridge, a flow-based trajectory forecasting framework with observation-grounded historical bridging. Specifically, ObsBridge first employs a frozen estimator to recover historical motion from agent-relative and ego-relative positions, image-plane locations, and visibility states. During training, we introduce an agent-wise curriculum that gradually replaces clean teacher histories with complete estimated histories before context encoding. This progressively exposes the predictor to estimated histories during training. Furthermore, we design a residual geometry adapter to fuse the encoded motion with original observation evidence. We aggregate the resulting representations through social attention to condition the flow-based trajectory generator. Extensive experiments across multiple benchmarks demonstrate that ObsBridge outperforms state-of-the-art methods. On EgoTraj-TBD, it reduces minADE@20 by 6.5\\% and minFDE@20 by 8.7\\%. The code will be provided at https://github.com/shawnliang420/ObsBridge.",
+      "published_utc": "2026-11-24T11:43:53Z",
+      "updated_utc": "2026-11-24T11:43:53Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.32447v1",
+      "abs_url": "http://arxiv.org/abs/2611.32447v1"
+    },
+    "2611.32245v1": {
+      "arxiv_id": "2611.32245v1",
+      "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+      "authors": [
+        "Jiajie Zhang",
+        "Yankai Xiang",
+        "Changhao Chen"
+      ],
+      "summary": "Composing frozen Vision-Language-Action (VLA) skills under an agentic planner promises scalable long-horizon manipulation without long-horizon demonstrations, yet strong atomic skills routinely fail at seams even under a correct plan. Standard remedies reset the robot's pose or draft entry conditions in language, missing the physical cause we uncover via causal interventions: even after re-homing, a frozen VLA rigidly retraces its habitual trajectory and collides with displaced scene residue, whether or not it can see it. We propose the Skill Envelope, a policy-measured 3D geometric precondition capturing the volume a frozen skill sweeps during successful executions. Exploiting the insight that the rigidity making a frozen skill fragile at seams also makes its trajectory predictable in advance, we expose each envelope as two classical 3D tools (CHECK to detect blocking residue and FREE to locate safe placement regions), establishing a division of labor where VLAs execute in-distribution manipulation and code repairs out-of-distribution states. On LIBERO-Goal with frozen $π_{0.5}$, our zero-failure envelope predicts collisions at 0.946 AUROC (0.944 from one RGB-D view) and beats frontier VLMs on seam readiness (0.902 vs. 0.793); using it for skill ordering and code repair lifts success from 82.8% to 92.3% on two-step seams and from 29.7% to 93.8% on drawer-bearing 3-4 step chains, matching privileged world reset. Together, these results show that reliable VLA composition hinges on measuring a policy's physical workspace rather than guessing preconditions in language. Ongoing work closes the loop with autonomous LLM orchestration, synthesized free-object recovery, and cross-policy evaluation on cluttered benchmarks and real hardware.",
+      "published_utc": "2026-11-24T09:21:57Z",
+      "updated_utc": "2026-11-24T09:21:57Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.32245v1",
+      "abs_url": "http://arxiv.org/abs/2611.32245v1"
+    },
+    "2611.32337v1": {
+      "arxiv_id": "2611.32337v1",
+      "title": "Get the Next Moment Right: Short-Term Event Planning for Physically Plausible Video Generation",
+      "authors": [
+        "Hao Liu",
+        "Xiang Tang",
+        "Ruotong Li",
+        "Xiaopeng Fan",
+        "Yujiu Yang"
+      ],
+      "summary": "Video generation models synthesize realistic imagery yet still struggle to produce physically plausible evolution. Existing methods guide generation with a motion trajectory predicted for the entire clip in advance, so prediction errors accumulate and degrade later frames. We propose STEP(Short-Term Event Planning), a training-free closed-loop framework that guides generation one short clip at a time. Each round consists of four steps: grounding measures the scene state from the latest frames, event planning predicts the next physical event and renders it into a control clip, latent-guided generation produces the next short clip under this control, and verification checks whether the event occurs and resamples the clip if it does not. Because each round is grounded in the frames actually generated, control relies only on reliable short-range predictions. STEP improves the physical plausibility of three frozen generators on Physics-IQ Verified and PhyGenBench, and can be applied to new generators without training.",
+      "published_utc": "2026-11-24T10:21:34Z",
+      "updated_utc": "2026-11-24T10:21:34Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.32337v1",
+      "abs_url": "http://arxiv.org/abs/2611.32337v1"
+    },
+    "2611.32198v1": {
+      "arxiv_id": "2611.32198v1",
+      "title": "MoGe-4D: Efficient, Flexible, and Unified Dense 4D Reconstruction and Tracking",
+      "authors": [
+        "Ruicheng Wang",
+        "Linlin Xin",
+        "Sicheng Xu",
+        "Jianfeng Xiang",
+        "Zelong Lv",
+        "Yu Deng",
+        "Yue Dong",
+        "Guangzhong Sun",
+        "Tong Zhang",
+        "Jiaolong Yang"
+      ],
+      "summary": "Reconstructing dynamic scenes from RGB video requires reasoning about both 3D geometry and motion across viewpoints, yet existing methods either split reconstruction and tracking into fragmented pipelines or face prohibitive dense spatiotemporal decoding costs. We introduce MoGe-4D, a feed-forward framework that unifies geometry and motion prediction via ordered queries of paired allocentric and egocentric dynamic point maps. Each query maps source pixels to a target time simultaneously in both camera frames, resolving relative camera pose in closed form while flexibly serving depth, dynamic registration, and dense 3D tracking. For efficient dense querying, MoGe-4D decouples scene modeling from query decoding: a high-capacity context encoder caches coarse global spatiotemporal features once, while a lightweight query encoder rapidly decodes dense point maps at flexible resolutions. Furthermore, as supervising dense 4D queries demands continuous 3D correspondences whose raw trajectory storage is prohibitive, we introduce RigIDTrack, a synthetic data pipeline and dataset that compresses surface dynamics into rigidity-regularized affine bodies, recovering exact arbitrary-frame 3D trajectories with $\\sim15\\%$ storage overhead over RGB-D video. Across diverse benchmarks, MoGe-4D achieves state-of-the-art dense 3D tracking, matches dedicated 3D foundation models in reconstruction, and runs substantially faster than prior 4D baselines.",
+      "published_utc": "2026-11-24T08:45:41Z",
+      "updated_utc": "2026-11-24T08:45:41Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.32198v1",
+      "abs_url": "http://arxiv.org/abs/2611.32198v1"
     }
   },
   "topics": {
@@ -22510,9 +22598,10 @@
         "2611.23198v1",
         "2611.26390v1",
         "2611.29008v1",
-        "2604.07126v4"
+        "2604.07126v4",
+        "2611.32447v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "cyclist_micromobility_prediction": {
       "name": "Cyclist & Micromobility Prediction",
@@ -22902,9 +22991,10 @@
         "2611.26390v1",
         "2611.27344v1",
         "2610.39278v3",
-        "2611.28128v1"
+        "2611.28128v1",
+        "2611.32447v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -23350,9 +23440,10 @@
         "2611.15781v1",
         "2611.20574v1",
         "2611.29609v1",
-        "2611.28175v1"
+        "2611.28175v1",
+        "2611.32245v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -23665,9 +23756,13 @@
         "2611.31240v1",
         "2611.30149v1",
         "2611.28175v1",
-        "2610.11058v3"
+        "2610.11058v3",
+        "2611.32447v1",
+        "2611.32337v1",
+        "2611.32245v1",
+        "2611.32198v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -23902,9 +23997,10 @@
         "2611.29008v1",
         "2611.28720v1",
         "2611.28175v1",
-        "2611.28128v1"
+        "2611.28128v1",
+        "2611.32245v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "graph_transformer_diffusion": {
       "name": "Graph Transformer and Diffusion Models",
@@ -24125,9 +24221,10 @@
         "2611.16464v1",
         "2611.21268v1",
         "2611.28128v1",
-        "2610.11058v3"
+        "2610.11058v3",
+        "2611.32447v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
@@ -24576,9 +24673,10 @@
         "2511.11164v4",
         "2604.03463v2",
         "2611.23198v1",
-        "2604.07126v4"
+        "2604.07126v4",
+        "2611.32447v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     },
     "general_vru_prediction": {
       "name": "General VRU Prediction Broad Catch-All",
@@ -24746,9 +24844,10 @@
         "2611.23198v1",
         "2611.26390v1",
         "2611.29008v1",
-        "2604.07126v4"
+        "2604.07126v4",
+        "2611.32447v1"
       ],
-      "latest_update": "2026-11-24"
+      "latest_update": "2026-11-25"
     }
   }
 }
