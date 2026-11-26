@@ -1,11 +1,14 @@
 # Risk-aware Safety and Collision Prediction
 
-Updated: `2026-11-25` (timezone: `Europe/Athens`)
+Updated: `2026-11-26` (timezone: `Europe/Athens`)
 
-Total papers tracked: **296**
+Total papers tracked: **297**
 
 ---
 
+- **CriticalScenes: Scalable Photorealistic Critical-Scenario Generation for Closed-Loop Driving Adaptation**  
+  *Alexandros Theocharous, Holger Caesar, Ziqi Zhang*  
+  Published: `2026-11-24` · Category: `cs.CV` · [abs](http://arxiv.org/abs/2611.33255v1) · [pdf](https://arxiv.org/pdf/2611.33255v1) · id: `2611.33255v1`
 - **VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation**  
   *Jiajie Zhang, Yankai Xiang, Changhao Chen*  
   Published: `2026-11-24` · Category: `cs.RO` · [abs](http://arxiv.org/abs/2611.32245v1) · [pdf](https://arxiv.org/pdf/2611.32245v1) · id: `2611.32245v1`

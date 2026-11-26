@@ -1,6 +1,6 @@
 # General VRU Prediction Broad Catch-All
 
-Updated: `2026-11-25` (timezone: `Europe/Athens`)
+Updated: `2026-11-26` (timezone: `Europe/Athens`)
 
 Total papers tracked: **165**
 

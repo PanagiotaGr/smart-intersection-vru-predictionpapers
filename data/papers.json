@@ -22419,6 +22419,70 @@
       ],
       "pdf_url": "https://arxiv.org/pdf/2611.32198v1",
       "abs_url": "http://arxiv.org/abs/2611.32198v1"
+    },
+    "2611.34288v1": {
+      "arxiv_id": "2611.34288v1",
+      "title": "Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models",
+      "authors": [
+        "Guangyu Liu",
+        "Hanzhang Wang",
+        "Huijia Zhang",
+        "Hanbei Zhan",
+        "Linjie Hu",
+        "Bin Xiao",
+        "Xuan Zhou",
+        "Dong Zhang",
+        "Hanwei Liu"
+      ],
+      "summary": "Embodied world models aim to predict future interactions that are both visually realistic and physically consistent. Yet explicit 3D motion prediction alone does not guarantee that object structure and contact relationships are preserved. Beyond motion prediction, 3D representations provide an explicit state space for imposing structural and physical constraints. Building on this insight, we introduce RehearsalWorld, an editable robot world model driven by 3D Interaction Rehearsal (3DIR). Given an initial RGB-D observation and robot actions, Interaction-Consistent Rehearsal (ICR) uses a pretrained 3D point-flow model as a motion prior. It refines the predicted trajectories through response-aware object grouping, persistent grasp memory, and contact structure refiner, preserving scene stability, object structure, and grasp attachments. Rehearsal-Aligned Video Generation (RAVG) then uses geometric projections of the rehearsal as temporal conditioning. We fine-tune a video generator on projection-video pairs to synthesize realistic interaction videos. Thanks to the decoupling of physical response from visual synthesis, RehearsalWorld also supports independent editing of material properties and camera viewpoints. Compared with PointWorld on real DROID grasping sequences, RehearsalWorld reduces gripper-relative offset by approximately 79% to 84% across deformable, articulated, and rigid objects and lowers reference motion error. For video prediction, it achieves a PSNR of 23.92 dB and an FVD of 149.",
+      "published_utc": "2026-11-25T12:41:56Z",
+      "updated_utc": "2026-11-25T12:41:56Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.34288v1",
+      "abs_url": "http://arxiv.org/abs/2611.34288v1"
+    },
+    "2611.33255v1": {
+      "arxiv_id": "2611.33255v1",
+      "title": "CriticalScenes: Scalable Photorealistic Critical-Scenario Generation for Closed-Loop Driving Adaptation",
+      "authors": [
+        "Alexandros Theocharous",
+        "Holger Caesar",
+        "Ziqi Zhang"
+      ],
+      "summary": "Safety-critical interactions are rare in recorded driving data, leaving end-to-end driving planners with limited exposure to evasive behaviour during training. This lack of critical supervision can lead to unsafe behaviour and, in rare instances, collisions. To address this gap, we introduce CriticalScenes, a reconstruction-based framework that transforms ordinary recorded driving scenes into photorealistic safety-critical interactions with corresponding collision-avoidance supervision. Across 53 reconstructed source scenes, 979 of 1,060 attempted interactions yield feasible threat trajectories (92.4\\%), while the inserted threat actors remain detectable in more than 95\\% of non-occluded observations within 5--35\\,m. Experiments with two structurally different end-to-end planners show that the generated supervision improves critical-scenario planning, while closed-loop transfer varies across planner architectures. SparseDrive achieves a 46.5\\% relative reduction in collision rate on an independent photorealistic closed-loop benchmark, whereas UniAD shows only a modest closed-loop improvement despite substantial open-loop gains. The results further highlight the importance of closed-loop evaluation, as improvements in open-loop trajectory prediction do not necessarily translate into equivalent safety gains.",
+      "published_utc": "2026-11-24T17:07:06Z",
+      "updated_utc": "2026-11-24T17:07:06Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.33255v1",
+      "abs_url": "http://arxiv.org/abs/2611.33255v1"
+    },
+    "2611.33826v1": {
+      "arxiv_id": "2611.33826v1",
+      "title": "MotionODE: Enhancing Autoregressive Text-to-Motion Generation with Continuous-Depth Modeling",
+      "authors": [
+        "Zhaoxin Fan",
+        "Jian Yang",
+        "Kejian Wu",
+        "Zeming Liu",
+        "Wenjun Wu",
+        "Lili Wang"
+      ],
+      "summary": "Autoregressive text-to-motion generation requires local motion predictions to reconcile cross-temporal textual requirements with the available motion context. While existing methods primarily improve motion representations and generation order, the internal formation of conditioned motion representations remains less explored. We introduce MotionODE, a continuous-depth post-training framework that refines hidden-state evolution in pretrained autoregressive generators. MotionODE reinterprets selected Transformer residual branches as local vector fields and replaces their original updates with midpoint Runge--Kutta (RK2) integration, while preserving the motion representation and outer generation mechanism. To address the mismatch between pretrained update paths and newly introduced intermediate states, we propose mixed one-step/two-step RK2 post-training under motion-token supervision, with optional distillation and update-map constraints to preserve pretrained behavior. This minimally invasive framework supports both next-token and next-scale generation without training the generator from scratch. Extensive experiments on HumanML3D demonstrate consistent improvements in text--motion alignment across MoScale, BAMM and LMR, highlighting internal representation updates as a complementary direction for improving autoregressive motion generation.",
+      "published_utc": "2026-11-25T05:55:45Z",
+      "updated_utc": "2026-11-25T05:55:45Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.33826v1",
+      "abs_url": "http://arxiv.org/abs/2611.33826v1"
     }
   },
   "topics": {
@@ -22992,9 +23056,11 @@
         "2611.27344v1",
         "2610.39278v3",
         "2611.28128v1",
-        "2611.32447v1"
+        "2611.32447v1",
+        "2611.34288v1",
+        "2611.33255v1"
       ],
-      "latest_update": "2026-11-25"
+      "latest_update": "2026-11-26"
     },
     "intention_crossing_behavior": {
       "name": "Intention & Crossing Behavior",
@@ -23441,9 +23507,10 @@
         "2611.20574v1",
         "2611.29609v1",
         "2611.28175v1",
-        "2611.32245v1"
+        "2611.32245v1",
+        "2611.33255v1"
       ],
-      "latest_update": "2026-11-25"
+      "latest_update": "2026-11-26"
     },
     "scene_context_aware_prediction": {
       "name": "Scene and Context-aware Prediction",
@@ -23760,9 +23827,12 @@
         "2611.32447v1",
         "2611.32337v1",
         "2611.32245v1",
-        "2611.32198v1"
+        "2611.32198v1",
+        "2611.34288v1",
+        "2611.33826v1",
+        "2611.33255v1"
       ],
-      "latest_update": "2026-11-25"
+      "latest_update": "2026-11-26"
     },
     "probabilistic_uncertainty_forecasting": {
       "name": "Probabilistic and Uncertainty-aware Forecasting",
@@ -24222,9 +24292,10 @@
         "2611.21268v1",
         "2611.28128v1",
         "2610.11058v3",
-        "2611.32447v1"
+        "2611.32447v1",
+        "2611.33255v1"
       ],
-      "latest_update": "2026-11-25"
+      "latest_update": "2026-11-26"
     },
     "autonomous_driving_vru_forecasting": {
       "name": "Autonomous Driving Forecasting for VRUs",
