@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paper_id": "2611.32245v1",
+  "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+  "pdf_url": "https://arxiv.org/pdf/2611.32245v1",
+  "evidence_level": "title_and_abstract",
+  "source_file": null,
+  "claims": [],
+  "validation_errors": [],
+  "provenance_coverage": 0.0,
+  "eligible_for_numerical_synthesis": false
+}

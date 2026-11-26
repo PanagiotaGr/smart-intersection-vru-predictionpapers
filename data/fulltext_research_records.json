@@ -12696,6 +12696,54 @@
       "validation_errors": [],
       "provenance_coverage": 0.0,
       "eligible_for_numerical_synthesis": false
+    },
+    "2611.32198v1": {
+      "schema_version": 1,
+      "paper_id": "2611.32198v1",
+      "title": "MoGe-4D: Efficient, Flexible, and Unified Dense 4D Reconstruction and Tracking",
+      "pdf_url": "https://arxiv.org/pdf/2611.32198v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.32245v1": {
+      "schema_version": 1,
+      "paper_id": "2611.32245v1",
+      "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+      "pdf_url": "https://arxiv.org/pdf/2611.32245v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.32337v1": {
+      "schema_version": 1,
+      "paper_id": "2611.32337v1",
+      "title": "Get the Next Moment Right: Short-Term Event Planning for Physically Plausible Video Generation",
+      "pdf_url": "https://arxiv.org/pdf/2611.32337v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
+    },
+    "2611.32447v1": {
+      "schema_version": 1,
+      "paper_id": "2611.32447v1",
+      "title": "ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction",
+      "pdf_url": "https://arxiv.org/pdf/2611.32447v1",
+      "evidence_level": "title_and_abstract",
+      "source_file": null,
+      "claims": [],
+      "validation_errors": [],
+      "provenance_coverage": 0.0,
+      "eligible_for_numerical_synthesis": false
     }
   }
 }
